@@ -2,15 +2,19 @@
 # 
 #   Copyright (C) 2003,2004 Alastair McKinstry   <mckinstry@computer.org> 
 #   Released under the GNU Public License; see file COPYING for details
+#   
+#   $ Id: $
 
+# Expect these to be overriden by top-level Makefile
 PREFIX=/usr
+VERSION=CVS
 
 MO_FILES = $(patsubst %.po,%.mo, $(wildcard *.po))
 TARGETS=$(patsubst %,${INSTALL_DIR}/%, ${MO_FILES})
 INSTALL=install -m 644
 MKDIR_P=mkdir -p
 destdir=${PREFIX}/share/locale
-SHAREDIR=$(PREFIX)/share/iso-codes
+XMLDIR=${PREFIX}/xml/iso-codes
 
 
 all: ${MO_FILES}
@@ -22,17 +26,15 @@ install: all
 		${MKDIR_P} $$dir ; \
 		${INSTALL} $$d $$dir/iso_3166_2.mo ; \
 	done
-	$(INSTALL) iso_3166_2.tab $(SHAREDIR)/iso_3166_2.tab
-	$(INSTALL) iso_3166_2.xml $(SHAREDIR)/iso_3166_2.xml
+	${MKDIR_P} ${XMLDIR}
+	$(INSTALL) iso_3166_2.xml $(XMLDIR)/iso_3166_2.xml
 
-iso_3166_2.h: iso_3166_2.tab
-	../../tab2h.pl 1 2 iso_3166_2.tab > iso_3166_2.h
 
-${MO_FILES}: iso_3166_2.h
+${MO_FILES}: iso_3166_2.pot
 
-%.pot: %.h
-	xgettext --extract-all --add-comments --no-location  \
-	 --from-code=UTF-8  --output $@ $<
+iso_3166_2.pot: iso_3166_2.xml
+	../../iso2pot.py --is-version ${VERSION} --comment name \
+		--fields name $< $@
 
 %.mo: %.po
 	msgfmt --verbose --check $< -o $@

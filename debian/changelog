@@ -1,4 +1,4 @@
-iso-codes (0.34-2) UNRELEASED; urgency=low
+iso-codes (0.35-1) unstable; urgency=low
 
   * iso_3166:
     - es.po: Updated (fuzzies removed) by Christian Perrier
@@ -9,7 +9,12 @@ iso-codes (0.34-2) UNRELEASED; urgency=low
   * iso_4217:
     - tr.po: Updated by Nilgün Belma Bugüner.
   * debian/control:
-    - Add Build dependency on python-xml for build script.
+    - Add Build dependency on python-xml for build script. Closes: #254613.
+  * iso_*.xml:
+    - Install XML files in /usr/share/xml/iso-codes
+    - Build POT files from XML files instead.
+  * No longer ship iso_639.tab, iso_4217.tab; iso_3166.tab deprecated in
+    favour of iso_3166.xml.
 
  -- Alastair McKinstry <mckinstry@debian.org>  Tue, 15 Jun 2004 09:03:49 +0200
 
