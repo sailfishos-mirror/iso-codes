@@ -1,10 +1,15 @@
 iso-codes (0.41-1) UNRELEASED; urgency=low
 
+  * Acknowledging NMU; Thanks Christian.
+    Closes: #268866, #271629, #272828.
   * iso_3166
     - ca.po: Updated by Jordi Mallach
     - fi.po: Updated by Tapio Lehtonen
+  * iso_639
+    - Changed Spanish language name to remove "Castilian".
+      Thanks to Carlos Perelló Marín; Closes: #274824.
 
- -- Christian Perrier <bubulle@kheops.frmug.org>  Fri,  1 Oct 2004 09:30:23 +0200
+ -- Alastair McKinstry <mckinstry@debian.org>  Thu,  7 Oct 2004 08:03:59 +0100
 
 iso-codes (0.41-0.1) unstable; urgency=low
 
