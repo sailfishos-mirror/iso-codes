@@ -5,7 +5,7 @@
 # These may be overridden by values from debian/rules, etc.
 PREFIX=/usr
 PREFIX_QUOTED=\/usr
-VERSION=0.21
+VERSION=0.35
 
 DOMAINS=iso_3166 iso_639 iso_4217 iso_3166_1 iso_3166_2 iso_3166_3
 
