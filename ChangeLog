@@ -1,3 +1,102 @@
+0.36 Alastair McKinstry <mckinstry@debian.org>
+
+  * iso_3166
+    - pt_BR.po: update by Andre Luis Lopes. Closes: #255146
+    - zh_CN.po: update by Carlos Z.F. Liu. Closes: #255998.
+    - hu.po: update by  VERÓK István.
+    - id.po: updated by  Arief S Fitrianto.
+    - af.po: updated from icu.
+    - uk.po: Updated by Eugeniy Meshcheryakov.
+  * iso_4217
+    - cs.po: Updated by Miroslav Kure.
+    - da.po: Updated by Claus Hindsgaul.
+    - uk.po: Updated by Eugeniy Meshcheryakov.
+  * iso_639
+    - cs.po: Updated by Miroslav Kure.
+    - nl.po: Updated by Elros Cyriatan.
+  * iso_3166_2
+    - nl.po: Updated Dutch translation by Elros Cyriatan.
+  * Remove a VIM swapfile from a Korean translation. Closes: #255075
+  * Fix broken XML in iso_3166_2.xml ; add accents to some entries.
+    Closes: #255506.
+
+0.35-2 Alastair McKinstry <mckinstry@debian.org>
+3
+  * iso_4217
+    - update PO files
+    - fr.po: update by Christian Perrier
+    - da.po: update by Claus Hindsgaul
+  * Restore iso_639.tab as it is needed for countrychooser.
+
+
+0.35 Alastair McKinstry <mckinstry@debian.org>
+
+  * iso_3166:
+    - es.po: Updated (fuzzies removed) by Christian Perrier
+    - ko.po: Updated by Changwoo Ryu. Closes: #252200
+    - bs.po: Updated by Safir Secerovic
+    - pt.po: Updated by Miguel Figueiredo
+    - nl.po: Fix encoding problem for "Reunion". Closes: #254505
+  * iso_4217:
+    - tr.po: Updated by Nilgün Belma Bugüner.
+  * debian/control:
+    - Add Build dependency on python-xml for build script. Closes: #254613.
+  * iso_*.xml:
+    - Install XML files in /usr/share/xml/iso-codes
+    - Build POT files from XML files instead.
+  * No longer ship iso_639.tab, iso_4217.tab; iso_3166.tab deprecated in
+    favour of iso_3166.xml.
+
+ -- Alastair McKinstry <mckinstry@debian.org>  Tue, 15 Jun 2004 09:03:49 +0200
+
+0.34 Alastair McKinstry <mckinstry@debian.org>
+
+
+  * iso_3166.tab: Now generated from iso_3166.xml.
+     Lists short names from XML. If a 'common_name' element exists,
+     use it instead.
+  * Now depend on python. Closes: #251329.
+  * iso_3166.xml: Add 'common_name' element for Taiwan.
+  * iso_3166.pot: Now generated from iso_3166.xml
+  * iso_3166.xml: Correct some short names as per standard;
+  * iso_3166/*po: Include all elements in iso_3166.xml
+  * iso_3166.xml: 'offical_name' -> 'official_name'. Closes: #249520.
+  * iso_3166:
+    - uk.po: Updated by Eugeniy Meshcheryakov.
+    - ru.po: Updated by Nikolai Prokoschenko. Closes: #250495.
+    - sk.po: Updated by  Peter KLFMANiK Mann. Closes: #251021.
+    - it.po: Updated by Danilo Piazzalunga. Closes: #250777
+    - fi.po: Updated by Tapio Lehtonen. Closes: #250739
+    - el.po: Updated by Konstantinos Margaritis
+    - de.po: Updated by Dennis Stampfer
+    - eu.po: Updated by Piarres Beobide Egaña. Closes: #252058
+    - lt.po: Updated by Kęstutis Biliūnas.
+  * iso_3166_1:
+    - lt.po: Updated by Kęstutis Biliūnas.
+  * iso_3166_2:
+    - nl.po: Updated by Elros Cyriatan.
+  * iso_3166_3:
+    - lt.po: Updated by Kęstutis Biliūnas.
+  * iso_4217:
+    - lt.po: New, added by Kęstutis Biliūnas.
+
+ -- Alastair McKinstry <mckinstry@debian.org>  Thur, 10 Jun 2004 10:32:47 +0100
+
+0.33 Alastair McKinstry <mckinstry@debian.org>
+
+  * iso_3166:
+    - sq.po: Updated Albanian translation by Elian Myftiu.
+    - zh_CN.po: Updated by Carlos Z.F. Liu.  Closes: #247290.
+    - nn.po/nb.po: Updated by Karl Ove Hufthammer. Closes: #248932
+    - iso_3166.xml: Correct some short-version names.
+  * iso_3166_1:
+    - uk.po: Updated by Eugeniy Meshcheryakov.
+    - ja.po: Updated by Kenshi Muto.
+  * iso_639:
+    - ja.po: Updated by Kenshi Muto.
+  * Add iso2pot.py, iso2tab.py to convert XML data file to .pot files,
+    tab files (not yet used).
+
 0.31 Alastair McKinstry <mckinstry@debian.org>
 
 	* all *.po: Add name to Report-Msgid-Bugs-To: field.
