@@ -32,7 +32,7 @@ install: all iso_3166.tab
 	for d in ${SUBDIRS} ; do ${MAKE} -C $$d install ; done
 
 iso_3166.tab: iso_3166.xml
-	./iso3166tab.py | sort > iso_3166.tab
+	./iso3166tab.py iso_3166.xml | sort > iso_3166.tab
 
 iso_3166.pot: iso_3166.xml
 	../iso2pot.py --is-version $(VERSION) --comments alpha_3_code \
