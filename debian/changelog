@@ -3,6 +3,7 @@ iso-codes (0.34-1) UNRELEASED; urgency=low
   * iso_3166.tab: Now generated from iso_3166.xml.
      Lists short names from XML. If a 'common_name' element exists,
      use it instead.
+  * Now depend on python. Closes: #251329.
   * iso_3166.xml: Add 'common_name' element for Taiwan.
   * iso_3166.pot: Now generated from iso_3166.xml
   * iso_3166.xml: Correct some short names as per standard;
