@@ -1,5 +1,7 @@
-iso-codes (0.41-1) UNRELEASED; urgency=low
+iso-codes (0.41-0.1) unstable; urgency=low
 
+  * NMU with maintainer consent. Needed for a Debian Installer issue
+    (name of Macedonia)
   * iso_3166
     - hr.po: Update Croatian by Krunoslav Gernhard
     - nn.po: Update Norwegian Bokmal and Nynorsk by Havard Korsvoll. Closes: #268866
@@ -7,9 +9,15 @@ iso-codes (0.41-1) UNRELEASED; urgency=low
     - pl.po: Updated Polish translation by Tomasz Z. Napierala.
       Closes: #271629.
     - fr.po: Updated minor case errors
+    - Temporary fix for the issue of the short name for MKD
+      Use "Macedonia, Republic of" as the less worse compromise
+      Complete translations unfuzzied with the help of D-I translators
+      Closes: #272828
   * iso_3166_2
     - da.po updated by Claus Hindsgaul
     - ca.po updated by Orestes Mas i Casals
+  * iso_3166_3
+    - fr.po updated by Christian Perrier
   * iso_4217
     - da.po updated by Claus Hindsgaul
   * iso_639
@@ -17,7 +25,7 @@ iso-codes (0.41-1) UNRELEASED; urgency=low
     - fr.po updated by Christian Perrier
     - fa.po updated by Roozbeh Pournader.
 
- -- Alastair McKinstry <mckinstry@debian.org>  Sun, 26 Sep 2004 08:44:49 +0100
+ -- Christian Perrier <bubulle@debian.org>  Mon, 27 Sep 2004 23:30:51 +0200
 
 iso-codes (0.40-1) unstable; urgency=low
 
