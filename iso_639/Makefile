@@ -19,6 +19,7 @@ all: iso_639.pot ${MO_FILES}
 install: ${HEADER_FILES} ${MO_FILES}
 	${MKDIR_P} ${SHAREDIR}
 	${INSTALL} iso_639.tab ${SHAREDIR}/iso_639.tab
+	${INSTALL} iso_639.xml ${SHAREDIR}/iso_639.xml
 	for d in ${MO_FILES} ; do \
 		lang=`basename $$d | sed 's/.mo$$//'` ; \
 		dir=${destdir}/$$lang/LC_MESSAGES ; \
