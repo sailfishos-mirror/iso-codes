@@ -1,3 +1,35 @@
+0.29 Alastair McKinstry <mckinstry@debian.org>
+
+	* iso_639: Add all recent changes to ISO-639 standard.
+	* iso_3166.xml, iso_639.xml, iso_3166_2.xml, iso_4217.xml:
+	   Ensure XML files provided are valid XML.
+	* iso_3166/uk.po, iso_3166/iso_3166_1/uk.po, iso_4217/uk.po,
+	  iso_639/uk.po: Updated by Eugeniy Meshcheryakov.
+	* iso_3166/nl.po: Update by Bas Zoetekouw.
+	* iso_3166/hu.po: Update by VEROK Istvan.
+	* iso_3166, iso_639/ja.po: Update by Kenshi Muto.
+	* iso_3166/fr.po: merge iso_3166 translations into iso_3166_1;
+	  iso_3166_2.tab:  complete and update regions for France. 
+	  Added POT files for iso_3166, iso_639 and iso_4217 directories
+          Not removed anymore when "make clean"
+	    - Christian Perrier
+	* iso_3166/cs.po, iso_3166/iso_3166_1/cs.po: Update by 
+	  Miroslav Kure
+	* iso_3166/id.po: Update by Arief S Fitrianto.	
+        * Javier Fernandez Sanguino-Pena
+          - updated iso_3166/es.po
+        * Konstantinos Margaritis
+          - updated iso_3166/el.po
+          - another update to iso_3166/el.po and iso_639/el.po
+        * Frans Pop
+          - updated iso_3166/nl.po
+        * Kęstutis Biliūnas
+          - updated iso_3166/lt.po
+          - updated iso_3166_1/lt.po
+          - updated iso_639/lt.po
+        * Miguel Figueiredo
+          - updated iso_3166/pt.po. Closes: #241330
+	
 0.28 Alastair McKinstry <mckinstry@computer.org>
 
 	* iso_639/fr.po: update (wrong case for dutch) by Christian Perrier.
