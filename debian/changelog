@@ -5,8 +5,11 @@ iso-codes (0.44-2) UNRELEASED; urgency=low
     - Galician completed by Jacobo Tarrio. Closes: #296301
   * iso_639
     - Galician updated by Jacobo Tarrio. Closes: #296301
+  * ./debian/rules clean runs $(MAKE) distclean.
+  * Build iso_639.tab from iso_639.xml to include corrections. 
+    Closes: #297661.
 
- -- Alastair McKinstry <mckinstry@debian.org>  Mon,  7 Feb 2005 18:50:58 +0000
+ -- Alastair McKinstry <mckinstry@debian.org>  Wed,  2 Mar 2005 07:16:56 +0000
 
 iso-codes (0.44-1) unstable; urgency=low
 

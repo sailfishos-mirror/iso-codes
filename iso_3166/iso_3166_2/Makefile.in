@@ -241,7 +241,7 @@ uninstall-am: uninstall-info-am uninstall-xmlDATA
 
 
 iso_3166_2.pot: iso_3166_2.xml
-	../../iso2pot.py --is-version ${VERSION} --comment name \
+	../../iso2pot.py --is-version ${VERSION} --comment code \
 		--fields name $< $@
 
 %.mo: %.po

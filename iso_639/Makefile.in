@@ -207,7 +207,7 @@ mostlyclean-generic:
 clean-generic:
 
 distclean-generic:
-	-rm -f Makefile $(CONFIG_CLEAN_FILES)
+	-rm -f Makefile $(CONFIG_CLEAN_FILES) iso_639.tab
 
 maintainer-clean-generic:
 	@echo "This command is intended for maintainers to use"
@@ -262,6 +262,10 @@ uninstall-am: uninstall-info-am uninstall-tabDATA uninstall-xmlDATA
 	uninstall uninstall-am uninstall-info-am uninstall-tabDATA \
 	uninstall-xmlDATA
 
+iso_639.tab: iso_639.xml
+	./iso639tab.py $< > iso_639.tab.new
+	LC_ALL=C < iso_639.tab.new > iso_639.tab
+	rm -f iso_639.tab.new
 
 %.pot: %.xml
 	$(top_srcdir)/iso2pot.py --is-version $(VERSION) --comments iso_639_2T_code \
