@@ -11,12 +11,14 @@ iso-codes (0.40-1) UNRELEASED; urgency=low
   * iso_639
     - rename ven.po to ve.po
     - ru.po updated by Nikolai Prokoschenko
+    - iso_639.xml: Fixes. Closes: #265669.
   * iso_4217
     - ru.po updated by Nikolai Prokoschenko
-  * Changed section from 'libs' to 'misc' to avoid being deleted by 
+  * Changed section from 'libs' to 'misc' to avoid being deleted by
     deborphan. Closes: #265933.
+  * 
 
- -- Alastair McKinstry <mckinstry@debian.org>  Thu, 26 Aug 2004 16:58:56 +0100
+ -- Alastair McKinstry <mckinstry@debian.org>  Fri, 27 Aug 2004 12:15:33 +0100
 
 iso-codes (0.39-1) unstable; urgency=low
 
