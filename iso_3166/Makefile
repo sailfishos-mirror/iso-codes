@@ -12,6 +12,7 @@ INSTALL=install -m 644
 MKDIR_P=mkdir -p
 destdir=${PREFIX}/share/locale
 SHAREDIR=${PREFIX}/share/iso-codes
+XMLDIR=${PREFIX}/share/xml/iso-codes
 SUBDIRS=iso_3166_2 
 
 all: iso_3166.pot ${MO_FILES}
@@ -19,8 +20,9 @@ all: iso_3166.pot ${MO_FILES}
 
 install: all iso_3166.tab
 	${MKDIR_P} ${SHAREDIR}
-	cp iso_3166.tab ${SHAREDIR}
-	cp iso_3166.xml ${SHAREDIR}
+	${MKDIR_P} ${XMLDIR}
+	${INSTALL} iso_3166.tab ${SHAREDIR}
+	${INSTALL} iso_3166.xml ${XMLDIR}
 	for d in ${MO_FILES} ; do \
 		lang=`basename $$d | sed 's/.mo$$//' ` ; \
 		dir=${destdir}/$$lang/LC_MESSAGES ; \
