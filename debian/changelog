@@ -5,11 +5,14 @@ iso-codes (0.41-1) UNRELEASED; urgency=low
   * iso_3166
     - ca.po: Updated by Jordi Mallach
     - fi.po: Updated by Tapio Lehtonen
+    - mk.po: Updated by Georgi Stanojevski
   * iso_639
     - Changed Spanish language name to remove "Castilian".
       Thanks to Carlos Perelló Marín; Closes: #274824.
+    - Removed obsolete entries in PO files as they are likely to confuse
+      gettext utilities because of duplicate entries
 
- -- Alastair McKinstry <mckinstry@debian.org>  Thu,  7 Oct 2004 08:03:59 +0100
+ -- Christian Perrier <bubulle@debian.org>  Sun, 10 Oct 2004 09:17:09 +0200
 
 iso-codes (0.41-0.1) unstable; urgency=low
 
