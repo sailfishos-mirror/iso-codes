@@ -1,9 +1,10 @@
-# Makefile to build ISO_3166 translation files
+# mAKEFILE to build ISO_3166 translation files
 # 
 #   Copyright (C) 2003,2004 Alastair McKinstry   <mckinstry@computer.org> 
 #   Released under the GNU Public License; see file COPYING for details
 
 PREFIX=/usr
+VERSION=CVS
 
 MO_FILES = $(patsubst %.po,%.mo, $(wildcard *.po))
 TARGETS=$(patsubst %,${INSTALL_DIR}/%, ${MO_FILES})
@@ -11,8 +12,7 @@ INSTALL=install -m 644
 MKDIR_P=mkdir -p
 destdir=${PREFIX}/share/locale
 SHAREDIR=${PREFIX}/share/iso-codes
-SUBDIRS=iso_3166_1 iso_3166_2 iso_3166_3
-VERSION=CVS
+SUBDIRS=iso_3166_2 
 
 all: iso_3166.pot ${MO_FILES}
 	for d in ${SUBDIRS} ; do ${MAKE} -C $$d all ; done
