@@ -56,7 +56,7 @@
 		alpha_2_code="AQ"
 		alpha_3_code="ATA"
 		numeric_code="010"
-		name="Antartica" />
+		name="Antarctica" />
 	<iso_3166_entry
 		alpha_2_code="AG"
 		alpha_3_code="ATG"
@@ -286,7 +286,8 @@
 		alpha_2_code="CG"
 		alpha_3_code="COG"
 		numeric_code="178"
-		name="Republic of the Congo" />
+		name="Congo"
+		official_name="Republic of the Congo" />
 	<iso_3166_entry
 		alpha_2_code="CD"
 		alpha_3_code="ZAR"
@@ -483,7 +484,8 @@
 		alpha_2_code="GR"
 		alpha_3_code="GRC"
 		numeric_code="300"
-		name="Hellenic Republic" />
+		name="Greece"
+		official_name="Hellenic Republic" />
 	<iso_3166_entry
 		alpha_2_code="GL"
 		alpha_3_code="GRL"
@@ -874,7 +876,7 @@
 		alpha_2_code="AN"
 		alpha_3_code="ANT"
 		numeric_code="530"
-		name="Netherland Antilles" />
+		name="Netherlands Antilles" />
 	<iso_3166_entry
 		alpha_2_code="NC"
 		alpha_3_code="NCL"
@@ -1128,7 +1130,8 @@
 		alpha_2_code="ZA"
 		alpha_3_code="ZAF"
 		numeric_code="710"
-		name="Republic of South Africa" />
+		name="South Africa"
+		official_name="Republic of South Africa" />
 	<iso_3166_entry
 		alpha_2_code="GS"
 		alpha_3_code="SGS"
@@ -1144,7 +1147,7 @@
 		alpha_2_code="LK"
 		alpha_3_code="LKA"
 		numeric_code="144"
-		namme="Sri Lanka"
+		name="Sri Lanka"
 		offical_name="Democratic Socialist Republic of Sri Lanka" />
 	<iso_3166_entry
 		alpha_2_code="SD"
@@ -1185,8 +1188,7 @@
 		alpha_2_code="SY"
 		alpha_3_code="SYR"
 		numeric_code="760"
-		name="Syria"
-		offical_name="Syrian Arab Republic" />
+		name="Syrian Arab Republic" />
 	<iso_3166_entry
 		alpha_2_code="TW"
 		alpha_3_code="TWN"
@@ -1324,11 +1326,13 @@
 		numeric_code="704"
 		name="Viet Nam"
 		offical_name="Socialist Republic of Viet Nam" />
+	<!-- FIXME CHECK OFFICIAL NAME -->
 	<iso_3166_entry
 		alpha_2_code="VG"
 		alpha_3_code="VGB"
 		numeric_code="092"
-		name="British Virgin Islands" />
+		name="Virgin Islands, British"
+		official_name="British Virgin Islands" />
 	<iso_3166_entry
 		alpha_2_code="VI"
 		alpha_3_code="VIR"
