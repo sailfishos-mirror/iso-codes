@@ -12,11 +12,12 @@ MKDIR_P=mkdir -p
 destdir=${PREFIX}/share/locale
 SHAREDIR=${PREFIX}/share/iso-codes
 SUBDIRS=iso_3166_1 iso_3166_2 iso_3166_3
+VERSION=CVS
 
 all: iso_3166.pot ${MO_FILES}
 	for d in ${SUBDIRS} ; do ${MAKE} -C $$d all ; done
 
-install: all
+install: all iso_3166.tab
 	${MKDIR_P} ${SHAREDIR}
 	cp iso_3166.tab ${SHAREDIR}
 	cp iso_3166.xml ${SHAREDIR}
@@ -28,8 +29,12 @@ install: all
 	done
 	for d in ${SUBDIRS} ; do ${MAKE} -C $$d install ; done
 
-iso_3166.tab:
+iso_3166.tab: iso_3166.xml
 	./iso3166tab.py | sort > iso_3166.tab
+
+iso_3166.pot: iso_3166.xml
+	../iso2pot.py --is-version $(VERSION) --comment alpha_3_code \
+		--fields name,official_name,common_name $< $@
 
 %.mo: %.po
 	msgfmt --verbose --check $< -o $@
