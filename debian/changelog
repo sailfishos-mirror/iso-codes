@@ -17,6 +17,11 @@ iso-codes (0.29-1) UNRELEASED; urgency=low
       this adds several correct translations when iso_3166 and iso_3166_1
       names are identical.
     - iso_3166/iso_3166_1/fr.po: update
+    - iso_3166/iso_3166_2/iso_3166_2.tab (and xml): complete and update regions for
+      France. Closes: #240025
+    - added entry for Klingon language in iso-639 list
+      Updated all PO files. Updated french translation
+      Closes: #239374
   * Miroslav Kure
     - iso_3166/cs.po: update
     - iso_3166/iso_3166_1/cs.po: update
@@ -26,12 +31,13 @@ iso-codes (0.29-1) UNRELEASED; urgency=low
     - iso_3166, iso_3166_3, iso_3166_2 updates. Closes: #239815
     - iso_4217/da.po update. Closes: #239883
     - iso_639/da.po udpate. Closes: #239891
+    - iso_3166_2/iso_3166_2 : update for Denmark region names. Closes: #239823
   * Javier Fernandez Sanguino-Pena
     - updated iso_3166/es.po
   * Konstantinos Margaritis
     - updated iso_3166/el.po
 
- -- Christian Perrier <bubulle@kheops.frmug.org>  Thu, 25 Mar 2004 09:19:06 +0100
+ -- Christian Perrier <bubulle@debian.org>  Sun, 28 Mar 2004 10:20:33 +0200
 
 iso-codes (0.28-1) unstable; urgency=low
 

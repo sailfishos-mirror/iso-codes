@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: iso-codes 0.1.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2004-03-13 21:33+0000\n"
+"POT-Creation-Date: 2004-03-28 10:21+0200\n"
 "PO-Revision-Date: 2001-09-15 19:57+0200\n"
 "Last-Translator: Vlatko Kosturjak <kost@iname.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
@@ -38,7 +38,7 @@ msgstr ""
 #. ##
 #. ## The sorting order is the same that is used in the standard.
 #. ##
-#. ## Up-to-date as of newsletter, 2003-09-05
+#. ## Up-to-date as of newsletter, 2004-03-08, Newsletter 6.
 #. #
 #. # ISO 3166-2 codes for the United Arab Emirates
 #. #
@@ -3491,19 +3491,22 @@ msgstr ""
 #. #
 #. #  Denmark appears to use counties ("Amtskommune") as ISO 3166 subregions,
 #. #  according to the ISO 3166-2 examples page.
-#. #  This list came from http://www2.dst.dk/internet/matriceb/html05/0173.HT
+#. #  This list came from http://www2.dst.dk/internet/matriceb/html05/0173.HTM
+#. #  Central Copenhagen and Frederiksberg have special status and are not part
+#. #  of an "Amtskommune". Thus they have separate entries.
 #. #
 #. 147
-msgid "Frederikaberg"
+msgid "Frederikaberg municipality"
 msgstr ""
 
 #. 101
-msgid "Xibenhavn"
+msgid "Copenhagen municipality"
 msgstr ""
 
 #. 015
-msgid "Kobenhavns"
-msgstr ""
+#, fuzzy
+msgid "Copenhagen"
+msgstr "Kompanija:"
 
 #. 020
 msgid "Frederiksborg"
@@ -3514,24 +3517,24 @@ msgid "Roskilde"
 msgstr ""
 
 #. 030
-msgid "Vestsjaellands"
-msgstr ""
+#, fuzzy
+msgid "Western Zealand"
+msgstr "Irska"
 
 #. 035
-msgid "Storstroms"
+#. 050
+msgid "Storstrøm"
 msgstr ""
 
 #. 040
-msgid "Bornholms"
-msgstr ""
+#, fuzzy
+msgid "Bornholm"
+msgstr "Kongo"
 
 #. 042
-msgid "Fyns"
-msgstr ""
-
-#. 050
-msgid "Sonderjyllands"
-msgstr ""
+#, fuzzy
+msgid "Funen"
+msgstr "Benin"
 
 #. 055
 msgid "Ribe"
@@ -3542,12 +3545,12 @@ msgid "Vejle"
 msgstr ""
 
 #. 065
-msgid "Ringkobing"
+msgid "Ringkøbing"
 msgstr ""
 
 #. 070
 #, fuzzy
-msgid "orhus"
+msgid "Aarhus"
 msgstr "Aruba"
 
 #. 076
@@ -3555,8 +3558,9 @@ msgid "Viborg"
 msgstr ""
 
 #. 080
-msgid "Nordjyllands"
-msgstr ""
+#, fuzzy
+msgid "Northern Jutland"
+msgstr "Irska"
 
 #. #
 #. # ISO 3166-2 codes for Districts and Provinces in
@@ -4609,7 +4613,7 @@ msgstr ""
 
 #. 07
 #, fuzzy
-msgid "Ardeche"
+msgid "Ardèche"
 msgstr "Grčka"
 
 #. 08
@@ -4617,8 +4621,9 @@ msgid "Ardennes"
 msgstr ""
 
 #. 09
-msgid "Ariege"
-msgstr ""
+#, fuzzy
+msgid "Ariège"
+msgstr "Argentina"
 
 #. 10
 #, fuzzy
@@ -4638,12 +4643,8 @@ msgstr ""
 msgid "Bas-Rhin"
 msgstr "Bahrain"
 
-#. 90
-msgid "Belfort, Territoire de"
-msgstr ""
-
 #. 13
-msgid "Bouches-du-Rhone"
+msgid "Bouches-du-Rhône"
 msgstr ""
 
 #. 14
@@ -4670,7 +4671,7 @@ msgid "Cher"
 msgstr "Čile"
 
 #. 19
-msgid "Correze"
+msgid "Corrèze"
 msgstr ""
 
 #. 20A
@@ -4679,12 +4680,13 @@ msgstr ""
 
 #. 21
 #, fuzzy
-msgid "Cote-d'Or"
+msgid "Côte-d'Or"
 msgstr "Cote d'Ivoire"
 
 #. 22
-msgid "Cotes-d'Armour"
-msgstr ""
+#, fuzzy
+msgid "Côtes-d'Armor"
+msgstr "Cote d'Ivoire"
 
 #. 23
 #, fuzzy
@@ -4692,7 +4694,7 @@ msgid "Creuse"
 msgstr "Cipar"
 
 #. 79
-msgid "Deux-Sevres"
+msgid "Deux-Sèvres"
 msgstr ""
 
 #. 24
@@ -4704,7 +4706,7 @@ msgid "Doubs"
 msgstr ""
 
 #. 26
-msgid "Drome"
+msgid "Drôme"
 msgstr ""
 
 #. 91
@@ -4720,7 +4722,7 @@ msgid "Eure-et-Loir"
 msgstr ""
 
 #. 29
-msgid "Finistere"
+msgid "Finistère"
 msgstr ""
 
 #. 30
@@ -4736,10 +4738,6 @@ msgstr ""
 msgid "Gironde"
 msgstr "Gvineja"
 
-#. 68
-msgid "Haut-Rhin"
-msgstr ""
-
 #. 20B
 msgid "Haute-Corse"
 msgstr ""
@@ -4752,24 +4750,32 @@ msgstr ""
 msgid "Haute-Loire"
 msgstr ""
 
-#. 70
-msgid "Haute-Saone"
-msgstr ""
-
-#. 74
-msgid "Haute-Savoie"
-msgstr ""
-
-#. 87
-msgid "Haute-Vienne"
+#. 52
+msgid "Haute-Marne"
 msgstr ""
 
 #. 05
 msgid "Hautes-Alpes"
 msgstr ""
 
+#. 70
+msgid "Haute-Saône"
+msgstr ""
+
+#. 74
+msgid "Haute-Savoie"
+msgstr ""
+
 #. 65
-msgid "Hautes-Pyrenees"
+msgid "Hautes-Pyrénées"
+msgstr ""
+
+#. 87
+msgid "Haute-Vienne"
+msgstr ""
+
+#. 68
+msgid "Haut-Rhin"
 msgstr ""
 
 #. 92
@@ -4777,8 +4783,9 @@ msgid "Hauts-de-Seine"
 msgstr ""
 
 #. 34
-msgid "Herault"
-msgstr ""
+#, fuzzy
+msgid "Hérault"
+msgstr "Haiti"
 
 #. 35
 #, fuzzy
@@ -4795,7 +4802,7 @@ msgstr ""
 
 #. 38
 #, fuzzy
-msgid "Isere"
+msgid "Isère"
 msgstr "Izrael"
 
 #. 40
@@ -4829,8 +4836,9 @@ msgid "Lot-et-Garonne"
 msgstr ""
 
 #. 48
-msgid "Lozere"
-msgstr ""
+#, fuzzy
+msgid "Lozère"
+msgstr "Lesotho"
 
 #. 49
 msgid "Maine-et-Loire"
@@ -4844,6 +4852,11 @@ msgstr "Odustani"
 #. 51
 msgid "Marne"
 msgstr ""
+
+#. 53
+#, fuzzy
+msgid "Mayenne"
+msgstr "Benin"
 
 #. 54
 msgid "Meurthe-et-Moselle"
@@ -4862,7 +4875,7 @@ msgid "Moselle"
 msgstr ""
 
 #. 58
-msgid "Nievre"
+msgid "Nièvre"
 msgstr ""
 
 #. 59
@@ -4889,24 +4902,25 @@ msgid "Pas-de-Calais"
 msgstr ""
 
 #. 63
-msgid "Puy-de-Dome"
+msgid "Puy-de-Dôme"
 msgstr ""
 
 #. 64
-msgid "Pyrenees-Atlantiques"
+msgid "Pyrénées-Atlantiques"
 msgstr ""
 
 #. 66
-msgid "Pyrenees-Orientales"
-msgstr ""
+#, fuzzy
+msgid "Pyrénées-Orientales"
+msgstr "Francuska"
 
 #. 69
 #, fuzzy
-msgid "Rhone"
+msgid "Rhône"
 msgstr "Telefon:"
 
 #. 71
-msgid "Saone-et-Loire"
+msgid "Saône-et-Loire"
 msgstr ""
 
 #. 72
@@ -4941,12 +4955,16 @@ msgstr ""
 msgid "Tarn-et-Garonne"
 msgstr ""
 
-#. 95
-msgid "Val d'Oise"
+#. 90
+msgid "Territoire de Belfort"
 msgstr ""
 
 #. 94
 msgid "Val-de-Marne"
+msgstr ""
+
+#. 95
+msgid "Val d'Oise"
 msgstr ""
 
 #. 83
@@ -4958,7 +4976,7 @@ msgid "Vaucluse"
 msgstr ""
 
 #. 85
-msgid "Vendee"
+msgid "Vendée"
 msgstr ""
 
 #. 86
@@ -4978,7 +4996,31 @@ msgstr "Nijedan"
 msgid "Yvelines"
 msgstr ""
 
-#. # British ISO 3166-2 Regions
+#. YT
+#, fuzzy
+msgid "Mayotte"
+msgstr "Malta"
+
+#. PM
+msgid "Saint-Pierre-et-Miquelon"
+msgstr ""
+
+#. NC
+msgid "Nouvelle-Calédonie"
+msgstr ""
+
+#. PF
+msgid "Polynésie française"
+msgstr ""
+
+#. TF
+msgid "Terres Australes Françaises"
+msgstr ""
+
+#. WF
+msgid "Wallis et Futuna"
+msgstr ""
+
 #. #
 #. ABE
 msgid "Aberdeen City"
