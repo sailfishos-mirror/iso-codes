@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: iso-codes 0.18\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2003-11-27 07:18+0000\n"
+"POT-Creation-Date: 2004-02-20 11:35+0000\n"
 "PO-Revision-Date: 2001-11-13 14:28GMT+0200\n"
 "Last-Translator: Vasif İsmayıloğlu MD <azerb_linux@hotmail.com>\n"
 "Language-Team: Azerbaijani Turkic <linuxaz@azerimail.net>\n"
@@ -19,208 +19,286 @@ msgstr ""
 
 # BQAQ
 # iso-3166-3.h:42
+#. # iso-3166-3.tab
+#. #
+#. # Code for formerly used names of countries
+#. #
+#. # Status: ISO 3166-3:1999 + newsletters (latest dated 2003-07-23)
+#. # Last update: 2004-02-17
+#. #
+#. # The ISO 3166 code for names of countries was first published in 1974.
+#. # In 1981 a Numeric code was added to the existing Alpha-2 and Alpha-3 codes.
+#. # The Numeric code identifies a physical territory while the Alpha-2 and
+#. # Alpha-3 codes identify a country name.
+#. # There were new editions of the ISO 3166 standard in 1981, 1988 and 1993.
+#. # The fifth and latest edition of the country code is ISO 3166-1:1997.
+#. # The ISO 3166-3 Code for formerly used names of countries was first
+#. # published in 1999.
+#. #
+#. # An entry from the ISO 3166-1 country code table may be withdrawn if
+#. # - a country changes a significant part of its name
+#. # - a country is divided into two or more new ones
+#. # - two or more countries merge
+#. # Codes withdrawn from use may not be reused for five years.
+#. #
+#. # The following ISO 3166-3 table has five tab-separated columns:
+#. # 1. Alpha-4 code (consisting of the former and the new Alpha-2 codes)
+#. # 2. Alpha-3 code
+#. # 3. Numeric code
+#. # 4. Date of withdrawal or change (YYYY-MM-DD)
+#. # 5. Country name
+#. #
+#. # The Alpha-4 code in the first column consists of the Alpha-2 code of the
+#. # withdrawn entry followed by the Alpha-2 code of the new entry.
+#. #
+#. # If there is no single new entry which replaces the withdrawn entry,
+#. # the letters 'HH' will be appended to the withdrawn Alpha-2 code.
+#. #
+#. # If the Alpha-2 code is unchanged (i.e. only the Numeric code or the
+#. # Alpha-3 code changed), the Alpha-2 code without any appended letters
+#. # will be shown in column 1.
+#. #
+#. # Code	Country name
+#. BQAQ
 #, fuzzy
 msgid "British Antarctic Territory"
 msgstr "Britaniya Hind Okeanı Sahəsi"
 
 # BUMM
 # iso-3166-3.h:44
+#. BUMM
 msgid "Burma, Socialist Republic of the Union of"
 msgstr ""
 
 # BYAA
 # iso-3166-3.h:46
+#. BYAA
 msgid "Byelorussian SSR Soviet Socialist Republic"
 msgstr ""
 
 # CTKI
 # iso-3166-3.h:48
+#. CTKI
 #, fuzzy
 msgid "Canton & Enderbury Islands"
 msgstr "Faro Adaları"
 
 # CSHH
 # iso-3166-3.h:50
+#. CSHH
 msgid "Czechoslovakia, Czechoslovak Socialist Republic"
 msgstr ""
 
 # DYBJ
 # iso-3166-3.h:52
+#. DYBJ
 #, fuzzy
 msgid "Dahomey"
 msgstr "Niu"
 
 # NQAQ
 # iso-3166-3.h:54
+#. NQAQ
 msgid "Dronning Maud Land"
 msgstr ""
 
 # TPTL
 # iso-3166-3.h:56
+#. TPTL
 msgid "East Timor (was Portuguese Timor)"
 msgstr ""
 
 # ET
 # iso-3166-3.h:58
+#. ET
 msgid "Ethiopia"
 msgstr "Efiopiya"
 
 # FX
 # iso-3166-3.h:60
+#. FXFR
 msgid "France, Metropolitan"
 msgstr ""
 
 # AIDJ
 # iso-3166-3.h:62
+#. AIDJ
 msgid "French Afars and Issas"
 msgstr ""
 
 # FQHH
 # iso-3166-3.h:64
+#. FQHH
 msgid "French Southern and Antarctic Territories (now split between AQ and TF)"
 msgstr ""
 
 # DDDE
 # iso-3166-3.h:66
+#. DDDE
 #, fuzzy
 msgid "German Democratic Republic"
 msgstr "Koreya, Demokratık Xalq Respublikası"
 
 # DE
 # iso-3166-3.h:68
+#. DE
 #, fuzzy
 msgid "Germany, Federal Republic of"
 msgstr "Koreya, Respublika"
 
 # GEHH
 # iso-3166-3.h:70
+#. GEHH
 msgid "Gilbert & Ellice Islands (now split into Kiribati and Tuvalu)"
 msgstr ""
 
 # JTUM
 # iso-3166-3.h:72
+#. JTUM
 #, fuzzy
 msgid "Johnston Island"
 msgstr "Rhod Adası"
 
 # MIUM
 # iso-3166-3.h:74
+#. MIUM
 #, fuzzy
 msgid "Midway Islands"
 msgstr "Kayman Adaları"
 
 # AN
 # iso-3166-3.h:76
+#. AN
 msgid "Netherlands Antilles"
 msgstr "Holland Antilləri"
 
 # NTHH
 # iso-3166-3.h:78
+#. NTHH
 msgid "Neutral Zone (formerly between Saudi Arabia & Iraq)"
 msgstr ""
 
 # NHVU
 # iso-3166-3.h:80
+#. NHVU
 #, fuzzy
 msgid "New Hebrides"
 msgstr "Yeni Cersi"
 
 # PCHH
 # iso-3166-3.h:82
+#. PCHH
 msgid "Pacific Islands (trust territory) (divided into FM, MH, MP, and PW)"
 msgstr ""
 
 # PA
 # iso-3166-3.h:84
+#. PA
 #, fuzzy
 msgid "Panama, Republic of"
 msgstr "Koreya, Respublika"
 
 # PZPA
 # iso-3166-3.h:86
+#. PZPA
 msgid "Panama Canal Zone"
 msgstr ""
 
 # RO
 # iso-3166-3.h:88
+#. RO
 #, fuzzy
 msgid "Romania, Socialist Republic of"
 msgstr "Tanzaniya, Birləşmiş Respublika"
 
 # KN
 # iso-3166-3.h:90
+#. KN
 msgid "St. Kitts-Nevis-Anguilla (now St. Kitts and Nevis and Anguilla)"
 msgstr ""
 
 # SKIN
 # iso-3166-3.h:92
+#. SKIN
 msgid "Sikkim"
 msgstr ""
 
 # RHZW
 # iso-3166-3.h:94
+#. RHZW
 #, fuzzy
 msgid "Southern Rhodesia"
 msgstr "Şimali Marian"
 
 # EH
 # iso-3166-3.h:96
+#. EH
 msgid "Spanish Sahara (now Western Sahara)"
 msgstr ""
 
 # PUUM
 # iso-3166-3.h:98
+#. PUUM
 msgid "US Miscellaneous Pacific Islands"
 msgstr ""
 
 # SUHH
 # iso-3166-3.h:100
+#. SUHH
 msgid "USSR, Union of Soviet Socialist Republics"
 msgstr ""
 
 # HVBF
 # iso-3166-3.h:102
+#. HVBF
 #, fuzzy
 msgid "Upper Volta, Republic of"
 msgstr "Koreya, Respublika"
 
 # VA
 # iso-3166-3.h:104
+#. VA
 msgid "Vatican City State (Holy See)"
 msgstr "Vatikan Şəhər Dövləti"
 
 # VDVN
 # iso-3166-3.h:106
+#. VDVN
 #, fuzzy
 msgid "Viet-Nam, Democratic Republic of"
 msgstr "Koreya, Demokratık Xalq Respublikası"
 
 # WKUM
 # iso-3166-3.h:108
+#. WKUM
 #, fuzzy
 msgid "Wake Island"
 msgstr "Faro Adaları"
 
 # YDYE
 # iso-3166-3.h:110
+#. YDYE
 #, fuzzy
 msgid "Yemen, Democratic, People's Democratic Republic of"
 msgstr "Koreya, Demokratık Xalq Respublikası"
 
 # YE
 # iso-3166-3.h:112
+#. YE
 #, fuzzy
 msgid "Yemen, Yemen Arab Republic"
 msgstr "Suriya Ərəb Respublikası"
 
 # YU
 # iso-3166-3.h:114
+#. YUCS
 #, fuzzy
 msgid "Yugoslavia, Socialist Federal Republic of"
 msgstr "Tanzaniya, Birləşmiş Respublika"
 
 # ZRCD
 # iso-3166-3.h:116
+#. ZRCD
 #, fuzzy
 msgid "Zaire, Republic of"
 msgstr "Koreya, Respublika"

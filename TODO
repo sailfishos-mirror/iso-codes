@@ -1,3 +1,6 @@
+Update iso_3166 o latest Newsletter.
+Ensure iso_3166_2.tab is ASCII-clean, not UTF-8
+
 - Tidy up ISO 3166 Tables
 
 - Add man pages documenting them.
@@ -23,9 +26,6 @@ That parse the ISO 3166-2 files
 
 - Ensure compatability with language / territory names in GLIBC Locales
   files.
-
-- Sort out Norwegian variants; ensure original files (639, in particular)
-  are up-to-date.
 
 - KDE:
 	desktop.po file contains such information

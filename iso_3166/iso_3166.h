@@ -28,6 +28,8 @@
  N_("Australia")
 /* AW */ 
  N_("Aruba")
+/* AX */ 
+ N_("Åland Islands")
 /* AZ */ 
  N_("Azerbaijan")
 /* BA */ 

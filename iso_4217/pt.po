@@ -4,10 +4,12 @@
 # Translations from gnumeric: 
 # Duarte Loreto <happyguy_pt@hotmail.com>, 2001
 #
+#.
 msgid ""
 msgstr ""
 "Project-Id-Version: iso-codes 0.1.1\n"
-"POT-Creation-Date: 2001-12-12 12:49+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-02-20 11:22+0000\n"
 "PO-Revision-Date: 2001-12-10 23:13+0000\n"
 "Last-Translator: Duarte Loreto <happyguy_pt@hotmail.com>\n"
 "Language-Team: Portuguese <none@none.org>\n"
@@ -15,794 +17,953 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. ADP
-#: iso-4217.h:18
-msgid "Andorran peseta"
-msgstr "Peseta de Andorra"
-
+#. # iso-4217.tab
+#. #
+#. # Codes for currencies and funds
+#. #
+#. # Status: ISO 4217:2001
+#. # Last update: 2002-11-13
+#. #
+#. # Tab separated columns:
+#. # Code	Numeric code	Currency
 #. AED
-#: iso-4217.h:20
-msgid "UAE dirham"
+#, fuzzy
+msgid "UAE Dirham"
 msgstr "Dirham dos EAU"
 
 #. AFA
-#: iso-4217.h:22
-msgid "Afghanistan afghani"
-msgstr "Afghani Afgão"
+msgid "Afghani"
+msgstr ""
 
 #. ALL
-#: iso-4217.h:24
-msgid "Albanian lek"
+#, fuzzy
+msgid "Albanian Lek"
 msgstr "Lek Albanês"
 
+#. AMD
+#, fuzzy
+msgid "Armenian Dram"
+msgstr "Rial Iraniano"
+
 #. ANG
-#: iso-4217.h:26
-msgid "Netherlands Antillian guilder"
+#, fuzzy
+msgid "Netherlands Antillian Guilder"
 msgstr "Guilder das Antilhas Holandesas"
 
-#. AON
-#: iso-4217.h:28
-msgid "Angolan new kwanza"
+#. AOA
+#, fuzzy
+msgid "Angola Kwanza"
 msgstr "Novo Kwanza Angolano"
 
-#. ARA
-#: iso-4217.h:30
+#. ARS
 #, fuzzy
-msgid "Argentine austral"
+msgid "Argentine Peso"
 msgstr "Peso Argentino"
 
-#. ATS
-#: iso-4217.h:32
-msgid "Austrian schilling"
-msgstr "Schilling Austríaco"
-
 #. AUD
-#: iso-4217.h:34
-msgid "Australian dollar"
+#, fuzzy
+msgid "Australian Dollar"
 msgstr "Dolar Australiano"
 
 #. AWG
-#: iso-4217.h:36
-msgid "Aruban guilder"
+#, fuzzy
+msgid "Aruban Guilder"
 msgstr "Guilder Aruban"
 
+#. AZM
+msgid "Azerbaijanian Manat"
+msgstr ""
+
+#. BAM
+msgid "Convertible Marks"
+msgstr ""
+
 #. BBD
-#: iso-4217.h:38
-msgid "Barbados dollar"
+#, fuzzy
+msgid "Barbados Dollar"
 msgstr "Dolar dos Barbados"
 
 #. BDT
-#: iso-4217.h:40
-msgid "Bangladeshi taka"
+#, fuzzy
+msgid "Bangladeshi Taka"
 msgstr "Taka do Bangladesh"
 
-#. BEF
-#: iso-4217.h:42
-msgid "Belgian franc"
-msgstr "Francos Belgas"
-
 #. BGL
-#: iso-4217.h:44
-msgid "Bulgarian lev"
+#. BGN
+#, fuzzy
+msgid "Bulgarian Lev"
 msgstr "Lev Búlgaro"
 
 #. BHD
-#: iso-4217.h:46
-msgid "Bahraini dinar"
+#, fuzzy
+msgid "Bahraini Dinar"
 msgstr "Dinar do Bahraini"
 
 #. BIF
-#: iso-4217.h:48
-msgid "Burundi franc"
+#, fuzzy
+msgid "Burundi Franc"
 msgstr "Franco do Burundi"
 
 #. BMD
-#: iso-4217.h:50
-msgid "Bermudian dollar"
+#, fuzzy
+msgid "Bermudian Dollar"
 msgstr "Dolar das Bermudas"
 
 #. BND
-#: iso-4217.h:52
-msgid "Brunei dollar"
+#, fuzzy
+msgid "Brunei Dollar"
 msgstr "Dolar do Brunei"
 
 #. BOB
-#: iso-4217.h:54
-msgid "Bolivian boliviano"
+#, fuzzy
+msgid "Boliviano"
 msgstr "Boliviano Boliviano"
 
-#. BRE
-#: iso-4217.h:56
+#. BOV
 #, fuzzy
-msgid "Brazilian cruzeiro"
+msgid "Bolivian Mvdol"
+msgstr "Boliviano Boliviano"
+
+#. BRL
+#, fuzzy
+msgid "Brazilian Real"
 msgstr "Real Brasileiro"
 
 #. BSD
-#: iso-4217.h:58
-msgid "Bahamian dollar"
+#, fuzzy
+msgid "Bahamian Dollar"
 msgstr "Dolar das Bahamas"
 
 #. BTN
-#: iso-4217.h:60
-msgid "Bhutan ngultrum"
+#, fuzzy
+msgid "Bhutan Ngultrum"
 msgstr "Ngultrum do Bhutan"
 
 #. BWP
-#: iso-4217.h:62
-msgid "Botswanian pula"
+#, fuzzy
+msgid "Botswana Pula"
 msgstr "Pula do Bostwana"
 
+#. BYR
+#, fuzzy
+msgid "Belarussian Rouble"
+msgstr "Lev Búlgaro"
+
 #. BZD
-#: iso-4217.h:64
-msgid "Belize dollar"
+#, fuzzy
+msgid "Belize Dollar"
 msgstr "Dolar de Belize"
 
 #. CAD
-#: iso-4217.h:66
-msgid "Canadian dollar"
+#, fuzzy
+msgid "Canadian Dollar"
 msgstr "Dolar Canadiano"
 
+#. CDF
+msgid "Franc Congolais"
+msgstr ""
+
 #. CHF
-#: iso-4217.h:68
-msgid "Swiss franc"
+#, fuzzy
+msgid "Swiss Franc"
 msgstr "Franco Suiço"
 
+#. CLF
+msgid "Unidades de fomento"
+msgstr ""
+
 #. CLP
-#: iso-4217.h:70
-msgid "Chilean peso"
+#, fuzzy
+msgid "Chilean Peso"
 msgstr "Peso Chileno"
 
 #. CNY
-#: iso-4217.h:72
-msgid "Chinese yuan renminbi"
+#, fuzzy
+msgid "Chinese Yuan Renminbi"
 msgstr "Yuan renminbi Chinês"
 
 #. COP
-#: iso-4217.h:74
-msgid "Colombian peso"
+#, fuzzy
+msgid "Colombian Peso"
 msgstr "Peso Colombiano"
 
 #. CRC
-#: iso-4217.h:76
-msgid "Costa Rican colon"
+#, fuzzy
+msgid "Costa Rican Colon"
 msgstr "Colon Costa-Riquenho"
 
-#. CSK
-#: iso-4217.h:78
-msgid "Czech Koruna"
-msgstr "Koruna Checa"
-
 #. CUP
-#: iso-4217.h:80
-msgid "Cuban peso"
+#, fuzzy
+msgid "Cuban Peso"
 msgstr "Peso Cubano"
 
 #. CVE
-#: iso-4217.h:82
-msgid "Cape Verde escudo"
+#, fuzzy
+msgid "Cap Verde Escudo"
 msgstr "Escudo Cabo-Verdiano"
 
 #. CYP
-#: iso-4217.h:84
-msgid "Cyprus pound"
+#, fuzzy
+msgid "Cyprus Pound"
 msgstr "Libra Cipriota"
 
-#. DEM
-#: iso-4217.h:86
-msgid "Deutsche mark"
-msgstr "Marco Alemão"
+#. CZK
+msgid "Czech Koruna"
+msgstr "Koruna Checa"
 
 #. DJF
-#: iso-4217.h:88
-msgid "Djibouti franc"
+#, fuzzy
+msgid "Djibouti Franc"
 msgstr "Franco do Djibouti"
 
 #. DKK
-#: iso-4217.h:90
-msgid "Danish krone"
+#, fuzzy
+msgid "Danish Krone"
 msgstr "Coroa Dinamarquesa"
 
 #. DOP
-#: iso-4217.h:92
-msgid "Dominican peso"
+#, fuzzy
+msgid "Dominican Peso"
 msgstr "Peso Dominicano"
 
 #. DZD
-#: iso-4217.h:94
-msgid "Algerian dinar"
+#, fuzzy
+msgid "Algerian Dinar"
 msgstr "Dinar da Algéria"
 
-#. ECS
-#: iso-4217.h:96
-msgid "Ecuador sucre"
-msgstr "Sucre do Equador"
+#. ECV
+msgid "Unidad de Valor Constante UVC"
+msgstr ""
+
+#. EEK
+msgid "Estonia Kroon"
+msgstr ""
 
 #. EGP
-#: iso-4217.h:98
-msgid "Egyptian pound"
+#, fuzzy
+msgid "Egyptian Pound"
 msgstr "Libra Egípcia"
 
-#. ESP
-#: iso-4217.h:100
-msgid "Spanish peseta"
-msgstr "Peseta Espanhola"
+#. ERN
+msgid "Eritrean Nakfa"
+msgstr ""
 
 #. ETB
-#: iso-4217.h:102
-msgid "Ethiopian birr"
+#, fuzzy
+msgid "Ethiopian Birr"
 msgstr "Birr Etíope"
 
-#. FIM
-#: iso-4217.h:104
-msgid "Finnish markka"
-msgstr "Marca Finlandesa"
+#. EUR
+msgid "Euro"
+msgstr ""
 
 #. FJD
-#: iso-4217.h:106
-msgid "Fiji dollar"
+#, fuzzy
+msgid "Fiji Dollar"
 msgstr "Dolar das Fiji"
 
 #. FKP
-#: iso-4217.h:108
-msgid "Falkland Islands pound"
+#, fuzzy
+msgid "Falkland Island Pound"
 msgstr "Libras das Ilhas Malvinas"
 
-#. FRF
-#: iso-4217.h:110
-msgid "French franc"
-msgstr "Franco Francês"
-
 #. GBP
-#: iso-4217.h:112
-msgid "UK pound sterling"
+#, fuzzy
+msgid "Pound Sterling"
 msgstr "Libra Inglesa"
 
+#. GEL
+msgid "Georgian Lari"
+msgstr ""
+
 #. GHC
-#: iso-4217.h:114
-msgid "Ghanaian cedi"
+#, fuzzy
+msgid "Ghanaian Cedi"
 msgstr "Cedi do Ghana"
 
 #. GIP
-#: iso-4217.h:116
-msgid "Gibraltar pound"
+#, fuzzy
+msgid "Gibraltar Pound"
 msgstr "Libra de Gibraltar"
 
 #. GMD
-#: iso-4217.h:118
-msgid "Gambian dalasi"
+#, fuzzy
+msgid "Gambian Dalasi"
 msgstr "Dalaso do Gabão"
 
 #. GNF
-#: iso-4217.h:120
-msgid "Guinea franc"
+#, fuzzy
+msgid "Guinea Franc"
 msgstr "Franco da Guiné"
 
-#. GRD
-#: iso-4217.h:122
-msgid "Greek drachma"
-msgstr "Dracma Grego"
-
 #. GTQ
-#: iso-4217.h:124
-msgid "Guatemalan quetzal"
+#, fuzzy
+msgid "Guatemalan Quetzal"
 msgstr "Quetzal Guatemalo"
 
 #. GWP
-#: iso-4217.h:126
-msgid "Guinea-Bissau peso"
+#, fuzzy
+msgid "Guinea-Bissau Peso"
 msgstr "Peso da Guiné-Bissau"
 
 #. GYD
-#: iso-4217.h:128
-msgid "Guyanan dollar"
+#, fuzzy
+msgid "Guyana Dollar"
 msgstr "Dolar da Guiana"
 
 #. HKD
-#: iso-4217.h:130
-msgid "Hong Kong dollar"
+#, fuzzy
+msgid "Hong Kong Dollar"
 msgstr "Dolar de Hong-Kong"
 
 #. HNL
-#: iso-4217.h:132
-msgid "Honduran lempira"
+#, fuzzy
+msgid "Honduran Lempira"
 msgstr "Lempira das Honduras"
 
+#. HRK
+msgid "Croatian Kuna"
+msgstr ""
+
 #. HTG
-#: iso-4217.h:134
-msgid "Haitian gourde"
+#, fuzzy
+msgid "Haitian Gourde"
 msgstr "Gourde do Haiti"
 
 #. HUF
-#: iso-4217.h:136
-msgid "Hungarian forint"
+#, fuzzy
+msgid "Hungarian Forint"
 msgstr "Forint Húngaro"
 
 #. IDR
-#: iso-4217.h:138
-msgid "Indonesian rupiah"
+#, fuzzy
+msgid "Indonesian Rupiah"
 msgstr "Rupia Indonésia"
 
-#. IEP
-#: iso-4217.h:140
-msgid "Irish punt"
-msgstr "Libra Irlandesa"
-
-#. IEX
-#: iso-4217.h:142
-msgid "Irish pence ***"
-msgstr "Peni Irlandês ***"
-
 #. ILS
-#: iso-4217.h:144
-msgid "Israeli shekel"
+#, fuzzy
+msgid "Israeli Shekel"
 msgstr "Shekel Israelita"
 
 #. INR
-#: iso-4217.h:146
-msgid "Indian rupee"
+#, fuzzy
+msgid "Indian Rupee"
 msgstr "Rupia Indiana"
 
 #. IQD
-#: iso-4217.h:148
-msgid "Iraqi dinar"
+#, fuzzy
+msgid "Iraqi Dinar"
 msgstr "Dinar Iraquiano"
 
 #. IRR
-#: iso-4217.h:150
-msgid "Iranian rial"
+#, fuzzy
+msgid "Iranian Rial"
 msgstr "Rial Iraniano"
 
 #. ISK
-#: iso-4217.h:152
-msgid "Iceland krona"
+#, fuzzy
+msgid "Iceland Krona"
 msgstr "Krona Islandesa"
 
-#. ITL
-#: iso-4217.h:154
-msgid "Italian lira"
-msgstr "Lira Italiana"
-
 #. JMD
-#: iso-4217.h:156
-msgid "Jamaican dollar"
+#, fuzzy
+msgid "Jamaican Dollar"
 msgstr "Dolar Jamaicano"
 
 #. JOD
-#: iso-4217.h:158
-msgid "Jordanian dinar"
+#, fuzzy
+msgid "Jordanian Dinar"
 msgstr "Dinar Jordão"
 
 #. JPY
-#: iso-4217.h:160
-msgid "Japanese yen"
+#, fuzzy
+msgid "Japanese Yen"
 msgstr "Yen Japonês"
 
 #. KES
-#: iso-4217.h:162
-msgid "Kenyan shilling"
+#, fuzzy
+msgid "Kenyan Shilling"
 msgstr "Schilling do Quénia"
 
+#. KGS
+msgid "Kyrgyzstan Som"
+msgstr ""
+
 #. KHR
-#: iso-4217.h:164
-msgid "Kampuchean riel"
-msgstr "Riel Kampuchean"
+msgid "Cambodian Riel"
+msgstr ""
 
 #. KMF
-#: iso-4217.h:166
-msgid "Comoros franc"
+#, fuzzy
+msgid "Comoro Franc"
 msgstr "Francos dos Comoros"
 
 #. KPW
-#: iso-4217.h:168
-msgid "North Korean won"
+#, fuzzy
+msgid "North Korean Won"
 msgstr "Won Norte-Coreano"
 
 #. KRW
-#: iso-4217.h:170
-msgid "Republic of Korea won"
-msgstr "Won da República da Coreia"
+#, fuzzy
+msgid "South Korean Won"
+msgstr "Won Norte-Coreano"
 
 #. KWD
-#: iso-4217.h:172
-msgid "Kuwaiti dinar"
+#, fuzzy
+msgid "Kuwaiti Dinar"
 msgstr "Dinar do Kuwait"
 
 #. KYD
-#: iso-4217.h:174
-msgid "Cayman Islands dollar"
+#, fuzzy
+msgid "Cayman Islands Dollar"
 msgstr "Dolar das Ilhas Caimão"
 
+#. KZT
+#, fuzzy
+msgid "Kazakhstan Tenge"
+msgstr "Rupia Paquistanesa"
+
 #. LAK
-#: iso-4217.h:176
-msgid "Lao kip"
+#, fuzzy
+msgid "Lao Kip"
 msgstr "Kip do Lao"
 
 #. LBP
-#: iso-4217.h:178
-msgid "Lebanese pound"
+#, fuzzy
+msgid "Lebanese Pound"
 msgstr "Libra Libanesa"
 
 #. LKR
-#: iso-4217.h:180
-msgid "Sri Lanka rupee"
+#, fuzzy
+msgid "Sri Lanka Rupee"
 msgstr "Rupia do Sri-Lanka"
 
 #. LRD
-#: iso-4217.h:182
-msgid "Liberian dollar"
+#, fuzzy
+msgid "Liberian Dollar"
 msgstr "Dolar da Libéria"
 
 #. LSL
-#: iso-4217.h:184
-msgid "Lesotho loti"
+#, fuzzy
+msgid "Lesotho Loti"
 msgstr "Loti do Lesoto"
 
-#. LUF
-#: iso-4217.h:186
-msgid "Luxembourg franc"
-msgstr "Franco Luxemburguês"
+#. LTL
+msgid "Lithuanian Litas"
+msgstr ""
+
+#. LVL
+msgid "Latvian Lats"
+msgstr ""
 
 #. LYD
-#: iso-4217.h:188
-msgid "Libyan dinar"
+#, fuzzy
+msgid "Libyan Dinar"
 msgstr "Dinar Líbio"
 
 #. MAD
-#: iso-4217.h:190
-msgid "Moroccan dirham"
+#, fuzzy
+msgid "Moroccan Dirham"
 msgstr "Dirham Marroquino"
 
+#. MDL
+msgid "Moldovan Leu"
+msgstr ""
+
 #. MGF
-#: iso-4217.h:192
-msgid "Malagasy franc"
+#, fuzzy
+msgid "Malagasy Franc"
 msgstr "Franco da Malagásia"
 
-#. MLF
-#: iso-4217.h:194
-msgid "Mali franc"
-msgstr "Franco do Mali"
+#. MKD
+msgid "Macedonian Denar"
+msgstr ""
 
 #. MMK
-#: iso-4217.h:196
-msgid "Myanmar kyat"
+#, fuzzy
+msgid "Myanmar Kyat"
 msgstr "Kyat do Myanmar"
 
 #. MNT
-#: iso-4217.h:198
-msgid "Mongolian tugrik"
+#, fuzzy
+msgid "Mongolian Tugrik"
 msgstr "Tugrik Mongol"
 
 #. MOP
-#: iso-4217.h:200
-msgid "Macau pataca"
+#, fuzzy
+msgid "Macao Patacca"
 msgstr "Pataca Macaense"
 
 #. MRO
-#: iso-4217.h:202
-msgid "Mauritanian ouguiya"
+#, fuzzy
+msgid "Mauritanian Ouguiya"
 msgstr "Ouguiya da Mauritânia"
 
 #. MTL
-#: iso-4217.h:204
-msgid "Maltese lira"
+#, fuzzy
+msgid "Maltese Lira"
 msgstr "Lira de Malta"
 
 #. MUR
-#: iso-4217.h:206
-msgid "Mauritius rupee"
+#, fuzzy
+msgid "Mauritius Rupee"
 msgstr "Rupia das Ilhas Mauricias"
 
 #. MVR
-#: iso-4217.h:208
-msgid "Maldive rupee"
+#, fuzzy
+msgid "Maldive Rufiyaa"
 msgstr "Rupia das Maldivas"
 
 #. MWK
-#: iso-4217.h:210
-msgid "Malawi kwacha"
+#, fuzzy
+msgid "Malawi Kwacha"
 msgstr "Kwacha do Malawi"
 
-#. MXP
-#: iso-4217.h:212
-msgid "Mexican peso"
+#. MXN
+#, fuzzy
+msgid "Mexican Peso"
 msgstr "Peso Mexicano"
 
+#. MXV
+msgid "Unidad de Inversion (UDI)"
+msgstr ""
+
 #. MYR
-#: iso-4217.h:214
-msgid "Malaysian ringgit"
+#, fuzzy
+msgid "Malaysian Ringgit"
 msgstr "Ringgit Malaio"
 
 #. MZM
-#: iso-4217.h:216
-msgid "Mozambique metical"
+#, fuzzy
+msgid "Mozambique Metical"
 msgstr "Metical Moçambicano"
 
+#. NAD
+#, fuzzy
+msgid "Namibian Dollar"
+msgstr "Dolar da Libéria"
+
 #. NGN
-#: iso-4217.h:218
-msgid "Nigerian naira"
+#, fuzzy
+msgid "Nigerian Naira"
 msgstr "Naira Nigeriano"
 
 #. NIO
-#: iso-4217.h:220
-msgid "Nicaraguan cordoba oro"
+#, fuzzy
+msgid "Nicaraguan Cordoba Oro"
 msgstr "Cordoba oro da Niquerágua"
 
-#. NLG
-#: iso-4217.h:222
-msgid "Netherlands guilder"
-msgstr "Guilder Holandês"
-
 #. NOK
-#: iso-4217.h:224
-msgid "Norwegian krone"
+#, fuzzy
+msgid "Norwegian Krone"
 msgstr "Coroa Norueguêsa"
 
 #. NPR
-#: iso-4217.h:226
-msgid "Nepalese rupee"
+#, fuzzy
+msgid "Nepalese Rupee"
 msgstr "Rupia do Nepal"
 
 #. NZD
-#: iso-4217.h:228
-msgid "New Zealand dollar"
+#, fuzzy
+msgid "New Zealand Dollar"
 msgstr "Dolar Neo-Zelandês"
 
 #. OMR
-#: iso-4217.h:230
 msgid "Rial Omani"
 msgstr "Omani do Rial"
 
 #. PAB
-#: iso-4217.h:232
-msgid "Panamanian balboa"
+#, fuzzy
+msgid "Panamanian Balboa"
 msgstr "Balboa Panamiana"
 
-#. PEI
-#: iso-4217.h:234
-msgid "Peruvian inti"
-msgstr "Inti Peruano"
+#. PEN
+msgid "Peruvian Nuevo Sol"
+msgstr ""
 
 #. PGK
-#: iso-4217.h:236
-msgid "Papua New Guinea kina"
+#, fuzzy
+msgid "Papua New Guinea Kina"
 msgstr "Kina da Papua Nova-Guiné"
 
 #. PHP
-#: iso-4217.h:238
-msgid "Philippino peso"
+#, fuzzy
+msgid "Phillipine Peso"
 msgstr "Peso Filipino"
 
 #. PKR
-#: iso-4217.h:240
-msgid "Pakistan rupee"
+#, fuzzy
+msgid "Pakistan Rupee"
 msgstr "Rupia Paquistanesa"
 
-#. PLZ
-#: iso-4217.h:242
-msgid "Polish zloty"
+#. PLN
+#, fuzzy
+msgid "Polish Zloty"
 msgstr "Zloty Polaco"
 
-#. PTE
-#: iso-4217.h:244
-msgid "Portuguese escudo"
-msgstr "Escudos Portugueses"
-
 #. PYG
-#: iso-4217.h:246
-msgid "Paraguay guarani"
+#, fuzzy
+msgid "Paraguay Guarani"
 msgstr "Guarani Paraguaio"
 
 #. QAR
-#: iso-4217.h:248
-msgid "Qatari rial"
+#, fuzzy
+msgid "Qatari Riyal"
 msgstr "Rial do Qatari"
 
 #. ROL
-#: iso-4217.h:250
-msgid "Romanian leu"
+#, fuzzy
+msgid "Romanian Leu"
 msgstr "Leu Romeno"
 
+#. RUB
+msgid "Russian Rouble"
+msgstr ""
+
 #. RWF
-#: iso-4217.h:252
-msgid "Rwanda franc"
+#, fuzzy
+msgid "Rwanda Franc"
 msgstr "Franco Ruandês"
 
 #. SAR
-#: iso-4217.h:254
-msgid "Saudi Arabian riyal"
+#, fuzzy
+msgid "Saudi Riyal"
 msgstr "Riyal da Arábia Saudita"
 
 #. SBD
-#: iso-4217.h:256
-msgid "Solomon Islands dollar"
+#, fuzzy
+msgid "Solomon Islands Dollar"
 msgstr "Dolar das Ilhas Salomão"
 
 #. SCR
-#: iso-4217.h:258
-msgid "Seychelles rupee"
+#, fuzzy
+msgid "Seychelles Rupee"
 msgstr "Rupia das Seicheles"
 
-#. SDP
-#: iso-4217.h:260
-msgid "Sudanese pound"
+#. SDD
+#, fuzzy
+msgid "Sudanese Dinar"
 msgstr "Libra do Sudão"
 
 #. SEK
-#: iso-4217.h:262
-msgid "Swedish krona"
+#, fuzzy
+msgid "Swedish Krona"
 msgstr "Coroa Sueca"
 
 #. SGD
-#: iso-4217.h:264
-msgid "Singapore dollar"
+#, fuzzy
+msgid "Singapur Dollar"
 msgstr "Dolar de Singapura"
 
 #. SHP
-#: iso-4217.h:266
-msgid "St.Helena pound"
+#, fuzzy
+msgid "Saint Helena Pound"
 msgstr "Libra de Sta Helena"
 
+#. SIT
+#, fuzzy
+msgid "Slovenian Tolar"
+msgstr "Dolar da Libéria"
+
+#. SKK
+msgid "Slovak Koruna"
+msgstr ""
+
 #. SLL
-#: iso-4217.h:268
-msgid "Sierra Leone leone"
-msgstr "Leone da Serra-Leoa"
+msgid "Leone"
+msgstr ""
 
 #. SOS
-#: iso-4217.h:270
-msgid "Somali shilling"
+#, fuzzy
+msgid "Somali Schilling"
 msgstr "Shilling da Somália"
 
 #. SRG
-#: iso-4217.h:272
-msgid "Suriname guilder"
+#, fuzzy
+msgid "Suriname Guilder"
 msgstr "Guilder do Suriname"
 
 #. STD
-#: iso-4217.h:274
-msgid "Sao Tome and Principe dobra"
+#, fuzzy
+msgid "Sao Tome and Principe Dobra"
 msgstr "Dobra de São Tomé e Príncepe"
 
-#. SUR
-#: iso-4217.h:276
-msgid "USSR rouble"
-msgstr "Rublo Soviético"
-
 #. SVC
-#: iso-4217.h:278
-msgid "El Salvador colon"
+#, fuzzy
+msgid "El Salvador Colon"
 msgstr "Colon El Salvadorenho"
 
 #. SYP
-#: iso-4217.h:280
-msgid "Syrian pound"
+#, fuzzy
+msgid "Syrian Pound"
 msgstr "Libta Síria"
 
 #. SZL
-#: iso-4217.h:282
-msgid "Swaziland lilangeni"
+#, fuzzy
+msgid "Swaziland Lilangeni"
 msgstr "Lilangeni do Swaziland"
 
 #. THB
-#: iso-4217.h:284
-msgid "Thai baht"
+#, fuzzy
+msgid "Thai Baht"
 msgstr "Baht Tailandês"
 
+#. TJS
+msgid "Tajik Somoni"
+msgstr ""
+
+#. TLE
+#, fuzzy
+msgid "Timor Escudo"
+msgstr "Escudo de Timor Leste"
+
+#. TMM
+#, fuzzy
+msgid "Turkmenistan Manat"
+msgstr "Dinar Tunisino"
+
 #. TND
-#: iso-4217.h:286
-msgid "Tunisian dinar"
+#, fuzzy
+msgid "Tunisian Dinar"
 msgstr "Dinar Tunisino"
 
 #. TOP
-#: iso-4217.h:288
-msgid "Tongan pa'anga"
+#, fuzzy
+msgid "Tongan Pa'anga"
 msgstr "Pa'anga da Tongan"
 
-#. TPE
-#: iso-4217.h:290
-msgid "East Timor escudo"
-msgstr "Escudo de Timor Leste"
-
 #. TRL
-#: iso-4217.h:292
-msgid "Turkish lira"
+#, fuzzy
+msgid "Turkish Lira"
 msgstr "Lira Turca"
 
 #. TTD
-#: iso-4217.h:294
-msgid "Trinidad and Tobago dollar"
+#, fuzzy
+msgid "Trinidad and Tobago Dollar"
 msgstr "Dolar de Trinidade e Tobago"
 
 #. TWD
-#: iso-4217.h:296
-msgid "New Taiwan dollar"
+#, fuzzy
+msgid "New Taiwan Dollar"
 msgstr "Novo Dolar Formosa"
 
 #. TZS
-#: iso-4217.h:298
-msgid "Tanzanian shilling"
+#, fuzzy
+msgid "Tazanian Schilling"
 msgstr "Shilling da Tanzânia"
 
+#. UAH
+#, fuzzy
+msgid "Ukrainian Hryvnia"
+msgstr "Rial Iraniano"
+
 #. UGX
-#: iso-4217.h:300
-msgid "Ugandan shilling"
+#, fuzzy
+msgid "Ugandan Schilling"
 msgstr "Shilling Uganês"
 
 #. USD
-#: iso-4217.h:302
-msgid "US dollar"
+#, fuzzy
+msgid "US Dollar"
 msgstr "Dolar EUA"
 
-#. UYP
-#: iso-4217.h:304
-msgid "Uruguayan peso"
-msgstr "Peso Uruguaio"
+#. USN
+msgid "US Dollar (Next day)"
+msgstr ""
+
+#. USS
+msgid "US Dollar (Same day)"
+msgstr ""
+
+#. UYU
+msgid "Peso Uruguayo"
+msgstr ""
+
+#. UZS
+msgid "Uzbekistan Sum"
+msgstr ""
 
 #. VEB
-#: iso-4217.h:306
-msgid "Venezuelan bolivar"
+#, fuzzy
+msgid "Venezuela Bolivar"
 msgstr "Bolivar Venezuelano"
 
 #. VND
-#: iso-4217.h:308
-msgid "Vietnamese dong"
+#, fuzzy
+msgid "Viet Nam Dong"
 msgstr "Dong Vietnamita"
 
 #. VUV
-#: iso-4217.h:310
-msgid "Vanuatu vatu"
+#, fuzzy
+msgid "Vanuatu Vatu"
 msgstr "Vatu Vanuatu"
 
 #. WST
-#: iso-4217.h:312
-msgid "Samoan tala"
+#, fuzzy
+msgid "Samoan Tala"
 msgstr "Tala de Samoa"
 
-#. XCD
-#: iso-4217.h:314
-msgid "East Caribbean dollar"
-msgstr "Dolar das Caraibas Leste"
+#. XAF
+msgid "CFA Franc BEAC"
+msgstr ""
 
-#. XEU
-#: iso-4217.h:316
-msgid "European currency unit"
+#. XAG
+msgid "Silver"
+msgstr ""
+
+#. XAU
+msgid "Gold"
+msgstr ""
+
+#. XBA
+msgid "Bond Markets Units"
+msgstr ""
+
+#. XBB
+msgid "European Composite Unit EURCO"
+msgstr ""
+
+#. XBC
+#, fuzzy
+msgid "European Monetary Unit EUM"
 msgstr "Unidade Monetária Europeia (ECU)"
 
-#. YDD
-#: iso-4217.h:318
-msgid "Democratic Yemeni dinar"
-msgstr "Dinar do Yemen Democrático"
+#. XBD
+msgid "European Unit of Account EUA"
+msgstr ""
+
+#. XCD
+#, fuzzy
+msgid "East Caribean Dollar"
+msgstr "Dolar das Caraibas Leste"
+
+#. XDR
+msgid "Special Drawing Right"
+msgstr ""
+
+#. XOF
+msgid "CFA Franc BCEAO"
+msgstr ""
+
+#. XPD
+msgid "Palladium"
+msgstr ""
+
+#. XPF
+msgid "CFP Franc"
+msgstr ""
+
+#. XPT
+msgid "Platinum"
+msgstr ""
+
+#. XTS
+msgid "Code for testing purposes"
+msgstr ""
+
+#. XXX
+msgid "No currency involved"
+msgstr ""
 
 #. YER
-#: iso-4217.h:320
-msgid "Yemeni rial"
+#, fuzzy
+msgid "Yemini Rial"
 msgstr "Rial do Yemen"
 
-#. YUN
-#: iso-4217.h:322
-msgid "New Yugoslavia dinar"
+#. YUD
+#, fuzzy
+msgid "Yugoslavian Dinar"
 msgstr "Novo Dinar Jugoslavo"
 
-#. ZAL
-#: iso-4217.h:324
-msgid "South African rand funds code"
-msgstr "Código de fundos em Rands da África do Sul"
-
 #. ZAR
-#: iso-4217.h:326
-msgid "South African rand"
+#, fuzzy
+msgid "South African Rand"
 msgstr "Rand da África do Sul"
 
 #. ZMK
-#: iso-4217.h:328
-msgid "Zambian kwacha"
+#, fuzzy
+msgid "Zambian Kwacha"
 msgstr "Kwacha da Zâmbia"
 
-#. ZRZ
-#: iso-4217.h:330
-msgid "Zaire Zaire"
-msgstr "Zaira Zairence"
-
 #. ZWD
-#: iso-4217.h:332
-msgid "Zimbabwe dollar"
+#, fuzzy
+msgid "Zimbabwe Dollar"
 msgstr "Dolar do Zimbabwe"
+
+#~ msgid "Andorran peseta"
+#~ msgstr "Peseta de Andorra"
+
+#~ msgid "Afghanistan afghani"
+#~ msgstr "Afghani Afgão"
+
+#~ msgid "Austrian schilling"
+#~ msgstr "Schilling Austríaco"
+
+#~ msgid "Belgian franc"
+#~ msgstr "Francos Belgas"
+
+#~ msgid "Deutsche mark"
+#~ msgstr "Marco Alemão"
+
+#~ msgid "Ecuador sucre"
+#~ msgstr "Sucre do Equador"
+
+#~ msgid "Spanish peseta"
+#~ msgstr "Peseta Espanhola"
+
+#~ msgid "Finnish markka"
+#~ msgstr "Marca Finlandesa"
+
+#~ msgid "French franc"
+#~ msgstr "Franco Francês"
+
+#~ msgid "Greek drachma"
+#~ msgstr "Dracma Grego"
+
+#~ msgid "Irish punt"
+#~ msgstr "Libra Irlandesa"
+
+#~ msgid "Irish pence ***"
+#~ msgstr "Peni Irlandês ***"
+
+#~ msgid "Italian lira"
+#~ msgstr "Lira Italiana"
+
+#~ msgid "Kampuchean riel"
+#~ msgstr "Riel Kampuchean"
+
+#~ msgid "Republic of Korea won"
+#~ msgstr "Won da República da Coreia"
+
+#~ msgid "Luxembourg franc"
+#~ msgstr "Franco Luxemburguês"
+
+#~ msgid "Mali franc"
+#~ msgstr "Franco do Mali"
+
+#~ msgid "Netherlands guilder"
+#~ msgstr "Guilder Holandês"
+
+#~ msgid "Peruvian inti"
+#~ msgstr "Inti Peruano"
+
+#~ msgid "Portuguese escudo"
+#~ msgstr "Escudos Portugueses"
+
+#~ msgid "Sierra Leone leone"
+#~ msgstr "Leone da Serra-Leoa"
+
+#~ msgid "USSR rouble"
+#~ msgstr "Rublo Soviético"
+
+#~ msgid "Uruguayan peso"
+#~ msgstr "Peso Uruguaio"
+
+#~ msgid "Democratic Yemeni dinar"
+#~ msgstr "Dinar do Yemen Democrático"
+
+#~ msgid "South African rand funds code"
+#~ msgstr "Código de fundos em Rands da África do Sul"
+
+#~ msgid "Zaire Zaire"
+#~ msgstr "Zaira Zairence"

@@ -1,3 +1,22 @@
+0.25 Alastair McKinstry <mckinstry@computer.org>
+
+	* iso_3166/zh_CN.po: Updated thanks to Carlos Z.F. Liu.
+	* iso_3166/bg.po: Updated thanks to  Ognyan Kulev.
+	* iso3166/sq.po: New translation thanks to Elian Myftiu.
+	* iso_639/fr.po: Updated thanks to Christian Perrier.
+	* iso_4217/fr.po: Updated thanks to Christian Perrier.
+	* iso_639.tab: "nl" means Dutch, not Dravidian.
+	* iso_639.tab: Herero is "hz", not "he".
+	* iso_639.tab: Nynorsk is "nn", not "no".
+	* iso_3166: New entries for the Åland Islands.
+	* iso_3166_3.tab: Corrections to FX, YU Entries.
+	* iso_3166_2.*: Updated to ISO-3166-2 newsletter 5.
+	* Makefiles: tidyup. Don't put line numbers in the .po files, just
+	   comments; move iso_3166_*.tab files into the appropriate
+	   directories.
+	* iso_3166/ko.po: Update thanks to  Changwoo Ryu.
+	* iso_3166_tab: Corrected comments on Switzerland cantons.
+
 0.24 Alastair McKinstry <mckinstry@computer.org>
 	
 	* iso_3166/sv.po: Fixed typo that broke build

@@ -1,3 +1,24 @@
+iso-codes (0.25-1) UNRELEASED; urgency=low
+
+  * iso_3166/zh_CN.po: Updated thanks to Carlos Z.F. Liu. Closes: #230656.
+  * iso_3166/bg.po: Updated thanks to  Ognyan Kulev. Closes: #232663.
+  * iso3166/sq.po: New translation thanks to Elian Myftiu. Closes: #233507.
+  * iso_639/fr.po: Updated thanks to Christian Perrier. Closes: #232519.
+  * iso_4217/fr.po: Updated thanks to Christian Perrier. Closes: #232567.
+  * iso_639: "nl" means Dutch, not Dravidian. Closes: #232566.
+  * iso_3166: New entries for the Åland Islands. Closes: #233506.
+  * iso_3166_3.tab: Updated with latest Newsletter info.
+  * iso_669/iso_639.tab: Code for Nynorsk is "nn". Closes: #233738.
+  * iso_539/iso_639.tab: Code for Herero is "hz". Closes: #233737.
+  * iso_3166_2.tab: Updated to Newletter 5.
+  * Makefiles: tidyup. Don't put line numbers in the .po files, just
+    comments; move iso_3166_*.tab files into the appropriate
+    directories.
+  * iso_3166_2.tab: Add comments about Swiss entries. Closes: #233998.
+  * iso_3166/ko.po: Updated thanks to Changwoo Ryu. Closes: #233940.
+
+ -- Alastair McKinstry <mckinstry@debian.org>  Thu, 19 Feb 2004 09:45:13 +0000
+
 iso-codes (0.24-1) unstable; urgency=low
 
   * iso_3166/sv.po: Fix typo that broke build. Closes: #232359.

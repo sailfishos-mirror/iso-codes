@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: iso-codes 0.18\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2003-11-27 07:18+0000\n"
+"POT-Creation-Date: 2004-02-22 10:23+0000\n"
 "PO-Revision-Date: 2001-12-12 13:04+0000\n"
 "Last-Translator: Alastair McKinstry <mckinstry@debian.org>\n"
 "Language-Team: Irish <ga@li.org>\n"
@@ -14,6 +14,28 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#. ##
+#. ## ISO-3166-2 Standard for country subdivisions
+#. ##
+#. ## The following conventions are used in this file:
+#. ##
+#. ## If the standard lists a subdivision name in more than language
+#. ## and/or romanization system, only the first listed name is shown.
+#. ##
+#. ## Proper subdivision codes have the format 'XX-YYY' where XX is the
+#. ## ISO 3166-1 Alpha-2 country code and YYY is a 1-, 2- or 3-character
+#. ## code  for the subdivision.
+#. ##
+#. ## For some countries the standard also lists a second level of
+#. ## regional divisions (e.g. for BE, FR, GB, IT, etc.). The codes
+#. ## for these regional divisions are shown as 'XX YYYY', i.e. with a
+#. ## space character instead of the '-'.
+#. ##
+#. ## The subdivision names are UTF-8 encoded.
+#. ##
+#. ## The sorting order is the same that is used in the standard.
+#. ##
+#. ## Up-to-date as of newsletter, 2003-09-05
 #. #
 #. # ISO 3166-2 codes for the United Arab Emirates
 #. #
@@ -619,6 +641,8 @@ msgstr ""
 # CO
 # AR-X
 #. X
+#. COR
+#. CO
 msgid "Cordoba"
 msgstr ""
 
@@ -676,6 +700,7 @@ msgstr ""
 
 # AR-R
 #. R
+#. RN
 msgid "Rio Negro"
 msgstr ""
 
@@ -686,6 +711,7 @@ msgstr ""
 
 # AR-J
 #. J
+#. 22
 msgid "San Juan"
 msgstr ""
 
@@ -696,6 +722,8 @@ msgstr ""
 
 # AR-Z
 #. Z
+#. S
+#. CR
 msgid "Santa Cruz"
 msgstr ""
 
@@ -854,6 +882,7 @@ msgstr ""
 
 # AZ-LA
 #. LA
+#. LAN
 msgid "Lankaran"
 msgstr ""
 
@@ -870,6 +899,7 @@ msgstr ""
 # ES
 # AZ-SA
 #. SA
+#. SAK
 msgid "Saki"
 msgstr ""
 
@@ -892,6 +922,7 @@ msgstr ""
 
 # AZ-YE
 #. YE
+#. YEV
 msgid "Yevlax"
 msgstr ""
 
@@ -1574,11 +1605,13 @@ msgstr ""
 
 # BE-VLI
 #. VLI
+#. LB
 msgid "Limburg"
 msgstr ""
 
 # LU
 #. WLX
+#. L
 msgid "Luxembourg"
 msgstr "Lucsamburg"
 
@@ -1887,6 +1920,7 @@ msgstr ""
 
 # BG-05
 #. 12
+#. MT
 msgid "Montana"
 msgstr ""
 
@@ -2189,6 +2223,7 @@ msgstr ""
 
 # CM-LT
 #. LI
+#. LT
 msgid "Littoral"
 msgstr ""
 
@@ -2262,6 +2297,8 @@ msgstr ""
 
 # BO-L
 #. L
+#. LP
+#. PA
 msgid "La Paz"
 msgstr ""
 
@@ -2302,6 +2339,8 @@ msgstr ""
 
 # AM
 #. AM
+#. AMA
+#. Z
 msgid "Amazonas"
 msgstr ""
 
@@ -2322,6 +2361,10 @@ msgstr ""
 
 # DF
 #. DF
+#. #
+#. # ISO 3166-2 regions for Mexico
+#. #
+#. DIF
 msgid "Distrito Federal"
 msgstr ""
 
@@ -2362,6 +2405,7 @@ msgstr ""
 
 # PA
 #. PA
+#. PR
 msgid "Para"
 msgstr ""
 
@@ -2412,6 +2456,7 @@ msgstr ""
 
 # SC
 #. SC
+#. CA
 msgid "Santa Catarina"
 msgstr ""
 
@@ -2654,11 +2699,6 @@ msgstr ""
 msgid "Central "
 msgstr "Ceanada"
 
-# BW-CH
-#. CH
-msgid "Chobe"
-msgstr ""
-
 # BW-GH
 #. GH
 msgid "Ghanzi"
@@ -2689,6 +2729,11 @@ msgstr "An Pholainn"
 # BW-NE
 #. NE
 msgid "North-East"
+msgstr ""
+
+# CM-NW
+#. NW
+msgid "North-West"
 msgstr ""
 
 # BW-SE
@@ -2773,6 +2818,7 @@ msgstr ""
 
 # BZ-TOL
 #. TOL
+#. TO
 msgid "Toledo"
 msgstr ""
 
@@ -3081,6 +3127,7 @@ msgstr "An tSiria"
 
 # CG-14
 #. 14
+#. P
 msgid "Plateaux"
 msgstr ""
 
@@ -3097,18 +3144,19 @@ msgid "Sangha"
 msgstr ""
 
 # CH-AG
+#. #
+#. # SO 3166-2 regions (cantons) for Switzerland
+#. #
 #. AG
 msgid "Aargau"
 msgstr ""
 
-# CH-AI
 #. AI
-msgid "Appenzell Inner-Rhoden"
+msgid "Appenzell Innerrhoden"
 msgstr ""
 
-# CH-AR
 #. AR
-msgid "Appenzell Ausser-Rhoden"
+msgid "Appenzell Ausserrhoden"
 msgstr ""
 
 # CH-BE
@@ -3149,6 +3197,7 @@ msgstr ""
 
 # CH-JU
 #. JU
+#. 39
 #, fuzzy
 msgid "Jura"
 msgstr "Burma"
@@ -3412,6 +3461,12 @@ msgstr ""
 
 # CM-CE
 #. CE
+#. # ISO 3166-2 regions for Haiti
+#. #
+#. CE
+#. # ISO 3166-2 regions for Togo
+#. #
+#. C
 msgid "Centre"
 msgstr ""
 
@@ -3428,11 +3483,6 @@ msgstr ""
 # CM-NO
 #. NO
 msgid "North"
-msgstr ""
-
-# CM-NW
-#. NW
-msgid "North-West"
 msgstr ""
 
 # CM-SW
@@ -3682,6 +3732,8 @@ msgstr ""
 
 # CO-BOL
 #. BOL
+#. B
+#. F
 msgid "Bolivar"
 msgstr ""
 
@@ -3798,6 +3850,7 @@ msgstr ""
 
 # CO-SUC
 #. SUC
+#. R
 msgid "Sucre"
 msgstr ""
 
@@ -4127,62 +4180,63 @@ msgstr ""
 msgid "Pafos"
 msgstr ""
 
-# CZ-CJC
 #. #
 #. # CZECH REPUBLIC
 #. #
 #. JC
-msgid "Jihocesky kraj"
+msgid "Jihočeský kraj"
 msgstr ""
 
-# CZ-CJM
 #. JM
-msgid "Jihomoravsky kraj"
+msgid "Jihomoravský kraj"
 msgstr ""
 
 #. KA
-msgid "Karlovarsky kraj"
+msgid "Karlovarský kraj"
 msgstr ""
 
 #. KR
-msgid "Kralovehradecky kraj"
+msgid "Královéhradecký kraj"
 msgstr ""
 
 #. LI
-msgid "Liberecky kraj"
+msgid "Liberecký kraj"
 msgstr ""
 
 #. MO
-msgid "Moravskoslezsky kraj"
+msgid "Moravskoslezský kraj"
 msgstr ""
 
 #. OL
-msgid "Olomoucky kraj"
+msgid "Olomoucký kraj"
 msgstr ""
 
 #. PA
-msgid "Pardubicky kraj"
+msgid "Pardubický kraj"
 msgstr ""
 
 #. PL
-msgid "Plzensky kraj"
+msgid "Plzeňský kraj"
 msgstr ""
 
-# CZ-CST
+#. PR
+msgid "Praha, hlavaní msěsto"
+msgstr ""
+
 #. ST
-msgid "Stredocesky kraj"
+msgid "Středočeský kraj"
 msgstr ""
 
 #. US
-msgid "Ustecky kraj"
+msgid "Ústecký kraj"
 msgstr ""
 
 #. VY
-msgid "Kraj Vysocina"
+msgid "Vysočina"
 msgstr ""
 
 #. ZL
-msgid "Zlinsky kraj"
+msgid "Zlínský kraj"
 msgstr ""
 
 #
@@ -4575,6 +4629,7 @@ msgstr ""
 #. # ISO 3166-2 regions for Algeria
 #. #
 #. 01
+#. 07
 msgid "Adrar"
 msgstr ""
 
@@ -5671,23 +5726,43 @@ msgstr ""
 # BW-CE
 #. #
 #. C
+#. CP
+#. 200
+#. CPM
+#. 11
+#. CE
+#. # ISO 3166-2 regions for Zambia
+#. #
+#. 02
 msgid "Central"
 msgstr ""
 
 # FJ-E
 #. E
+#. EP
+#. 400
+#. E
+#. 03
 msgid "Eastern"
 msgstr ""
 
 # NL
 # FJ-N
 #. N
+#. NP
+#. NPP
+#. N
+#. 05
 #, fuzzy
 msgid "Northern"
 msgstr "An Isiltir"
 
 # FJ-W
 #. W
+#. WP
+#. WPD
+#. WE
+#. 01
 msgid "Western"
 msgstr ""
 
@@ -6094,6 +6169,7 @@ msgstr "An Nígir"
 # NO
 # FR-59
 #. 59
+#. ND
 #, fuzzy
 msgid "Nord"
 msgstr "An Iorua"
@@ -6901,6 +6977,7 @@ msgstr ""
 
 # JM-12
 #. MAN
+#. 12
 msgid "Manchester"
 msgstr ""
 
@@ -8449,6 +8526,7 @@ msgstr "An Albáin"
 # CM
 # HN-CL
 #. CL
+#. 3
 #, fuzzy
 msgid "Colon"
 msgstr "Camarún"
@@ -8762,6 +8840,7 @@ msgid "Vas"
 msgstr ""
 
 #. VE
+#. VM
 msgid "Veszprém"
 msgstr ""
 
@@ -8948,6 +9027,7 @@ msgstr ""
 
 # ID-KT
 #. KT
+#. KI
 msgid "Kalimantan Timur"
 msgstr ""
 
@@ -9820,6 +9900,7 @@ msgstr ""
 # BG
 # IT-BA
 #. BA
+#. BR
 msgid "Bari"
 msgstr ""
 
@@ -11342,6 +11423,7 @@ msgstr ""
 #. # ISO 3166-2 regions for Laos
 #. #
 #. VT
+#. VI
 #, fuzzy
 msgid "Vientiane"
 msgstr "Vitneam"
@@ -11665,6 +11747,7 @@ msgstr ""
 # EI
 # LR-MY
 #. MY
+#. MD
 #, fuzzy
 msgid "Maryland"
 msgstr "Éire"
@@ -11995,14 +12078,19 @@ msgstr ""
 msgid "Ventspils"
 msgstr ""
 
-#
-# * ISO 3166-2 regions for Libya
-#
-# LY-BU
+#. #
 #. # ISO 3166-2 regions for Libya
 #. #
+#. AJ
+msgid "Ajdābiyā"
+msgstr ""
+
 #. BU
-msgid "Al Butnan"
+msgid "Al Buţnān"
+msgstr ""
+
+#. HZ
+msgid "Al Hizām al Akhdar"
 msgstr ""
 
 # LY-JA
@@ -12010,9 +12098,8 @@ msgstr ""
 msgid "Al Jabal al Akhdar"
 msgstr ""
 
-# LY-JG
-#. JG
-msgid "Al Jabal al Gharbi"
+#. JI
+msgid "Al Jifārah"
 msgstr ""
 
 # LY-JU
@@ -12020,59 +12107,147 @@ msgstr ""
 msgid "Al Jufrah"
 msgstr ""
 
-# LY-WA
-#. WA
-msgid "Al Wahah"
-msgstr ""
-
-# AT
-# LY-WU
-#. WU
+# KW
+# KW-KU
+#. KF
 #, fuzzy
-msgid "Al Wusta"
-msgstr "An Ostair"
+msgid "Al Kufrah"
+msgstr "Cuáit"
 
-# LY-ZA
+#. MJ
+msgid "Al Marj"
+msgstr ""
+
+# MT
+# TZ-13
+#. MB
+#, fuzzy
+msgid "Al Marqab"
+msgstr "Málta"
+
+#. QT
+msgid "Al Qaţrūn"
+msgstr ""
+
+# AL
+# RO-B
+# Departments:
+#
+# RO-AB
+#. QB
+#, fuzzy
+msgid "Al Qubbah"
+msgstr "An Albáin"
+
+#. WA
+msgid "Al Wāhah"
+msgstr ""
+
+#. NQ
+msgid "An Nuqaţ al Khams"
+msgstr ""
+
+#. SH
+msgid "Ash Shāţi'"
+msgstr ""
+
 #. ZA
-msgid "Az Zawiyah"
+msgid "Az Zāwiyah"
 msgstr ""
 
-# LY-BA
 #. BA
-msgid "Banghazi"
+msgid "Banghāzī"
 msgstr ""
 
-# LY-FA
-#. FA
-msgid "Fazzan"
+#. BW
+msgid "Banī Walīd"
+msgstr ""
+
+# FR
+# GN-FA
+#. DR
+#, fuzzy
+msgid "Darnah"
+msgstr "An Fhrainc"
+
+#. GD
+msgid "Ghadāmis"
+msgstr ""
+
+#. GR
+msgid "Gharyān"
+msgstr ""
+
+#. GT
+msgid "Ghāt"
+msgstr ""
+
+#. JB
+msgid "Jaghbūb"
 msgstr ""
 
 # MT
 # LY-MI
 #. MI
 #, fuzzy
-msgid "Misratah"
+msgid "Mişrātah"
 msgstr "Málta"
 
-# LY-NA
-#. NA
-msgid "Naggaza"
+# DZ
+# VE-L
+#. MZ
+#, fuzzy
+msgid "Mizdah"
+msgstr "An Ailgéir"
+
+#. MQ
+msgid "Murzuq"
 msgstr ""
 
-# LY-SF
-#. SF
-msgid "Sawfajjin"
+#. NL
+msgid "Nālūt"
 msgstr ""
 
-# LY-TB
+#. SB
+msgid "Sabhā"
+msgstr ""
+
+#. SS
+msgid "Şabrātah Şurmān"
+msgstr ""
+
+# SY
+# TH-32
+#. SR
+#, fuzzy
+msgid "Surt"
+msgstr "An tSiria"
+
+#. TN
+msgid "Tājūrā' wa an Nawāhī al Arbāh"
+msgstr ""
+
 #. TB
-msgid "Tarabulus"
+msgid "Ţarābulus"
+msgstr ""
+
+#. TM
+msgid "Tarhūnah-Masallātah"
+msgstr ""
+
+#. WD
+msgid "Wādī al hayāt"
+msgstr ""
+
+#. YJ
+msgid "Yafran-Jādū"
 msgstr ""
 
 #
 # * ISO 3166-2 regions for Morocco
 #
 # MA-AGD
+#. #
 #. # ISO 3166-2 regions for Morocco
 #. #
 #. AGD
@@ -12365,6 +12540,7 @@ msgstr ""
 # CH
 # MD-CHI
 #. CU
+#. CH
 #, fuzzy
 msgid "Chisinau"
 msgstr "An tSín"
@@ -12957,6 +13133,7 @@ msgstr ""
 
 # MU-PL
 #. PU
+#. PL
 msgid "Port Louis"
 msgstr ""
 
@@ -13238,6 +13415,7 @@ msgstr ""
 
 # MW-MW
 #. MW
+#. 18
 msgid "Mwanza"
 msgstr ""
 
@@ -13484,88 +13662,92 @@ msgstr ""
 #. # http://www.din.de/gremien/nas/nabd/iso3166ma/samp_pt2.html
 #. #
 #. # Federal Territories
-#. W
+#. 14
 msgid "Wilayah Persekutuan Kuala Lumpur"
 msgstr ""
 
 # MY-L
-#. L
+#. 15
 msgid "Wilayah Persekutuan Labuan"
+msgstr ""
+
+#. 16
+msgid "Wilayah Persekutuan Putrajaya"
 msgstr ""
 
 # States:
 #
 # MY-J
 #. # States:
-#. J
+#. 01
 msgid "Johor"
 msgstr ""
 
 # Avoid; either use KR or KP
 # MY-K
-#. K
+#. 02
 #, fuzzy
 msgid "Kedah"
 msgstr "An Chóiré"
 
 # KE
 # MY-D
-#. D
+#. 03
 #, fuzzy
 msgid "Kelantan"
 msgstr "An Chéinia"
 
 # MY-M
-#. M
+#. 04
 msgid "Melaka"
 msgstr ""
 
 # MY-N
-#. N
+#. 05
 msgid "Negeri Sembilan"
 msgstr ""
 
 # MY-C
-#. C
+#. 06
 msgid "Pahang"
 msgstr ""
 
 # PE
 # MY-A
-#. A
+#. 08
 #, fuzzy
 msgid "Perak"
 msgstr "Peiriú"
 
 # PE
 # MY-R
-#. R
+#. 09
 #, fuzzy
 msgid "Perlis"
 msgstr "Peiriú"
 
 # MY-P
-#. P
+#. 07
 msgid "Pulau Pinang"
 msgstr ""
 
 # MY-SA
-#. SA
+#. 12
 msgid "Sabah"
 msgstr ""
 
 # MY-SK
-#. SK
+#. 13
 msgid "Sarawak"
 msgstr ""
 
 # MY-B
-#. B
+#. 10
 msgid "Selangor"
 msgstr ""
 
 # MY-T
-#. T
+#. 11
 msgid "Terengganu"
 msgstr ""
 
@@ -13576,6 +13758,7 @@ msgstr ""
 #. # ISO 3166-2 regions for Mozambique
 #. #
 #. MPM
+#. L
 msgid "Maputo"
 msgstr ""
 
@@ -14373,8 +14556,16 @@ msgstr ""
 msgid "Al Janblyah "
 msgstr ""
 
+# AT
+# LY-WU
+#. WU
+#, fuzzy
+msgid "Al Wusta"
+msgstr "An Ostair"
+
 # OM-SH
 #. SH
+#. 04
 msgid "Ash Sharqlyah"
 msgstr ""
 
@@ -14514,6 +14705,7 @@ msgstr ""
 
 # PE-LAL
 #. LAL
+#. LI
 msgid "La Libertad"
 msgstr ""
 
@@ -14918,6 +15110,7 @@ msgstr ""
 # LB
 # PH-LUN
 #. LUN
+#. UN
 #, fuzzy
 msgid "La Union"
 msgstr "An Liobáin"
@@ -15233,7 +15426,7 @@ msgid "Wielkopolskie"
 msgstr ""
 
 #. ZP
-msgid "Zachodniopomorskie"
+msgid "Zachodniopomorskie\t"
 msgstr ""
 
 # PS
@@ -15258,6 +15451,10 @@ msgstr ""
 
 # PT-02
 #. 02
+#. #
+#. # ISO 3166-2 regions for Tunisia
+#. #
+#. 31
 msgid "Beja"
 msgstr ""
 
@@ -16329,6 +16526,7 @@ msgstr ""
 
 # SA-12
 #. 12
+#. JA
 msgid "Al Jawf"
 msgstr ""
 
@@ -16790,7 +16988,7 @@ msgid "Celje"
 msgstr "An tSile"
 
 #. 012
-msgid "Cerkljena Gorenjskem"
+msgid "Cerklje\tna Gorenjskem"
 msgstr ""
 
 # CU
@@ -17587,6 +17785,7 @@ msgstr ""
 
 # BW-SO
 #. S
+#. 07
 msgid "Southern"
 msgstr ""
 
@@ -17594,6 +17793,7 @@ msgstr ""
 # * ISO 3166-2 regions for Senegal
 #
 # SN-DK
+#. #
 #. # ISO 3166-2 regions for Senegal
 #. #
 #. DK
@@ -17628,6 +17828,12 @@ msgstr "An Chóiré"
 #, fuzzy
 msgid "Louga"
 msgstr "An Phortaingéil"
+
+# MT
+#. MT
+#, fuzzy
+msgid "Matam"
+msgstr "Málta"
 
 # SN-SL
 #. SL
@@ -18614,6 +18820,13 @@ msgstr ""
 msgid "Mahdia"
 msgstr ""
 
+# MT
+# CA-MB
+#. 14
+#, fuzzy
+msgid "Manouba"
+msgstr "Málta"
+
 # TN-82
 #. 82
 msgid "Medenine"
@@ -19316,6 +19529,8 @@ msgstr "An tSín"
 
 # TW-HSZ
 #. HSQ
+#. # Municipalities:
+#. HSZ
 msgid "Hsinchu"
 msgstr ""
 
@@ -19336,6 +19551,8 @@ msgstr "An Iaráin"
 #
 # TW-KHH
 #. KHQ
+#. # Special municipalities:
+#. KHH
 msgid "Kaohsiung"
 msgstr ""
 
@@ -19363,18 +19580,21 @@ msgstr ""
 
 # TW-TXG
 #. TXQ
+#. TXG
 msgid "Taichung"
 msgstr ""
 
 # TZ
 # TW-TNN
 #. TNQ
+#. TNN
 #, fuzzy
 msgid "Tainan"
 msgstr "An Tansáin"
 
 # TW-TPE
 #. TPQ
+#. TPE
 msgid "Taipei"
 msgstr ""
 
@@ -19471,6 +19691,13 @@ msgstr ""
 #, fuzzy
 msgid "Lindi"
 msgstr "An India"
+
+# MT
+# LK-32
+#. 26
+#, fuzzy
+msgid "Manyara"
+msgstr "Málta"
 
 # MT
 # TZ-13
@@ -19687,7 +19914,7 @@ msgstr ""
 #. #
 #. # ISO 3166-2 regions for Uganda
 #. #
-#. AJM
+#. 301
 #, fuzzy
 msgid "Adjumani"
 msgstr "An tSúdáin"
@@ -19696,250 +19923,319 @@ msgstr "An tSúdáin"
 # * ISO 3166-2 regions for Uganda
 #
 # UG-APA
-#. APA
+#. 302
 msgid "Apac"
 msgstr ""
 
 # UG-ARU
-#. ARU
+#. 303
 msgid "Arua"
 msgstr ""
 
 # BG
 # BG
-#. BUG
+#. 201
 #, fuzzy
 msgid "Bugiri"
 msgstr "An Bhulgáir"
 
 # UG-BUN
-#. BUN
+#. 401
 msgid "Bundibugyo"
 msgstr ""
 
 # UG-BUS
-#. BUS
+#. 402
 msgid "Bushenyi"
 msgstr ""
 
 # TR-16
-#. BUA
+#. 202
 #, fuzzy
 msgid "Busia"
 msgstr "Burma"
 
 # UG-GUL
-#. GUL
+#. 304
 msgid "Gulu"
 msgstr ""
 
 # UG-HOI
-#. HOI
+#. 403
 msgid "Hoima"
 msgstr ""
 
 # UG
 # UG-IGA
-#. IGA
+#. 203
 #, fuzzy
 msgid "Iganga"
 msgstr "Uganda"
 
 # CH
 # UG-JIN
-#. JIN
+#. 204
 #, fuzzy
 msgid "Jinja"
 msgstr "An tSín"
 
 # UG-KBL
-#. KBL
+#. 404
 msgid "Kabale"
 msgstr ""
 
 # UG-KBR
-#. KBR
+#. 405
 msgid "Kabarole"
 msgstr ""
 
+#. 213
+msgid "Kaberamaido"
+msgstr ""
+
 # UG-KLG
-#. KLG
+#. 101
 msgid "Kalangala"
 msgstr ""
 
 # GT
 # UG-KLA
-#. KLA
+#. 102
 #, fuzzy
 msgid "Kampala"
 msgstr "Guatamala"
 
 # UG-KLI
-#. KLI
+#. 205
 msgid "Kamuli"
 msgstr ""
 
+# KE
+# GB-KEN
+#. 413
+#, fuzzy
+msgid "Kamwenge"
+msgstr "An Chéinia"
+
+# LB
+# TH-85
+#. 414
+#, fuzzy
+msgid "Kanungu"
+msgstr "An Liobáin"
+
 # UG-KAP
-#. KAP
+#. 206
 msgid "Kapchorwa"
 msgstr ""
 
 # UG-KAS
-#. KAS
+#. 406
 msgid "Kasese"
 msgstr ""
 
 # MW
-#. KAT
+#. 207
 #, fuzzy
 msgid "Katakwi"
 msgstr "An Mhaláiv"
 
-# UG-KLE
-#. KLE
-msgid "Kibeale"
-msgstr ""
+# ES
+# MM-13
+#. 112
+#, fuzzy
+msgid "Kayunga"
+msgstr "An Spáinn"
+
+# MT
+# UG-MBL
+#. 407
+#, fuzzy
+msgid "Kibaale"
+msgstr "Málta"
 
 # UG-KIB
-#. KIB
+#. 103
 msgid "Kiboga"
 msgstr ""
 
 # UG-KIS
-#. KIS
+#. 408
 msgid "Kisoro"
 msgstr ""
 
 # UG-KIT
-#. KIT
+#. 305
 msgid "Kitgum"
 msgstr ""
 
 # UG-KOT
-#. KOT
+#. 306
 msgid "Kotido"
 msgstr ""
 
 # KW
 # UG-KUM
-#. KUM
+#. 208
 #, fuzzy
 msgid "Kumi"
 msgstr "Cuáit"
 
+#. 415
+msgid "Kyenjojo"
+msgstr ""
+
 # LY
 # UG-LIR
-#. LIR
+#. 307
 #, fuzzy
 msgid "Lira"
 msgstr "An Libia"
 
 # UG-LUW
-#. LUW
+#. 104
 msgid "Luwero"
 msgstr ""
 
 # UG-MSK
-#. MSK
+#. 105
 msgid "Masaka"
 msgstr ""
 
 # UG-MSI
-#. MSI
+#. 409
 msgid "Masindi"
 msgstr ""
 
 # MT
+# CL-ML
+#. 214
+#, fuzzy
+msgid "Mayuge"
+msgstr "Málta"
+
+# MT
 # UG-MBL
-#. MBL
+#. 209
 #, fuzzy
 msgid "Mbale"
 msgstr "Málta"
 
 # UG-MBR
-#. MBR
+#. 410
 msgid "Mbarara"
 msgstr ""
 
 # MA
 # UG-MOR
-#. MOR
+#. 308
 #, fuzzy
 msgid "Moroto"
 msgstr "Maracó"
 
 # MC
 # UG-MOY
-#. MOY
+#. 309
 #, fuzzy
 msgid "Moyo"
 msgstr "Monacó"
 
 # UG-MPI
-#. MPI
+#. 106
 msgid "Mpigi"
 msgstr ""
 
 # UG-MUB
-#. MUB
+#. 107
 msgid "Mubende"
 msgstr ""
 
 # MC
 # UG-MUK
-#. MUK
+#. 108
 #, fuzzy
 msgid "Mukono"
 msgstr "Monacó"
 
+#. 311
+msgid "Nakapiripirit"
+msgstr ""
+
 # UZ-NG
-#. NAK
+#. 109
 #, fuzzy
 msgid "Nakasongola"
 msgstr "An Tasmáin"
 
 # UG-NEB
-#. NEB
+#. 310
 msgid "Nebbi"
 msgstr ""
 
 # UG-NTU
-#. NTU
+#. 411
 msgid "Ntungamo"
 msgstr ""
 
+# NO
+# HU-NO
+#. 312
+#, fuzzy
+msgid "Pader"
+msgstr "An Iorua"
+
 # PK
 # UG-PAL
-#. PAL
+#. 210
 #, fuzzy
 msgid "Pallisa"
 msgstr "An Phacastáin"
 
 # UG-RAK
-#. RAK
+#. 110
 msgid "Rakai"
 msgstr ""
 
 # UG-RUK
-#. RUK
+#. 412
 msgid "Rukungiri"
 msgstr ""
 
-#. SEM
+#. 111
 msgid "Sembabule"
 msgstr ""
 
+# ES
+# TR-57
+#. 215
+#, fuzzy
+msgid "Sironko"
+msgstr "An Spáinn"
+
 # UG-SOR
-#. SOR
+#. 211
 msgid "Soroti"
 msgstr ""
 
 # MA
 # UG-TOR
-#. TOR
+#. 212
 #, fuzzy
 msgid "Tororo"
 msgstr "Maracó"
+
+# MC
+# CV-MA
+#. 113
+#, fuzzy
+msgid "Wakiso"
+msgstr "Monacó"
+
+# SR
+#. 313
+#, fuzzy
+msgid "Yumbe"
+msgstr "Suranam"
 
 #
 # * ISO 3166-2 regions for United States Minor Outlying Islands
@@ -20073,6 +20369,7 @@ msgstr ""
 # JO
 # US-FL
 #. FL
+#. FD
 #, fuzzy
 msgid "Florida"
 msgstr "An Iordáin"
@@ -20522,11 +20819,13 @@ msgstr "An Chóiré"
 #. #
 #. # ISO 3166-2 regions for Venezuela
 #. #
+#. # Federal Dependencies:
 #. A
 msgid "Diatrito Federal"
 msgstr ""
 
 # VE-B
+#. # States:
 #. B
 msgid "Anzoategui"
 msgstr ""
@@ -20655,6 +20954,7 @@ msgstr ""
 # * ISO 3166-2 regions in Vietnam
 #
 # VN-44
+#. #
 #. # ISO 3166-2 regions in Vietnam
 #. #
 #. 44
@@ -21067,6 +21367,40 @@ msgstr ""
 msgid "Vaisigano"
 msgstr ""
 
+#
+# * ISO 3166-2 regions within Yugoslavia
+#
+# Republics
+#
+# YU-CG
+#. #
+#. # ISO 3166-2 regions for Serbia and Montenegro
+#. #
+#. # Republics:
+#. CG
+msgid "Crna Gora"
+msgstr ""
+
+# SY
+# YU-SR
+#. SR
+#, fuzzy
+msgid "Srbija"
+msgstr "An tSiria"
+
+# Autonomous provinces
+#
+# YU-KM
+#. # Autonomous provinces:
+#. KM
+msgid "Kosovo-Metohija"
+msgstr ""
+
+# YU-VO
+#. VO
+msgid "Vojvodina"
+msgstr ""
+
 # AL
 #
 # * ISO 3166-2 regions for Yemen
@@ -21166,39 +21500,6 @@ msgstr ""
 # YE-TA
 #. TA
 msgid "Ta'izz"
-msgstr ""
-
-#
-# * ISO 3166-2 regions within Yugoslavia
-#
-# Republics
-#
-# YU-CG
-#. # ISO 3166-2 regions within Yugoslavia
-#. #
-#. # Republics
-#. CG
-msgid "Crna Gora"
-msgstr ""
-
-# SY
-# YU-SR
-#. SR
-#, fuzzy
-msgid "Srbija"
-msgstr "An tSiria"
-
-# Autonomous provinces
-#
-# YU-KM
-#. # Autonomous provinces
-#. KM
-msgid "Kosovo-Metohija"
-msgstr ""
-
-# YU-VO
-#. VO
-msgid "Vojvodina"
 msgstr ""
 
 #

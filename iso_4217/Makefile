@@ -30,7 +30,8 @@ iso_4217.h: iso_4217.tab
 	../tab2h.pl 1 3 iso_4217.tab > iso_4217.h
 
 iso_4217.pot: iso_4217.h
-	xgettext --extract-all --output $@ --add-comments $<
+	xgettext --extract-all --add-comments --no-location \
+	  --from-code=UTF-8 --output $@ $<
 
 %.mo: %.po
 	msgfmt --verbose --check $< -o $@

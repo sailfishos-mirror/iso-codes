@@ -6,10 +6,6 @@
 PREFIX=/usr
 
 MO_FILES = $(patsubst %.po,%.mo, $(wildcard *.po))
-DATA_FILES=iso_3166.tab 	\
-	iso_3166_1.tab		\
-	iso_3166_2.tab		\
-	iso_3166_3.tab
 TARGETS=$(patsubst %,${INSTALL_DIR}/%, ${MO_FILES})
 INSTALL=install -m 644
 MKDIR_P=mkdir -p
@@ -22,10 +18,6 @@ all: iso_3166.pot ${MO_FILES}
 
 install: all
 	${MKDIR_P} ${SHAREDIR}
-	${INSTALL} iso_3166.tab ${SHAREDIR}/iso_3166.tab
-	${INSTALL} iso_3166_2.tab ${SHAREDIR}/iso_3166_2.tab
-	${INSTALL} iso_3166_3.tab  ${SHAREDIR}/iso_3166_3.tab
-	${INSTALL} iso_3166_1.tab ${SHAREDIR}/iso_3166_1.tab
 	for d in ${MO_FILES} ; do \
 		lang=`basename $$d | sed 's/.mo$$//' ` ; \
 		dir=${destdir}/$$lang/LC_MESSAGES ; \
@@ -38,7 +30,8 @@ iso_3166.h: iso_3166.tab
 	../tab2h.pl 1 2 iso_3166.tab > iso_3166.h
 
 %.pot: %.h
-	xgettext --extract-all --output $@ --from-code=UTF-8 --add-comments $<
+	xgettext --extract-all --output $@  --from-code=UTF-8 \
+	  --no-location --add-comments $<
 
 %.mo: %.po
 	msgfmt --verbose --check $< -o $@

@@ -10,6 +10,7 @@ TARGETS=$(patsubst %,${INSTALL_DIR}/%, ${MO_FILES})
 INSTALL=install -m 644
 MKDIR_P=mkdir -p
 destdir=${PREFIX}/share/locale
+SHAREDIR=$(PREFIX)/share/iso-codes
 
 
 all: ${MO_FILES}
@@ -21,14 +22,16 @@ install: all
 		${MKDIR_P} $$dir ; \
 		${INSTALL} $$d $$dir/iso_3166_1.mo ; \
 	done
+	$(INSTALL) iso_3166_1.tab $(SHAREDIR)/iso_3166_1.tab
 
-iso_3166_1.h: ../iso_3166_1.tab
-	( cut -f1,4 ../iso_3166_1.tab | ../../tab2h.pl 1 2  - | grep -v N_\(\"\"\)  > iso_3166_1.h )
+iso_3166_1.h: iso_3166_1.tab
+	( cut -f1,4 iso_3166_1.tab | ../../tab2h.pl 1 2  - | grep -v N_\(\"\"\)  > iso_3166_1.h )
 
 ${MO_FILES}: iso_3166_1.h
 
 %.pot: %.h
-	xgettext --extract-all --output $@ --from-code=UTF-8 --add-comments $<
+	xgettext --extract-all --no-location --output $@ \
+	 --from-code=UTF-8 --add-comments $<
 
 %.mo: %.po
 	msgfmt --verbose --check $< -o $@

@@ -32,7 +32,8 @@ iso_639.h: iso_639.tab
 	../tab2h.pl 1 4 iso_639.tab > iso_639.h
 
 iso_639.pot: iso_639.h
-	xgettext --extract-all --output $@ --add-comments $<
+	xgettext --extract-all --from-code=UTF-8 --no-location \
+	 --output $@ --add-comments $<
 
 %.mo: %.po
 	msgfmt --verbose --check $< -o $@
