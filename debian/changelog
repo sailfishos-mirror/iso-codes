@@ -1,4 +1,4 @@
-iso-codes (0.42-1) UNRELEASED; urgency=low
+iso-codes (0.42-1) unstable; urgency=low
 
   * iso_3166
     - Kinyarwanda by  Steve Murphy.
@@ -12,6 +12,7 @@ iso-codes (0.42-1) UNRELEASED; urgency=low
     - New codes in Standard: Closes: #280732.
       - Patches from Christian Perrier to update. Closes: #277467, #278759.
     - Corrections thanks to Edmund GRIMLEY EVANS. Closes: #277825.
+    - Terminology and Biblio codes were swapped. Closes: #284994.
     - nl.po: Updated by Elros Cyriatan, Taco Witte, Luk Claes.
     - eo.po: Updated by Edmund GRIMLEY EVANS.
     - da.po: Updated by Claus Hindsgaul.
@@ -19,10 +20,8 @@ iso-codes (0.42-1) UNRELEASED; urgency=low
   * iso_4217
     - rw.po: Kinyarwanda by  Steve Murphy.
   * Package autoconf'd by Christian Persch.
-  *
-  * 
 
- -- Alastair McKinstry <mckinstry@debian.org>  Sat,  8 Jan 2005 18:19:35 +0000
+ -- Alastair McKinstry <mckinstry@debian.org>  Sat,  8 Jan 2005 20:26:12 +0000
 
 iso-codes (0.41-1) unstable; urgency=low
 

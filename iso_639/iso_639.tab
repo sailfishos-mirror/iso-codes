@@ -32,7 +32,7 @@ afh	afh	XX	Afrihili
 afr	afr	af	Afrikaans
 aka	aka	ak	Akan
 akk	akk	ak	Akkadian
-alb	sqi	sq	Albanian
+sqi	alb	sq	Albanian
 ale	ale	XX	Aleut
 alg	alg	XX	Algonquian languages
 amh	amh	am	Amharic
@@ -41,7 +41,7 @@ apa	apa	XX	Apache languages
 ara	ara	ar	Arabic
 arc	arc	XX	Aramaic
 arg	arg	an	Aragonese
-arm	hye	hy	Armenian
+hye	arm	hy	Armenian
 arn	arn	XX	Araucanian
 arp	arp	XX	Arapaho
 art	art	XX	Artificial (Other)
@@ -61,7 +61,7 @@ bak	bak	ba	Bashkir
 bal	bal	XX	Baluchi
 bam	bam	bm	Bambara
 ban	ban	XX	Balinese
-baq	eus	eu	Basque
+eus	baq	eu	Basque
 bas	bas	XX	Basa
 bat	bat	XX	Baltic (Other)
 bej	bej	XX	Beja
@@ -83,7 +83,7 @@ btk	btk	XX	Batak (Indonesia)
 bua	bua	XX	Buriat
 bug	bug	XX	Buginese
 bul	bul	bg	Bulgarian
-bur	mya	my	Burmese
+mya	bur	my	Burmese
 byn	byn	XX	Blin; Bilin
 cad	cad	XX	Caddo
 cai	cai	XX	Central American Indian (Other)
@@ -96,7 +96,7 @@ cha	cha	ch	Chamorro
 chb	chb	XX	Chibcha
 che	che	ce	Chechen
 chg	chg	XX	Chagatai
-chi	zho	zh	Chinese
+zho	chi	zh	Chinese
 chk	chk	XX	Chukese
 chm	chm	XX	Mari
 chn	chn	XX	Chinook jargon
@@ -119,7 +119,7 @@ crp	crp	XX	Creoles and pidgins (Other)
 csb	csb	XX	Kashubian
 cus	cus	XX	Cushitic (Other)
 cus	cus	XX	Portuguese-based (Other)
-cze	ces	cs	Czech
+ces	cze	cs	Czech
 dak	dak	XX	Dakota
 dan	dan	da	Danish
 dar	dar	XX	Dargwa
@@ -133,7 +133,7 @@ doi	doi	XX	Dogri
 dra	dra	XX	Dravidian (Other)
 dua	dua	XX	Duala
 dum	dum	XX	Dutch, Middle (ca. 1050-1350)
-dut	nld	nl	Dutch
+nld	dut	nl	Dutch
 dyu	dyu	XX	Dyula
 dzo	dzo	dz	Dzongkha
 efi	efi	XX	Efik
@@ -153,7 +153,7 @@ fij	fij	fj	Fijian
 fin	fin	fi	Finnish
 fiu	fiu	XX	Finno-Ugrian (Other)
 fon	fon	XX	Fon
-fre	fra	fr	French
+fra	fre	fr	French
 frm	frm	XX	French, Middle (ca.1400-1600)
 fro	fro	XX	French, Old (842-ca.1400)
 fry	fry	fy	Frisian
@@ -163,8 +163,8 @@ gaa	gaa	ga	Ga
 gay	gay	XX	Gayo
 gba	gba	XX	Gbaya
 gem	gem	XX	Germanic (Other)
-geo	kat	ka	Georgian
-ger	deu	de	German
+kat	geo	ka	Georgian
+deu	ger	de	German
 gez	gez	XX	Geez
 gil	gil	XX	Gilbertese
 gla	gla	gd	Gaelic; Scottish
@@ -178,7 +178,7 @@ gor	gor	XX	Gorontalo
 got	got	XX	Gothic
 grb	grb	XX	Grebo
 grc	grc	XX	Greek, Ancient (to 1453)
-gre	ell	el	Greek, Modern (1453-)
+ell	gre	el	Greek, Modern (1453-)
 grn	grn	gn	Guarani
 guj	guj	gu	Gujarati
 gwi	gwi	XX	Gwichin
@@ -199,7 +199,7 @@ hun	hun	hu	Hungarian
 hup	hup	XX	Hupa
 iba	iba	XX	Iban
 ibo	ibo	ig	Igbo
-ice	isl	is	Icelandic
+isl	ice	is	Icelandic
 ido	ido	io	Ido
 iii	iii	ii	Sichuan Yi
 ijo	ijo	XX	Ijo
@@ -273,7 +273,7 @@ lui	lui	XX	Luiseno
 lun	lun	XX	Lunda
 luo	luo	XX	Luo (Kenya and Tanzania)
 lus	lus	XX	Lushai
-mac	mkd	mk	Macedonian
+mkd	mac	mk	Macedonian
 mad	mad	XX	Madurese
 mag	mag	XX	Magahi
 mah	mah	mh	Marshallese
@@ -281,11 +281,11 @@ mai	mai	XX	Maithili
 mak	mak	XX	Makasar
 mal	mal	ml	Malayalam
 man	man	XX	Mandingo
-mao	mri	mi	Maori
+mri	mao	mi	Maori
 map	map	XX	Austronesian (Other)
 mar	mar	mr	Marathi
 mas	mas	XX	Masai
-may	msa	ms	Malay
+msa	mal	ms	Malay
 mdf	mdf	XX	Moksha
 mdr	mdr	XX	Mandar
 men	men	XX	Mende
@@ -350,7 +350,7 @@ pan	pan	pa	Panjabi
 pap	pap	XX	Papiamento
 pau	pau	XX	Palauan
 peo	peo	XX	Persian, Old (ca.600-400 B.C.)
-per	fas	fa	Persian
+fas	per	fa	Persian
 phi	phi	XX	Philippine (Other)
 phn	phn	XX	Phoenician
 pli	pli	pi	Pali
@@ -367,7 +367,7 @@ rar	rar	XX	Rarotongan
 roa	roa	XX	Romance (Other)
 roh	roh	rm	Raeto-Romance
 rom	rom	XX	Romany
-rum	ron	ro	Romanian
+ron	rum	ro	Romanian
 run	run	rn	Rundi
 rus	rus	ru	Russian
 sad	sad	XX	Sandawe
@@ -379,9 +379,9 @@ sam	sam	XX	Samaritan Aramaic
 san	san	sa	Sanskrit
 sas	sas	XX	Sasak
 sat	sat	XX	Santali
-scc	srp	sr	Serbian
+srp	scc	sr	Serbian
 sco	sco	XX	Scots
-scr	hrv	hr	Croatian
+hrv	scr	hr	Croatian
 sel	sel	XX	Selkup
 sem	sem	XX	Semitic (Other)
 sga	sga	XX	Irish, Old (to 900)
@@ -392,7 +392,7 @@ sin	sin	si	Sinhalese
 sio	sio	XX	Siouan languages
 sit	sit	XX	Sino-Tibetan (Other)
 sla	sla	XX	Slavic (Other)
-slo	slk	sk	Slovak
+slk	slo	sk	Slovak
 slv	slv	sl	Slovenian
 sma	sma	XX	Southern Sami
 sme	sme	se	Northern Sami
@@ -432,7 +432,7 @@ tet	tet	XX	Tetum
 tgk	tgk	tg	Tajik
 tgl	tgl	tl	Tagalog
 tha	tha	th	Thai
-tib	bod	bo	Tibetan
+bod	tib	bo	Tibetan
 tig	tig	XX	Tigre
 tir	tir	ti	Tigrinya
 tiv	tiv	XX	Tiv
@@ -470,7 +470,7 @@ wak	wak	XX	Wakashan languages
 wal	wal	XX	Walamo
 war	war	XX	Waray
 was	was	XX	Washo
-wel	cym	cy	Welsh
+cym	wel	cy	Welsh
 wen	wen	XX	Sorbian languages
 wln	wln	wa	Walloon
 wol	wol	wo	Wolof
