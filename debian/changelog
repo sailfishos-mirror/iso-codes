@@ -1,4 +1,4 @@
-iso-codes (0.42-3) UNRELEASED; urgency=low
+iso-codes (0.42-3) unstable; urgency=low
 
   * iso_3166
     - Tagalog by Eric Pareja. Closes: #291028
@@ -7,6 +7,8 @@ iso-codes (0.42-3) UNRELEASED; urgency=low
     - 'Panjabi' changed to 'Punjabi' on translators advice; Closes: #291173.
   * iso_3166_2
     - Corrections to sk by Jan Minar; space  corrections. Closes: #193256.
+  * Correct autogen/autoconf code. Now builds .pot and Makefiles properly
+    Thanks to Christian Persch.
 
  -- Alastair McKinstry <mckinstry@debian.org>  Thu,  3 Feb 2005 20:56:14 +0000
 
