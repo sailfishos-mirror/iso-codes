@@ -1,11 +1,11 @@
-iso-codes (0.41-2) UNRELEASED; urgency=low
+iso-codes (0.42-1) UNRELEASED; urgency=low
 
   * iso_3166
     - Kinyarwanda by  Steve Murphy.
   * iso_3166_2
     - nl.po: Updated by Elros Cyriatan.
   * iso_639
-    - New codes in Standard:
+    - New codes in Standard: Closes: #280732.
       - Patches from Christian Perrier to update. Closes: #277467, #278759.
     - Corrections thanks to Edmund GRIMLEY EVANS. Closes: #277825.
     - nl.po: Updated by Elros Cyriatan.
@@ -15,7 +15,7 @@ iso-codes (0.41-2) UNRELEASED; urgency=low
   * iso_4217
     - rw.po: Kinyarwanda by  Steve Murphy.
 
- -- Alastair McKinstry <mckinstry@debian.org>  Tue,  9 Nov 2004 20:47:46 +0000
+ -- Alastair McKinstry <mckinstry@debian.org>  Sat, 13 Nov 2004 17:26:15 +0000
 
 iso-codes (0.41-1) unstable; urgency=low
 
