@@ -33,7 +33,7 @@ iso_3166.tab: iso_3166.xml
 	./iso3166tab.py | sort > iso_3166.tab
 
 iso_3166.pot: iso_3166.xml
-	../iso2pot.py --is-version $(VERSION) --comment alpha_3_code \
+	../iso2pot.py --is-version $(VERSION) --comments alpha_3_code \
 		--fields name,official_name,common_name $< $@
 
 %.mo: %.po

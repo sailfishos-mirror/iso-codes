@@ -34,7 +34,7 @@ class printPot(saxutils.DefaultHandler):
 		if n != None and not self.done.has_key(n):
 			self.ofile.write("\n")
                 	if c != None:
-				self.ofile.write("# " + c + " , " + aname +  "\n")
+				self.ofile.write("# " + aname + " for " + c +  "\n")
 			self.ofile.write ("msgid \"" + n + "\"\n")
 			self.ofile.write ("msgstr \"\"\n")
 			self.done[n] = 'True'
@@ -89,7 +89,7 @@ for opt, arg in opts:
         version = arg
     elif opt in ('-f', '--fields'):
     	fields = arg.split(',')
-    elif opt in ('-c','--comment'):
+    elif opt in ('-c','--comments'):
         comment = arg
 
 if len(trail)==2:
