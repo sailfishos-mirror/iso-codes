@@ -1,4 +1,4 @@
-iso-codes (0.46-1) UNRELEASED; urgency=low
+iso-codes (0.46-1) unstable; urgency=low
 
   * iso_639:
     English, French names for 'xal' changed to '
@@ -19,9 +19,10 @@ iso-codes (0.46-1) UNRELEASED; urgency=low
     - fi.po updated by Tommi Vainikainen
   * debian/control: improved description for iso-3166-udeb. Closes: #300310
   * Removed unnecessary Makefile.in, configure, etc files from CVS.
-    Patch from Christian Persch: cleanups to Makefile.am's
+    Patch from Christian Persch: cleanups to Makefile.am'
+  * Fix prefix breakage in iso-codes.pc. Closes: #302707.
 
- -- Alastair McKinstry <mckinstry@debian.org>  Fri,  1 Apr 2005 21:28:47 +0100
+ -- Alastair McKinstry <mckinstry@debian.org>  Sun,  3 Apr 2005 08:25:32 +0100
 
 iso-codes (0.45-1) unstable; urgency=low
 
