@@ -1,4 +1,12 @@
-iso-codes (0.34-1) UNRELEASED; urgency=low
+iso-codes (0.34-2) UNRELEASED; urgency=low
+
+  * iso_3166:
+    - es.po: Updated (fuzzies removed) by Christian Perrier
+    - ko.po: Updated by Changwoo Ryu. Closes: #252200
+
+ -- Christian Perrier <bubulle@debian.org>  Sat, 12 Jun 2004 08:25:07 +0200
+
+iso-codes (0.34-1) unstable; urgency=low
 
   * iso_3166.tab: Now generated from iso_3166.xml.
      Lists short names from XML. If a 'common_name' element exists,
@@ -19,7 +27,6 @@ iso-codes (0.34-1) UNRELEASED; urgency=low
     - de.po: Updated by Dennis Stampfer
     - eu.po: Updated by Piarres Beobide Egaña. Closes: #252058
     - lt.po: Updated by Kęstutis Biliūnas.
-    - es.po: Updated (fuzzies removed) by Christian Perrier
   * iso_3166_1:
     - lt.po: Updated by Kęstutis Biliūnas.
   * iso_3166_2:
