@@ -1,35 +1,40 @@
 iso-codes (0.30-1) UNRELEASED; urgency=low
 
-  * Javier Fernández-Sanguino Peña:
-    - Updated iso_3166/es.po, iso_639/es.po.
-  * Alastair McKinstry
-    - iso_3166/nl.po: Unfuzzied entries from Elros Cyriatan (TR. project).
-    - Data taken from ICU-2.8:
-      iso_3166: so.po, am.po, om.po, hi.po, te.po, kok.po, mr.po added.
-    - iso_639: "ur" code for Urdu.
-  * Eddy Petrisor
-    - iso_3166/ro.po: file update
-  * Elros Cyriatan
-    - iso_4217/nl.po: update
-  * Eugeniy Meshcheryakov
-    - iso_3166/iso_3166_2/uk.po: update
-  * Dennis Stampfer
-    - iso_3166/de.po update.
-  * Claus Hindsgaul
-    - updates for all danish translations
-  * Kęstutis Biliūnas
-    - updated iso_3166_3/lt.po
-    - updated iso_639/lt.po
-  * Andre Luis Lopes
-    - updated iso_3166/pt_BR.po; Closes: #242152.
-  * Changwoo Ryu
-    - updated iso_3166/ko.po. Closes: #242200
-  * Lior Kaplan
-    - added iso_3166/he.po
-  * Luk Claes
-    - Updated iso_3166/nl.po.
-  *  Arief S Fitrianto 
-    - Updated iso_3166/id.po.
+  * iso_3166:
+    - es.po: Updated by Javier Fernández-Sanguino Peña
+    - nl.po: Unfuzzied entries from Elros Cyriatan (TR. project)
+    - nl.po: Updated by Luk Claes.
+    - so.po: New, data from ICU-2.8.
+    - am.po: New, data from ICU-2.8.
+    - om.po: New, data from ICU-2.8.
+    - hi.po: New, data from ICU-2.8.
+    - te.po: New, data from ICU-2.8.
+    - kok.po: New, data from ICU-2.8.
+    - mr.po: New, data from ICU-2.8.
+    - ro.po: Updated by Eddy Petrisor.
+    - de.po: Updated by Dennis Stampfer.
+    - he.po: New, added by Lior Kaplan.
+    - id.po: Updated by Arief S Fitrianto.
+    - ko.po: Updated by Changwoo Ryu. Closes: #242200.
+    - pt_BR.po: Updated by Andre Luis Lopes.  Closes: #242152.
+    - da.po: Updated by Claus Hindsgaul.
+  * iso_3166_1:
+    - da.po: Updated by Claus Hindsgaul.
+  * iso_3166_2:
+    - uk.po: Updated by Eugeniy Meshcheryakov.
+    - da.po: Updated by Claus Hindsgaul.
+  * iso_3166_3:
+    - lt.po: Updated by Kęstutis Biliūnas.
+    - da.po: Updated by Claus Hindsgaul.
+  * iso_639:
+    - iso_639.tab, iso_316.xml: 2-letter code for Urdu is "ur".
+    - es.po: Updated by Javier Fernández-Sanguino Peña.
+    - lt.po: Updated by Kęstutis Biliūnas.
+    - wa.po: Updated by Pablo Saratxaga.
+    - da.po: Updated by Claus Hindsgaul.
+  * iso_4217:
+    - nl.po: Updated by Elros Cyriatan.
+    - da.po: Updated by Claus Hindsgaul.
 
  -- Christian Perrier <bubulle@debian.org>  Wed,  7 Apr 2004 10:42:14 +0200
 
