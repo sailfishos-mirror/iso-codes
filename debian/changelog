@@ -1,4 +1,4 @@
-iso-codes (0.43-1) unstable; urgency=low
+iso-codes (0.44-1) unstable; urgency=low
 
   * iso_3166
     - Tagalog by Eric Pareja. Closes: #291028
@@ -12,7 +12,7 @@ iso-codes (0.43-1) unstable; urgency=low
 
  -- Alastair McKinstry <mckinstry@debian.org>  Thu,  3 Feb 2005 20:56:14 +0000
 
-iso-codes (0.42-2) unstable; urgency=low
+iso-codes (0.43-1) unstable; urgency=low
 
   * iso_3166/Makefile: makefile dropped necessary argument for iso3166tab.py, 
     which caused zero-byte iso_3166.tab files. Closes: #289681.

@@ -15,6 +15,7 @@ build: build-stamp
 
 build-stamp:
 	dh_testdir
+	./configure --prefix=`pwd`/debian/iso-codes/usr
 	$(MAKE)
 	touch build-stamp
 
@@ -32,8 +33,6 @@ binary-indep: build-stamp
 binary: binary-arch
 	dh_testdir
 	dh_testroot
-	aclocal
-	./configure --prefix=`pwd`/debian/iso-codes/usr
 	make install
 	mkdir -p `pwd`/debian/iso-3166-udeb/usr/share/iso-codes
 	cp iso_3166/iso_3166.tab  \
