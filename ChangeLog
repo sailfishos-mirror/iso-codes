@@ -1,3 +1,15 @@
+0.41 Alastair McKinstry <mckinstry@debian.org>
+
+  * iso_3166
+    - ca.po: Updated by Jordi Mallach
+    - fi.po: Updated by Tapio Lehtonen
+    - mk.po: Updated by Georgi Stanojevski
+  * iso_639
+    - Changed Spanish language name to remove "Castilian".
+      Thanks to Carlos Perelló Marín; 
+    - Removed obsolete entries in PO files as they are likely to confuse
+      gettext utilities because of duplicate entries
+
 0.40 Alastair McKinstry <mckinstry@debian.org>
 
  * iso_3166
