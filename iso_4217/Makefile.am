@@ -1,5 +1,4 @@
 DOMAIN = iso_4217
-VERSION = @PACKAGE_VERSION@
 
 xmldir = $(datadir)/xml/iso-codes
 xml_DATA = $(DOMAIN).xml

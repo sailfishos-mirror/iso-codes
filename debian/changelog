@@ -1,6 +1,9 @@
 iso-codes (0.45-2) UNRELEASED; urgency=low
 
   * iso_639:
+    English, French names for 'xal' changed to '
+      - en: Kalmyk; Oirat
+      - fr: kalmouk; oïrat. Closes: #301371
     - eo.po updated by Edmund GRIMLEY EVANS.
     - fi.po updated by Tommi Vainikainen.
     - rw.po updated by Steve Murphy.
@@ -13,9 +16,10 @@ iso-codes (0.45-2) UNRELEASED; urgency=low
     - vi.po updated by  Clytie Siddall.
   * iso_4217:
     - vi.po updated by  Clytie Siddall.
-    - fi.po updated by Tommi Vainikainen 
+    - fi.po updated by Tommi Vainikainen
+  * debian/control: improved description for iso-3166-udeb. Closes: #300310
 
- -- Alastair McKinstry <mckinstry@debian.org>  Thu, 10 Mar 2005 19:57:00 +0000
+ -- Alastair McKinstry <mckinstry@debian.org>  Tue, 29 Mar 2005 19:21:06 +0100
 
 iso-codes (0.45-1) unstable; urgency=low
 
