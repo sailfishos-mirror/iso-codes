@@ -1,3 +1,9 @@
+iso-codes (0.44-2) UNRELEASED; urgency=low
+
+  *  Acknowledge NMU by Joey Hess with Thanks. Closes: #289765.
+
+ -- Alastair McKinstry <mckinstry@debian.org>  Mon,  7 Feb 2005 18:50:58 +0000
+
 iso-codes (0.44-1) unstable; urgency=low
 
   * iso_3166
@@ -13,12 +19,17 @@ iso-codes (0.44-1) unstable; urgency=low
 
  -- Alastair McKinstry <mckinstry@debian.org>  Thu,  3 Feb 2005 20:56:14 +0000
 
-iso-codes (0.43-1) unstable; urgency=low
+x+iso-codes (0.42-1.1) unstable; urgency=low
 
-  * iso_3166/Makefile: makefile dropped necessary argument for iso3166tab.py, 
-    which caused zero-byte iso_3166.tab files. Closes: #289681.
+  * Emergency NMU to fix d-i.
+  * Fix call to iso3166tab.py (it needs a parameter), so iso_3166.tab
+    is no longer an empty file. Closes: #289765
+  * Decouple sort from iso3166tab.py call, so if the script fails in the
+    future, the build will fail too.
+  * Set LC_ALL=C when calling sort, just in case the build locale is
+    different.
 
- -- Alastair McKinstry <mckinstry@debian.org>  Mon, 10 Jan 2005 21:19:17 +0000
+ -- Joey Hess <joeyh@debian.org>  Mon, 10 Jan 2005 17:19:41 -0500
 
 iso-codes (0.42-1) unstable; urgency=low
 

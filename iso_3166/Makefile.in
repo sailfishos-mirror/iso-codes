@@ -385,8 +385,10 @@ uninstall-info: uninstall-info-recursive
 	uninstall-recursive uninstall-tabDATA uninstall-xmlDATA
 
 
-%.tab: %.xml
-	$(srcdir)/iso3166tab.py $< | sort > $@
+iso_3166.tab: iso_3166.xml
+	./iso3166tab.py $< > iso_3166.tab.new
+	LC_ALL=C sort < iso_3166.tab.new > iso_3166.tab
+	rm -f iso_3166.tab.new
 
 iso_3166.pot: iso_3166.xml
 	../iso2pot.py --is-version $(VERSION) --comments alpha_3_code \

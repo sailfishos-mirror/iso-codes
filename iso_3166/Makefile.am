@@ -9,8 +9,10 @@ xml_DATA = $(DOMAIN).xml
 tabdir = $(datadir)/iso-codes
 tab_DATA = $(DOMAIN).tab
 
-%.tab: %.xml
-	$(srcdir)/iso3166tab.py $< | sort > $@
+iso_3166.tab: iso_3166.xml
+	./iso3166tab.py $< > iso_3166.tab.new
+	LC_ALL=C sort < iso_3166.tab.new > iso_3166.tab
+	rm -f iso_3166.tab.new
 
 pofiles = $(wildcard $(srcdir)/*.po)
 mofiles = $(patsubst $(srcdir)/%.po,%.mo, $(pofiles))

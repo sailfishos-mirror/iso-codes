@@ -18,7 +18,7 @@ SHELL = /bin/sh
 srcdir = .
 top_srcdir = .
 
-prefix = /usr/local
+prefix = /usr/local/src/iso-codes/iso-codes-cvs/debian/iso-codes/usr
 exec_prefix = ${prefix}
 
 bindir = ${exec_prefix}/bin
