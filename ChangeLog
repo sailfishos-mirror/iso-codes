@@ -1,3 +1,40 @@
+0.43 Alastair McKinstry <mckinstry@debian.org>
+
+  * iso_3166
+    - Tagalog by Eric Pareja. Closes: #291028
+  * iso_639
+    - French corrected by Christian Perrier
+    - 'Panjabi' changed to 'Punjabi' on translators advice; Closes: #291173.
+  * iso_3166_2
+    - Corrections to sk by Jan Minar; space  corrections. Closes: #193256.
+  * Correct autogen/autoconf code. Now builds .pot and Makefiles properly
+    Thanks to Christian Persch.
+
+0.42 Alastair McKinstry <mckinstry@debian.org>
+
+  * iso_3166
+    - Kinyarwanda by  Steve Murphy.
+    - Welsh: updated by Dafydd Harries. Closes: #282190
+    - Bosnian: updated by Safir Secerovic
+    - Swedish updated by Christian Rose.
+    - Dutch, updated by Luk Claes.
+  * iso_3166_2
+    - nl.po: Updated by Elros Cyriatan.
+  * iso_639
+    - New codes in Standard: Closes: #280732.
+      - Patches from Christian Perrier to update. Closes: #277467, #278759.
+    - Corrections thanks to Edmund GRIMLEY EVANS. Closes: #277825.
+    - Terminology and Biblio codes were swapped. Closes: #284994.
+    - nl.po: Updated by Elros Cyriatan, Taco Witte, Luk Claes.
+    - eo.po: Updated by Edmund GRIMLEY EVANS.
+    - da.po: Updated by Claus Hindsgaul.
+    - rw.po: Kinyarwanda by  Steve Murphy.
+  * iso_4217
+    - rw.po: Kinyarwanda by  Steve Murphy.
+  * Package autoconf'd by Christian Persch.
+
+ -- Alastair McKinstry <mckinstry@debian.org>  Sat,  8 Jan 2005 20:26:12 +0000
+
 0.41 Alastair McKinstry <mckinstry@debian.org>
 
   * iso_3166
