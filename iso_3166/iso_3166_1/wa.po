@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_3166 0.19\n"
-"Report-Msgid-Bugs-To: Alastair McKinstry <mckinstry@debian.org>\n"
-"POT-Creation-Date: 2004-01-06 11:48+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-02-20 11:29+0000\n"
 "PO-Revision-Date: 2004-02-26 09:22+0100\n"
 "Last-Translator: Pablo Saratxaga <pablo@walon.org>\n"
 "Language-Team: Walloon <linux-wa@walon.org>\n"
@@ -15,1222 +15,1489 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.0.2\n"
 
-#. AD
-#: iso-3166.h:2
-msgid "Andorra"
-msgstr "Andore"
-
-#. AE
-#: iso-3166.h:4
-msgid "United Arab Emirates"
-msgstr "Emirats Arabes Unis"
-
+#. ## iso-3166-1.tab
+#. ## Further elements of the ISO-3166-1 standard
+#. ##
+#. ## Copyright (C) 2002,2004 Alastair McKinstry <mckinstry@debian.org>
+#. ##    Additional material: Andreas Jochens <aj@andaco.de>
+#. ##    Last updated: 2002-11-06
+#. ## Released under the LGPL
+#. ##
+#. ## Format:
+#. ##  Two-letter-code Three-letter-code Numeric-code Official-Name-of-Country
+#. ##
 #. AF
-#: iso-3166.h:6
-msgid "Afghanistan"
-msgstr "Afganistan"
+msgid "The Transitional Islamic State of Afghanistan"
+msgstr ""
 
-#. AG
-#: iso-3166.h:8
-msgid "Antigua and Barbuda"
-msgstr "Antigua eyet Barbuda"
-
-#. AI
-#: iso-3166.h:10
-msgid "Anguilla"
-msgstr "Anguila"
+#. AX
+#, fuzzy
+msgid "Åland Islands"
+msgstr "Iyes Cayman"
 
 #. AL
-#: iso-3166.h:12
-msgid "Albania"
-msgstr "Albaneye"
+msgid "Republic of Albania"
+msgstr ""
 
-#. AM
-#: iso-3166.h:14
-msgid "Armenia"
-msgstr "Årmeneye"
-
-#. AN
-#: iso-3166.h:16
-msgid "Netherlands Antilles"
-msgstr "Antiyes neyerlandesses"
-
-#. AO
-#: iso-3166.h:18
-msgid "Angola"
-msgstr "Angola"
-
-#. AQ
-#: iso-3166.h:20
-msgid "Antarctica"
-msgstr "Antartike"
-
-#. AR
-#: iso-3166.h:22
-msgid "Argentina"
-msgstr "Årdjintene"
+#. DZ
+#, fuzzy
+msgid "People's Democratic Republic of Algeria"
+msgstr "Congo-Kinshasa"
 
 #. AS
-#: iso-3166.h:24
 msgid "American Samoa"
 msgstr "Samowa amerikinne"
 
-#. AT
-#: iso-3166.h:26
-msgid "Austria"
-msgstr "Otriche"
+#. AD
+msgid "Principality of Andorra"
+msgstr ""
 
-#. AU
-#: iso-3166.h:28
-msgid "Australia"
-msgstr "Ostraleye"
+#. AO
+#, fuzzy
+msgid "Republic of Angola"
+msgstr "Corêye (nonnrece)"
+
+#. AI
+msgid "Anguilla"
+msgstr "Anguila"
+
+#. AQ
+#, fuzzy
+msgid "Antartica"
+msgstr "Antartike"
+
+#. AG
+msgid "Antigua and Barbuda"
+msgstr "Antigua eyet Barbuda"
+
+#. AR
+#, fuzzy
+msgid "Argentine Republic"
+msgstr "Republike Dominikinne"
+
+#. AM
+msgid "Republic of Armenia"
+msgstr ""
 
 #. AW
-#: iso-3166.h:30
 msgid "Aruba"
 msgstr "Arouba"
 
+#. AU
+msgid "Australia"
+msgstr "Ostraleye"
+
+#. AT
+msgid "Republic of Austria"
+msgstr ""
+
 #. AZ
-#: iso-3166.h:32
-msgid "Azerbaijan"
+#, fuzzy
+msgid "Republic of Azerbaijan"
 msgstr "Azerbaydjan"
 
-#. BA
-#: iso-3166.h:34
-msgid "Bosnia and Herzegovina"
-msgstr "Bosneye"
-
-#. BB
-#: iso-3166.h:36
-msgid "Barbados"
-msgstr "Bårbades"
-
-#
-#. BD
-#: iso-3166.h:38
-msgid "Bangladesh"
-msgstr "Bangladesh"
-
-#. BE
-#: iso-3166.h:40
-msgid "Belgium"
-msgstr "Beljike"
-
-#. BF
-#: iso-3166.h:42
-msgid "Burkina Faso"
-msgstr "Bourkina Fasso"
-
-#. BG
-#: iso-3166.h:44
-msgid "Bulgaria"
-msgstr "Bulgåreye"
+#. BS
+msgid "Commonwealth of the Bahamas"
+msgstr ""
 
 #
 #. BH
-#: iso-3166.h:46
-msgid "Bahrain"
+#, fuzzy
+msgid "State of Bahrain"
 msgstr "Bareyn"
 
-#. BI
-#: iso-3166.h:48
-msgid "Burundi"
-msgstr "Bouroundi"
+#. BD
+msgid "People's Republic of Bangladesh"
+msgstr ""
 
-#. BJ
-#: iso-3166.h:50
-msgid "Benin"
-msgstr "Benin"
+#. BB
+msgid "Barbados"
+msgstr "Bårbades"
 
-#. BM
-#: iso-3166.h:52
-msgid "Bermuda"
-msgstr "Bermudes"
-
-#. BN
-#: iso-3166.h:54
-msgid "Brunei Darussalam"
-msgstr "Bruney"
-
-#. BO
-#: iso-3166.h:56
-msgid "Bolivia"
-msgstr "Boliveye"
-
-#. BR
-#: iso-3166.h:58
-msgid "Brazil"
-msgstr "Braezi"
-
-#. BS
-#: iso-3166.h:60
-msgid "Bahamas"
-msgstr "Bahamas"
-
-#. BT
-#: iso-3166.h:62
-msgid "Bhutan"
-msgstr "Boutan"
-
-#. BV
-#: iso-3166.h:64
-msgid "Bouvet Island"
-msgstr "Iye Bouvet"
-
-#. BW
-#: iso-3166.h:66
-msgid "Botswana"
-msgstr "Boswana"
-
-#
 #. BY
-#: iso-3166.h:68
-msgid "Belarus"
-msgstr "Belaruss"
+msgid "Republic of Belarus"
+msgstr ""
+
+#. BE
+msgid "Kingdom of Belgium"
+msgstr ""
 
 #
 #. BZ
-#: iso-3166.h:70
 msgid "Belize"
 msgstr "Belize"
 
+#. BJ
+#, fuzzy
+msgid "Republic of Benin"
+msgstr "Corêye (nonnrece)"
+
+#. BM
+msgid "Bermuda"
+msgstr "Bermudes"
+
+#. BT
+msgid "Kingdom of Bhutan"
+msgstr ""
+
+#. BO
+msgid "Republic of Bolivia"
+msgstr ""
+
+#. BA
+#, fuzzy
+msgid "Republic of Bosnia and Herzegovina"
+msgstr "Bosneye"
+
+#. BW
+msgid "Republic of Botswana"
+msgstr ""
+
+#. BV
+msgid "Bouvet Island"
+msgstr "Iye Bouvet"
+
+#. BR
+msgid "Federative Republic of Brazil"
+msgstr ""
+
+#. IO
+msgid "British Indian Ocean Territory"
+msgstr "Teritweres britanikes di l' Oceyan Indyin"
+
+#. BN
+#, fuzzy
+msgid "Brunei Darusallam"
+msgstr "Bruney"
+
+#. BG
+msgid "Republic of Bulgaria"
+msgstr ""
+
+#. BF
+msgid "Burkina Faso"
+msgstr "Bourkina Fasso"
+
+#. BI
+msgid "Republic of Burundi"
+msgstr ""
+
+#. KH
+msgid "Kingdom of Cambodia"
+msgstr ""
+
+#. CM
+msgid "Republic of Cameroon"
+msgstr ""
+
 #. CA
-#: iso-3166.h:72
 msgid "Canada"
 msgstr "Canada"
 
-#. CC
-#: iso-3166.h:74
-msgid "Cocos (Keeling) Islands"
-msgstr "Iyes Cocos (Keeling)"
+#. CV
+#, fuzzy
+msgid "Republic of Cape Verde"
+msgstr "Cap Vert"
 
-#. CD
-#: iso-3166.h:76
-msgid "Congo, The Democratic Republic of"
-msgstr "Congo-Kinshasa"
+#. KY
+msgid "Cayman Islands"
+msgstr "Iyes Cayman"
 
 #. CF
-#: iso-3166.h:78
 msgid "Central African Republic"
 msgstr "Cintrafrike"
 
-#. CG
-#: iso-3166.h:80
-msgid "Congo"
-msgstr "Congo-Brazza"
-
-#. CH
-#: iso-3166.h:82
-msgid "Switzerland"
-msgstr "Swisse"
-
-#. CI
-#: iso-3166.h:84
-msgid "Côte d'Ivoire"
-msgstr "Coisse d' Ivwere"
-
-#. CK
-#: iso-3166.h:86
-msgid "Cook Islands"
-msgstr "Iyes Cook"
+#. TD
+#, fuzzy
+msgid "Republic of Chad"
+msgstr "Corêye (nonnrece)"
 
 #. CL
-#: iso-3166.h:88
-msgid "Chile"
-msgstr "Tchili"
-
-#. CM
-#: iso-3166.h:90
-msgid "Cameroon"
-msgstr "Camrone"
+#, fuzzy
+msgid "Republic of Chile"
+msgstr "Corêye (nonnrece)"
 
 #. CN
-#: iso-3166.h:92
-msgid "China"
-msgstr "Chine"
-
-#. CO
-#: iso-3166.h:94
-msgid "Colombia"
-msgstr "Colombeye"
-
-#. CR
-#: iso-3166.h:96
-msgid "Costa Rica"
-msgstr "Costa Rica"
-
-#. CU
-#: iso-3166.h:98
-msgid "Cuba"
-msgstr "Cuba"
-
-#. CV
-#: iso-3166.h:100
-msgid "Cape Verde"
-msgstr "Cap Vert"
+#, fuzzy
+msgid "People's Republic of China"
+msgstr "Corêye (nonnrece)"
 
 #. CX
-#: iso-3166.h:102
 msgid "Christmas Island"
 msgstr "Iye Christmas"
 
+#. CC
+msgid "Cocos (Keeling) Islands"
+msgstr "Iyes Cocos (Keeling)"
+
+#. CO
+msgid "Republic of Colombia"
+msgstr ""
+
+#. KM
+msgid "Union of the Comoros"
+msgstr ""
+
+#. CG
+msgid "Republic of the Congo"
+msgstr ""
+
+#. CD
+#, fuzzy
+msgid "Congo, The Democratic Republic of the"
+msgstr "Congo-Kinshasa"
+
+#. CK
+msgid "Cook Islands"
+msgstr "Iyes Cook"
+
+#. CR
+#, fuzzy
+msgid "Republic of Costa Rica"
+msgstr "Costa Rica"
+
+#. CI
+#, fuzzy
+msgid "Republic of Côte d'Ivoire"
+msgstr "Coisse d' Ivwere"
+
+#. HR
+msgid "Republic of Croatia"
+msgstr ""
+
+#. CU
+#, fuzzy
+msgid "Republic of Cuba"
+msgstr "Corêye (nonnrece)"
+
 #. CY
-#: iso-3166.h:104
-msgid "Cyprus"
-msgstr "Chipe"
+#, fuzzy
+msgid "Republic of Cyprus"
+msgstr "Corêye (nonnrece)"
 
 #. CZ
-#: iso-3166.h:106
 msgid "Czech Republic"
 msgstr "Tchekeye"
 
-#. DE
-#: iso-3166.h:108
-msgid "Germany"
-msgstr "Almagne"
+#. DK
+msgid "Kingdom of Denmark"
+msgstr ""
 
 #. DJ
-#: iso-3166.h:110
-msgid "Djibouti"
-msgstr "Djibouti"
-
-#. DK
-#: iso-3166.h:112
-msgid "Denmark"
-msgstr "Daenmåtche"
+msgid "Republic of Djibouti"
+msgstr ""
 
 #. DM
-#: iso-3166.h:114
-msgid "Dominica"
-msgstr "Dominike"
+msgid "Commonwealth of Dominica"
+msgstr ""
 
 #. DO
-#: iso-3166.h:116
 msgid "Dominican Republic"
 msgstr "Republike Dominikinne"
 
-#. DZ
-#: iso-3166.h:118
-msgid "Algeria"
-msgstr "Aldjereye"
+#. TL
+#, fuzzy
+msgid "Democratic Republic of Timor-Leste"
+msgstr "Congo-Kinshasa"
 
 #. EC
-#: iso-3166.h:120
-msgid "Ecuador"
-msgstr "Ecwåteur"
+msgid "Republic of Ecuador"
+msgstr ""
 
-#. EE
-#: iso-3166.h:122
-msgid "Estonia"
-msgstr "Estoneye"
-
-#
 #. EG
-#: iso-3166.h:124
-msgid "Egypt"
-msgstr "Edjipe"
+#, fuzzy
+msgid "Arab Republic of Egypt"
+msgstr "Corêye (nonnrece)"
 
-#. EH
-#: iso-3166.h:126
-msgid "Western Sahara"
-msgstr "Sara Coûtchantrece"
+#. SV
+#, fuzzy
+msgid "Republic of El Salvador"
+msgstr "El Salvador"
+
+#. GQ
+#, fuzzy
+msgid "Republic of Equatorial Guinea"
+msgstr "Guinêye Ecwåtoriåle"
 
 #. ER
-#: iso-3166.h:128
 msgid "Eritrea"
 msgstr "Eritrêye"
 
-#. ES
-#: iso-3166.h:130
-msgid "Spain"
-msgstr "Espagne"
+#. EE
+msgid "Republic of Estonia"
+msgstr ""
 
 #. ET
-#: iso-3166.h:132
-msgid "Ethiopia"
-msgstr "Etiopeye"
-
-#. FI
-#: iso-3166.h:134
-msgid "Finland"
-msgstr "Finlande"
-
-#. FJ
-#: iso-3166.h:136
-msgid "Fiji"
-msgstr "Fidji"
+#, fuzzy
+msgid "Federal Democratic Republic of Ethiopia"
+msgstr "Congo-Kinshasa"
 
 #. FK
-#: iso-3166.h:138
 msgid "Falkland Islands (Malvinas)"
 msgstr "Iyes Malouwines"
 
-#
-#. FM
-#: iso-3166.h:140
-msgid "Micronesia"
-msgstr "Micronezeye"
-
 #. FO
-#: iso-3166.h:142
 msgid "Faroe Islands"
 msgstr "Iyes Faeroyé"
 
+#. FJ
+msgid "Republic of the Fiji Islands"
+msgstr ""
+
+#. FI
+msgid "Republic of Finland"
+msgstr ""
+
 #. FR
-#: iso-3166.h:144
-msgid "France"
-msgstr "France"
-
-#. GA
-#: iso-3166.h:146
-msgid "Gabon"
-msgstr "Gabon"
-
-#
-#. GB
-#: iso-3166.h:148
-msgid "Britain (UK)"
-msgstr "Grande Burtaegne"
-
-#. GD
-#: iso-3166.h:150
-msgid "Grenada"
-msgstr "Grenåde"
-
-#. GE
-#: iso-3166.h:152
-msgid "Georgia"
-msgstr "Djeyordjeye"
+#, fuzzy
+msgid "French Republic"
+msgstr "Tchekeye"
 
 #. GF
-#: iso-3166.h:154
 msgid "French Guiana"
 msgstr "Guyane francesse"
 
+#. PF
+msgid "French Polynesia"
+msgstr "Polinezeye francesse"
+
+#. TF
+#, fuzzy
+msgid "French Southern Territories"
+msgstr "Teritweres francès do sud"
+
+#. GA
+#, fuzzy
+msgid "Gabonese Republic"
+msgstr "Tchekeye"
+
+#. GM
+msgid "Republic of the Gambia"
+msgstr ""
+
+#. GE
+msgid "Georgia"
+msgstr "Djeyordjeye"
+
+#. DE
+#, fuzzy
+msgid "Federal Republic of Germany"
+msgstr "Corêye (nonnrece)"
+
 #. GH
-#: iso-3166.h:156
-msgid "Ghana"
-msgstr "Gana"
+#, fuzzy
+msgid "Republic of Ghana"
+msgstr "Corêye (nonnrece)"
 
 #. GI
-#: iso-3166.h:158
 msgid "Gibraltar"
 msgstr "Djibraltar"
 
+#. GR
+#, fuzzy
+msgid "Hellenic Republic"
+msgstr "Tchekeye"
+
 #. GL
-#: iso-3166.h:160
 msgid "Greenland"
 msgstr "Groenlande"
 
-#. GM
-#: iso-3166.h:162
-msgid "Gambia"
-msgstr "Gambeye"
-
-#. GN
-#: iso-3166.h:164
-msgid "Guinea"
-msgstr "Guinêye"
+#. GD
+msgid "Grenada"
+msgstr "Grenåde"
 
 #. GP
-#: iso-3166.h:166
 msgid "Guadeloupe"
 msgstr "Gwadeloupe"
 
-#. GQ
-#: iso-3166.h:168
-msgid "Equatorial Guinea"
-msgstr "Guinêye Ecwåtoriåle"
-
-#. GR
-#: iso-3166.h:170
-msgid "Greece"
-msgstr "Grece"
-
-#. GS
-#: iso-3166.h:172
-msgid "South Georgia and the South Sandwich Islands"
-msgstr "Iyes Sandwich do sud"
-
-#. GT
-#: iso-3166.h:174
-msgid "Guatemala"
-msgstr "Gwatemala"
-
 #. GU
-#: iso-3166.h:176
 msgid "Guam"
 msgstr "Gwam"
 
+#. GT
+#, fuzzy
+msgid "Republic of Guatemala"
+msgstr "Gwatemala"
+
+#. GN
+#, fuzzy
+msgid "Republic of Guinea"
+msgstr "Corêye (nonnrece)"
+
 #. GW
-#: iso-3166.h:178
-msgid "Guinea-Bissau"
+#, fuzzy
+msgid "Republic of Guinea-Bissau"
 msgstr "Guinêye-Bissaw"
 
 #. GY
-#: iso-3166.h:180
-msgid "Guyana"
-msgstr "Guyana"
-
-#. HK
-#: iso-3166.h:182
-msgid "Hong Kong"
-msgstr "Hong Kong"
-
-#. HM
-#: iso-3166.h:184
-msgid "Heard Island & McDonald Islands"
-msgstr "Iyeas Heard et McDonald"
-
-#. HN
-#: iso-3166.h:186
-msgid "Honduras"
-msgstr "Honduras"
-
-#. HR
-#: iso-3166.h:188
-msgid "Croatia"
-msgstr "Crowåceye"
+#, fuzzy
+msgid "Republic of Guyana"
+msgstr "Corêye (nonnrece)"
 
 #. HT
-#: iso-3166.h:190
-msgid "Haiti"
-msgstr "Hayiti"
+#, fuzzy
+msgid "Republic of Haiti"
+msgstr "Corêye (nonnrece)"
+
+#. HM
+#, fuzzy
+msgid "Heard Islands and McDonald Islands"
+msgstr "Iyeas Heard et McDonald"
+
+#. VA
+msgid "Holy See (Vatican City State)"
+msgstr "Vatican"
+
+#. HN
+msgid "Republic of Honduras"
+msgstr ""
+
+#. HK
+msgid "Hong Kong Special Administrative Region of China"
+msgstr ""
 
 #. HU
-#: iso-3166.h:192
-msgid "Hungary"
-msgstr "Hongreye"
+msgid "Republic of Hungary"
+msgstr ""
+
+#. IS
+msgid "Republic of Iceland"
+msgstr ""
+
+#. IN
+#, fuzzy
+msgid "Republic of India"
+msgstr "Corêye (nonnrece)"
 
 #
 #. ID
-#: iso-3166.h:194
-msgid "Indonesia"
+#, fuzzy
+msgid "Republic of Indonesia"
 msgstr "Indonezeye"
 
+#. IR
+#, fuzzy
+msgid "Islamic Republic of Iran"
+msgstr "Corêye (nonnrece)"
+
+#. IQ
+#, fuzzy
+msgid "Republic of Iraq"
+msgstr "Corêye (nonnrece)"
+
 #. IE
-#: iso-3166.h:196
 msgid "Ireland"
 msgstr "Irlande"
 
 #. IL
-#: iso-3166.h:198
-msgid "Israel"
-msgstr "Israyel"
-
-#
-#. IN
-#: iso-3166.h:200
-msgid "India"
-msgstr "Inde"
-
-#. IO
-#: iso-3166.h:202
-msgid "British Indian Ocean Territory"
-msgstr "Teritweres britanikes di l' Oceyan Indyin"
-
-#
-#. IQ
-#: iso-3166.h:204
-msgid "Iraq"
-msgstr "Irak"
-
-#
-#. IR
-#: iso-3166.h:206
-msgid "Iran"
-msgstr "Iran"
-
-#. IS
-#: iso-3166.h:208
-msgid "Iceland"
-msgstr "Izlande"
+msgid "State of Israel"
+msgstr ""
 
 #. IT
-#: iso-3166.h:210
-msgid "Italy"
-msgstr "Itåleye"
+#, fuzzy
+msgid "Italian Republic"
+msgstr "Cintrafrike"
 
 #
 #. JM
-#: iso-3166.h:212
 msgid "Jamaica"
 msgstr "Djamayike"
 
-#
-#. JO
-#: iso-3166.h:214
-msgid "Jordan"
-msgstr "Djordaneye"
-
 #. JP
-#: iso-3166.h:216
 msgid "Japan"
 msgstr "Djapon"
 
+#. JO
+msgid "Hashemite Kingdom of Jordan"
+msgstr ""
+
+#. KZ
+#, fuzzy
+msgid "Republic of Kazakhstan"
+msgstr "Kazaxhtan"
+
 #. KE
-#: iso-3166.h:218
-msgid "Kenya"
-msgstr "Kenia"
-
-#. KG
-#: iso-3166.h:220
-msgid "Kyrgyzstan"
-msgstr "Kirguiztan"
-
-#. KH
-#: iso-3166.h:222
-msgid "Cambodia"
-msgstr "Cambodje"
+#, fuzzy
+msgid "Republic of Kenya"
+msgstr "Corêye (nonnrece)"
 
 #. KI
-#: iso-3166.h:224
-msgid "Kiribati"
-msgstr "Kiribati"
-
-#. KM
-#: iso-3166.h:226
-msgid "Comoros"
-msgstr "Comores"
-
-#. KN
-#: iso-3166.h:228
-msgid "St Kitts & Nevis"
-msgstr "St Kitts & Nevis"
+msgid "Republic of Kiribati"
+msgstr ""
 
 #. KP
-#: iso-3166.h:230
-msgid "Korea, Democratic People's Republic of"
+#, fuzzy
+msgid "Democratic People's Republic of Korea"
 msgstr "Corêye (bijhrece)"
 
 #. KR
-#: iso-3166.h:232
-msgid "Korea, Republic of"
+#, fuzzy
+msgid "Republic of Korea"
 msgstr "Corêye (nonnrece)"
 
 #. KW
-#: iso-3166.h:234
-msgid "Kuwait"
-msgstr "Kuweyt"
+msgid "State of Kuwait"
+msgstr ""
 
-#. KY
-#: iso-3166.h:236
-msgid "Cayman Islands"
-msgstr "Iyes Cayman"
-
-#. KZ
-#: iso-3166.h:238
-msgid "Kazakhstan"
-msgstr "Kazaxhtan"
+#. KG
+#, fuzzy
+msgid "Kyrgyz Republic"
+msgstr "Tchekeye"
 
 #. LA
-#: iso-3166.h:240
-msgid "Laos"
-msgstr "Lawosse"
+#, fuzzy
+msgid "Lao People's Democratic Republic"
+msgstr "Congo-Kinshasa"
+
+#. LV
+#, fuzzy
+msgid "Republic of Latvia"
+msgstr "Corêye (nonnrece)"
 
 #. LB
-#: iso-3166.h:242
-msgid "Lebanon"
-msgstr "Liban"
-
-#. LC
-#: iso-3166.h:244
-msgid "St Lucia"
-msgstr "Sinte Luceye"
-
-#. LI
-#: iso-3166.h:246
-msgid "Liechtenstein"
-msgstr "Lîchtensteyn"
-
-#. LK
-#: iso-3166.h:248
-msgid "Sri Lanka"
-msgstr "Sri Lanka"
-
-#. LR
-#: iso-3166.h:250
-msgid "Liberia"
-msgstr "Liberia"
+#, fuzzy
+msgid "Lebanese Republic"
+msgstr "Tchekeye"
 
 #. LS
-#: iso-3166.h:252
-msgid "Lesotho"
-msgstr "Lessoto"
+msgid "Kingdom of Lesotho"
+msgstr ""
+
+#. LR
+msgid "Republic of Liberia"
+msgstr ""
+
+#. LY
+msgid "Socialist People's Libyan Arab Jamahiriya"
+msgstr ""
+
+#. LI
+#, fuzzy
+msgid "Principality of Liechtenstein"
+msgstr "Lîchtensteyn"
 
 #. LT
-#: iso-3166.h:254
-msgid "Lithuania"
+#, fuzzy
+msgid "Republic of Lithuania"
 msgstr "Litwaneye"
 
 #. LU
-#: iso-3166.h:256
-msgid "Luxembourg"
-msgstr "Lussimbork"
+msgid "Grand Duchy of Luxembourg"
+msgstr ""
 
-#. LV
-#: iso-3166.h:258
-msgid "Latvia"
-msgstr "Letoneye"
-
-#. LY
-#: iso-3166.h:260
-msgid "Libya"
-msgstr "Libeye"
-
-#. MA
-#: iso-3166.h:262
-msgid "Morocco"
-msgstr "Marok"
-
-#. MC
-#: iso-3166.h:264
-msgid "Monaco"
-msgstr "Monaco"
-
-#. MD
-#: iso-3166.h:266
-msgid "Moldova"
-msgstr "Moldova"
-
-#. MG
-#: iso-3166.h:268
-msgid "Madagascar"
-msgstr "Madagascar"
-
-#. MH
-#: iso-3166.h:270
-msgid "Marshall Islands"
-msgstr "Iyes Marshall"
+#. MO
+msgid "Macao Special Administrative Region of China"
+msgstr ""
 
 #. MK
-#: iso-3166.h:272
-msgid "Macedonia"
-msgstr "Macedoneye"
+msgid "The Former Yugoslav Republic of Macedonia"
+msgstr ""
+
+#. MG
+#, fuzzy
+msgid "Republic of Madagascar"
+msgstr "Madagascar"
+
+#. MW
+#, fuzzy
+msgid "Republic of Malawi"
+msgstr "Corêye (nonnrece)"
+
+#. MY
+msgid "Malaysia"
+msgstr "Malaizeye"
+
+#. MV
+msgid "Republic of Maldives"
+msgstr ""
 
 #. ML
-#: iso-3166.h:274
-msgid "Mali"
-msgstr "Mali"
+#, fuzzy
+msgid "Republic of Mali"
+msgstr "Corêye (nonnrece)"
 
-#. MM
-#: iso-3166.h:276
-msgid "Myanmar"
-msgstr "Birmaneye"
+#. MT
+#, fuzzy
+msgid "Republic of Malta"
+msgstr "Corêye (nonnrece)"
 
-#. MN
-#: iso-3166.h:278
-msgid "Mongolia"
-msgstr "Mongoleye"
-
-#
-#. MO
-#: iso-3166.h:280
-msgid "Macao"
-msgstr "Macao"
-
-#. MP
-#: iso-3166.h:282
-msgid "Northern Mariana Islands"
-msgstr "Iyes Marianes bijhreces"
+#. MH
+#, fuzzy
+msgid "Republic of the Marshall Islands"
+msgstr "Iyes Marshall"
 
 #. MQ
-#: iso-3166.h:284
 msgid "Martinique"
 msgstr "Martinike"
 
 #. MR
-#: iso-3166.h:286
-msgid "Mauritania"
-msgstr "Moritanreye"
+msgid "Islamic Republic of Mauritania"
+msgstr ""
+
+#. MU
+#, fuzzy
+msgid "Republic of Mauritius"
+msgstr "Iye Môrice"
+
+#. YT
+msgid "Mayotte"
+msgstr "Mayote"
+
+#. MX
+#, fuzzy
+msgid "United Mexican States"
+msgstr "Estats Unis"
+
+#. FM
+msgid "Federated States of Micronesia"
+msgstr ""
+
+#. MD
+msgid "Republic of Moldova"
+msgstr ""
+
+#. MC
+msgid "Principality of Monaco"
+msgstr ""
+
+#. MN
+msgid "Mongolia"
+msgstr "Mongoleye"
 
 #. MS
-#: iso-3166.h:288
 msgid "Montserrat"
 msgstr "Montserrat"
 
-#. MT
-#: iso-3166.h:290
-msgid "Malta"
-msgstr "Male"
-
-#. MU
-#: iso-3166.h:292
-msgid "Mauritius"
-msgstr "Iye Môrice"
-
-#. MV
-#: iso-3166.h:294
-msgid "Maldives"
-msgstr "Maldives"
-
-#. MW
-#: iso-3166.h:296
-msgid "Malawi"
-msgstr "Malawi"
-
-#. MX
-#: iso-3166.h:298
-msgid "Mexico"
-msgstr "Mecsike"
-
-#. MY
-#: iso-3166.h:300
-msgid "Malaysia"
-msgstr "Malaizeye"
+#. MA
+msgid "Kingdom of Morocco"
+msgstr ""
 
 #. MZ
-#: iso-3166.h:302
-msgid "Mozambique"
+#, fuzzy
+msgid "Republic of Mozambique"
 msgstr "Mozambike"
 
+#. MM
+#, fuzzy
+msgid "Union of Myanmar"
+msgstr "Birmaneye"
+
 #. NA
-#: iso-3166.h:304
-msgid "Namibia"
-msgstr "Namibeye"
+msgid "Republic of Namibia"
+msgstr ""
+
+#. NR
+#, fuzzy
+msgid "Republic of Nauru"
+msgstr "Corêye (nonnrece)"
+
+#. NP
+msgid "Kingdom of Nepal"
+msgstr ""
+
+#. NL
+msgid "Kingdom of the Netherlands"
+msgstr ""
+
+#. AN
+#, fuzzy
+msgid "Netherland Antilles"
+msgstr "Antiyes neyerlandesses"
 
 #. NC
-#: iso-3166.h:306
 msgid "New Caledonia"
 msgstr "Nouve Caledoneye"
 
-#. NE
-#: iso-3166.h:308
-msgid "Niger"
-msgstr "Nidjer"
-
-#. NF
-#: iso-3166.h:310
-msgid "Norfolk Island"
-msgstr "Iye Norfolk"
-
-#. NG
-#: iso-3166.h:312
-msgid "Nigeria"
-msgstr "Nidjeria"
-
-#
-#. NI
-#: iso-3166.h:314
-msgid "Nicaragua"
-msgstr "Nicaragwa"
-
-#. NL
-#: iso-3166.h:316
-msgid "Netherlands"
-msgstr "Bas Payis"
-
-#. NO
-#: iso-3166.h:318
-msgid "Norway"
-msgstr "Norvedje"
-
-#. NP
-#: iso-3166.h:320
-msgid "Nepal"
-msgstr "Nepal"
-
-#. NR
-#: iso-3166.h:322
-msgid "Nauru"
-msgstr "Nawouro"
-
-#. NU
-#: iso-3166.h:324
-msgid "Niue"
-msgstr "Niuwé"
-
 #. NZ
-#: iso-3166.h:326
 msgid "New Zealand"
 msgstr "Nouve Zelande"
 
+#
+#. NI
+#, fuzzy
+msgid "Republic of Nicaragua"
+msgstr "Nicaragwa"
+
+#. NE
+msgid "Republic of the Niger"
+msgstr ""
+
+#. NG
+#, fuzzy
+msgid "Federal Republic of Nigeria"
+msgstr "Corêye (nonnrece)"
+
+#. NU
+#, fuzzy
+msgid "Republic of Niue"
+msgstr "Corêye (nonnrece)"
+
+#. NF
+msgid "Norfolk Island"
+msgstr "Iye Norfolk"
+
+#. MP
+#, fuzzy
+msgid "Commonwealth of the Northern Mariana Islands"
+msgstr "Iyes Marianes bijhreces"
+
+#. NO
+msgid "Kingdom of Norway"
+msgstr ""
+
 #. OM
-#: iso-3166.h:328
-msgid "Oman"
-msgstr "Oman"
+msgid "Sultanate of Oman"
+msgstr ""
+
+#. PK
+msgid "Islamic Republic of Pakistan"
+msgstr ""
+
+#. PW
+#, fuzzy
+msgid "Republic of Palau"
+msgstr "Corêye (nonnrece)"
+
+#. PS
+msgid "Occupied Palestinian Territory"
+msgstr ""
 
 #. PA
-#: iso-3166.h:330
-msgid "Panama"
-msgstr "Panama"
-
-#
-#. PE
-#: iso-3166.h:332
-msgid "Peru"
-msgstr "Perou"
-
-#. PF
-#: iso-3166.h:334
-msgid "French Polynesia"
-msgstr "Polinezeye francesse"
+#, fuzzy
+msgid "Republic of Panama"
+msgstr "Corêye (nonnrece)"
 
 #. PG
-#: iso-3166.h:336
 msgid "Papua New Guinea"
 msgstr "Papouwazeye Nouve Guinêye"
 
+#. PY
+msgid "Republic of Paraguay"
+msgstr ""
+
+#. PE
+#, fuzzy
+msgid "Republic of Peru"
+msgstr "Corêye (nonnrece)"
+
 #. PH
-#: iso-3166.h:338
-msgid "Philippines"
-msgstr "Filipenes"
-
-#. PK
-#: iso-3166.h:340
-msgid "Pakistan"
-msgstr "Pakistan"
-
-#. PL
-#: iso-3166.h:342
-msgid "Poland"
-msgstr "Pologne"
-
-#. PM
-#: iso-3166.h:344
-msgid "St Pierre and Miquelon"
-msgstr "Sint Pierre et Miquelon"
+msgid "Republic of the Philippines"
+msgstr ""
 
 #. PN
-#: iso-3166.h:346
 msgid "Pitcairn"
 msgstr "Pitcairn"
 
+#. PL
+#, fuzzy
+msgid "Republic of Poland"
+msgstr "Corêye (nonnrece)"
+
+#. PT
+#, fuzzy
+msgid "Portuguese Republic"
+msgstr "Corêye (nonnrece)"
+
 #. PR
-#: iso-3166.h:348
 msgid "Puerto Rico"
 msgstr "Porto Rico"
 
-#. PS
-#: iso-3166.h:350
-msgid "Palestine"
-msgstr "Palestene"
-
-#. PT
-#: iso-3166.h:352
-msgid "Portugal"
-msgstr "Portugal"
-
-#
-#. PW
-#: iso-3166.h:354
-msgid "Palau"
-msgstr "Palawou"
-
-#. PY
-#: iso-3166.h:356
-msgid "Paraguay"
-msgstr "Paragway"
-
 #. QA
-#: iso-3166.h:358
-msgid "Qatar"
-msgstr "Katar"
+msgid "State of Qatar"
+msgstr ""
 
 #. RE
-#: iso-3166.h:360
 msgid "Reunion"
 msgstr "Reyunion"
 
 #. RO
-#: iso-3166.h:362
 msgid "Romania"
 msgstr "Roumaneye"
 
 #. RU
-#: iso-3166.h:364
 msgid "Russian Federation"
 msgstr "Rûsseye"
 
-#
 #. RW
-#: iso-3166.h:366
-msgid "Rwanda"
-msgstr "Rwanda"
-
-#. SA
-#: iso-3166.h:368
-msgid "Saudi Arabia"
-msgstr "Arabeye Sawoudite"
-
-#. SB
-#: iso-3166.h:370
-msgid "Solomon Islands"
-msgstr "Iyes Solomon"
-
-#. SC
-#: iso-3166.h:372
-msgid "Seychelles"
-msgstr "Seycheles"
-
-#
-#. SD
-#: iso-3166.h:374
-msgid "Sudan"
-msgstr "Soudan"
-
-#. SE
-#: iso-3166.h:376
-msgid "Sweden"
-msgstr "Suwede"
-
-#. SG
-#: iso-3166.h:378
-msgid "Singapore"
-msgstr "Singapour"
+#, fuzzy
+msgid "Rwandese Republic"
+msgstr "Tchekeye"
 
 #. SH
-#: iso-3166.h:380
 msgid "Saint Helena"
 msgstr "Sinte Helene"
 
+#. KN
+#, fuzzy
+msgid "Saint Kitts and Nevis"
+msgstr "St Kitts & Nevis"
+
+#. LC
+#, fuzzy
+msgid "Saint Lucia"
+msgstr "Sinte Luceye"
+
+#. PM
+#, fuzzy
+msgid "Saint Pierre and Miquelon"
+msgstr "Sint Pierre et Miquelon"
+
+#. VC
+#, fuzzy
+msgid "Saint Vincent and the Grenadines"
+msgstr "Sint Vincint et les Grenadines"
+
+#. WS
+msgid "Independent State of Samoa"
+msgstr ""
+
+#. SM
+#, fuzzy
+msgid "Republic of San Marino"
+msgstr "Sint Marin"
+
+#. ST
+#, fuzzy
+msgid "Democratic Republic of Sao Tome and Principe"
+msgstr "São Tomé et Prince"
+
+#. SA
+#, fuzzy
+msgid "Kingdom of Saudi Arabia"
+msgstr "Arabeye Sawoudite"
+
+#. SN
+msgid "Republic of Senegal"
+msgstr ""
+
+#. SC
+#, fuzzy
+msgid "Republic of Seychelles"
+msgstr "Seycheles"
+
+#. SL
+#, fuzzy
+msgid "Republic of Sierra Leone"
+msgstr "Siera Leyone"
+
+#. SG
+#, fuzzy
+msgid "Republic of Singapore"
+msgstr "Singapour"
+
+#. SK
+#, fuzzy
+msgid "Slovak Republic"
+msgstr "Corêye (nonnrece)"
+
 #. SI
-#: iso-3166.h:382
-msgid "Slovenia"
-msgstr "Esloveneye"
+msgid "Republic of Slovenia"
+msgstr ""
+
+#. SB
+msgid "Solomon Islands"
+msgstr "Iyes Solomon"
+
+#. SO
+#, fuzzy
+msgid "Somali Republic"
+msgstr "Republike Dominikinne"
+
+#. ZA
+#, fuzzy
+msgid "Republic of South Africa"
+msgstr "Nonne Afrike"
+
+#. GS
+msgid "South Georgia and the South Sandwich Islands"
+msgstr "Iyes Sandwich do sud"
+
+#. ES
+msgid "Kingdom of Spain"
+msgstr ""
+
+#. LK
+#, fuzzy
+msgid "Democratic Socialist Republic of Sri Lanka"
+msgstr "Corêye (bijhrece)"
+
+#. SD
+msgid "Republic of the Sudan"
+msgstr ""
+
+#. SR
+msgid "Republic of Suriname"
+msgstr ""
 
 #. SJ
-#: iso-3166.h:384
 msgid "Svalbard and Jan Mayen"
 msgstr "Iyes Svalbard eyet Jan Mayen"
 
 #
-#. SK
-#: iso-3166.h:386
-msgid "Slovakia"
-msgstr "Eslovakeye"
-
-#. SL
-#: iso-3166.h:388
-msgid "Sierra Leone"
-msgstr "Siera Leyone"
-
-#. SM
-#: iso-3166.h:390
-msgid "San Marino"
-msgstr "Sint Marin"
-
-#. SN
-#: iso-3166.h:392
-msgid "Senegal"
-msgstr "Senegål"
-
-#
-#. SO
-#: iso-3166.h:394
-msgid "Somalia"
-msgstr "Somaleye"
-
-#. SR
-#: iso-3166.h:396
-msgid "Suriname"
-msgstr "Suriname"
-
-#. ST
-#: iso-3166.h:398
-msgid "Sao Tome and Principe"
-msgstr "São Tomé et Prince"
-
-#. SV
-#: iso-3166.h:400
-msgid "El Salvador"
-msgstr "El Salvador"
-
-#. SY
-#: iso-3166.h:402
-msgid "Syria"
-msgstr "Sireye"
-
-#
 #. SZ
-#: iso-3166.h:404
-msgid "Swaziland"
+#, fuzzy
+msgid "Kingdom of Swaziland"
 msgstr "Suwazilande"
 
-#. TC
-#: iso-3166.h:406
-msgid "Turks & Caicos Is"
-msgstr "Iyes Turks et Caicos"
+#. SE
+msgid "Kingdom of Sweden"
+msgstr ""
 
-#
-#. TD
-#: iso-3166.h:408
-msgid "Chad"
-msgstr "Tchad"
+#. CH
+#, fuzzy
+msgid "Swiss Confederation"
+msgstr "Rûsseye"
 
-#. TF
-#: iso-3166.h:410
-msgid "French Southern Territories "
-msgstr "Teritweres francès do sud"
+#. SY
+#, fuzzy
+msgid "Syrian Arab Republic"
+msgstr "Cintrafrike"
 
-#. TG
-#: iso-3166.h:412
-msgid "Togo"
-msgstr "Togo"
-
-#. TH
-#: iso-3166.h:414
-msgid "Thailand"
-msgstr "Taylande"
+#. TW
+msgid "Taiwan, Province of China"
+msgstr ""
 
 #. TJ
-#: iso-3166.h:416
-msgid "Tajikistan"
+#, fuzzy
+msgid "Republic of Tajikistan"
 msgstr "Tadjikistan"
 
+#. TZ
+msgid "United Republic of Tanzania"
+msgstr ""
+
+#. TH
+msgid "Kingdom of Thailand"
+msgstr ""
+
+#. TG
+#, fuzzy
+msgid "Togolese Republic"
+msgstr "Tchekeye"
+
 #. TK
-#: iso-3166.h:418
 msgid "Tokelau"
 msgstr "Tokelau"
 
-#. TL
-#: iso-3166.h:420
-msgid "Timor Leste"
-msgstr "Timor Ess"
+#. TO
+msgid "Kingdom of Tonga"
+msgstr ""
+
+#. TT
+#, fuzzy
+msgid "Republic of Trinidad and Tobago"
+msgstr "Trinité et Tobago"
+
+#. TN
+msgid "Republic of Tunisia"
+msgstr ""
+
+#. TR
+#, fuzzy
+msgid "Republic of Turkey"
+msgstr "Corêye (nonnrece)"
 
 #. TM
-#: iso-3166.h:422
 msgid "Turkmenistan"
 msgstr "Turcmenistan"
 
-#. TN
-#: iso-3166.h:424
-msgid "Tunisia"
-msgstr "Tunizeye"
-
-#. TO
-#: iso-3166.h:426
-msgid "Tonga"
-msgstr "Tonga"
-
-#. TR
-#: iso-3166.h:428
-msgid "Turkey"
-msgstr "Turkeye"
-
-#. TT
-#: iso-3166.h:430
-msgid "Trinidad and Tobago"
-msgstr "Trinité et Tobago"
+#. TC
+#, fuzzy
+msgid "Turks and Caicos Islands"
+msgstr "Iyes Turks et Caicos"
 
 #. TV
-#: iso-3166.h:432
 msgid "Tuvalu"
 msgstr "Touvalou"
 
-#. TW
-#: iso-3166.h:434
-msgid "Taiwan"
-msgstr "Taiwan"
-
-#. TZ
-#: iso-3166.h:436
-msgid "Tanzania"
-msgstr "Tanzaneye"
+#. UG
+#, fuzzy
+msgid "Republic of Uganda"
+msgstr "Corêye (nonnrece)"
 
 #. UA
-#: iso-3166.h:438
 msgid "Ukraine"
 msgstr "Oucrinne"
 
-#
-#. UG
-#: iso-3166.h:440
-msgid "Uganda"
-msgstr "Ouganda"
+#. AE
+msgid "United Arab Emirates"
+msgstr "Emirats Arabes Unis"
+
+#. GB
+msgid "United Kingdom of Great Britain and Northern Ireland"
+msgstr ""
+
+#. US
+#, fuzzy
+msgid "United States of America"
+msgstr "Estats Unis"
 
 #. UM
-#: iso-3166.h:442
 msgid "United States Minor Outlying Islands"
 msgstr "Iyes mineures des Estats Unis"
 
-#. US
-#: iso-3166.h:444
-msgid "United States"
-msgstr "Estats Unis"
-
 #. UY
-#: iso-3166.h:446
-msgid "Uruguay"
-msgstr "Ourougway"
+msgid "Eastern Republic of Uruguay"
+msgstr ""
 
 #. UZ
-#: iso-3166.h:448
-msgid "Uzbekistan"
+#, fuzzy
+msgid "Republic of Uzbekistan"
 msgstr "Ouzbekistan"
 
-#. VA
-#: iso-3166.h:450
-msgid "Holy See (Vatican City State)"
-msgstr "Vatican"
-
-#. VC
-#: iso-3166.h:452
-msgid "St Vincent and the Grenadines"
-msgstr "Sint Vincint et les Grenadines"
+#. VU
+msgid "Republic of Vanuatu"
+msgstr ""
 
 #. VE
-#: iso-3166.h:454
-msgid "Venezuela"
-msgstr "Venezwela"
+#, fuzzy
+msgid "Bolivarian Republic of Venezuela"
+msgstr "Corêye (nonnrece)"
+
+#. VN
+msgid "Socialist Republic of Viet Nam"
+msgstr ""
 
 #. VG
-#: iso-3166.h:456
-msgid "Virgin Islands, British"
-msgstr "Iyes Viedjes britanikes"
-
-#. VI
-#: iso-3166.h:458
-msgid "Virgin Islands, U.S."
+#, fuzzy
+msgid "British Virgin Islands"
 msgstr "Iyes Viedjes etazunyinnes"
 
-#
-#. VN
-#: iso-3166.h:460
-msgid "Vietnam"
-msgstr "Vietnam"
-
-#. VU
-#: iso-3166.h:462
-msgid "Vanuatu"
-msgstr "Vanouatou"
+#. VI
+#, fuzzy
+msgid "Virgin Islands of the United States"
+msgstr "Iyes Viedjes britanikes"
 
 #. WF
-#: iso-3166.h:464
 msgid "Wallis and Futuna"
 msgstr "Wallis et Futuna"
 
-#. WS
-#: iso-3166.h:466
-msgid "Samoa"
-msgstr "Samowa"
+#. EH
+msgid "Western Sahara"
+msgstr "Sara Coûtchantrece"
 
 #. YE
-#: iso-3166.h:468
-msgid "Yemen"
-msgstr "Yemen"
-
-#. YT
-#: iso-3166.h:470
-msgid "Mayotte"
-msgstr "Mayote"
-
-#. YU
-#: iso-3166.h:472
-msgid "Yugoslavia"
-msgstr "Yougoslaveye"
-
-#. ZA
-#: iso-3166.h:474
-msgid "South Africa"
-msgstr "Nonne Afrike"
+#, fuzzy
+msgid "Republic of Yemen"
+msgstr "Corêye (nonnrece)"
 
 #. ZM
-#: iso-3166.h:476
-msgid "Zambia"
-msgstr "Zambeye"
+#, fuzzy
+msgid "Republic of Zambia"
+msgstr "Corêye (nonnrece)"
 
 #. ZW
-#: iso-3166.h:478
-msgid "Zimbabwe"
-msgstr "Zimbabwè"
+msgid "Republic of Zimbabwe"
+msgstr ""
+
+#~ msgid "Andorra"
+#~ msgstr "Andore"
+
+#~ msgid "Afghanistan"
+#~ msgstr "Afganistan"
+
+#~ msgid "Albania"
+#~ msgstr "Albaneye"
+
+#~ msgid "Armenia"
+#~ msgstr "Årmeneye"
+
+#~ msgid "Angola"
+#~ msgstr "Angola"
+
+#~ msgid "Argentina"
+#~ msgstr "Årdjintene"
+
+#~ msgid "Austria"
+#~ msgstr "Otriche"
+
+#
+#~ msgid "Bangladesh"
+#~ msgstr "Bangladesh"
+
+#~ msgid "Belgium"
+#~ msgstr "Beljike"
+
+#~ msgid "Bulgaria"
+#~ msgstr "Bulgåreye"
+
+#~ msgid "Burundi"
+#~ msgstr "Bouroundi"
+
+#~ msgid "Benin"
+#~ msgstr "Benin"
+
+#~ msgid "Bolivia"
+#~ msgstr "Boliveye"
+
+#~ msgid "Brazil"
+#~ msgstr "Braezi"
+
+#~ msgid "Bahamas"
+#~ msgstr "Bahamas"
+
+#~ msgid "Bhutan"
+#~ msgstr "Boutan"
+
+#~ msgid "Botswana"
+#~ msgstr "Boswana"
+
+#
+#~ msgid "Belarus"
+#~ msgstr "Belaruss"
+
+#~ msgid "Congo"
+#~ msgstr "Congo-Brazza"
+
+#~ msgid "Switzerland"
+#~ msgstr "Swisse"
+
+#~ msgid "Chile"
+#~ msgstr "Tchili"
+
+#~ msgid "Cameroon"
+#~ msgstr "Camrone"
+
+#~ msgid "China"
+#~ msgstr "Chine"
+
+#~ msgid "Colombia"
+#~ msgstr "Colombeye"
+
+#~ msgid "Cuba"
+#~ msgstr "Cuba"
+
+#~ msgid "Cyprus"
+#~ msgstr "Chipe"
+
+#~ msgid "Germany"
+#~ msgstr "Almagne"
+
+#~ msgid "Djibouti"
+#~ msgstr "Djibouti"
+
+#~ msgid "Denmark"
+#~ msgstr "Daenmåtche"
+
+#~ msgid "Dominica"
+#~ msgstr "Dominike"
+
+#~ msgid "Algeria"
+#~ msgstr "Aldjereye"
+
+#~ msgid "Ecuador"
+#~ msgstr "Ecwåteur"
+
+#~ msgid "Estonia"
+#~ msgstr "Estoneye"
+
+#
+#~ msgid "Egypt"
+#~ msgstr "Edjipe"
+
+#~ msgid "Spain"
+#~ msgstr "Espagne"
+
+#~ msgid "Ethiopia"
+#~ msgstr "Etiopeye"
+
+#~ msgid "Finland"
+#~ msgstr "Finlande"
+
+#~ msgid "Fiji"
+#~ msgstr "Fidji"
+
+#
+#~ msgid "Micronesia"
+#~ msgstr "Micronezeye"
+
+#~ msgid "France"
+#~ msgstr "France"
+
+#~ msgid "Gabon"
+#~ msgstr "Gabon"
+
+#
+#~ msgid "Britain (UK)"
+#~ msgstr "Grande Burtaegne"
+
+#~ msgid "Ghana"
+#~ msgstr "Gana"
+
+#~ msgid "Gambia"
+#~ msgstr "Gambeye"
+
+#~ msgid "Guinea"
+#~ msgstr "Guinêye"
+
+#~ msgid "Greece"
+#~ msgstr "Grece"
+
+#~ msgid "Guyana"
+#~ msgstr "Guyana"
+
+#~ msgid "Hong Kong"
+#~ msgstr "Hong Kong"
+
+#~ msgid "Honduras"
+#~ msgstr "Honduras"
+
+#~ msgid "Croatia"
+#~ msgstr "Crowåceye"
+
+#~ msgid "Haiti"
+#~ msgstr "Hayiti"
+
+#~ msgid "Hungary"
+#~ msgstr "Hongreye"
+
+#~ msgid "Israel"
+#~ msgstr "Israyel"
+
+#
+#~ msgid "India"
+#~ msgstr "Inde"
+
+#
+#~ msgid "Iraq"
+#~ msgstr "Irak"
+
+#
+#~ msgid "Iran"
+#~ msgstr "Iran"
+
+#~ msgid "Iceland"
+#~ msgstr "Izlande"
+
+#~ msgid "Italy"
+#~ msgstr "Itåleye"
+
+#
+#~ msgid "Jordan"
+#~ msgstr "Djordaneye"
+
+#~ msgid "Kenya"
+#~ msgstr "Kenia"
+
+#~ msgid "Kyrgyzstan"
+#~ msgstr "Kirguiztan"
+
+#~ msgid "Cambodia"
+#~ msgstr "Cambodje"
+
+#~ msgid "Kiribati"
+#~ msgstr "Kiribati"
+
+#~ msgid "Comoros"
+#~ msgstr "Comores"
+
+#~ msgid "Kuwait"
+#~ msgstr "Kuweyt"
+
+#~ msgid "Laos"
+#~ msgstr "Lawosse"
+
+#~ msgid "Lebanon"
+#~ msgstr "Liban"
+
+#~ msgid "Sri Lanka"
+#~ msgstr "Sri Lanka"
+
+#~ msgid "Liberia"
+#~ msgstr "Liberia"
+
+#~ msgid "Lesotho"
+#~ msgstr "Lessoto"
+
+#~ msgid "Luxembourg"
+#~ msgstr "Lussimbork"
+
+#~ msgid "Latvia"
+#~ msgstr "Letoneye"
+
+#~ msgid "Libya"
+#~ msgstr "Libeye"
+
+#~ msgid "Morocco"
+#~ msgstr "Marok"
+
+#~ msgid "Monaco"
+#~ msgstr "Monaco"
+
+#~ msgid "Moldova"
+#~ msgstr "Moldova"
+
+#~ msgid "Macedonia"
+#~ msgstr "Macedoneye"
+
+#~ msgid "Mali"
+#~ msgstr "Mali"
+
+#
+#~ msgid "Macao"
+#~ msgstr "Macao"
+
+#~ msgid "Mauritania"
+#~ msgstr "Moritanreye"
+
+#~ msgid "Malta"
+#~ msgstr "Male"
+
+#~ msgid "Maldives"
+#~ msgstr "Maldives"
+
+#~ msgid "Malawi"
+#~ msgstr "Malawi"
+
+#~ msgid "Mexico"
+#~ msgstr "Mecsike"
+
+#~ msgid "Namibia"
+#~ msgstr "Namibeye"
+
+#~ msgid "Niger"
+#~ msgstr "Nidjer"
+
+#~ msgid "Nigeria"
+#~ msgstr "Nidjeria"
+
+#~ msgid "Netherlands"
+#~ msgstr "Bas Payis"
+
+#~ msgid "Norway"
+#~ msgstr "Norvedje"
+
+#~ msgid "Nepal"
+#~ msgstr "Nepal"
+
+#~ msgid "Nauru"
+#~ msgstr "Nawouro"
+
+#~ msgid "Niue"
+#~ msgstr "Niuwé"
+
+#~ msgid "Oman"
+#~ msgstr "Oman"
+
+#~ msgid "Panama"
+#~ msgstr "Panama"
+
+#
+#~ msgid "Peru"
+#~ msgstr "Perou"
+
+#~ msgid "Philippines"
+#~ msgstr "Filipenes"
+
+#~ msgid "Pakistan"
+#~ msgstr "Pakistan"
+
+#~ msgid "Poland"
+#~ msgstr "Pologne"
+
+#~ msgid "Palestine"
+#~ msgstr "Palestene"
+
+#~ msgid "Portugal"
+#~ msgstr "Portugal"
+
+#
+#~ msgid "Palau"
+#~ msgstr "Palawou"
+
+#~ msgid "Paraguay"
+#~ msgstr "Paragway"
+
+#~ msgid "Qatar"
+#~ msgstr "Katar"
+
+#
+#~ msgid "Rwanda"
+#~ msgstr "Rwanda"
+
+#
+#~ msgid "Sudan"
+#~ msgstr "Soudan"
+
+#~ msgid "Sweden"
+#~ msgstr "Suwede"
+
+#~ msgid "Slovenia"
+#~ msgstr "Esloveneye"
+
+#
+#~ msgid "Slovakia"
+#~ msgstr "Eslovakeye"
+
+#~ msgid "Senegal"
+#~ msgstr "Senegål"
+
+#
+#~ msgid "Somalia"
+#~ msgstr "Somaleye"
+
+#~ msgid "Suriname"
+#~ msgstr "Suriname"
+
+#~ msgid "Syria"
+#~ msgstr "Sireye"
+
+#
+#~ msgid "Chad"
+#~ msgstr "Tchad"
+
+#~ msgid "Togo"
+#~ msgstr "Togo"
+
+#~ msgid "Thailand"
+#~ msgstr "Taylande"
+
+#~ msgid "Timor Leste"
+#~ msgstr "Timor Ess"
+
+#~ msgid "Tunisia"
+#~ msgstr "Tunizeye"
+
+#~ msgid "Tonga"
+#~ msgstr "Tonga"
+
+#~ msgid "Turkey"
+#~ msgstr "Turkeye"
+
+#~ msgid "Taiwan"
+#~ msgstr "Taiwan"
+
+#~ msgid "Tanzania"
+#~ msgstr "Tanzaneye"
+
+#
+#~ msgid "Uganda"
+#~ msgstr "Ouganda"
+
+#~ msgid "Uruguay"
+#~ msgstr "Ourougway"
+
+#~ msgid "Venezuela"
+#~ msgstr "Venezwela"
+
+#
+#~ msgid "Vietnam"
+#~ msgstr "Vietnam"
+
+#~ msgid "Vanuatu"
+#~ msgstr "Vanouatou"
+
+#~ msgid "Samoa"
+#~ msgstr "Samowa"
+
+#~ msgid "Yemen"
+#~ msgstr "Yemen"
+
+#~ msgid "Yugoslavia"
+#~ msgstr "Yougoslaveye"
+
+#~ msgid "Zambia"
+#~ msgstr "Zambeye"
+
+#~ msgid "Zimbabwe"
+#~ msgstr "Zimbabwè"
