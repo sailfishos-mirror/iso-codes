@@ -17,7 +17,8 @@ all: ${MO_FILES}
 
 install: ${TAB_FILE} ${MO_FILES}
 	${MKDIR_P} ${sharedir}
-	${INSTALL} iso_4217.tab ${sharedir}/iso_4217.tab	
+	${INSTALL} iso_4217.tab ${sharedir}/iso_4217.tab
+	${INSTALL} iso_4217.xml ${sharedir}/iso_4217.xml
 	${INSTALL} iso_4217_historic.tab ${sharedir}/iso_4217_historic.tab
 	for d in ${MO_FILES} ; do \
 		lang=`basename $$d | sed 's/.mo$$//'` ; \
