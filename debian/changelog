@@ -10,8 +10,13 @@ iso-codes (0.29-1) UNRELEASED; urgency=low
     - iso_3166, iso_639/ja.po: Updated.
   * Christian Perrier
     - iso_3166/fr.po: update
+    - merge iso_3166 translations into iso_3166_1 
+      (cd iso_3166/iso_3166_1 ; for i in *po ; do msgmerge ../$i iso_3166_1.pot >$i ; done)
+      this adds several correct translations when iso_3166 and iso_3166_1
+      names are identical.
+    - iso_3166/iso_3166_1/fr.po: update
 
- -- Christian Perrier <bubulle@kheops.frmug.org>  Mon, 22 Mar 2004 10:05:34 +0100
+ -- Christian Perrier <bubulle@kheops.frmug.org>  Mon, 22 Mar 2004 11:51:09 +0100
 
 iso-codes (0.28-1) unstable; urgency=low
 
