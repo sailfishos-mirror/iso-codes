@@ -47,7 +47,7 @@ p.setErrorHandler(saxutils.ErrorPrinter())
 try:
 	dh = printLines(ofile)
 	p.setContentHandler(dh)
-	p.parse('iso_3166.xml')
+	p.parse(sys.argv[1])
 except IOError,e:
 	print in_sysID+": "+str(e)
 except saxlib.SAXException,e:
