@@ -4,219 +4,208 @@
 # Alastair McKinstry, <mckinstry@computer.org>, 2002.
 # Translations from KDE: 
 #   Taiki Komoda <kom@kde.gr.jp>
+# Translation from Debian:
+#   Kenshi Muto <kmuto@debian.org>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: iso-codes 0.18\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2004-02-20 11:35+0000\n"
-"PO-Revision-Date: 2002-01-05 16:30+0000\n"
-"Last-Translator: Taiki Komoda <kom@kde.gr.jp>\n"
+"POT-Creation-Date: 2003-11-27 07:18+0000\n"
+"PO-Revision-Date: 2004-02-23 14:52+0900\n"
+"Last-Translator: Kenshi Muto <kmuto@debian.org>\n"
 "Language-Team: Japanese <Kdeveloper@kde.gr.jp\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. # iso-3166-3.tab
-#. #
-#. # Code for formerly used names of countries
-#. #
-#. # Status: ISO 3166-3:1999 + newsletters (latest dated 2003-07-23)
-#. # Last update: 2004-02-17
-#. #
-#. # The ISO 3166 code for names of countries was first published in 1974.
-#. # In 1981 a Numeric code was added to the existing Alpha-2 and Alpha-3 codes.
-#. # The Numeric code identifies a physical territory while the Alpha-2 and
-#. # Alpha-3 codes identify a country name.
-#. # There were new editions of the ISO 3166 standard in 1981, 1988 and 1993.
-#. # The fifth and latest edition of the country code is ISO 3166-1:1997.
-#. # The ISO 3166-3 Code for formerly used names of countries was first
-#. # published in 1999.
-#. #
-#. # An entry from the ISO 3166-1 country code table may be withdrawn if
-#. # - a country changes a significant part of its name
-#. # - a country is divided into two or more new ones
-#. # - two or more countries merge
-#. # Codes withdrawn from use may not be reused for five years.
-#. #
-#. # The following ISO 3166-3 table has five tab-separated columns:
-#. # 1. Alpha-4 code (consisting of the former and the new Alpha-2 codes)
-#. # 2. Alpha-3 code
-#. # 3. Numeric code
-#. # 4. Date of withdrawal or change (YYYY-MM-DD)
-#. # 5. Country name
-#. #
-#. # The Alpha-4 code in the first column consists of the Alpha-2 code of the
-#. # withdrawn entry followed by the Alpha-2 code of the new entry.
-#. #
-#. # If there is no single new entry which replaces the withdrawn entry,
-#. # the letters 'HH' will be appended to the withdrawn Alpha-2 code.
-#. #
-#. # If the Alpha-2 code is unchanged (i.e. only the Numeric code or the
-#. # Alpha-3 code changed), the Alpha-2 code without any appended letters
-#. # will be shown in column 1.
-#. #
-#. # Code	Country name
 #. BQAQ
+#: iso-3166-3.h:42
 msgid "British Antarctic Territory"
-msgstr ""
+msgstr "英領南極地域"
 
 #. BUMM
+#: iso-3166-3.h:44
 msgid "Burma, Socialist Republic of the Union of"
-msgstr ""
+msgstr "ビルマ社会主義連邦共和国"
 
 #. BYAA
+#: iso-3166-3.h:46
 msgid "Byelorussian SSR Soviet Socialist Republic"
-msgstr ""
+msgstr "白ロシアソビエト社会主義連邦共和国"
 
 #. CTKI
+#: iso-3166-3.h:48
 msgid "Canton & Enderbury Islands"
-msgstr ""
+msgstr "カントンエンダーベリー諸島"
 
 #. CSHH
+#: iso-3166-3.h:50
 msgid "Czechoslovakia, Czechoslovak Socialist Republic"
-msgstr ""
+msgstr "チェコスロバキア社会主義共和国"
 
 #. DYBJ
+#: iso-3166-3.h:52
 msgid "Dahomey"
-msgstr ""
+msgstr "ダオメー"
 
 #. NQAQ
+#: iso-3166-3.h:54
 msgid "Dronning Maud Land"
-msgstr ""
+msgstr "ドロンニングモードランド"
 
 #. TPTL
+#: iso-3166-3.h:56
 msgid "East Timor (was Portuguese Timor)"
-msgstr ""
+msgstr "東ティモール (ポルトガル領ティモール)"
 
 #. ET
-#, fuzzy
+#: iso-3166-3.h:58
 msgid "Ethiopia"
-msgstr "エストニア"
+msgstr "エチオピア"
 
-#. FXFR
+#. FX
+#: iso-3166-3.h:60
 msgid "France, Metropolitan"
-msgstr ""
+msgstr "メトロポリタンフランス"
 
 #. AIDJ
+#: iso-3166-3.h:62
 msgid "French Afars and Issas"
-msgstr ""
+msgstr "フランス領アファルとイッサ"
 
 #. FQHH
+#: iso-3166-3.h:64
 msgid "French Southern and Antarctic Territories (now split between AQ and TF)"
-msgstr ""
+msgstr "フランス領南方南極地域 (AQ と TF に分割)"
 
 #. DDDE
-#, fuzzy
+#: iso-3166-3.h:66
 msgid "German Democratic Republic"
-msgstr "ドミニカ共和国"
+msgstr "ドイツ民主主義共和国"
 
 #. DE
-#, fuzzy
+#: iso-3166-3.h:68
 msgid "Germany, Federal Republic of"
-msgstr "ドミニカ共和国"
+msgstr "ドイツ連邦共和国"
 
 #. GEHH
+#: iso-3166-3.h:70
 msgid "Gilbert & Ellice Islands (now split into Kiribati and Tuvalu)"
-msgstr ""
+msgstr "ギルバートエリス諸島 (キリバスとツバルに分割)"
 
 #. JTUM
+#: iso-3166-3.h:72
 msgid "Johnston Island"
-msgstr ""
+msgstr "ジョンストン島"
 
 #. MIUM
+#: iso-3166-3.h:74
 msgid "Midway Islands"
-msgstr ""
+msgstr "ミッドウェー諸島"
 
 #. AN
-#, fuzzy
+#: iso-3166-3.h:76
 msgid "Netherlands Antilles"
-msgstr "オランダ"
+msgstr "オランダアンティル諸島"
 
 #. NTHH
+#: iso-3166-3.h:78
 msgid "Neutral Zone (formerly between Saudi Arabia & Iraq)"
-msgstr ""
+msgstr "中立区域 (サウジアラビアとイラク間)"
 
 #. NHVU
+#: iso-3166-3.h:80
 msgid "New Hebrides"
-msgstr ""
+msgstr "ニューヘブリディーズ"
 
 #. PCHH
+#: iso-3166-3.h:82
 msgid "Pacific Islands (trust territory) (divided into FM, MH, MP, and PW)"
-msgstr ""
+msgstr "太平洋諸島 (FM, MH, MP, PW に分割)"
 
 #. PA
-#, fuzzy
+#: iso-3166-3.h:84
 msgid "Panama, Republic of"
-msgstr "ドミニカ共和国"
+msgstr "パナマ共和国"
 
 #. PZPA
+#: iso-3166-3.h:86
 msgid "Panama Canal Zone"
-msgstr ""
+msgstr "パナマ運河区域"
 
 #. RO
-#, fuzzy
+#: iso-3166-3.h:88
 msgid "Romania, Socialist Republic of"
-msgstr "ドミニカ共和国"
+msgstr "ルーマニイア社会主義共和国"
 
 #. KN
+#: iso-3166-3.h:90
 msgid "St. Kitts-Nevis-Anguilla (now St. Kitts and Nevis and Anguilla)"
-msgstr ""
+msgstr "セントキッツネヴィス"
 
 #. SKIN
+#: iso-3166-3.h:92
 msgid "Sikkim"
-msgstr ""
+msgstr "シッキム"
 
 #. RHZW
-#, fuzzy
+#: iso-3166-3.h:94
 msgid "Southern Rhodesia"
-msgstr "オランダ"
+msgstr "南ローデシア"
 
 #. EH
+#: iso-3166-3.h:96
 msgid "Spanish Sahara (now Western Sahara)"
-msgstr ""
+msgstr "スペインサハラ (西サハラ)"
 
 #. PUUM
+#: iso-3166-3.h:98
 msgid "US Miscellaneous Pacific Islands"
-msgstr ""
+msgstr "米国の種々の太平洋諸島"
 
 #. SUHH
+#: iso-3166-3.h:100
 msgid "USSR, Union of Soviet Socialist Republics"
-msgstr ""
+msgstr "ソビエト社会主義共和国連邦"
 
 #. HVBF
-#, fuzzy
+#: iso-3166-3.h:102
 msgid "Upper Volta, Republic of"
-msgstr "ドミニカ共和国"
+msgstr "オートヴォルタ共和国"
 
 #. VA
+#: iso-3166-3.h:104
 msgid "Vatican City State (Holy See)"
-msgstr ""
+msgstr "ヴァチカン市国 (聖庁)"
 
 #. VDVN
-#, fuzzy
+#: iso-3166-3.h:106
 msgid "Viet-Nam, Democratic Republic of"
-msgstr "ドミニカ共和国"
+msgstr "ベトナム民主主義共和国"
 
 #. WKUM
-#, fuzzy
+#: iso-3166-3.h:108
 msgid "Wake Island"
-msgstr "ニュージーランド"
+msgstr "ウェーク島"
 
 #. YDYE
+#: iso-3166-3.h:110
 msgid "Yemen, Democratic, People's Democratic Republic of"
-msgstr ""
+msgstr "イエメン民主主義人民共和国"
 
 #. YE
-#, fuzzy
+#: iso-3166-3.h:112
 msgid "Yemen, Yemen Arab Republic"
-msgstr "ドミニカ共和国"
+msgstr "イエメンアラブ共和国"
 
-#. YUCS
+#. YU
+#: iso-3166-3.h:114
 msgid "Yugoslavia, Socialist Federal Republic of"
-msgstr ""
+msgstr "ユーゴスラビア社会主義連邦共和国"
 
 #. ZRCD
-#, fuzzy
+#: iso-3166-3.h:116
 msgid "Zaire, Republic of"
-msgstr "ドミニカ共和国"
+msgstr "ザイール共和国"
+
