@@ -13,6 +13,11 @@ FILENAME=iso-3166-udeb_$(VERSION)_all.udeb
 
 build: build-stamp
 
+
+
+configure:
+	./autogen.sh
+
 build-stamp:
 	dh_testdir
 	./configure --prefix=`pwd`/debian/iso-codes/usr
