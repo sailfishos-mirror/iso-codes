@@ -149,7 +149,7 @@
 /* GA */ 
  N_("Gabon")
 /* GB */ 
- N_("Britain (UK)")
+ N_("United Kingdom")
 /* GD */ 
  N_("Grenada")
 /* GE */ 
