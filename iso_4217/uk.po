@@ -12,14 +12,14 @@ msgstr ""
 "Project-Id-Version: iso_4217_uk\n"
 "Report-Msgid-Bugs-To: Alastair McKinstry <mckinstry@debian.org>\n"
 "POT-Creation-Date: 2004-06-15 21:36+0100\n"
-"PO-Revision-Date: 2004-03-25 21:08+0200\n"
+"PO-Revision-Date: 2004-07-03 18:44+0300\n"
 "Last-Translator: Eugeniy Meshcheryakov <eugen@univ.kiev.ua>\n"
 "Language-Team: Ukrainian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.3.1\n"
-"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. currency_name for AED
@@ -44,7 +44,7 @@ msgstr "Нідерландський Антильський гульден"
 
 #. currency_name for AOA
 msgid "Angola Kwanza"
-msgstr "Анґольська кванза"
+msgstr "Ангольська кванза"
 
 #. currency_name for ARS
 msgid "Argentine Peso"
@@ -132,7 +132,7 @@ msgstr "Канадський долар"
 
 #. currency_name for CDF
 msgid "Franc Congolais"
-msgstr "Конґолезький франк"
+msgstr "Конголезький франк"
 
 #. currency_name for CHF
 msgid "Swiss Franc"
@@ -260,7 +260,7 @@ msgstr "Ґайанський долар"
 
 #. currency_name for HKD
 msgid "Hong Kong Dollar"
-msgstr "Долар Гонконґу"
+msgstr "Долар Гонконгу"
 
 #. currency_name for HNL
 msgid "Honduran Lempira"
@@ -392,7 +392,7 @@ msgstr "Молдовський лей"
 
 #. currency_name for MGF
 msgid "Malagasy Franc"
-msgstr "Малаґасійський франк"
+msgstr "Малагасійський франк"
 
 #. currency_name for MKD
 msgid "Macedonian Denar"
@@ -540,7 +540,7 @@ msgstr "Шведська крона"
 
 #. currency_name for SGD
 msgid "Singapur Dollar"
-msgstr "Сінґапурський долар"
+msgstr "Сінгапурський долар"
 
 #. currency_name for SHP
 msgid "Saint Helena Pound"
@@ -628,7 +628,7 @@ msgstr "Гривня"
 
 #. currency_name for UGX
 msgid "Ugandan Schilling"
-msgstr "Уґандійський шилінг"
+msgstr "Угандійський шилінг"
 
 #. currency_name for USD
 msgid "US Dollar"
@@ -644,7 +644,7 @@ msgstr "Долар США (Цього дня)"
 
 #. currency_name for UYU
 msgid "Peso Uruguayo"
-msgstr "Уруґвайський песо"
+msgstr "Уругвайський песо"
 
 #. currency_name for UZS
 msgid "Uzbekistan Sum"
@@ -759,19 +759,17 @@ msgid "Andorran Peseta"
 msgstr ""
 
 #. currency_name for ALK
-#, fuzzy
 msgid "Albanian Old Lek"
-msgstr "Албанський лек"
+msgstr "Албанський старий лек"
 
 #. currency_name for AON
-#, fuzzy
 msgid "Angola New Kwanza"
-msgstr "Анґольська кванза"
+msgstr "Ангольська нова кванза"
 
 #. currency_name for AOR
 #, fuzzy
 msgid "Angola Kwanza Reajustado"
-msgstr "Анґольська кванза"
+msgstr "Ангольська кванза"
 
 #. currency_name for ARA
 #, fuzzy
@@ -784,9 +782,8 @@ msgid "Peso Argentino"
 msgstr "Аргентинський песо"
 
 #. currency_name for ATS
-#, fuzzy
 msgid "Austrian Schilling"
-msgstr "Танзанійський шилінг"
+msgstr "Австрійський шилінг"
 
 #. currency_name for BAD
 msgid "Bosnia and Herzegovina Dinar"
@@ -849,9 +846,8 @@ msgid "Czechoslovakian Krona A/53"
 msgstr ""
 
 #. currency_name for CSK
-#, fuzzy
 msgid "Czechoslovakian Koruna"
-msgstr "Чеська крона"
+msgstr "Чехословацька крона"
 
 #. currency_name for DDM
 msgid "Mark der DDR"
@@ -882,9 +878,8 @@ msgid "Finnish Markka"
 msgstr ""
 
 #. currency_name for FRF
-#, fuzzy
 msgid "French Franc"
-msgstr "КФП франк"
+msgstr "Французький франк"
 
 #. currency_name for GEK
 #, fuzzy
@@ -974,7 +969,7 @@ msgstr "Російський рубль"
 #. currency_name for MAF
 #, fuzzy
 msgid "Mali Franc"
-msgstr "Малаґасійський франк"
+msgstr "Малагасійський франк"
 
 #. currency_name for MTP
 #, fuzzy
@@ -1031,9 +1026,8 @@ msgid "Sudanese Pound"
 msgstr "Ліванський фунт"
 
 #. currency_name for SUR
-#, fuzzy
 msgid "USSR Rouble"
-msgstr "Російський рубль"
+msgstr "Карбованець СРСР"
 
 #. currency_name for TJR
 #, fuzzy
@@ -1041,19 +1035,18 @@ msgid "Tajik Rouble"
 msgstr "Російський рубль"
 
 #. currency_name for UAK
-#, fuzzy
 msgid "Ukrainian Karbovanet"
-msgstr "Гривня"
+msgstr "Український карбованець"
 
 #. currency_name for UGS
 #, fuzzy
 msgid "Uganda Schilling"
-msgstr "Уґандійський шилінг"
+msgstr "Угандійський шилінг"
 
 #. currency_name for UGW
 #, fuzzy
 msgid "Uganda Old Schilling"
-msgstr "Уґандійський шилінг"
+msgstr "Угандійський шилінг"
 
 #. currency_name for UYN
 msgid "Old Uruguayan Peso"
@@ -1094,3 +1087,4 @@ msgstr ""
 #. currency_name for ZRZ
 msgid "Zaire"
 msgstr ""
+
