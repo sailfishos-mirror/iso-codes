@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: iso_639-da\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2004-03-28 10:18+0200\n"
+"POT-Creation-Date: 2004-03-30 14:29+0100\n"
 "PO-Revision-Date: 2004-03-25 23:22+0100\n"
 "Last-Translator: Claus Hindsgaul <claus_h@image.dk>\n"
 "Language-Team: Danish <dansk@klid.dk>\n"
@@ -26,15 +26,15 @@ msgstr ""
 
 #. ## iso-639.tab
 #. ##
-#. ## Copyright (C) Alastair McKinstry   <mckinstry@computer.org>
+#. ## Copyright (C) 2004 Alastair McKinstry   <mckinstry@computer.org>
 #. ## Released under the GNU License; see file COPYING for details
 #. ##
-#. ## Last update: 2004-03-28
+#. ## Last update: 2004-03-29
 #. ##
 #. ## This file gives a list of all languages in the ISO-639
 #. ## standard, and is used to provide translations (via gettext)
 #. ##
-#. ## Status: ISO 639-2:1998 + additions and changes until 2003-02-25
+#. ## Status: ISO 639-2:1998 + additions and changes until 2003-03-05
 #. ## Source: http://lcweb.loc.gov/standards/iso639-2/englangn.html
 #. ##
 #. ## Columns:
@@ -66,6 +66,10 @@ msgstr "Acoli"
 #. ada
 msgid "Adangme"
 msgstr "Adangme"
+
+#. ady
+msgid "Adyghe; Adygei"
+msgstr ""
 
 #. afa
 msgid "Afro-Asiatic (Other)"
@@ -296,8 +300,8 @@ msgid "Burmese"
 msgstr "Murmesisk"
 
 #. byn
-msgid "Blin"
-msgstr "Søg"
+msgid "Blin; Bilin"
+msgstr ""
 
 #. cad
 msgid "Caddo"
@@ -416,9 +420,18 @@ msgstr "Portugisisk funderet (Andre)"
 msgid "Cree"
 msgstr "Cree"
 
+#. crh
+msgid "Crimean Turkish; Crimean Tatar"
+msgstr ""
+
 #. crp
 msgid "Creoles and pidgins (Other)"
 msgstr "Kreolsk og Pidgin (øvrige)"
+
+#. csb
+#, fuzzy
+msgid "Kashubian"
+msgstr "Kachin"
 
 #. cus
 msgid "Cushitic (Other)"
@@ -435,6 +448,16 @@ msgstr "Dakota"
 #. dan
 msgid "Danish"
 msgstr "Dansk"
+
+#. dar
+#, fuzzy
+msgid "Dargwa"
+msgstr "Marwari"
+
+#. dsb
+#, fuzzy
+msgid "Lower Sorbian"
+msgstr "Serbisk"
 
 #. del
 msgid "Delaware"
@@ -672,6 +695,10 @@ msgstr "Gwich'in"
 msgid "Haida"
 msgstr "Haida"
 
+#. hat
+msgid "Haitian; Haitian Creole"
+msgstr ""
+
 #. hau
 msgid "Hausa"
 msgstr "Hausa"
@@ -711,6 +738,11 @@ msgstr "Hmong"
 #. hmo
 msgid "Hiri"
 msgstr "Hiri Motu"
+
+#. hsb
+#, fuzzy
+msgid "Upper Sorbian"
+msgstr "Serbisk"
 
 #. hun
 msgid "Hungarian"
@@ -795,6 +827,11 @@ msgstr "Italiensk"
 #. jav
 msgid "Javanese"
 msgstr "Javanesisk"
+
+#. jbo
+#, fuzzy
+msgid "Lojban"
+msgstr "Iban"
 
 #. jpn
 msgid "Japanese"
@@ -911,6 +948,11 @@ msgstr "Kosraean"
 #. kpe
 msgid "Kpelle"
 msgstr "Kpelle"
+
+#. krc
+#, fuzzy
+msgid "Karachay-Balkar"
+msgstr "Karakalpakisk"
 
 #. kro
 msgid "Kru"
@@ -1069,6 +1111,11 @@ msgstr "Masai"
 msgid "Malay"
 msgstr "Malajisk"
 
+#. mdf
+#, fuzzy
+msgid "Moksha"
+msgstr "Mohawk"
+
 #. mdr
 msgid "Mandar"
 msgstr "Mandar"
@@ -1149,6 +1196,11 @@ msgstr "Marwari"
 msgid "Mayan languages"
 msgstr "Maya sprog"
 
+#. myv
+#, fuzzy
+msgid "Erzya"
+msgstr "Orija"
+
 #. nah
 msgid "Nahuatl"
 msgstr "Nahuatl"
@@ -1212,6 +1264,11 @@ msgstr "Norsk, Nynorsk"
 #. nob
 msgid "Bokmal, Norwegian"
 msgstr "Norsk, Bokmål"
+
+#. nog
+#, fuzzy
+msgid "Nogai"
+msgstr "Ndonga"
 
 #. non
 msgid "Norse, Old"
@@ -1661,7 +1718,7 @@ msgstr "iTiv"
 msgid "Tokelau"
 msgstr "Tokelau"
 
-#. tkh
+#. tlh
 msgid "Klingon; tlhIngan-Hol"
 msgstr ""
 
@@ -1724,6 +1781,11 @@ msgstr "Twi"
 #. tyv
 msgid "Tuvinian"
 msgstr "Tuvinian"
+
+#. udm
+#, fuzzy
+msgid "Udmurt"
+msgstr "Urdu"
 
 #. uga
 msgid "Ugaritic"
@@ -1805,6 +1867,11 @@ msgstr ""
 msgid "Wolof"
 msgstr "Wolof"
 
+#. xal
+#, fuzzy
+msgid "Kalmyk"
+msgstr "Kumyk"
+
 #. xho
 msgid "Xhosa"
 msgstr "Xhosa"
@@ -1852,6 +1919,9 @@ msgstr "Zulu"
 #. zun
 msgid "Zuni"
 msgstr "Zuni"
+
+#~ msgid "Blin"
+#~ msgstr "Søg"
 
 #~ msgid "Spanish"
 #~ msgstr "Spansk"

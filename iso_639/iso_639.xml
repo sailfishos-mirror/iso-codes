@@ -4,12 +4,12 @@
 <!-- Copyright (C) 2004 Alastair McKinstry   <mckinstry@computer.org>   -->
 <!-- Released under the GNU License; see file COPYING for details	-->
 <!--									-->
-<!-- Last update: 2004-03-28						-->
+<!-- Last update: 2004-03-29						-->
 <!--									-->
 <!-- This file gives a list of all languages in the ISO-639		-->
 <!-- standard, and is used to provide translations (via gettext)	-->
 <!--									-->
-<!-- Status: ISO 639-2:1998 + additions and changes until 2003-02-25	-->
+<!-- Status: ISO 639-2:1998 + additions and changes until 2004-03-05	-->
 <!-- Source: http://lcweb.loc.gov/standards/iso639-2/englangn.html	-->
 
 <iso-639-entry
@@ -34,6 +34,10 @@
 	iso_639_2T_code="ada"
 	iso_639_2B_code="ada"
 	name="Adangme" />
+<iso_639_entry
+	iso_639_2T_code="ady"
+	iso_639_2B_code="ady"
+	name="Adyghe; Adygei" />
 <iso_639_entry
 	iso_639_2T_code="afa"
 	iso_639_2B_code="afa"
@@ -409,16 +413,23 @@
 	iso_639_2T_code="cpp"
 	iso_639_2B_code="cpp"
 	name="Portuguese-based (Other)" />
-</iso-639-entry>
 <iso_639_entry
 	iso_639_2T_code="cre"
 	iso_639_2B_code="cre"
 	iso_639_1_code="cr"
 	name="Cree" />
 <iso_639_entry
+	iso_639_2T_code="crh"
+	iso_639_2B_code="crh"
+	name="Crimean Turkish ; Crimean Tatar" />
+<iso_639_entry
 	iso_639_2T_code="crp"
 	iso_639_2B_code="crp"
 	name="Creoles and pidgins (Other)" />
+<iso_639_entry
+	iso_639_2T_code="csb"
+	iso_639_2B_code="csb"
+	name="Kashubian" />
 <iso_639_entry
 	iso_639_2T_code="cus"
 	iso_639_2B_code="cus"
@@ -441,6 +452,10 @@
 	iso_639_2B_code="dan"
 	iso_639_1_code="da"
 	name="Danish" />
+<iso_639_entry
+	iso_639_2T_code="dar"
+	iso_639_2B_code="dar"
+	name="Dargwa" />
 <iso_639_entry
 	iso_639_2T_code="del"
 	iso_639_2B_code="del"
@@ -470,6 +485,10 @@
 	iso_639_2T_code="dra"
 	iso_639_2B_code="dra"
 	name="Dravidian (Other)" />
+<iso_639_entry
+	iso_639_2T_code="dsb"
+	iso_639_2B_code="dsb"
+	name="Lower Sorbian" />
 <iso_639_entry
 	iso_639_2T_code="dua"
 	iso_639_2B_code="dua"
@@ -701,6 +720,11 @@
 	iso_639_2B_code="hai"
 	name="Haida" />
 <iso_639_entry
+	iso_639_2T_code="hat"
+	iso_639_2B_code="hat"
+	iso_639_1_code="ht"
+	name="Haitian; Haitian Creole" />
+<iso_639_entry
 	iso_639_2T_code="hau"
 	iso_639_2B_code="hau"
 	iso_639_1_code="ha"
@@ -745,6 +769,10 @@
 	iso_639_2B_code="hmo"
 	iso_639_1_code="ho"
 	name="Hiri" />
+<iso_639_entry
+	iso_639_2T_code="hsb"
+	iso_639_2B_code="hsb"
+	name="Upper Sorbian" />
 <iso_639_entry
 	iso_639_2T_code="hun"
 	iso_639_2B_code="hun"
@@ -841,6 +869,10 @@
 	iso_639_2B_code="jav"
 	iso_639_1_code="jv"
 	name="Javanese" />
+<iso_639_entry
+	iso_639_2T_code="jbo"
+	iso_639_2B_code="jbo"
+	name="Lojban" />
 <iso_639_entry
 	iso_639_2T_code="jpn"
 	iso_639_2B_code="jpn"
@@ -970,6 +1002,10 @@
 	iso_639_2T_code="kpe"
 	iso_639_2B_code="kpe"
 	name="Kpelle" />
+<iso_639_entry
+	iso_639_2T_code="krc"
+	iso_639_2B_code="krc"
+	name="Karachay-Balkar" />
 <iso_639_entry
 	iso_639_2T_code="kro"
 	iso_639_2B_code="kro"
@@ -1144,6 +1180,10 @@
 	iso_639_1_code="ms"
 	name="Malay" />
 <iso_639_entry
+	iso_639_2T_code="mdf"
+	iso_639_2B_code="mdf"
+	name="Moksha" />
+<iso_639_entry
 	iso_639_2T_code="mdr"
 	iso_639_2B_code="mdr"
 	name="Mandar" />
@@ -1228,6 +1268,10 @@
 	iso_639_2B_code="myn"
 	name="Mayan languages" />
 <iso_639_entry
+	iso_639_2T_code="myv"
+	iso_639_2B_code="myv"
+	name="Erzya" />
+<iso_639_entry
 	iso_639_2T_code="nah"
 	iso_639_2B_code="nah"
 	name="Nahuatl" />
@@ -1299,6 +1343,10 @@
 	iso_639_2B_code="nob"
 	iso_639_1_code="nb"
 	name="Bokmål, Norwegian" />
+<iso_639_entry
+	iso_639_2T_code="nog"
+	iso_639_2B_code="nog"
+	name="Nogai" />
 <iso_639_entry
 	iso_639_2T_code="non"
 	iso_639_2B_code="non"
@@ -1790,14 +1838,14 @@
 	iso_639_2T_code="tiv"
 	iso_639_2B_code="tiv"
 	name="Tiv" />
+<iso-639-entry
+	iso_639_2T_code="tlh"
+	iso_639_2B_code="tlh"
+	name="Klingon" />
 <iso_639_entry
 	iso_639_2T_code="tkl"
 	iso_639_2B_code="tkl"
 	name="Tokelau" />
-<iso_639_entry
-	iso_639_2T_code="tlh"
-	iso_639_2B_code="tlh"
-	name="Klingon; tlhIngan-Hol" />
 <iso_639_entry
 	iso_639_2T_code="tli"
 	iso_639_2B_code="tli"
@@ -1863,6 +1911,10 @@
 	iso_639_2T_code="tyv"
 	iso_639_2B_code="tyv"
 	name="Tuvinian" />
+<iso_639_entry
+	iso_639_2T_code="udm"
+	iso_639_2B_code="udm"
+	uname="Udmurt" />
 <iso_639_entry
 	iso_639_2T_code="uga"
 	iso_639_2B_code="uga"
@@ -1952,6 +2004,10 @@
 	iso_639_2B_code="wol"
 	iso_639_1_code="wo"
 	name="Wolof" />
+<iso_639_entry
+	iso_639_2T_code="xal"
+	iso_639_2B_code="xal"
+	name="Kalmyk" />
 <iso_639_entry
 	iso_639_2T_code="xho"
 	iso_639_2B_code="xho"

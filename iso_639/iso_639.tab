@@ -1,14 +1,14 @@
 ## iso-639.tab
 ##
-## Copyright (C) Alastair McKinstry   <mckinstry@computer.org> 
+## Copyright (C) 2004 Alastair McKinstry   <mckinstry@computer.org> 
 ## Released under the GNU License; see file COPYING for details
 ##
-## Last update: 2004-03-28
+## Last update: 2004-03-29
 ##
 ## This file gives a list of all languages in the ISO-639
 ## standard, and is used to provide translations (via gettext)
 ##
-## Status: ISO 639-2:1998 + additions and changes until 2003-02-25
+## Status: ISO 639-2:1998 + additions and changes until 2003-03-05
 ## Source: http://lcweb.loc.gov/standards/iso639-2/englangn.html
 ##
 ## Columns:
@@ -26,6 +26,7 @@ abk	abk	ab	Abkhazian
 ace	ace	XX	Achinese
 ach	ach	XX	Acoli
 ada	ada	XX	Adangme
+ady	ady	XX	Adyghe; Adygei
 afa	afa	XX	Afro-Asiatic (Other)
 afh	afh	XX	Afrihili
 afr	afr	af	Afrikaans
@@ -83,7 +84,7 @@ bua	bua	XX	Buriat
 bug	bug	XX	Buginese
 bul	bul	bg	Bulgarian
 bur	mya	my	Burmese
-byn	byn	XX	Blin
+byn	byn	XX	Blin; Bilin
 cad	cad	XX	Caddo
 cai	cai	XX	Central American Indian (Other)
 car	car	XX	Carib
@@ -113,12 +114,16 @@ cpe	cpe	XX	English-based (Other)
 cpf	cpf	XX	French-based (Other)
 cpp	cpp	XX	Portuguese-based (Other)
 cre	cre	cr	Cree
+crh	crh	XX	Crimean Turkish; Crimean Tatar
 crp	crp	XX	Creoles and pidgins (Other)
+csb	csb	XX	Kashubian
 cus	cus	XX	Cushitic (Other)
 cus	cus	XX	Portuguese-based (Other)
 cze	ces	cs	Czech
 dak	dak	XX	Dakota
 dan	dan	da	Danish
+dar	dar	XX	Dargwa
+dsb	dsb	XX	Lower Sorbian
 del	del	XX	Delaware
 den	den	XX	Slave (Athapascan)
 dgr	dgr	XX	Dogrib
@@ -178,6 +183,7 @@ grn	grn	gn	Guarani
 guj	guj	gu	Gujarati
 gwi	gwi	XX	Gwichin
 hai	hai	XX	Haida
+hat	hat	ht	Haitian; Haitian Creole
 hau	hau	ha	Hausa
 haw	haw	XX	Hawaiian
 heb	heb	he	Hebrew
@@ -188,6 +194,7 @@ hin	hin	hi	Hindi
 hit	hit	XX	Hittite
 hmn	hmn	XX	Hmong
 hmo	hmo	ho	Hiri
+hsb	hsb	XX	Upper Sorbian
 hun	hun	hu	Hungarian
 hup	hup	XX	Hupa
 iba	iba	XX	Iban
@@ -209,6 +216,7 @@ ira	ira	XX	Iranian (Other)
 iro	iro	XX	Iroquoian languages
 ita	ita	it	Italian
 jav	jav	jv	Javanese
+jbo	jbo	XX	Lojban
 jpn	jpn	ja	Japanese
 jpr	jpr	XX	Judeo-Persian
 jrb	jrb	XX	Judeo-Arabic
@@ -238,6 +246,7 @@ kon	kon	kg	Kongo
 kor	kor	ko	Korean
 kos	kos	XX	Kosraean
 kpe	kpe	XX	Kpelle
+krc	krc	XX	Karachay-Balkar
 kro	kro	XX	Kru
 kru	kru	XX	Kurukh
 kua	kua	kj	Kuanyama
@@ -277,6 +286,7 @@ map	map	XX	Austronesian (Other)
 mar	mar	mr	Marathi
 mas	mas	XX	Masai
 may	msa	ms	Malay
+mdf	mdf	XX	Moksha
 mdr	mdr	XX	Mandar
 men	men	XX	Mende
 mga	mga	XX	Irish, Middle (900-1200)
@@ -297,6 +307,7 @@ mun	mun	XX	Munda languages
 mus	mus	XX	Creek
 mwr	mwr	XX	Marwari
 myn	myn	XX	Mayan languages
+myv	myv	XX	Erzya
 nah	nah	XX	Nahuatl
 nai	nai	XX	North American Indian (Other)
 nap	nap	XX	Neapolitan
@@ -313,6 +324,7 @@ nic	nic	XX	Niger-Kordofanian (Other)
 niu	niu	XX	Niuean
 nno	nno	nn	Norwegian Nynorsk
 nob	nob	nb	Bokmal, Norwegian
+nog	nog	XX	Nogai
 non	non	XX	Norse, Old
 nor	nor	no	Norwegian
 nso	nso	XX	Sotho, Northern
@@ -425,7 +437,7 @@ tig	tig	XX	Tigre
 tir	tir	ti	Tigrinya
 tiv	tiv	XX	Tiv
 tkl	tkl	XX	Tokelau
-tkh	tlh	XX	Klingon; tlhIngan-Hol
+tlh	tlh	XX	Klingon; tlhIngan-Hol
 tli	tli	XX	Tlinglit
 tmh	tmh	XX	Tamashek
 tog	tog	XX	Tonga (Nyasa)
@@ -441,6 +453,7 @@ tut	tut	XX	Altaic (Other)
 tvl	tvl	XX	Tuvalu
 twi	twi	tw	Twi
 tyv	tyv	XX	Tuvinian
+udm	udm	XX	Udmurt
 uga	uga	XX	Ugaritic
 uig	uig	ug	Uighur
 ukr	ukr	uk	Ukrainian
@@ -461,6 +474,7 @@ wel	cym	cy	Welsh
 wen	wen	XX	Sorbian languages
 wln	wln	wa	Walloon
 wol	wol	wo	Wolof
+xal	xal	XX	Kalmyk
 xho	xho	xh	Xhosa
 yao	yao	XX	Yao
 yap	yap	XX	Yapese
