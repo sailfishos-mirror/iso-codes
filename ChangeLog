@@ -1,3 +1,60 @@
+0.30 Alastair McKinstry <mckinstry@debian.org>
+
+	* iso_3166:
+	    - es.po: Updated by Javier Fernández-Sanguino Peña
+	    - nl.po: Unfuzzied entries from Elros Cyriatan (TR. project)
+	    - nl.po: Updated by Luk Claes.
+	    - so.po: New, data from ICU-2.8.
+	    - am.po: New, data from ICU-2.8.
+	    - om.po: New, data from ICU-2.8.
+	    - hi.po: New, data from ICU-2.8.
+	    - te.po: New, data from ICU-2.8.
+	    - sw.po: New, data from ICU-2.8.
+	    - kok.po: New, data from ICU-2.8.
+	    - mr.po: New, data from ICU-2.8.
+	    - ro.po: Updated by Eddy Petrisor.
+	    - de.po: Updated by Dennis Stampfer.
+	    - he.po: New, added by Lior Kaplan.
+	    - id.po: Updated by Arief S Fitrianto.
+	    - ko.po: Updated by Changwoo Ryu. Closes: #242200.
+	    - pt_BR.po: Updated by Andre Luis Lopes.  Closes: #242152.
+	    - da.po: Updated by Claus Hindsgaul.
+	    - zh_TW.po: Updated by Tetralet.
+	* iso_3166_1:
+	    - all: Cote -> Côte.
+	    - da.po: Updated by Claus Hindsgaul.
+	    - wa.po: Updated by Pablo Saratxaga.
+	* iso_3166_2:
+	    - uk.po: Updated by Eugeniy Meshcheryakov.
+	    - da.po: Updated by Claus Hindsgaul.
+	    - all: "South-Weat" -> "South-West".
+	    - all: "Karnten" -> "Kärnten".
+	    - all: Ooat-Vlaanderen -> Oost-Vlaanderen.
+	    - all: Corrected "Oulun Lasni" entry; bad chars removed.
+	    - all: regions in the Netherlands: Drente->Drenthe, Noord
+	      Holland->Noord-Holland, Noord Brabant->Noord-Brabant, 
+	      Zuid Holland->Zuid-Holland, Vlaams Brabant -> Vlaams-Brabant.
+	* iso_3166_3:
+	    - lt.po: Updated by Kęstutis Biliūnas.
+       	    - da.po: Updated by Claus Hindsgaul.
+	* iso_639:
+	    - all: Remove obsolete comments.
+	    - all: Provencal -> Provençal ; Bokmal -> Bøkmal
+	    - iso_639.tab, iso_316.xml: 2-letter code for Urdu is "ur".
+	    - es.po: Updated by Javier Fernández-Sanguino Peña.
+	    - lt.po: Updated by Kęstutis Biliūnas.
+	    - wa.po: Updated by Pablo Saratxaga.
+	    - da.po: Updated by Claus Hindsgaul.
+	    - om.po: New, data from ICU-2.8.
+	    - te.po: New, data from ICU-2.8.
+	    - kok.po: New, data from ICU-2.8.
+	    - sw.po: New, data from ICU-2.8.
+	    - mr.po: New, data from ICU-2.8.
+	* iso_4217:
+	    - all: Zloty -> Złoty.
+	    - nl.po: Updated by Elros Cyriatan.
+	    - da.po: Updated by Claus Hindsgaul.
+
 0.29 Alastair McKinstry <mckinstry@debian.org>
 
 	* iso_639: Add all recent changes to ISO-639 standard.
