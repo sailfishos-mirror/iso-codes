@@ -939,24 +939,26 @@ DJ-TA	Tadjoura
 #   
 #  Denmark appears to use counties ("Amtskommune") as ISO 3166 subregions,
 #  according to the ISO 3166-2 examples page.
-#  This list came from http://www2.dst.dk/internet/matriceb/html05/0173.HT
+#  This list came from http://www2.dst.dk/internet/matriceb/html05/0173.HTM
+#  Central Copenhagen and Frederiksberg have special status and are not part
+#  of an "Amtskommune". Thus they have separate entries.
 #
-DK-147	Frederikaberg
-DK-101	Xibenhavn
-DK-015	Kobenhavns
+DK-147	Frederikaberg municipality
+DK-101	Copenhagen municipality
+DK-015	Copenhagen
 DK-020	Frederiksborg
 DK-025	Roskilde
-DK-030	Vestsjaellands
-DK-035	Storstroms
-DK-040	Bornholms
-DK-042	Fyns
-DK-050	Sonderjyllands
+DK-030	Western Zealand
+DK-035	Storstrøm
+DK-040	Bornholm
+DK-042	Funen
+DK-050	Storstrøm
 DK-055	Ribe
 DK-060	Vejle
-DK-065	Ringkobing
-DK-070	orhus
+DK-065	Ringkøbing
+DK-070	Aarhus
 DK-076	Viborg
-DK-080	Nordjyllands
+DK-080	Northern Jutland
 #
 # ISO 3166-2 codes for Districts and Provinces in 
 # the Dominican Republic

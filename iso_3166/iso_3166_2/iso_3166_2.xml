@@ -1735,39 +1735,41 @@
 <iso_3166_country code="DK">
 	<!-- Denmark appears to use counties ("Amtskommune") as ISO 3166 subregions, -->
 	<!-- according to the ISO 3166-2 examples page. -->
-	<!-- This list came from http://www2.dst.dk/internet/matriceb/html05/0173.HT -->
+	<!-- This list came from http://www2.dst.dk/internet/matriceb/html05/0173.HTM -->
+	<!-- Central Copenhagen and Frederiksberg have special status and are not part -->
+	<!-- of an "Amtskommune". Thus they have separate entries. -->
 	<iso_3166_2_entry
-		code="DK-147"	name="Frederikaberg" />
+		code="DK-147"	name="Frederikaberg municipality" />
 	<iso_3166_2_entry
-		code="DK-101"	name="Xibenhavn" />
+		code="DK-101"	name="Copenhagen municipality" />
 	<iso_3166_2_entry
-		code="DK-015"	name="Kobenhavns" />
+		code="DK-015"	name="Copenhagen" />
 	<iso_3166_2_entry
 		code="DK-020"	name="Frederiksborg" />
 	<iso_3166_2_entry
 		code="DK-025"	name="Roskilde" />
 	<iso_3166_2_entry
-		code="DK-030"	name="Vestsjaellands" />
+		code="DK-030"	name="Western Zealand" />
 	<iso_3166_2_entry
-		code="DK-035"	name="Storstroms" />
+		code="DK-035"	name="Storstrøm" />
 	<iso_3166_2_entry
-		code="DK-040"	name="Bornholms" />
+		code="DK-040"	name="Bornholm" />
 	<iso_3166_2_entry
-		code="DK-042"	name="Fyns" />
+		code="DK-042"	name="Funen" />
 	<iso_3166_2_entry
-		code="DK-050"	name="Sonderjyllands" />
+		code="DK-050"	name="Southern Jutland" />
 	<iso_3166_2_entry
 		code="DK-055"	name="Ribe" />
 	<iso_3166_2_entry
 		code="DK-060"	name="Vejle" />
 	<iso_3166_2_entry
-		code="DK-065"	name="Ringkobing" />
+		code="DK-065"	name="Ringkøbing" />
 	<iso_3166_2_entry
-		code="DK-070"	name="orhus" />
+		code="DK-070"	name="Aarhus" />
 	<iso_3166_2_entry
 		code="DK-076"	name="Viborg" />
 	<iso_3166_2_entry
-		code="DK-080"	name="Nordjyllands" />
+		code="DK-080"	name="Northern Jutland" />
 </iso_3166_country>
 	<!-- Dominican Republic -->
 <iso_3166_country code="DO">
