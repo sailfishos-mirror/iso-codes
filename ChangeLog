@@ -1,3 +1,26 @@
+0.46 Alastair McKinstry <mckinstry@debian.org>
+
+  * iso_639:
+    English, French names for 'xal' changed to '
+    - en: Kalmyk; Oirat
+    - fr: kalmouk; oïrat. Closes: #301371
+    - eo.po updated by Edmund GRIMLEY EVANS.
+    - fi.po updated by Tommi Vainikainen.
+    - rw.po updated by Steve Murphy.
+    - vi.po updated by Clytie Siddall.
+    - German update by Wolfgang Rohdewald. Closes: #297663
+  * iso_3166_2:
+    - nl.po updated by Taco Witte.
+    - vi.po updated by  Clytie Siddall.
+  * iso_3166:
+    - vi.po updated by  Clytie Siddall.
+  * iso_4217:
+    - vi.po updated by  Clytie Siddall.
+    - fi.po updated by Tommi Vainikainen
+  * debian/control: improved description for iso-3166-udeb. Closes: #300310
+  * Removed unnecessary Makefile.in, configure, etc files from CVS.
+  * Fix prefix breakage in iso-codes.pc. Closes: #302707.
+
 0.45 Alastair McKinstry <mckinstry@debian.org>
 
   * iso_3166
