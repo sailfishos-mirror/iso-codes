@@ -7,12 +7,11 @@
 # Yuri Syrota <rasta@renome.rovno.ua>, 1999.
 # Eugeniy Meshcheryakov <eugen@univ.kiev.ua>, 2004.
 #
-#.
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_4217_uk\n"
 "Report-Msgid-Bugs-To: Alastair McKinstry <mckinstry@debian.org>\n"
-"POT-Creation-Date: 2004-03-25 20:30+0200\n"
+"POT-Creation-Date: 2004-06-15 21:36+0100\n"
 "PO-Revision-Date: 2004-03-25 21:08+0200\n"
 "Last-Translator: Eugeniy Meshcheryakov <eugen@univ.kiev.ua>\n"
 "Language-Team: Ukrainian\n"
@@ -20,745 +19,1078 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.3.1\n"
-"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#. # iso-4217.tab
-#. #
-#. # Codes for currencies and funds
-#. #
-#. # Status: ISO 4217:2001
-#. # Last update: 2002-11-13
-#. #
-#. # Tab separated columns:
-#. # Code	Numeric code	Currency
-#. AED
+#. currency_name for AED
 msgid "UAE Dirham"
 msgstr "Дірхем ОАЕ"
 
-#. AFA
+#. currency_name for AFA
 msgid "Afghani"
 msgstr "Афґані"
 
-#. ALL
+#. currency_name for ALL
 msgid "Albanian Lek"
 msgstr "Албанський лек"
 
-#. AMD
+#. currency_name for AMD
 msgid "Armenian Dram"
 msgstr "Вірменський драм"
 
-#. ANG
+#. currency_name for ANG
 msgid "Netherlands Antillian Guilder"
 msgstr "Нідерландський Антильський гульден"
 
-#. AOA
+#. currency_name for AOA
 msgid "Angola Kwanza"
 msgstr "Анґольська кванза"
 
-#. ARS
+#. currency_name for ARS
 msgid "Argentine Peso"
 msgstr "Аргентинський песо"
 
-#. AUD
+#. currency_name for AUD
 msgid "Australian Dollar"
 msgstr "Австралійський долар"
 
-#. AWG
+#. currency_name for AWG
 msgid "Aruban Guilder"
 msgstr "Арубський гульден"
 
-#. AZM
+#. currency_name for AZM
 msgid "Azerbaijanian Manat"
 msgstr "Азербайджанський манат"
 
-#. BAM
+#. currency_name for BAM
 msgid "Convertible Marks"
 msgstr "Конвертована марка"
 
-#. BBD
+#. currency_name for BBD
 msgid "Barbados Dollar"
 msgstr "Барбадоський долар"
 
-#. BDT
+#. currency_name for BDT
 msgid "Bangladeshi Taka"
 msgstr "Бангладеська така"
 
-#. BGL
-#. BGN
+#. currency_name for BGL
 msgid "Bulgarian Lev"
 msgstr "Болгарський лев"
 
-#. BHD
+#. currency_name for BHD
 msgid "Bahraini Dinar"
 msgstr "Бахрейнський динар"
 
-#. BIF
+#. currency_name for BIF
 msgid "Burundi Franc"
 msgstr "Бурундійський франк"
 
-#. BMD
+#. currency_name for BMD
 msgid "Bermudian Dollar"
 msgstr "Бермудський долар"
 
-#. BND
+#. currency_name for BND
 msgid "Brunei Dollar"
 msgstr "Брунейський долар"
 
-#. BOB
+#. currency_name for BOB
 msgid "Boliviano"
 msgstr "Болівіано"
 
-#. BOV
+#. currency_name for BOV
 msgid "Bolivian Mvdol"
 msgstr "Болівійський мвдол"
 
-#. BRL
+#. currency_name for BRL
 msgid "Brazilian Real"
 msgstr "Бразiльський ріал"
 
-#. BSD
+#. currency_name for BSD
 msgid "Bahamian Dollar"
 msgstr "Багамський долар"
 
-#. BTN
+#. currency_name for BTN
 msgid "Bhutan Ngultrum"
 msgstr "Бутанський нгултрум"
 
-#. BWP
+#. currency_name for BWP
 msgid "Botswana Pula"
 msgstr "Ботсванська пула"
 
-#. BYR
+#. currency_name for BYR
 msgid "Belarussian Rouble"
 msgstr "Білоруський рубль"
 
-#. BZD
+#. currency_name for BZD
 msgid "Belize Dollar"
 msgstr "Белізький долар"
 
-#. CAD
+#. currency_name for CAD
 msgid "Canadian Dollar"
 msgstr "Канадський долар"
 
-#. CDF
+#. currency_name for CDF
 msgid "Franc Congolais"
 msgstr "Конґолезький франк"
 
-#. CHF
+#. currency_name for CHF
 msgid "Swiss Franc"
 msgstr "Швейцарський франк"
 
-#. CLF
+#. currency_name for CLF
 msgid "Unidades de fomento"
 msgstr "Юнідадес де фоменто"
 
-#. CLP
+#. currency_name for CLP
 msgid "Chilean Peso"
 msgstr "Чілійський песо"
 
-#. CNY
+#. currency_name for CNY
 msgid "Chinese Yuan Renminbi"
 msgstr "Юань Женьміньбі (Китай)"
 
-#. COP
+#. currency_name for COP
 msgid "Colombian Peso"
 msgstr "Колумбійський песо"
 
-#. CRC
+#. currency_name for CRC
 msgid "Costa Rican Colon"
 msgstr "Костариканський колон"
 
-#. CUP
+#. currency_name for CUP
 msgid "Cuban Peso"
 msgstr "Кубинський песо"
 
-#. CVE
+#. currency_name for CVE
 msgid "Cap Verde Escudo"
 msgstr "Ескудо Кабо-Верде"
 
-#. CYP
+#. currency_name for CYP
 msgid "Cyprus Pound"
 msgstr "Кіпрський фунт"
 
-#. CZK
+#. currency_name for CZK
 msgid "Czech Koruna"
 msgstr "Чеська крона"
 
-#. DJF
+#. currency_name for DJF
 msgid "Djibouti Franc"
 msgstr "Джібутійський франк"
 
-#. DKK
+#. currency_name for DKK
 msgid "Danish Krone"
 msgstr "Датська крона"
 
-#. DOP
+#. currency_name for DOP
 msgid "Dominican Peso"
 msgstr "Домініканський песо"
 
-#. DZD
+#. currency_name for DZD
 msgid "Algerian Dinar"
 msgstr "Алжирський динар"
 
-#. ECV
+#. currency_name for ECV
 msgid "Unidad de Valor Constante UVC"
 msgstr "Юнідад де валор константе"
 
-#. EEK
+#. currency_name for EEK
 msgid "Estonia Kroon"
 msgstr "Естонська крона"
 
-#. EGP
+#. currency_name for EGP
 msgid "Egyptian Pound"
 msgstr "Єгипетський фунт"
 
-#. ERN
+#. currency_name for ERN
 msgid "Eritrean Nakfa"
 msgstr "Ерітрейська накфа"
 
-#. ETB
+#. currency_name for ETB
 msgid "Ethiopian Birr"
 msgstr "Ефіопський бір"
 
-#. EUR
+#. currency_name for EUR
 msgid "Euro"
 msgstr "Євро"
 
-#. FJD
+#. currency_name for FJD
 msgid "Fiji Dollar"
 msgstr "Фіджійський долар"
 
-#. FKP
+#. currency_name for FKP
 msgid "Falkland Island Pound"
 msgstr "Фунт Фолклендських островів"
 
-#. GBP
+#. currency_name for GBP
 msgid "Pound Sterling"
 msgstr "Фунт стерлінгів"
 
-#. GEL
+#. currency_name for GEL
 msgid "Georgian Lari"
 msgstr "Ларі"
 
-#. GHC
+#. currency_name for GHC
 msgid "Ghanaian Cedi"
 msgstr "Седі"
 
-#. GIP
+#. currency_name for GIP
 msgid "Gibraltar Pound"
 msgstr "Ґібралтарський фунт"
 
-#. GMD
+#. currency_name for GMD
 msgid "Gambian Dalasi"
 msgstr "Даласі"
 
-#. GNF
+#. currency_name for GNF
 msgid "Guinea Franc"
 msgstr "Ґвінейський франк"
 
-#. GTQ
+#. currency_name for GTQ
 msgid "Guatemalan Quetzal"
 msgstr "Кветзал"
 
-#. GWP
+#. currency_name for GWP
 msgid "Guinea-Bissau Peso"
 msgstr "Песо Ґвінеї-Бісау"
 
-#. GYD
+#. currency_name for GYD
 msgid "Guyana Dollar"
 msgstr "Ґайанський долар"
 
-#. HKD
+#. currency_name for HKD
 msgid "Hong Kong Dollar"
 msgstr "Долар Гонконґу"
 
-#. HNL
+#. currency_name for HNL
 msgid "Honduran Lempira"
 msgstr "Лемпіра"
 
-#. HRK
+#. currency_name for HRK
 msgid "Croatian Kuna"
 msgstr "Хорватська куна"
 
-#. HTG
+#. currency_name for HTG
 msgid "Haitian Gourde"
 msgstr "Гурд"
 
-#. HUF
+#. currency_name for HUF
 msgid "Hungarian Forint"
 msgstr "Форинт"
 
-#. IDR
+#. currency_name for IDR
 msgid "Indonesian Rupiah"
 msgstr "Рупія"
 
-#. ILS
+#. currency_name for ILS
 msgid "Israeli Shekel"
 msgstr "Новий ізраїльський шекель"
 
-#. INR
+#. currency_name for INR
 msgid "Indian Rupee"
 msgstr "Індійська рупія"
 
-#. IQD
+#. currency_name for IQD
 msgid "Iraqi Dinar"
 msgstr "Іракський динар"
 
-#. IRR
+#. currency_name for IRR
 msgid "Iranian Rial"
 msgstr "Іранський ріал"
 
-#. ISK
+#. currency_name for ISK
 msgid "Iceland Krona"
 msgstr "Ісландська крона"
 
-#. JMD
+#. currency_name for JMD
 msgid "Jamaican Dollar"
 msgstr "Ямайський долар"
 
-#. JOD
+#. currency_name for JOD
 msgid "Jordanian Dinar"
 msgstr "Йорданський динар"
 
-#. JPY
+#. currency_name for JPY
 msgid "Japanese Yen"
 msgstr "Єна"
 
-#. KES
+#. currency_name for KES
 msgid "Kenyan Shilling"
 msgstr "Кенійський шилінг"
 
-#. KGS
+#. currency_name for KGS
 msgid "Kyrgyzstan Som"
 msgstr "Сом"
 
-#. KHR
+#. currency_name for KHR
 msgid "Cambodian Riel"
 msgstr "Ріел"
 
-#. KMF
+#. currency_name for KMF
 msgid "Comoro Franc"
 msgstr "Коморський франк"
 
-#. KPW
+#. currency_name for KPW
 msgid "North Korean Won"
 msgstr "Північно-корейський вон"
 
-#. KRW
+#. currency_name for KRW
 msgid "South Korean Won"
 msgstr "Вон"
 
-#. KWD
+#. currency_name for KWD
 msgid "Kuwaiti Dinar"
 msgstr "Кувейтський динар"
 
-#. KYD
+#. currency_name for KYD
 msgid "Cayman Islands Dollar"
 msgstr "Долар Кайманових островів"
 
-#. KZT
+#. currency_name for KZT
 msgid "Kazakhstan Tenge"
 msgstr "Тенге"
 
-#. LAK
+#. currency_name for LAK
 msgid "Lao Kip"
 msgstr "Кіп"
 
-#. LBP
+#. currency_name for LBP
 msgid "Lebanese Pound"
 msgstr "Ліванський фунт"
 
-#. LKR
+#. currency_name for LKR
 msgid "Sri Lanka Rupee"
 msgstr "Рупія Шрі-Ланки"
 
-#. LRD
+#. currency_name for LRD
 msgid "Liberian Dollar"
 msgstr "Ліберійський долар"
 
-#. LSL
+#. currency_name for LSL
 msgid "Lesotho Loti"
 msgstr "Лоті"
 
-#. LTL
+#. currency_name for LTL
 msgid "Lithuanian Litas"
 msgstr "Литовський літ"
 
-#. LVL
+#. currency_name for LVL
 msgid "Latvian Lats"
 msgstr "Латвійський лат"
 
-#. LYD
+#. currency_name for LYD
 msgid "Libyan Dinar"
 msgstr "Лівійський динар"
 
-#. MAD
+#. currency_name for MAD
 msgid "Moroccan Dirham"
 msgstr "Марокканський дірхем"
 
-#. MDL
+#. currency_name for MDL
 msgid "Moldovan Leu"
 msgstr "Молдовський лей"
 
-#. MGF
+#. currency_name for MGF
 msgid "Malagasy Franc"
 msgstr "Малаґасійський франк"
 
-#. MKD
+#. currency_name for MKD
 msgid "Macedonian Denar"
 msgstr "Денар"
 
-#. MMK
+#. currency_name for MMK
 msgid "Myanmar Kyat"
 msgstr "К'ят"
 
-#. MNT
+#. currency_name for MNT
 msgid "Mongolian Tugrik"
 msgstr "Тугрик"
 
-#. MOP
+#. currency_name for MOP
 msgid "Macao Patacca"
 msgstr "Патака"
 
-#. MRO
+#. currency_name for MRO
 msgid "Mauritanian Ouguiya"
 msgstr "Агвійя"
 
-#. MTL
+#. currency_name for MTL
 msgid "Maltese Lira"
 msgstr "Мальтійська ліра"
 
-#. MUR
+#. currency_name for MUR
 msgid "Mauritius Rupee"
 msgstr "Маврикійська рупія"
 
-#. MVR
+#. currency_name for MVR
 msgid "Maldive Rufiyaa"
 msgstr "Руфія"
 
-#. MWK
+#. currency_name for MWK
 msgid "Malawi Kwacha"
 msgstr "Квача"
 
-#. MXN
+#. currency_name for MXN
 msgid "Mexican Peso"
 msgstr "Мексиканський песо"
 
-#. MXV
+#. currency_name for MXV
 msgid "Unidad de Inversion (UDI)"
 msgstr "Мексиканський Юнідад де Інверсіон (UDI)"
 
-#. MYR
+#. currency_name for MYR
 msgid "Malaysian Ringgit"
 msgstr "Малайзійський рінгіт"
 
-#. MZM
+#. currency_name for MZM
 msgid "Mozambique Metical"
 msgstr "Метікал"
 
-#. NAD
+#. currency_name for NAD
 msgid "Namibian Dollar"
 msgstr "Намібійський долар"
 
-#. NGN
+#. currency_name for NGN
 msgid "Nigerian Naira"
 msgstr "Наїра"
 
-#. NIO
+#. currency_name for NIO
 msgid "Nicaraguan Cordoba Oro"
 msgstr "Кордоба Оро"
 
-#. NOK
+#. currency_name for NOK
 msgid "Norwegian Krone"
 msgstr "Норвезька крона"
 
-#. NPR
+#. currency_name for NPR
 msgid "Nepalese Rupee"
 msgstr "Непальська рупія"
 
-#. NZD
+#. currency_name for NZD
 msgid "New Zealand Dollar"
 msgstr "Новозеландський долар"
 
-#. OMR
+#. currency_name for OMR
 msgid "Rial Omani"
 msgstr "Оманський ріал"
 
-#. PAB
+#. currency_name for PAB
 msgid "Panamanian Balboa"
 msgstr "Бальбоа"
 
-#. PEN
+#. currency_name for PEN
 msgid "Peruvian Nuevo Sol"
 msgstr "Новий сол"
 
-#. PGK
+#. currency_name for PGK
 msgid "Papua New Guinea Kina"
 msgstr "Кіна"
 
-#. PHP
+#. currency_name for PHP
 msgid "Phillipine Peso"
 msgstr "Філіппінський песо"
 
-#. PKR
+#. currency_name for PKR
 msgid "Pakistan Rupee"
 msgstr "Пакистанська рупія"
 
-#. PLN
+#. currency_name for PLN
 msgid "Polish Złoty"
 msgstr "Злотий"
 
-#. PYG
+#. currency_name for PYG
 msgid "Paraguay Guarani"
 msgstr "Гуарані"
 
-#. QAR
+#. currency_name for QAR
 msgid "Qatari Riyal"
 msgstr "Катарський ріал"
 
-#. ROL
+#. currency_name for ROL
 msgid "Romanian Leu"
 msgstr "Лей"
 
-#. RUB
+#. currency_name for RUB
 msgid "Russian Rouble"
 msgstr "Російський рубль"
 
-#. RWF
+#. currency_name for RWF
 msgid "Rwanda Franc"
 msgstr "Руандійський франк"
 
-#. SAR
+#. currency_name for SAR
 msgid "Saudi Riyal"
 msgstr "Саудівський ріал"
 
-#. SBD
+#. currency_name for SBD
 msgid "Solomon Islands Dollar"
 msgstr "Долар Соломонових островів"
 
-#. SCR
+#. currency_name for SCR
 msgid "Seychelles Rupee"
 msgstr "Сейшельська рупія"
 
-#. SDD
+#. currency_name for SDD
 msgid "Sudanese Dinar"
 msgstr "Суданський динар"
 
-#. SEK
+#. currency_name for SEK
 msgid "Swedish Krona"
 msgstr "Шведська крона"
 
-#. SGD
+#. currency_name for SGD
 msgid "Singapur Dollar"
 msgstr "Сінґапурський долар"
 
-#. SHP
+#. currency_name for SHP
 msgid "Saint Helena Pound"
 msgstr "Фунт Святої Єлени"
 
-#. SIT
+#. currency_name for SIT
 msgid "Slovenian Tolar"
 msgstr "Толар"
 
-#. SKK
+#. currency_name for SKK
 msgid "Slovak Koruna"
 msgstr "Словацька крона"
 
-#. SLL
+#. currency_name for SLL
 msgid "Leone"
 msgstr "Леоне"
 
-#. SOS
+#. currency_name for SOS
 msgid "Somali Schilling"
 msgstr "Сомалійський шилінг"
 
-#. SRG
+#. currency_name for SRG
 msgid "Suriname Guilder"
 msgstr "Сурінамський гульден"
 
-#. STD
+#. currency_name for STD
 msgid "Sao Tome and Principe Dobra"
 msgstr "Добра"
 
-#. SVC
+#. currency_name for SVC
 msgid "El Salvador Colon"
 msgstr "Сальвадорський колон"
 
-#. SYP
+#. currency_name for SYP
 msgid "Syrian Pound"
 msgstr "Сірійський фунт"
 
-#. SZL
+#. currency_name for SZL
 msgid "Swaziland Lilangeni"
 msgstr "Ліланджені"
 
-#. THB
+#. currency_name for THB
 msgid "Thai Baht"
 msgstr "Бат"
 
-#. TJS
+#. currency_name for TJS
 msgid "Tajik Somoni"
 msgstr "Сомоні"
 
-#. TLE
+#. currency_name for TLE
 msgid "Timor Escudo"
 msgstr "Тиморський ескудо"
 
-#. TMM
+#. currency_name for TMM
 msgid "Turkmenistan Manat"
 msgstr "Манат"
 
-#. TND
+#. currency_name for TND
 msgid "Tunisian Dinar"
 msgstr "Туніський динар"
 
-#. TOP
+#. currency_name for TOP
 msgid "Tongan Pa'anga"
 msgstr "Паанґа"
 
-#. TRL
+#. currency_name for TRL
 msgid "Turkish Lira"
 msgstr "Турецька ліра"
 
-#. TTD
+#. currency_name for TTD
 msgid "Trinidad and Tobago Dollar"
 msgstr "Долар Тринідаду і Тобаго"
 
-#. TWD
+#. currency_name for TWD
 msgid "New Taiwan Dollar"
 msgstr "Новий тайваньський долар"
 
-#. TZS
+#. currency_name for TZS
 msgid "Tazanian Schilling"
 msgstr "Танзанійський шилінг"
 
-#. UAH
+#. currency_name for UAH
 msgid "Ukrainian Hryvnia"
 msgstr "Гривня"
 
-#. UGX
+#. currency_name for UGX
 msgid "Ugandan Schilling"
 msgstr "Уґандійський шилінг"
 
-#. USD
+#. currency_name for USD
 msgid "US Dollar"
 msgstr "Долар США"
 
-#. USN
+#. currency_name for USN
 msgid "US Dollar (Next day)"
 msgstr "Долар США (Наступного дня)"
 
-#. USS
+#. currency_name for USS
 msgid "US Dollar (Same day)"
 msgstr "Долар США (Цього дня)"
 
-#. UYU
+#. currency_name for UYU
 msgid "Peso Uruguayo"
 msgstr "Уруґвайський песо"
 
-#. UZS
+#. currency_name for UZS
 msgid "Uzbekistan Sum"
 msgstr "Узбецький сум"
 
-#. VEB
+#. currency_name for VEB
 msgid "Venezuela Bolivar"
 msgstr "Болівар"
 
-#. VND
+#. currency_name for VND
 msgid "Viet Nam Dong"
 msgstr "Донг"
 
-#. VUV
+#. currency_name for VUV
 msgid "Vanuatu Vatu"
 msgstr "Вату"
 
-#. WST
+#. currency_name for WST
 msgid "Samoan Tala"
 msgstr "Тала"
 
-#. XAF
+#. currency_name for XAF
 msgid "CFA Franc BEAC"
 msgstr "КФА франк BEAC"
 
-#. XAG
+#. currency_name for XAG
 msgid "Silver"
 msgstr "Срібло"
 
-#. XAU
+#. currency_name for XAU
 msgid "Gold"
 msgstr "Золото"
 
-#. XBA
+#. currency_name for XBA
 msgid "Bond Markets Units"
 msgstr "Одиниці цінних паперів"
 
-#. XBB
+#. currency_name for XBB
 msgid "European Composite Unit EURCO"
 msgstr ""
 
-#. XBC
+#. currency_name for XBC
 msgid "European Monetary Unit EUM"
 msgstr ""
 
-#. XBD
+#. currency_name for XBD
 msgid "European Unit of Account EUA"
 msgstr ""
 
-#. XCD
+#. currency_name for XCD
 msgid "East Caribean Dollar"
 msgstr "Східнокарибський долар"
 
-#. XDR
+#. currency_name for XDR
 msgid "Special Drawing Right"
 msgstr "СДР (Спеціальні права запозичення)"
 
-#. XOF
+#. currency_name for XFO
+msgid "Gold-Franc"
+msgstr "Золотий франк"
+
+#. currency_name for XFU
+msgid "UIC-Franc"
+msgstr "UIC-франк"
+
+#. currency_name for XOF
 msgid "CFA Franc BCEAO"
 msgstr "КФА франк BCEAO"
 
-#. XPD
+#. currency_name for XPD
 msgid "Palladium"
 msgstr "Паладій"
 
-#. XPF
+#. currency_name for XPF
 msgid "CFP Franc"
 msgstr "КФП франк"
 
-#. XPT
+#. currency_name for XPT
 msgid "Platinum"
 msgstr "Платина"
 
-#. XTS
+#. currency_name for XTS
 msgid "Code for testing purposes"
 msgstr "РЕЗЕРВНІ КОДИ СПЕЦІАЛЬНОГО ПРИЗНАЧЕННЯ"
 
-#. XXX
+#. currency_name for XXX
 msgid "No currency involved"
 msgstr "НЕМАЄ ПОСИЛАНЬ НА ВАЛЮТИ"
 
-#. YER
+#. currency_name for YER
 msgid "Yemini Rial"
 msgstr "Єменський ріал"
 
-#. YUD
+#. currency_name for YUD
 msgid "Yugoslavian Dinar"
 msgstr "Югославський динар"
 
-#. ZAR
+#. currency_name for ZAR
 msgid "South African Rand"
 msgstr "Ренд"
 
-#. ZMK
+#. currency_name for ZMK
 msgid "Zambian Kwacha"
 msgstr "Квача"
 
-#. ZWD
+#. currency_name for ZWD
 msgid "Zimbabwe Dollar"
 msgstr "Долар Зімбабве"
 
-#~ msgid "Gold-Franc"
-#~ msgstr "Золотий франк"
+#. currency_name for ADP
+msgid "Andorran Peseta"
+msgstr ""
 
-#~ msgid "UIC-Franc"
-#~ msgstr "UIC-франк"
+#. currency_name for ALK
+#, fuzzy
+msgid "Albanian Old Lek"
+msgstr "Албанський лек"
 
+#. currency_name for AON
+#, fuzzy
+msgid "Angola New Kwanza"
+msgstr "Анґольська кванза"
+
+#. currency_name for AOR
+#, fuzzy
+msgid "Angola Kwanza Reajustado"
+msgstr "Анґольська кванза"
+
+#. currency_name for ARA
+#, fuzzy
+msgid "Argentine Austral"
+msgstr "Аргентинський песо"
+
+#. currency_name for ARP
+#, fuzzy
+msgid "Peso Argentino"
+msgstr "Аргентинський песо"
+
+#. currency_name for ATS
+#, fuzzy
+msgid "Austrian Schilling"
+msgstr "Танзанійський шилінг"
+
+#. currency_name for BAD
+msgid "Bosnia and Herzegovina Dinar"
+msgstr ""
+
+#. currency_name for BEC
+#, fuzzy
+msgid "Belgian Convertible Franc"
+msgstr "Конвертована марка"
+
+#. currency_name for BEL
+msgid "Belgian Financial Franc"
+msgstr ""
+
+#. currency_name for BGJ
+#, fuzzy
+msgid "Bulgarian Lev A/52"
+msgstr "Болгарський лев"
+
+#. currency_name for BGK
+#, fuzzy
+msgid "Bulgarian Lev A/62"
+msgstr "Болгарський лев"
+
+#. currency_name for BOP
+#, fuzzy
+msgid "Bolivian Peso"
+msgstr "Болівіано"
+
+#. currency_name for BRB
+#, fuzzy
+msgid "Brazilian Cruzeiro"
+msgstr "Бразiльський ріал"
+
+#. currency_name for BRC
+#, fuzzy
+msgid "Brazilian Cruzado"
+msgstr "Бразiльський ріал"
+
+#. currency_name for BRN
+#, fuzzy
+msgid "Brazilian New Cruzado"
+msgstr "Бразiльський ріал"
+
+#. currency_name for BRR
+#, fuzzy
+msgid "Brazilian Cruzeiro Real"
+msgstr "Бразiльський ріал"
+
+#. currency_name for BUK
+msgid "Burma"
+msgstr ""
+
+#. currency_name for CNX
+msgid "Chinese Peoples Bank Dollar"
+msgstr ""
+
+#. currency_name for CSJ
+msgid "Czechoslovakian Krona A/53"
+msgstr ""
+
+#. currency_name for CSK
+#, fuzzy
+msgid "Czechoslovakian Koruna"
+msgstr "Чеська крона"
+
+#. currency_name for DDM
+msgid "Mark der DDR"
+msgstr ""
+
+#. currency_name for DEM
+msgid "Deutsche Mark"
+msgstr ""
+
+#. currency_name for ECS
+msgid "Ecuador Sucre"
+msgstr ""
+
+#. currency_name for ESA
+msgid "Spanish Peseta ('A' Account)"
+msgstr ""
+
+#. currency_name for ESB
+msgid "Spanish Peseta (convertible)"
+msgstr ""
+
+#. currency_name for ESP
+msgid "Spanish Peseta"
+msgstr ""
+
+#. currency_name for FIM
+msgid "Finnish Markka"
+msgstr ""
+
+#. currency_name for FRF
+#, fuzzy
+msgid "French Franc"
+msgstr "КФП франк"
+
+#. currency_name for GEK
+#, fuzzy
+msgid "Georgian Coupon"
+msgstr "Ларі"
+
+#. currency_name for GNE
+#, fuzzy
+msgid "Guinea Syli"
+msgstr "Ґвінейський франк"
+
+#. currency_name for GQE
+msgid "Equatorial Guinea Ekwele"
+msgstr ""
+
+#. currency_name for GRD
+msgid "Greek Drachma"
+msgstr ""
+
+#. currency_name for GWE
+#, fuzzy
+msgid "Guinea Escudo"
+msgstr "Ґвінейський франк"
+
+#. currency_name for HRD
+#, fuzzy
+msgid "Croatian Dinar"
+msgstr "Хорватська куна"
+
+#. currency_name for IEP
+#, fuzzy
+msgid "Irish Pound"
+msgstr "Сірійський фунт"
+
+#. currency_name for ILP
+#, fuzzy
+msgid "Israeli Pound"
+msgstr "Ґібралтарський фунт"
+
+#. currency_name for ILR
+#, fuzzy
+msgid "Israeli Old Shekel"
+msgstr "Новий ізраїльський шекель"
+
+#. currency_name for ISJ
+#, fuzzy
+msgid "Iceland Old Krona"
+msgstr "Ісландська крона"
+
+#. currency_name for ITL
+#, fuzzy
+msgid "Italian Lira"
+msgstr "Іранський ріал"
+
+#. currency_name for LAJ
+msgid "Lao Pot Pol"
+msgstr ""
+
+#. currency_name for LSM
+#, fuzzy
+msgid "Lesotho Maloti"
+msgstr "Лоті"
+
+#. currency_name for LTT
+#, fuzzy
+msgid "Lithuanian Talonas"
+msgstr "Литовський літ"
+
+#. currency_name for LUC
+msgid "Luxembourg Convertible Franc"
+msgstr ""
+
+#. currency_name for LUF
+#, fuzzy
+msgid "Luxembourg Franc"
+msgstr "Коморський франк"
+
+#. currency_name for LUL
+msgid "Luxembourg Financial Franc"
+msgstr ""
+
+#. currency_name for LVR
+#, fuzzy
+msgid "Latvian Ruble"
+msgstr "Російський рубль"
+
+#. currency_name for MAF
+#, fuzzy
+msgid "Mali Franc"
+msgstr "Малаґасійський франк"
+
+#. currency_name for MTP
+#, fuzzy
+msgid "Maltese Pound"
+msgstr "Ліванський фунт"
+
+#. currency_name for MVQ
+#, fuzzy
+msgid "Maldive Rupee"
+msgstr "Руфія"
+
+#. currency_name for MZE
+#, fuzzy
+msgid "Mozambique Escudo"
+msgstr "Метікал"
+
+#. currency_name for NIC
+#, fuzzy
+msgid "Nicaraguan Cordoba"
+msgstr "Кордоба Оро"
+
+#. currency_name for NLG
+#, fuzzy
+msgid "Netherlands Guilder"
+msgstr "Нідерландський Антильський гульден"
+
+#. currency_name for PEH
+#, fuzzy
+msgid "Peruvian Sol"
+msgstr "Новий сол"
+
+#. currency_name for PEI
+msgid "Peruvian Inti"
+msgstr ""
+
+#. currency_name for PTE
+#, fuzzy
+msgid "Portuguese Escudo"
+msgstr "Тиморський ескудо"
+
+#. currency_name for RHD
+#, fuzzy
+msgid "Rhodesian Dollar"
+msgstr "Багамський долар"
+
+#. currency_name for ROK
+#, fuzzy
+msgid "Romanian Leu A/52"
+msgstr "Лей"
+
+#. currency_name for SDP
+#, fuzzy
+msgid "Sudanese Pound"
+msgstr "Ліванський фунт"
+
+#. currency_name for SUR
+#, fuzzy
+msgid "USSR Rouble"
+msgstr "Російський рубль"
+
+#. currency_name for TJR
+#, fuzzy
+msgid "Tajik Rouble"
+msgstr "Російський рубль"
+
+#. currency_name for UAK
+#, fuzzy
+msgid "Ukrainian Karbovanet"
+msgstr "Гривня"
+
+#. currency_name for UGS
+#, fuzzy
+msgid "Uganda Schilling"
+msgstr "Уґандійський шилінг"
+
+#. currency_name for UGW
+#, fuzzy
+msgid "Uganda Old Schilling"
+msgstr "Уґандійський шилінг"
+
+#. currency_name for UYN
+msgid "Old Uruguayan Peso"
+msgstr ""
+
+#. currency_name for UYP
+#, fuzzy
+msgid "Uruguayan Peso"
+msgstr "Кубинський песо"
+
+#. currency_name for VNC
+#, fuzzy
+msgid "Viet Nam Old Dong"
+msgstr "Донг"
+
+#. currency_name for XEU
+msgid "European Currency Unit ECU"
+msgstr ""
+
+#. currency_name for XRE
+msgid "RINET Funds Code"
+msgstr ""
+
+#. currency_name for YDD
+#, fuzzy
+msgid "Yemeni Dinar"
+msgstr "Єменський ріал"
+
+#. currency_name for ZAL
+#, fuzzy
+msgid "South African Financial Rand"
+msgstr "Ренд"
+
+#. currency_name for ZRN
+msgid "New Zaire"
+msgstr ""
+
+#. currency_name for ZRZ
+msgid "Zaire"
+msgstr ""

@@ -5,13 +5,11 @@
 # Görkem Çetin <gorkem@gelecek.com.tr>, 2000.
 # Nilgün Belma Bugüner <nilgun@superonline.com>, 2001, ..., 2004
 #
-#.
-#: iso-4217.h:353 iso-4217.h:355
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_4217 0.19\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2004-01-06 11:58+0000\n"
+"Report-Msgid-Bugs-To: Alastair McKinstry <mckinstry@debian.org>\n"
+"POT-Creation-Date: 2004-06-15 21:36+0100\n"
 "PO-Revision-Date: 2004-05-26 03:29+0300\n"
 "Last-Translator: Nilgün Belma Bugüner <nilgun@superonline.com>\n"
 "Language-Team: Turkish <gnu-tr-u12a@lists.sourceforge.net>\n"
@@ -20,958 +18,1102 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.0\n"
 
-#. # iso-4217.tab
-#. #
-#. # Codes for currencies and funds
-#. #
-#. # Status: ISO 4217:2001
-#. # Last update: 2002-11-13
-#. #
-#. # Tab separated columns:
-#. # Code	Numeric code	Currency
-#. AED
-#: iso-4217.h:11
+#. currency_name for AED
 msgid "UAE Dirham"
 msgstr "BAE dirhem"
 
-#. AFA
-#: iso-4217.h:13
+#. currency_name for AFA
 msgid "Afghani"
 msgstr "Afgani"
 
-#. ALL
-#: iso-4217.h:15
+#. currency_name for ALL
 msgid "Albanian Lek"
 msgstr "Arnavutluk Leki"
 
-#. AMD
-#: iso-4217.h:17
+#. currency_name for AMD
 msgid "Armenian Dram"
 msgstr "Ermeni Dirhemi"
 
-#. ANG
-#: iso-4217.h:19
+#. currency_name for ANG
 msgid "Netherlands Antillian Guilder"
 msgstr "Hollanda Antilleri Gulden"
 
-#. AOA
-#: iso-4217.h:21
+#. currency_name for AOA
 msgid "Angola Kwanza"
 msgstr "Angola Kvanza"
 
-#. ARS
-#: iso-4217.h:23
+#. currency_name for ARS
 msgid "Argentine Peso"
 msgstr "Arjantin Pesosu"
 
-#. AUD
-#: iso-4217.h:25
+#. currency_name for AUD
 msgid "Australian Dollar"
 msgstr "Avustralya Doları"
 
-#. AWG
-#: iso-4217.h:27
+#. currency_name for AWG
 msgid "Aruban Guilder"
 msgstr "Aruban Guldeni"
 
-#. AZM
-#: iso-4217.h:29
+#. currency_name for AZM
 msgid "Azerbaijanian Manat"
 msgstr "Azerbaycan Manat"
 
-#. BAM
-#: iso-4217.h:31
+#. currency_name for BAM
 msgid "Convertible Marks"
 msgstr "Değiştirilebilir Paralar"
 
-#. BBD
-#: iso-4217.h:33
+#. currency_name for BBD
 msgid "Barbados Dollar"
 msgstr "Barbados Doları"
 
-#. BDT
-#: iso-4217.h:35
+#. currency_name for BDT
 msgid "Bangladeshi Taka"
 msgstr "Banladeş Takası"
 
-#. BGL
-#: iso-4217.h:37 iso-4217.h:39
+#. currency_name for BGL
 msgid "Bulgarian Lev"
 msgstr "Bulgar Levası"
 
-#. BHD
-#: iso-4217.h:41
+#. currency_name for BHD
 msgid "Bahraini Dinar"
 msgstr "Bahreyn Dinarı"
 
-#. BIF
-#: iso-4217.h:43
+#. currency_name for BIF
 msgid "Burundi Franc"
 msgstr "Burundi Frangı"
 
-#. BMD
-#: iso-4217.h:45
+#. currency_name for BMD
 msgid "Bermudian Dollar"
 msgstr "Bermuda Doları"
 
-#. BND
-#: iso-4217.h:47
+#. currency_name for BND
 msgid "Brunei Dollar"
 msgstr "Bruney Doları"
 
-#. BOB
-#: iso-4217.h:49
+#. currency_name for BOB
 msgid "Boliviano"
 msgstr "Bolivyano"
 
-#. BOV
-#: iso-4217.h:51
+#. currency_name for BOV
 msgid "Bolivian Mvdol"
 msgstr "Bolivia Mvdol"
 
-#. BRL
-#: iso-4217.h:53
+#. currency_name for BRL
 msgid "Brazilian Real"
 msgstr "Brezilya Reali"
 
-#. BSD
-#: iso-4217.h:55
+#. currency_name for BSD
 msgid "Bahamian Dollar"
 msgstr "Bahama Doları"
 
-#. BTN
-#: iso-4217.h:57
+#. currency_name for BTN
 msgid "Bhutan Ngultrum"
 msgstr "Bütan Gultrumu"
 
-#. BWP
-#: iso-4217.h:59
+#. currency_name for BWP
 msgid "Botswana Pula"
 msgstr "Botsvanya Pulası"
 
-#. BYR
-#: iso-4217.h:61
+#. currency_name for BYR
 msgid "Belarussian Rouble"
 msgstr "Belarus Rublesi"
 
-#. BZD
-#: iso-4217.h:63
+#. currency_name for BZD
 msgid "Belize Dollar"
 msgstr "Belize Doları"
 
-#. CAD
-#: iso-4217.h:65
+#. currency_name for CAD
 msgid "Canadian Dollar"
 msgstr "Kanada Doları"
 
-#. CDF
-#: iso-4217.h:67
+#. currency_name for CDF
 msgid "Franc Congolais"
 msgstr "Frank Kongolais"
 
-#. CHF
-#: iso-4217.h:69
+#. currency_name for CHF
 msgid "Swiss Franc"
 msgstr "İsviçre Frangı"
 
-#. CLF
-#: iso-4217.h:71
+#. currency_name for CLF
 msgid "Unidades de fomento"
 msgstr "Şili Sosyal Sigortalar Fon Birimi"
 
-#. CLP
-#: iso-4217.h:73
+#. currency_name for CLP
 msgid "Chilean Peso"
 msgstr "Şili Pezosu"
 
-#. CNY
-#: iso-4217.h:75
+#. currency_name for CNY
 msgid "Chinese Yuan Renminbi"
 msgstr "Çin Yuan Renminbi"
 
-#. COP
-#: iso-4217.h:77
+#. currency_name for COP
 msgid "Colombian Peso"
 msgstr "Kolombiya Pesosu"
 
-#. CRC
-#: iso-4217.h:79
+#. currency_name for CRC
 msgid "Costa Rican Colon"
 msgstr "Kostarika Kolonu"
 
-#. CUP
-#: iso-4217.h:81
+#. currency_name for CUP
 msgid "Cuban Peso"
 msgstr "Küba Pezosu"
 
-#. CVE
-#: iso-4217.h:83
+#. currency_name for CVE
 msgid "Cap Verde Escudo"
 msgstr "Keypverde Esküdosu"
 
-#. CYP
-#: iso-4217.h:85
+#. currency_name for CYP
 msgid "Cyprus Pound"
 msgstr "Kıbrıs Lirası"
 
-#. CZK
-#: iso-4217.h:87
+#. currency_name for CZK
 msgid "Czech Koruna"
 msgstr "Çek Kronu"
 
-#. DJF
-#: iso-4217.h:89
+#. currency_name for DJF
 msgid "Djibouti Franc"
 msgstr "Cibuti Frangı"
 
-#. DKK
-#: iso-4217.h:91
+#. currency_name for DKK
 msgid "Danish Krone"
 msgstr "Danimarka Kronu"
 
-#. DOP
-#: iso-4217.h:93
+#. currency_name for DOP
 msgid "Dominican Peso"
 msgstr "Dominik Pezosu"
 
-#. DZD
-#: iso-4217.h:95
+#. currency_name for DZD
 msgid "Algerian Dinar"
 msgstr "Cezayir Dinarı"
 
-#. ECV
-#: iso-4217.h:97
+#. currency_name for ECV
 msgid "Unidad de Valor Constante UVC"
 msgstr "Ekvator Sabit Değerli Para Birimi"
 
-#. EEK
-#: iso-4217.h:99
+#. currency_name for EEK
 msgid "Estonia Kroon"
 msgstr "Estonya Kronu"
 
-#. EGP
-#: iso-4217.h:101
+#. currency_name for EGP
 msgid "Egyptian Pound"
 msgstr "Mısır Lirası"
 
-#. ERN
-#: iso-4217.h:103
+#. currency_name for ERN
 msgid "Eritrean Nakfa"
 msgstr "Eritre Nakfası"
 
-#. ETB
-#: iso-4217.h:105
+#. currency_name for ETB
 msgid "Ethiopian Birr"
 msgstr "Etyopya Biri"
 
-#. EUR
-#: iso-4217.h:107
+#. currency_name for EUR
 msgid "Euro"
 msgstr "Euro"
 
-#. FJD
-#: iso-4217.h:109
+#. currency_name for FJD
 msgid "Fiji Dollar"
 msgstr "Fiji Doları"
 
-#. FKP
-#: iso-4217.h:111
+#. currency_name for FKP
 msgid "Falkland Island Pound"
 msgstr "Falkland Adaları Poundu"
 
-#. GBP
-#: iso-4217.h:113
+#. currency_name for GBP
 msgid "Pound Sterling"
 msgstr "İngiliz Sterlini"
 
-#. GEL
-#: iso-4217.h:115
+#. currency_name for GEL
 msgid "Georgian Lari"
 msgstr "Gürcü Larisi"
 
-#. GHC
-#: iso-4217.h:117
+#. currency_name for GHC
 msgid "Ghanaian Cedi"
 msgstr "Gana Sedisi"
 
-#. GIP
-#: iso-4217.h:119
+#. currency_name for GIP
 msgid "Gibraltar Pound"
 msgstr "Cebelitarık Poundu"
 
-#. GMD
-#: iso-4217.h:121
+#. currency_name for GMD
 msgid "Gambian Dalasi"
 msgstr "Gambiya Dalaşı"
 
-#. GNF
-#: iso-4217.h:123
+#. currency_name for GNF
 msgid "Guinea Franc"
 msgstr "Gine Frangı"
 
-#. GTQ
-#: iso-4217.h:125
+#. currency_name for GTQ
 msgid "Guatemalan Quetzal"
 msgstr "Guatemela Kuetzalı"
 
-#. GWP
-#: iso-4217.h:127
+#. currency_name for GWP
 msgid "Guinea-Bissau Peso"
 msgstr "Gine-Biso Pezosu"
 
-#. GYD
-#: iso-4217.h:129
+#. currency_name for GYD
 msgid "Guyana Dollar"
 msgstr "Güyan Doları"
 
-#. HKD
-#: iso-4217.h:131
+#. currency_name for HKD
 msgid "Hong Kong Dollar"
 msgstr "Hong Kong Doları"
 
-#. HNL
-#: iso-4217.h:133
+#. currency_name for HNL
 msgid "Honduran Lempira"
 msgstr "Honduras Lempirası"
 
-#. HRK
-#: iso-4217.h:135
+#. currency_name for HRK
 msgid "Croatian Kuna"
 msgstr "Hırvat Kunası"
 
-#. HTG
-#: iso-4217.h:137
+#. currency_name for HTG
 msgid "Haitian Gourde"
 msgstr "Haiti Gurdesi"
 
-#. HUF
-#: iso-4217.h:139
+#. currency_name for HUF
 msgid "Hungarian Forint"
 msgstr "Macar Forinti"
 
-#. IDR
-#: iso-4217.h:141
+#. currency_name for IDR
 msgid "Indonesian Rupiah"
 msgstr "Endonezya Rupisi"
 
-#. ILS
-#: iso-4217.h:143
+#. currency_name for ILS
 msgid "Israeli Shekel"
 msgstr "İsrail Şekeli"
 
-#. INR
-#: iso-4217.h:145
+#. currency_name for INR
 msgid "Indian Rupee"
 msgstr "Hint Rublesi"
 
-#. IQD
-#: iso-4217.h:147
+#. currency_name for IQD
 msgid "Iraqi Dinar"
 msgstr "Irak Dinarı"
 
-#. IRR
-#: iso-4217.h:149
+#. currency_name for IRR
 msgid "Iranian Rial"
 msgstr "İran Riyali"
 
-#. ISK
-#: iso-4217.h:151
+#. currency_name for ISK
 msgid "Iceland Krona"
 msgstr "İzlanda Kronu"
 
-#. JMD
-#: iso-4217.h:153
+#. currency_name for JMD
 msgid "Jamaican Dollar"
 msgstr "Jameyka Doları"
 
-#. JOD
-#: iso-4217.h:155
+#. currency_name for JOD
 msgid "Jordanian Dinar"
 msgstr "Ürdün Dinarı"
 
-#. JPY
-#: iso-4217.h:157
+#. currency_name for JPY
 msgid "Japanese Yen"
 msgstr "Japon Yeni"
 
-#. KES
-#: iso-4217.h:159
+#. currency_name for KES
 msgid "Kenyan Shilling"
 msgstr "Kenya Şilini"
 
-#. KGS
-#: iso-4217.h:161
+#. currency_name for KGS
 msgid "Kyrgyzstan Som"
 msgstr "Kırgız Somu"
 
-#. KHR
-#: iso-4217.h:163
+#. currency_name for KHR
 msgid "Cambodian Riel"
 msgstr "Kamboç Riyali"
 
-#. KMF
-#: iso-4217.h:165
+#. currency_name for KMF
 msgid "Comoro Franc"
 msgstr "Komoro Frangı"
 
-#. KPW
-#: iso-4217.h:167
+#. currency_name for KPW
 msgid "North Korean Won"
 msgstr "Kuzey Kore Vonu"
 
-#. KRW
-#: iso-4217.h:169
+#. currency_name for KRW
 msgid "South Korean Won"
 msgstr "Güney Kore Vonu"
 
-#. KWD
-#: iso-4217.h:171
+#. currency_name for KWD
 msgid "Kuwaiti Dinar"
 msgstr "Kuveyt Dinarı"
 
-#. KYD
-#: iso-4217.h:173
+#. currency_name for KYD
 msgid "Cayman Islands Dollar"
 msgstr "Seyman Adaları Doları"
 
-#. KZT
-#: iso-4217.h:175
+#. currency_name for KZT
 msgid "Kazakhstan Tenge"
 msgstr "Kazak Tengesi"
 
-#. LAK
-#: iso-4217.h:177
+#. currency_name for LAK
 msgid "Lao Kip"
 msgstr "Laos Kipi"
 
-#. LBP
-#: iso-4217.h:179
+#. currency_name for LBP
 msgid "Lebanese Pound"
 msgstr "Lübnan Poundu"
 
-#. LKR
-#: iso-4217.h:181
+#. currency_name for LKR
 msgid "Sri Lanka Rupee"
 msgstr "Srilanka Rublesi"
 
-#. LRD
-#: iso-4217.h:183
+#. currency_name for LRD
 msgid "Liberian Dollar"
 msgstr "Liberya Doları"
 
-#. LSL
-#: iso-4217.h:185
+#. currency_name for LSL
 msgid "Lesotho Loti"
 msgstr "Lesoto Lotisi"
 
-#. LTL
-#: iso-4217.h:187
+#. currency_name for LTL
 msgid "Lithuanian Litas"
 msgstr "Letonya Litası"
 
-#. LVL
-#: iso-4217.h:189
+#. currency_name for LVL
 msgid "Latvian Lats"
 msgstr "Litvanya Latsı"
 
-#. LYD
-#: iso-4217.h:191
+#. currency_name for LYD
 msgid "Libyan Dinar"
 msgstr "Libya Dinarı"
 
-#. MAD
-#: iso-4217.h:193
+#. currency_name for MAD
 msgid "Moroccan Dirham"
 msgstr "Fas Dirhemi"
 
-#. MDL
-#: iso-4217.h:195
+#. currency_name for MDL
 msgid "Moldovan Leu"
 msgstr "Moldovya Levası"
 
-#. MGF
-#: iso-4217.h:197
+#. currency_name for MGF
 msgid "Malagasy Franc"
 msgstr "Malezya Frangı"
 
-#. MKD
-#: iso-4217.h:199
+#. currency_name for MKD
 msgid "Macedonian Denar"
 msgstr "Makedon Dinarı"
 
-#. MMK
-#: iso-4217.h:201
+#. currency_name for MMK
 msgid "Myanmar Kyat"
 msgstr "Miyanmar Kıyatı"
 
-#. MNT
-#: iso-4217.h:203
+#. currency_name for MNT
 msgid "Mongolian Tugrik"
 msgstr "Moğol Tugriki"
 
-#. MOP
-#: iso-4217.h:205
+#. currency_name for MOP
 msgid "Macao Patacca"
 msgstr "Makau Patakası"
 
-#. MRO
-#: iso-4217.h:207
+#. currency_name for MRO
 msgid "Mauritanian Ouguiya"
 msgstr "Moritanya ügöyası"
 
-#. MTL
-#: iso-4217.h:209
+#. currency_name for MTL
 msgid "Maltese Lira"
 msgstr "Malta Lireti"
 
-#. MUR
-#: iso-4217.h:211
+#. currency_name for MUR
 msgid "Mauritius Rupee"
 msgstr "Moritanya Rublesi"
 
-#. MVR
-#: iso-4217.h:213
+#. currency_name for MVR
 msgid "Maldive Rufiyaa"
 msgstr "Maldiv Rublesi"
 
-#. MWK
-#: iso-4217.h:215
+#. currency_name for MWK
 msgid "Malawi Kwacha"
 msgstr "Malavi Kvaçası"
 
-#. MXN
-#: iso-4217.h:217
+#. currency_name for MXN
 msgid "Mexican Peso"
 msgstr "Meksika Pezosu"
 
-#. MXV
-#: iso-4217.h:219
+#. currency_name for MXV
 msgid "Unidad de Inversion (UDI)"
 msgstr "Meksika Enflasyon Endeksli Hesap Birimi"
 
-#. MYR
-#: iso-4217.h:221
+#. currency_name for MYR
 msgid "Malaysian Ringgit"
 msgstr "Malezya Ringiti"
 
-#. MZM
-#: iso-4217.h:223
+#. currency_name for MZM
 msgid "Mozambique Metical"
 msgstr "Mozambik Matikali"
 
-#. NAD
-#: iso-4217.h:225
+#. currency_name for NAD
 msgid "Namibian Dollar"
 msgstr "Namibya Doları"
 
-#. NGN
-#: iso-4217.h:227
+#. currency_name for NGN
 msgid "Nigerian Naira"
 msgstr "Nijer Nayrası"
 
-#. NIO
-#: iso-4217.h:229
+#. currency_name for NIO
 msgid "Nicaraguan Cordoba Oro"
 msgstr "Nikaragua Kordoba Orosu"
 
-#. NOK
-#: iso-4217.h:231
+#. currency_name for NOK
 msgid "Norwegian Krone"
 msgstr "Norveç Kronu"
 
-#. NPR
-#: iso-4217.h:233
+#. currency_name for NPR
 msgid "Nepalese Rupee"
 msgstr "Nepal Rublesi"
 
-#. NZD
-#: iso-4217.h:235
+#. currency_name for NZD
 msgid "New Zealand Dollar"
 msgstr "Yeni Zellanda Doları"
 
-#. OMR
-#: iso-4217.h:237
+#. currency_name for OMR
 msgid "Rial Omani"
 msgstr "Riyal Omeni"
 
-#. PAB
-#: iso-4217.h:239
+#. currency_name for PAB
 msgid "Panamanian Balboa"
 msgstr "Panama Balboası"
 
-#. PEN
-#: iso-4217.h:241
+#. currency_name for PEN
 msgid "Peruvian Nuevo Sol"
 msgstr "Peru Yeni Solu"
 
-#. PGK
-#: iso-4217.h:243
+#. currency_name for PGK
 msgid "Papua New Guinea Kina"
 msgstr "Papua Yeni Gine Kinası"
 
-#. PHP
-#: iso-4217.h:245
+#. currency_name for PHP
 msgid "Phillipine Peso"
 msgstr "Filipin Pezosu"
 
-#. PKR
-#: iso-4217.h:247
+#. currency_name for PKR
 msgid "Pakistan Rupee"
 msgstr "Pakistan Rublesi"
 
-#. PLN
-#: iso-4217.h:249
-msgid "Polish Zloty"
+#. currency_name for PLN
+#, fuzzy
+msgid "Polish Złoty"
 msgstr "Leh zlotu"
 
-#. PYG
-#: iso-4217.h:251
+#. currency_name for PYG
 msgid "Paraguay Guarani"
 msgstr "Paraguay Kuronu"
 
-#. QAR
-#: iso-4217.h:253
+#. currency_name for QAR
 msgid "Qatari Riyal"
 msgstr "Katar Riyali"
 
-#. ROL
-#: iso-4217.h:255
+#. currency_name for ROL
 msgid "Romanian Leu"
 msgstr "Romen Levası"
 
-#. RUB
-#: iso-4217.h:257
+#. currency_name for RUB
 msgid "Russian Rouble"
 msgstr "Rus Rublesi"
 
-#. RWF
-#: iso-4217.h:259
+#. currency_name for RWF
 msgid "Rwanda Franc"
 msgstr "Ruanda Frangı"
 
-#. SAR
-#: iso-4217.h:261
+#. currency_name for SAR
 msgid "Saudi Riyal"
 msgstr "Arabistan Riyali"
 
-#. SBD
-#: iso-4217.h:263
+#. currency_name for SBD
 msgid "Solomon Islands Dollar"
 msgstr "Solomon Adaları Doları"
 
-#. SCR
-#: iso-4217.h:265
+#. currency_name for SCR
 msgid "Seychelles Rupee"
 msgstr "Seyşel Adaları Rublesi"
 
-#. SDD
-#: iso-4217.h:267
+#. currency_name for SDD
 msgid "Sudanese Dinar"
 msgstr "Sudan Poundu"
 
-#. SEK
-#: iso-4217.h:269
+#. currency_name for SEK
 msgid "Swedish Krona"
 msgstr "İsveç Kronu"
 
-#. SGD
-#: iso-4217.h:271
+#. currency_name for SGD
 msgid "Singapur Dollar"
 msgstr "Singapur Doları"
 
-#. SHP
-#: iso-4217.h:273
+#. currency_name for SHP
 msgid "Saint Helena Pound"
 msgstr "Senhelen Poundu"
 
-#. SIT
-#: iso-4217.h:275
+#. currency_name for SIT
 msgid "Slovenian Tolar"
 msgstr "Liberya Doları"
 
-#. SKK
-#: iso-4217.h:277
+#. currency_name for SKK
 msgid "Slovak Koruna"
 msgstr "Slav Korunası"
 
-#. SLL
-#: iso-4217.h:279
+#. currency_name for SLL
 msgid "Leone"
 msgstr "Leone"
 
-#. SOS
-#: iso-4217.h:281
+#. currency_name for SOS
 msgid "Somali Schilling"
 msgstr "Somali Şilini"
 
-#. SRG
-#: iso-4217.h:283
+#. currency_name for SRG
 msgid "Suriname Guilder"
 msgstr "Surinam Guldeni"
 
-#. STD
-#: iso-4217.h:285
+#. currency_name for STD
 msgid "Sao Tome and Principe Dobra"
 msgstr "Sao Tome ve Principe dobra"
 
-#. SVC
-#: iso-4217.h:287
+#. currency_name for SVC
 msgid "El Salvador Colon"
 msgstr "El Salvador Kolonu"
 
-#. SYP
-#: iso-4217.h:289
+#. currency_name for SYP
 msgid "Syrian Pound"
 msgstr "Suriye Lirası"
 
-#. SZL
-#: iso-4217.h:291
+#. currency_name for SZL
 msgid "Swaziland Lilangeni"
 msgstr "Swaziland Lilangeni"
 
-#. THB
-#: iso-4217.h:293
+#. currency_name for THB
 msgid "Thai Baht"
 msgstr "Thai Baht"
 
-#. TJS
-#: iso-4217.h:295
+#. currency_name for TJS
 msgid "Tajik Somoni"
 msgstr "Tacik Somonu"
 
-#. TLE
-#: iso-4217.h:297
+#. currency_name for TLE
 msgid "Timor Escudo"
 msgstr "Timor Esküdosu"
 
-#. TMM
-#: iso-4217.h:299
+#. currency_name for TMM
 msgid "Turkmenistan Manat"
 msgstr "Türkmen Manatı"
 
-#. TND
-#: iso-4217.h:301
+#. currency_name for TND
 msgid "Tunisian Dinar"
 msgstr "Tunus Dinarı"
 
-#. TOP
-#: iso-4217.h:303
+#. currency_name for TOP
 msgid "Tongan Pa'anga"
 msgstr "Tongan Pangası"
 
-#. TRL
-#: iso-4217.h:305
+#. currency_name for TRL
 msgid "Turkish Lira"
 msgstr "Türk Lirası"
 
-#. TTD
-#: iso-4217.h:307
+#. currency_name for TTD
 msgid "Trinidad and Tobago Dollar"
 msgstr "Trinidad ve Tobago Doları"
 
-#. TWD
-#: iso-4217.h:309
+#. currency_name for TWD
 msgid "New Taiwan Dollar"
 msgstr "Yeni Tayvan Doları"
 
-#. TZS
-#: iso-4217.h:311
+#. currency_name for TZS
 msgid "Tazanian Schilling"
 msgstr "Tanzanya Şilini"
 
-#. UAH
-#: iso-4217.h:313
+#. currency_name for UAH
 msgid "Ukrainian Hryvnia"
 msgstr "Ukrayna Hrivniyası"
 
-#. UGX
-#: iso-4217.h:315
+#. currency_name for UGX
 msgid "Ugandan Schilling"
 msgstr "Uganda Şilini"
 
-#. USD
-#: iso-4217.h:317
+#. currency_name for USD
 msgid "US Dollar"
 msgstr "Amerikan Doları"
 
-#. USN
-#: iso-4217.h:319
+#. currency_name for USN
 msgid "US Dollar (Next day)"
 msgstr "Amerikan Doları"
 
-#. USS
-#: iso-4217.h:321
+#. currency_name for USS
 msgid "US Dollar (Same day)"
 msgstr "Amerikan Doları"
 
-#. UYU
-#: iso-4217.h:323
+#. currency_name for UYU
 msgid "Peso Uruguayo"
 msgstr "Uruguay Pesosu"
 
-#. UZS
-#: iso-4217.h:325
+#. currency_name for UZS
 msgid "Uzbekistan Sum"
 msgstr "Özbek Sumu"
 
-#. VEB
-#: iso-4217.h:327
+#. currency_name for VEB
 msgid "Venezuela Bolivar"
 msgstr "Venezüella Bolivarı"
 
-#. VND
-#: iso-4217.h:329
+#. currency_name for VND
 msgid "Viet Nam Dong"
 msgstr "Vietnam Dongu"
 
-#. VUV
-#: iso-4217.h:331
+#. currency_name for VUV
 msgid "Vanuatu Vatu"
 msgstr "Vanuatu Vatusu"
 
-#. WST
-#: iso-4217.h:333
+#. currency_name for WST
 msgid "Samoan Tala"
 msgstr "Samoa Talası"
 
-#. XAF
-#: iso-4217.h:335
+#. currency_name for XAF
 msgid "CFA Franc BEAC"
 msgstr "Orta Afrika Mali İşbirliği Frangı"
 
-#. XAG
-#: iso-4217.h:337
+#. currency_name for XAG
 msgid "Silver"
 msgstr "Gümüş"
 
-#. XAU
-#: iso-4217.h:339
+#. currency_name for XAU
 msgid "Gold"
 msgstr "Altın"
 
-#. XBA
-#: iso-4217.h:341
+#. currency_name for XBA
 msgid "Bond Markets Units"
 msgstr "Tahvil Piyasaları Birimi"
 
-#. XBB
-#: iso-4217.h:343
+#. currency_name for XBB
 msgid "European Composite Unit EURCO"
 msgstr "Avrupa Birleşik Birimi"
 
-#. XBC
-#: iso-4217.h:345
+#. currency_name for XBC
 msgid "European Monetary Unit EUM"
 msgstr "Avrupa Para Birimi EUM"
 
-#. XBD
-#: iso-4217.h:347
+#. currency_name for XBD
 msgid "European Unit of Account EUA"
 msgstr "Avrupa Ödeme Birimi"
 
-#. XCD
-#: iso-4217.h:349
+#. currency_name for XCD
 msgid "East Caribean Dollar"
 msgstr "Doğu Karayip Doları"
 
-#. XDR
-#: iso-4217.h:351
+#. currency_name for XDR
 msgid "Special Drawing Right"
 msgstr "Özel Çekme Hakkı"
 
-#. XOF
-#: iso-4217.h:357
+#. currency_name for XFO
+msgid "Gold-Franc"
+msgstr ""
+
+#. currency_name for XFU
+#, fuzzy
+msgid "UIC-Franc"
+msgstr "Fransız Pasifik Kolonileri Frangı"
+
+#. currency_name for XOF
 msgid "CFA Franc BCEAO"
 msgstr "Afrika Finans Topluluğu Frangı"
 
-#. XPD
-#: iso-4217.h:359
+#. currency_name for XPD
 msgid "Palladium"
 msgstr "Palladyum"
 
-#. XPF
-#: iso-4217.h:361
+#. currency_name for XPF
 msgid "CFP Franc"
 msgstr "Fransız Pasifik Kolonileri Frangı"
 
-#. XPT
-#: iso-4217.h:363
+#. currency_name for XPT
 msgid "Platinum"
 msgstr "Platin"
 
-#. XTS
-#: iso-4217.h:365
+#. currency_name for XTS
 msgid "Code for testing purposes"
 msgstr "Sınama amaçlı kod"
 
-#. XXX
-#: iso-4217.h:367
+#. currency_name for XXX
 msgid "No currency involved"
 msgstr "Dolaşımda para birimi yok"
 
-#. YER
-#: iso-4217.h:369
+#. currency_name for YER
 msgid "Yemini Rial"
 msgstr "Yemen Riyali"
 
-#. YUD
-#: iso-4217.h:371
+#. currency_name for YUD
 msgid "Yugoslavian Dinar"
 msgstr "Yugoslav Dinarı"
 
-#. ZAR
-#: iso-4217.h:373
+#. currency_name for ZAR
 msgid "South African Rand"
 msgstr "Güney Afrika Randı"
 
-#. ZMK
-#: iso-4217.h:375
+#. currency_name for ZMK
 msgid "Zambian Kwacha"
 msgstr "Zambiya Kvaçası"
 
-#. ZWD
-#: iso-4217.h:377
+#. currency_name for ZWD
 msgid "Zimbabwe Dollar"
 msgstr "Zimbabve Doları"
 
-#~ msgid "Andorran peseta"
-#~ msgstr "Andora pesetası"
+#. currency_name for ADP
+#, fuzzy
+msgid "Andorran Peseta"
+msgstr "Andora pesetası"
+
+#. currency_name for ALK
+#, fuzzy
+msgid "Albanian Old Lek"
+msgstr "Arnavutluk Leki"
+
+#. currency_name for AON
+#, fuzzy
+msgid "Angola New Kwanza"
+msgstr "Angola Kvanza"
+
+#. currency_name for AOR
+#, fuzzy
+msgid "Angola Kwanza Reajustado"
+msgstr "Angola Kvanza"
+
+#. currency_name for ARA
+#, fuzzy
+msgid "Argentine Austral"
+msgstr "Arjantin Pesosu"
+
+#. currency_name for ARP
+#, fuzzy
+msgid "Peso Argentino"
+msgstr "Arjantin Pesosu"
+
+#. currency_name for ATS
+#, fuzzy
+msgid "Austrian Schilling"
+msgstr "Avusturya şilini"
+
+#. currency_name for BAD
+msgid "Bosnia and Herzegovina Dinar"
+msgstr ""
+
+#. currency_name for BEC
+#, fuzzy
+msgid "Belgian Convertible Franc"
+msgstr "Belçika frangı"
+
+#. currency_name for BEL
+#, fuzzy
+msgid "Belgian Financial Franc"
+msgstr "Belçika frangı"
+
+#. currency_name for BGJ
+#, fuzzy
+msgid "Bulgarian Lev A/52"
+msgstr "Bulgar Levası"
+
+#. currency_name for BGK
+#, fuzzy
+msgid "Bulgarian Lev A/62"
+msgstr "Bulgar Levası"
+
+#. currency_name for BOP
+#, fuzzy
+msgid "Bolivian Peso"
+msgstr "Bolivyano"
+
+#. currency_name for BRB
+#, fuzzy
+msgid "Brazilian Cruzeiro"
+msgstr "Brezilya Reali"
+
+#. currency_name for BRC
+#, fuzzy
+msgid "Brazilian Cruzado"
+msgstr "Brezilya Reali"
+
+#. currency_name for BRN
+#, fuzzy
+msgid "Brazilian New Cruzado"
+msgstr "Brezilya Reali"
+
+#. currency_name for BRR
+#, fuzzy
+msgid "Brazilian Cruzeiro Real"
+msgstr "Brezilya Reali"
+
+#. currency_name for BUK
+msgid "Burma"
+msgstr ""
+
+#. currency_name for CNX
+msgid "Chinese Peoples Bank Dollar"
+msgstr ""
+
+#. currency_name for CSJ
+msgid "Czechoslovakian Krona A/53"
+msgstr ""
+
+#. currency_name for CSK
+#, fuzzy
+msgid "Czechoslovakian Koruna"
+msgstr "Çek Kronu"
+
+#. currency_name for DDM
+msgid "Mark der DDR"
+msgstr ""
+
+#. currency_name for DEM
+#, fuzzy
+msgid "Deutsche Mark"
+msgstr "Alman markı"
+
+#. currency_name for ECS
+#, fuzzy
+msgid "Ecuador Sucre"
+msgstr "Ekvator sukresi"
+
+#. currency_name for ESA
+#, fuzzy
+msgid "Spanish Peseta ('A' Account)"
+msgstr "İspanyol pezetası"
+
+#. currency_name for ESB
+#, fuzzy
+msgid "Spanish Peseta (convertible)"
+msgstr "İspanyol pezetası"
+
+#. currency_name for ESP
+#, fuzzy
+msgid "Spanish Peseta"
+msgstr "İspanyol pezetası"
+
+#. currency_name for FIM
+#, fuzzy
+msgid "Finnish Markka"
+msgstr "Finlandiya markası"
+
+#. currency_name for FRF
+#, fuzzy
+msgid "French Franc"
+msgstr "Fransız frangı"
+
+#. currency_name for GEK
+#, fuzzy
+msgid "Georgian Coupon"
+msgstr "Gürcü Larisi"
+
+#. currency_name for GNE
+#, fuzzy
+msgid "Guinea Syli"
+msgstr "Gine Frangı"
+
+#. currency_name for GQE
+msgid "Equatorial Guinea Ekwele"
+msgstr ""
+
+#. currency_name for GRD
+#, fuzzy
+msgid "Greek Drachma"
+msgstr "Yunan drahmisi"
+
+#. currency_name for GWE
+#, fuzzy
+msgid "Guinea Escudo"
+msgstr "Gine Frangı"
+
+#. currency_name for HRD
+#, fuzzy
+msgid "Croatian Dinar"
+msgstr "Hırvat Kunası"
+
+#. currency_name for IEP
+#, fuzzy
+msgid "Irish Pound"
+msgstr "İrlanda puntu"
+
+#. currency_name for ILP
+#, fuzzy
+msgid "Israeli Pound"
+msgstr "Cebelitarık Poundu"
+
+#. currency_name for ILR
+#, fuzzy
+msgid "Israeli Old Shekel"
+msgstr "İsrail Şekeli"
+
+#. currency_name for ISJ
+#, fuzzy
+msgid "Iceland Old Krona"
+msgstr "İzlanda Kronu"
+
+#. currency_name for ITL
+#, fuzzy
+msgid "Italian Lira"
+msgstr "İtalyan lireti"
+
+#. currency_name for LAJ
+msgid "Lao Pot Pol"
+msgstr ""
+
+#. currency_name for LSM
+#, fuzzy
+msgid "Lesotho Maloti"
+msgstr "Lesoto Lotisi"
+
+#. currency_name for LTT
+#, fuzzy
+msgid "Lithuanian Talonas"
+msgstr "Letonya Litası"
+
+#. currency_name for LUC
+#, fuzzy
+msgid "Luxembourg Convertible Franc"
+msgstr "Lüksemburg frangı"
+
+#. currency_name for LUF
+#, fuzzy
+msgid "Luxembourg Franc"
+msgstr "Lüksemburg frangı"
+
+#. currency_name for LUL
+#, fuzzy
+msgid "Luxembourg Financial Franc"
+msgstr "Lüksemburg frangı"
+
+#. currency_name for LVR
+#, fuzzy
+msgid "Latvian Ruble"
+msgstr "Rus Rublesi"
+
+#. currency_name for MAF
+#, fuzzy
+msgid "Mali Franc"
+msgstr "Mali frangı"
+
+#. currency_name for MTP
+#, fuzzy
+msgid "Maltese Pound"
+msgstr "Lübnan Poundu"
+
+#. currency_name for MVQ
+#, fuzzy
+msgid "Maldive Rupee"
+msgstr "Maldiv Rublesi"
+
+#. currency_name for MZE
+#, fuzzy
+msgid "Mozambique Escudo"
+msgstr "Mozambik Matikali"
+
+#. currency_name for NIC
+#, fuzzy
+msgid "Nicaraguan Cordoba"
+msgstr "Nikaragua Kordoba Orosu"
+
+#. currency_name for NLG
+#, fuzzy
+msgid "Netherlands Guilder"
+msgstr "Hollanda guldeni"
+
+#. currency_name for PEH
+#, fuzzy
+msgid "Peruvian Sol"
+msgstr "Peru Yeni Solu"
+
+#. currency_name for PEI
+#, fuzzy
+msgid "Peruvian Inti"
+msgstr "Peru intisi"
+
+#. currency_name for PTE
+#, fuzzy
+msgid "Portuguese Escudo"
+msgstr "Portekiz esküdosu"
+
+#. currency_name for RHD
+#, fuzzy
+msgid "Rhodesian Dollar"
+msgstr "Bahama Doları"
+
+#. currency_name for ROK
+#, fuzzy
+msgid "Romanian Leu A/52"
+msgstr "Romen Levası"
+
+#. currency_name for SDP
+#, fuzzy
+msgid "Sudanese Pound"
+msgstr "Lübnan Poundu"
+
+#. currency_name for SUR
+#, fuzzy
+msgid "USSR Rouble"
+msgstr "Rus rublesi"
+
+#. currency_name for TJR
+#, fuzzy
+msgid "Tajik Rouble"
+msgstr "Rus Rublesi"
+
+#. currency_name for UAK
+#, fuzzy
+msgid "Ukrainian Karbovanet"
+msgstr "Ukrayna Hrivniyası"
+
+#. currency_name for UGS
+#, fuzzy
+msgid "Uganda Schilling"
+msgstr "Uganda Şilini"
+
+#. currency_name for UGW
+#, fuzzy
+msgid "Uganda Old Schilling"
+msgstr "Uganda Şilini"
+
+#. currency_name for UYN
+#, fuzzy
+msgid "Old Uruguayan Peso"
+msgstr "Uruguay pesosu"
+
+#. currency_name for UYP
+#, fuzzy
+msgid "Uruguayan Peso"
+msgstr "Uruguay pesosu"
+
+#. currency_name for VNC
+#, fuzzy
+msgid "Viet Nam Old Dong"
+msgstr "Vietnam Dongu"
+
+#. currency_name for XEU
+#, fuzzy
+msgid "European Currency Unit ECU"
+msgstr "Avrupa Para Birimi EUM"
+
+#. currency_name for XRE
+msgid "RINET Funds Code"
+msgstr ""
+
+#. currency_name for YDD
+#, fuzzy
+msgid "Yemeni Dinar"
+msgstr "Yemen Riyali"
+
+#. currency_name for ZAL
+#, fuzzy
+msgid "South African Financial Rand"
+msgstr "Güney Afrika Randı"
+
+#. currency_name for ZRN
+#, fuzzy
+msgid "New Zaire"
+msgstr "Zaire Zaire"
+
+#. currency_name for ZRZ
+#, fuzzy
+msgid "Zaire"
+msgstr "Zaire Zaire"
 
 #~ msgid "Afghanistan afghani"
 #~ msgstr "Afganistan afgani"
 
-#~ msgid "Austrian schilling"
-#~ msgstr "Avusturya şilini"
-
-#~ msgid "Belgian franc"
-#~ msgstr "Belçika frangı"
-
-#~ msgid "Deutsche mark"
-#~ msgstr "Alman markı"
-
-#~ msgid "Ecuador sucre"
-#~ msgstr "Ekvator sukresi"
-
-#~ msgid "Spanish peseta"
-#~ msgstr "İspanyol pezetası"
-
-#~ msgid "Finnish markka"
-#~ msgstr "Finlandiya markası"
-
-#~ msgid "French franc"
-#~ msgstr "Fransız frangı"
-
-#~ msgid "Greek drachma"
-#~ msgstr "Yunan drahmisi"
-
-#~ msgid "Irish punt"
-#~ msgstr "İrlanda puntu"
-
 #~ msgid "Irish pence ***"
 #~ msgstr "İrlanda pensi ***"
-
-#~ msgid "Italian lira"
-#~ msgstr "İtalyan lireti"
 
 #~ msgid "Kampuchean riel"
 #~ msgstr "Kamboçya riyali"
@@ -979,35 +1121,11 @@ msgstr "Zimbabve Doları"
 #~ msgid "Republic of Korea won"
 #~ msgstr "Kore Cumhuriyeti vonu"
 
-#~ msgid "Luxembourg franc"
-#~ msgstr "Lüksemburg frangı"
-
-#~ msgid "Mali franc"
-#~ msgstr "Mali frangı"
-
-#~ msgid "Netherlands guilder"
-#~ msgstr "Hollanda guldeni"
-
-#~ msgid "Peruvian inti"
-#~ msgstr "Peru intisi"
-
-#~ msgid "Portuguese escudo"
-#~ msgstr "Portekiz esküdosu"
-
 #~ msgid "Sierra Leone leone"
 #~ msgstr "Siera Leone leonu"
-
-#~ msgid "USSR rouble"
-#~ msgstr "Rus rublesi"
-
-#~ msgid "Uruguayan peso"
-#~ msgstr "Uruguay pesosu"
 
 #~ msgid "Democratic Yemeni dinar"
 #~ msgstr "Demokratik Yemen dinarı"
 
 #~ msgid "South African rand funds code"
 #~ msgstr "Güney Afrika rand funds code"
-
-#~ msgid "Zaire Zaire"
-#~ msgstr "Zaire Zaire"
