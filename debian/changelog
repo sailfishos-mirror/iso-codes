@@ -8,8 +8,10 @@ iso-codes (0.40-1) UNRELEASED; urgency=low
     - rename ven.po to ve.po
   * iso_639
     - rename ven.po to ve.po
+  * Changed section from 'libs' to 'misc' to avoid being deleted by 
+    deborphan. Closes: #265933.
 
- -- Alastair McKinstry <mckinstry@debian.org>  Thu, 26 Aug 2004 16:45:33 +0100
+ -- Alastair McKinstry <mckinstry@debian.org>  Thu, 26 Aug 2004 16:58:56 +0100
 
 iso-codes (0.39-1) unstable; urgency=low
 

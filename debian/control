@@ -1,13 +1,13 @@
 Source: iso-codes
 Priority: optional
-Section: libs
+Section: misc
 Build-Depends-Indep: gettext, debhelper (>= 3), python, python-xml
 Maintainer: Alastair McKinstry <mckinstry@debian.org>
 Standards-Version: 3.6.1
 
 Package: iso-codes
 Architecture: all
-Section: libs
+Section: misc
 Priority: optional
 Description: ISO language, territory, currency  codes and their translations
  This package provides the ISO-639 Language code list, the 
