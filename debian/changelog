@@ -9,6 +9,7 @@ iso-codes (0.44-1) unstable; urgency=low
     - Corrections to sk by Jan Minar; space  corrections. Closes: #193256.
   * Correct autogen/autoconf code. Now builds .pot and Makefiles properly
     Thanks to Christian Persch.
+  * debian/rules: don't fail on make clean if Makefile not present.
 
  -- Alastair McKinstry <mckinstry@debian.org>  Thu,  3 Feb 2005 20:56:14 +0000
 

@@ -1,15 +1,20 @@
-0.43 Alastair McKinstry <mckinstry@debian.org>
+0.44 Alastair McKinstry <mckinstry@debian.org>
 
   * iso_3166
-    - Tagalog by Eric Pareja. Closes: #291028
+    - Tagalog by Eric Pareja. 
   * iso_639
     - French corrected by Christian Perrier
-    - 'Panjabi' changed to 'Punjabi' on translators advice; Closes: #291173.
+    - 'Panjabi' changed to 'Punjabi' on translators advice; 
   * iso_3166_2
-    - Corrections to sk by Jan Minar; space  corrections. Closes: #193256.
+    - Corrections to sk by Jan Minar; space  corrections. 
   * Correct autogen/autoconf code. Now builds .pot and Makefiles properly
     Thanks to Christian Persch.
 
+ 0.43 Alastair McKinstry <mckinstry@debian.org>
+ 
+  * iso_3166/Makefile: makefile dropped necessary argument for iso3166tab.py,
+      which caused zero-byte iso_3166.tab files.
+      
 0.42 Alastair McKinstry <mckinstry@debian.org>
 
   * iso_3166

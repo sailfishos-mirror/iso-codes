@@ -23,7 +23,7 @@ clean:
 	dh_testdir
 	dh_testroot
 	rm -f build-stamp
-	$(MAKE) clean
+	-$(MAKE) clean
 	dh_clean
 
 binary-arch:
