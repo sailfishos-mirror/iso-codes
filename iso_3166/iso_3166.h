@@ -141,7 +141,7 @@
 /* FK */ 
  N_("Falkland Islands (Malvinas)")
 /* FM */ 
- N_("Micronesia")
+ N_("Micronesia, Federated States of")
 /* FO */ 
  N_("Faroe Islands")
 /* FR */ 
@@ -185,7 +185,7 @@
 /* HK */ 
  N_("Hong Kong")
 /* HM */ 
- N_("Heard Island & McDonald Islands")
+ N_("Heard Island and McDonald Islands")
 /* HN */ 
  N_("Honduras")
 /* HR */ 
@@ -207,7 +207,7 @@
 /* IQ */ 
  N_("Iraq")
 /* IR */ 
- N_("Iran")
+ N_("Iran, Islamic Republic of")
 /* IS */ 
  N_("Iceland")
 /* IT */ 
@@ -229,7 +229,7 @@
 /* KM */ 
  N_("Comoros")
 /* KN */ 
- N_("St Kitts & Nevis")
+ N_("Saint Kitts and Nevis")
 /* KP */ 
  N_("Korea, Democratic People's Republic of")
 /* KR */ 
@@ -241,11 +241,11 @@
 /* KZ */ 
  N_("Kazakhstan")
 /* LA */ 
- N_("Laos")
+ N_("Lao People's Democratic Republic")
 /* LB */ 
  N_("Lebanon")
 /* LC */ 
- N_("St Lucia")
+ N_("Saint Lucia")
 /* LI */ 
  N_("Liechtenstein")
 /* LK */ 
@@ -261,19 +261,19 @@
 /* LV */ 
  N_("Latvia")
 /* LY */ 
- N_("Libya")
+ N_("Libyan Arab Jamahiriya")
 /* MA */ 
  N_("Morocco")
 /* MC */ 
  N_("Monaco")
 /* MD */ 
- N_("Moldova")
+ N_("Moldova, Republic of")
 /* MG */ 
  N_("Madagascar")
 /* MH */ 
  N_("Marshall Islands")
 /* MK */ 
- N_("Macedonia")
+ N_("Macedonia, the former Yugoslavian Republic of")
 /* ML */ 
  N_("Mali")
 /* MM */ 
@@ -345,13 +345,13 @@
 /* PL */ 
  N_("Poland")
 /* PM */ 
- N_("St Pierre and Miquelon")
+ N_("Saint Pierre and Miquelon")
 /* PN */ 
  N_("Pitcairn")
 /* PR */ 
  N_("Puerto Rico")
 /* PS */ 
- N_("Palestine")
+ N_("Palestinian Territory, occupied")
 /* PT */ 
  N_("Portugal")
 /* PW */ 
@@ -365,7 +365,7 @@
 /* RO */ 
  N_("Romania")
 /* RU */ 
- N_("Russia")
+ N_("Russian Federation")
 /* RW */ 
  N_("Rwanda")
 /* SA */ 
@@ -407,7 +407,7 @@
 /* SZ */ 
  N_("Swaziland")
 /* TC */ 
- N_("Turks & Caicos Is")
+ N_("Turks and Caicos Islands")
 /* TD */ 
  N_("Chad")
 /* TF */ 
@@ -437,7 +437,7 @@
 /* TW */ 
  N_("Taiwan, Province of China")
 /* TZ */ 
- N_("Tanzania")
+ N_("Tanzania, United Republic of")
 /* UA */ 
  N_("Ukraine")
 /* UG */ 
@@ -451,9 +451,9 @@
 /* UZ */ 
  N_("Uzbekistan")
 /* VA */ 
- N_("Vatican City")
+ N_("Holy See (Vatican City State)")
 /* VC */ 
- N_("St Vincent and the Grenadines")
+ N_("Saint Vincent and the Grenadines")
 /* VE */ 
  N_("Venezuela")
 /* VG */ 
@@ -461,7 +461,7 @@
 /* VI */ 
  N_("Virgin Islands, U.S.")
 /* VN */ 
- N_("Vietnam")
+ N_("Viet Nam")
 /* VU */ 
  N_("Vanuatu")
 /* WF */ 
@@ -472,8 +472,6 @@
  N_("Yemen")
 /* YT */ 
  N_("Mayotte")
-/* YU */ 
- N_("Yugoslavia")
 /* ZA */ 
  N_("South Africa")
 /* ZM */ 
