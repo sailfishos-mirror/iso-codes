@@ -83,7 +83,7 @@
 /* CH */ 
  N_("Switzerland")
 /* CI */ 
- N_("Cote d'Ivoire")
+ N_("Côte d'Ivoire")
 /* CK */ 
  N_("Cook Islands")
 /* CL */ 
