@@ -7,7 +7,7 @@ PREFIX=/usr
 PREFIX_QUOTED=\/usr
 VERSION=0.35
 
-DOMAINS=iso_3166 iso_639 iso_4217 iso_3166_1 iso_3166_2 iso_3166_3
+DOMAINS=iso_3166 iso_639 iso_4217 iso_3166_2 
 
 SUBDIRS=iso_3166 iso_639 iso_4217
 
