@@ -38,5 +38,5 @@ iso_4217.pot: iso_4217.h
 	msgfmt --verbose --check $< -o $@
 
 clean: 
-	rm -f *.pot *~ *.mo *.h
+	rm -f *~ *.mo *.h
 

@@ -28,6 +28,8 @@ iso-codes (0.29-1) UNRELEASED; urgency=low
     - added entry for Klingon language in iso-639 list
       Updated all PO files. Updated french translation
       Closes: #239374
+    - Added POT files for iso_3166, iso_639 and iso_4217 directories
+      Not removed anymore when "make clean"
   * Miroslav Kure
     - iso_3166/cs.po: update
     - iso_3166/iso_3166_1/cs.po: update
@@ -50,7 +52,7 @@ iso-codes (0.29-1) UNRELEASED; urgency=low
   * Miguel Figueiredo
     - updated iso_3166/pt.po. Closes: #241330
 
- -- Christian Perrier <bubulle@kheops.frmug.org>  Thu,  1 Apr 2004 10:52:30 +0200
+ -- Christian Perrier <bubulle@kheops.frmug.org>  Thu,  1 Apr 2004 11:18:30 +0200
 
 iso-codes (0.28-1) unstable; urgency=low
 

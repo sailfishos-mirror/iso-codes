@@ -40,4 +40,4 @@ iso_639.pot: iso_639.h
 	msgfmt --verbose --check $< -o $@
 
 clean: 
-	rm -f *.pot *~ *.mo *.h
+	rm -f *~ *.mo *.h

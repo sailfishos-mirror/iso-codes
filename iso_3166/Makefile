@@ -39,5 +39,5 @@ iso_3166.h: iso_3166.tab
 	msgfmt --verbose --check $< -o $@
 
 clean: 
-	rm -f iso_3166.pot *~ *.mo 
+	rm -f *~ *.mo 
 	for d in ${SUBDIRS}; do ${MAKE} -C $$d clean ; done
