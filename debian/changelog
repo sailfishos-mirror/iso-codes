@@ -1,4 +1,4 @@
-iso-codes (0.25-2) UNRELEASED; urgency=low
+iso-codes (0.26-1) unstable; urgency=low
 
   * Kenshi Muto
     - iso_3166_2/ja.po: Updated thanks to tsuno.
@@ -6,8 +6,12 @@ iso-codes (0.25-2) UNRELEASED; urgency=low
     - iso_3166/fr.po and iso_639/fr.po updates
   * Miroslav Kure
     - iso_3166/cs.po update
+  * Pablo Saratxaga
+    - iso_3166/wa.po update.
+  * Alastair McKinstry
+    - Ensure iso_3166.tab is installed in isoc-codes pkg. Closes: #235612.
 
- -- Christian Perrier <bubulle@debian.org>  Sat, 28 Feb 2004 17:27:06 +0100
+ -- Alastair McKinstry <mckinstry@debian.org>  Mon,  1 Mar 2004 21:00:54 +0000
 
 iso-codes (0.25-1) unstable; urgency=low
 
