@@ -32,9 +32,9 @@ binary-indep: build-stamp
 binary: binary-arch
 	dh_testdir
 	dh_testroot
-	make PREFIX=`pwd`/debian/iso-codes/usr \
-	     VERSION=$(VERSION) \
-	     install
+	aclocal
+	./configure --prefix=`pwd`/debian/iso-codes/usr
+	make install
 	mkdir -p `pwd`/debian/iso-3166-udeb/usr/share/iso-codes
 	cp iso_3166/iso_3166.tab  \
 		`pwd`/debian/iso-3166-udeb/usr/share/iso-codes

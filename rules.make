@@ -1,6 +1,3 @@
-%.pot: %.xml
-	$(top_srcdir)/iso2pot.py --is-version $(VERSION) --comments iso_639_2T_code \
-		--fields name $< $@
 
 %.mo: %.po
 	$(MSGFMT) --verbose --check $< -o $@

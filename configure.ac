@@ -20,8 +20,8 @@ AC_INIT([ISO Codes],[0.42pre1],[],[iso-codes])
 
 AC_REVISION([$Revision$])
 
+AC_SUBST(VERSION, "${PACKAGE_VERSION}")
 AC_PREREQ([2.59])
-
 AM_INIT_AUTOMAKE([dist-bzip2])
 AM_MAINTAINER_MODE
 
@@ -31,6 +31,7 @@ AC_PROG_INSTALL
 AC_PROG_MAKE_SET
 
 AC_PATH_PROG([MSGFMT],[msgfmt])
+
 
 DOMAINS="iso_3166 iso_639 iso_4217 iso_3166_2"
 AC_SUBST([DOMAINS])
