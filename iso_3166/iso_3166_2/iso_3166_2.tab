@@ -19,7 +19,7 @@
 ##
 ## The sorting order is the same that is used in the standard.
 ##
-## Up-to-date as of newsletter, 2002-12-10.
+## Up-to-date as of newsletter, 2003-09-05
 #
 # ISO 3166-2 codes for the United Arab Emirates
 #
@@ -47,12 +47,14 @@ AF-JOW	Jowzjan
 AF-KAB	Kabul
 AF-KAN	Kandahar
 AF-KAP	Kapisa
+AF-KHO  Khowst
 AF-KNR	Konar
 AF-KDZ	Kondoz
 AF-LAG	Laghman
 AF-LOW	Lowgar
 AF-NAN	Nangrahar
 AF-NIM	Nimruz
+AF-NUR	Nurestan
 AF-ORU	Oruzgan
 AF-PIA	Paktia
 AF-PKA	Paktika
@@ -65,43 +67,44 @@ AF-ZAB	Zabol
 #
 # ISO-3166-2 regions for Albania
 # 
+# Administrative region: county
 #
 AL-BR	Berat
-AL-BU	Bulqize
-AL-DL	Delvine
+AL-BU	Bulqizë
+AL-DL	Delvinë
 AL-DV	Devoll
-AL-DI	Diber
-AL-DR	Durres
+AL-DI	Dibër
+AL-DR	Durrsës
 AL-EL	Elbasan
 AL-FR	Fier
 AL-GR	Gramsh
-AL-GJ	Gjirokaster
+AL-GJ	Gjirokastër
 AL-HA	Has
-AL-KA	Kavaje
-AL-ER	Kolonje
-AL-KO	Korce
-AL-KR	Kruje
-AL-KC	Kucove
-AL-KU	Kukes
+AL-KA	Kavajë
+AL-ER	Kolonjë
+AL-KO	Korcë
+AL-KR	Krujë
+AL-KC	Kuçovë
+AL-KU	Kukës
 AL-KB	Kurbin
-AL-LE	Lezhe
+AL-LE	Lezhë
 AL-LB	Librazhd
-AL-LU	Lushnje
-AL-MM	Malesi e Madhe
-AL-MK	Mallakaster
+AL-LU	Lushnjë
+AL-MM	Malësi e Madhe
+AL-MK	Mallakastër
 AL-MT	Mat
-AL-MR	Mirdite
+AL-MR	Mirditë
 AL-PQ	Peqin
-AL-PR	Permet
+AL-PR	Përmet
 AL-PG	Pogradec
-AL-PU	Puke
-AL-SR	Sarande
+AL-PU	Pukë
+AL-SR	Sarandë
 AL-SK	Skrapar
-AL-SH	Shkoder
-AL-TE	Tepelene
-AL-TR	Tirane
-AL-TP	Tropoje
-AL-VL	Vlore
+AL-SH	Shkodër
+AL-TE	Tepelenë
+AL-TR	Tiranë
+AL-TP	Tropojë
+AL-VL	Vlorë
 #
 # ISO 3166-2 regions for Armenia
 #
@@ -569,13 +572,13 @@ BT-34	Zhemgang
 # ISO 3166-2 regions for Botswana
 #   
 BW-CE	Central 
-BW-CH	Chobe
 BW-GH	Ghanzi
 BW-KG	Kgalagadi
 BW-KL	Kgatleng
 BW-KW	Kweneng
 BW-NG	Ngamiland 
 BW-NE	North-East
+BW-NW	North-West
 BW-SE	South-East
 BW-SO	Southern 
 # ISO 3166-2 codes for regions in Belarus
@@ -663,9 +666,12 @@ CG-9	Niari
 CG-14	Plateaux
 CG-12	Pool
 CG-13	Sangha
+#
+# SO 3166-2 regions (cantons) for Switzerland
+#  
 CH-AG	Aargau
-CH-AI	Appenzell Inner-Rhoden
-CH-AR	Appenzell Ausser-Rhoden
+CH-AI	Appenzell Innerrhoden
+CH-AR	Appenzell Ausserrhoden
 CH-BE	Bern
 CH-BL	Basel-Landschaft
 CH-BS	Basel-Stadt
@@ -766,8 +772,7 @@ CN-71	Taiwan
 CN-53	Yunnan
 CN-33	Zhejiang
 CN-45	Guangxi
-CN-15	Neimenggu
-CN-64	Ningxia
+CN-15	Neia Mongol (mn)
 CN-65	Xinjiang
 CN-54	Xizang
 CN-91	Hong Kong
@@ -775,38 +780,38 @@ CN-92	Macau
 #
 # ISO 3166-2 regions for Colombia
 #    
-CO-DC	Distrito Capltal de Santa Fe de Bogota
+CO-DC	Distrito Capital de Bogotá
 CO-AMA	Amazonea
 CO-ANT	Antioquia
 CO-ARA	Arauca
-CO-ATL	Atlantico
-CO-BOL	Bolivar
-CO-BOY	Boyaca
+CO-ATL	Atlántico
+CO-BOL	Bolívar
+CO-BOY	Boyacá
 CO-CAL	Caldea
-CO-CAQ	Caqueta
+CO-CAQ	Caquetá
 CO-CAS	Casanare
 CO-CAU	Cauca
 CO-CES	Cesar
-CO-COR	Cordoba
+CO-COR	Córdoba
 CO-CUN	Cundinamarca
-CO-CHO	Choco
-CO-GUA	Guainia
+CO-CHO	Chocó
+CO-GUA	Guainía
 CO-GUV	Guaviare
 CO-HUI	Huila
 CO-LAG	La Guajira
 CO-MAG	Magdalena
 CO-MET	Meta
-CO-NAR	Narino
+CO-NAR	Nariño
 CO-NSA	Norte de Santander
 CO-PUT	Putumayo
 CO-QUI	Quindio
 CO-RIS	Risaralda
-CO-SAP	San Andres, Providencia y Santa Catalina
+CO-SAP	San Andrés, Providencia y Santa Catalina
 CO-SAN	Santander
 CO-SUC	Sucre
 CO-TOL	Tolima
 CO-VAC	Valle del Cauca
-CO-VAU	Vaupes
+CO-VAU	Vaupés
 CO-VID	Vichada
 # ISO 3166-2 regions for  Costa Rica
 #
@@ -890,19 +895,20 @@ CY-05	Pafos
 #
 # CZECH REPUBLIC
 #
-CZ-JC	Jihocesky kraj
-CZ-JM	Jihomoravsky kraj
-CZ-KA	Karlovarsky kraj
-CZ-KR	Kralovehradecky kraj
-CZ-LI	Liberecky kraj
-CZ-MO	Moravskoslezsky kraj
-CZ-OL	Olomoucky kraj
-CZ-PA	Pardubicky kraj
-CZ-PL	Plzensky kraj
-CZ-ST	Stredocesky kraj
-CZ-US	Ustecky kraj
-CZ-VY	Kraj Vysocina
-CZ-ZL	Zlinsky kraj
+CZ-JC	Jihočeský kraj
+CZ-JM	Jihomoravský kraj
+CZ-KA	Karlovarský kraj
+CZ-KR	Královéhradecký kraj
+CZ-LI	Liberecký kraj
+CZ-MO	Moravskoslezský kraj
+CZ-OL	Olomoucký kraj
+CZ-PA	Pardubický kraj
+CZ-PL	Plzeňský kraj
+CZ-PR	Praha, hlavaní msěsto
+CZ-ST	Středočeský kraj
+CZ-US	Ústecký kraj
+CZ-VY	Vysočina
+CZ-ZL	Zlínský kraj
 #
 # ISO 3166-2 subregions for Germany
 # Germany uses the Bundeslander codes for ISO 3166-2 codes (any others?)
@@ -1920,6 +1926,7 @@ ID-KB	Kalimantan Barat
 ID-KT	Kalimantan Timur
 ID-KS	Kalimantan Selatan
 ID-KI	Kalimantan Timur
+ID-KR	Kepulauan Riau
 ID-LA	Lampung
 ID-MA	Maluku
 ID-MU	Maluku Utara
@@ -1936,8 +1943,9 @@ ID-SS	Sumatra Selatan
 ID-SU	Sumatera Utara
 # Special District
 ID-JK	Jakarta Raya
-# Special Region
+# Autonomous Province
 ID-AC	Aceh
+# Special Region
 ID-YO	Yogyakarta
 #
 # Indonesian Geographical Units
@@ -2566,28 +2574,51 @@ LV-LPX	Liepaja
 LV-REZ	Rezekne
 LV-RIX	Rlga
 LV-VEN	Ventspils
+#
 # ISO 3166-2 regions for Libya
 #  
-LY-BU	Al Butnan
+LY-AJ	Ajdābiyā
+LY-BU	Al Buţnān
+LY-HZ	Al Hizām al Akhdar
 LY-JA	Al Jabal al Akhdar
-LY-JG	Al Jabal al Gharbi
+LY-JI	Al Jifārah
 LY-JU	Al Jufrah
-LY-WA	Al Wahah
-LY-WU	Al Wusta
-LY-ZA	Az Zawiyah
-LY-BA	Banghazi
-LY-FA	Fazzan
-LY-MI	Misratah
-LY-NA	Naggaza
-LY-SF	Sawfajjin
-LY-TB	Tarabulus
+LY-KF	Al Kufrah
+LY-MJ	Al Marj
+LY-MB	Al Marqab
+LY-QT	Al Qaţrūn
+LY-QB	Al Qubbah
+LY-WA	Al Wāhah
+LY-NQ	An Nuqaţ al Khams
+LY-SH	Ash Shāţi'
+LY-ZA	Az Zāwiyah
+LY-BA	Banghāzī
+LY-BW	Banī Walīd
+LY-DR	Darnah
+LY-GD	Ghadāmis
+LY-GR	Gharyān
+LY-GT	Ghāt
+LY-JB	Jaghbūb
+LY-MI	Mişrātah
+LY-MZ	Mizdah
+LY-MQ	Murzuq
+LY-NL	Nālūt
+LY-SB	Sabhā
+LY-SS	Şabrātah Şurmān
+LY-SR	Surt
+LY-TN	Tājūrā' wa an Nawāhī al Arbāh
+LY-TB	Ţarābulus
+LY-TM	Tarhūnah-Masallātah
+LY-WD	Wādī al hayāt
+LY-YJ	Yafran-Jādū
+#
 # ISO 3166-2 regions for Morocco
 #   
 MA-AGD	Agadir
-MA-BAH	Ait Baha
-MA-MEL	Ait Melloul
+MA-BAH	Aït Baha
+MA-MEL	Aït Melloul
 MA-HAO	Al Haouz
-MA-HOC	Al Hoceima
+MA-HOC	Al Hoceïma
 MA-ASZ	Assa-Zag
 MA-AZI	Azilal
 MA-BEM	Beni Mellal
@@ -2595,7 +2626,7 @@ MA-BES	Ben Sllmane
 MA-BER	Berkane
 MA-BOD	Boujdour 
 MA-BOM	Boulemane
-MA-CAS	Casablanca 
+MA-CAS	Casablanca  [Dar el Beïda]
 MA-CHE	Chefchaouene
 MA-CHI	Chichaoua
 MA-HAJ	El Hajeb
@@ -2603,25 +2634,25 @@ MA-JDI	El Jadida
 MA-ERR	Errachidia
 MA-ESI	Essaouira
 MA-ESM	Es Smara 
-MA-FES	Fes
+MA-FES	Fès
 MA-FIG	Figuig
 MA-GUE	Guelmim
 MA-IFR	Ifrane
 MA-JRA	Jerada
 MA-KES	Kelaat Sraghna
-MA-KEN	Kenitra
+MA-KEN	Kénitra
 MA-KHE	Khemisaet
 MA-KHN	Khenifra
 MA-KHO	Khouribga
-MA-LAA	Laayoune. (EH)
+MA-LAA	Laâyoune (EH)
 MA-LAP	Larache
 MA-MAR	Marrakech
-MA-MEK	Meknes
+MA-MEK	Meknsès
 MA-NAD	Nador
 MA-OUA	Ouarzazate
 MA-OUD	Oued ed Dahab (EH)
 MA-OUJ	Oujda
-MA-RBA	Rabat-Sale
+MA-RBA	Rabat-Salé
 MA-SAF	Safi
 MA-SEF	Sefrou
 MA-SET	Settat
@@ -2632,7 +2663,7 @@ MA-TAO	Taounate
 MA-TAR	Taroudannt
 MA-TAT	Tata
 MA-TAZ	Taza
-MA-TET	Tetouan
+MA-TET	Tétouan
 MA-TIZ	Tiznit
 #
 # ISO 3166-2 regions for Moldova
@@ -2870,22 +2901,23 @@ MX-ZAC	Zacatecas
 # http://www.din.de/gremien/nas/nabd/iso3166ma/samp_pt2.html
 #
 # Federal Territories
-MY-W	Wilayah Persekutuan Kuala Lumpur
-MY-L	Wilayah Persekutuan Labuan
+MY-14	Wilayah Persekutuan Kuala Lumpur
+MY-15	Wilayah Persekutuan Labuan
+MY-16	Wilayah Persekutuan Putrajaya
 # States: 
-MY-J	Johor
-MY-K	Kedah
-MY-D	Kelantan
-MY-M	Melaka
-MY-N	Negeri Sembilan
-MY-C	Pahang
-MY-A	Perak
-MY-R	Perlis
-MY-P	Pulau Pinang
-MY-SA	Sabah
-MY-SK	Sarawak
-MY-B	Selangor
-MY-T	Terengganu
+MY-01	Johor
+MY-02	Kedah
+MY-03	Kelantan
+MY-04	Melaka
+MY-05	Negeri Sembilan
+MY-06	Pahang
+MY-08	Perak
+MY-09	Perlis
+MY-07	Pulau Pinang
+MY-12	Sabah
+MY-13	Sarawak
+MY-10	Selangor
+MY-11	Terengganu
 # ISO 3166-2 regions for Mozambique
 # 
 MZ-MPM	Maputo
@@ -3711,6 +3743,7 @@ SL-W	western Area (Freetown)
 SL-E	Eastern
 SL-N	Northern
 SL-S	Southern
+#
 # ISO 3166-2 regions for Senegal
 #  
 SN-DK	Dakar
@@ -3719,6 +3752,7 @@ SN-FK	Fatick
 SN-KL	Kaolack
 SN-KD	Kolda
 SN-LG	Louga
+SN-MT	Matam
 SN-SL	Saint-Louis
 SN-TC	Tambacounda
 SN-TH	Thies
@@ -3916,10 +3950,10 @@ TM-M	Mary
 #
 # ISO 3166-2 regions for Tunisia
 #  
-TN-31	Beja
+TN-31	Béja
 TN-13	Ben Arous
 TN-23	Bizerte
-TN-81	Gabes
+TN-81	Gabès
 TN-71	Gafsa
 TN-32	Jendouba
 TN-41	Kairouan
@@ -3928,6 +3962,7 @@ TN-73	Kebili
 TN-12	L'Ariana
 TN-33	Le Ref
 TN-53	Mahdia
+TN-14	La Manouba
 TN-82	Medenine
 TN-52	Moneatir
 TN-21	Naboul
@@ -4099,6 +4134,7 @@ TZ-09	Kilimanjaro
 TZ-10	Rusini Pemba
 TZ-11	Kusini Unguja
 TZ-12	Lindi
+TZ-26	Manyara
 TZ-13	Mara
 TZ-14	Mbeya
 TZ-15	Mjini Magharibi
@@ -4144,51 +4180,62 @@ UA-40	Sevastopol'
 #
 # ISO 3166-2 regions for Uganda
 #
-UG-AJM	Adjumani
-UG-APA	Apac
-UG-ARU	Arua
-UG-BUG	Bugiri
-UG-BUN	Bundibugyo
-UG-BUS	Bushenyi
-UG-BUA	Busia
-UG-GUL	Gulu
-UG-HOI	Hoima
-UG-IGA	Iganga
-UG-JIN	Jinja
-UG-KBL	Kabale
-UG-KBR	Kabarole
-UG-KLG	Kalangala
-UG-KLA	Kampala
-UG-KLI	Kamuli
-UG-KAP	Kapchorwa
-UG-KAS	Kasese
-UG-KAT	Katakwi
-UG-KLE	Kibeale
-UG-KIB	Kiboga
-UG-KIS	Kisoro
-UG-KIT	Kitgum
-UG-KOT	Kotido
-UG-KUM	Kumi
-UG-LIR	Lira
-UG-LUW	Luwero
-UG-MSK	Masaka
-UG-MSI	Masindi
-UG-MBL	Mbale
-UG-MBR	Mbarara
-UG-MOR	Moroto
-UG-MOY	Moyo
-UG-MPI	Mpigi
-UG-MUB	Mubende
-UG-MUK	Mukono
-UG-NAK	Nakasongola
-UG-NEB	Nebbi
-UG-NTU	Ntungamo
-UG-PAL	Pallisa
-UG-RAK	Rakai
-UG-RUK	Rukungiri
-UG-SEM	Sembabule
-UG-SOR	Soroti
-UG-TOR	Tororo
+UG-301	Adjumani
+UG-302	Apac
+UG-303	Arua
+UG-201	Bugiri
+UG-401	Bundibugyo
+UG-402	Bushenyi
+UG-202	Busia
+UG-304	Gulu
+UG-403	Hoima
+UG-203	Iganga
+UG-204	Jinja
+UG-404	Kabale
+UG-405	Kabarole
+UG-213	Kaberamaido
+UG-101	Kalangala
+UG-102	Kampala
+UG-205	Kamuli
+UG-413	Kamwenge
+UG-414	Kanungu
+UG-206	Kapchorwa
+UG-406	Kasese
+UG-207	Katakwi
+UG-112	Kayunga
+UG-407	Kibaale
+UG-103	Kiboga
+UG-408	Kisoro
+UG-305	Kitgum
+UG-306	Kotido
+UG-208	Kumi
+UG-415	Kyenjojo
+UG-307	Lira
+UG-104	Luwero
+UG-105	Masaka
+UG-409	Masindi
+UG-214	Mayuge
+UG-209	Mbale
+UG-410	Mbarara
+UG-308	Moroto
+UG-309	Moyo
+UG-106	Mpigi
+UG-107	Mubende
+UG-108	Mukono
+UG-311	Nakapiripirit
+UG-109	Nakasongola
+UG-310	Nebbi
+UG-411	Ntungamo
+UG-312	Pader
+UG-210	Pallisa
+UG-110	Rakai
+UG-412	Rukungiri
+UG-111	Sembabule
+UG-215	Sironko
+UG-211	Soroti
+UG-212	Tororo
+UG-113	Wakiso
+UG-313	Yumbe
 #
 # ISO 3166-2 regions for United States Minor Outlying Islands
 #  
@@ -4313,8 +4360,10 @@ UZ-TO	Toshkent
 UZ-XO	Xorazm
 #
 # ISO 3166-2 regions for Venezuela
-#    
+# 
+# Federal Dependencies:
 VE-A	Diatrito Federal
+# States:
 VE-B	Anzoategui
 VE-C	Apure
 VE-D	Aragua
@@ -4339,6 +4388,7 @@ VE-V	Zulia
 VE-Z	Amazonas
 VE-Y	Delta Amacuro
 VE-W	Dependencias Federales
+#
 # ISO 3166-2 regions in Vietnam
 #   
 VN-44	An Giang
@@ -4423,6 +4473,15 @@ WS-SA	Satupa'itea
 WS-TU	Tuamasaga
 WS-VF	Va'a-o-Fonoti
 WS-VS	Vaisigano
+# 
+# ISO 3166-2 regions for Serbia and Montenegro
+#
+# Republics:
+CS-CG	Crna Gora
+CS-SR	Srbija
+# Autonomous provinces:
+CS-KM	Kosovo-Metohija
+CS-VO	Vojvodina
 #
 # ISO 3166-2 regions for Yemen
 #  
@@ -4445,14 +4504,6 @@ YE-SD	Sa'dah
 YE-SN	San'a'
 YE-SH	Shabwah
 YE-TA	Ta'izz
-# ISO 3166-2 regions within Yugoslavia
-#  
-# Republics
-YU-CG	Crna Gora
-YU-SR	Srbija
-# Autonomous provinces
-YU-KM	Kosovo-Metohija
-YU-VO	Vojvodina
 # ISO 3166-2 regions for South Africa
 #  
 ZA-EC	Eastern Cape
@@ -4461,7 +4512,7 @@ ZA-GT	Gauteng
 ZA-NL	Kwazulu-Natal
 ZA-MP	Mpumalanga
 ZA-NC	Northern Cape
-ZA-NP	Northern Province
+ZA-NP	Limpopo
 ZA-NW	North-West
 ZA-WC	Western Cape
 # ISO 3166-2 regions for Zambia
