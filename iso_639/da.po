@@ -1,19 +1,22 @@
-# translation of da.po to Danish
-# Danish translation of  ISO 4217 Currency names
-# Copyright (C) 1999-2002, 2004 Free Software Foundation, Inc.
-# Translations taken from gnumeric 0.71;
+# translation of iso_639-da.po to Danish
+# Danish translation of ISO 639 Language names
+# Copyright (C) 2000, 2001, 2004 Free Software Foundation, Inc.
+#
+# Many of these iso--639 translations were adopted from the state library department:
+# http://www.kat-format.dk/danMARC2/Danmarc2.a8.htm
 #
 # Kontakt dansk@klid.dk før du ændrer i denne fil.
-# Alastair McKinstry <mckinstry@computer.org>, 2002.
+# Kenneth Christiansen <kenneth@gnu.org>, 2000.
+# Keld Simonsen <keld@dkuug.dk>, 2000, 2001.
+# Ole Laursen <olau@hardworking.dk>, 2001.
+# Alastair McKinstry <mckinstry@computer.org>, 2001.
 # Claus Hindsgaul <claus_h@image.dk>, 2004.
-#
-#.
 msgid ""
 msgstr ""
-"Project-Id-Version: da\n"
+"Project-Id-Version: iso_639-da\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2004-02-20 11:22+0000\n"
-"PO-Revision-Date: 2004-03-24 19:14+0100\n"
+"POT-Creation-Date: 2004-03-15 09:45+0100\n"
+"PO-Revision-Date: 2004-03-25 23:22+0100\n"
 "Last-Translator: Claus Hindsgaul <claus_h@image.dk>\n"
 "Language-Team: Danish <dansk@klid.dk>\n"
 "MIME-Version: 1.0\n"
@@ -21,815 +24,1831 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.3.1\n"
 
-#. # iso-4217.tab
-#. #
-#. # Codes for currencies and funds
-#. #
-#. # Status: ISO 4217:2001
-#. # Last update: 2002-11-13
-#. #
-#. # Tab separated columns:
-#. # Code	Numeric code	Currency
-#. AED
-msgid "UAE Dirham"
-msgstr "UAE dirham"
+#. ## iso-639.tab
+#. ##
+#. ## Copyright (C) Alastair McKinstry   <mckinstry@computer.org>
+#. ## Released under the GNU License; see file COPYING for details
+#. ##
+#. ## Last update: 2004-03-15
+#. ##
+#. ## This file gives a list of all languages in the ISO-639
+#. ## standard, and is used to provide translations (via gettext)
+#. ##
+#. ## Status: ISO 639-2:1998 + additions and changes until 2003-02-25
+#. ## Source: http://lcweb.loc.gov/standards/iso639-2/englangn.html
+#. ##
+#. ## Columns:
+#. ##   iso-639-2 terminology code
+#. ##   iso-639-2 bibliography code
+#. ##   iso-639-1 code (XX if none exists)
+#. ##   Name (English)
+#. ##
+#. ## Notes to translators:
+#. ## Please translate Bokmal using a-ring (U+00E5)
+#. ## Please translate Provencal using c-cedilla (U+00E7)
+#. ##
+#. aar
+msgid "Afar"
+msgstr "Afar"
 
-#. AFA
-msgid "Afghani"
+#. abk
+msgid "Abkhazian"
+msgstr "Abkhazian"
+
+#. ace
+msgid "Achinese"
+msgstr "Achinesisk"
+
+#. ach
+msgid "Acoli"
+msgstr "Acoli"
+
+#. ada
+msgid "Adangme"
+msgstr "Adangme"
+
+#. afa
+msgid "Afro-Asiatic (Other)"
+msgstr "Afro-asiatiske sprog (øvrige)"
+
+#. afh
+msgid "Afrihili"
+msgstr "Afrihili"
+
+#. afr
+msgid "Afrikaans"
+msgstr "Afrikaans"
+
+#. aka
+msgid "Akan"
+msgstr "Akan"
+
+#. akk
+msgid "Akkadian"
+msgstr "Akkadisk"
+
+#. alb
+msgid "Albanian"
+msgstr "Albansk"
+
+#. ale
+msgid "Aleut"
+msgstr "Aleutiske sprog"
+
+#. alg
+msgid "Algonquian languages"
+msgstr "Algonkiske sprog"
+
+#. amh
+msgid "Amharic"
+msgstr "Amharisk"
+
+#. ang
+msgid "English, Old (ca.450-1100)"
+msgstr "Engelsk, old- (ca.450-1100)"
+
+#. apa
+msgid "Apache languages"
+msgstr "Apachesprog"
+
+#. ara
+msgid "Arabic"
+msgstr "Arabisk"
+
+#. arc
+msgid "Aramaic"
+msgstr "Aramæisk"
+
+#. arg
+msgid "Aragonese"
+msgstr "Færøsk"
+
+#. arm
+msgid "Armenian"
+msgstr "Armensk"
+
+#. arn
+msgid "Araucanian"
+msgstr "Araukansk"
+
+#. arp
+msgid "Arapaho"
+msgstr "Arapaho"
+
+#. art
+msgid "Artificial (Other)"
+msgstr "Kunstsprog (Andre)"
+
+#. arw
+msgid "Arawak"
+msgstr "Arawak"
+
+#. asm
+msgid "Assamese"
+msgstr "Assamesisk"
+
+#. ast
+msgid "Asturian; Bable"
 msgstr ""
 
-#. ALL
-msgid "Albanian Lek"
-msgstr "Albanske lek"
+#. ath
+msgid "Athapascan language"
+msgstr "Athapascan sprog"
 
-#. AMD
-msgid "Armenian Dram"
-msgstr "Armenske Dram"
+#. aus
+msgid "Australian languages"
+msgstr "Australske sprog"
 
-#. ANG
-msgid "Netherlands Antillian Guilder"
-msgstr "Hollandsk-antilske gylden"
+#. ava
+msgid "Avaric"
+msgstr "Avarisk"
 
-#. AOA
-msgid "Angola Kwanza"
-msgstr "Angolanske kwanza"
+#. ave
+msgid "Avestan"
+msgstr "Avestisk"
 
-#. ARS
-msgid "Argentine Peso"
-msgstr "Argentinske peso"
+#. awa
+msgid "Awadhi"
+msgstr "Awadhi"
 
-#. AUD
-msgid "Australian Dollar"
-msgstr "Australske dollar"
+#. aym
+msgid "Aymara"
+msgstr "Aymará"
 
-#. AWG
-msgid "Aruban Guilder"
-msgstr "Arubanske gylden"
+#. aze
+msgid "Azerbaijani"
+msgstr "Aserbadjansk"
 
-#. AZM
-msgid "Azerbaijanian Manat"
-msgstr "Azerbaijanske Manat"
+#. bad
+msgid "Banda"
+msgstr "Banda"
 
-#. BAM
-msgid "Convertible Marks"
+#. bai
+msgid "Bamileke languages"
+msgstr "Bamileke sprog"
+
+#. bak
+msgid "Bashkir"
+msgstr "Bajkirsk"
+
+#. bal
+msgid "Baluchi"
+msgstr "Baluchi"
+
+#. bam
+msgid "Bambara"
+msgstr "Bambara"
+
+#. ban
+msgid "Balinese"
+msgstr "Balinesisk"
+
+#. baq
+msgid "Basque"
+msgstr "Baskisk"
+
+#. bas
+msgid "Basa"
+msgstr "Basa"
+
+#. bat
+msgid "Baltic (Other)"
+msgstr "Baltisk (Andre)"
+
+#. bej
+msgid "Beja"
+msgstr "Beja"
+
+#. bel
+msgid "Belarusian"
+msgstr "Hviderussisk"
+
+#. bem
+msgid "Bemba"
+msgstr "Bemba"
+
+#. ben
+msgid "Bengali"
+msgstr "Bengali"
+
+#. ber
+msgid "Berber (Other)"
+msgstr "Berberiske sprog (øvrige)"
+
+#. bho
+msgid "Bhojpuri"
+msgstr "Bhojpuri"
+
+#. bih
+msgid "Bihari"
+msgstr "Bihari"
+
+#. bik
+msgid "Bikol"
+msgstr "Bikol"
+
+#. bin
+msgid "Bini"
+msgstr "Bini"
+
+#. bis
+msgid "Bislama"
+msgstr "Bislama"
+
+#. bla
+msgid "Siksika"
+msgstr "Siksika"
+
+#. bnt
+msgid "Bantu (Other)"
+msgstr "Bantu (øvrige)"
+
+#. bos
+msgid "Bosnian"
+msgstr "Bosnisk"
+
+#. bra
+msgid "Braj"
+msgstr "Braj"
+
+#. bre
+msgid "Breton"
+msgstr "Bretonsk"
+
+#. btk
+msgid "Batak (Indonesia)"
+msgstr "Batak (Indonesien)"
+
+#. bua
+msgid "Buriat"
+msgstr "Buriat"
+
+#. bug
+msgid "Buginese"
+msgstr "Buginesisk"
+
+#. bul
+msgid "Bulgarian"
+msgstr "Bulgarsk"
+
+#. bur
+msgid "Burmese"
+msgstr "Murmesisk"
+
+#. byn
+msgid "Blin"
+msgstr "Søg"
+
+#. cad
+msgid "Caddo"
+msgstr "Caddo"
+
+#. cai
+msgid "Central American Indian (Other)"
+msgstr "Centralamerikansk indisk (Andre)"
+
+#. car
+msgid "Carib"
+msgstr "Karibisk"
+
+#. cat
+msgid "Catalan"
+msgstr "Katalansk"
+
+#. cau
+msgid "Caucasian (Other)"
+msgstr "Kaukasisk (Andre)"
+
+#. ceb
+msgid "Cebuano"
+msgstr "Cebuano"
+
+#. cel
+msgid "Celtic (Other)"
+msgstr "Keltisk (Andre)"
+
+#. cha
+msgid "Chamorro"
+msgstr "Chamorro"
+
+#. chb
+msgid "Chibcha"
+msgstr "Chibcha"
+
+#. che
+msgid "Chechen"
+msgstr "Tjetjensk"
+
+#. chg
+msgid "Chagatai"
+msgstr "Chagatai"
+
+#. chi
+msgid "Chinese"
+msgstr "Kinesisk"
+
+#. chk
+msgid "Chukese"
+msgstr "Chukese"
+
+#. chm
+msgid "Mari"
+msgstr "Mari"
+
+#. chn
+msgid "Chinook jargon"
+msgstr "Chinook jargon"
+
+#. cho
+msgid "Choctaw"
+msgstr "Choctaw"
+
+#. chp
+msgid "Chipewyan"
+msgstr "Chipewyan"
+
+#. chr
+msgid "Cherokee"
+msgstr "Cherokee"
+
+#. chu
+msgid "Church Slavic"
+msgstr "Kirkeslavisk"
+
+#. chv
+msgid "Chuvash"
+msgstr "Tjuvasisk"
+
+#. chy
+msgid "Cheyenne"
+msgstr "Cheyenne"
+
+#. cmc
+msgid "Chamic languages"
+msgstr "Chamiksprog"
+
+#. cop
+msgid "Coptic"
+msgstr "Koptisk"
+
+#. cor
+msgid "Cornish"
+msgstr "Cornisk"
+
+#. cos
+msgid "Corsican"
+msgstr "Korsikansk"
+
+#. cpe
+msgid "English-based (Other)"
+msgstr "Engelsk funderet (Andre)"
+
+#. cpf
+msgid "French-based (Other)"
+msgstr "Fransk funderet (Andre)"
+
+#. cpp
+#. cus
+msgid "Portuguese-based (Other)"
+msgstr "Portugisisk funderet (Andre)"
+
+#. cre
+msgid "Cree"
+msgstr "Cree"
+
+#. crp
+msgid "Creoles and pidgins (Other)"
+msgstr "Kreolsk og Pidgin (øvrige)"
+
+#. cus
+msgid "Cushitic (Other)"
+msgstr "Kusjitiske sprog (øvrige)"
+
+#. cze
+msgid "Czech"
+msgstr "Tjekkisk"
+
+#. dak
+msgid "Dakota"
+msgstr "Dakota"
+
+#. dan
+msgid "Danish"
+msgstr "Dansk"
+
+#. del
+msgid "Delaware"
+msgstr "Delaware"
+
+#. den
+msgid "Slave (Athapascan)"
+msgstr "Slave (Athapascan)"
+
+#. dgr
+msgid "Dogrib"
+msgstr "Dogrib"
+
+#. din
+msgid "Dinka"
+msgstr "Dinka"
+
+#. div
+msgid "Divehi"
+msgstr "Divehi"
+
+#. doi
+msgid "Dogri"
+msgstr "Dogri"
+
+#. dra
+msgid "Dravidian (Other)"
+msgstr "Dravidiske sprog (øvrige)"
+
+#. dua
+msgid "Duala"
+msgstr "Duala"
+
+#. dum
+msgid "Dutch, Middle (ca. 1050-1350)"
+msgstr "Hollandsk, Middelalderligt (ca. 1050-1350)"
+
+#. dut
+msgid "Dutch"
+msgstr "Hollandsk"
+
+#. dyu
+msgid "Dyula"
+msgstr "Dyula"
+
+#. dzo
+msgid "Dzongkha"
+msgstr "Dzongkha"
+
+#. efi
+msgid "Efik"
+msgstr "Efik"
+
+#. egy
+msgid "Egyptian (Ancient)"
+msgstr "Oldægyptisk"
+
+#. eka
+msgid "Ekajuk"
+msgstr "Ekajuk"
+
+#. elx
+msgid "Elamite"
+msgstr "Elamitisk"
+
+#. eng
+msgid "English"
+msgstr "Engelsk"
+
+#. enm
+msgid "English, Middle (1100-1500)"
+msgstr "Engelsk, Middelalderligt (1100-1500)"
+
+#. epo
+msgid "Esperanto"
+msgstr "Esperanto"
+
+#. est
+msgid "Estonian"
+msgstr "Estisk"
+
+#. ewe
+msgid "Ewe"
+msgstr "Ewe"
+
+#. ewo
+msgid "Ewondo"
+msgstr "Ewondo"
+
+#. fan
+msgid "Fang"
+msgstr "Fang"
+
+#. fao
+msgid "Faroese"
+msgstr "Færøsk"
+
+#. fat
+msgid "Fanti"
+msgstr "Fanti"
+
+#. fij
+msgid "Fijian"
+msgstr "Fijisk"
+
+#. fin
+msgid "Finnish"
+msgstr "Finsk"
+
+#. fiu
+msgid "Finno-Ugrian (Other)"
+msgstr "Finsk-ugriske sprog (øvrige)"
+
+#. fon
+msgid "Fon"
+msgstr "Fon"
+
+#. fre
+msgid "French"
+msgstr "Fransk"
+
+#. frm
+msgid "French, Middle (ca.1400-1600)"
+msgstr "Fansk, Middelalderligt (ca.1400-1600)"
+
+#. fro
+msgid "French, Old (842-ca.1400)"
+msgstr "Fransk, old- (842-ca.1400)"
+
+#. fry
+msgid "Frisian"
+msgstr "Frisisk"
+
+#. ful
+msgid "Fulah"
+msgstr "Fulah"
+
+#. fur
+msgid "Friulian"
+msgstr "Friulian"
+
+#. gaa
+msgid "Ga"
+msgstr "Ga"
+
+#. gay
+msgid "Gayo"
+msgstr "Gayo"
+
+#. gba
+msgid "Gbaya"
+msgstr "Gbaya"
+
+#. gem
+msgid "Germanic (Other)"
+msgstr "Germanske sprog (øvrige)"
+
+#. geo
+msgid "Georgian"
+msgstr "Georgisk"
+
+#. ger
+msgid "German"
+msgstr "Tysk"
+
+#. gez
+msgid "Geez"
+msgstr "Geez"
+
+#. gil
+msgid "Gilbertese"
+msgstr "Gilbertansk"
+
+#. gla
+msgid "Gaelic; Scottish"
+msgstr "Gællisk; Skottisk"
+
+#. gle
+msgid "Irish"
+msgstr "Irsk"
+
+#. glg
+msgid "Gallegan"
+msgstr "Gallegan"
+
+#. glv
+msgid "Manx"
+msgstr "Manx"
+
+#. gmh
+msgid "German, Middle High (ca.1050-1500)"
+msgstr "Tysk, Middelalderligt øvre (ca.1050-1500)"
+
+#. goh
+msgid "German, Old High (ca.750-1050)"
+msgstr "Tysk, old- øvre (ca.750-1050)"
+
+#. gon
+msgid "Gondi"
+msgstr "Gondi"
+
+#. gor
+msgid "Gorontalo"
+msgstr "Gorontalo"
+
+#. got
+msgid "Gothic"
+msgstr "Gotisk"
+
+#. grb
+msgid "Grebo"
+msgstr "Grebo"
+
+#. grc
+msgid "Greek, Ancient (to 1453)"
+msgstr "Oldgræsk (til 1453)"
+
+#. gre
+msgid "Greek, Modern (1453-)"
+msgstr "Græsk, moderne (1453-)"
+
+#. grn
+msgid "Guarani"
+msgstr "Guarani"
+
+#. guj
+msgid "Gujarati"
+msgstr "Gujarati"
+
+#. gwi
+msgid "Gwichin"
+msgstr "Gwich'in"
+
+#. hai
+msgid "Haida"
+msgstr "Haida"
+
+#. hau
+msgid "Hausa"
+msgstr "Hausa"
+
+#. haw
+msgid "Hawaiian"
+msgstr "Hawaiansk"
+
+#. heb
+msgid "Hebrew"
+msgstr "Hebraisk"
+
+#. her
+msgid "Herero"
+msgstr "Herero"
+
+#. hil
+msgid "Hiligaynon"
+msgstr "Hiligaynon"
+
+#. him
+msgid "Himachali"
+msgstr "Himachali"
+
+#. hin
+msgid "Hindi"
+msgstr "Hindi"
+
+#. hit
+msgid "Hittite"
+msgstr "Hittisk"
+
+#. hmn
+msgid "Hmong"
+msgstr "Hmong"
+
+#. hmo
+msgid "Hiri"
+msgstr "Hiri Motu"
+
+#. hun
+msgid "Hungarian"
+msgstr "Ungarsk"
+
+#. hup
+msgid "Hupa"
+msgstr "Hupa"
+
+#. iba
+msgid "Iban"
+msgstr "Iban"
+
+#. ibo
+msgid "Igbo"
+msgstr "Igbo"
+
+#. ice
+msgid "Icelandic"
+msgstr "Islandsk"
+
+#. ido
+msgid "Ido"
 msgstr ""
 
-#. BBD
-msgid "Barbados Dollar"
-msgstr "Barbados-dollar"
+#. iii
+msgid "Sichuan Yi"
+msgstr "Lituaisk"
 
-#. BDT
-msgid "Bangladeshi Taka"
-msgstr "Bangladeshiske taka"
+#. ijo
+msgid "Ijo"
+msgstr "Ijo"
 
-#. BGL
-#. BGN
-msgid "Bulgarian Lev"
-msgstr "Bulgarske lev"
+#. iku
+msgid "Inuktitut"
+msgstr "Inuktitut"
 
-#. BHD
-msgid "Bahraini Dinar"
-msgstr "Bahrainske dinar"
+#. ile
+msgid "Interlingue"
+msgstr "Interlingue"
 
-#. BIF
-msgid "Burundi Franc"
-msgstr "Burundi-franc"
+#. ilo
+msgid "Iloko"
+msgstr "Iloko"
 
-#. BMD
-msgid "Bermudian Dollar"
-msgstr "Bermuda-dollar"
+#. ina
+msgid "Interlingua"
+msgstr "Interlingua"
 
-#. BND
-msgid "Brunei Dollar"
-msgstr "Brunei-dollar"
+#. inc
+msgid "Indic (Other)"
+msgstr "Indiske sprog (øvrige)"
 
-#. BOB
-msgid "Boliviano"
-msgstr "Boliviano"
+#. ind
+msgid "Indonesian"
+msgstr "Indonesisk"
 
-#. BOV
-msgid "Bolivian Mvdol"
-msgstr "Bolivianske Mvdol"
+#. ine
+msgid "Indo-European (Other)"
+msgstr "Indo-europæisk (Andre)"
 
-#. BRL
-msgid "Brazilian Real"
-msgstr "Brasilianske real"
+#. inh
+msgid "Ingush"
+msgstr "Engelsk"
 
-#. BSD
-msgid "Bahamian Dollar"
-msgstr "Bahamanske dollar"
+#. ipk
+msgid "Inupiaq"
+msgstr "Inupiaq"
 
-#. BTN
-msgid "Bhutan Ngultrum"
-msgstr "Bhutanske Ngultrum"
+#. ira
+msgid "Iranian (Other)"
+msgstr "Iransk (Andre)"
 
-#. BWP
-msgid "Botswana Pula"
-msgstr "Botswanske pula"
+#. iro
+msgid "Iroquoian languages"
+msgstr "Irokesiske sprog"
 
-#. BYR
-msgid "Belarussian Rouble"
-msgstr "Hviderussiske rubler"
+#. ita
+msgid "Italian"
+msgstr "Italiensk"
 
-#. BZD
-msgid "Belize Dollar"
-msgstr "Belize-dollar"
+#. jav
+msgid "Javanese"
+msgstr "Javanesisk"
 
-#. CAD
-msgid "Canadian Dollar"
-msgstr "Canadiske dollar"
+#. jpn
+msgid "Japanese"
+msgstr "Japansk"
 
-#. CDF
-msgid "Franc Congolais"
-msgstr "Congolesiske franc"
+#. jpr
+msgid "Judeo-Persian"
+msgstr "Jødisk-persisk"
 
-#. CHF
-msgid "Swiss Franc"
-msgstr "Schweizerfranc"
+#. jrb
+msgid "Judeo-Arabic"
+msgstr "Jødisk-arabisk"
 
-#. CLF
-msgid "Unidades de fomento"
+#. kaa
+msgid "Kara-Kalpak"
+msgstr "Karakalpakisk"
+
+#. kab
+msgid "Kabyle"
+msgstr "Kabyle"
+
+#. kac
+msgid "Kachin"
+msgstr "Kachin"
+
+#. kal
+msgid "Greenlandic (Kalaallisut)"
+msgstr "Grønlandsk (Kalaallisut)"
+
+#. kam
+msgid "Kamba"
+msgstr "Kamba"
+
+#. kan
+msgid "Kannada"
+msgstr "Kannaresisk"
+
+#. kar
+msgid "Karen"
+msgstr "Karen"
+
+#. kas
+msgid "Kashmiri"
+msgstr "Kashmirsk"
+
+#. kau
+msgid "Kanuri"
+msgstr "Kanuri"
+
+#. kaw
+msgid "Kawi"
+msgstr "Kawi"
+
+#. kaz
+msgid "Kazakh"
+msgstr "Kasakhisk"
+
+#. kbd
+msgid "Kabardian"
 msgstr ""
 
-#. CLP
-msgid "Chilean Peso"
-msgstr "Chilenske peso"
+#. kha
+msgid "Khazi"
+msgstr "Khasi"
 
-#. CNY
-msgid "Chinese Yuan Renminbi"
-msgstr "Kinesiske juan renminbi"
+#. khi
+msgid "Khoisan (Other)"
+msgstr "Khoisan (øvrige)"
 
-#. COP
-msgid "Colombian Peso"
-msgstr "Colombianske peso"
+#. khm
+msgid "Khmer"
+msgstr "Khmer"
 
-#. CRC
-msgid "Costa Rican Colon"
-msgstr "Costa Ricanske colon"
+#. kho
+msgid "Khotanese"
+msgstr "Khotanesisk"
 
-#. CUP
-msgid "Cuban Peso"
-msgstr "Cubanske peso"
+#. kik
+msgid "Kikuyu"
+msgstr "Kikuyu"
 
-#. CVE
-msgid "Cap Verde Escudo"
-msgstr "Cape Verde-escudo"
+#. kin
+msgid "Kinyarwanda"
+msgstr "Kinyarwanda"
 
-#. CYP
-msgid "Cyprus Pound"
-msgstr "Cypriotiske pund"
+#. kir
+msgid "Kirghiz"
+msgstr "Kirgisisk"
 
-#. CZK
-msgid "Czech Koruna"
-msgstr "Tjekkiske koruna"
+#. kmb
+msgid "Kimbundu"
+msgstr "Kimbundu"
 
-#. DJF
-msgid "Djibouti Franc"
-msgstr "Djibouti-franc"
+#. kok
+msgid "Konkani"
+msgstr "Konkani"
 
-#. DKK
-msgid "Danish Krone"
-msgstr "Danske kroner"
+#. kom
+msgid "Komi"
+msgstr "Komi"
 
-#. DOP
-msgid "Dominican Peso"
-msgstr "Dominikanske peso"
+#. kon
+msgid "Kongo"
+msgstr "Kongo"
 
-#. DZD
-msgid "Algerian Dinar"
-msgstr "Algeriske dinarer"
+#. kor
+msgid "Korean"
+msgstr "Koreansk"
 
-#. ECV
-msgid "Unidad de Valor Constante UVC"
+#. kos
+msgid "Kosraean"
+msgstr "Kosraean"
+
+#. kpe
+msgid "Kpelle"
+msgstr "Kpelle"
+
+#. kro
+msgid "Kru"
+msgstr "Kru"
+
+#. kru
+msgid "Kurukh"
+msgstr "Kurukh"
+
+#. kua
+msgid "Kuanyama"
+msgstr "Kuanyama"
+
+#. kum
+msgid "Kumyk"
+msgstr "Kumyk"
+
+#. kur
+msgid "Kurdish"
+msgstr "Kurdisk"
+
+#. kut
+msgid "Kutenai"
+msgstr "Kutenai"
+
+#. lad
+msgid "Ladino"
+msgstr "Ladino"
+
+#. lah
+msgid "Lahnda"
+msgstr "Lahnda"
+
+#. lam
+msgid "Lamba"
+msgstr "Lamba"
+
+#. lao
+msgid "Lao"
+msgstr "Laotisk"
+
+#. lat
+msgid "Latin"
+msgstr "Latin"
+
+#. lav
+msgid "Latvian"
+msgstr "Lettisk"
+
+#. lez
+msgid "Lezghian"
+msgstr "Lezghian"
+
+#. lim
+msgid "Limburgian"
+msgstr "Lituaisk"
+
+# vist papirstørrelse
+#. lin
+msgid "Lingala"
+msgstr "Lingala"
+
+#. lit
+msgid "Lithuanian"
+msgstr "Litauisk"
+
+#. lol
+msgid "Mongo"
+msgstr "Mongo"
+
+#. loz
+msgid "Lozi"
+msgstr "Lozi"
+
+#. ltz
+msgid "Luxembourgish"
+msgstr "Luxembourgsk"
+
+#. lua
+msgid "Luba-Lulua"
+msgstr "Luba-Lulua"
+
+#. lub
+msgid "Luba-Katanga"
+msgstr "Luba-Katanga"
+
+#. lug
+msgid "Ganda"
+msgstr "Luganda"
+
+#. lui
+msgid "Luiseno"
+msgstr "Luiseño"
+
+#. lun
+msgid "Lunda"
+msgstr "Lunda"
+
+#. luo
+msgid "Luo (Kenya and Tanzania)"
+msgstr "Luo (Kenya og Tanzania)"
+
+#. lus
+msgid "Lushai"
+msgstr "Lushai"
+
+#. mac
+msgid "Macedonian"
+msgstr "Makedonsk"
+
+#. mad
+msgid "Madurese"
+msgstr "Madurese"
+
+#. mag
+msgid "Magahi"
+msgstr "Magahi"
+
+#. mah
+msgid "Marshallese"
+msgstr "Marshall"
+
+#. mai
+msgid "Maithili"
+msgstr "Maithili"
+
+#. mak
+msgid "Makasar"
+msgstr "Makasar"
+
+#. mal
+msgid "Malayalam"
+msgstr "Malayalam"
+
+#. man
+msgid "Mandingo"
+msgstr "Mandingo"
+
+#. mao
+msgid "Maori"
+msgstr "Maori"
+
+#. map
+msgid "Austronesian (Other)"
+msgstr "Malajo-polynesiske sprog (øvrige)"
+
+#. mar
+msgid "Marathi"
+msgstr "Marathi"
+
+#. mas
+msgid "Masai"
+msgstr "Masai"
+
+#. may
+msgid "Malay"
+msgstr "Malajisk"
+
+#. mdr
+msgid "Mandar"
+msgstr "Mandar"
+
+#. men
+msgid "Mende"
+msgstr "Mende"
+
+#. mga
+msgid "Irish, Middle (900-1200)"
+msgstr "Irsk, Middelalderligt (900-1200)"
+
+#. mic
+msgid "Micmac"
+msgstr "Micmac"
+
+#. min
+msgid "Minangkabau"
+msgstr "Minangkabau"
+
+#. mis
+msgid "Miscellaneous languages"
+msgstr "Diverse sprog"
+
+#. mkh
+msgid "Mon-Khmer (Other)"
+msgstr "Mon-Khmer (øvrige)"
+
+#. mlg
+msgid "Malagasy"
+msgstr "Malagasy"
+
+#. mlt
+msgid "Maltese"
+msgstr "Maltesisk"
+
+#. mnc
+msgid "Manchu"
+msgstr "Man"
+
+#. mno
+msgid "Manobo languages"
+msgstr "Manobo sprog"
+
+#. moh
+msgid "Mohawk"
+msgstr "Mohawk"
+
+#. mol
+msgid "Moldavian"
+msgstr "Moldavisk"
+
+#. mon
+msgid "Mongolian"
+msgstr "Mongolsk"
+
+#. mos
+msgid "Mossi"
+msgstr "Mossi"
+
+#. mul
+msgid "Multiple languages"
+msgstr "Flere sprog"
+
+#. mun
+msgid "Munda languages"
+msgstr "Munda (øvrige)"
+
+#. mus
+msgid "Creek"
+msgstr "Muskogee"
+
+#. mwr
+msgid "Marwari"
+msgstr "Marwari"
+
+#. myn
+msgid "Mayan languages"
+msgstr "Maya sprog"
+
+#. nah
+msgid "Nahuatl"
+msgstr "Nahuatl"
+
+#. nai
+msgid "North American Indian (Other)"
+msgstr "Nordamerikansk indisk (Andre)"
+
+#. nap
+msgid "Neapolitan"
+msgstr "Nyt _alias"
+
+#. nau
+msgid "Nauru"
+msgstr "Nauru"
+
+#. nav
+msgid "Navaho"
+msgstr "Navaho"
+
+#. nbl
+msgid "Ndebele, South"
+msgstr "Ndebele, Syd"
+
+#. nde
+msgid "Ndebele, North"
+msgstr "Ndebele, Nord"
+
+#. ndo
+msgid "Ndonga"
+msgstr "Ndonga"
+
+#. nds
+msgid "German, Low"
+msgstr "Tysk, Nedre"
+
+#. nep
+msgid "Nepali"
+msgstr "Nepalesisk"
+
+#. new
+msgid "Newari"
+msgstr "Newari"
+
+#. nia
+msgid "Nias"
+msgstr "Nias"
+
+#. nic
+msgid "Niger-Kordofanian (Other)"
+msgstr "Niger-Congo sprog (øvrige)"
+
+#. niu
+msgid "Niuean"
+msgstr "Niuean"
+
+#. nno
+msgid "Norwegian Nynorsk"
+msgstr "Norsk, Nynorsk"
+
+#. nob
+msgid "Bokmal, Norwegian"
+msgstr "Norsk, Bokmål"
+
+#. non
+msgid "Norse, Old"
+msgstr "Islandsk, Old-"
+
+#. nor
+msgid "Norwegian"
+msgstr "Norsk"
+
+#. nso
+msgid "Sotho, Northern"
+msgstr "Sotho, Nord"
+
+#. nub
+msgid "Nubian languages"
+msgstr "Nubiske sprog"
+
+#. nwc
+msgid "Classical Newari; Old Newari"
+msgstr "Klassisk Newari; Oldnewari"
+
+#. nya
+msgid "Chewa; Chichewa; Nyanja"
+msgstr "Nyanja"
+
+#. nym
+msgid "Nyankole"
+msgstr "Nyankole"
+
+#. nyo
+msgid "Nyoro"
+msgstr "Nyoro sprog"
+
+#. nzi
+msgid "Nzima"
+msgstr "Nzima"
+
+#. oci
+msgid "Occitan (post 1500)"
+msgstr "Occitansk (efter 1500)"
+
+#. oji
+msgid "Ojibwa"
+msgstr "Ojibwa"
+
+#. ori
+msgid "Oriya"
+msgstr "Orija"
+
+#. orm
+msgid "Oromo"
+msgstr "Oromo"
+
+#. osa
+msgid "Osage"
+msgstr "Osage"
+
+#. oss
+msgid "Ossetian"
+msgstr "Ossetisk"
+
+#. ota
+msgid "Turkish, Ottoman (1500-1928)"
+msgstr "Tyrkisk, Ottomansk (1500-1928)"
+
+#. oto
+msgid "Otomian languages"
+msgstr "Otomi sprog"
+
+#. paa
+msgid "Papuan (Other)"
+msgstr "Papua-australske sprog (øvrige)"
+
+#. pag
+msgid "Pangasinan"
+msgstr "Pangasinan"
+
+#. pal
+msgid "Pahlavi"
+msgstr "Pahlavi"
+
+#. pam
+msgid "Pampanga"
+msgstr "Pampanga"
+
+#. pan
+msgid "Panjabi"
+msgstr "Panjabi"
+
+#. pap
+msgid "Papiamento"
+msgstr "Papiamento"
+
+#. pau
+msgid "Palauan"
+msgstr "Palauan"
+
+#. peo
+msgid "Persian, Old (ca.600-400 B.C.)"
+msgstr "Oldpersisk (ca.600-400 f.k.)"
+
+#. per
+msgid "Persian"
+msgstr "Persisk"
+
+#. phi
+msgid "Philippine (Other)"
+msgstr "Filipinsk (Andre)"
+
+#. phn
+msgid "Phoenician"
+msgstr "Fønikisk"
+
+#. pli
+msgid "Pali"
+msgstr "Pali"
+
+#. pol
+msgid "Polish"
+msgstr "Polsk"
+
+#. por
+msgid "Portuguese"
+msgstr "Portugisisk"
+
+#. pon
+msgid "Pohnpeian"
+msgstr "Ponape"
+
+#. pra
+msgid "Prakrit languages"
+msgstr "Prakrit sprog"
+
+#. pro
+msgid "Provencal, Old (to 1500)"
+msgstr "Provencalsk (før 1500)"
+
+#. pus
+msgid "Pushto"
+msgstr "Pashto"
+
+#. que
+msgid "Quechua"
+msgstr "Kechua"
+
+#. raj
+msgid "Rajasthani"
+msgstr "Rajasthani"
+
+#. rap
+msgid "Rapanui"
+msgstr "Rapanui"
+
+#. rar
+msgid "Rarotongan"
+msgstr "Rarotongan"
+
+#. roa
+msgid "Romance (Other)"
+msgstr "Romanske sprog (øvrige)"
+
+#. roh
+msgid "Raeto-Romance"
+msgstr "Rætoromansk"
+
+#. rom
+msgid "Romany"
+msgstr "Romani"
+
+#. rum
+msgid "Romanian"
+msgstr "Rumænsk"
+
+#. run
+msgid "Rundi"
+msgstr "Rundi"
+
+#. rus
+msgid "Russian"
+msgstr "Russisk"
+
+#. sad
+msgid "Sandawe"
+msgstr "Sandawe"
+
+#. sag
+msgid "Sango"
+msgstr "Sango"
+
+#. sah
+msgid "Yakut"
+msgstr "Yakut"
+
+#. sai
+msgid "South American Indian (Other)"
+msgstr "Sydamerikansk indisk (Andre)"
+
+#. sal
+msgid "Salishan languages"
+msgstr "Salishan sprog"
+
+#. sam
+msgid "Samaritan Aramaic"
+msgstr "Samaritansk"
+
+#. san
+msgid "Sanskrit"
+msgstr "Sanskrit"
+
+#. sas
+msgid "Sasak"
+msgstr "Sasak"
+
+#. sat
+msgid "Santali"
+msgstr "Santali"
+
+#. scc
+msgid "Serbian"
+msgstr "Serbisk"
+
+#. sco
+msgid "Scots"
+msgstr "Skotsk"
+
+#. scr
+msgid "Croatian"
+msgstr "Kroatisk"
+
+#. sel
+msgid "Selkup"
+msgstr "Selkupisk"
+
+#. sem
+msgid "Semitic (Other)"
+msgstr "Semitiske sprog (øvrige)"
+
+#. sga
+msgid "Irish, Old (to 900)"
+msgstr "Irsk, old- (til 900)"
+
+#. sgn
+msgid "Sign languages"
+msgstr "Tegnsprog"
+
+#. shn
+msgid "Shan"
+msgstr "Shan"
+
+#. sid
+msgid "Sidamo"
+msgstr "Sidamo"
+
+#. sin
+msgid "Sinhalese"
+msgstr "Singalesisk"
+
+#. sio
+msgid "Siouan languages"
+msgstr "Siouan sprog"
+
+#. sit
+msgid "Sino-Tibetan (Other)"
+msgstr "Sino-tibetanske sprog (øvrige)"
+
+#. sla
+msgid "Slavic (Other)"
+msgstr "Slavisk (Andre)"
+
+#. slo
+msgid "Slovak"
+msgstr "Slovakisk"
+
+#. slv
+msgid "Slovenian"
+msgstr "Slovensk"
+
+#. sma
+msgid "Southern Sami"
 msgstr ""
 
-#. EEK
-msgid "Estonia Kroon"
-msgstr "Estiske Kroon"
-
-#. EGP
-msgid "Egyptian Pound"
-msgstr "Egyptiske pund"
-
-#. ERN
-msgid "Eritrean Nakfa"
-msgstr "Eritræiske Nakfa"
-
-#. ETB
-msgid "Ethiopian Birr"
-msgstr "Etiopiske birr"
-
-#. EUR
-msgid "Euro"
-msgstr "Euro"
-
-#. FJD
-msgid "Fiji Dollar"
-msgstr "Fiji-dollar"
-
-#. FKP
-msgid "Falkland Island Pound"
-msgstr "Falkland-øernes pund"
-
-#. GBP
-msgid "Pound Sterling"
-msgstr "Britiske pund sterling"
-
-#. GEL
-msgid "Georgian Lari"
-msgstr "Georgiske Lari"
-
-#. GHC
-msgid "Ghanaian Cedi"
-msgstr "Ghanesiske cedi"
-
-#. GIP
-msgid "Gibraltar Pound"
-msgstr "Gibraltar-pund"
-
-#. GMD
-msgid "Gambian Dalasi"
-msgstr "Gambiske dalasi"
-
-#. GNF
-msgid "Guinea Franc"
-msgstr "Guinea-franc"
-
-#. GTQ
-msgid "Guatemalan Quetzal"
-msgstr "Guatemalanske quetzal"
-
-#. GWP
-msgid "Guinea-Bissau Peso"
-msgstr "Guinea-Bissau peso"
-
-#. GYD
-msgid "Guyana Dollar"
-msgstr "Guyananske dollar"
-
-#. HKD
-msgid "Hong Kong Dollar"
-msgstr "Hong Kong-dollar"
-
-#. HNL
-msgid "Honduran Lempira"
-msgstr "Honduranske lempira"
-
-#. HRK
-msgid "Croatian Kuna"
-msgstr "Kroatiske Kuna"
-
-#. HTG
-msgid "Haitian Gourde"
-msgstr "Haitianske gourde"
-
-#. HUF
-msgid "Hungarian Forint"
-msgstr "Ungarske forint"
-
-#. IDR
-msgid "Indonesian Rupiah"
-msgstr "Indonesiske rupiah"
-
-#. ILS
-msgid "Israeli Shekel"
-msgstr "Israelske shekel"
-
-#. INR
-msgid "Indian Rupee"
-msgstr "Indiske rupier"
-
-#. IQD
-msgid "Iraqi Dinar"
-msgstr "Irakiske dinarer"
-
-#. IRR
-msgid "Iranian Rial"
-msgstr "Iranske rial"
-
-#. ISK
-msgid "Iceland Krona"
-msgstr "Islandske kroner"
-
-#. JMD
-msgid "Jamaican Dollar"
-msgstr "Jamaica-dollar"
-
-#. JOD
-msgid "Jordanian Dinar"
-msgstr "Jordanske dinarer"
-
-#. JPY
-msgid "Japanese Yen"
-msgstr "Japanske yen"
-
-#. KES
-msgid "Kenyan Shilling"
-msgstr "Kenyanske shilling"
-
-#. KGS
-msgid "Kyrgyzstan Som"
-msgstr "Kirgisiske Som"
-
-#. KHR
-msgid "Cambodian Riel"
-msgstr "Cambodianske Riel"
-
-#. KMF
-msgid "Comoro Franc"
-msgstr "Comoros-franc"
-
-#. KPW
-msgid "North Korean Won"
-msgstr "Nordkoreanske won"
-
-#. KRW
-msgid "South Korean Won"
-msgstr "Sydkoreanske won"
-
-#. KWD
-msgid "Kuwaiti Dinar"
-msgstr "Kuwaitiske dinarer"
-
-#. KYD
-msgid "Cayman Islands Dollar"
-msgstr "Cayman-øernes dollar"
-
-#. KZT
-msgid "Kazakhstan Tenge"
-msgstr "Kazakhstanske Tenge"
-
-#. LAK
-msgid "Lao Kip"
-msgstr "Laotiske kip"
-
-#. LBP
-msgid "Lebanese Pound"
-msgstr "Libanesiske pund"
-
-#. LKR
-msgid "Sri Lanka Rupee"
-msgstr "Sri Lankanske rupee"
-
-#. LRD
-msgid "Liberian Dollar"
-msgstr "Liberiske dollar"
-
-#. LSL
-msgid "Lesotho Loti"
-msgstr "Lesotho loti"
-
-#. LTL
-msgid "Lithuanian Litas"
-msgstr "Lithauiske Litas"
-
-#. LVL
-msgid "Latvian Lats"
-msgstr "Lettiske Lats"
-
-#. LYD
-msgid "Libyan Dinar"
-msgstr "Libyske dinarer"
-
-#. MAD
-msgid "Moroccan Dirham"
-msgstr "Marokkanske dirham"
-
-#. MDL
-msgid "Moldovan Leu"
-msgstr "Moldaviske Leu"
-
-#. MGF
-msgid "Malagasy Franc"
-msgstr "Malagaskiske franc"
-
-#. MKD
-msgid "Macedonian Denar"
-msgstr "Makedonske Denarer"
-
-#. MMK
-msgid "Myanmar Kyat"
-msgstr "Myanmarske kyat"
-
-#. MNT
-msgid "Mongolian Tugrik"
-msgstr "Mongolske tugrik"
-
-#. MOP
-msgid "Macao Patacca"
-msgstr "Macau pacata"
-
-#. MRO
-msgid "Mauritanian Ouguiya"
-msgstr "Mauretanske ouguiya"
-
-#. MTL
-msgid "Maltese Lira"
-msgstr "Maltesiske lire"
-
-#. MUR
-msgid "Mauritius Rupee"
-msgstr "Mauritiske rupier"
-
-#. MVR
-msgid "Maldive Rufiyaa"
-msgstr "Maldiviske rupier"
-
-#. MWK
-msgid "Malawi Kwacha"
-msgstr "Malawiske kwacha"
-
-#. MXN
-msgid "Mexican Peso"
-msgstr "Mexicanske peso"
-
-#. MXV
-msgid "Unidad de Inversion (UDI)"
+#. sme
+msgid "Northern Sami"
 msgstr ""
 
-#. MYR
-msgid "Malaysian Ringgit"
-msgstr "Malaysiske ringgit"
+#. smi
+msgid "Sami languages (Other)"
+msgstr "Sami sprog (øvrige)"
 
-#. MZM
-msgid "Mozambique Metical"
-msgstr "Mozambisiske metical"
-
-#. NAD
-msgid "Namibian Dollar"
-msgstr "Namibiske dollar"
-
-#. NGN
-msgid "Nigerian Naira"
-msgstr "Nigerianske naira"
-
-#. NIO
-msgid "Nicaraguan Cordoba Oro"
-msgstr "Nicaraguanske cordoba oro"
-
-#. NOK
-msgid "Norwegian Krone"
-msgstr "Norske kroner"
-
-#. NPR
-msgid "Nepalese Rupee"
-msgstr "Nepalesiske rupier"
-
-#. NZD
-msgid "New Zealand Dollar"
-msgstr "New Zealand-dollar"
-
-#. OMR
-msgid "Rial Omani"
-msgstr "Omani Rial"
-
-#. PAB
-msgid "Panamanian Balboa"
-msgstr "Panamanske balboa"
-
-#. PEN
-msgid "Peruvian Nuevo Sol"
-msgstr "Peruvianske nuevo sol"
-
-#. PGK
-msgid "Papua New Guinea Kina"
-msgstr "Papua New Guinea kina"
-
-#. PHP
-msgid "Phillipine Peso"
-msgstr "Filippinske peso"
-
-#. PKR
-msgid "Pakistan Rupee"
-msgstr "Pakistanske rupier"
-
-#. PLN
-msgid "Polish Zloty"
-msgstr "Polske zloty"
-
-#. PYG
-msgid "Paraguay Guarani"
-msgstr "Paraguayske guarani"
-
-#. QAR
-msgid "Qatari Riyal"
-msgstr "Qatari rial"
-
-#. ROL
-msgid "Romanian Leu"
-msgstr "Rumænske leu"
-
-#. RUB
-msgid "Russian Rouble"
-msgstr "Russiske rubler"
-
-#. RWF
-msgid "Rwanda Franc"
-msgstr "Rwanda-franc"
-
-#. SAR
-msgid "Saudi Riyal"
-msgstr "Saudiarabiske riyal"
-
-#. SBD
-msgid "Solomon Islands Dollar"
-msgstr "Solomon-øernes dollar"
-
-#. SCR
-msgid "Seychelles Rupee"
-msgstr "Seycheller-rupier"
-
-#. SDD
-msgid "Sudanese Dinar"
-msgstr "Sudanesiske pund"
-
-#. SEK
-msgid "Swedish Krona"
-msgstr "Svenske kroner"
-
-#. SGD
-msgid "Singapur Dollar"
-msgstr "Singapore-dollar"
-
-#. SHP
-msgid "Saint Helena Pound"
-msgstr "St. Helena-pund"
-
-#. SIT
-msgid "Slovenian Tolar"
-msgstr "Slovenske tolar"
-
-#. SKK
-msgid "Slovak Koruna"
-msgstr "Slovakiske Koruna"
-
-#. SLL
-msgid "Leone"
+#. smj
+msgid "Lule Sami"
 msgstr ""
 
-#. SOS
-msgid "Somali Schilling"
-msgstr "Somaliske shilling"
-
-#. SRG
-msgid "Suriname Guilder"
-msgstr "Surinamske gylden"
-
-#. STD
-msgid "Sao Tome and Principe Dobra"
-msgstr "Sao Tome og Principe dobra"
-
-#. SVC
-msgid "El Salvador Colon"
-msgstr "El Salvadoranske colon"
-
-#. SYP
-msgid "Syrian Pound"
-msgstr "Syriske pund"
-
-#. SZL
-msgid "Swaziland Lilangeni"
-msgstr "Swazilandske lilangeni"
-
-#. THB
-msgid "Thai Baht"
-msgstr "Thailandske baht"
-
-#. TJS
-msgid "Tajik Somoni"
+#. smn
+msgid "Inari Sami"
 msgstr ""
 
-#. TLE
-msgid "Timor Escudo"
-msgstr "Timor-escudo"
+#. smo
+msgid "Samoan"
+msgstr "Samoansk"
 
-#. TMM
-msgid "Turkmenistan Manat"
-msgstr "Turkmeniske Manat"
-
-#. TND
-msgid "Tunisian Dinar"
-msgstr "Tunesiske dinarer"
-
-#. TOP
-msgid "Tongan Pa'anga"
-msgstr "Tonganske pa'anga"
-
-#. TRL
-msgid "Turkish Lira"
-msgstr "Tyrkiske lire"
-
-#. TTD
-msgid "Trinidad and Tobago Dollar"
-msgstr "Trinidad og Tobago-dollar"
-
-#. TWD
-msgid "New Taiwan Dollar"
-msgstr "Nye Taiwan-dollar"
-
-#. TZS
-msgid "Tazanian Schilling"
-msgstr "Tanzanianske shilling"
-
-#. UAH
-msgid "Ukrainian Hryvnia"
-msgstr "Ukrainske hryvnia"
-
-#. UGX
-msgid "Ugandan Schilling"
-msgstr "Ugandiske shilling"
-
-#. USD
-msgid "US Dollar"
-msgstr "US-dollar"
-
-#. USN
-msgid "US Dollar (Next day)"
-msgstr "US-dollar (Næste dag)"
-
-#. USS
-msgid "US Dollar (Same day)"
-msgstr "US Dollar (Samme dag)"
-
-#. UYU
-msgid "Peso Uruguayo"
-msgstr "Uraguayske peso"
-
-#. UZS
-msgid "Uzbekistan Sum"
-msgstr "Uzbesiske sum"
-
-#. VEB
-msgid "Venezuela Bolivar"
-msgstr "Venezuelanske bolivar"
-
-#. VND
-msgid "Viet Nam Dong"
-msgstr "Vietnamesiske dong"
-
-#. VUV
-msgid "Vanuatu Vatu"
-msgstr "Vanuatu vatu"
-
-#. WST
-msgid "Samoan Tala"
-msgstr "Samoanske tala"
-
-#. XAF
-msgid "CFA Franc BEAC"
+#. sms
+msgid "Skolt Sami"
 msgstr ""
 
-#. XAG
-msgid "Silver"
-msgstr "Sølv"
+#. sna
+msgid "Shona"
+msgstr "Shona"
 
-#. XAU
-msgid "Gold"
-msgstr "Guld"
+#. snd
+msgid "Sindhi"
+msgstr "Sindhi"
 
-#. XBA
-msgid "Bond Markets Units"
+#. snk
+msgid "Soninke"
+msgstr "Soninke"
+
+#. sog
+msgid "Sogdian"
+msgstr "Sogdiansk"
+
+#. som
+msgid "Somali"
+msgstr "Somalisk"
+
+#. son
+msgid "Songhai"
+msgstr "Songe"
+
+#. sot
+msgid "Sotho, Southern"
+msgstr "Sotho, Syd"
+
+#. spa
+msgid "Spanish (Castilian)"
+msgstr "Spansk (Castiliansk)"
+
+#. srd
+msgid "Sardinian"
+msgstr "Sardinsk"
+
+#. srr
+msgid "Serer"
+msgstr "Serer"
+
+#. ssa
+msgid "Nilo-Saharan (Other)"
+msgstr "Afrikanske sprog syd for Sahara (øvrige)"
+
+#. ssw
+msgid "Swati"
+msgstr "Swati"
+
+#. suk
+msgid "Sukuma"
+msgstr "Sukuma"
+
+#. sun
+msgid "Sundanese"
+msgstr "Sundanesisk"
+
+#. sus
+msgid "Susu"
+msgstr "Susu"
+
+#. sux
+msgid "Sumerian"
+msgstr "Sumerisk"
+
+#. swa
+msgid "Swahili"
+msgstr "Swahili"
+
+#. swe
+msgid "Swedish"
+msgstr "Svensk"
+
+#. syr
+msgid "Syriac"
+msgstr "Syrisk"
+
+#. tah
+msgid "Tahitian"
+msgstr "Tahitiansk"
+
+#. tai
+msgid "Tai (Other)"
+msgstr "Tai (øvrige)"
+
+#. tam
+msgid "Tamil"
+msgstr "Tamilsk"
+
+#. tao
+msgid "Tsonga"
 msgstr ""
 
-#. XBB
-msgid "European Composite Unit EURCO"
+#. tat
+msgid "Tatar"
+msgstr "Tatarisk"
+
+#. tel
+msgid "Telugu"
+msgstr "Telugu"
+
+#. tem
+msgid "Timne"
+msgstr "Temne"
+
+#. ter
+msgid "Tereno"
+msgstr "Tereno"
+
+#. tet
+msgid "Tetum"
+msgstr "Tetum"
+
+#. tgk
+msgid "Tajik"
+msgstr "Tajik"
+
+#. tgl
+msgid "Tagalog"
+msgstr "Tagalog"
+
+#. tha
+msgid "Thai"
+msgstr "Thai"
+
+#. tib
+msgid "Tibetan"
+msgstr "Tibetansk"
+
+#. tig
+msgid "Tigre"
+msgstr "Tigré"
+
+#. tir
+msgid "Tigrinya"
+msgstr "Tigrinja"
+
+#. tiv
+msgid "Tiv"
+msgstr "iTiv"
+
+#. tkl
+msgid "Tokelau"
+msgstr "Tokelau"
+
+#. tli
+msgid "Tlinglit"
+msgstr "Tlingit"
+
+#. tmh
+msgid "Tamashek"
+msgstr "Tamashek"
+
+#. tog
+msgid "Tonga (Nyasa)"
+msgstr "Tonga (Nyasa)"
+
+#. ton
+msgid "Tonga (Tonga Islands)"
+msgstr "Tonga (Tongaøerne)"
+
+#. tpi
+msgid "Tok Pisin"
+msgstr "Tok Pisin"
+
+#. tsi
+msgid "Tsimshian"
+msgstr "Tsimshisk"
+
+#. tsn
+msgid "Tswana"
+msgstr "Tswana"
+
+#. tuk
+msgid "Turkmen"
+msgstr "Turkmensk"
+
+#. tum
+msgid "Tumbuka"
+msgstr "Tumbuka"
+
+#. tup
+msgid "Tupi languages"
 msgstr ""
 
-#. XBC
-msgid "European Monetary Unit EUM"
-msgstr "Europæisk valutaenhed EUM"
+#. tur
+msgid "Turkish"
+msgstr "Tyrkisk"
 
-#. XBD
-msgid "European Unit of Account EUA"
+#. tut
+msgid "Altaic (Other)"
+msgstr "Tyrkisk-tatariske sprog (øvrige)"
+
+#. tvl
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+#. twi
+msgid "Twi"
+msgstr "Twi"
+
+#. tyv
+msgid "Tuvinian"
+msgstr "Tuvinian"
+
+#. uga
+msgid "Ugaritic"
+msgstr "Ugaritic"
+
+#. uig
+msgid "Uighur"
+msgstr "Uighur"
+
+#. ukr
+msgid "Ukrainian"
+msgstr "Ukrainsk"
+
+#. umb
+msgid "Umbundu"
+msgstr "Umbundu"
+
+#. und
+msgid "Undetermined"
+msgstr "Ubestemt"
+
+#. urd
+msgid "Urdu"
+msgstr "Urdu"
+
+#. uzb
+msgid "Uzbek"
+msgstr "Uzbesisk"
+
+#. vai
+msgid "Vai"
+msgstr "Vai"
+
+#. ven
+msgid "Venda"
+msgstr "Venda"
+
+#. vie
+msgid "Vietnamese"
+msgstr "Vietnamesisk"
+
+#. vol
+msgid "Volapuk"
+msgstr "Volapyk"
+
+#. vot
+msgid "Votic"
+msgstr "Votisk"
+
+#. wak
+msgid "Wakashan languages"
+msgstr "Wakashan sprog"
+
+#. wal
+msgid "Walamo"
+msgstr "Walamo"
+
+#. war
+msgid "Waray"
+msgstr "Waray"
+
+#. was
+msgid "Washo"
+msgstr "Washo"
+
+#. wel
+msgid "Welsh"
+msgstr "Walisisk"
+
+#. wen
+msgid "Sorbian languages"
+msgstr "Vendiske sprog"
+
+#. wln
+msgid "Walloon"
 msgstr ""
 
-#. XCD
-msgid "East Caribean Dollar"
-msgstr "Østkaribiske dollar"
+#. wol
+msgid "Wolof"
+msgstr "Wolof"
 
-#. XDR
-msgid "Special Drawing Right"
-msgstr ""
+#. xho
+msgid "Xhosa"
+msgstr "Xhosa"
 
-#. XOF
-msgid "CFA Franc BCEAO"
-msgstr ""
+#. yao
+msgid "Yao"
+msgstr "Yao"
 
-#. XPD
-msgid "Palladium"
-msgstr "Palladium"
+#. yap
+msgid "Yapese"
+msgstr "Yap"
 
-#. XPF
-msgid "CFP Franc"
-msgstr ""
+#. yid
+msgid "Yiddish"
+msgstr "Yiddisk"
 
-#. XPT
-msgid "Platinum"
-msgstr "Platin"
+#. yor
+msgid "Yoruba"
+msgstr "Yoruba"
 
-#. XTS
-msgid "Code for testing purposes"
-msgstr "Kode til testformål"
+#. ypk
+msgid "Yupik languages"
+msgstr "Yupik sprog"
 
-#. XXX
-msgid "No currency involved"
-msgstr "Ingen valuta involveret"
+#. zap
+msgid "Zapotec"
+msgstr "Zapotec"
 
-#. YER
-msgid "Yemini Rial"
-msgstr "Yemenske rial"
+#. zen
+msgid "Zenaga"
+msgstr "Zenaga"
 
-#. YUD
-msgid "Yugoslavian Dinar"
-msgstr "Jugoslaviske dinarer"
+#. zha
+msgid "Chuang; Zhuang"
+msgstr "Zhuang"
 
-#. ZAR
-msgid "South African Rand"
-msgstr "Sydafrikanske rand"
+#. znd
+msgid "Zande"
+msgstr "Zande"
 
-#. ZMK
-msgid "Zambian Kwacha"
-msgstr "Zambiske kwacha"
+#. zul
+msgid "Zulu"
+msgstr "Zulu"
 
-#. ZWD
-msgid "Zimbabwe Dollar"
-msgstr "Zimbabwianske dollar"
+#. zun
+msgid "Zuni"
+msgstr "Zuni"
 
-#~ msgid "Andorran peseta"
-#~ msgstr "Andorransk peseta"
-
-#~ msgid "Afghanistan afghani"
-#~ msgstr "Afghanske afghani"
-
-#~ msgid "Austrian schilling"
-#~ msgstr "Østrigske schilling"
-
-#~ msgid "Belgian franc"
-#~ msgstr "Belgiske franc"
-
-#~ msgid "Deutsche mark"
-#~ msgstr "Tyske D-mark"
-
-#~ msgid "Ecuador sucre"
-#~ msgstr "Ecuadorianske sucre"
-
-#~ msgid "Spanish peseta"
-#~ msgstr "Spanske peseta"
-
-#~ msgid "Finnish markka"
-#~ msgstr "Finske mark"
-
-#~ msgid "French franc"
-#~ msgstr "Franske franc"
-
-#~ msgid "Greek drachma"
-#~ msgstr "Græske drakmer"
-
-#~ msgid "Irish punt"
-#~ msgstr "Irske pund"
-
-#~ msgid "Irish pence ***"
-#~ msgstr "Irske pence ***"
-
-#~ msgid "Italian lira"
-#~ msgstr "Italienske lire"
-
-#~ msgid "Kampuchean riel"
-#~ msgstr "Kampucheanske riel"
-
-#~ msgid "Republic of Korea won"
-#~ msgstr "Sydkoreanske won"
-
-#~ msgid "Luxembourg franc"
-#~ msgstr "Luxembourgske franc"
-
-#~ msgid "Mali franc"
-#~ msgstr "Mali-franc"
-
-#~ msgid "Netherlands guilder"
-#~ msgstr "Hollandske gylden"
-
-#~ msgid "Peruvian inti"
-#~ msgstr "Peruvianske inti"
-
-#~ msgid "Portuguese escudo"
-#~ msgstr "Portugisiske escudo"
-
-#~ msgid "Sierra Leone leone"
-#~ msgstr "Sierra Leone leone"
-
-#~ msgid "USSR rouble"
-#~ msgstr "USSR rubler"
-
-#~ msgid "Uruguayan peso"
-#~ msgstr "Uruguayanske peso"
-
-#~ msgid "Democratic Yemeni dinar"
-#~ msgstr "Demokratisk Yemen-dinarer"
-
-#~ msgid "South African rand funds code"
-#~ msgstr "Sydafrikanske rand fondkode"
-
-#~ msgid "Zaire Zaire"
-#~ msgstr "Zaire Zaire"
+#~ msgid "Spanish"
+#~ msgstr "Spansk"
 
