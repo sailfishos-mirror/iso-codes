@@ -1,13 +1,27 @@
-iso-codes (0.27-2) UNRELEASED; urgency=low
+iso-codes (0.29-1) UNRELEASED; urgency=low
+
+  * Eugeniy Meshcheryakov
+    - iso_3166/uk.po: update
+  * Bas Zoetekouw
+    - iso_3166/nl.po: Update.
+ 
+ -- Alastair McKinstry <mckinstry@debian.org>  Sun, 21 Mar 2004 22:34:00 +0100
+
+iso-codes (0.28-1) unstable; urgency=low
 
   * Christian Perrier
     - iso_639/fr.po: update (wrong case for dutch)
   * Carlos Z.F. Liu
     - iso_3166/zh_CN.po: update
-  * Eugeniy Meshcheryakov
-    - iso_3166/uk.po: update
+  * Alastair McKinstry
+    - Add new language code for Classical Newari. Closes: #238085.
+    - iso_3166: change TW to "Taiwan, Province of China". Closes: #238973.
+    - iso_3166: change GB to "United Kingdom". 
+    - Add iso_3166.xml, iso_3166_2.xml, iso_639.xml, iso_4217.xml
+  *  Mətin Əmirov 
+    - iso_3166/az.po: Update.
 
- -- Christian Perrier <bubulle@debian.org>  Fri, 19 Mar 2004 19:34:00 +0100
+ -- Alastair McKinstry <mckinstry@debian.org>  Sun, 21 Mar 2004 19:34:00 +0100
 
 iso-codes (0.27-1) unstable; urgency=low
 
