@@ -1,0 +1,39 @@
+- Tidy up ISO 3166 Tables
+
+- Add man pages documenting them.
+
+(1) Perl code incorrectly refers to Locale::Currency module.
+(2) Add the following:
+	all_subdivision_codes (code)
+	all_subdivision_names (code)
+
+That parse the ISO 3166-2 files
+
+
+: Missing files:
+	ISO-4217
+		af, ar, az, bg, br, bs, eo, eu, id, is, lt, lv, mi, mk, mt, ms, nb,
+		oc, ro, sl, ta, wa
+
+	ISO-3166
+		et, fi, gl, ja, lt, mi, mk,  ms, mt, nl, nb, nn, oc, pl, pt, pt_BR, 
+		ro, ru, sl, ta, uk, wa, zh_CN, zh_TW
+
+ iso-3166/no.po truncated
+
+- Ensure compatability with language / territory names in GLIBC Locales
+  files.
+
+- Sort out Norwegian variants; ensure original files (639, in particular)
+  are up-to-date.
+
+- KDE:
+	desktop.po file contains such information
+	entry.desktop has redundant language name information
+
+- Flags in language-env, kde i18n files overlap.
+
+- Add entries for "ven" (Venda); no iso-639-1 code exists, but used in kde.
+
+French Guinea is GF not FJ
+Mozambique MZ

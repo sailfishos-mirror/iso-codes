@@ -1,0 +1,80 @@
+# iso-3166-3.tab
+#
+# Code for formerly used names of countries
+#
+# Status: ISO 3166-3:1999 + newsletters (latest dated 2002-05-20)
+# Last update: 2002-11-12
+#
+# The ISO 3166 code for names of countries was first published in 1974. 
+# In 1981 a Numeric code was added to the existing Alpha-2 and Alpha-3 codes.
+# The Numeric code identifies a physical territory while the Alpha-2 and
+# Alpha-3 codes identify a country name.
+# There were new editions of the ISO 3166 standard in 1981, 1988 and 1993.
+# The fifth and latest edition of the country code is ISO 3166-1:1997.
+# The ISO 3166-3 Code for formerly used names of countries was first
+# published in 1999.
+#
+# An entry from the ISO 3166-1 country code table may be withdrawn if
+# - a country changes a significant part of its name
+# - a country is divided into two or more new ones
+# - two or more countries merge
+# Codes withdrawn from use may not be reused for five years.
+#
+# The following ISO 3166-3 table has five tab-separated columns:
+# 1. Alpha-4 code (consisting of the former and the new Alpha-2 codes)
+# 2. Alpha-3 code
+# 3. Numeric code
+# 4. Date of withdrawal or change (YYYY-MM-DD)
+# 5. Country name
+#
+# The Alpha-4 code in the first column consists of the Alpha-2 code of the
+# withdrawn entry followed by the Alpha-2 code of the new entry.
+#
+# If there is no single new entry which replaces the withdrawn entry,
+# the letters 'HH' will be appended to the withdrawn Alpha-2 code.
+#
+# If the Alpha-2 code is unchanged (i.e. only the Numeric code or the 
+# Alpha-3 code changed), the Alpha-2 code without any appended letters 
+# will be shown in column 1.
+#
+# Code	Alpha-3	Numeric	Withdrawn	Country name
+BQAQ	ATB		1979      	British Antarctic Territory
+BUMM	BUR	104	1989-12-05	Burma, Socialist Republic of the Union of
+BYAA	BYS	112	1992-06-15	Byelorussian SSR Soviet Socialist Republic
+CTKI	CTE	128	1984      	Canton & Enderbury Islands
+CSHH	CSK	200	1993-06-15	Czechoslovakia, Czechoslovak Socialist Republic
+DYBJ	DHY	204	1977      	Dahomey
+NQAQ	ATN	216	1983      	Dronning Maud Land
+TPTL	TMP	626	2002-05-20	East Timor (was Portuguese Timor)
+ET	ETH	230	1993-07-16	Ethiopia
+FX	FXX	249	1997-07-14	France, Metropolitan
+AIDJ	AFI	262	1977      	French Afars and Issas
+FQHH	ATF		1979      	French Southern and Antarctic Territories (now split between AQ and TF)
+DDDE	DDR	278	1990-10-30	German Democratic Republic
+DE	DEU	280	1990-10-30	Germany, Federal Republic of
+GEHH	GEL	296	1979      	Gilbert & Ellice Islands (now split into Kiribati and Tuvalu)
+JTUM	JTN	396	1986      	Johnston Island
+MIUM	MID	488	1986      	Midway Islands
+AN	ANT	532	1993-07-12	Netherlands Antilles
+NTHH	NTZ	536	1993-07-12	Neutral Zone (formerly between Saudi Arabia & Iraq)
+NHVU	NHB	548	1980      	New Hebrides
+PCHH	PCI	582	1986      	Pacific Islands (trust territory) (divided into FM, MH, MP, and PW)
+PA	PAN	590	1993-07-22	Panama, Republic of
+PZPA	PCZ		1980      	Panama Canal Zone
+RO	ROM	642	2002-02-01	Romania, Socialist Republic of
+KN	KNA	658	1988      	St. Kitts-Nevis-Anguilla (now St. Kitts and Nevis and Anguilla)
+SKIN	SKM		1975      	Sikkim
+RHZW	RHO	716	1980      	Southern Rhodesia
+EH	ESH	732	1988      	Spanish Sahara (now Western Sahara)
+PUUM	PUS	849	1986      	US Miscellaneous Pacific Islands
+SUHH	SUN	810	1992-08-30	USSR, Union of Soviet Socialist Republics
+HVBF	HVO	854	1984      	Upper Volta, Republic of
+VA	VAT	336	1996-04-03	Vatican City State (Holy See)
+VDVN	VDR		1977      	Viet-Nam, Democratic Republic of
+WKUM	WAK	872	1986      	Wake Island
+YDYE	YMD	720	1990-08-14	Yemen, Democratic, People's Democratic Republic of
+YE	YEM	886	1990-08-14	Yemen, Yemen Arab Republic
+YU	YUG	890	1993-07-28	Yugoslavia, Socialist Federal Republic of
+ZRCD	ZAR	180	1997-07-14	Zaire, Republic of
+
+

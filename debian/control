@@ -1,0 +1,23 @@
+Source: iso-codes
+Priority: optional
+Build-Depends-Indep: gettext, debhelper (>= 3)
+Maintainer: Alastair McKinstry <mckinstry@debian.org>
+Standards-Version: 3.6.1
+
+Package: iso-codes
+Architecture: all
+Section: libs
+Priority: optional
+Description: ISO language, territory, currency  codes and their translations
+ This package provides the ISO-639 Language code list, the
+ ISO-3166 Territory code list, and ISO-3166-2 sub-territory lists.
+ .
+ It also (more importantly) provides their translations in .po form.
+
+Package: iso-3166-udeb
+Architecture: all
+Section: debian-installer
+Priority: optional
+Description: Provides iso_3166.tab file
+ This package provides the iso_3166.tab file, which lists country names
+ and their ISO-3166 codes.

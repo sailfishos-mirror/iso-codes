@@ -1,0 +1,104 @@
+This package aims to provide the list of the country and language
+(and currency) names in one place, rather than repeated in many
+programs throughout Debian.
+
+Currently there are lists of languages and countries embedded in:
+
+- Gnome Libs
+- bootfloppies / PGI
+- KDE
+- Gnumeric
+- Gnucash
+- ...
+
+This leads to about a dozen lists of 200 languages, translated
+into >30 languages ... not very efficient. The aim of this patch
+is to create a single "gettext" domain "iso-639" which contains
+the translations of language names, and one "iso-3166" listing
+the translations of Country  names.
+
+So the plan is then to be able to use
+	dgettext("iso-639", language_name)
+to get the correct translations.
+
+The files
+/usr/share/iso-codes/iso-3166.tab
+/usr/share/iso-codes/iso-639.tab
+/usr/share/iso-codes/iso-4217.tab
+/usr/share/iso-codes/iso-3166-1.tab
+/usr/share/iso-codes/iso-3166-2.tab
+/usr/share/iso-codes/iso-3166-3.tab
+
+store the files in simple tabbed list format, for easy changing.
+
+PLEASE NOTE: THE FORMAT IS CURRENTLY IN FLUX.
+PLEASE CONTACT THE AUTHOR IF YOU INTEND TO USE IT
+
+The files
+
+ISO-3166
+--------
+
+This lists the 2-letter country code and "short" country name.
+
+ISO-639
+-------
+
+This lists the 2-letter and 3-letter language codes and language names
+
+ISO-4217
+--------
+This lists the currency codes and names
+
+ISO-historic-4217
+-----------------
+This lists previous currrency codes, the currency names, and dates of changes
+
+ISO-3166-1
+----------
+This lists further elements of the ISO-3166 standard: further country codes
+(numeric) and offical long versions of country names. 
+
+ISO 3166-2
+-----------
+The ISO 3166 standard includes a "Country Subdivision Code",
+giving a code for the names of the principal administrative
+subdivisions of the countries coded in ISO 3166.
+
+ISO 3166-2 is a set of files giving this ISO 3166-2 standard:
+(available at http://www.din.de/gremein/nabd/iso3166ma/a3ptnorm.html)
+this is a standard that gives short codes for provinces,
+etc. within a country. As these also list the provinces, Counties,
+etc. within a country, they could also be used to provide a
+drop-down list when someone is entering addresses...
+
+ISO-3166-3
+----------
+This contains former country name details: their names, previous codes
+and dates of changes.
+
+
+
+---------------------------------------------------------------------
+DEVELOPING USING PKGCONFIG
+--------------------------
+
+A pkgconfig file has been included to aid developing with this package.
+You can detect the prefix where the translations have been placed using
+
+$ pkg-config --variable=prefix iso-codes
+/usr
+
+You can detect which sets of translation (domain) files have been installed using
+$ pkg-config --variable=domains iso-codes
+iso-639 iso-3166 iso-4217 iso-3166-1 iso-3166-2 iso-3166-3
+
+
+
+
+
+
+--
+Alastair McKinstry, <mckinstry@debian.org>, 2003-12-24
+     
+     

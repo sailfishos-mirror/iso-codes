@@ -1,0 +1,245 @@
+iso-codes (0.24-1) unstable; urgency=low
+
+  * iso_3166/sv.po: Fix typo that broke build. Closes: #232359.
+  * Updated iso_3166/zh_CN.po thanks to Carlos Z.F. Liu. Closes: #230656.
+  * Updated Ukranian translations thanks to Eugeniy Meshcheryakov.
+    Closes: #232277.
+    
+ -- Alastair McKinstry <mckinstry@debian.org>  Thu, 12 Feb 2004 09:27:14 +0000
+
+iso-codes (0.23-1) unstable; urgency=low
+
+  * Updated iso_3166/de.po thanks to Simon Huerlimann.  Closes: #230152.
+  * Updated iso_3166/pt.po thnaks to Miguel Figuereido.  Closes: #230329.
+  * iso-3166-udeb: Don't include changelogs.
+  * Updated iso_4217/cs.po from Miroslav Kure.  Closes: #231532.
+  * Updated iso_3166/fr.po thanks to Christian Perrier. Closes: #230779.
+  * Updated Greek files thanks to Konstantinos Margaritis. 
+    Closes: #229507, #229530.
+  * Removed superflous spaces and tabs in entries. Closes: #230781.
+ 
+ -- Alastair McKinstry <mckinstry@debian.org>  Tue, 10 Feb 2004 20:57:23 +0000
+
+iso-codes (0.22-1) unstable; urgency=low
+
+  * Add iso-codes-udeb for the Debian Installer. Closes: #228619.
+  * New Upstream release, including:
+    - Hungarian iso_3166 Updated from Verok Istvan; Closes: #228181.
+    - Japanese update from Kenshi Muto; Closes: #228199.
+    - Russian update for iso_3166 from Christian Perrier; Closes: #228314.
+    - Czech update for iso_3166 from Miroslav Kure; Closes: #228476. 
+    - Polish update for iso_4217 from Bartosz Fenski; Closes: #229085.
+    - Simplified Chinese update for iso_3166 from Carlos Z.F. Liu; 
+      Closes: #229165.
+
+ -- Alastair McKinstry <mckinstry@debian.org>  Sun, 18 Jan 2004 20:57:23 +0000
+
+iso-codes (0.21-1) unstable; urgency=low
+
+  * Change iso-* to iso_* to satisfy the Translation Robot. 
+  * iso_3166/pt_BR.po: Better Brazilian Portuguese translations from
+    Andre Luis Lopes. Closes: #227993.
+  * Updated Serbian iso_3166.pot from Aleksandar Jelenak.
+  * Updated Swedish iso_3166.pot from Christian Rose.
+  * Corrected French iso_3166.pot from Christian Perrier. Closes: #227690.
+  * Corrected Persian iso_639.pot from Roozbeh Pournader. 
+  * Updated Irish iso_639.pot from Kevin Scannell.
+  * New Norwegian Nyorsk translation of iso_639 from Karl Ove Hufthammer.
+  * Fix bad "fuzzy" comments on iso_3166 strings. Closes: #227207.
+  * Corrections to iso_639 thanks to Elros Cyriatan.
+
+ -- Alastair McKinstry <mckinstry@debian.org>  Fri, 16 Jan 2004 20:28:56 +0000
+
+iso-codes (0.018-1) unstable; urgency=low
+  
+  * iso-3166/ga.po: More translations. 
+  * iso-3166-3.tab: Fixes so Hungarian entries from Andras Meszaros,
+  * iso-639.tab: Include Portuguese.
+  * Moved to Standards-Version: 3.6.1; no changes required.
+  * iso-3166.de.po: Corrections from Bruno Haible.
+  * iso-3166: broke iso-3166.pot into iso-3166.pot, iso-3166-2.pot.
+  * Include /usr/lib/pkgconfig/iso-codes.pc and notes in README
+
+ -- Alastair McKinstry <mckinstry@debian.org>  Thu,  4 Dec 2003 07:37:00 +0000
+
+iso-codes (0.017) unstable; urgency=low
+
+  * iso-3166.tab: put back into package. Closes: #204536.
+
+ -- Alastair McKinstry <mckinstry@debian.org>  Fri,  8 Aug 2003 22:14:50 +0100
+
+iso-codes (0.016) unstable; urgency=low
+
+  * Moved to Standards-Version: 3.6.0; no changes required.
+  * Changed maintainer email to mckinstry@debian.org.
+
+ -- Alastair McKinstry <mckinstry@debian.org>  Sun,  3 Aug 2003 22:04:35 +0100
+
+iso-codes (0.015) unstable; urgency=low
+
+  * iso-3166/sl.po: Translations from Primoz Peterlin.
+  * iso-4217/sl.po: Translations from Primoz Peterlin.
+
+ -- Alastair McKinstry <mckinstry@computer.org>  Thu, 10 Apr 2003 15:46:33 +0100
+
+iso-codes (0.014) unstable; urgency=low
+
+  * iso-639/iso-639.tab: English missing!. added.
+  * iso-3166/iso-3166-2.tab: Spelling mistakes in Polish names corrected. 
+
+ -- Alastair McKinstry <mckinstry@computer.org>  Fri,  7 Mar 2003 23:25:11 +0000
+
+iso-codes (0.013-1) unstable; urgency=low
+
+  * iso-639/iso-639.tab: Updated to include iso-639-2 codes.
+  * iso-3166/iso-3166-2.tab: Updated, latest newsletter 2002-12-10.
+  * *.tab files are now all in /usr/share/iso-codes. Closes: #182528.
+
+ -- Alastair McKinstry <mckinstry@computer.org>  Wed,  5 Mar 2003 18:23:43 +0000
+
+iso-codes (0.12-1) unstable; urgency=low
+
+  * iso-639/mn.po: More translations, by Badral Sanlig
+  * iso-3166/mn.po: new file; translations by Badral Sanlig.
+  * iso-4217/mn.po: new file; translations by Badral Sanlig.
+
+ -- Alastair McKinstry <mckinstry@computer.org>  Wed,  5 Mar 2003 08:54:18 +0000
+
+iso-codes (0.11-1) unstable; urgency=low
+
+  * iso-3166/Makefile: Ensure that iso-3166-{1,3}.tab elements
+    are included in .po files correctly
+  * ensure top-level tar file is a proper .orig.tar.gz
+
+ -- Alastair McKinstry <mckinstry@computer.org>  Thu, 13 Feb 2003 21:50:47 +0000
+
+iso-codes (0.10-1) unstable; urgency=low
+
+  * iso-639/ar.po: Corrections & additions from kde-i18n-3.1
+  * iso-639/mn.po: New; translations from kde-i18n-3.1
+  * corrected TODO list; removed non-ASCII chars from iso-639.tab
+  * iso-639/ga.po: Correct fuzzy entries
+  * iso-3166-2.tab: Transliterate non-ascii chars, to satisfy gettext
+  * iso-639/nso.po: New; Northern Sotho translation of language names
+  * iso-639/ven.po: New file
+  * iso-639/fa.po: New file
+  * iso-3166/nso.po: New file
+  * iso-3166/ven.po: New file
+  * iso-3166/fa.po: New file
+
+ -- Alastair McKinstry <mckinstry@computer.org>  Thu, 13 Feb 2003 14:27:56 +0000
+
+iso-codes (0.9) unstable; urgency=low
+
+  * iso-3166.tab: Changed names to more official short names. Closes: #168857.
+  * iso-3166-3.tab: Fixed missing tabs. Closes: #168924.
+  * iso-4217-historic.tab. New; lists old currencies. Closes: #168922.
+  * iso-4217.tab. Now include numeric codes.
+
+ -- Alastair McKinstry <mckinstry@computer.org>  Thu, 14 Nov 2002 21:36:22 +0100
+
+iso-codes (0.8) unstable; urgency=low
+
+  * Fix incorrect data in iso-3166-2.tab. Closes: #168807.
+  (Thanks to Andreas Jochens <ajmail@attglobal.net>).
+
+ -- Alastair McKinstry <mckinstry@computer.org>  Tue, 12 Nov 2002 23:05:57 +0100
+
+iso-codes (0.7) unstable; urgency=low
+
+  * Fix incorrect data in iso-3166-3.tab. Closes: #168686.
+  (Thanks to Andreas Jochens <ajmail@attglobal.net>).
+
+ -- Alastair McKinstry <mckinstry@computer.org>  Mon, 11 Nov 2002 22:37:06 +0100
+
+iso-codes (0.6) unstable; urgency=low
+
+  * Now at Standards version 3.5.7
+  * Now install /usr/share/iso-codes/iso-3166-[1-3].tab. Closes: #168429.
+  * Update iso-639.tab. Closes: #168428.
+    (Thanks to Andreas Jochens <ajmail@attglobal.net>).
+
+ -- Alastair McKinstry <mckinstry@computer.org>  Sat,  9 Nov 2002 16:26:41 +0100
+
+iso-codes (0.5) unstable; urgency=low
+
+  * Merge all iso-3166-2. tables into /usr/share/iso-codes/iso-3166-2.tab
+  * Correct errors in /usr/share/iso-codes/iso-3166.tab. (Now a drop-in
+    replacement for /usr/share/zone/iso3166.tab).
+    Closes: #168146.
+  * Update README to reflect changes.
+  * Now architecture: all as gettext can read byte-swapped po files.
+  * iso-3166-2.tab: Corrected entries for Berlin, Zeeland. Closes: #168003. 
+  * iso-3166-2.tab: Corrected Polish entries. Closes: #167857.
+
+ -- Alastair McKinstry <mckinstry@computer.org>  Thu,  7 Nov 2002 22:08:33 +0100
+
+iso-codes (0.4) unstable; urgency=low
+
+  * iso-3166-2/pl/iso3166-2.tab: Corrections, thanks to Michal Politowski
+   <mpol@charybda.icm.edu.pl>. Closes: #167857.
+  * Change the iso-3166 code for East Timor to "TL" (ISO 3166-1 Newsletter 5)
+  * Split the Official forms of country names into iso-3166-long.tab
+  * Include long name changes from ISO-1 Newsletter 4.
+  * binary-arch now builds the .po files. (Endian, hence arch-dependent).
+    Closes: #167896. 
+
+ -- Alastair McKinstry <mckinstry@computer.org>  Tue,  5 Nov 2002 20:55:33 +0100
+
+iso-codes (0.3) unstable; urgency=low
+
+  * iso-639/cy.po: New; Thanks to Dafydd Tomos <dafydd.tomos@imaginet.co.uk>
+  * Split iso-3166-2 into a seperate directory. 
+
+ -- Alastair McKinstry <mckinstry@computer.org>  Wed, 23 Oct 2002 18:22:28 +0200
+
+iso-codes (0.2) unstable; urgency=low
+
+  * iso-4217/ca.po, iso-4217/cs.po, iso-4217/da.po, iso-4217/de.po,
+    iso-4217/el.po, iso-4217/es.po, iso-4217/et.po, iso-4217/fi.po,
+    iso-4217/fr.po, iso-4217/ga.po, iso-4217/gl.po, iso-4217/hr.po,
+    iso-4217/hu.po, iso-4217/it.po, iso-4217/ja.po, iso-4217/ko.po,
+    iso-4217/nl.po, iso-4217/nn.po, iso-4217/no.po, iso-4217/pl.po,
+    iso-4217/pt.po, iso-4217/pt_BR.po, iso-4217/ru.po, iso-4217/sk.po,
+    iso-4217/sv.po, iso-4217/tr.po, iso-4217/uk.po, iso-4217.zh_CN.po,
+    iso-4217/zh_TW.po : Translated to UTF-8, corrected headers,
+    deleted old translations. 
+  * iso-639/az.po, iso-639/bg.po, iso-639/ca.po, iso-639/cs.po,  
+    iso-639/da.po, iso-639/de.po, iso-639/el.po, iso-639/es.po, 
+    iso-639/et.po, iso-639/fi.po, iso-639/fr.po, iso-669/gl.po,
+    iso-639/hr.po, iso-639/hu.po, iso-639/it.po, iso-639/ja.po,
+    iso-639/ko.po, iso-639/lt.po, iso-639/ms.po, iso-639/nl.po,
+    iso-639/nn.po, iso-639/no.po, iso-639/pl.po, iso-639/pt_BR.po, 
+    iso-639/pt.po, iso-639/ro.po, iso-639/sl.po, iso-639/sv.po,
+    iso-639/ta.po, iso-639/tr.po, iso-639/uk.po, iso-639/wa.po,
+    iso-639/zh_CN.po, iso-639/zh_TW.po : corrected headers, translated to UTF-8
+  * iso-639/gl.po, iso-639/ta.po, iso-639/hr.po : More content, merged from KDE desktop.po file.
+  * iso-639/af.po, iso-639/ar.po, iso-639/br.po, iso-639/bs.po,
+    iso-639/eo.po, iso-639/eu.po, iso-639/he.po, iso-639/id.po,
+    iso-639/is.po, iso-639/lv.po, iso-639/mi.po, iso-639/mk.po
+    iso-639/mt.po, iso-639/zu.po, iso-639/ru.po, iso-639/sk.po,
+    iso-639/sr.po, iso-639/th.po, iso-639/vi.po, iso-639/vi.po
+    iso-639/ga.po, iso-639/oc.po : new files with translations from KDE.
+  * iso-3166/af.po, iso-3166/ar.po, iso-3166/br.po, iso-3166/et.po,
+    iso-3166/fi.po, iso-3166/gl.po, iso-3166/he.po, iso-3166/is.po,
+    iso-3166/ja.po, iso-3166/lt.po, iso-3166/mi.po, iso-3166/mk.po,
+    iso-3166/mt.po, iso-3166/nb.po, iso-3166/ml.po, iso-3166/oc.po
+    iso-3166/pl.po, iso-3166/pt_BR.po, iso-3166/pt.po, iso-3166/ro.po, 
+    iso-3166/ru.po, iso-3166/sl.po, iso-3166/sr.po, iso-3166/ta.po,
+    iso-3166/th.po, iso-3166/uk.po, iso-3166/vi.po, iso-3166/wa.po,
+    iso-3166/xh.po, iso-3166/zh_CN.po, iso-3166/zh_TW.po, iso-3166/zu.po
+     : new files with translations from KDE.
+  * iso-3166/bg.po, iso-3166/bs.po, iso-3166/ca.po, iso-3166/cs.po,
+    iso-3166/da.po, iso-3166/el.po, iso-3166/eo.po, iso-3166/es.po,
+    iso-3166/eu.po, iso-3166/fr.po, iso-3166/hr.po, iso-3166/hu.po,
+    iso-3166/id.po, iso-3166/it.po, iso-3166/ko.po, iso-3166/lv.po,
+    iso-3166/no.po, iso-3166/sk.po, iso-3166/sv.po, iso-3166/tr.po :  translated to UTF-8
+
+ -- Alastair McKinstry <mckinstry@computer.org>  Wed, 19 Jun 2002 23:17:05 +0200
+
+iso-codes (0.1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Alastair McKinstry <mckinstry@computer.org>  Mon, 24 Dec 2001 19:01:10 +0000
+

@@ -1,0 +1,2311 @@
+# Norwegian Nynorsk translation of the ISO 639 language names
+# Copyright (C) 2001 Free Software Foundation, Inc.
+# Kjartan Maraas  <kmaraas@gnome.org>, 2001.
+# Roy-Magne Mo <rmo@sunnmore.net>, 2001.
+# Alastair McKinstry <mckinstry@computer.org>, 2001.
+# Karl Ove Hufthammer <karl@huftis.org>, 2003. (New translation done from scratch.)
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: iso_639-0.19\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-01-06 11:49+0000\n"
+"PO-Revision-Date: 2004-01-11 23:25+0100\n"
+"Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
+"Language-Team: Norwegian Nynorsk <i18n-nn@lister.ping.uio.no>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. ## iso-639.tab
+#. ##
+#. ## Copyright (C) Alastair McKinstry   <mckinstry@computer.org>
+#. ## Released under the GNU License; see file COPYING for details
+#. ##
+#. ## Last update: 2003-02-28
+#. ##
+#. ## This file gives a list of all languages in the ISO-639
+#. ## standard, and is used to provide translations (via gettext)
+#. ##
+#. ## Status: ISO 639-2:1998 + additions and changes until 2003-02-25
+#. ## Source: http://lcweb.loc.gov/standards/iso639-2/englangn.html
+#. ##
+#. ## Columns:
+#. ##   iso-639-2 terminology code
+#. ##   iso-639-2 bibliography code
+#. ##   iso-639-1 code (XX if none exists)
+#. ##   Name (English)
+#. ##
+#. aar
+#: iso-639.h:21
+msgid "Afar"
+msgstr "Afar"
+
+#. abk
+#: iso-639.h:23
+msgid "Abkhazian"
+msgstr "Abkhasisk"
+
+#. ace
+#: iso-639.h:25
+msgid "Achinese"
+msgstr ""
+
+#. ach
+#: iso-639.h:27
+msgid "Acoli"
+msgstr ""
+
+#. ada
+#: iso-639.h:29
+msgid "Adangme"
+msgstr ""
+
+#. afa
+#: iso-639.h:31
+msgid "Afro-Asiatic (Other)"
+msgstr "Afroasiatisk (andre)"
+
+#. afh
+#: iso-639.h:33
+msgid "Afrihili"
+msgstr ""
+
+#. afr
+#: iso-639.h:35
+msgid "Afrikaans"
+msgstr "Afrikaans"
+
+#. aka
+#: iso-639.h:37
+msgid "Akan"
+msgstr "Akan"
+
+#. akk
+#: iso-639.h:39
+msgid "Akkadian"
+msgstr "Akkadisk"
+
+#. alb
+#: iso-639.h:41
+msgid "Albanian"
+msgstr "Albansk"
+
+#. ale
+#: iso-639.h:43
+msgid "Aleut"
+msgstr "Aleutisk"
+
+#. alg
+#: iso-639.h:45
+msgid "Algonquian languages"
+msgstr "Algonkin"
+
+#. amh
+#: iso-639.h:47
+msgid "Amharic"
+msgstr "Amharisk"
+
+#. ang
+#: iso-639.h:49
+msgid "English, Old (ca.450-1100)"
+msgstr ""
+
+#. apa
+#: iso-639.h:51
+#, fuzzy
+msgid "Apache languages"
+msgstr "algonkin"
+
+#. ara
+#: iso-639.h:53
+msgid "Arabic"
+msgstr "Arabisk"
+
+#. arc
+#: iso-639.h:55
+msgid "Aramaic"
+msgstr ""
+
+#. arg
+#: iso-639.h:57
+msgid "Aragonese"
+msgstr "Aragonsk"
+
+#. arm
+#: iso-639.h:59
+msgid "Armenian"
+msgstr "Armensk"
+
+#. arn
+#: iso-639.h:61
+msgid "Araucanian"
+msgstr ""
+
+#. arp
+#: iso-639.h:63
+msgid "Arapaho"
+msgstr ""
+
+#. art
+#: iso-639.h:65
+msgid "Artificial (Other)"
+msgstr "Kunstspråk (andre)"
+
+#. arw
+#: iso-639.h:67
+msgid "Arawak"
+msgstr "Arawak"
+
+#. asm
+#: iso-639.h:69
+msgid "Assamese"
+msgstr "Assami"
+
+#. ast
+#: iso-639.h:71
+msgid "Asturian; Bable"
+msgstr ""
+
+#. ath
+#: iso-639.h:73
+msgid "Athapascan language"
+msgstr ""
+
+#. aus
+#: iso-639.h:75
+msgid "Australian languages"
+msgstr "Australske språk"
+
+#. ava
+#: iso-639.h:77
+msgid "Avaric"
+msgstr "Avarisk"
+
+#. ave
+#: iso-639.h:79
+msgid "Avestan"
+msgstr "Avestisk"
+
+#. awa
+#: iso-639.h:81
+msgid "Awadhi"
+msgstr ""
+
+#. aym
+#: iso-639.h:83
+msgid "Aymara"
+msgstr "Aymara"
+
+#. aze
+#: iso-639.h:85
+msgid "Azerbaijani"
+msgstr "Aserbajdsjansk"
+
+#. bad
+#: iso-639.h:87
+msgid "Banda"
+msgstr ""
+
+#. bai
+#: iso-639.h:89
+#, fuzzy
+msgid "Bamileke languages"
+msgstr "algonkin"
+
+#. bak
+#: iso-639.h:91
+msgid "Bashkir"
+msgstr "Basjkirsk"
+
+#. bal
+#: iso-639.h:93
+msgid "Baluchi"
+msgstr "Baluchi"
+
+#. bam
+#: iso-639.h:95
+msgid "Bambara"
+msgstr ""
+
+#. ban
+#: iso-639.h:97
+msgid "Balinese"
+msgstr ""
+
+#. baq
+#: iso-639.h:99
+msgid "Basque"
+msgstr "Baskisk"
+
+#. bas
+#: iso-639.h:101
+msgid "Basa"
+msgstr ""
+
+#. bat
+#: iso-639.h:103
+msgid "Baltic (Other)"
+msgstr "Baltisk (andre)"
+
+#. bej
+#: iso-639.h:105
+msgid "Beja"
+msgstr ""
+
+#. bel
+#: iso-639.h:107
+msgid "Belarusian"
+msgstr "Kviterussisk"
+
+#. bem
+#: iso-639.h:109
+msgid "Bemba"
+msgstr "Bemba"
+
+#. ben
+#: iso-639.h:111
+msgid "Bengali"
+msgstr "Bengali"
+
+#. ber
+#: iso-639.h:113
+msgid "Berber (Other)"
+msgstr "Berbisk (andre)"
+
+#. bho
+#: iso-639.h:115
+msgid "Bhojpuri"
+msgstr ""
+
+#. bih
+#: iso-639.h:117
+msgid "Bihari"
+msgstr "Bihari"
+
+#. bik
+#: iso-639.h:119
+msgid "Bikol"
+msgstr ""
+
+#. bin
+#: iso-639.h:121
+msgid "Bini"
+msgstr ""
+
+#. bis
+#: iso-639.h:123
+msgid "Bislama"
+msgstr "Bislama"
+
+#. bla
+#: iso-639.h:125
+msgid "Siksika"
+msgstr ""
+
+#. bnt
+#: iso-639.h:127
+msgid "Bantu (Other)"
+msgstr "Bantu (andre)"
+
+#. bos
+#: iso-639.h:129
+msgid "Bosnian"
+msgstr "Bosnisk"
+
+#. bra
+#: iso-639.h:131
+msgid "Braj"
+msgstr ""
+
+#. bre
+#: iso-639.h:133
+msgid "Breton"
+msgstr "Bretonsk"
+
+#. btk
+#: iso-639.h:135
+msgid "Batak (Indonesia)"
+msgstr ""
+
+#. bua
+#: iso-639.h:137
+msgid "Buriat"
+msgstr ""
+
+#. bug
+#: iso-639.h:139
+msgid "Buginese"
+msgstr ""
+
+#. bul
+#: iso-639.h:141
+msgid "Bulgarian"
+msgstr "Bulgarsk"
+
+#. bur
+#: iso-639.h:143
+msgid "Burmese"
+msgstr ""
+
+#. cad
+#: iso-639.h:145
+msgid "Caddo"
+msgstr ""
+
+#. cai
+#: iso-639.h:147
+msgid "Central American Indian (Other)"
+msgstr ""
+
+#. car
+#: iso-639.h:149
+msgid "Carib"
+msgstr ""
+
+#. cat
+#: iso-639.h:151
+msgid "Catalan"
+msgstr "Katalansk"
+
+#. cau
+#: iso-639.h:153
+#, fuzzy
+msgid "Caucasian (Other)"
+msgstr "kunstspråk (andre)"
+
+#. ceb
+#: iso-639.h:155
+msgid "Cebuano"
+msgstr ""
+
+#. cel
+#: iso-639.h:157
+msgid "Celtic (Other)"
+msgstr "Keltisk (andre)"
+
+#. cha
+#: iso-639.h:159
+msgid "Chamorro"
+msgstr ""
+
+#. chb
+#: iso-639.h:161
+msgid "Chibcha"
+msgstr ""
+
+#. che
+#: iso-639.h:163
+msgid "Chechen"
+msgstr "Tsjetsjensk"
+
+#. chg
+#: iso-639.h:165
+msgid "Chagatai"
+msgstr ""
+
+#. chi
+#: iso-639.h:167
+msgid "Chinese"
+msgstr "Kinesisk"
+
+#. chk
+#: iso-639.h:169
+msgid "Chukese"
+msgstr ""
+
+#. chm
+#: iso-639.h:171
+msgid "Mari"
+msgstr ""
+
+#. chn
+#: iso-639.h:173
+msgid "Chinook jargon"
+msgstr ""
+
+#. cho
+#: iso-639.h:175
+msgid "Choctaw"
+msgstr ""
+
+#. chp
+#: iso-639.h:177
+msgid "Chipewyan"
+msgstr ""
+
+#. chr
+#: iso-639.h:179
+msgid "Cherokee"
+msgstr ""
+
+#. chu
+#: iso-639.h:181
+msgid "Church Slavic"
+msgstr "Kyrkjeslavisk"
+
+#. chv
+#: iso-639.h:183
+msgid "Chuvash"
+msgstr "Tsjuvasjisk"
+
+#. chy
+#: iso-639.h:185
+msgid "Cheyenne"
+msgstr ""
+
+#. cmc
+#: iso-639.h:187
+#, fuzzy
+msgid "Chamic languages"
+msgstr "algonkin"
+
+#. cop
+#: iso-639.h:189
+msgid "Coptic"
+msgstr ""
+
+#. cor
+#: iso-639.h:191
+msgid "Cornish"
+msgstr "Kornisk"
+
+#. cos
+#: iso-639.h:193
+msgid "Corsican"
+msgstr ""
+
+#. cpe
+#: iso-639.h:195
+msgid "English-based (Other)"
+msgstr "Engelskbasert (andre)"
+
+#. cpf
+#: iso-639.h:197
+msgid "French-based (Other)"
+msgstr "Franskbasert (andre)"
+
+#. cpp
+#: iso-639.h:199 iso-639.h:207
+#, fuzzy
+msgid "Portuguese-based (Other)"
+msgstr "finsk-ugrisk"
+
+#. cre
+#: iso-639.h:201
+msgid "Cree"
+msgstr ""
+
+#. crp
+#: iso-639.h:203
+msgid "Creoles and pidgins (Other)"
+msgstr "Kreolsk (andre)"
+
+#. cus
+#: iso-639.h:205
+#, fuzzy
+msgid "Cushitic (Other)"
+msgstr "kunstspråk (andre)"
+
+#. cze
+#: iso-639.h:209
+msgid "Czech"
+msgstr "Tsjekkisk"
+
+#. dak
+#: iso-639.h:211
+msgid "Dakota"
+msgstr "Dakota"
+
+#. dan
+#: iso-639.h:213
+msgid "Danish"
+msgstr "Dansk"
+
+#. del
+#: iso-639.h:215
+msgid "Delaware"
+msgstr ""
+
+#. den
+#: iso-639.h:217
+msgid "Slave (Athapascan)"
+msgstr ""
+
+#. dgr
+#: iso-639.h:219
+msgid "Dogrib"
+msgstr ""
+
+#. din
+#: iso-639.h:221
+msgid "Dinka"
+msgstr ""
+
+#. div
+#: iso-639.h:223
+msgid "Divehi"
+msgstr ""
+
+#. doi
+#: iso-639.h:225
+msgid "Dogri"
+msgstr ""
+
+#. dra
+#: iso-639.h:227 iso-639.h:233
+msgid "Dravidian (Other)"
+msgstr "Dravidisk (andre)"
+
+#. dua
+#: iso-639.h:229
+msgid "Duala"
+msgstr ""
+
+#. dum
+#: iso-639.h:231
+msgid "Dutch, Middle (ca. 1050-1350)"
+msgstr ""
+
+#. dyu
+#: iso-639.h:235
+msgid "Dyula"
+msgstr ""
+
+#. dzo
+#: iso-639.h:237
+msgid "Dzongkha"
+msgstr "Dzongkha"
+
+#. efi
+#: iso-639.h:239
+msgid "Efik"
+msgstr ""
+
+#. egy
+#: iso-639.h:241
+msgid "Egyptian (Ancient)"
+msgstr "Gammalegyptisk"
+
+#. eka
+#: iso-639.h:243
+msgid "Ekajuk"
+msgstr ""
+
+#. elx
+#: iso-639.h:245
+msgid "Elamite"
+msgstr ""
+
+#. eng
+#: iso-639.h:247
+msgid "English"
+msgstr "Engelsk"
+
+#. enm
+#: iso-639.h:249
+msgid "English, Middle (1100-1500)"
+msgstr ""
+
+#. epo
+#: iso-639.h:251
+msgid "Esperanto"
+msgstr "Esperanto"
+
+#. est
+#: iso-639.h:253
+msgid "Estonian"
+msgstr "Estisk"
+
+#. ewe
+#: iso-639.h:255
+msgid "Ewe"
+msgstr "Ewe"
+
+#. ewo
+#: iso-639.h:257
+msgid "Ewondo"
+msgstr ""
+
+#. fan
+#: iso-639.h:259
+msgid "Fang"
+msgstr ""
+
+#. fao
+#: iso-639.h:261
+msgid "Faroese"
+msgstr "Færøysk"
+
+#. fat
+#: iso-639.h:263
+msgid "Fanti"
+msgstr "Fanti"
+
+#. fij
+#: iso-639.h:265
+msgid "Fijian"
+msgstr "Fijiansk"
+
+#. fin
+#: iso-639.h:267
+msgid "Finnish"
+msgstr "Finsk"
+
+#. fiu
+#: iso-639.h:269
+msgid "Finno-Ugrian (Other)"
+msgstr "Finsk-ugrisk (andre)"
+
+#. fon
+#: iso-639.h:271
+msgid "Fon"
+msgstr ""
+
+#. fre
+#: iso-639.h:273
+msgid "French"
+msgstr "Fransk"
+
+#. frm
+#: iso-639.h:275
+msgid "French, Middle (ca.1400-1600)"
+msgstr ""
+
+#. fro
+#: iso-639.h:277
+msgid "French, Old (842-ca.1400)"
+msgstr ""
+
+#. fry
+#: iso-639.h:279
+msgid "Frisian"
+msgstr "Frisisk"
+
+#. ful
+#: iso-639.h:281
+msgid "Fulah"
+msgstr "Fulfulde"
+
+#. fur
+#: iso-639.h:283
+msgid "Friulian"
+msgstr ""
+
+#. gaa
+#: iso-639.h:285
+msgid "Ga"
+msgstr "Ga"
+
+#. gay
+#: iso-639.h:287
+msgid "Gayo"
+msgstr ""
+
+#. gba
+#: iso-639.h:289
+msgid "Gbaya"
+msgstr ""
+
+#. gem
+#: iso-639.h:291
+msgid "Germanic (Other)"
+msgstr "Germansk (andre)"
+
+#. geo
+#: iso-639.h:293
+msgid "Georgian"
+msgstr "Georgisk"
+
+#. ger
+#: iso-639.h:295
+msgid "German"
+msgstr "Tysk"
+
+#. gez
+#: iso-639.h:297
+msgid "Geez"
+msgstr ""
+
+#. gil
+#: iso-639.h:299
+msgid "Gilbertese"
+msgstr "Kiribatisk"
+
+#. gla
+#: iso-639.h:301
+msgid "Gaelic; Scottish"
+msgstr "Gælisk; skotsk-gælisk"
+
+#. gle
+#: iso-639.h:303
+msgid "Irish"
+msgstr "Irsk"
+
+#. glg
+#: iso-639.h:305
+msgid "Gallegan"
+msgstr "Galisisk"
+
+#. glv
+#: iso-639.h:307
+msgid "Manx"
+msgstr "Manx"
+
+#. gmh
+#: iso-639.h:309
+msgid "German, Middle High (ca.1050-1500)"
+msgstr ""
+
+#. goh
+#: iso-639.h:311
+msgid "German, Old High (ca.750-1050)"
+msgstr ""
+
+#. gon
+#: iso-639.h:313
+msgid "Gondi"
+msgstr "Gondi"
+
+#. gor
+#: iso-639.h:315
+msgid "Gorontalo"
+msgstr ""
+
+#. got
+#: iso-639.h:317
+msgid "Gothic"
+msgstr "Gotisk"
+
+#. grb
+#: iso-639.h:319
+msgid "Grebo"
+msgstr ""
+
+#. grc
+#: iso-639.h:321
+msgid "Greek, Ancient (to 1453)"
+msgstr "Gammalgresk (til 1453)"
+
+#. gre
+#: iso-639.h:323
+msgid "Greek, Modern (1453-)"
+msgstr "Nygresk (etter 1453)"
+
+#. grn
+#: iso-639.h:325
+msgid "Guarani"
+msgstr "Guarani"
+
+#. guj
+#: iso-639.h:327
+msgid "Gujarati"
+msgstr "Gujarati"
+
+#. gwi
+#: iso-639.h:329
+msgid "Gwichin"
+msgstr ""
+
+#. hai
+#: iso-639.h:331
+msgid "Haida"
+msgstr ""
+
+#. hau
+#: iso-639.h:333
+msgid "Hausa"
+msgstr "Hausa"
+
+#. haw
+#: iso-639.h:335
+msgid "Hawaiian"
+msgstr ""
+
+#. heb
+#: iso-639.h:337
+msgid "Hebrew"
+msgstr "Hebraisk"
+
+#. her
+#: iso-639.h:339
+msgid "Herero"
+msgstr "Herero"
+
+#. hil
+#: iso-639.h:341
+msgid "Hiligaynon"
+msgstr ""
+
+#. him
+#: iso-639.h:343
+msgid "Himachali"
+msgstr ""
+
+#. hin
+#: iso-639.h:345
+msgid "Hindi"
+msgstr "Hindi"
+
+#. hit
+#: iso-639.h:347
+msgid "Hittite"
+msgstr "Hettittisk"
+
+#. hmn
+#: iso-639.h:349
+msgid "Hmong"
+msgstr ""
+
+#. hmo
+#: iso-639.h:351
+msgid "Hiri"
+msgstr ""
+
+#. hun
+#: iso-639.h:353
+msgid "Hungarian"
+msgstr "Ungarsk"
+
+#. hup
+#: iso-639.h:355
+msgid "Hupa"
+msgstr ""
+
+#. iba
+#: iso-639.h:357
+msgid "Iban"
+msgstr ""
+
+#. ibo
+#: iso-639.h:359
+msgid "Igbo"
+msgstr "Ibo"
+
+#. ice
+#: iso-639.h:361
+msgid "Icelandic"
+msgstr "Islandsk"
+
+#. ido
+#: iso-639.h:363
+msgid "Ido"
+msgstr "Ido"
+
+#. iii
+#: iso-639.h:365
+msgid "Sichuan Yi"
+msgstr ""
+
+#. ijo
+#: iso-639.h:367
+msgid "Ijo"
+msgstr ""
+
+#. iku
+#: iso-639.h:369
+msgid "Inuktitut"
+msgstr "Inuittisk"
+
+#. ile
+#: iso-639.h:371
+msgid "Interlingue"
+msgstr "Interlingue"
+
+#. ilo
+#: iso-639.h:373
+msgid "Iloko"
+msgstr ""
+
+#. ina
+#: iso-639.h:375
+msgid "Interlingua"
+msgstr ""
+
+#. inc
+#: iso-639.h:377
+#, fuzzy
+msgid "Indic (Other)"
+msgstr "kunstspråk (andre)"
+
+#. ind
+#: iso-639.h:379
+msgid "Indonesian"
+msgstr "Indonesisk"
+
+#. ine
+#: iso-639.h:381
+msgid "Indo-European (Other)"
+msgstr "Indoeuropeisk (andre)"
+
+#. inh
+#: iso-639.h:383
+msgid "Ingush"
+msgstr ""
+
+#. ipk
+#: iso-639.h:385
+msgid "Inupiaq"
+msgstr "Inupiak"
+
+#. ira
+#: iso-639.h:387
+#, fuzzy
+msgid "Iranian (Other)"
+msgstr "kunstspråk (andre)"
+
+#. iro
+#: iso-639.h:389
+#, fuzzy
+msgid "Iroquoian languages"
+msgstr "algonkin"
+
+#. ita
+#: iso-639.h:391
+msgid "Italian"
+msgstr "Italiensk"
+
+#. jav
+#: iso-639.h:393
+msgid "Javanese"
+msgstr "Javanesisk"
+
+#. jpn
+#: iso-639.h:395
+msgid "Japanese"
+msgstr "Japansk"
+
+#. jpr
+#: iso-639.h:397
+msgid "Judeo-Persian"
+msgstr ""
+
+#. jrb
+#: iso-639.h:399
+msgid "Judeo-Arabic"
+msgstr ""
+
+#. kaa
+#: iso-639.h:401
+msgid "Kara-Kalpak"
+msgstr ""
+
+#. kab
+#: iso-639.h:403
+msgid "Kabyle"
+msgstr ""
+
+#. kac
+#: iso-639.h:405
+msgid "Kachin"
+msgstr ""
+
+#. kal
+#: iso-639.h:407
+msgid "Greenlandic (Kalaallisut)"
+msgstr ""
+
+#. kam
+#: iso-639.h:409
+msgid "Kamba"
+msgstr ""
+
+#. kan
+#: iso-639.h:411
+msgid "Kannada"
+msgstr "Kannada"
+
+#. kar
+#: iso-639.h:413
+msgid "Karen"
+msgstr ""
+
+#. kas
+#: iso-639.h:415
+msgid "Kashmiri"
+msgstr "Kasjmiri"
+
+#. kau
+#: iso-639.h:417
+msgid "Kanuri"
+msgstr ""
+
+#. kaw
+#: iso-639.h:419
+msgid "Kawi"
+msgstr ""
+
+#. kaz
+#: iso-639.h:421
+msgid "Kazakh"
+msgstr "Kasakhisk"
+
+#. kbd
+#: iso-639.h:423
+msgid "Kabardian"
+msgstr ""
+
+#. kha
+#: iso-639.h:425
+msgid "Khazi"
+msgstr ""
+
+#. khi
+#: iso-639.h:427
+#, fuzzy
+msgid "Khoisan (Other)"
+msgstr "kunstspråk (andre)"
+
+#. khm
+#: iso-639.h:429
+msgid "Khmer"
+msgstr "Khmer"
+
+#. kho
+#: iso-639.h:431
+msgid "Khotanese"
+msgstr ""
+
+#. kik
+#: iso-639.h:433
+msgid "Kikuyu"
+msgstr "Kikuyu"
+
+#. kin
+#: iso-639.h:435
+msgid "Kinyarwanda"
+msgstr ""
+
+#. kir
+#: iso-639.h:437
+msgid "Kirghiz"
+msgstr "Kirgisisk"
+
+#. kmb
+#: iso-639.h:439
+msgid "Kimbundu"
+msgstr ""
+
+#. kok
+#: iso-639.h:441
+msgid "Konkani"
+msgstr "Konkani"
+
+#. kom
+#: iso-639.h:443
+msgid "Komi"
+msgstr "Komi"
+
+#. kon
+#: iso-639.h:445
+msgid "Kongo"
+msgstr ""
+
+#. kor
+#: iso-639.h:447
+msgid "Korean"
+msgstr "Koreansk"
+
+#. kos
+#: iso-639.h:449
+msgid "Kosraean"
+msgstr ""
+
+#. kpe
+#: iso-639.h:451
+msgid "Kpelle"
+msgstr ""
+
+#. kro
+#: iso-639.h:453
+msgid "Kru"
+msgstr ""
+
+#. kru
+#: iso-639.h:455
+msgid "Kurukh"
+msgstr ""
+
+#. kua
+#: iso-639.h:457
+msgid "Kuanyama"
+msgstr ""
+
+#. kum
+#: iso-639.h:459
+msgid "Kumyk"
+msgstr ""
+
+#. kur
+#: iso-639.h:461
+msgid "Kurdish"
+msgstr "Kurdisk"
+
+#. kut
+#: iso-639.h:463
+msgid "Kutenai"
+msgstr ""
+
+#. lad
+#: iso-639.h:465
+msgid "Ladino"
+msgstr ""
+
+#. lah
+#: iso-639.h:467
+msgid "Lahnda"
+msgstr ""
+
+#. lam
+#: iso-639.h:469
+msgid "Lamba"
+msgstr ""
+
+#. lao
+#: iso-639.h:471
+msgid "Lao"
+msgstr ""
+
+#. lat
+#: iso-639.h:473
+msgid "Latin"
+msgstr "Latin"
+
+#. lav
+#: iso-639.h:475
+msgid "Latvian"
+msgstr "Latvisk"
+
+#. lez
+#: iso-639.h:477
+msgid "Lezghian"
+msgstr ""
+
+#. lim
+#: iso-639.h:479
+msgid "Limburgian"
+msgstr ""
+
+#. lin
+#: iso-639.h:481
+msgid "Lingala"
+msgstr ""
+
+#. lit
+#: iso-639.h:483
+msgid "Lithuanian"
+msgstr "Litauisk"
+
+#. lol
+#: iso-639.h:485
+msgid "Mongo"
+msgstr ""
+
+#. loz
+#: iso-639.h:487
+msgid "Lozi"
+msgstr ""
+
+#. ltz
+#: iso-639.h:489
+msgid "Luxembourgish"
+msgstr "Luxembourgsk"
+
+#. lua
+#: iso-639.h:491
+msgid "Luba-Lulua"
+msgstr ""
+
+#. lub
+#: iso-639.h:493
+msgid "Luba-Katanga"
+msgstr ""
+
+#. lug
+#: iso-639.h:495
+msgid "Ganda"
+msgstr ""
+
+#. lui
+#: iso-639.h:497
+msgid "Luiseno"
+msgstr ""
+
+#. lun
+#: iso-639.h:499
+msgid "Lunda"
+msgstr ""
+
+#. luo
+#: iso-639.h:501
+msgid "Luo (Kenya and Tanzania)"
+msgstr "Luo (Kenya og Tanzania)"
+
+#. lus
+#: iso-639.h:503
+msgid "Lushai"
+msgstr ""
+
+#. mac
+#: iso-639.h:505
+msgid "Macedonian"
+msgstr "Makedonsk"
+
+#. mad
+#: iso-639.h:507
+msgid "Madurese"
+msgstr ""
+
+#. mag
+#: iso-639.h:509
+msgid "Magahi"
+msgstr ""
+
+#. mah
+#: iso-639.h:511
+msgid "Marshallese"
+msgstr "Marshallesisk"
+
+#. mai
+#: iso-639.h:513
+msgid "Maithili"
+msgstr ""
+
+#. mak
+#: iso-639.h:515
+msgid "Makasar"
+msgstr ""
+
+#. mal
+#: iso-639.h:517
+msgid "Malayalam"
+msgstr "Malayalam"
+
+#. man
+#: iso-639.h:519
+msgid "Mandingo"
+msgstr ""
+
+#. mao
+#: iso-639.h:521
+msgid "Maori"
+msgstr "Maori"
+
+#. map
+#: iso-639.h:523
+#, fuzzy
+msgid "Austronesian (Other)"
+msgstr "kunstspråk (andre)"
+
+#. mar
+#: iso-639.h:525
+msgid "Marathi"
+msgstr "Marathi"
+
+#. mas
+#: iso-639.h:527
+msgid "Masai"
+msgstr "Masai"
+
+#. may
+#: iso-639.h:529
+msgid "Malay"
+msgstr "Malayisk"
+
+#. mdr
+#: iso-639.h:531
+msgid "Mandar"
+msgstr ""
+
+#. men
+#: iso-639.h:533
+msgid "Mende"
+msgstr ""
+
+#. mga
+#: iso-639.h:535
+msgid "Irish, Middle (900-1200)"
+msgstr ""
+
+#. mic
+#: iso-639.h:537
+msgid "Micmac"
+msgstr ""
+
+#. min
+#: iso-639.h:539
+msgid "Minangkabau"
+msgstr ""
+
+#. mis
+#: iso-639.h:541
+msgid "Miscellaneous languages"
+msgstr "Ymse språk"
+
+#. mkh
+#: iso-639.h:543
+#, fuzzy
+msgid "Mon-Khmer (Other)"
+msgstr "finsk-ugrisk"
+
+#. mlg
+#: iso-639.h:545
+msgid "Malagasy"
+msgstr "Gassisk"
+
+#. mlt
+#: iso-639.h:547
+msgid "Maltese"
+msgstr "Maltesisk"
+
+#. mnc
+#: iso-639.h:549
+msgid "Manchu"
+msgstr "Mandsju"
+
+#. mno
+#: iso-639.h:551
+#, fuzzy
+msgid "Manobo languages"
+msgstr "algonkin"
+
+#. moh
+#: iso-639.h:553
+msgid "Mohawk"
+msgstr ""
+
+#. mol
+#: iso-639.h:555
+msgid "Moldavian"
+msgstr "Moldovsk"
+
+#. mon
+#: iso-639.h:557
+msgid "Mongolian"
+msgstr "Mmongolsk"
+
+#. mos
+#: iso-639.h:559
+msgid "Mossi"
+msgstr ""
+
+#. mul
+#: iso-639.h:561
+msgid "Multiple languages"
+msgstr "Fleire språk"
+
+#. mun
+#: iso-639.h:563
+msgid "Munda languages"
+msgstr "Munda"
+
+#. mus
+#: iso-639.h:565
+msgid "Creek"
+msgstr ""
+
+#. mwr
+#: iso-639.h:567
+msgid "Marwari"
+msgstr ""
+
+#. myn
+#: iso-639.h:569
+#, fuzzy
+msgid "Mayan languages"
+msgstr "algonkin"
+
+#. nah
+#: iso-639.h:571
+msgid "Nahuatl"
+msgstr ""
+
+#. nai
+#: iso-639.h:573
+msgid "North American Indian (Other)"
+msgstr ""
+
+#. nap
+#: iso-639.h:575
+msgid "Neapolitan"
+msgstr "Napolitansk"
+
+#. nau
+#: iso-639.h:577
+msgid "Nauru"
+msgstr "Naurisk"
+
+#. nav
+#: iso-639.h:579
+msgid "Navaho"
+msgstr "Navaho"
+
+#. nbl
+#: iso-639.h:581
+#, fuzzy
+msgid "Ndebele, South"
+msgstr "Sør-Afrika"
+
+#. nbl
+#: iso-639.h:583
+msgid "Soth Ndebele"
+msgstr ""
+
+#. nde
+#: iso-639.h:585
+msgid "Ndebele, North"
+msgstr ""
+
+#. ndo
+#: iso-639.h:587
+msgid "Ndonga"
+msgstr ""
+
+#. nds
+#: iso-639.h:589
+msgid "German, Low"
+msgstr ""
+
+#. nep
+#: iso-639.h:591
+msgid "Nepali"
+msgstr ""
+
+#. new
+#: iso-639.h:593
+msgid "Newari"
+msgstr ""
+
+#. nia
+#: iso-639.h:595
+msgid "Nias"
+msgstr ""
+
+#. nic
+#: iso-639.h:597
+#, fuzzy
+msgid "Niger-Kordofanian (Other)"
+msgstr "finsk-ugrisk"
+
+#. niu
+#: iso-639.h:599
+msgid "Niuean"
+msgstr ""
+
+#. nno
+#: iso-639.h:601
+msgid "Norwegian Nyorsk"
+msgstr "Norsk (nynorsk)"
+
+#. nob
+#: iso-639.h:603
+msgid "Bokmal, Norwegian"
+msgstr "Norsk (bokmål)"
+
+#. nob
+#: iso-639.h:605
+msgid "Norwegian Bokmal"
+msgstr "Norsk (bokmål)"
+
+#. non
+#: iso-639.h:607
+msgid "Norse, Old"
+msgstr "Norrønt"
+
+#. nor
+#: iso-639.h:609
+msgid "Norwegian"
+msgstr "Norsk"
+
+#. nso
+#: iso-639.h:611
+#, fuzzy
+msgid "Sotho, Northern"
+msgstr "nordsamisk"
+
+#. nub
+#: iso-639.h:613
+#, fuzzy
+msgid "Nubian languages"
+msgstr "algonkin"
+
+#. nya
+#: iso-639.h:615
+msgid "Chewa; Chichewa; Nyanja"
+msgstr ""
+
+#. nym
+#: iso-639.h:617
+msgid "Nyankole"
+msgstr ""
+
+#. nyo
+#: iso-639.h:619
+msgid "Nyoro"
+msgstr ""
+
+#. nzi
+#: iso-639.h:621
+msgid "Nzima"
+msgstr ""
+
+#. oci
+#: iso-639.h:623
+msgid "Occitan (post 1500)"
+msgstr "Oksitansk (etter 1500)"
+
+#. oji
+#: iso-639.h:625
+msgid "Ojibwa"
+msgstr ""
+
+#. ori
+#: iso-639.h:627
+msgid "Oriya"
+msgstr "Oriya"
+
+#. orm
+#: iso-639.h:629
+msgid "Oromo"
+msgstr "Oromo"
+
+#. osa
+#: iso-639.h:631
+msgid "Osage"
+msgstr ""
+
+#. oss
+#: iso-639.h:633
+msgid "Ossetian"
+msgstr "Ossetisk"
+
+#. ota
+#: iso-639.h:635
+msgid "Turkish, Ottoman (1500-1928)"
+msgstr ""
+
+#. oto
+#: iso-639.h:637
+#, fuzzy
+msgid "Otomian languages"
+msgstr "algonkin"
+
+#. paa
+#: iso-639.h:639
+#, fuzzy
+msgid "Papuan (Other)"
+msgstr "kunstspråk (andre)"
+
+#. pag
+#: iso-639.h:641
+msgid "Pangasinan"
+msgstr ""
+
+#. pal
+#: iso-639.h:643
+msgid "Pahlavi"
+msgstr ""
+
+#. pam
+#: iso-639.h:645
+msgid "Pampanga"
+msgstr ""
+
+#. pan
+#: iso-639.h:647
+msgid "Panjabi"
+msgstr "Panjabi"
+
+#. pap
+#: iso-639.h:649
+msgid "Papiamento"
+msgstr "Papiamento"
+
+#. pau
+#: iso-639.h:651
+msgid "Palauan"
+msgstr ""
+
+#. peo
+#: iso-639.h:653
+msgid "Persian, Old (ca.600-400 B.C.)"
+msgstr ""
+
+#. per
+#: iso-639.h:655
+msgid "Persian"
+msgstr "Persisk"
+
+#. phi
+#: iso-639.h:657
+#, fuzzy
+msgid "Philippine (Other)"
+msgstr "kunstspråk (andre)"
+
+#. phn
+#: iso-639.h:659
+msgid "Phoenician"
+msgstr ""
+
+#. pli
+#: iso-639.h:661
+msgid "Pali"
+msgstr "Pali"
+
+#. pol
+#: iso-639.h:663
+msgid "Polish"
+msgstr "Polsk"
+
+#. por
+#: iso-639.h:665
+msgid "Portuguese"
+msgstr "Portugisisk"
+
+#. pon
+#: iso-639.h:667
+msgid "Pohnpeian"
+msgstr "Ponapisk"
+
+#. pra
+#: iso-639.h:669
+msgid "Prakrit languages"
+msgstr "Prakrit"
+
+#. pro
+#: iso-639.h:671
+msgid "Provencal, Old (to 1500)"
+msgstr ""
+
+#. pus
+#: iso-639.h:673
+msgid "Pushto"
+msgstr "Pashto"
+
+#. que
+#: iso-639.h:675
+msgid "Quechua"
+msgstr "Puechua"
+
+#. raj
+#: iso-639.h:677
+msgid "Rajasthani"
+msgstr "Rajasthani"
+
+#. rap
+#: iso-639.h:679
+msgid "Rapanui"
+msgstr ""
+
+#. rar
+#: iso-639.h:681
+msgid "Rarotongan"
+msgstr ""
+
+#. roa
+#: iso-639.h:683
+msgid "Romance (Other)"
+msgstr "Romansk (andre)"
+
+#. roh
+#: iso-639.h:685
+msgid "Raeto-Romance"
+msgstr "Retoromansk"
+
+#. rom
+#: iso-639.h:687
+msgid "Romany"
+msgstr "Romani"
+
+#. rum
+#: iso-639.h:689
+#, fuzzy
+msgid "ROmanian"
+msgstr "rumensk"
+
+#. run
+#: iso-639.h:691
+msgid "Rundi"
+msgstr "Rundi"
+
+#. rus
+#: iso-639.h:693
+msgid "Russian"
+msgstr "Russisk"
+
+#. sad
+#: iso-639.h:695
+msgid "Sandawe"
+msgstr ""
+
+#. sag
+#: iso-639.h:697
+msgid "Sango"
+msgstr "Sango"
+
+#. sah
+#: iso-639.h:699
+msgid "Yakut"
+msgstr ""
+
+#. sai
+#: iso-639.h:701
+msgid "South American Indian (Other)"
+msgstr ""
+
+#. sal
+#: iso-639.h:703
+#, fuzzy
+msgid "Salishan languages"
+msgstr "algonkin"
+
+#. sam
+#: iso-639.h:705
+msgid "Samaritan Aramaic"
+msgstr ""
+
+#. san
+#: iso-639.h:707
+msgid "Sanskrit"
+msgstr "Sanskrit"
+
+#. sas
+#: iso-639.h:709
+msgid "Sasak"
+msgstr ""
+
+#. sat
+#: iso-639.h:711
+msgid "Santali"
+msgstr "Santali"
+
+#. scc
+#: iso-639.h:713
+msgid "Serbian"
+msgstr "Serbisk"
+
+#. sco
+#: iso-639.h:715
+msgid "Scots"
+msgstr ""
+
+#. scr
+#: iso-639.h:717
+msgid "Croatian"
+msgstr "Kroatisk"
+
+#. sel
+#: iso-639.h:719
+msgid "Selkup"
+msgstr "Selkupisk"
+
+#. sem
+#: iso-639.h:721
+msgid "Semitic (Other)"
+msgstr "Semittisk (andre)"
+
+#. sga
+#: iso-639.h:723
+msgid "Irish, Old (to 900)"
+msgstr ""
+
+#. sgn
+#: iso-639.h:725
+msgid "Sign languages"
+msgstr "Teiknspråk"
+
+#. shn
+#: iso-639.h:727
+msgid "Shan"
+msgstr ""
+
+#. sid
+#: iso-639.h:729
+msgid "Sidamo"
+msgstr ""
+
+#. sin
+#: iso-639.h:731
+msgid "Sinhalese"
+msgstr "Singalesisk"
+
+#. sio
+#: iso-639.h:733
+msgid "Siouan languages"
+msgstr "Sioux"
+
+#. sit
+#: iso-639.h:735
+msgid "Sino-Tibetan (Other)"
+msgstr "Sino-tibetansk (andre)"
+
+#. sla
+#: iso-639.h:737
+msgid "Slavic (Other)"
+msgstr "Slavisk (andre)"
+
+#. slo
+#: iso-639.h:739
+msgid "Slovak"
+msgstr "Slovakisk"
+
+#. slv
+#: iso-639.h:741
+msgid "Slovenian"
+msgstr "Slovensk"
+
+#. sma
+#: iso-639.h:743
+msgid "Southern Sami"
+msgstr "Sørsamisk"
+
+#. sme
+#: iso-639.h:745
+msgid "Northern Sami"
+msgstr "Nordsamisk"
+
+#. smi
+#: iso-639.h:747
+msgid "Sami languages (Other)"
+msgstr "Samisk (andre)"
+
+#. smj
+#: iso-639.h:749
+msgid "Lule Sami"
+msgstr "Lulesamisk"
+
+#. smn
+#: iso-639.h:751
+msgid "Inari Sami"
+msgstr "Enaresamisk"
+
+#. smo
+#: iso-639.h:753
+msgid "Samoan"
+msgstr "Samoansk"
+
+#. sms
+#: iso-639.h:755
+msgid "Skolt Sami"
+msgstr "Skoltesamisk"
+
+#. sna
+#: iso-639.h:757
+msgid "Shona"
+msgstr "Shona"
+
+#. snd
+#: iso-639.h:759
+msgid "Sindhi"
+msgstr ""
+
+#. snk
+#: iso-639.h:761
+msgid "Soninke"
+msgstr ""
+
+#. sog
+#: iso-639.h:763
+msgid "Sogdian"
+msgstr ""
+
+#. som
+#: iso-639.h:765
+msgid "Somali"
+msgstr "Somali"
+
+#. son
+#: iso-639.h:767
+msgid "Songhai"
+msgstr ""
+
+#. sot
+#: iso-639.h:769
+#, fuzzy
+msgid "Sotho, Southern"
+msgstr "sørsamisk"
+
+#. spa
+#: iso-639.h:771
+msgid "Spanish (Castilian)"
+msgstr ""
+
+#. srd
+#: iso-639.h:773
+msgid "Sardinian"
+msgstr "Sardisk"
+
+#. srr
+#: iso-639.h:775
+msgid "Serer"
+msgstr ""
+
+#. ssa
+#: iso-639.h:777
+#, fuzzy
+msgid "Nilo-Saharan (Other)"
+msgstr "finsk-ugrisk"
+
+#. ssw
+#: iso-639.h:779
+msgid "Swati"
+msgstr ""
+
+#. suk
+#: iso-639.h:781
+msgid "Sukuma"
+msgstr ""
+
+#. sun
+#: iso-639.h:783
+msgid "Sundanese"
+msgstr "Sundanesisk"
+
+#. sus
+#: iso-639.h:785
+msgid "Susu"
+msgstr ""
+
+#. sux
+#: iso-639.h:787
+msgid "Sumerian"
+msgstr "Sumerisk"
+
+#. swa
+#: iso-639.h:789
+msgid "Swahili"
+msgstr "Swahili"
+
+#. swe
+#: iso-639.h:791
+msgid "Swedish"
+msgstr "Svensk"
+
+#. syr
+#: iso-639.h:793
+msgid "Syriac"
+msgstr ""
+
+#. tah
+#: iso-639.h:795
+msgid "Tahitian"
+msgstr "Tahitisk"
+
+#. tai
+#: iso-639.h:797
+msgid "Tai (Other)"
+msgstr "Tai (andre)"
+
+#. tam
+#: iso-639.h:799
+msgid "Tamil"
+msgstr "Tamil"
+
+#. tao
+#: iso-639.h:801
+msgid "Tsonga"
+msgstr "Tsonga"
+
+#. tat
+#: iso-639.h:803
+msgid "Tatar"
+msgstr "Tatarisk"
+
+#. tel
+#: iso-639.h:805
+msgid "Telugu"
+msgstr "Telugu"
+
+#. tem
+#: iso-639.h:807
+msgid "Timne"
+msgstr ""
+
+#. ter
+#: iso-639.h:809
+msgid "Tereno"
+msgstr ""
+
+#. tet
+#: iso-639.h:811
+msgid "Tetum"
+msgstr ""
+
+#. tgk
+#: iso-639.h:813
+msgid "Tajik"
+msgstr "Tadsjikisk"
+
+#. tgl
+#: iso-639.h:815
+msgid "Tagalog"
+msgstr "Filipino"
+
+#. tha
+#: iso-639.h:817
+msgid "Thai"
+msgstr "Thai"
+
+#. tib
+#: iso-639.h:819
+msgid "Tibetan"
+msgstr "Tibetansk"
+
+#. tig
+#: iso-639.h:821
+msgid "Tigre"
+msgstr "Tigré"
+
+#. tir
+#: iso-639.h:823
+msgid "Tigrinya"
+msgstr "Tigrinja"
+
+#. tiv
+#: iso-639.h:825
+msgid "Tiv"
+msgstr ""
+
+#. tkl
+#: iso-639.h:827
+#, fuzzy
+msgid "Tokelau"
+msgstr "Tokelau"
+
+#. tli
+#: iso-639.h:829
+msgid "Tlinglit"
+msgstr ""
+
+#. tmh
+#: iso-639.h:831
+msgid "Tamashek"
+msgstr ""
+
+#. tog
+#: iso-639.h:833
+msgid "Tonga (Nyasa)"
+msgstr "Tonga"
+
+#. ton
+#: iso-639.h:835
+msgid "Tonga (Tonga Islands)"
+msgstr "Tongansk"
+
+#. tpi
+#: iso-639.h:837
+msgid "Tok Pisin"
+msgstr ""
+
+#. tsi
+#: iso-639.h:839
+msgid "Tsimshian"
+msgstr ""
+
+#. tsn
+#: iso-639.h:841
+msgid "Tswana"
+msgstr "Setswana"
+
+#. tuk
+#: iso-639.h:843
+msgid "Turkmen"
+msgstr "Turkmensk"
+
+#. tum
+#: iso-639.h:845
+msgid "Tumbuka"
+msgstr ""
+
+#. tup
+#: iso-639.h:847
+#, fuzzy
+msgid "Tupi languages"
+msgstr "algonkin"
+
+#. tur
+#: iso-639.h:849
+msgid "Turkish"
+msgstr "Tyrkisk"
+
+#. tut
+#: iso-639.h:851
+msgid "Altaic (Other)"
+msgstr ""
+
+#. tvl
+#: iso-639.h:853
+msgid "Tuvalu"
+msgstr ""
+
+#. twi
+#: iso-639.h:855
+msgid "Twi"
+msgstr ""
+
+#. tyv
+#: iso-639.h:857
+msgid "Tuvinian"
+msgstr ""
+
+#. uga
+#: iso-639.h:859
+msgid "Ugaritic"
+msgstr ""
+
+#. uig
+#: iso-639.h:861
+msgid "Uighur"
+msgstr "Uigurisk"
+
+#. ukr
+#: iso-639.h:863
+msgid "Ukrainian"
+msgstr "Ukrainsk"
+
+#. umb
+#: iso-639.h:865
+msgid "Umbundu"
+msgstr ""
+
+#. und
+#: iso-639.h:867
+msgid "Undetermined"
+msgstr ""
+
+#. urd
+#: iso-639.h:869
+msgid "Urdu"
+msgstr "Urdu"
+
+#. uzb
+#: iso-639.h:871
+msgid "Uzbek"
+msgstr "Usbekisk"
+
+#. vai
+#: iso-639.h:873
+msgid "Vai"
+msgstr ""
+
+#. ven
+#: iso-639.h:875
+msgid "Venda"
+msgstr ""
+
+#. vie
+#: iso-639.h:877
+msgid "Vietnamese"
+msgstr "Vietnamesisk"
+
+#. vol
+#: iso-639.h:879
+msgid "Volapuk"
+msgstr ""
+
+#. vot
+#: iso-639.h:881
+msgid "Votic"
+msgstr ""
+
+#. wak
+#: iso-639.h:883
+#, fuzzy
+msgid "Wakashan languages"
+msgstr "algonkin"
+
+#. wal
+#: iso-639.h:885
+msgid "Walamo"
+msgstr ""
+
+#. war
+#: iso-639.h:887
+msgid "Waray"
+msgstr ""
+
+#. was
+#: iso-639.h:889
+msgid "Washo"
+msgstr ""
+
+#. wel
+#: iso-639.h:891
+msgid "Welsh"
+msgstr "Walisisk"
+
+#. wen
+#: iso-639.h:893
+msgid "Sorbian languages"
+msgstr "Sorbisk"
+
+#. wln
+#: iso-639.h:895
+msgid "Walloon"
+msgstr "Vallonsk"
+
+#. wol
+#: iso-639.h:897
+msgid "Wolof"
+msgstr "Wolof"
+
+#. xho
+#: iso-639.h:899
+msgid "Xhosa"
+msgstr "Xhosa"
+
+#. yao
+#: iso-639.h:901
+msgid "Yao"
+msgstr "Yao"
+
+#. yap
+#: iso-639.h:903
+msgid "Yapese"
+msgstr "Yapesisk"
+
+#. yid
+#: iso-639.h:905
+msgid "Yiddish"
+msgstr "Jiddisch"
+
+#. yor
+#: iso-639.h:907
+msgid "Yoruba"
+msgstr "Joruba"
+
+#. ypk
+#: iso-639.h:909
+#, fuzzy
+msgid "Yupik languages"
+msgstr "algonkin"
+
+#. zap
+#: iso-639.h:911
+msgid "Zapotec"
+msgstr ""
+
+#. zen
+#: iso-639.h:913
+msgid "Zenaga"
+msgstr ""
+
+#. zha
+#: iso-639.h:915
+msgid "Chuang; Zhuang"
+msgstr ""
+
+#. znd
+#: iso-639.h:917
+msgid "Zande"
+msgstr ""
+
+#. zul
+#: iso-639.h:919
+msgid "Zulu"
+msgstr "Zulu"
+
+#. zun
+#: iso-639.h:921
+msgid "Zuni"
+msgstr ""
