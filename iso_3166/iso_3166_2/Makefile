@@ -14,7 +14,7 @@ TARGETS=$(patsubst %,${INSTALL_DIR}/%, ${MO_FILES})
 INSTALL=install -m 644
 MKDIR_P=mkdir -p
 destdir=${PREFIX}/share/locale
-XMLDIR=${PREFIX}/xml/iso-codes
+XMLDIR=${PREFIX}/share/xml/iso-codes
 
 
 all: ${MO_FILES}
