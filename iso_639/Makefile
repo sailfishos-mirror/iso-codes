@@ -11,6 +11,7 @@ VERSION=CVS
 
 
 XMLDIR=${PREFIX}/share/xml/iso-codes
+SHAREDIR=${PREFIX}/share/iso-codes
 MO_FILES = $(patsubst %.po,%.mo, $(wildcard *.po))
 TARGETS=$(patsubst %,${INSTALL_DIR}/%, ${MO_FILES})
 MKDIR_P=mkdir -p
@@ -22,7 +23,9 @@ all: iso_639.pot ${MO_FILES}
 
 install: iso_639.xml ${MO_FILES}
 	${MKDIR_P} ${XMLDIR}
+	${MKDIR_P} ${SHAREDIR}
 	${INSTALL} iso_639.xml ${XMLDIR}/iso_639.xml
+	${INSTALL} iso_639.tab ${SHAREDIR}/iso_639.tab
 	for d in ${MO_FILES} ; do \
 		lang=`basename $$d | sed 's/.mo$$//'` ; \
 		dir=${destdir}/$$lang/LC_MESSAGES ; \
