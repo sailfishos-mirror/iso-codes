@@ -1,16 +1,16 @@
 # Turkish translation of ISO 639 Language names
-# Copyright (C) 2000/2001 Free Software Foundation, Inc.
+# Copyright (C) 2000,2004 Free Software Foundation, Inc.
 # Fatih Demir <kabalak@gmx.net>, 2000.
 # Kemal Yilmaz <kyilmaz@uekae.tubitak.gov.tr>, 2001.
 # Alastair McKinstry <mckinstry@computer.org>, 2001.
-#
+#  - translations from ICU-3.0
 msgid ""
 msgstr ""
-"Project-Id-Version: iso-codes 0.1.1\n"
+"Project-Id-Version: iso_639 CVS\n"
 "Report-Msgid-Bugs-To: Alastair McKinstry <mckinstry@debian.org>\n"
 "POT-Creation-Date: 2004-03-30 14:29+0100\n"
 "PO-Revision-Date: 2004-04-05 01:37+0300\n"
-"Last-Translator: KEMAL YILMAZ <kyilmaz@uekae.tubitak.gov.tr>\n"
+"Last-Translator: Alastair McKinstry <mckinstry@debian.org>\n"
 "Language-Team: Turkish <gnome-turk@gnome.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,7 +18,7 @@ msgstr ""
 
 #. aar
 msgid "Afar"
-msgstr ""
+msgstr "Afar"
 
 #. abk
 msgid "Abkhazian"
@@ -759,7 +759,7 @@ msgstr ""
 
 #. iku
 msgid "Inuktitut"
-msgstr ""
+msgstr "Inuktitut"
 
 # src/prefs.c:407
 #. ile
@@ -857,7 +857,7 @@ msgstr ""
 
 #. kan
 msgid "Kannada"
-msgstr ""
+msgstr "Kannada"
 
 #. kar
 #, fuzzy
@@ -866,7 +866,7 @@ msgstr "Korece"
 
 #. kas
 msgid "Kashmiri"
-msgstr ""
+msgstr "Keşmirce"
 
 #. kau
 #, fuzzy
@@ -879,7 +879,7 @@ msgstr ""
 
 #. kaz
 msgid "Kazakh"
-msgstr ""
+msgstr "Kazak Dili"
 
 #. kbd
 msgid "Kabardian"
@@ -911,11 +911,11 @@ msgstr ""
 
 #. kin
 msgid "Kinyarwanda"
-msgstr ""
+msgstr "Kinyarwanda"
 
 #. kir
 msgid "Kirghiz"
-msgstr ""
+msgstr "Kırgızca"
 
 #. kmb
 msgid "Kimbundu"
@@ -992,7 +992,7 @@ msgstr ""
 
 #. lao
 msgid "Lao"
-msgstr ""
+msgstr "Laos Dili"
 
 #. lat
 #, fuzzy
@@ -1092,7 +1092,7 @@ msgstr ""
 
 #. mal
 msgid "Malayalam"
-msgstr ""
+msgstr "Malayalam"
 
 #. man
 msgid "Mandingo"
@@ -1109,7 +1109,7 @@ msgstr ""
 
 #. mar
 msgid "Marathi"
-msgstr ""
+msgstr "Marathi"
 
 #. mas
 #, fuzzy
@@ -1180,11 +1180,11 @@ msgstr ""
 
 #. mol
 msgid "Moldavian"
-msgstr ""
+msgstr "Moldavya Dili"
 
 #. mon
 msgid "Mongolian"
-msgstr ""
+msgstr "Moğol Dili"
 
 #. mos
 #, fuzzy
@@ -1233,7 +1233,7 @@ msgstr "Yeni _takma ad"
 
 #. nau
 msgid "Nauru"
-msgstr ""
+msgstr "Nauru"
 
 #. nav
 msgid "Navaho"
@@ -1342,7 +1342,7 @@ msgstr ""
 
 #. ori
 msgid "Oriya"
-msgstr ""
+msgstr "Oriya"
 
 #. orm
 #, fuzzy
@@ -1445,7 +1445,7 @@ msgstr ""
 
 #. que
 msgid "Quechua"
-msgstr ""
+msgstr "Quechua"
 
 #. raj
 msgid "Rajasthani"
@@ -1478,7 +1478,7 @@ msgstr "Romence"
 
 #. run
 msgid "Rundi"
-msgstr ""
+msgstr "Kirundi"
 
 #. rus
 msgid "Russian"
@@ -1490,7 +1490,7 @@ msgstr ""
 
 #. sag
 msgid "Sango"
-msgstr ""
+msgstr "Sangho"
 
 #. sah
 msgid "Yakut"
@@ -1608,7 +1608,7 @@ msgstr ""
 
 #. smo
 msgid "Samoan"
-msgstr ""
+msgstr "Samoa Dili"
 
 #. sms
 msgid "Skolt Sami"
@@ -1616,7 +1616,7 @@ msgstr ""
 
 #. sna
 msgid "Shona"
-msgstr ""
+msgstr "Shona"
 
 # src/toolbar.c:237
 #. snd
@@ -1636,7 +1636,7 @@ msgstr "Norveççe"
 
 #. som
 msgid "Somali"
-msgstr ""
+msgstr "Somali Dili"
 
 # src/toolbar.c:237
 #. son
@@ -1646,7 +1646,7 @@ msgstr "Bul"
 
 #. sot
 msgid "Sotho, Southern"
-msgstr ""
+msgstr "Sesotho"
 
 #. spa
 msgid "Spanish (Castilian)"
@@ -1667,7 +1667,7 @@ msgstr ""
 
 #. ssw
 msgid "Swati"
-msgstr ""
+msgstr "Siswati"
 
 #. suk
 msgid "Sukuma"
@@ -1675,7 +1675,7 @@ msgstr ""
 
 #. sun
 msgid "Sundanese"
-msgstr ""
+msgstr "Sudan Dili"
 
 #. sus
 msgid "Susu"
@@ -1688,7 +1688,7 @@ msgstr "Sırpça"
 
 #. swa
 msgid "Swahili"
-msgstr ""
+msgstr "Swahili"
 
 #. swe
 msgid "Swedish"
@@ -1715,15 +1715,15 @@ msgstr "Taylandça"
 
 #. tao
 msgid "Tsonga"
-msgstr ""
+msgstr "Tsonga"
 
 #. tat
 msgid "Tatar"
-msgstr ""
+msgstr "Tatarca"
 
 #. tel
 msgid "Telugu"
-msgstr ""
+msgstr "Telugu"
 
 #. tem
 msgid "Timne"
@@ -1744,7 +1744,7 @@ msgstr "Taylandça"
 
 #. tgl
 msgid "Tagalog"
-msgstr ""
+msgstr "Tagalog"
 
 #. tha
 msgid "Thai"
@@ -1752,7 +1752,7 @@ msgstr "Taylandça"
 
 #. tib
 msgid "Tibetan"
-msgstr ""
+msgstr "Tibetçe"
 
 #. tig
 #, fuzzy
@@ -1790,7 +1790,7 @@ msgstr ""
 
 #. ton
 msgid "Tonga (Tonga Islands)"
-msgstr ""
+msgstr "Tonga"
 
 #. tpi
 msgid "Tok Pisin"
@@ -1803,11 +1803,11 @@ msgstr "Ukraynaca"
 
 #. tsn
 msgid "Tswana"
-msgstr ""
+msgstr "Setswana"
 
 #. tuk
 msgid "Turkmen"
-msgstr ""
+msgstr "Türkmence"
 
 #. tum
 msgid "Tumbuka"
@@ -1831,7 +1831,7 @@ msgstr ""
 
 #. twi
 msgid "Twi"
-msgstr ""
+msgstr "Twi"
 
 #. tyv
 msgid "Tuvinian"
@@ -1847,7 +1847,7 @@ msgstr ""
 
 #. uig
 msgid "Uighur"
-msgstr ""
+msgstr "Uygurca"
 
 #. ukr
 #, fuzzy
@@ -1866,11 +1866,11 @@ msgstr "Oynama"
 
 #. urd
 msgid "Urdu"
-msgstr ""
+msgstr "Urduca"
 
 #. uzb
 msgid "Uzbek"
-msgstr ""
+msgstr "Özbekçe"
 
 #. vai
 msgid "Vai"
@@ -1912,7 +1912,7 @@ msgstr ""
 
 #. wel
 msgid "Welsh"
-msgstr ""
+msgstr "Gal Dili"
 
 #. wen
 msgid "Sorbian languages"
@@ -1924,7 +1924,7 @@ msgstr ""
 
 #. wol
 msgid "Wolof"
-msgstr ""
+msgstr "Wolof"
 
 #. xal
 msgid "Kalmyk"
@@ -1932,7 +1932,7 @@ msgstr ""
 
 #. xho
 msgid "Xhosa"
-msgstr ""
+msgstr "Xhosa"
 
 #. yao
 msgid "Yao"
@@ -1945,11 +1945,11 @@ msgstr "Japonca"
 
 #. yid
 msgid "Yiddish"
-msgstr ""
+msgstr "Yiddiş"
 
 #. yor
 msgid "Yoruba"
-msgstr ""
+msgstr "Yoruba"
 
 #. ypk
 msgid "Yupik languages"
@@ -1974,9 +1974,8 @@ msgstr ""
 
 #. zul
 msgid "Zulu"
-msgstr ""
+msgstr "Zulu"
 
 #. zun
 msgid "Zuni"
 msgstr ""
-
