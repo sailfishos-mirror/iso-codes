@@ -2,11 +2,12 @@
 # Copyright (C) 2001,2003 Free Software Foundation, Inc.
 # Alastair McKinstry <mckinstry@debian>, 2001.
 #
+#.
 msgid ""
 msgstr ""
 "Project-Id-Version: iso-codes 0.18\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2004-02-22 10:23+0000\n"
+"POT-Creation-Date: 2004-03-13 21:33+0000\n"
 "PO-Revision-Date: 2001-12-12 13:04+0000\n"
 "Last-Translator: Alastair McKinstry <mckinstry@debian.org>\n"
 "Language-Team: Irish <ga@li.org>\n"
@@ -189,6 +190,13 @@ msgstr ""
 msgid "Nimruz"
 msgstr ""
 
+# PL
+# JM-04
+#. NUR
+#, fuzzy
+msgid "Nurestan"
+msgstr "An Pholainn"
+
 # AF-ORU
 #. ORU
 msgid "Oruzgan"
@@ -242,6 +250,7 @@ msgstr ""
 #. #
 #. # ISO-3166-2 regions for Albania
 #. #
+#. # Administrative region: county
 #. #
 #. BR
 #, fuzzy
@@ -252,14 +261,14 @@ msgstr "An Chóiré"
 # BZ
 #. BU
 #, fuzzy
-msgid "Bulqize"
+msgid "Bulqizë"
 msgstr "An Bheilís"
 
 # BZ
 # BZ
 #. DL
 #, fuzzy
-msgid "Delvine"
+msgid "Delvinë"
 msgstr "An Bheilís"
 
 #. DV
@@ -269,14 +278,14 @@ msgstr ""
 # DK-055
 #. DI
 #, fuzzy
-msgid "Diber"
+msgid "Dibër"
 msgstr "An Tibéid"
 
 # TR
 # GB-SRY
 #. DR
 #, fuzzy
-msgid "Durres"
+msgid "Durrsës"
 msgstr "An Tuirc"
 
 # NZ-TAS
@@ -301,7 +310,7 @@ msgstr "Gána"
 # GI
 #. GJ
 #, fuzzy
-msgid "Gjirokaster"
+msgid "Gjirokastër"
 msgstr "Gíobráltar"
 
 #. HA
@@ -312,36 +321,36 @@ msgstr ""
 # TG-K
 #. KA
 #, fuzzy
-msgid "Kavaje"
+msgid "Kavajë"
 msgstr "An Chóiré"
 
 # CM
 # HN-CL
 #. ER
 #, fuzzy
-msgid "Kolonje"
+msgid "Kolonjë"
 msgstr "Camarún"
 
 # Avoid; either use KR or KP
 # Avoid; either use KR or KP
 #. KO
 #, fuzzy
-msgid "Korce"
+msgid "Korcë"
 msgstr "An Chóiré"
 
 # Avoid; either use KR or KP
 # Avoid; either use KR or KP
 #. KR
 #, fuzzy
-msgid "Kruje"
+msgid "Krujë"
 msgstr "An Chóiré"
 
 #. KC
-msgid "Kucove"
+msgid "Kuçovë"
 msgstr ""
 
 #. KU
-msgid "Kukes"
+msgid "Kukës"
 msgstr ""
 
 # Avoid; either use KR or KP
@@ -352,7 +361,7 @@ msgid "Kurbin"
 msgstr "An Chóiré"
 
 #. LE
-msgid "Lezhe"
+msgid "Lezhë"
 msgstr ""
 
 # LY
@@ -363,15 +372,15 @@ msgid "Librazhd"
 msgstr "An Libia"
 
 #. LU
-msgid "Lushnje"
+msgid "Lushnjë"
 msgstr ""
 
 #. MM
-msgid "Malesi e Madhe"
+msgid "Malësi e Madhe"
 msgstr ""
 
 #. MK
-msgid "Mallakaster"
+msgid "Mallakastër"
 msgstr ""
 
 # MT
@@ -381,7 +390,7 @@ msgid "Mat"
 msgstr "Málta"
 
 #. MR
-msgid "Mirdite"
+msgid "Mirditë"
 msgstr ""
 
 # YE
@@ -395,7 +404,7 @@ msgstr "Éimin"
 # HU-PE
 #. PR
 #, fuzzy
-msgid "Permet"
+msgid "Përmet"
 msgstr "An Phalaistín"
 
 # NO
@@ -409,14 +418,14 @@ msgstr "An Iorua"
 # MX-PUE
 #. PU
 #, fuzzy
-msgid "Puke"
+msgid "Pukë"
 msgstr "Cúba"
 
 # EI
 # DE-SL
 #. SR
 #, fuzzy
-msgid "Sarande"
+msgid "Sarandë"
 msgstr "Éire"
 
 #. SK
@@ -424,34 +433,34 @@ msgid "Skrapar"
 msgstr ""
 
 #. SH
-msgid "Shkoder"
+msgid "Shkodër"
 msgstr ""
 
 # SE
 # MN-049
 #. TE
 #, fuzzy
-msgid "Tepelene"
+msgid "Tepelenë"
 msgstr "An tSualainn"
 
 # IR
 # TH-92
 #. TR
 #, fuzzy
-msgid "Tirane"
+msgid "Tiranë"
 msgstr "An Iaráin"
 
 # MA
 # UG-TOR
 #. TP
 #, fuzzy
-msgid "Tropoje"
+msgid "Tropojë"
 msgstr "Maracó"
 
 # IE-CE
 #. VL
 #, fuzzy
-msgid "Vlore"
+msgid "Vlorë"
 msgstr "An Clár"
 
 #
@@ -641,7 +650,6 @@ msgstr ""
 # CO
 # AR-X
 #. X
-#. COR
 #. CO
 msgid "Cordoba"
 msgstr ""
@@ -3665,19 +3673,9 @@ msgstr ""
 msgid "Guangxi"
 msgstr "An Ghuáin"
 
-# MN
-# CN-15
 #. 15
-#, fuzzy
-msgid "Neimenggu"
-msgstr "An Mhóngóil"
-
-# NG
-# CN-64
-#. 64
-#, fuzzy
-msgid "Ningxia"
-msgstr "An Nigéir"
+msgid "Neia Mongol (mn)"
+msgstr ""
 
 # CN-65
 #. 65
@@ -3699,15 +3697,11 @@ msgstr "Hong Cong"
 msgid "Macau"
 msgstr "Macao"
 
-#
-# * ISO 3166-2 regions for Colombia
-#
-# CO-DC
 #. #
 #. # ISO 3166-2 regions for Colombia
 #. #
 #. DC
-msgid "Distrito Capltal de Santa Fe de Bogota"
+msgid "Distrito Capital de Bogotá"
 msgstr ""
 
 # CO-AMA
@@ -3725,22 +3719,29 @@ msgstr ""
 msgid "Arauca"
 msgstr ""
 
-# CO-ATL
+# AL
+#
+# * ISO 3166-2 sub-regions of Honduras
+#
+# HN-AT
 #. ATL
-msgid "Atlantico"
-msgstr ""
+#, fuzzy
+msgid "Atlántico"
+msgstr "An Albáin"
 
-# CO-BOL
 #. BOL
-#. B
-#. F
-msgid "Bolivar"
+msgid "Bolívar"
 msgstr ""
 
-# CO-BOY
+# MC
+#
+# * ISO 3166-2 regions for Nigeria
+#
+# NI-BO
 #. BOY
-msgid "Boyaca"
-msgstr ""
+#, fuzzy
+msgid "Boyacá"
+msgstr "Monacó"
 
 # CA
 # CO-CAL
@@ -3749,9 +3750,8 @@ msgstr ""
 msgid "Caldea"
 msgstr "Ceanada"
 
-# CO-CAQ
 #. CAQ
-msgid "Caqueta"
+msgid "Caquetá"
 msgstr ""
 
 # CO-CAS
@@ -3772,6 +3772,10 @@ msgstr "Cúba"
 msgid "Cesar"
 msgstr ""
 
+#. COR
+msgid "Córdoba"
+msgstr ""
+
 # CO-CUN
 #. CUN
 msgid "Cundinamarca"
@@ -3781,14 +3785,14 @@ msgstr ""
 # CO-CHO
 #. CHO
 #, fuzzy
-msgid "Choco"
+msgid "Chocó"
 msgstr "An Congó"
 
 # GN
 # CO-GUA
 #. GUA
 #, fuzzy
-msgid "Guainia"
+msgid "Guainía"
 msgstr "An Ghuine"
 
 # FIXME
@@ -3813,10 +3817,12 @@ msgstr ""
 msgid "Meta"
 msgstr ""
 
-# CO-NAR
+# SY
+# TT-SIP
 #. NAR
-msgid "Narino"
-msgstr ""
+#, fuzzy
+msgid "Nariño"
+msgstr "An tSiria"
 
 # CO-NSA
 #. NSA
@@ -3838,9 +3844,8 @@ msgstr ""
 msgid "Risaralda"
 msgstr ""
 
-# CO-SAP
 #. SAP
-msgid "San Andres, Providencia y Santa Catalina"
+msgid "San Andrés, Providencia y Santa Catalina"
 msgstr ""
 
 # CO-SAN
@@ -3866,9 +3871,8 @@ msgstr "An Bholaiv"
 msgid "Valle del Cauca"
 msgstr ""
 
-# CO-VAU
 #. VAU
-msgid "Vaupes"
+msgid "Vaupés"
 msgstr ""
 
 # CO-VID
@@ -4904,6 +4908,12 @@ msgstr "Éimin"
 #. #
 #. A
 msgid "Azuay"
+msgstr ""
+
+# CO-BOL
+#. B
+#. F
+msgid "Bolivar"
 msgstr ""
 
 # CA
@@ -9036,6 +9046,10 @@ msgstr ""
 msgid "Kalimantan Selatan"
 msgstr ""
 
+#. KR
+msgid "Kepulauan Riau"
+msgstr ""
+
 # ID-LA
 #. LA
 msgid "Lampung"
@@ -9122,12 +9136,13 @@ msgstr ""
 # Special Region
 #
 # ID-AC
-#. # Special Region
+#. # Autonomous Province
 #. AC
 msgid "Aceh"
 msgstr ""
 
 # ID-YO
+#. # Special Region
 #. YO
 msgid "Yogyakarta"
 msgstr ""
@@ -12254,14 +12269,12 @@ msgstr ""
 msgid "Agadir"
 msgstr ""
 
-# MA-BAH
 #. BAH
-msgid "Ait Baha"
+msgid "Aït Baha"
 msgstr ""
 
-# MA-MEL
 #. MEL
-msgid "Ait Melloul"
+msgid "Aït Melloul"
 msgstr ""
 
 # MA-HAO
@@ -12269,9 +12282,8 @@ msgstr ""
 msgid "Al Haouz"
 msgstr ""
 
-# MA-HOC
 #. HOC
-msgid "Al Hoceima"
+msgid "Al Hoceïma"
 msgstr ""
 
 # MA-ASZ
@@ -12310,12 +12322,9 @@ msgstr ""
 msgid "Boulemane"
 msgstr ""
 
-# CA
-# SV-CA
 #. CAS
-#, fuzzy
-msgid "Casablanca "
-msgstr "Ceanada"
+msgid "Casablanca  [Dar el Beïda]"
+msgstr ""
 
 # MA-CHE
 #. CHE
@@ -12351,9 +12360,8 @@ msgstr ""
 msgid "Es Smara "
 msgstr ""
 
-# MA-FES
 #. FES
-msgid "Fes"
+msgid "Fès"
 msgstr ""
 
 # MA-FIG
@@ -12389,7 +12397,7 @@ msgstr ""
 # MA-KEN
 #. KEN
 #, fuzzy
-msgid "Kenitra"
+msgid "Kénitra"
 msgstr "An Chéinia"
 
 # MA-KHE
@@ -12409,9 +12417,8 @@ msgstr "An Chéinia"
 msgid "Khouribga"
 msgstr ""
 
-# MA-LAA
 #. LAA
-msgid "Laayoune. (EH)"
+msgid "Laâyoune (EH)"
 msgstr ""
 
 # FR
@@ -12426,9 +12433,8 @@ msgstr "An Fhrainc"
 msgid "Marrakech"
 msgstr ""
 
-# MA-MEK
 #. MEK
-msgid "Meknes"
+msgid "Meknsès"
 msgstr ""
 
 # EC
@@ -12455,9 +12461,8 @@ msgstr ""
 msgid "Oujda"
 msgstr "An tSúdáin"
 
-# MA-RBA
 #. RBA
-msgid "Rabat-Sale"
+msgid "Rabat-Salé"
 msgstr ""
 
 # ES
@@ -12520,9 +12525,8 @@ msgstr "Málta"
 msgid "Taza"
 msgstr "An Tansáin"
 
-# MA-TET
 #. TET
-msgid "Tetouan"
+msgid "Tétouan"
 msgstr ""
 
 # MA-TIZ
@@ -15451,10 +15455,6 @@ msgstr ""
 
 # PT-02
 #. 02
-#. #
-#. # ISO 3166-2 regions for Tunisia
-#. #
-#. 31
 msgid "Beja"
 msgstr ""
 
@@ -18763,6 +18763,13 @@ msgstr "An Liobáin"
 msgid "Mary"
 msgstr ""
 
+#. #
+#. # ISO 3166-2 regions for Tunisia
+#. #
+#. 31
+msgid "Béja"
+msgstr ""
+
 # TN-13
 #. 13
 msgid "Ben Arous"
@@ -18773,9 +18780,8 @@ msgstr ""
 msgid "Bizerte"
 msgstr ""
 
-# TN-81
 #. 81
-msgid "Gabes"
+msgid "Gabès"
 msgstr ""
 
 # GH
@@ -18824,7 +18830,7 @@ msgstr ""
 # CA-MB
 #. 14
 #, fuzzy
-msgid "Manouba"
+msgid "La Manouba"
 msgstr "Málta"
 
 # TN-82
@@ -21539,9 +21545,8 @@ msgstr ""
 msgid "Northern Cape"
 msgstr ""
 
-# ZA-NP
 #. NP
-msgid "Northern Province"
+msgid "Limpopo"
 msgstr ""
 
 # ZA-WC
@@ -21627,3 +21632,21 @@ msgstr ""
 #. MI
 msgid "Midlands"
 msgstr ""
+
+# MN
+# CN-15
+#, fuzzy
+#~ msgid "Neimenggu"
+#~ msgstr "An Mhóngóil"
+
+# NG
+# CN-64
+#, fuzzy
+#~ msgid "Ningxia"
+#~ msgstr "An Nigéir"
+
+# CA
+# SV-CA
+#, fuzzy
+#~ msgid "Casablanca "
+#~ msgstr "Ceanada"
