@@ -18,6 +18,7 @@ all: iso_3166.pot ${MO_FILES}
 
 install: all
 	${MKDIR_P} ${SHAREDIR}
+	cp iso_3166.tab ${SHAREDIR}
 	for d in ${MO_FILES} ; do \
 		lang=`basename $$d | sed 's/.mo$$//' ` ; \
 		dir=${destdir}/$$lang/LC_MESSAGES ; \
