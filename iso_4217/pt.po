@@ -1,12 +1,15 @@
 # Portuguese Translation of ISO 4217 Currency names
-# Copyright (C) 2002 Free Software Foundation, Inc.
+# Copyright (C) 2002,2004 Free Software Foundation, Inc.
 # Alastair McKinstry <mckinstry@computer.org>, 2002.
 # Translations from gnumeric: 
 # Duarte Loreto <happyguy_pt@hotmail.com>, 2001
+#  - Additional translations from ICU-3.0
+#
+# $Id$
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: iso-codes 0.1.1\n"
+"Project-Id-Version: iso_4217 CVS\n"
 "Report-Msgid-Bugs-To: Alastair McKinstry <mckinstry@debian.org>\n"
 "POT-Creation-Date: 2004-06-15 21:36+0100\n"
 "PO-Revision-Date: 2001-12-10 23:13+0000\n"
@@ -23,7 +26,7 @@ msgstr "Dirham dos EAU"
 
 #. currency_name for AFA
 msgid "Afghani"
-msgstr ""
+msgstr "Afegane"
 
 #. currency_name for ALL
 #, fuzzy
@@ -62,7 +65,7 @@ msgstr "Guilder Aruban"
 
 #. currency_name for AZM
 msgid "Azerbaijanian Manat"
-msgstr ""
+msgstr "Manat azerbaijano"
 
 #. currency_name for BAM
 msgid "Convertible Marks"
@@ -235,7 +238,7 @@ msgstr "Libra Egípcia"
 
 #. currency_name for ERN
 msgid "Eritrean Nakfa"
-msgstr ""
+msgstr "Nakfa da Eritréia"
 
 #. currency_name for ETB
 #, fuzzy
@@ -244,7 +247,7 @@ msgstr "Birr Etíope"
 
 #. currency_name for EUR
 msgid "Euro"
-msgstr ""
+msgstr "Euro"
 
 #. currency_name for FJD
 #, fuzzy
@@ -263,7 +266,7 @@ msgstr "Libra Inglesa"
 
 #. currency_name for GEL
 msgid "Georgian Lari"
-msgstr ""
+msgstr "Lari georgiano"
 
 #. currency_name for GHC
 #, fuzzy
@@ -312,7 +315,7 @@ msgstr "Lempira das Honduras"
 
 #. currency_name for HRK
 msgid "Croatian Kuna"
-msgstr ""
+msgstr "Kuna croata"
 
 #. currency_name for HTG
 #, fuzzy
@@ -380,7 +383,7 @@ msgstr ""
 
 #. currency_name for KHR
 msgid "Cambodian Riel"
-msgstr ""
+msgstr "Riel cambojano"
 
 #. currency_name for KMF
 #, fuzzy
@@ -443,7 +446,7 @@ msgstr ""
 
 #. currency_name for LVL
 msgid "Latvian Lats"
-msgstr ""
+msgstr "Lats letão"
 
 #. currency_name for LYD
 #, fuzzy
@@ -457,7 +460,7 @@ msgstr "Dirham Marroquino"
 
 #. currency_name for MDL
 msgid "Moldovan Leu"
-msgstr ""
+msgstr "Leu de Moldávia"
 
 #. currency_name for MGF
 #, fuzzy
@@ -466,7 +469,7 @@ msgstr "Franco da Malagásia"
 
 #. currency_name for MKD
 msgid "Macedonian Denar"
-msgstr ""
+msgstr "Dinar macedônio"
 
 #. currency_name for MMK
 #, fuzzy
@@ -656,7 +659,7 @@ msgstr "Dolar da Libéria"
 
 #. currency_name for SKK
 msgid "Slovak Koruna"
-msgstr ""
+msgstr "Coroa eslovaca"
 
 #. currency_name for SLL
 msgid "Leone"
@@ -758,11 +761,11 @@ msgstr "Dolar EUA"
 
 #. currency_name for USN
 msgid "US Dollar (Next day)"
-msgstr ""
+msgstr "Dólar norte-americano (Dia seguinte)"
 
 #. currency_name for USS
 msgid "US Dollar (Same day)"
-msgstr ""
+msgstr "Dólar norte-americano (Mesmo dia)"
 
 #. currency_name for UYU
 msgid "Peso Uruguayo"
@@ -770,7 +773,7 @@ msgstr ""
 
 #. currency_name for UZS
 msgid "Uzbekistan Sum"
-msgstr ""
+msgstr "Sum do Usbequistão"
 
 #. currency_name for VEB
 #, fuzzy
@@ -794,7 +797,7 @@ msgstr "Tala de Samoa"
 
 #. currency_name for XAF
 msgid "CFA Franc BEAC"
-msgstr ""
+msgstr "Franco CFA BEAC"
 
 #. currency_name for XAG
 msgid "Silver"
@@ -802,7 +805,7 @@ msgstr ""
 
 #. currency_name for XAU
 msgid "Gold"
-msgstr ""
+msgstr "Ouro"
 
 #. currency_name for XBA
 msgid "Bond Markets Units"
@@ -840,7 +843,7 @@ msgstr ""
 
 #. currency_name for XOF
 msgid "CFA Franc BCEAO"
-msgstr ""
+msgstr "Franco CFA BCEAO"
 
 #. currency_name for XPD
 msgid "Palladium"
@@ -848,7 +851,7 @@ msgstr ""
 
 #. currency_name for XPF
 msgid "CFP Franc"
-msgstr ""
+msgstr "Franco CFP"
 
 #. currency_name for XPT
 msgid "Platinum"
@@ -1092,7 +1095,7 @@ msgstr "Loti do Lesoto"
 
 #. currency_name for LTT
 msgid "Lithuanian Talonas"
-msgstr ""
+msgstr "Talonas lituano"
 
 #. currency_name for LUC
 #, fuzzy
@@ -1243,23 +1246,23 @@ msgstr "Zaira Zairence"
 msgid "Zaire"
 msgstr "Zaira Zairence"
 
-#~ msgid "Afghanistan afghani"
-#~ msgstr "Afghani Afgão"
+msgid "Afghanistan afghani"
+msgstr "Afghani Afgão"
 
-#~ msgid "Irish pence ***"
-#~ msgstr "Peni Irlandês ***"
+msgid "Irish pence ***"
+msgstr "Peni Irlandês ***"
 
-#~ msgid "Kampuchean riel"
-#~ msgstr "Riel Kampuchean"
+msgid "Kampuchean riel"
+msgstr "Riel Kampuchean"
 
-#~ msgid "Republic of Korea won"
-#~ msgstr "Won da República da Coreia"
+msgid "Republic of Korea won"
+msgstr "Won da República da Coreia"
 
-#~ msgid "Sierra Leone leone"
-#~ msgstr "Leone da Serra-Leoa"
+msgid "Sierra Leone leone"
+msgstr "Leone da Serra-Leoa"
 
-#~ msgid "Democratic Yemeni dinar"
-#~ msgstr "Dinar do Yemen Democrático"
+msgid "Democratic Yemeni dinar"
+msgstr "Dinar do Yemen Democrático"
 
-#~ msgid "South African rand funds code"
-#~ msgstr "Código de fundos em Rands da África do Sul"
+msgid "South African rand funds code"
+msgstr "Código de fundos em Rands da África do Sul"

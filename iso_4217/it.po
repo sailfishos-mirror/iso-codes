@@ -1,11 +1,15 @@
 # Italian translation for ISO-4217 Currency names
-# Copyright (C) 2002 Free Software Foundation, Inc.
+# Copyright (C) 2002,2004 Free Software Foundation, Inc.
 # Alastair McKinstry <mckinstry@computer.org>, 2002.
 # Translations from gnumeric: 
 # Leandro Noferini <lnoferin@cybervalley.org>
+#  - further translations from ICU-3.0
+#
+# $Id$
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: iso-codes 0.1.1\n"
+"Project-Id-Version: iso_4217 CVS\n"
 "Report-Msgid-Bugs-To: Alastair McKinstry <mckinstry@debian.org>\n"
 "POT-Creation-Date: 2004-06-15 21:36+0100\n"
 "PO-Revision-Date: 2001-01-04 20:05+01:00\n"
@@ -17,16 +21,14 @@ msgstr ""
 "Date: 2000-03-28 23:16:00+0200\n"
 
 #. currency_name for AED
-#, fuzzy
 msgid "UAE Dirham"
 msgstr "Dirham degli Emirati Arabi Uniti"
 
 #. currency_name for AFA
 msgid "Afghani"
-msgstr ""
+msgstr "Afgani"
 
 #. currency_name for ALL
-#, fuzzy
 msgid "Albanian Lek"
 msgstr "Lek albanese"
 
@@ -36,7 +38,6 @@ msgid "Armenian Dram"
 msgstr "Rial iraniano"
 
 #. currency_name for ANG
-#, fuzzy
 msgid "Netherlands Antillian Guilder"
 msgstr "Guilder delle Antille Olandesi"
 
@@ -51,65 +52,54 @@ msgid "Argentine Peso"
 msgstr "Australe argentino"
 
 #. currency_name for AUD
-#, fuzzy
 msgid "Australian Dollar"
 msgstr "Dollaro australiano"
 
-#. currency_name for AWG
 #, fuzzy
 msgid "Aruban Guilder"
 msgstr "Fiorino di Aruba"
 
 #. currency_name for AZM
 msgid "Azerbaijanian Manat"
-msgstr ""
+msgstr "Manat Azero"
 
 #. currency_name for BAM
 msgid "Convertible Marks"
 msgstr ""
 
 #. currency_name for BBD
-#, fuzzy
 msgid "Barbados Dollar"
 msgstr "Dollaro delle isole Barbados"
 
 #. currency_name for BDT
-#, fuzzy
 msgid "Bangladeshi Taka"
 msgstr "Taka del Bangladesh"
 
 #. currency_name for BGL
-#, fuzzy
 msgid "Bulgarian Lev"
 msgstr "Lev bulgaro"
 
 #. currency_name for BHD
-#, fuzzy
 msgid "Bahraini Dinar"
 msgstr "Dinaro del Bahrein"
 
 #. currency_name for BIF
-#, fuzzy
 msgid "Burundi Franc"
 msgstr "Franco del Burundi"
 
 #. currency_name for BMD
-#, fuzzy
 msgid "Bermudian Dollar"
 msgstr "Dollaro delle Bermuda"
 
 #. currency_name for BND
-#, fuzzy
 msgid "Brunei Dollar"
 msgstr "Dollaro del Brunei"
 
 #. currency_name for BOB
-#, fuzzy
 msgid "Boliviano"
 msgstr "Boliviano della Bolivia"
 
 #. currency_name for BOV
-#, fuzzy
 msgid "Bolivian Mvdol"
 msgstr "Boliviano della Bolivia"
 
@@ -119,17 +109,14 @@ msgid "Brazilian Real"
 msgstr "Cruzeiro brasiliano"
 
 #. currency_name for BSD
-#, fuzzy
 msgid "Bahamian Dollar"
 msgstr "Dollaro delle Bahamas"
 
 #. currency_name for BTN
-#, fuzzy
 msgid "Bhutan Ngultrum"
 msgstr "Ngultrum del Butan"
 
 #. currency_name for BWP
-#, fuzzy
 msgid "Botswana Pula"
 msgstr "Pula del Botsawa"
 
@@ -139,12 +126,10 @@ msgid "Belarussian Rouble"
 msgstr "Lev bulgaro"
 
 #. currency_name for BZD
-#, fuzzy
 msgid "Belize Dollar"
 msgstr "Dollaro del Belize"
 
 #. currency_name for CAD
-#, fuzzy
 msgid "Canadian Dollar"
 msgstr "Dollaro canadese"
 
@@ -153,7 +138,6 @@ msgid "Franc Congolais"
 msgstr ""
 
 #. currency_name for CHF
-#, fuzzy
 msgid "Swiss Franc"
 msgstr "Franco svizzero"
 
@@ -162,37 +146,30 @@ msgid "Unidades de fomento"
 msgstr ""
 
 #. currency_name for CLP
-#, fuzzy
 msgid "Chilean Peso"
 msgstr "Peso cileno"
 
 #. currency_name for CNY
-#, fuzzy
 msgid "Chinese Yuan Renminbi"
 msgstr "Yuan cinese renminbi"
 
 #. currency_name for COP
-#, fuzzy
 msgid "Colombian Peso"
 msgstr "Peso colombiano"
 
 #. currency_name for CRC
-#, fuzzy
 msgid "Costa Rican Colon"
 msgstr "Colon del Costa Rica"
 
 #. currency_name for CUP
-#, fuzzy
 msgid "Cuban Peso"
 msgstr "Peso cubano"
 
 #. currency_name for CVE
-#, fuzzy
 msgid "Cap Verde Escudo"
 msgstr "Scudo del Capo Verde"
 
 #. currency_name for CYP
-#, fuzzy
 msgid "Cyprus Pound"
 msgstr "Sterlina di Cipro"
 
@@ -201,22 +178,18 @@ msgid "Czech Koruna"
 msgstr "Corona ceca"
 
 #. currency_name for DJF
-#, fuzzy
 msgid "Djibouti Franc"
 msgstr "Franco del Gibuti"
 
 #. currency_name for DKK
-#, fuzzy
 msgid "Danish Krone"
 msgstr "Corona danese"
 
 #. currency_name for DOP
-#, fuzzy
 msgid "Dominican Peso"
 msgstr "Peso dominicano"
 
 #. currency_name for DZD
-#, fuzzy
 msgid "Algerian Dinar"
 msgstr "Dinaro algerino"
 
@@ -229,148 +202,122 @@ msgid "Estonia Kroon"
 msgstr ""
 
 #. currency_name for EGP
-#, fuzzy
 msgid "Egyptian Pound"
 msgstr "Sterlina egiziana"
 
 #. currency_name for ERN
 msgid "Eritrean Nakfa"
-msgstr ""
+msgstr "Nakfa Eritreo"
 
 #. currency_name for ETB
-#, fuzzy
 msgid "Ethiopian Birr"
 msgstr "Birr etiope"
 
 #. currency_name for EUR
 msgid "Euro"
-msgstr ""
+msgstr "Euro"
 
 #. currency_name for FJD
-#, fuzzy
 msgid "Fiji Dollar"
 msgstr "Dollaro delle Fiji"
 
 #. currency_name for FKP
-#, fuzzy
 msgid "Falkland Island Pound"
 msgstr "Sterlina delle isole Falkland"
 
 #. currency_name for GBP
-#, fuzzy
 msgid "Pound Sterling"
 msgstr "Sterlina del Regno Unito"
 
 #. currency_name for GEL
 msgid "Georgian Lari"
-msgstr ""
+msgstr "Lari Georgiano"
 
 #. currency_name for GHC
-#, fuzzy
 msgid "Ghanaian Cedi"
 msgstr "Cedi del Ghana"
 
 #. currency_name for GIP
-#, fuzzy
 msgid "Gibraltar Pound"
 msgstr "Sterlina di Gibilterra"
 
 #. currency_name for GMD
-#, fuzzy
 msgid "Gambian Dalasi"
 msgstr "Dalasi del Gambia"
 
 #. currency_name for GNF
-#, fuzzy
 msgid "Guinea Franc"
 msgstr "Franco del Guinea"
 
 #. currency_name for GTQ
-#, fuzzy
 msgid "Guatemalan Quetzal"
 msgstr "Quetzal guatemalteco"
 
 #. currency_name for GWP
-#, fuzzy
 msgid "Guinea-Bissau Peso"
 msgstr "Peso della Guinea-Bissau"
 
 #. currency_name for GYD
-#, fuzzy
 msgid "Guyana Dollar"
 msgstr "Dollaro della Guiana"
 
 #. currency_name for HKD
-#, fuzzy
 msgid "Hong Kong Dollar"
 msgstr "Dollaro di Honk Kong"
 
 #. currency_name for HNL
-#, fuzzy
 msgid "Honduran Lempira"
 msgstr "Lempira dell'Honduras"
 
 #. currency_name for HRK
 msgid "Croatian Kuna"
-msgstr ""
+msgstr "Kuna Croata"
 
 #. currency_name for HTG
-#, fuzzy
 msgid "Haitian Gourde"
 msgstr "Gourda haitiano"
 
 #. currency_name for HUF
-#, fuzzy
 msgid "Hungarian Forint"
 msgstr "Fiorino ungherese"
 
 #. currency_name for IDR
-#, fuzzy
 msgid "Indonesian Rupiah"
 msgstr "Rupia indonesiana"
 
 #. currency_name for ILS
-#, fuzzy
 msgid "Israeli Shekel"
 msgstr "Shekel israeliano"
 
 #. currency_name for INR
-#, fuzzy
 msgid "Indian Rupee"
 msgstr "Rupia indiana"
 
 #. currency_name for IQD
-#, fuzzy
 msgid "Iraqi Dinar"
 msgstr "Dinaro iracheno"
 
 #. currency_name for IRR
-#, fuzzy
 msgid "Iranian Rial"
 msgstr "Rial iraniano"
 
 #. currency_name for ISK
-#, fuzzy
 msgid "Iceland Krona"
 msgstr "Corona islandese"
 
 #. currency_name for JMD
-#, fuzzy
 msgid "Jamaican Dollar"
 msgstr "Dollaro giamaicano"
 
 #. currency_name for JOD
-#, fuzzy
 msgid "Jordanian Dinar"
 msgstr "Dinaro giordano"
 
 #. currency_name for JPY
-#, fuzzy
 msgid "Japanese Yen"
 msgstr "Yen giapponese"
 
 #. currency_name for KES
-#, fuzzy
 msgid "Kenyan Shilling"
 msgstr "Scellino keniota"
 
@@ -380,15 +327,13 @@ msgstr ""
 
 #. currency_name for KHR
 msgid "Cambodian Riel"
-msgstr ""
+msgstr "Riel Cambogiano"
 
 #. currency_name for KMF
-#, fuzzy
 msgid "Comoro Franc"
 msgstr "Franco delle Isole Comore"
 
 #. currency_name for KPW
-#, fuzzy
 msgid "North Korean Won"
 msgstr "Won della Corea del Nord"
 
@@ -398,12 +343,10 @@ msgid "South Korean Won"
 msgstr "Won della Corea del Nord"
 
 #. currency_name for KWD
-#, fuzzy
 msgid "Kuwaiti Dinar"
 msgstr "Dinaro del Kuwait"
 
 #. currency_name for KYD
-#, fuzzy
 msgid "Cayman Islands Dollar"
 msgstr "Dollaro delle isole Cayman"
 
@@ -413,27 +356,22 @@ msgid "Kazakhstan Tenge"
 msgstr "Rupia pachistana"
 
 #. currency_name for LAK
-#, fuzzy
 msgid "Lao Kip"
 msgstr "Kip del Laos"
 
 #. currency_name for LBP
-#, fuzzy
 msgid "Lebanese Pound"
 msgstr "Sterlina libanese"
 
 #. currency_name for LKR
-#, fuzzy
 msgid "Sri Lanka Rupee"
 msgstr "Rupia dello Sri Lanka"
 
 #. currency_name for LRD
-#, fuzzy
 msgid "Liberian Dollar"
 msgstr "Dollaro liberiano"
 
 #. currency_name for LSL
-#, fuzzy
 msgid "Lesotho Loti"
 msgstr "Loti del Lesotho"
 
@@ -443,73 +381,61 @@ msgstr ""
 
 #. currency_name for LVL
 msgid "Latvian Lats"
-msgstr ""
+msgstr "Lat Lettone"
 
 #. currency_name for LYD
-#, fuzzy
 msgid "Libyan Dinar"
 msgstr "Dinaro libico"
 
 #. currency_name for MAD
-#, fuzzy
 msgid "Moroccan Dirham"
 msgstr "Dirham marocchino"
 
 #. currency_name for MDL
 msgid "Moldovan Leu"
-msgstr ""
+msgstr "Leu Moldavo"
 
 #. currency_name for MGF
-#, fuzzy
 msgid "Malagasy Franc"
 msgstr "Franco malgascio"
 
 #. currency_name for MKD
 msgid "Macedonian Denar"
-msgstr ""
+msgstr "Dinaro Macedone"
 
 #. currency_name for MMK
-#, fuzzy
 msgid "Myanmar Kyat"
 msgstr "Kyat del Myanmar"
 
 #. currency_name for MNT
-#, fuzzy
 msgid "Mongolian Tugrik"
 msgstr "Tugrik mongolo"
 
 #. currency_name for MOP
-#, fuzzy
 msgid "Macao Patacca"
 msgstr "Pataca di Macau"
 
 #. currency_name for MRO
-#, fuzzy
 msgid "Mauritanian Ouguiya"
 msgstr "Ouguiya della Mauritania"
 
 #. currency_name for MTL
-#, fuzzy
 msgid "Maltese Lira"
 msgstr "Lira maltese"
 
 #. currency_name for MUR
-#, fuzzy
 msgid "Mauritius Rupee"
 msgstr "Rupia delle isole Mauritius"
 
 #. currency_name for MVR
-#, fuzzy
 msgid "Maldive Rufiyaa"
 msgstr "Rupia delle Maldive"
 
 #. currency_name for MWK
-#, fuzzy
 msgid "Malawi Kwacha"
 msgstr "Kwacha di Malawi"
 
 #. currency_name for MXN
-#, fuzzy
 msgid "Mexican Peso"
 msgstr "Peso messicano"
 
@@ -518,12 +444,10 @@ msgid "Unidad de Inversion (UDI)"
 msgstr ""
 
 #. currency_name for MYR
-#, fuzzy
 msgid "Malaysian Ringgit"
 msgstr "Ringgit malese"
 
 #. currency_name for MZM
-#, fuzzy
 msgid "Mozambique Metical"
 msgstr "Metical del Mozambico"
 
@@ -533,27 +457,22 @@ msgid "Namibian Dollar"
 msgstr "Dollaro liberiano"
 
 #. currency_name for NGN
-#, fuzzy
 msgid "Nigerian Naira"
 msgstr "Naira nigeriana"
 
 #. currency_name for NIO
-#, fuzzy
 msgid "Nicaraguan Cordoba Oro"
 msgstr "Cordova d'ora nicaraguense"
 
 #. currency_name for NOK
-#, fuzzy
 msgid "Norwegian Krone"
 msgstr "Corona norvegese"
 
 #. currency_name for NPR
-#, fuzzy
 msgid "Nepalese Rupee"
 msgstr "Rupia nepalese"
 
 #. currency_name for NZD
-#, fuzzy
 msgid "New Zealand Dollar"
 msgstr "Dollaro neozelandese"
 
@@ -562,7 +481,6 @@ msgid "Rial Omani"
 msgstr "Omani del Rial"
 
 #. currency_name for PAB
-#, fuzzy
 msgid "Panamanian Balboa"
 msgstr "Balboa panamense"
 
@@ -571,37 +489,30 @@ msgid "Peruvian Nuevo Sol"
 msgstr ""
 
 #. currency_name for PGK
-#, fuzzy
 msgid "Papua New Guinea Kina"
 msgstr "Kina di Papua-Nuova Guinea"
 
 #. currency_name for PHP
-#, fuzzy
 msgid "Phillipine Peso"
 msgstr "Peso filippino"
 
 #. currency_name for PKR
-#, fuzzy
 msgid "Pakistan Rupee"
 msgstr "Rupia pachistana"
 
 #. currency_name for PLN
-#, fuzzy
 msgid "Polish Złoty"
 msgstr "Złoty polacco"
 
 #. currency_name for PYG
-#, fuzzy
 msgid "Paraguay Guarani"
 msgstr "Guarani del Paraguay"
 
 #. currency_name for QAR
-#, fuzzy
 msgid "Qatari Riyal"
 msgstr "Rial del Qatar"
 
 #. currency_name for ROL
-#, fuzzy
 msgid "Romanian Leu"
 msgstr "Leu rumeno"
 
@@ -610,22 +521,18 @@ msgid "Russian Rouble"
 msgstr ""
 
 #. currency_name for RWF
-#, fuzzy
 msgid "Rwanda Franc"
 msgstr "Franco ruandese"
 
 #. currency_name for SAR
-#, fuzzy
 msgid "Saudi Riyal"
 msgstr "Riyal dell'Arabia Saudita"
 
 #. currency_name for SBD
-#, fuzzy
 msgid "Solomon Islands Dollar"
 msgstr "Dollaro delle Isole di Salomon"
 
 #. currency_name for SCR
-#, fuzzy
 msgid "Seychelles Rupee"
 msgstr "Rupia delle Isole Seychelles"
 
@@ -635,65 +542,54 @@ msgid "Sudanese Dinar"
 msgstr "Sterlina sudanese"
 
 #. currency_name for SEK
-#, fuzzy
 msgid "Swedish Krona"
 msgstr "Corona svedese"
 
 #. currency_name for SGD
-#, fuzzy
 msgid "Singapur Dollar"
 msgstr "Dollaro di Singapore"
 
 #. currency_name for SHP
-#, fuzzy
 msgid "Saint Helena Pound"
 msgstr "Sterlina dell'isola di Sant'Elena"
 
 #. currency_name for SIT
-#, fuzzy
 msgid "Slovenian Tolar"
 msgstr "Dollaro liberiano"
 
 #. currency_name for SKK
 msgid "Slovak Koruna"
-msgstr ""
+msgstr "Corona Slovacca"
 
 #. currency_name for SLL
 msgid "Leone"
 msgstr ""
 
 #. currency_name for SOS
-#, fuzzy
 msgid "Somali Schilling"
 msgstr "Scellino somalo"
 
 #. currency_name for SRG
-#, fuzzy
 msgid "Suriname Guilder"
 msgstr "Fiorino del Suriname"
 
 #. currency_name for STD
-#, fuzzy
 msgid "Sao Tome and Principe Dobra"
 msgstr "Dobra di San Tome e Principe"
 
 #. currency_name for SVC
-#, fuzzy
 msgid "El Salvador Colon"
 msgstr "Colon salvadoregno"
 
 #. currency_name for SYP
-#, fuzzy
 msgid "Syrian Pound"
 msgstr "Sterlina siriana"
 
 #. currency_name for SZL
-#, fuzzy
 msgid "Swaziland Lilangeni"
 msgstr "Lilangeni dello Swaziland"
 
 #. currency_name for THB
-#, fuzzy
 msgid "Thai Baht"
 msgstr "Baht tailandese"
 
@@ -702,7 +598,6 @@ msgid "Tajik Somoni"
 msgstr ""
 
 #. currency_name for TLE
-#, fuzzy
 msgid "Timor Escudo"
 msgstr "Scudo di Timor Est"
 
@@ -712,32 +607,26 @@ msgid "Turkmenistan Manat"
 msgstr "Dinaro tunisino"
 
 #. currency_name for TND
-#, fuzzy
 msgid "Tunisian Dinar"
 msgstr "Dinaro tunisino"
 
 #. currency_name for TOP
-#, fuzzy
 msgid "Tongan Pa'anga"
 msgstr "Pa'anga di Tonga"
 
 #. currency_name for TRL
-#, fuzzy
 msgid "Turkish Lira"
 msgstr "Lira turca"
 
 #. currency_name for TTD
-#, fuzzy
 msgid "Trinidad and Tobago Dollar"
 msgstr "Dollaro di Trinidad e Tobago"
 
 #. currency_name for TWD
-#, fuzzy
 msgid "New Taiwan Dollar"
 msgstr "Dollaro di Nuova Taiwan"
 
 #. currency_name for TZS
-#, fuzzy
 msgid "Tazanian Schilling"
 msgstr "Scellino della Tanzania"
 
@@ -747,22 +636,20 @@ msgid "Ukrainian Hryvnia"
 msgstr "Rial iraniano"
 
 #. currency_name for UGX
-#, fuzzy
 msgid "Ugandan Schilling"
 msgstr "Scellino ugandese"
 
 #. currency_name for USD
-#, fuzzy
 msgid "US Dollar"
 msgstr "Dollaro nordamericano"
 
 #. currency_name for USN
 msgid "US Dollar (Next day)"
-msgstr ""
+msgstr "Dollaro Statunitense (Next day)"
 
 #. currency_name for USS
 msgid "US Dollar (Same day)"
-msgstr ""
+msgstr "Dollaro Statunitense (Same day)"
 
 #. currency_name for UYU
 msgid "Peso Uruguayo"
@@ -770,31 +657,27 @@ msgstr ""
 
 #. currency_name for UZS
 msgid "Uzbekistan Sum"
-msgstr ""
+msgstr "Sum dell’Uzbekistan"
 
 #. currency_name for VEB
-#, fuzzy
 msgid "Venezuela Bolivar"
 msgstr "Bolivar venezuelano"
 
 #. currency_name for VND
-#, fuzzy
 msgid "Viet Nam Dong"
 msgstr "Dong vietnamita"
 
 #. currency_name for VUV
-#, fuzzy
 msgid "Vanuatu Vatu"
 msgstr "Vatu di Vanuatu"
 
 #. currency_name for WST
-#, fuzzy
 msgid "Samoan Tala"
 msgstr "Tala di Samoa"
 
 #. currency_name for XAF
 msgid "CFA Franc BEAC"
-msgstr ""
+msgstr "Franco CFA BEAC"
 
 #. currency_name for XAG
 msgid "Silver"
@@ -802,7 +685,7 @@ msgstr ""
 
 #. currency_name for XAU
 msgid "Gold"
-msgstr ""
+msgstr "Oro"
 
 #. currency_name for XBA
 msgid "Bond Markets Units"
@@ -813,7 +696,6 @@ msgid "European Composite Unit EURCO"
 msgstr ""
 
 #. currency_name for XBC
-#, fuzzy
 msgid "European Monetary Unit EUM"
 msgstr "Unità monetaria europea"
 
@@ -822,7 +704,6 @@ msgid "European Unit of Account EUA"
 msgstr ""
 
 #. currency_name for XCD
-#, fuzzy
 msgid "East Caribean Dollar"
 msgstr "Dollaro dei Caraibi dell'Est"
 
@@ -840,7 +721,7 @@ msgstr ""
 
 #. currency_name for XOF
 msgid "CFA Franc BCEAO"
-msgstr ""
+msgstr "Franco CFA BCEAO"
 
 #. currency_name for XPD
 msgid "Palladium"
@@ -848,7 +729,7 @@ msgstr ""
 
 #. currency_name for XPF
 msgid "CFP Franc"
-msgstr ""
+msgstr "Franco CFP"
 
 #. currency_name for XPT
 msgid "Platinum"
@@ -863,7 +744,6 @@ msgid "No currency involved"
 msgstr ""
 
 #. currency_name for YER
-#, fuzzy
 msgid "Yemini Rial"
 msgstr "Rial dello Yemen"
 
@@ -873,22 +753,18 @@ msgid "Yugoslavian Dinar"
 msgstr "Dinaro della Nuova Yugoslavia"
 
 #. currency_name for ZAR
-#, fuzzy
 msgid "South African Rand"
 msgstr "Rand sudafricano"
 
 #. currency_name for ZMK
-#, fuzzy
 msgid "Zambian Kwacha"
 msgstr "Kwacha dello Zambia"
 
 #. currency_name for ZWD
-#, fuzzy
 msgid "Zimbabwe Dollar"
 msgstr "Dollaro dello Zimbabwe"
 
 #. currency_name for ADP
-#, fuzzy
 msgid "Andorran Peseta"
 msgstr "Peseta di Andorra"
 
@@ -898,7 +774,6 @@ msgid "Albanian Old Lek"
 msgstr "Lek albanese"
 
 #. currency_name for AON
-#, fuzzy
 msgid "Angola New Kwanza"
 msgstr "Nuovo kwanza angolano"
 
@@ -908,7 +783,6 @@ msgid "Angola Kwanza Reajustado"
 msgstr "Nuovo kwanza angolano"
 
 #. currency_name for ARA
-#, fuzzy
 msgid "Argentine Austral"
 msgstr "Australe argentino"
 
@@ -918,7 +792,6 @@ msgid "Peso Argentino"
 msgstr "Australe argentino"
 
 #. currency_name for ATS
-#, fuzzy
 msgid "Austrian Schilling"
 msgstr "Scellino austriaco"
 
@@ -952,13 +825,7 @@ msgid "Bolivian Peso"
 msgstr "Boliviano della Bolivia"
 
 #. currency_name for BRB
-#, fuzzy
 msgid "Brazilian Cruzeiro"
-msgstr "Cruzeiro brasiliano"
-
-#. currency_name for BRC
-#, fuzzy
-msgid "Brazilian Cruzado"
 msgstr "Cruzeiro brasiliano"
 
 #. currency_name for BRN
@@ -984,7 +851,6 @@ msgid "Czechoslovakian Krona A/53"
 msgstr ""
 
 #. currency_name for CSK
-#, fuzzy
 msgid "Czechoslovakian Koruna"
 msgstr "Corona ceca"
 
@@ -998,7 +864,6 @@ msgid "Deutsche Mark"
 msgstr "Marco tedesco"
 
 #. currency_name for ECS
-#, fuzzy
 msgid "Ecuador Sucre"
 msgstr "Sucre dell'Ecuador"
 
@@ -1013,17 +878,14 @@ msgid "Spanish Peseta (convertible)"
 msgstr "Peseta spagnola"
 
 #. currency_name for ESP
-#, fuzzy
 msgid "Spanish Peseta"
 msgstr "Peseta spagnola"
 
 #. currency_name for FIM
-#, fuzzy
 msgid "Finnish Markka"
 msgstr "Markka finlandese"
 
 #. currency_name for FRF
-#, fuzzy
 msgid "French Franc"
 msgstr "Franco francese"
 
@@ -1042,22 +904,18 @@ msgid "Equatorial Guinea Ekwele"
 msgstr ""
 
 #. currency_name for GRD
-#, fuzzy
 msgid "Greek Drachma"
 msgstr "Dracma graco"
 
 #. currency_name for GWE
-#, fuzzy
 msgid "Guinea Escudo"
 msgstr "Franco del Guinea"
 
 #. currency_name for HRD
-#, fuzzy
 msgid "Croatian Dinar"
 msgstr "Dinaro giordano"
 
 #. currency_name for IEP
-#, fuzzy
 msgid "Irish Pound"
 msgstr "Punt irlandese"
 
@@ -1077,7 +935,6 @@ msgid "Iceland Old Krona"
 msgstr "Corona islandese"
 
 #. currency_name for ITL
-#, fuzzy
 msgid "Italian Lira"
 msgstr "Lira italiana"
 
@@ -1086,13 +943,12 @@ msgid "Lao Pot Pol"
 msgstr ""
 
 #. currency_name for LSM
-#, fuzzy
 msgid "Lesotho Maloti"
 msgstr "Loti del Lesotho"
 
 #. currency_name for LTT
 msgid "Lithuanian Talonas"
-msgstr ""
+msgstr "Talonas Lituani"
 
 #. currency_name for LUC
 #, fuzzy
@@ -1100,7 +956,6 @@ msgid "Luxembourg Convertible Franc"
 msgstr "Franco lussemburghese"
 
 #. currency_name for LUF
-#, fuzzy
 msgid "Luxembourg Franc"
 msgstr "Franco lussemburghese"
 
@@ -1115,7 +970,6 @@ msgid "Latvian Ruble"
 msgstr "Lev bulgaro"
 
 #. currency_name for MAF
-#, fuzzy
 msgid "Mali Franc"
 msgstr "Franco malese"
 
@@ -1125,22 +979,18 @@ msgid "Maltese Pound"
 msgstr "Sterlina libanese"
 
 #. currency_name for MVQ
-#, fuzzy
 msgid "Maldive Rupee"
 msgstr "Rupia delle Maldive"
 
 #. currency_name for MZE
-#, fuzzy
 msgid "Mozambique Escudo"
 msgstr "Metical del Mozambico"
 
 #. currency_name for NIC
-#, fuzzy
 msgid "Nicaraguan Cordoba"
 msgstr "Cordova d'ora nicaraguense"
 
 #. currency_name for NLG
-#, fuzzy
 msgid "Netherlands Guilder"
 msgstr "Fiorino olandese"
 
@@ -1150,12 +1000,10 @@ msgid "Peruvian Sol"
 msgstr "Inti peruviano"
 
 #. currency_name for PEI
-#, fuzzy
 msgid "Peruvian Inti"
 msgstr "Inti peruviano"
 
 #. currency_name for PTE
-#, fuzzy
 msgid "Portuguese Escudo"
 msgstr "Scudo portoghese"
 
@@ -1175,7 +1023,6 @@ msgid "Sudanese Pound"
 msgstr "Sterlina libanese"
 
 #. currency_name for SUR
-#, fuzzy
 msgid "USSR Rouble"
 msgstr "Rublo sovietico"
 
@@ -1190,7 +1037,6 @@ msgid "Ukrainian Karbovanet"
 msgstr "Rial iraniano"
 
 #. currency_name for UGS
-#, fuzzy
 msgid "Uganda Schilling"
 msgstr "Scellino ugandese"
 
@@ -1205,7 +1051,6 @@ msgid "Old Uruguayan Peso"
 msgstr "Peso uruguaiano"
 
 #. currency_name for UYP
-#, fuzzy
 msgid "Uruguayan Peso"
 msgstr "Peso uruguaiano"
 
@@ -1215,7 +1060,6 @@ msgid "Viet Nam Old Dong"
 msgstr "Dong vietnamita"
 
 #. currency_name for XEU
-#, fuzzy
 msgid "European Currency Unit ECU"
 msgstr "Unità monetaria europea"
 
@@ -1224,7 +1068,6 @@ msgid "RINET Funds Code"
 msgstr ""
 
 #. currency_name for YDD
-#, fuzzy
 msgid "Yemeni Dinar"
 msgstr "Rial dello Yemen"
 
@@ -1239,27 +1082,26 @@ msgid "New Zaire"
 msgstr "Zaire dello Zaire"
 
 #. currency_name for ZRZ
-#, fuzzy
 msgid "Zaire"
 msgstr "Zaire dello Zaire"
 
-#~ msgid "Afghanistan afghani"
-#~ msgstr "Afghani dell'Afghanistan"
+msgid "Afghanistan afghani"
+msgstr "Afghani dell'Afghanistan"
 
-#~ msgid "Irish pence ***"
-#~ msgstr "Pence irlandese ***"
+msgid "Irish pence ***"
+msgstr "Pence irlandese ***"
 
-#~ msgid "Kampuchean riel"
-#~ msgstr "Riel della Campuchea<"
+msgid "Kampuchean riel"
+msgstr "Riel della Campuchea<"
 
-#~ msgid "Republic of Korea won"
-#~ msgstr "Won della Repubblica della Corea"
+msgid "Republic of Korea won"
+msgstr "Won della Repubblica della Corea"
 
-#~ msgid "Sierra Leone leone"
-#~ msgstr "Leone della Sierra Leone"
+msgid "Sierra Leone leone"
+msgstr "Leone della Sierra Leone"
 
-#~ msgid "Democratic Yemeni dinar"
-#~ msgstr "Dinaro dello Yemen Democratico"
+msgid "Democratic Yemeni dinar"
+msgstr "Dinaro dello Yemen Democratico"
 
-#~ msgid "South African rand funds code"
-#~ msgstr "Codice del rand sudafricano"
+msgid "South African rand funds code"
+msgstr "Codice del rand sudafricano"
