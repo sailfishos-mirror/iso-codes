@@ -28,16 +28,12 @@ install: all
 	done
 	for d in ${SUBDIRS} ; do ${MAKE} -C $$d install ; done
 
-iso_3166.h: iso_3166.tab
-	../tab2h.pl 1 2 iso_3166.tab > iso_3166.h
-
-%.pot: %.h
-	xgettext --extract-all --output $@  --from-code=UTF-8 \
-	  --no-location --add-comments $<
+iso_3166.tab:
+	./iso3166tab.py | sort > iso_3166.tab
 
 %.mo: %.po
 	msgfmt --verbose --check $< -o $@
 
 clean: 
-	rm -f *~ *.mo 
+	rm -f *~ *.mo iso_3166.tab
 	for d in ${SUBDIRS}; do ${MAKE} -C $$d clean ; done
