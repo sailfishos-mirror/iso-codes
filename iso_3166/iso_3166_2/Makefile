@@ -23,6 +23,7 @@ install: all
 		${INSTALL} $$d $$dir/iso_3166_2.mo ; \
 	done
 	$(INSTALL) iso_3166_2.tab $(SHAREDIR)/iso_3166_2.tab
+	$(INSTALL) iso_3166_2.xml $(SHAREDIR)/iso_3166_2.xml
 
 iso_3166_2.h: iso_3166_2.tab
 	../../tab2h.pl 1 2 iso_3166_2.tab > iso_3166_2.h

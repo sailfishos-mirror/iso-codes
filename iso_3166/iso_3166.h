@@ -435,7 +435,7 @@
 /* TV */ 
  N_("Tuvalu")
 /* TW */ 
- N_("Taiwan")
+ N_("Taiwan, Province of China")
 /* TZ */ 
  N_("Tanzania")
 /* UA */ 
