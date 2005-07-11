@@ -1,6 +1,6 @@
 SUBDIRS = iso_639 iso_3166 iso_4217 notes
 
-pkgconfigdir = $(libdir)/pkgconfig
+pkgconfigdir = $(datadir)/pkgconfig
 pkgconfig_DATA = iso-codes.pc
 
 EXTRA_DIST = \
