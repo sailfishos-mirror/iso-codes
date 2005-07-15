@@ -1,14 +1,18 @@
-iso-codes (0.46-3) UNRELEASED; urgency=low
+iso-codes (0.46-3) unstable; urgency=low
 
   * iso_3166:
     - de: spellchecked by Jens Seidel. Closes: #314029
     - wo: added by Mouhamadou Mamoune Mbacke
   * Set pkgconfig-dir to DATADIR to be multilib friendly. Thanks to
-    Christopher Aillon.
-  * iso_3166_2: typo in Finnish placename: s/Ahvenanmasn/Ahvenanmaan/.
-    Correction thanks to Tommi Vainikainen.
+      Christopher Aillon.
+  * iso_3166_2: i
+    - typo in Finnish placename: s/Ahvenanmasn/Ahvenanmaan/.
+      Correction thanks to Tommi Vainikainen.
+  * iso_629:
+    - Portuguese translation correction thanks to  Guilherme de S. Pastore.
+      Closes: #318346.
 
- -- Alastair McKinstry <alastair.mckinstry@ildana.ie>  Fri, 15 Jul 2005 10:02:06 +0100
+ -- Alastair McKinstry <alastair.mckinstry@ildana.ie>  Fri, 15 Jul 2005 14:41:30 +0100
 
 iso-codes (0.46-2) unstable; urgency=low
 
