@@ -1,4 +1,5 @@
 DOMAIN = iso_639
+VERSION= @PACKAGE_VERSION@
 
 xmldir = $(datadir)/xml/iso-codes
 xml_DATA = $(DOMAIN).xml

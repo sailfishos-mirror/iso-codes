@@ -20,8 +20,9 @@ AC_INIT([ISO Codes],[0.47],[],[iso-codes])
 
 AC_REVISION([$Revision$])
 
-AC_SUBST(VERSION, "${PACKAGE_VERSION}")
-AC_PREREQ([2.59])
+dnl FIXME debug why this doesn't work; it substs an '' for VERSION
+dnl until then, use PACKAGE_VERSION instead.
+dnl AC_PREREQ([2.59]i, "${PACKAGE_VERSION}")
 AM_INIT_AUTOMAKE([dist-bzip2])
 AM_MAINTAINER_MODE
 

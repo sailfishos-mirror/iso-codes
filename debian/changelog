@@ -1,24 +1,29 @@
 iso-codes (0.47-1) unstable; urgency=low
 
+  * Set pkgconfig-dir to DATADIR to be multilib friendly. Thanks to
+      Christopher Aillon.
+  * autogen.sh: remove --force from automake, as it is not understood
+    by automake-1.4
+  * Fix build issues due to VERSION not being propagated to Makefiles
+    correctly. Reverted to using @PACKAGE_VERSION@ for the moment until the
+    configure magic is fixed (for all auto* versions...)
   * iso_3166:
     - de: spellchecked by Jens Seidel. Closes: #314029
     - wo: added by Mouhamadou Mamoune Mbacke
     - fr: case errors corrections. Closes: #319658
-  * Set pkgconfig-dir to DATADIR to be multilib friendly. Thanks to
-      Christopher Aillon.
-  * iso_3166_2: 
+  * iso_3166_2:
     - typo in Finnish placename: s/Ahvenanmasn/Ahvenanmaan/.
       Correction thanks to Tommi Vainikainen.
     - Updated Danish translations by Claus Hindsgaul
   * iso_629:
     - Portuguese translation correction thanks to  Guilherme de S. Pastore.
       Closes: #318346.
-    - Code change; 
+    - Code change;
       The official name for language gl is now Galician, not Gallegan.
       Closes: #320182.
     - Code change: add "alt" for Southern Altai.
 
- -- Alastair McKinstry <mckinstry@debian.org>  Thu, 28 Jul 2005 14:41:30 +0100
+ -- Alastair McKinstry <alastair.mckinstry@ildana.ie>  Thu, 28 Jul 2005 12:26:17 +0100
 
 iso-codes (0.46-2) unstable; urgency=low
 

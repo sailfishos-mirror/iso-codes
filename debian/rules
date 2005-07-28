@@ -16,9 +16,10 @@ build: build-stamp
 
 
 configure:
+	chmod +x ./autogen.sh
 	./autogen.sh
 
-build-stamp:
+build-stamp: configure
 	dh_testdir
 	./configure --prefix=/usr
 	$(MAKE)
@@ -28,7 +29,7 @@ clean:
 	dh_testdir
 	dh_testroot
 	-$(MAKE) distclean
-	rm -f build-stamp
+	rm -f build-stamp configure
 	dh_clean
 
 binary-arch:

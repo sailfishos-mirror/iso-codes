@@ -7,6 +7,6 @@ topdir=`pwd`
 cd $srcdir
 aclocal
 autoconf
-automake --add-missing --foreign --force --copy
+automake --add-missing --foreign --copy
 cd $topdir
 $srcdir/configure $@
