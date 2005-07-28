@@ -1,5 +1,6 @@
 iso-codes (0.47-1) unstable; urgency=low
 
+  [ Alastair McKinstry ]
   * Set pkgconfig-dir to DATADIR to be multilib friendly. Thanks to
       Christopher Aillon.
   * autogen.sh: remove --force from automake, as it is not understood
@@ -23,7 +24,11 @@ iso-codes (0.47-1) unstable; urgency=low
       Closes: #320182.
     - Code change: add "alt" for Southern Altai.
 
- -- Alastair McKinstry <alastair.mckinstry@ildana.ie>  Thu, 28 Jul 2005 12:26:17 +0100
+  [ Christian Perrier ]
+  * iso_639
+    - French translation update
+
+ -- Christian Perrier <bubulle@debian.org>  Thu, 28 Jul 2005 20:28:40 +0200
 
 iso-codes (0.46-2) unstable; urgency=low
 
