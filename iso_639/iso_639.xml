@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- iso-639.tab							-->
 <!--									-->
-<!-- Copyright (C) 2004 Alastair McKinstry   <mckinstry@computer.org>   -->
+<!-- Copyright (C) 2005 Alastair McKinstry   <mckinstry@computer.org>   -->
 <!-- Released under the GNU License; see file COPYING for details	-->
 <!--									-->
-<!-- Last update: 2004-10-27						-->
+<!-- Last update: 2005-07-28						-->
 <!--									-->
 <!-- This file gives a list of all languages in the ISO-639		-->
 <!-- standard, and is used to provide translations (via gettext)	-->
 <!--									-->
 <!-- Status: ISO 639-2:1998 + additions and changes until 2004-03-05	-->
 <!-- Source: http://lcweb.loc.gov/standards/iso639-2/englangn.html	-->
+<!-- changes: http://www.loc.gov/standards/iso639-2/codechanges.html    -->
 
 <iso_639_entries>
 	<iso_639_entry
@@ -66,10 +67,14 @@
 		iso_639_2T_code="sqi"
 		iso_639_1_code="sq"
 		name="Albanian" />
-	<iso_639_entr
+	<iso_639_entry
 		iso_639_2B_code="alg"
 		iso_639_2T_code="alg"
 		name="Algonquian languages" />
+	<iso_639_entry
+		iso_639_2B_code="alt"
+		iso_639_2T_code="alt"
+		name="Southern Altai" />
 	<iso_639_entry
 		iso_639_2B_code="amh"
 		iso_639_2T_code="amh"
