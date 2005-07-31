@@ -8,6 +8,7 @@ iso-codes (0.47-1) unstable; urgency=low
   * Fix build issues due to VERSION not being propagated to Makefiles
     correctly. Reverted to using @PACKAGE_VERSION@ for the moment until the
     configure magic is fixed (for all auto* versions...)
+  * Move to Standards-Version: 3.6.2. No changes required.
   * iso_3166:
     - de: spellchecked by Jens Seidel. Closes: #314029
     - wo: added by Mouhamadou Mamoune Mbacke
