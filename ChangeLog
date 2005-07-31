@@ -1,3 +1,29 @@
+0.47 Alastair McKinstry <mckinstry@debian.org>
+
+  * Set pkgconfig-dir to DATADIR to be multilib friendly. Thanks to
+      Christopher Aillon.
+  * autogen.sh: remove --force from automake, as it is not understood
+    by automake-1.4
+  * Fix build issues due to VERSION not being propagated to Makefiles
+    correctly. Reverted to using @PACKAGE_VERSION@ for the moment until the
+    configure magic is fixed (for all auto* versions...)
+  * iso_3166:
+    - de: spellchecked by Jens Seidel. Closes: #314029
+    - wo: added by Mouhamadou Mamoune Mbacke
+    - fr: case errors corrections. Closes: #319658
+  * iso_3166_2:
+    - typo in Finnish placename: s/Ahvenanmasn/Ahvenanmaan/.
+      Correction thanks to Tommi Vainikainen.
+    - Updated Danish translations by Claus Hindsgaul
+  * iso_629:
+    - Portuguese translation correction thanks to  Guilherme de S. Pastore.
+      Closes: #318346.
+    - Code change; 
+      The official name for language gl is now Galician, not Gallegan.
+   - Code change: add "alt" for Southern Altai.
+    - French translation update
+
+
 0.46 Alastair McKinstry <mckinstry@debian.org>
 
   * iso_639:
