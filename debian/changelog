@@ -1,6 +1,8 @@
 iso-codes (0.47-2) unstable; urgency=low
 
   [ Tobias Toedter ]
+  * Added autoconf and automake1.9 to Build-Depends-Indep, which fixes
+    an FTBFS bug. Thanks to Andreas Jochens for the patch. Closes: #321588
   * iso_629:
     - eo updated by Edmund Grimley Evans
     - pt_BR updated by Juan Carlos Castro y Castro
