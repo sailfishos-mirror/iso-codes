@@ -4,8 +4,31 @@
 <!--										-->
 <!-- Copyright (C) 2002,2004 Alastair McKinstry <mckinstry@debian.org>		-->
 <!--   Additional material: Andreas Jochens <aj@andaco.de>			-->
-<!--    Last updated: 2004-04-29						-->
+<!--    Last updated: 2005-08-10						-->
 <!-- Released under the LGPL							-->
+
+<!DOCTYPE iso_3166_entries [
+	<!ELEMENT iso_3166_entries (iso_3166_entry+, iso_3166_3_entry*)>
+	<!ELEMENT iso_3166_entry EMPTY>
+	<!ATTLIST iso_3166_entry
+		alpha_2_code		CDATA	#REQUIRED
+		alpha_3_code		CDATA	#REQUIRED
+		numeric_code		CDATA	#REQUIRED
+		common_name		CDATA	#IMPLIED
+		name			CDATA	#REQUIRED
+		official_name		CDATA	#IMPLIED
+	>
+	<!ELEMENT iso_3166_3_entry EMPTY>
+	<!ATTLIST iso_3166_3_entry
+		alpha_4_code		CDATA	#REQUIRED
+		alpha_3_code		CDATA	#REQUIRED
+		numeric_code		CDATA	#IMPLIED
+		date_withdrawn		CDATA	#IMPLIED
+		names			CDATA	#REQUIRED
+		comment			CDATA	#IMPLIED
+	>
+]>
+
 <iso_3166_entries>
 	<iso_3166_entry
 		alpha_2_code="AF"

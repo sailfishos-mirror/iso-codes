@@ -4,7 +4,25 @@
 <!-- Codes for currencies and funds		-->
 <!--						-->
 <!-- Status: ISO 4217:2001			-->
-<!-- Last update: 2002-11-13			-->
+<!-- Last update: 2005-08-10			-->
+
+<!DOCTYPE iso_4217_entries [
+	<!ELEMENT iso_4217_entries (iso_4217_entry+, historic_iso_4217_entry*)>
+	<!ELEMENT iso_4217_entry EMPTY>
+	<!ATTLIST iso_4217_entry
+		letter_code		CDATA	#REQUIRED
+		numeric_code		CDATA	#REQUIRED
+		currency_name		CDATA	#REQUIRED
+	>
+	<!ELEMENT historic_iso_4217_entry EMPTY>
+	<!ATTLIST historic_iso_4217_entry
+		letter_code		CDATA	#REQUIRED
+		numeric_code		CDATA	#IMPLIED
+		currency_name		CDATA	#REQUIRED
+		date_withdrawn		CDATA	#REQUIRED
+	>
+]>
+
 <iso_4217_entries>
 	<iso_4217_entry
 		letter_code="AED"

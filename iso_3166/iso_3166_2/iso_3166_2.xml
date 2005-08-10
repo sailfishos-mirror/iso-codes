@@ -27,6 +27,37 @@
 <!-- Cf. http://en.wikipedia.org/wiki/ISO_3166-2                        -->
 <!--  -Jan Minář							-->
 
+<!DOCTYPE iso_3166_2_entries [
+	<!ELEMENT iso_3166_2_entries (iso_3166_country+)>
+	<!ELEMENT iso_3166_country (
+		iso_3166_subset*	|
+		geographical_region*	|
+		iso_3166_2_entry*
+	)>
+	<!ATTLIST iso_3166_country
+		code			CDATA	#REQUIRED
+	>
+	<!ELEMENT iso_3166_subset (iso_3166_2_entry+)>
+	<!ATTLIST iso_3166_subset
+		type			CDATA	#IMPLIED
+	>
+	<!ELEMENT geographical_region (region+)>
+	<!ATTLIST geographical_region
+		type			CDATA	#IMPLIED
+	>
+	<!ELEMENT iso_3166_2_entry EMPTY>
+	<!ATTLIST iso_3166_2_entry
+		code			CDATA	#REQUIRED
+		name			CDATA	#REQUIRED
+	>
+	<!ELEMENT region EMPTY>
+	<!ATTLIST region
+		code			CDATA	#REQUIRED
+		name			CDATA	#REQUIRED
+		comment			CDATA	#IMPLIED
+	>
+]>
+
 <iso_3166_2_entries>
 	<!-- United Arab Emirates -->
 <iso_3166_country code="AE">
