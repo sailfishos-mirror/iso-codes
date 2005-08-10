@@ -3,6 +3,8 @@ iso-codes (0.47-2) unstable; urgency=low
   [ Tobias Toedter ]
   * Added autoconf and automake1.9 to Build-Depends-Indep, which fixes
     an FTBFS bug. Thanks to Andreas Jochens for the patch. Closes: #321588
+  * Added an XML Document Type Definition (DTD) for each XML file.
+    Closes: #272064
   * iso_629:
     - eo updated by Edmund Grimley Evans
     - pt_BR updated by Juan Carlos Castro y Castro
@@ -15,7 +17,7 @@ iso-codes (0.47-2) unstable; urgency=low
     - es updated by Javier Fernández-Sanguino Peña
     - da updated by Claus Hindsgaul
 
- -- Alastair McKinstry <mckinstry@debian.org>  Sun,  7 Aug 2005 16:05:12 +0100
+ -- Alastair McKinstry <mckinstry@debian.org>  Wed, 10 Aug 2005 18:30:57 +0100
 
 iso-codes (0.47-1) unstable; urgency=low
 
