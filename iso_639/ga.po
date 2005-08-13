@@ -7,15 +7,15 @@
 # 11 Jan 2004: I've added a translator's note to translations that appear
 #   to be "coinages"; i.e. do not appear in any standard print or online
 #   references, or in a large (20M word) text corpus.  The others should
-#   be treated as more or less "authoritative".  Future translators: feel
+#   be treated as more or less authoritative.  Future translators: feel
 #   free to fill in gaps but please continue to mark coinages as such.  --KPS
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_639 CVS\n"
+"Project-Id-Version: iso_639-0.47\n"
 "Report-Msgid-Bugs-To: Alastair McKinstry <mckinstry@debian.org>\n"
-"POT-Creation-Date: 2005-07-28 10:27+0100\n"
-"PO-Revision-Date: 2004-01-12 21:12-0500\n"
-"Last-Translator: Alastair McKinstry <mckinstry@debian.org>\n"
+"POT-Creation-Date: 2005-08-11 04:48-0400\n"
+"PO-Revision-Date: 2005-08-11 07:10-0500\n"
+"Last-Translator: Kevin Patrick Scannell <scannell@SLU.EDU>\n"
 "Language-Team: Irish <ga@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,12 +23,12 @@ msgstr ""
 
 #. name for aar
 msgid "Afar"
-msgstr "Afar"
+msgstr "Afárais"
 
-# "AbcÃ¡is" placename in Oll-liosta --kps
+# "Abcáis" placename in Oll-liosta --kps
 #. name for abk
 msgid "Abkhazian"
-msgstr "AbcÃ¡isis"
+msgstr "Abcáisis"
 
 #. name for ace
 msgid "Achinese"
@@ -48,7 +48,7 @@ msgstr ""
 
 #. name for afa
 msgid "Afro-Asiatic (Other)"
-msgstr ""
+msgstr "Afra-Áisic (Eile)"
 
 #. name for afh
 msgid "Afrihili"
@@ -56,42 +56,42 @@ msgstr ""
 
 #. name for afr
 msgid "Afrikaans"
-msgstr "AfracÃ¡inis"
+msgstr "Afracáinis"
 
+# coined -kps
 #. name for aka
 msgid "Akan"
-msgstr ""
+msgstr "Acáinis"
 
 # in Oll-liosta --kps
 #. name for akk
 msgid "Akkadian"
-msgstr "AcÃ¡idis"
+msgstr "Acáidis"
 
 #. name for sqi
 msgid "Albanian"
-msgstr "AlbÃ¡inis"
+msgstr "Albáinis"
 
 #. name for alg
 msgid "Algonquian languages"
 msgstr ""
 
 #. name for alt
-#, fuzzy
 msgid "Southern Altai"
-msgstr "SÃ¡imis Theas"
+msgstr ""
 
 #. name for amh
 msgid "Amharic"
-msgstr "Amarais"
+msgstr "Amáiris"
 
 #. name for ang
 msgid "English, Old (ca.450-1100)"
-msgstr "Sean-BhÃ©arla (ca.450-1100)"
+msgstr "Sean-Bhéarla (ca.450-1100)"
 
-# de Bhaldraithe
+# de Bhaldraithe "Apáis"
 #. name for apa
 msgid "Apache languages"
-msgstr "Teangacha ApÃ¡ise"
+msgstr "Teangacha Apáiseacha"
 
 #. name for ara
 msgid "Arabic"
@@ -103,15 +103,16 @@ msgstr "Aramais"
 
 #. name for arg
 msgid "Aragonese"
-msgstr ""
+msgstr "Aragóinis"
 
 #. name for hye
 msgid "Armenian"
-msgstr "AirmÃ©inis"
+msgstr "Airméinis"
 
+# Arócánach in OLT --kps
 #. name for arn
 msgid "Araucanian"
-msgstr ""
+msgstr "Arócáinis"
 
 #. name for arp
 msgid "Arapaho"
@@ -131,7 +132,7 @@ msgstr "Asaimis"
 
 #. name for ast
 msgid "Asturian; Bable"
-msgstr ""
+msgstr "Astúiris; Baiblis"
 
 #. name for ath
 msgid "Athapascan language"
@@ -139,27 +140,29 @@ msgstr ""
 
 #. name for aus
 msgid "Australian languages"
-msgstr "Teangacha AstrÃ¡lacha"
+msgstr "Teangacha Astrálacha"
 
+# coined -kps
 #. name for ava
 msgid "Avaric"
-msgstr ""
+msgstr "Avairis"
 
 #. name for ave
 msgid "Avestan"
-msgstr "AivÃ©istis"
+msgstr "Aivéistis"
 
 #. name for awa
 msgid "Awadhi"
 msgstr ""
 
+# Firefox
 #. name for aym
 msgid "Aymara"
-msgstr ""
+msgstr "Adhmarais"
 
 #. name for aze
 msgid "Azerbaijani"
-msgstr "AsarbaiseÃ¡inis"
+msgstr "Asarbaiseáinis"
 
 #. name for bad
 msgid "Banda"
@@ -172,15 +175,16 @@ msgstr ""
 # placename in Oll-liosta
 #. name for bak
 msgid "Bashkir"
-msgstr "BaiscÃ­ris"
+msgstr "Baiscíris"
 
 #. name for bal
 msgid "Baluchi"
 msgstr ""
 
+# coined -kps
 #. name for bam
 msgid "Bambara"
-msgstr ""
+msgstr "Bambáiris"
 
 #. name for ban
 msgid "Balinese"
@@ -204,7 +208,7 @@ msgstr ""
 
 #. name for bel
 msgid "Belarusian"
-msgstr "BealarÃºisis"
+msgstr "Bealarúisis"
 
 #. name for bem
 msgid "Bemba"
@@ -212,7 +216,7 @@ msgstr ""
 
 #. name for ben
 msgid "Bengali"
-msgstr "BeangÃ¡ilis"
+msgstr "Beangáilis"
 
 #. name for ber
 msgid "Berber (Other)"
@@ -222,6 +226,7 @@ msgstr "Beirbeireach (Eile)"
 msgid "Bhojpuri"
 msgstr ""
 
+# google
 #. name for bih
 msgid "Bihari"
 msgstr "Bihairis"
@@ -234,9 +239,10 @@ msgstr ""
 msgid "Bini"
 msgstr ""
 
+# Firefox
 #. name for bis
 msgid "Bislama"
-msgstr ""
+msgstr "Bioslamais"
 
 #. name for bla
 msgid "Siksika"
@@ -244,8 +250,9 @@ msgstr ""
 
 #. name for bnt
 msgid "Bantu (Other)"
-msgstr "BantÃºch (Eile)"
+msgstr "Bantúch (Eile)"
 
+# google
 #. name for bos
 msgid "Bosnian"
 msgstr "Boisnis"
@@ -256,7 +263,7 @@ msgstr ""
 
 #. name for bre
 msgid "Breton"
-msgstr "BriotÃ¡inis"
+msgstr "Briotáinis"
 
 #. name for btk
 msgid "Batak (Indonesia)"
@@ -272,7 +279,7 @@ msgstr ""
 
 #. name for bul
 msgid "Bulgarian"
-msgstr "BulgÃ¡iris"
+msgstr "Bulgáiris"
 
 #. name for mya
 msgid "Burmese"
@@ -296,7 +303,7 @@ msgstr ""
 
 #. name for cat
 msgid "Catalan"
-msgstr "CatalÃ³inis"
+msgstr "Catalóinis"
 
 #. name for cau
 msgid "Caucasian (Other)"
@@ -310,9 +317,10 @@ msgstr ""
 msgid "Celtic (Other)"
 msgstr "Ceilteach (Eile)"
 
+# Firefox
 #. name for cha
 msgid "Chamorro"
-msgstr ""
+msgstr "Seamóróis"
 
 #. name for chb
 msgid "Chibcha"
@@ -329,7 +337,7 @@ msgstr ""
 
 #. name for zho
 msgid "Chinese"
-msgstr "SÃ­nis"
+msgstr "Sínis"
 
 #. name for chk
 msgid "Chukese"
@@ -353,7 +361,7 @@ msgstr ""
 
 #. name for chr
 msgid "Cherokee"
-msgstr ""
+msgstr "Seiricis"
 
 #. name for chu
 msgid "Church Slavic"
@@ -386,27 +394,28 @@ msgstr "Corsaicis"
 
 #. name for cpe
 msgid "English-based (Other)"
-msgstr ""
+msgstr "Bunaithe ar an mBéarla (Eile)"
 
 #. name for cpf
 msgid "French-based (Other)"
-msgstr ""
+msgstr "Bunaithe ar an bhFraincis (Eile)"
 
 #. name for cpp
 msgid "Portuguese-based (Other)"
-msgstr ""
+msgstr "Bunaithe ar an bPortaingéilis (Eile)"
 
+# Firefox
 #. name for cre
 msgid "Cree"
-msgstr "CraÃÂ­ais"
+msgstr "Craíais"
 
 #. name for crh
 msgid "Crimean Turkish; Crimean Tatar"
-msgstr ""
+msgstr "Tatairis Chriméach"
 
 #. name for crp
 msgid "Creoles and pidgins (Other)"
-msgstr "CriÃ³il agus teangacha briotaireachta (Eile)"
+msgstr "Crióil agus teangacha briotaireachta (Eile)"
 
 #. name for csb
 msgid "Kashubian"
@@ -450,7 +459,7 @@ msgstr ""
 
 #. name for div
 msgid "Divehi"
-msgstr ""
+msgstr "Divéihis"
 
 #. name for doi
 msgid "Dogri"
@@ -458,12 +467,11 @@ msgstr ""
 
 #. name for dra
 msgid "Dravidian (Other)"
-msgstr ""
+msgstr "Dráivideach (Eile)"
 
 #. name for dsb
-#, fuzzy
 msgid "Lower Sorbian"
-msgstr "Seirbis"
+msgstr "Sorbais Íochtarach"
 
 #. name for dua
 msgid "Duala"
@@ -471,7 +479,7 @@ msgstr ""
 
 #. name for dum
 msgid "Dutch, Middle (ca. 1050-1350)"
-msgstr ""
+msgstr "Meán-Ollainnis (ca. 1050-1350)"
 
 #. name for nld
 msgid "Dutch"
@@ -491,7 +499,7 @@ msgstr ""
 
 #. name for egy
 msgid "Egyptian (Ancient)"
-msgstr "Ãigiptis (Cianaosta)"
+msgstr "Éigiptis (Cianaosta)"
 
 #. name for eka
 msgid "Ekajuk"
@@ -503,24 +511,25 @@ msgstr ""
 
 #. name for eng
 msgid "English"
-msgstr "BÃ©arla"
+msgstr "Béarla"
 
 #. name for enm
 msgid "English, Middle (1100-1500)"
-msgstr "MeÃ¡n-BhÃ©arla (1100-1500)"
+msgstr "Meán-Bhéarla (1100-1500)"
 
-# google uirlisÃ­ teanga as is
+# google uirlisí teanga as is
 #. name for epo
 msgid "Esperanto"
 msgstr "Esperanto"
 
 #. name for est
 msgid "Estonian"
-msgstr "EastÃ³inis"
+msgstr "Eastóinis"
 
+# Firefox
 #. name for ewe
 msgid "Ewe"
-msgstr ""
+msgstr "Éivéis"
 
 #. name for ewo
 msgid "Ewondo"
@@ -532,7 +541,7 @@ msgstr ""
 
 #. name for fao
 msgid "Faroese"
-msgstr "FarÃ³is"
+msgstr "Faróis"
 
 #. name for fat
 msgid "Fanti"
@@ -544,7 +553,7 @@ msgstr "Fidsis"
 
 #. name for fil
 msgid "Filipino; Pilipino"
-msgstr ""
+msgstr "Filipínis"
 
 #. name for fin
 msgid "Finnish"
@@ -552,7 +561,7 @@ msgstr "Fionlainnis"
 
 #. name for fiu
 msgid "Finno-Ugrian (Other)"
-msgstr ""
+msgstr "Fionn-Úgrach (Eile)"
 
 #. name for fon
 msgid "Fon"
@@ -564,7 +573,7 @@ msgstr "Fraincis"
 
 #. name for frm
 msgid "French, Middle (ca.1400-1600)"
-msgstr "MeÃ¡n-Fraincis (ca.1400-1600)"
+msgstr "Meán-Fraincis (ca.1400-1600)"
 
 #. name for fro
 msgid "French, Old (842-ca.1400)"
@@ -576,11 +585,11 @@ msgstr "Freaslainnis"
 
 #. name for ful
 msgid "Fulah"
-msgstr ""
+msgstr "Fulfuildis"
 
 #. name for fur
 msgid "Friulian"
-msgstr "FriÃºilis"
+msgstr "Friúilis"
 
 #. name for gaa
 msgid "Ga"
@@ -596,23 +605,25 @@ msgstr ""
 
 #. name for gem
 msgid "Germanic (Other)"
-msgstr "GearmÃ¡nach (Eile)"
+msgstr "Gearmánach (Eile)"
 
+# google
 #. name for kat
 msgid "Georgian"
 msgstr "Seoirsis"
 
 #. name for deu
 msgid "German"
-msgstr "GearmÃ¡inis"
+msgstr "Gearmáinis"
 
 #. name for gez
 msgid "Geez"
 msgstr ""
 
+# placename in OLT
 #. name for gil
 msgid "Gilbertese"
-msgstr ""
+msgstr "Cireabaitis"
 
 #. name for gla
 msgid "Gaelic; Scottish"
@@ -624,7 +635,7 @@ msgstr "Gaeilge"
 
 #. name for glg
 msgid "Galician"
-msgstr "GailÃ­sis"
+msgstr "Gailísis"
 
 #. name for glv
 msgid "Manx"
@@ -632,11 +643,11 @@ msgstr "Manainnis"
 
 #. name for gmh
 msgid "German, Middle High (ca.1050-1500)"
-msgstr ""
+msgstr "Meán-Ard-Ghearmáinis (ca.1050-1500)"
 
 #. name for goh
 msgid "German, Old High (ca.750-1050)"
-msgstr ""
+msgstr "Sean-Ard-Ghearmáinis (ca.750-1050)"
 
 #. name for gon
 msgid "Gondi"
@@ -656,19 +667,19 @@ msgstr ""
 
 #. name for grc
 msgid "Greek, Ancient (to 1453)"
-msgstr "GrÃ©igis Chianaosta (go dtÃ­ 1453)"
+msgstr "Gréigis Chianaosta (go dtí 1453)"
 
 #. name for ell
 msgid "Greek, Modern (1453-)"
-msgstr "GrÃ©igis Nua-Aimseartha (1453-)"
+msgstr "Gréigis Nua-Aimseartha (1453-)"
 
 #. name for grn
 msgid "Guarani"
-msgstr "GuaranaÃ­"
+msgstr "Guaráinis"
 
 #. name for guj
 msgid "Gujarati"
-msgstr "GÃºisearÃ¡itis"
+msgstr "Gúisearáitis"
 
 #. name for gwi
 msgid "Gwichin"
@@ -680,23 +691,24 @@ msgstr ""
 
 #. name for hat
 msgid "Haitian; Haitian Creole"
-msgstr ""
+msgstr "Criól Háítíoch"
 
 #. name for hau
 msgid "Hausa"
-msgstr ""
+msgstr "Hásais"
 
 #. name for haw
 msgid "Hawaiian"
-msgstr "HavÃÂ¡ÃÂ­ais"
+msgstr "Haváis"
 
 #. name for heb
 msgid "Hebrew"
 msgstr "Eabhrais"
 
+# Firefox
 #. name for her
 msgid "Herero"
-msgstr ""
+msgstr "Heiréiróis"
 
 #. name for hil
 msgid "Hiligaynon"
@@ -708,7 +720,7 @@ msgstr ""
 
 #. name for hin
 msgid "Hindi"
-msgstr "HiondÃºis"
+msgstr "Hiondúis"
 
 # "Hiteach" in dicts --kps
 #. name for hit
@@ -719,18 +731,18 @@ msgstr "Hiteais"
 msgid "Hmong"
 msgstr ""
 
+# Firefox
 #. name for hmo
 msgid "Hiri"
-msgstr ""
+msgstr "Hírí-Mótúis"
 
 #. name for hsb
-#, fuzzy
 msgid "Upper Sorbian"
-msgstr "Seirbis"
+msgstr "Sorbais Uachtarach"
 
 #. name for hun
 msgid "Hungarian"
-msgstr "UngÃ¡iris"
+msgstr "Ungáiris"
 
 #. name for hup
 msgid "Hupa"
@@ -742,20 +754,20 @@ msgstr ""
 
 #. name for ibo
 msgid "Igbo"
-msgstr ""
+msgstr "Íogbóis"
 
 #. name for isl
 msgid "Icelandic"
-msgstr "Ãoslainnis"
+msgstr "Íoslainnis"
 
 #. name for ido
 msgid "Ido"
-msgstr "Ido"
+msgstr ""
 
-# did this in unicode too
+# Firefox
 #. name for iii
 msgid "Sichuan Yi"
-msgstr "Sichuan Yi"
+msgstr "Íais Shisiuánach"
 
 #. name for ijo
 msgid "Ijo"
@@ -763,10 +775,9 @@ msgstr ""
 
 #. name for iku
 msgid "Inuktitut"
-msgstr "IonÃºitis"
+msgstr "Ionúitis"
 
-# used to be called "Occidental" -- convenient way to distinguish from "ia" 
-# my coinage --kps
+# used to be called "Occidental" -- convenient way to distinguish from "ia" ?
 #. name for ile
 msgid "Interlingue"
 msgstr "Idirtheanga iartharach"
@@ -775,7 +786,7 @@ msgstr "Idirtheanga iartharach"
 msgid "Iloko"
 msgstr ""
 
-# my coinage --kps; google has it "as is"
+# coinage --kps; google has it "as is"
 #. name for ina
 msgid "Interlingua"
 msgstr "Idirtheanga"
@@ -786,7 +797,7 @@ msgstr ""
 
 #. name for ind
 msgid "Indonesian"
-msgstr "IndinÃ©isis"
+msgstr "Indinéisis"
 
 #. name for ine
 msgid "Indo-European (Other)"
@@ -798,11 +809,11 @@ msgstr ""
 
 #. name for ipk
 msgid "Inupiaq"
-msgstr "Inupiaq"
+msgstr ""
 
 #. name for ira
 msgid "Iranian (Other)"
-msgstr "IarÃ¡nach (Eile)"
+msgstr "Iaránach (Eile)"
 
 #. name for iro
 msgid "Iroquoian languages"
@@ -810,19 +821,20 @@ msgstr ""
 
 #. name for ita
 msgid "Italian"
-msgstr "IodÃ¡ilis"
+msgstr "Iodáilis"
 
 #. name for jav
 msgid "Javanese"
-msgstr "IÃ¡vais"
+msgstr "Iávais"
 
+# artificial
 #. name for jbo
 msgid "Lojban"
-msgstr ""
+msgstr "Lojban"
 
 #. name for jpn
 msgid "Japanese"
-msgstr "SeapÃ¡inis"
+msgstr "Seapáinis"
 
 #. name for jpr
 msgid "Judeo-Persian"
@@ -834,7 +846,7 @@ msgstr ""
 
 #. name for kaa
 msgid "Kara-Kalpak"
-msgstr ""
+msgstr "Cara-Chalpáicis"
 
 #. name for kab
 msgid "Kabyle"
@@ -844,6 +856,7 @@ msgstr ""
 msgid "Kachin"
 msgstr ""
 
+# placename well-known
 #. name for kal
 msgid "Greenlandic (Kalaallisut)"
 msgstr "Graonlainnis (Kalaallisut)"
@@ -863,20 +876,19 @@ msgstr ""
 # placename in corpus --kps
 #. name for kas
 msgid "Kashmiri"
-msgstr "CaismÃ­ris"
+msgstr "Caismíris"
 
 #. name for kau
 msgid "Kanuri"
-msgstr ""
+msgstr "Canúiris"
 
 #. name for kaw
 msgid "Kawi"
 msgstr ""
 
-# have "CasacstÃ¡in" in corpus --KPS
 #. name for kaz
 msgid "Kazakh"
-msgstr "CasacstÃ¡is"
+msgstr "Casaicis"
 
 #. name for kbd
 msgid "Kabardian"
@@ -892,7 +904,7 @@ msgstr ""
 
 #. name for khm
 msgid "Khmer"
-msgstr ""
+msgstr "Ciméiris"
 
 #. name for kho
 msgid "Khotanese"
@@ -900,15 +912,16 @@ msgstr ""
 
 #. name for kik
 msgid "Kikuyu"
-msgstr ""
+msgstr "Ciocúis"
 
+# Firefox
 #. name for kin
 msgid "Kinyarwanda"
-msgstr ""
+msgstr "Cinearuáindis"
 
 #. name for kir
 msgid "Kirghiz"
-msgstr "Cirgeasais"
+msgstr "Cirgeastáinis"
 
 #. name for kmb
 msgid "Kimbundu"
@@ -916,20 +929,21 @@ msgstr ""
 
 #. name for kok
 msgid "Konkani"
-msgstr ""
+msgstr "Concáinis"
 
-# CoimÃ­ in Oll-liosta --kps
+# Coimí in Oll-liosta --kps
 #. name for kom
 msgid "Komi"
-msgstr ""
+msgstr "Coimí"
 
+# coined -kps
 #. name for kon
 msgid "Kongo"
-msgstr ""
+msgstr "Congóis"
 
 #. name for kor
 msgid "Korean"
-msgstr "CÃ³irÃ©is"
+msgstr "Cóiréis"
 
 #. name for kos
 msgid "Kosraean"
@@ -951,14 +965,16 @@ msgstr ""
 msgid "Kurukh"
 msgstr ""
 
+# Firefox
 #. name for kua
 msgid "Kuanyama"
-msgstr ""
+msgstr "Cuainiáimis"
 
 #. name for kum
 msgid "Kumyk"
 msgstr ""
 
+# de Bhaldraithe
 #. name for kur
 msgid "Kurdish"
 msgstr "Coirdis"
@@ -967,10 +983,10 @@ msgstr "Coirdis"
 msgid "Kutenai"
 msgstr ""
 
-# OLT as "Latino" --kps
+# OLT as "Latino" --kps, Laidínis in revision
 #. name for lad
 msgid "Ladino"
-msgstr "LaideanÃ³is"
+msgstr "Laideanóis"
 
 #. name for lah
 msgid "Lahnda"
@@ -980,10 +996,9 @@ msgstr ""
 msgid "Lamba"
 msgstr ""
 
-# irish humor --kps
 #. name for lao
 msgid "Lao"
-msgstr "Laois"
+msgstr "Láóis"
 
 #. name for lat
 msgid "Latin"
@@ -997,18 +1012,19 @@ msgstr "Laitvis"
 msgid "Lezghian"
 msgstr ""
 
-# my coinage --kps
+# coined -kps
 #. name for lim
 msgid "Limburgian"
-msgstr ""
+msgstr "Liombuirgis"
 
+# Firefox
 #. name for lin
 msgid "Lingala"
-msgstr ""
+msgstr "Liongáilis"
 
 #. name for lit
 msgid "Lithuanian"
-msgstr "LiotuÃ¡inis"
+msgstr "Liotuáinis"
 
 #. name for lol
 msgid "Mongo"
@@ -1026,13 +1042,15 @@ msgstr "Lucsambuirgis"
 msgid "Luba-Lulua"
 msgstr ""
 
+# Firefox
 #. name for lub
 msgid "Luba-Katanga"
-msgstr ""
+msgstr "Lúba-Cataingis"
 
+# coined -kps
 #. name for lug
 msgid "Ganda"
-msgstr ""
+msgstr "Gandais"
 
 #. name for lui
 msgid "Luiseno"
@@ -1052,7 +1070,7 @@ msgstr ""
 
 #. name for mkd
 msgid "Macedonian"
-msgstr "MacadÃ³inis"
+msgstr "Macadóinis"
 
 #. name for mad
 msgid "Madurese"
@@ -1062,9 +1080,10 @@ msgstr ""
 msgid "Magahi"
 msgstr ""
 
+# coined -kps
 #. name for mah
 msgid "Marshallese"
-msgstr ""
+msgstr "Marascailis"
 
 #. name for mai
 msgid "Maithili"
@@ -1076,7 +1095,7 @@ msgstr ""
 
 #. name for mal
 msgid "Malayalam"
-msgstr "MailÃ©alaimis"
+msgstr "Mailéalaimis"
 
 #. name for man
 msgid "Mandingo"
@@ -1094,7 +1113,7 @@ msgstr ""
 msgid "Marathi"
 msgstr "Maraitis"
 
-# OLT has "MÃ¡saÃ­och" n.
+# OLT has "Másaíoch" n.
 #. name for mas
 msgid "Masai"
 msgstr ""
@@ -1117,7 +1136,7 @@ msgstr ""
 
 #. name for mga
 msgid "Irish, Middle (900-1200)"
-msgstr "MeÃ¡n-Ghaeilge (900-1200)"
+msgstr "Meán-Ghaeilge (900-1200)"
 
 #. name for mic
 msgid "Mi'kmaq; Micmac"
@@ -1129,7 +1148,7 @@ msgstr ""
 
 #. name for mis
 msgid "Miscellaneous languages"
-msgstr "Teangacha Eile"
+msgstr "Teangacha éagsúla"
 
 #. name for mkh
 msgid "Mon-Khmer (Other)"
@@ -1137,15 +1156,16 @@ msgstr ""
 
 #. name for mlg
 msgid "Malagasy"
-msgstr "MalagÃ¡sais"
+msgstr "Malagásais"
 
 #. name for mlt
 msgid "Maltese"
-msgstr "MÃ¡ltais"
+msgstr "Máltais"
 
+# coined -kps
 #. name for mnc
 msgid "Manchu"
-msgstr ""
+msgstr "Manchúiris"
 
 #. name for mno
 msgid "Manobo languages"
@@ -1153,15 +1173,15 @@ msgstr ""
 
 #. name for moh
 msgid "Mohawk"
-msgstr ""
+msgstr "Móháicis"
 
 #. name for mol
 msgid "Moldavian"
-msgstr "MoldÃ¡vais"
+msgstr "Moldávais"
 
 #. name for mon
 msgid "Mongolian"
-msgstr "MongÃ³ilis"
+msgstr "Mongóilis"
 
 #. name for mos
 msgid "Mossi"
@@ -1169,7 +1189,7 @@ msgstr ""
 
 #. name for mul
 msgid "Multiple languages"
-msgstr ""
+msgstr "Teangacha iomadúla"
 
 #. name for mun
 msgid "Munda languages"
@@ -1180,9 +1200,8 @@ msgid "Creek"
 msgstr ""
 
 #. name for mwl
-#, fuzzy
 msgid "Mirandese"
-msgstr "SÃ­nis"
+msgstr ""
 
 #. name for mwr
 msgid "Marwari"
@@ -1190,7 +1209,7 @@ msgstr ""
 
 #. name for myn
 msgid "Mayan languages"
-msgstr ""
+msgstr "Teangacha Máigeacha"
 
 #. name for myv
 msgid "Erzya"
@@ -1204,36 +1223,39 @@ msgstr ""
 msgid "North American Indian (Other)"
 msgstr ""
 
+# Naipleach a1/nm1 in de Bhaldraithe
 #. name for nap
 msgid "Neapolitan"
-msgstr ""
+msgstr "Naiplis"
 
-# have NÃ¡rÃº in corpus
+# have Nárú in corpus
 #. name for nau
 msgid "Nauru"
-msgstr "NÃ¡rÃºis"
+msgstr "Nárúis"
 
-# have NavachÃ³ch in corpus
+# have Navachóch in corpus
 #. name for nav
 msgid "Navaho"
-msgstr "NavachÃ³is"
+msgstr "Navachóis"
 
 #. name for nbl
 msgid "Ndebele, South"
-msgstr ""
+msgstr "Ndebele Theas"
 
 #. name for nde
 msgid "Ndebele, North"
-msgstr ""
+msgstr "Ndebele Thuaidh"
 
+# Firefox
 #. name for ndo
 msgid "Ndonga"
-msgstr ""
+msgstr "Ndongais"
 
 #. name for nds
 msgid "German, Low"
-msgstr ""
+msgstr "Gearmáinis Íochtarach"
 
+# google; An CT slender
 #. name for nep
 msgid "Nepali"
 msgstr "Neipealais"
@@ -1255,14 +1277,12 @@ msgid "Niuean"
 msgstr ""
 
 #. name for nno
-#, fuzzy
 msgid "Norwegian Nynorsk"
-msgstr "Ioruais Nyorsk"
+msgstr "Ioruais Nynorsk"
 
 #. name for nob
-#, fuzzy
 msgid "Bokmål, Norwegian"
-msgstr "Ioruais BÃÂ¸kmal"
+msgstr "Ioruais Bokmål"
 
 #. name for nog
 msgid "Nogai"
@@ -1278,11 +1298,11 @@ msgstr "Ioruais"
 
 #. name for nso
 msgid "Northern Sotho; Pedi; Sepedi"
-msgstr ""
+msgstr "Seipidis"
 
 #. name for nub
 msgid "Nubian languages"
-msgstr "Teangacha NÃºibiacha"
+msgstr "Teangacha Núibiacha"
 
 #. name for nym
 msgid "Nyamwezi"
@@ -1292,9 +1312,10 @@ msgstr ""
 msgid "Classical Newari; Old Newari"
 msgstr ""
 
+# Firefox
 #. name for nya
 msgid "Chewa; Chichewa; Nyanja"
-msgstr ""
+msgstr "Siseivis"
 
 #. name for nyn
 msgid "Nyankole"
@@ -1310,19 +1331,20 @@ msgstr ""
 
 #. name for oci
 msgid "Occitan (post 1500)"
-msgstr "OcatÃ¡inis (tar Ã©is 1500)"
+msgstr "Ocatáinis (tar éis 1500)"
 
+# Firefox
 #. name for oji
 msgid "Ojibwa"
-msgstr ""
+msgstr "Óisibvis"
 
 #. name for ori
 msgid "Oriya"
-msgstr ""
+msgstr "Oirísis"
 
 #. name for orm
 msgid "Oromo"
-msgstr ""
+msgstr "Oraimis"
 
 #. name for osa
 msgid "Osage"
@@ -1330,11 +1352,11 @@ msgstr ""
 
 #. name for oss
 msgid "Ossetian"
-msgstr ""
+msgstr "Óiséitis"
 
 #. name for ota
 msgid "Turkish, Ottoman (1500-1928)"
-msgstr "Tuircis OtamÃ¡nach (1500-1928)"
+msgstr "Tuircis Otamánach (1500-1928)"
 
 #. name for oto
 msgid "Otomian languages"
@@ -1358,7 +1380,7 @@ msgstr ""
 
 #. name for pan
 msgid "Punjabi"
-msgstr "PainseÃ¡ibis"
+msgstr "Painseáibis"
 
 #. name for pap
 msgid "Papiamento"
@@ -1372,22 +1394,24 @@ msgstr ""
 msgid "Persian, Old (ca.600-400 B.C.)"
 msgstr "Sean-Pheirsis (ca.600-400 R.C.)"
 
+# also Fairsis (An CT)
 #. name for fas
 msgid "Persian"
 msgstr "Peirsis"
 
 #. name for phi
 msgid "Philippine (Other)"
-msgstr "FilipÃ­neach (Eile)"
+msgstr "Filipíneach (Eile)"
 
-# dicts have FÃ©inÃ­ceach --kps
+# dicts have Féiníceach --kps
 #. name for phn
 msgid "Phoenician"
-msgstr "FÃ©inÃ­cis"
+msgstr "Féinícis"
 
+# Firefox
 #. name for pli
 msgid "Pali"
-msgstr ""
+msgstr "Páilis"
 
 #. name for pol
 msgid "Polish"
@@ -1395,7 +1419,7 @@ msgstr "Polainnis"
 
 #. name for por
 msgid "Portuguese"
-msgstr "PortaingÃ©ilis"
+msgstr "Portaingéilis"
 
 #. name for pon
 msgid "Pohnpeian"
@@ -1405,14 +1429,14 @@ msgstr ""
 msgid "Prakrit languages"
 msgstr ""
 
+# OLT has Franco-Pr. == Franc-Phroibhinsis
 #. name for pro
-#, fuzzy
 msgid "Provençal, Old (to 1500)"
-msgstr "Sean-Ghaeilge (go dtÃ­ 900)"
+msgstr "Sean-Phroibhinsis (go dtí 1500)"
 
 #. name for pus
 msgid "Pushto"
-msgstr ""
+msgstr "Paistis"
 
 #. name for que
 msgid "Quechua"
@@ -1432,20 +1456,19 @@ msgstr ""
 
 #. name for roa
 msgid "Romance (Other)"
-msgstr ""
+msgstr "Rómánsach (Eile)"
 
 #. name for roh
 msgid "Raeto-Romance"
-msgstr ""
+msgstr "Raeta-Rómáinsis"
 
 #. name for rom
 msgid "Romany"
 msgstr "Romainis"
 
 #. name for ron
-#, fuzzy
 msgid "Romanian"
-msgstr "RÃ³mÃ¡inis"
+msgstr "Rómáinis"
 
 #. name for run
 msgid "Rundi"
@@ -1453,7 +1476,7 @@ msgstr ""
 
 #. name for rus
 msgid "Russian"
-msgstr "RÃºisis"
+msgstr "Rúisis"
 
 #. name for sad
 msgid "Sandawe"
@@ -1461,12 +1484,12 @@ msgstr ""
 
 #. name for sag
 msgid "Sango"
-msgstr ""
+msgstr "Sangóis"
 
-# placename is IacÃºit in OLT --kps
+# placename is Iacúit in OLT --kps
 #. name for sah
 msgid "Yakut"
-msgstr "IacÃºitis"
+msgstr "Iacúitis"
 
 #. name for sai
 msgid "South American Indian (Other)"
@@ -1478,7 +1501,7 @@ msgstr ""
 
 #. name for sam
 msgid "Samaritan Aramaic"
-msgstr ""
+msgstr "Aramais Shamárach"
 
 #. name for san
 msgid "Sanskrit"
@@ -1497,17 +1520,16 @@ msgid "Serbian"
 msgstr "Seirbis"
 
 #. name for scn
-#, fuzzy
 msgid "Sicilian"
-msgstr "FriÃºilis"
+msgstr "Sicilis"
 
 #. name for sco
 msgid "Scots"
-msgstr "BÃ©arla na hAlban"
+msgstr "Béarla na hAlban"
 
 #. name for hrv
 msgid "Croatian"
-msgstr "CrÃ³itis"
+msgstr "Cróitis"
 
 #. name for sel
 msgid "Selkup"
@@ -1515,15 +1537,15 @@ msgstr ""
 
 #. name for sem
 msgid "Semitic (Other)"
-msgstr "SeimÃ­teach (Eile)"
+msgstr "Seimíteach (Eile)"
 
 #. name for sga
 msgid "Irish, Old (to 900)"
-msgstr "Sean-Ghaeilge (go dtÃ­ 900)"
+msgstr "Sean-Ghaeilge (go dtí 900)"
 
 #. name for sgn
 msgid "Sign languages"
-msgstr "Teangacha comharthaÃ­"
+msgstr "Teangacha comharthaí"
 
 #. name for shn
 msgid "Shan"
@@ -1534,9 +1556,8 @@ msgid "Sidamo"
 msgstr ""
 
 #. name for sin
-#, fuzzy
 msgid "Sinhala; Sinhalese"
-msgstr "SiolÃ³inis"
+msgstr "Siolóinis"
 
 #. name for sio
 msgid "Siouan languages"
@@ -1552,23 +1573,23 @@ msgstr "Slavach (Eile)"
 
 #. name for slk
 msgid "Slovak"
-msgstr "SlÃ³vaicis"
+msgstr "Slóvaicis"
 
 #. name for slv
 msgid "Slovenian"
-msgstr "SlÃ³ivÃ©inis"
+msgstr "Slóivéinis"
 
 #. name for sma
 msgid "Southern Sami"
-msgstr "SÃ¡imis Theas"
+msgstr "Sáimis Theas"
 
 #. name for sme
 msgid "Northern Sami"
-msgstr "SÃ¡imis Thuaidh"
+msgstr "Sáimis Thuaidh"
 
 #. name for smi
 msgid "Sami languages (Other)"
-msgstr ""
+msgstr "Teangacha Sáimise (Eile)"
 
 #. name for smj
 msgid "Lule Sami"
@@ -1581,15 +1602,16 @@ msgstr ""
 # my coinage --kps
 #. name for smo
 msgid "Samoan"
-msgstr "SamÃ³is"
+msgstr "Samóis"
 
 #. name for sms
 msgid "Skolt Sami"
 msgstr ""
 
+# Firefox
 #. name for sna
 msgid "Shona"
-msgstr ""
+msgstr "Seoinis"
 
 #. name for snd
 msgid "Sindhi"
@@ -1599,15 +1621,14 @@ msgstr "Sindis"
 msgid "Soninke"
 msgstr ""
 
-# SogdÃ¡nach in OLT --kps
+# Sogdánach in OLT --kps
 #. name for sog
 msgid "Sogdian"
-msgstr "SogdÃ¡nais"
+msgstr "Sogdánais"
 
-# my coinage --kps
 #. name for som
 msgid "Somali"
-msgstr "SomÃ¡ilis"
+msgstr "Somáilis"
 
 #. name for son
 msgid "Songhai"
@@ -1619,11 +1640,11 @@ msgstr ""
 
 #. name for spa
 msgid "Spanish"
-msgstr "SpÃ¡innis"
+msgstr "Spáinnis"
 
 #. name for srd
 msgid "Sardinian"
-msgstr "SairdÃ­nis"
+msgstr "Sairdínis"
 
 #. name for srr
 msgid "Serer"
@@ -1633,14 +1654,16 @@ msgstr ""
 msgid "Nilo-Saharan (Other)"
 msgstr ""
 
+# KDE
 #. name for ssw
 msgid "Swati"
-msgstr ""
+msgstr "Sasuatais"
 
 #. name for suk
 msgid "Sukuma"
 msgstr ""
 
+# google
 #. name for sun
 msgid "Sundanese"
 msgstr "Sundais"
@@ -1649,14 +1672,14 @@ msgstr "Sundais"
 msgid "Susu"
 msgstr ""
 
-# SuimÃ©arach in dicts --kps
+# Suiméarach in dicts --kps
 #. name for sux
 msgid "Sumerian"
-msgstr "SuimÃ©arais"
+msgstr "Suiméarais"
 
 #. name for swa
 msgid "Swahili"
-msgstr "SvahaÃ­lis"
+msgstr "Svahaílis"
 
 #. name for swe
 msgid "Swedish"
@@ -1665,12 +1688,12 @@ msgstr "Sualainnis"
 # de Bhaldraithe --kps
 #. name for syr
 msgid "Syriac"
-msgstr "SÃ­ris"
+msgstr "Síris"
 
-# have "TaihÃ­tÃ­" in corpus
+# have "Taihítí" in corpus
 #. name for tah
 msgid "Tahitian"
-msgstr "TaihÃ­tis"
+msgstr "Taihítis"
 
 #. name for tai
 msgid "Tai (Other)"
@@ -1682,15 +1705,16 @@ msgstr "Tamailis"
 
 #. name for tso
 msgid "Tsonga"
-msgstr ""
+msgstr "Songais"
 
 #. name for tat
 msgid "Tatar"
 msgstr "Tatairis"
 
+# beware mistakes in OLT
 #. name for tel
 msgid "Telugu"
-msgstr "TeileagÃºilis"
+msgstr "Teileagúis"
 
 #. name for tem
 msgid "Timne"
@@ -1704,22 +1728,22 @@ msgstr ""
 msgid "Tetum"
 msgstr ""
 
-# have "TÃ¡idsÃ­ceastÃ¡in" in corpus
+# have "Táidsíceastáin" in corpus
 #. name for tgk
 msgid "Tajik"
-msgstr "TÃ¡idsÃ­cis"
+msgstr "Táidsícis"
 
 #. name for tgl
 msgid "Tagalog"
-msgstr "TagÃ¡laigis"
+msgstr "Tagálaigis"
 
 #. name for tha
 msgid "Thai"
-msgstr "TÃ©alainnis"
+msgstr "Téalainnis"
 
 #. name for bod
 msgid "Tibetan"
-msgstr "TibÃ©adais"
+msgstr "Tibéidis"
 
 #. name for tig
 msgid "Tigre"
@@ -1733,10 +1757,12 @@ msgstr "Tigrinis"
 msgid "Tiv"
 msgstr ""
 
+# artificial
 #. name for tlh
 msgid "Klingon; tlhIngan-Hol"
-msgstr ""
+msgstr "Klingon; tlhIngan-Hol"
 
+# placename Tócalá in OLT
 #. name for tkl
 msgid "Tokelau"
 msgstr ""
@@ -1752,12 +1778,12 @@ msgstr ""
 # my coinage --kps
 #. name for tog
 msgid "Tonga (Nyasa)"
-msgstr "Tongais (Nyasa)"
+msgstr "Tongais (Maláiv)"
 
 # my coinage --kps
 #. name for ton
 msgid "Tonga (Tonga Islands)"
-msgstr "Tongais (OileÃ¡in Tonga)"
+msgstr "Tongais (Oileáin Thonga)"
 
 #. name for tpi
 msgid "Tok Pisin"
@@ -1769,11 +1795,11 @@ msgstr ""
 
 #. name for tsn
 msgid "Tswana"
-msgstr ""
+msgstr "Suáinis"
 
 #. name for tuk
 msgid "Turkmen"
-msgstr "TurcamÃ¡inis"
+msgstr "Turcamáinis"
 
 #. name for tum
 msgid "Tumbuka"
@@ -1795,30 +1821,32 @@ msgstr "Altaech (Eile)"
 msgid "Tuvalu"
 msgstr ""
 
+# Firefox
 #. name for twi
 msgid "Twi"
-msgstr ""
+msgstr "Tiuíais"
 
 #. name for tyv
 msgid "Tuvinian"
 msgstr ""
 
+# placename OLT
 #. name for udm
-#, fuzzy
 msgid "Udmurt"
-msgstr "UrdÃºis"
+msgstr "Udmairtis"
 
 #. name for uga
 msgid "Ugaritic"
-msgstr ""
+msgstr "Úgairitis"
 
+# Firefox
 #. name for uig
 msgid "Uighur"
-msgstr ""
+msgstr "Úígiúiris"
 
 #. name for ukr
 msgid "Ukrainian"
-msgstr "ÃcrÃ¡inis"
+msgstr "Úcráinis"
 
 #. name for umb
 msgid "Umbundu"
@@ -1826,16 +1854,16 @@ msgstr ""
 
 #. name for und
 msgid "Undetermined"
-msgstr "Ãiginnte"
+msgstr "Éiginnte"
 
 #. name for urd
 msgid "Urdu"
-msgstr "UrdÃºis"
+msgstr "Urdais"
 
 # on google too --kps
 #. name for uzb
 msgid "Uzbek"
-msgstr "Ãisbeicis"
+msgstr "Úisbéicis"
 
 #. name for vai
 msgid "Vai"
@@ -1843,15 +1871,16 @@ msgstr ""
 
 #. name for ven
 msgid "Venda"
-msgstr ""
+msgstr "Veindis"
 
 #. name for vie
 msgid "Vietnamese"
-msgstr "VÃ­tneamais"
+msgstr "Vítneamais"
 
+# artificial
 #. name for vol
 msgid "Volapuk"
-msgstr ""
+msgstr "Volapük"
 
 #. name for vot
 msgid "Votic"
@@ -1883,20 +1912,19 @@ msgstr "Teangacha Sorbacha"
 
 #. name for wln
 msgid "Walloon"
-msgstr "VallÃºnais"
+msgstr "Vallúnais"
 
 #. name for wol
 msgid "Wolof"
-msgstr ""
+msgstr "Volaifis"
 
 #. name for xal
 msgid "Kalmyk; Oirat"
-msgstr ""
+msgstr "Cailmícis"
 
-# in google
 #. name for xho
 msgid "Xhosa"
-msgstr "Xhosa"
+msgstr "Cóisis"
 
 #. name for yao
 msgid "Yao"
@@ -1908,11 +1936,11 @@ msgstr ""
 
 #. name for yid
 msgid "Yiddish"
-msgstr "GiÃºdais"
+msgstr "Giúdais"
 
 #. name for yor
 msgid "Yoruba"
-msgstr ""
+msgstr "Iarúibis"
 
 #. name for ypk
 msgid "Yupik languages"
@@ -1926,23 +1954,35 @@ msgstr ""
 msgid "Zenaga"
 msgstr ""
 
+# Firefox
 #. name for zha
 msgid "Chuang; Zhuang"
-msgstr ""
+msgstr "Siuáingis"
 
 #. name for znd
 msgid "Zande"
 msgstr ""
 
-#  my coinage --kps
 #. name for zul
 msgid "Zulu"
-msgstr "SÃºlÃºis"
+msgstr "Súlúis"
 
 #. name for zun
 msgid "Zuni"
 msgstr ""
 
+#~ msgid "Gallegan"
+#~ msgstr "Gailísis"
+
 # placename in Oll-liosta --kps
 #~ msgid "Aleut"
-#~ msgstr "AiliÃºitis"
+#~ msgstr "Ailiúitis"
+
+#~ msgid "Sotho, Northern"
+#~ msgstr "Seipidis"
+
+#~ msgid "Spanish (Castilian)"
+#~ msgstr "Spáinnis (Caistíleach)"
+
+#~ msgid "Norwegian Bokmal"
+#~ msgstr "Ioruais Bokmal"
