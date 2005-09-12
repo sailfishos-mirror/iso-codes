@@ -1,4 +1,4 @@
-iso-codes (0.47-3) UNRELEASED; urgency=low
+iso-codes (0.48-1) unstable; urgency=low
 
   [ Christian Perrier ]
   * iso_3166:
@@ -15,7 +15,11 @@ iso-codes (0.47-3) UNRELEASED; urgency=low
       Closes: #325273
     - fr updated by Christian Perrier
 
- -- Alastair McKinstry <mckinstry@debian.org>  Sun, 28 Aug 2005 09:56:51 +0100
+  [ Alastair McKinstry ]
+  * Changed COPYING to LGPL-2.1; License is LGPL as described in 
+    debian/copyright and alioth, etc.
+
+ -- Alastair McKinstry <mckinstry@debian.org>  Mon, 12 Sep 2005 20:39:59 +0100
 
 iso-codes (0.47-2) unstable; urgency=low
 
