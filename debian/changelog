@@ -10,8 +10,10 @@ iso-codes (0.48-2) UNRELEASED; urgency=low
     - sl.po updated by  Primož Peterlin
   * iso_3166_2:
     - corrected spelling errors; thanks to Theppitak Karoonboonyanan.
+      Closes: #331071.
+  * iso_639.tab: Don't sort headers. Closes: #329548. 
 
- -- Alastair McKinstry <mckinstry@debian.org>  Tue,  4 Oct 2005 20:33:37 +0100
+ -- Alastair McKinstry <mckinstry@debian.org>  Wed,  5 Oct 2005 18:57:52 +0100
 
 iso-codes (0.48-1) unstable; urgency=low
 

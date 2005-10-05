@@ -10,9 +10,10 @@ from xml.sax import saxutils, make_parser, saxlib, saxexts, ContentHandler
 from xml.sax.handler import feature_namespaces
 import sys, os, getopt, urllib2
 
+lines = []
 class printLines(saxutils.DefaultHandler):
-	def __init__(self, ofile):
-		self.ofile = ofile
+	def __init__(self):
+		pass
 
 	def startElement(self, name, attrs):
 		if name != 'iso_639_entry':
@@ -34,8 +35,7 @@ class printLines(saxutils.DefaultHandler):
 		short_code=short_code.encode('UTF-8')
 		if type(name) == unicode:
 			name = name.encode('UTF-8')
-		self.ofile.write (t_code + '\t' + b_code + '\t' + short_code + '\t' + name + '\n')
-
+		lines.append(t_code + '\t' + b_code + '\t' + short_code + '\t' + name + '\n')
 
 ## 
 ## MAIN
@@ -70,7 +70,7 @@ ofile.write("""
 p = make_parser()
 p.setErrorHandler(saxutils.ErrorPrinter())
 try:
-	dh = printLines(ofile)
+	dh = printLines()
 	p.setContentHandler(dh)
 	p.parse(sys.argv[1])
 except IOError,e:
@@ -78,4 +78,7 @@ except IOError,e:
 except saxlib.SAXException,e:
 	print str(e)
 
+lines.sort()
+for l in lines:
+	ofile.write(l)
 ofile.close()

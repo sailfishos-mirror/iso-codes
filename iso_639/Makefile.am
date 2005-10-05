@@ -16,9 +16,7 @@ noinst_DATA = $(mofiles) $(xml_DATA:.xml=.pot)
 	                --fields name $< $@
 
 iso_639.tab: iso_639.xml
-	$(srcdir)/iso639tab.py $< > iso_639.tab.new
-	LC_ALL=C sort < iso_639.tab.new > iso_639.tab
-	rm -f iso_639.tab.new
+	LC_ALL=C $(srcdir)/iso639tab.py $< > iso_639.tab
 
 EXTRA_DIST = \
 	$(pofiles)	\
