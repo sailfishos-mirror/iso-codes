@@ -8,10 +8,15 @@ iso-codes (0.48-2) UNRELEASED; urgency=low
     - sl.po updated by  Primo Peterlin.
   * iso_3166:
     - sl.po updated by  Primož Peterlin
+    - ku.po by Erdal Ronahî.
   * iso_3166_2:
     - corrected spelling errors; thanks to Theppitak Karoonboonyanan.
       Closes: #331071.
   * iso_639.tab: Don't sort headers. Closes: #329548.
+  * Allow iso-codes to build without pyxml. Patch thanks to
+    James Henstridge. Closes: #331357, #328152.
+  * Include draft iso_639_3.xml table so that translators see the translations
+    needed.
   
   [ Tobias Toedter ]
   * iso_4217:
@@ -23,7 +28,7 @@ iso-codes (0.48-2) UNRELEASED; urgency=low
   * iso_639:
     - th.po updated by Theppitak Karoonboonyanan. Closes: #333094
 
- -- Alastair McKinstry <mckinstry@debian.org>  Mon, 10 Oct 2005 16:57:00 +0100
+ -- Alastair McKinstry <mckinstry@debian.org>  Mon, 24 Oct 2005 20:54:06 +0100
 
 iso-codes (0.48-1) unstable; urgency=low
 
