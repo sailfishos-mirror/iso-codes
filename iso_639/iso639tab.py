@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 #
 # Read iso-codes iso_639.xml data file and output a .tab file
 # 
@@ -6,12 +6,12 @@
 # Released under the GPL.
 # $Id$
 
-from xml.sax import saxutils, make_parser, saxlib, saxexts, ContentHandler
-from xml.sax.handler import feature_namespaces
+from xml.sax import make_parser, SAXException, SAXParseException
+from xml.sax.handler import feature_namespaces, ContentHandler
 import sys, os, getopt, urllib2
 
 lines = []
-class printLines(saxutils.DefaultHandler):
+class printLines(ContentHandler):
 	def __init__(self):
 		pass
 
@@ -68,16 +68,19 @@ ofile.write("""
 ##
 """)
 p = make_parser()
-p.setErrorHandler(saxutils.ErrorPrinter())
 try:
 	dh = printLines()
 	p.setContentHandler(dh)
 	p.parse(sys.argv[1])
-except IOError,e:
-	print in_sysID+": "+str(e)
-except saxlib.SAXException,e:
-	print str(e)
-
+except SAXParseException, e:
+	sys.stderr.write('%s:%s:%s: %s\n' % (e.getSystemId(),
+					     e.getLineNumber(),
+					     e.getColumnNumber(),
+					     e.getMessage()))
+	sys.exit(1)
+except Exception, e:
+	sys.stderr.write('<unknown>: %s\n' % str(e))
+	sys.exit(1)
 lines.sort()
 for l in lines:
 	ofile.write(l)

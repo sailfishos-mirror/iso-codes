@@ -1,16 +1,16 @@
-#!/usr/bin/python
+#!/usr/bin/env pythonenv python
 #
 # Read iso-codes data file and output a .tab file
 # 
-# Copyright (C) 2004 Alastair McKinstry <mckinstry@debian.org>
+# Copyright (C) 2004,2005 Alastair McKinstry <mckinstry@debian.org>
 # Released under the GPL.
 # $Id$
 
-from xml.sax import saxutils, make_parser, saxlib, saxexts, ContentHandler
-from xml.sax.handler import feature_namespaces
+from xml.sax import make_parser, SAXException, SAXParseException
+from xml.sax.handler import feature_namespaces, ContentHandler
 import sys, os, getopt, urllib2
 
-class printLines(saxutils.DefaultHandler):
+class printLines(ContentHandler):
     def __init__(self,element, nameslist, ofile):
          """ 
 	 nameslist is the elements to be printed in  strings,
@@ -65,16 +65,20 @@ else:
     ofile = sys.stdout
 
 p = make_parser()
-p.setErrorHandler(saxutils.ErrorPrinter())
 
 try:
     dh = printLines(element, fields, ofile)
     p.setContentHandler(dh)
     p.parse(trail[0])
-except IOError,e:
-    print in_sysID+": "+str(e)
-except saxlib.SAXException,e:
-    print str(e)
+except SAXParseException, e:
+ sys.stderr.write('%s:%s:%s: %s\n' % (e.getSystemId(),
+                                         e.getLineNumber(),
+                                         e.getColumnNumber(),
+                                         e.getMessage()))
+    sys.exit(1)
+except Exception, e:
+    sys.stderr.write('<unknown>: %s\n' % str(e))
+    sys.exit(1)
 
 
 ofile.close()
