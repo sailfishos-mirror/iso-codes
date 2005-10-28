@@ -11,13 +11,9 @@ pofiles = $(wildcard $(srcdir)/*.po)
 mofiles = $(patsubst $(srcdir)/%.po,%.mo, $(pofiles))
 noinst_DATA = $(mofiles) $(xml_DATA:.xml=.pot)
 
-iso_639.pot: iso_639.xml
+iso_639.pot: iso_639.xml iso_639_3.xml
 	$(top_srcdir)/iso2pot.py --is-version $(VERSION) --comments iso_639_2T_code \
-	                --fields name $< $@
-
-iso_639_3.pot: iso_639_3.xml
-	$(top_srcdir)/iso2pot.py --is-version $(VERSION) --comments iso_639_2T_code \
-	                --fields name $< $@
+	                --fields name --outfile $@ iso_639.xml iso_639_3.xml
 
 iso_639_3.xml:
 	$(top_srcdir)/iso_639/iso-dis-639-tab-parse.py 

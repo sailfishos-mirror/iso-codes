@@ -68,13 +68,13 @@ def printHeader(ofile, report_bugs_to, version):
 locale.setlocale(locale.LC_ALL, 'C')
 
 try:
-    (opts,trail)=getopt.getopt(sys.argv[1:],"f:c:v:",
-                               ["fields=", "comments=", "is-version="])
+    (opts,trail)=getopt.getopt(sys.argv[1:],"f:c:o:v:",
+                               ["fields=", "comments=", "is-version=", "outfile="])
     assert trail, "No argument provided"
 except Exception,e:
     print "ERROR: %s" % e
     print
-    print "Usage: iso2pot filename [outfilename]"
+    print "Usage: iso2pot filename [filename ...]"
     print " filename: xml data file from iso-codes package"
     print " outfilename: Write to this file"
     sys.exit(1)
@@ -83,6 +83,7 @@ version = "VERSION"
 report_bugs_to = "Alastair McKinstry <mckinstry@debian.org>"
 fields = ["name","official_name"]
 comment = "code"
+ofile = sys.stdout
 
 for opt, arg in opts:
     if opt in ('-v', '--is-version'):
@@ -91,11 +92,8 @@ for opt, arg in opts:
     	fields = arg.split(',')
     elif opt in ('-c','--comments'):
         comment = arg
-
-if len(trail)==2:
-    ofile = open(trail[1], 'w')
-else:
-    ofile = sys.stdout
+    elif opt in ('-o','--outfile'):
+        ofile = open(arg, 'w')
 
 printHeader(ofile, report_bugs_to, version)
 
@@ -104,7 +102,8 @@ p = make_parser()
 try:
     dh = printPot(fields, comment, ofile)
     p.setContentHandler(dh)
-    p.parse(trail[0])
+    for infile in trail:
+        p.parse(infile)
 except SAXParseException, e:
     sys.stderr.write('%s:%s:%s: %s\n' % (e.getSystemId(),
                                          e.getLineNumber(),
