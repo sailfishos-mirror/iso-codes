@@ -9,7 +9,7 @@ tab_DATA = $(DOMAIN).tab
 
 pofiles = $(wildcard $(srcdir)/*.po)
 mofiles = $(patsubst $(srcdir)/%.po,%.mo, $(pofiles))
-noinst_DATA = $(mofiles) $(xml_DATA:.xml=.pot)
+noinst_DATA = $(mofiles) iso_639.pot
 
 iso_639.pot: iso_639.xml iso_639_3.xml
 	$(top_srcdir)/iso2pot.py --is-version $(VERSION) --comments iso_639_2T_code \
