@@ -15,7 +15,7 @@ iso-codes (0.49-1) unstable; urgency=low
     - vi.po updated by  Clytie Siddall.
     - sr.po updated by  Danilo Segan.
     - eo.po updated by Edmund GRIMLEY EVANS.
-    - sl.po updated by  Primo Peterlin.
+    - sl.po updated by  Primož Peterlin.
     - ja.po updated by  IIDA Yosiaki.
   * iso_3166:
     - sl.po updated by  Primož Peterlin
@@ -24,7 +24,7 @@ iso-codes (0.49-1) unstable; urgency=low
   * iso_3166_2:
     - corrected spelling errors; thanks to Theppitak Karoonboonyanan.
       Closes: #331071.
-  * iso_639.tab: Don't sort headers. Closes: #329548.
+  * iso_639.tab: Don't sort headers. Closes: #329549.
   * Allow iso-codes to build without pyxml. Patch thanks to
     James Henstridge. Closes: #331357, #328152.
   * Include draft iso_639_3.xml table so that translators see the translations
@@ -62,7 +62,7 @@ iso-codes (0.48-1) unstable; urgency=low
     - fr updated by Christian Perrier
 
   [ Alastair McKinstry ]
-  * Changed COPYING to LGPL-2.1; License is LGPL as described in 
+  * Changed COPYING to LGPL-2.1; License is LGPL as described in
     debian/copyright and alioth, etc.
 
  -- Alastair McKinstry <mckinstry@debian.org>  Mon, 12 Sep 2005 20:39:59 +0100
@@ -180,7 +180,7 @@ iso-codes (0.45-1) unstable; urgency=low
     - Galician updated by Jacobo Tarrio. Closes: #296301
     - Name of "Finnish" corrected in French
   * ./debian/rules clean runs $(MAKE) distclean.
-  * Build iso_639.tab from iso_639.xml to include corrections. 
+  * Build iso_639.tab from iso_639.xml to include corrections.
     Closes: #297661.
 
  -- Alastair McKinstry <mckinstry@debian.org>  Wed,  2 Mar 2005 07:16:56 +0000
@@ -340,7 +340,7 @@ iso-codes (0.38-1) unstable; urgency=low
     - fr.po: updated by Michel Robitaille.
   * iso_4217
     - tr.po: updated by Nilgün Belma Bugüner.
-    - sr.po: new file from Aleksandar Jelenak. 
+    - sr.po: new file from Aleksandar Jelenak.
 
  -- Alastair McKinstry <mckinstry@debian.org>  Fri, 30 Jul 2004 22:00:38 +0100
 
@@ -461,15 +461,15 @@ iso-codes (0.33-1) unstable; urgency=low
 
 iso-codes (0.32-1) unstable; urgency=low
 
-  * Remove bogus es.lat1.po that breaks build. Closes: #246866. 
+  * Remove bogus es.lat1.po that breaks build. Closes: #246866.
 
  -- Alastair McKinstry <mckinstry@debian.org>  Sun,  2 May 2004 10:32:14 +0100
 
 iso-codes (0.31-1) unstable; urgency=low
 
   * all *.po: Add name to Report-Msgid-Bugs-To: field.
-  * Official name of Afghanistan is now 
-    "The Transitional Islamic State of Afghanistan". 
+  * Official name of Afghanistan is now
+    "The Transitional Islamic State of Afghanistan".
     Closes: #246499.
   * iso_3166_1: Aland Islands -> Åland Islands.
   * iso_3166:
@@ -522,7 +522,7 @@ iso-codes (0.30-1) unstable; urgency=low
     - all: Ooat-Vlaanderen -> Oost-Vlaanderen.
     - all: Corrected "Oulun Lasni" entry; bad chars removed.
     - all: regions in the Netherlands: Drente->Drenthe, Noord
-      Holland->Noord-Holland, Noord Brabant->Noord-Brabant, 
+      Holland->Noord-Holland, Noord Brabant->Noord-Brabant,
       Zuid Holland->Zuid-Holland, Vlaams Brabant -> Vlaams-Brabant.
   * iso_3166_3:
     - lt.po: Updated by Kęstutis Biliūnas.
@@ -615,9 +615,9 @@ iso-codes (0.28-1) unstable; urgency=low
   * Alastair McKinstry
     - Add new language code for Classical Newari. Closes: #238085.
     - iso_3166: change TW to "Taiwan, Province of China". Closes: #238973.
-    - iso_3166: change GB to "United Kingdom". 
+    - iso_3166: change GB to "United Kingdom".
     - Add iso_3166.xml, iso_3166_2.xml, iso_639.xml, iso_4217.xml
-  *  Mətin ?mirov 
+  *  Mətin ?mirov
     - iso_3166/az.po: Update.
 
  -- Alastair McKinstry <mckinstry@debian.org>  Sun, 21 Mar 2004 19:34:00 +0100
@@ -681,7 +681,7 @@ iso-codes (0.24-1) unstable; urgency=low
   * Updated iso_3166/zh_CN.po thanks to Carlos Z.F. Liu. Closes: #230656.
   * Updated Ukranian translations thanks to Eugeniy Meshcheryakov.
     Closes: #232277.
-    
+
  -- Alastair McKinstry <mckinstry@debian.org>  Thu, 12 Feb 2004 09:27:14 +0000
 
 iso-codes (0.23-1) unstable; urgency=low
@@ -691,10 +691,10 @@ iso-codes (0.23-1) unstable; urgency=low
   * iso-3166-udeb: Don't include changelogs.
   * Updated iso_4217/cs.po from Miroslav Kure.  Closes: #231532.
   * Updated iso_3166/fr.po thanks to Christian Perrier. Closes: #230779.
-  * Updated Greek files thanks to Konstantinos Margaritis. 
+  * Updated Greek files thanks to Konstantinos Margaritis.
     Closes: #229507, #229530.
   * Removed superflous spaces and tabs in entries. Closes: #230781.
- 
+
  -- Alastair McKinstry <mckinstry@debian.org>  Tue, 10 Feb 2004 20:57:23 +0000
 
 iso-codes (0.22-1) unstable; urgency=low
@@ -704,22 +704,22 @@ iso-codes (0.22-1) unstable; urgency=low
     - Hungarian iso_3166 Updated from Verok Istvan; Closes: #228181.
     - Japanese update from Kenshi Muto; Closes: #228199.
     - Russian update for iso_3166 from Christian Perrier; Closes: #228314.
-    - Czech update for iso_3166 from Miroslav Kure; Closes: #228476. 
+    - Czech update for iso_3166 from Miroslav Kure; Closes: #228476.
     - Polish update for iso_4217 from Bartosz Fenski; Closes: #229085.
-    - Simplified Chinese update for iso_3166 from Carlos Z.F. Liu; 
+    - Simplified Chinese update for iso_3166 from Carlos Z.F. Liu;
       Closes: #229165.
 
  -- Alastair McKinstry <mckinstry@debian.org>  Sun, 18 Jan 2004 20:57:23 +0000
 
 iso-codes (0.21-1) unstable; urgency=low
 
-  * Change iso-* to iso_* to satisfy the Translation Robot. 
+  * Change iso-* to iso_* to satisfy the Translation Robot.
   * iso_3166/pt_BR.po: Better Brazilian Portuguese translations from
     Andre Luis Lopes. Closes: #227993.
   * Updated Serbian iso_3166.pot from Aleksandar Jelenak.
   * Updated Swedish iso_3166.pot from Christian Rose.
   * Corrected French iso_3166.pot from Christian Perrier. Closes: #227690.
-  * Corrected Persian iso_639.pot from Roozbeh Pournader. 
+  * Corrected Persian iso_639.pot from Roozbeh Pournader.
   * Updated Irish iso_639.pot from Kevin Scannell.
   * New Norwegian Nyorsk translation of iso_639 from Karl Ove Hufthammer.
   * Fix bad "fuzzy" comments on iso_3166 strings. Closes: #227207.
@@ -728,8 +728,8 @@ iso-codes (0.21-1) unstable; urgency=low
  -- Alastair McKinstry <mckinstry@debian.org>  Fri, 16 Jan 2004 20:28:56 +0000
 
 iso-codes (0.018-1) unstable; urgency=low
-  
-  * iso-3166/ga.po: More translations. 
+
+  * iso-3166/ga.po: More translations.
   * iso-3166-3.tab: Fixes so Hungarian entries from Andras Meszaros,
   * iso-639.tab: Include Portuguese.
   * Moved to Standards-Version: 3.6.1; no changes required.
@@ -762,7 +762,7 @@ iso-codes (0.015) unstable; urgency=low
 iso-codes (0.014) unstable; urgency=low
 
   * iso-639/iso-639.tab: English missing!. added.
-  * iso-3166/iso-3166-2.tab: Spelling mistakes in Polish names corrected. 
+  * iso-3166/iso-3166-2.tab: Spelling mistakes in Polish names corrected.
 
  -- Alastair McKinstry <mckinstry@computer.org>  Fri,  7 Mar 2003 23:25:11 +0000
 
@@ -846,7 +846,7 @@ iso-codes (0.5) unstable; urgency=low
     Closes: #168146.
   * Update README to reflect changes.
   * Now architecture: all as gettext can read byte-swapped po files.
-  * iso-3166-2.tab: Corrected entries for Berlin, Zeeland. Closes: #168003. 
+  * iso-3166-2.tab: Corrected entries for Berlin, Zeeland. Closes: #168003.
   * iso-3166-2.tab: Corrected Polish entries. Closes: #167857.
 
  -- Alastair McKinstry <mckinstry@computer.org>  Thu,  7 Nov 2002 22:08:33 +0100
@@ -859,14 +859,14 @@ iso-codes (0.4) unstable; urgency=low
   * Split the Official forms of country names into iso-3166-long.tab
   * Include long name changes from ISO-1 Newsletter 4.
   * binary-arch now builds the .po files. (Endian, hence arch-dependent).
-    Closes: #167896. 
+    Closes: #167896.
 
  -- Alastair McKinstry <mckinstry@computer.org>  Tue,  5 Nov 2002 20:55:33 +0100
 
 iso-codes (0.3) unstable; urgency=low
 
   * iso-639/cy.po: New; Thanks to Dafydd Tomos <dafydd.tomos@imaginet.co.uk>
-  * Split iso-3166-2 into a seperate directory. 
+  * Split iso-3166-2 into a seperate directory.
 
  -- Alastair McKinstry <mckinstry@computer.org>  Wed, 23 Oct 2002 18:22:28 +0200
 
@@ -880,13 +880,13 @@ iso-codes (0.2) unstable; urgency=low
     iso-4217/pt.po, iso-4217/pt_BR.po, iso-4217/ru.po, iso-4217/sk.po,
     iso-4217/sv.po, iso-4217/tr.po, iso-4217/uk.po, iso-4217.zh_CN.po,
     iso-4217/zh_TW.po : Translated to UTF-8, corrected headers,
-    deleted old translations. 
-  * iso-639/az.po, iso-639/bg.po, iso-639/ca.po, iso-639/cs.po,  
-    iso-639/da.po, iso-639/de.po, iso-639/el.po, iso-639/es.po, 
+    deleted old translations.
+  * iso-639/az.po, iso-639/bg.po, iso-639/ca.po, iso-639/cs.po,
+    iso-639/da.po, iso-639/de.po, iso-639/el.po, iso-639/es.po,
     iso-639/et.po, iso-639/fi.po, iso-639/fr.po, iso-669/gl.po,
     iso-639/hr.po, iso-639/hu.po, iso-639/it.po, iso-639/ja.po,
     iso-639/ko.po, iso-639/lt.po, iso-639/ms.po, iso-639/nl.po,
-    iso-639/nn.po, iso-639/no.po, iso-639/pl.po, iso-639/pt_BR.po, 
+    iso-639/nn.po, iso-639/no.po, iso-639/pl.po, iso-639/pt_BR.po,
     iso-639/pt.po, iso-639/ro.po, iso-639/sl.po, iso-639/sv.po,
     iso-639/ta.po, iso-639/tr.po, iso-639/uk.po, iso-639/wa.po,
     iso-639/zh_CN.po, iso-639/zh_TW.po : corrected headers, translated to UTF-8
@@ -901,7 +901,7 @@ iso-codes (0.2) unstable; urgency=low
     iso-3166/fi.po, iso-3166/gl.po, iso-3166/he.po, iso-3166/is.po,
     iso-3166/ja.po, iso-3166/lt.po, iso-3166/mi.po, iso-3166/mk.po,
     iso-3166/mt.po, iso-3166/nb.po, iso-3166/ml.po, iso-3166/oc.po
-    iso-3166/pl.po, iso-3166/pt_BR.po, iso-3166/pt.po, iso-3166/ro.po, 
+    iso-3166/pl.po, iso-3166/pt_BR.po, iso-3166/pt.po, iso-3166/ro.po,
     iso-3166/ru.po, iso-3166/sl.po, iso-3166/sr.po, iso-3166/ta.po,
     iso-3166/th.po, iso-3166/uk.po, iso-3166/vi.po, iso-3166/wa.po,
     iso-3166/xh.po, iso-3166/zh_CN.po, iso-3166/zh_TW.po, iso-3166/zu.po
