@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 """
-Parse the SIL.org iso-dis-639-3_20050820.tab file and create
+Parse the SIL.org iso-dis-639-3_20050910.tab file and create
 an XML file for our own use.
 """
 
-f=open("iso-dis-639-3_20050820.tab")
+f=open("iso-dis-639-3_20050910.tab")
 
 ot=open("iso_639_3.xml","w")
 
