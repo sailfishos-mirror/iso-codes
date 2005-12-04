@@ -4,6 +4,15 @@ iso-codes (0.49-2) UNRELEASED; urgency=low
   * iso_639:
     - tt.po updated by  Albert Fazlí
     - da.po updated by  Claus Hindsgaul
+    - Added new codes (see http://www.loc.gov/standards/iso639-2/codechanges.html)
+      - Karelian
+      - Frisian renamed to Western Frisian
+      - Eastern Frisian
+      - Northern Frisian
+      - Angika
+      - Swiss German
+      - Aromanian
+    - update ISO 639-3 to the 20050910 version of SIL
   * iso_3166:
     - tt.po added by  Albert Fazlí
     - bn.po added by Progga
@@ -13,7 +22,7 @@ iso-codes (0.49-2) UNRELEASED; urgency=low
   * Removed watch file. There's currently no real homepage for the
     tarball.
 
- -- Christian Perrier <bubulle@debian.org>  Thu, 24 Nov 2005 21:27:25 +0100
+ -- Christian Perrier <bubulle@debian.org>  Sun,  4 Dec 2005 08:26:50 +0100
 
 iso-codes (0.49-1) unstable; urgency=low
 
