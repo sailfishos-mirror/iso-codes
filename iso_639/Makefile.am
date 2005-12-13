@@ -1,5 +1,6 @@
 DOMAIN = iso_639
 VERSION= @PACKAGE_VERSION@
+SUBDIRS = iso_639_3
 
 xmldir = $(datadir)/xml/iso-codes
 xml_DATA = $(DOMAIN).xml iso_639_3.xml
@@ -11,9 +12,9 @@ pofiles = $(wildcard $(srcdir)/*.po)
 mofiles = $(patsubst $(srcdir)/%.po,%.mo, $(pofiles))
 noinst_DATA = $(mofiles) iso_639.pot
 
-iso_639.pot: iso_639.xml iso_639_3.xml
+iso_639.pot: iso_639.xml
 	$(top_srcdir)/iso2pot.py --is-version $(VERSION) --comments iso_639_2T_code \
-	                --fields name --outfile $@ iso_639.xml iso_639_3.xml
+	                --fields name --outfile $@ iso_639.xml
 
 iso_639_3.xml:
 	$(top_srcdir)/iso_639/iso-dis-639-tab-parse.py 
