@@ -44,6 +44,7 @@ iso_639/Makefile
 iso_3166/Makefile
 iso_3166/iso_3166_2/Makefile
 iso_4217/Makefile
+iso_639/iso_639_3/Makefile
 notes/Makefile
 ])
 

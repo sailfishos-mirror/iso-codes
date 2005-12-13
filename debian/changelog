@@ -1,9 +1,10 @@
-iso-codes (0.49-2) UNRELEASED; urgency=low
+iso-codes (0.50-1) UNRELEASED; urgency=low
 
   [ Alastair McKinstry ]
   * iso_639:
     - Added new code: srn Sranan Tongo
     - Move to DH_COMPAT=5
+    - Split iso_639_3 into a separate domain, to be kind to translators.
 
   [ Christian Perrier ]
   * iso_639:
@@ -27,7 +28,7 @@ iso-codes (0.49-2) UNRELEASED; urgency=low
   * Removed watch file. There's currently no real homepage for the
     tarball.
 
- -- Christian Perrier <bubulle@debian.org>  Sun,  4 Dec 2005 08:26:50 +0100
+ -- Alastair McKinstry <mckinstry@debian.org>  Tue, 13 Dec 2005 21:57:42 +0000
 
 iso-codes (0.49-1) unstable; urgency=low
 
