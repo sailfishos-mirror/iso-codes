@@ -3,6 +3,7 @@ iso-codes (0.50-1) UNRELEASED; urgency=low
   [ Alastair McKinstry ]
   * iso_639:
     - Added new code: srn Sranan Tongo
+    - Added new code: zxx is 'No linguistic content'
     - Move to DH_COMPAT=5
     - Split iso_639_3 into a separate domain, to be kind to translators.
   * iso_4217:
@@ -10,6 +11,8 @@ iso-codes (0.50-1) UNRELEASED; urgency=low
     - du.po: updated by Gabor Kelemen.
   * Updated debian/copyright to point to current source of iso-codes,
     namely the CVS repository.
+  * iso_3166:
+    - de.po: Corrections by Christian Stimming.
 
   [ Christian Perrier ]
   * iso_639:
