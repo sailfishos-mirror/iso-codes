@@ -30,6 +30,7 @@ clean:
 	dh_testroot
 	-$(MAKE) distclean
 	rm -f build-stamp configure aclocal.m4 config.{guess,log,sub} missing
+	rm -f iso_639/iso_639_3/iso_639.xml
 	find . -name Makefile.in -exec rm {} \;
 	dh_clean
 
