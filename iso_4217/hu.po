@@ -1,25 +1,25 @@
 # Hungarian translations of ISO- 4217 Currency names
-# Copyright (C) 2002 Free Software Foundation, Inc.
-# Translations from gnumeric: 
-# Emese Kovacs <emese@gnome.hu>, 2000
-# Andras TIMAR <timar@gnome.hu>, 2000
-# Translation for Debian iso-codes:
-# VERÓK István <vi@fsf.hu>, 2004.
-#
+# Copyright (C) 2000, 2004, 2006 Free Software Foundation, Inc.
 # $Id$
+# http://www.unicode.org/cldr/data/diff/main/hu_HU.html
+# Emese Kovacs <emese@gnome.hu>, 2000.
+# Andras TIMAR <timar@gnome.hu>, 2000.
+# VERÓK István <vi@fsf.hu>, 2004.
+# Gabor Kelemen <kelemeng@gnome.hu>, 2006.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_4217 CVS\n"
+"Project-Id-Version: iso_4217 0.47\n"
 "Report-Msgid-Bugs-To: Alastair McKinstry <mckinstry@debian.org>\n"
-"POT-Creation-Date: 2004-06-15 21:36+0100\n"
-"PO-Revision-Date: 2004-03-28 00:18+0100\n"
-"Last-Translator: VERÓK István <vi@fsf.hu>\n"
-"Language-Team: Debian Hungarian Localization Team <debian-l10n-"
-"hungarian@lists.debian.hu>\n"
+"POT-Creation-Date: 2005-08-11 04:48-0400\n"
+"PO-Revision-Date: 2006-01-06 12:44+0100\n"
+"Last-Translator: Gabor Kelemen <kelemeng@gnome.hu>\n"
+"Language-Team: Hungarian <translation-team-hu@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.10.2\n"
+"Plural-Forms:  nplurals=1; plural=0;\n"
 
 #. currency_name for AED
 msgid "UAE Dirham"
@@ -527,7 +527,7 @@ msgstr "Salamon-szigeteki dollár"
 
 #. currency_name for SCR
 msgid "Seychelles Rupee"
-msgstr "Seychelles-i rúpia"
+msgstr "seychelles-i rúpia"
 
 #. currency_name for SDD
 msgid "Sudanese Dinar"
@@ -703,16 +703,15 @@ msgstr "különleges lehívási jog"
 
 #. currency_name for XFO
 msgid "Gold-Franc"
-msgstr ""
+msgstr "francia arany frank"
 
 #. currency_name for XFU
-#, fuzzy
 msgid "UIC-Franc"
-msgstr "CFP Franc"
+msgstr "francia UIC-frank"
 
 #. currency_name for XOF
 msgid "CFA Franc BCEAO"
-msgstr "CFA Franc BCEAO"
+msgstr "CFA frank BCEAO"
 
 #. currency_name for XPD
 msgid "Palladium"
@@ -720,7 +719,7 @@ msgstr "palládium"
 
 #. currency_name for XPF
 msgid "CFP Franc"
-msgstr "CFP Franc"
+msgstr "CFP frank"
 
 #. currency_name for XPT
 msgid "Platinum"
@@ -732,7 +731,7 @@ msgstr "tesztcélokat szolgáló kód"
 
 #. currency_name for XXX
 msgid "No currency involved"
-msgstr "Pénz nélküli ügylet"
+msgstr "pénz nélküli ügylet"
 
 #. currency_name for YER
 msgid "Yemini Rial"
@@ -755,379 +754,293 @@ msgid "Zimbabwe Dollar"
 msgstr "zimbabwei dollár"
 
 #. currency_name for ADP
-#, fuzzy
 msgid "Andorran Peseta"
 msgstr "andorrai peseta"
 
 #. currency_name for ALK
-#, fuzzy
 msgid "Albanian Old Lek"
-msgstr "albán lek"
+msgstr "albán régi lek"
 
 #. currency_name for AON
-#, fuzzy
 msgid "Angola New Kwanza"
 msgstr "angolai új kwanza"
 
 #. currency_name for AOR
-#, fuzzy
 msgid "Angola Kwanza Reajustado"
-msgstr "angolai új kwanza"
+msgstr "angolai kwanza reajustado"
 
 #. currency_name for ARA
-#, fuzzy
 msgid "Argentine Austral"
-msgstr "argentin peso"
+msgstr "argentin austral"
 
 #. currency_name for ARP
-#, fuzzy
 msgid "Peso Argentino"
 msgstr "argentin peso"
 
 #. currency_name for ATS
-#, fuzzy
 msgid "Austrian Schilling"
 msgstr "osztrák schilling"
 
 #. currency_name for BAD
 msgid "Bosnia and Herzegovina Dinar"
-msgstr ""
+msgstr "bosznia-hercegovinai dínár"
 
 #. currency_name for BEC
-#, fuzzy
 msgid "Belgian Convertible Franc"
-msgstr "belga frank"
+msgstr "belga frank (konvertibilis)"
 
 #. currency_name for BEL
-#, fuzzy
 msgid "Belgian Financial Franc"
-msgstr "belga frank"
+msgstr "belga frank (pénzügyi)"
 
 #. currency_name for BGJ
-#, fuzzy
 msgid "Bulgarian Lev A/52"
-msgstr "bolgár leva"
+msgstr "bolgár lev A/52"
 
 #. currency_name for BGK
-#, fuzzy
 msgid "Bulgarian Lev A/62"
-msgstr "bolgár leva"
+msgstr "bolgár lev A/62"
 
 #. currency_name for BOP
-#, fuzzy
 msgid "Bolivian Peso"
-msgstr "bolíviai boliviano"
+msgstr "bolíviai peso"
 
 #. currency_name for BRB
-#, fuzzy
 msgid "Brazilian Cruzeiro"
-msgstr "brazil real"
+msgstr "brazil cruzeiro"
 
 #. currency_name for BRC
-#, fuzzy
 msgid "Brazilian Cruzado"
-msgstr "brazil real"
+msgstr "brazil cruzado"
 
 #. currency_name for BRN
-#, fuzzy
 msgid "Brazilian New Cruzado"
-msgstr "brazil real"
+msgstr "brazil új cruzado"
 
 #. currency_name for BRR
-#, fuzzy
 msgid "Brazilian Cruzeiro Real"
-msgstr "brazil real"
+msgstr "brazil cruzeiro real"
 
 #. currency_name for BUK
 msgid "Burma"
-msgstr ""
+msgstr "burmai kyat"
 
 #. currency_name for CNX
 msgid "Chinese Peoples Bank Dollar"
-msgstr ""
+msgstr "kínai népbank dollár"
 
 #. currency_name for CSJ
 msgid "Czechoslovakian Krona A/53"
-msgstr ""
+msgstr "csehszlovák korona A/53"
 
 #. currency_name for CSK
-#, fuzzy
 msgid "Czechoslovakian Koruna"
-msgstr "cseh korona"
+msgstr "csehszlovák korona"
 
 #. currency_name for DDM
 msgid "Mark der DDR"
-msgstr ""
+msgstr "kelet-német márka"
 
 #. currency_name for DEM
-#, fuzzy
 msgid "Deutsche Mark"
 msgstr "német márka"
 
 #. currency_name for ECS
-#, fuzzy
 msgid "Ecuador Sucre"
 msgstr "equadori sucre"
 
 #. currency_name for ESA
-#, fuzzy
 msgid "Spanish Peseta ('A' Account)"
-msgstr "spanyol peseta"
+msgstr "spanyol peseta (\"A\" számlaegység)"
 
 #. currency_name for ESB
-#, fuzzy
 msgid "Spanish Peseta (convertible)"
-msgstr "spanyol peseta"
+msgstr "spanyol peseta (konvertibilis)"
 
 #. currency_name for ESP
-#, fuzzy
 msgid "Spanish Peseta"
 msgstr "spanyol peseta"
 
 #. currency_name for FIM
-#, fuzzy
 msgid "Finnish Markka"
 msgstr "finn márka"
 
 #. currency_name for FRF
-#, fuzzy
 msgid "French Franc"
 msgstr "francia frank"
 
 #. currency_name for GEK
-#, fuzzy
 msgid "Georgian Coupon"
-msgstr "grúz lari"
+msgstr "grúz kupon lari"
 
 #. currency_name for GNE
-#, fuzzy
 msgid "Guinea Syli"
-msgstr "guineai frank"
+msgstr "guineai syli"
 
 #. currency_name for GQE
 msgid "Equatorial Guinea Ekwele"
-msgstr ""
+msgstr "egyenlítői-guineai ekwele guineana"
 
 #. currency_name for GRD
-#, fuzzy
 msgid "Greek Drachma"
 msgstr "görög drachma"
 
 #. currency_name for GWE
-#, fuzzy
 msgid "Guinea Escudo"
-msgstr "guineai frank"
+msgstr "guineai escudo"
 
 #. currency_name for HRD
-#, fuzzy
 msgid "Croatian Dinar"
-msgstr "horvát kuna"
+msgstr "horvát dínár"
 
 #. currency_name for IEP
-#, fuzzy
 msgid "Irish Pound"
 msgstr "ír font"
 
 #. currency_name for ILP
-#, fuzzy
 msgid "Israeli Pound"
-msgstr "gibraltári font"
+msgstr "izraeli font"
 
 #. currency_name for ILR
-#, fuzzy
 msgid "Israeli Old Shekel"
-msgstr "izraeli sékel"
+msgstr "izraeli régi sékel"
 
 #. currency_name for ISJ
-#, fuzzy
 msgid "Iceland Old Krona"
-msgstr "izlandi korona"
+msgstr "izlandi régi korona"
 
 #. currency_name for ITL
-#, fuzzy
 msgid "Italian Lira"
 msgstr "olasz líra"
 
 #. currency_name for LAJ
 msgid "Lao Pot Pol"
-msgstr ""
+msgstr "lao Pot Pol"
 
 #. currency_name for LSM
-#, fuzzy
 msgid "Lesotho Maloti"
-msgstr "lesothoi loti"
+msgstr "lesothoi maloti"
 
 #. currency_name for LTT
-#, fuzzy
 msgid "Lithuanian Talonas"
-msgstr "litván litas"
+msgstr "litván talonas"
 
 #. currency_name for LUC
-#, fuzzy
 msgid "Luxembourg Convertible Franc"
-msgstr "luxemburgi frank"
+msgstr "luxemburgi konvertibilis frank"
 
 #. currency_name for LUF
-#, fuzzy
 msgid "Luxembourg Franc"
 msgstr "luxemburgi frank"
 
 #. currency_name for LUL
-#, fuzzy
 msgid "Luxembourg Financial Franc"
-msgstr "luxemburgi frank"
+msgstr "luxemburgi pénzügyi frank"
 
 #. currency_name for LVR
-#, fuzzy
 msgid "Latvian Ruble"
-msgstr "orosz rubel"
+msgstr "lett rubel"
 
 #. currency_name for MAF
-#, fuzzy
 msgid "Mali Franc"
 msgstr "mali frank"
 
 #. currency_name for MTP
-#, fuzzy
 msgid "Maltese Pound"
-msgstr "libanoni font"
+msgstr "máltai font"
 
 #. currency_name for MVQ
-#, fuzzy
 msgid "Maldive Rupee"
 msgstr "maldív rúpia"
 
 #. currency_name for MZE
-#, fuzzy
 msgid "Mozambique Escudo"
-msgstr "mozambiki metical"
+msgstr "mozambiki escudo"
 
 #. currency_name for NIC
-#, fuzzy
 msgid "Nicaraguan Cordoba"
-msgstr "nicaraguai arany cordoba"
+msgstr "nicaraguai cordoba"
 
 #. currency_name for NLG
-#, fuzzy
 msgid "Netherlands Guilder"
-msgstr "Holland forint"
+msgstr "holland forint"
 
 #. currency_name for PEH
-#, fuzzy
 msgid "Peruvian Sol"
-msgstr "perui új sol"
+msgstr "perui sol"
 
 #. currency_name for PEI
-#, fuzzy
 msgid "Peruvian Inti"
 msgstr "perui inti"
 
 #. currency_name for PTE
-#, fuzzy
 msgid "Portuguese Escudo"
 msgstr "portugál escudo"
 
 #. currency_name for RHD
-#, fuzzy
 msgid "Rhodesian Dollar"
-msgstr "bahamai dollár"
+msgstr "rodéziai dollár"
 
 #. currency_name for ROK
-#, fuzzy
 msgid "Romanian Leu A/52"
-msgstr "román lej"
+msgstr "román lej A/52"
 
 #. currency_name for SDP
-#, fuzzy
 msgid "Sudanese Pound"
-msgstr "libanoni font"
+msgstr "szudáni font"
 
 #. currency_name for SUR
-#, fuzzy
 msgid "USSR Rouble"
 msgstr "szovjet rubel"
 
 #. currency_name for TJR
-#, fuzzy
 msgid "Tajik Rouble"
-msgstr "orosz rubel"
+msgstr "tadzsikisztáni rubel"
 
 #. currency_name for UAK
-#, fuzzy
 msgid "Ukrainian Karbovanet"
-msgstr "ukrán hrivnya"
+msgstr "ukrán karbovanec"
 
 #. currency_name for UGS
-#, fuzzy
 msgid "Uganda Schilling"
 msgstr "ugandai shilling"
 
 #. currency_name for UGW
-#, fuzzy
 msgid "Uganda Old Schilling"
-msgstr "ugandai shilling"
+msgstr "ugandai régi shilling"
 
 #. currency_name for UYN
-#, fuzzy
 msgid "Old Uruguayan Peso"
-msgstr "uruguay-i peso"
+msgstr "régi uruguay-i peso"
 
 #. currency_name for UYP
-#, fuzzy
 msgid "Uruguayan Peso"
 msgstr "uruguay-i peso"
 
 #. currency_name for VNC
-#, fuzzy
 msgid "Viet Nam Old Dong"
-msgstr "vietnámi dong"
+msgstr "vietnami régi dong"
 
 #. currency_name for XEU
-#, fuzzy
 msgid "European Currency Unit ECU"
-msgstr "európai pénzegység EUM"
+msgstr "európai pénzegység ECU"
 
 #. currency_name for XRE
 msgid "RINET Funds Code"
-msgstr ""
+msgstr "RINET pénzkészlet-kód"
 
 #. currency_name for YDD
-#, fuzzy
 msgid "Yemeni Dinar"
-msgstr "jemeni rial"
+msgstr "jemeni dínár"
 
 #. currency_name for ZAL
-#, fuzzy
 msgid "South African Financial Rand"
-msgstr "dél-afrikai rand"
+msgstr "dél-afrikai pénzügyi rand"
 
 #. currency_name for ZRN
-#, fuzzy
 msgid "New Zaire"
-msgstr "zairei zaire"
+msgstr "új zairei zaire"
 
 #. currency_name for ZRZ
-#, fuzzy
 msgid "Zaire"
 msgstr "zairei zaire"
-
-#~ msgid "Afghanistan afghani"
-#~ msgstr "afgán afgani"
-
-#~ msgid "Irish pence ***"
-#~ msgstr "ír penny ***"
-
-#~ msgid "Kampuchean riel"
-#~ msgstr "kambodzsai riel"
-
-#~ msgid "Republic of Korea won"
-#~ msgstr "dél-koreai won"
-
-#~ msgid "Sierra Leone leone"
-#~ msgstr "Sierra Leone-i leone"
-
-#~ msgid "Democratic Yemeni dinar"
-#~ msgstr "demokratikus jemeni dínár"
-
-#~ msgid "South African rand funds code"
-#~ msgstr "dél-afrikai rand alapok kódja"
