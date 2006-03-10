@@ -29,7 +29,8 @@ clean:
 	dh_testdir
 	dh_testroot
 	-$(MAKE) distclean
-	rm -f build-stamp configure
+	rm -f build-stamp configure aclocal.m4 config.{guess,log,sub} missing
+	find . -name Makefile.in -exec rm {} \;
 	dh_clean
 
 binary-arch:
