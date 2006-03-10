@@ -1,3 +1,137 @@
+0.50 Alastair McKinstry <mckinstry@debian.org>
+
+  [ Alastair McKinstry ]
+  * iso_639:
+    - Added new code: srn Sranan Tongo
+    - Move to DH_COMPAT=5
+    - Split iso_639_3 into a separate domain, to be kind to translators.
+  * iso_4217:
+    - de.po: proof-read patch by Christian Stimming.
+  * Updated debian/copyright to point to current source of iso-codes,
+    namely the CVS repository.
+
+  [ Christian Perrier ]
+  * iso_639:
+    - tt.po updated by  Albert Fazlí
+    - da.po updated by  Claus Hindsgaul
+    - Added new codes (see http://www.loc.gov/standards/iso639-2/codechanges.html)
+      - Karelian
+      - Frisian renamed to Western Frisian
+      - Eastern Frisian
+      - Northern Frisian
+      - Angika
+      - Swiss German
+      - Aromanian
+    - update ISO 639-3 to the 20050910 version of SIL
+  * iso_3166:
+    - tt.po added by  Albert Fazlí
+    - bn.po added by Progga
+    - et.po updated by Hasso Tepper
+    - pa_IN.po added by Amanpreet Singh Alam
+    - irrelevant pa.po removed
+
+  [ Tobias Toedter ]
+  * Removed double space from package description. Closes: #338190
+  * Removed watch file. There's currently no real homepage for the
+    tarball.
+  * iso_4217:
+    - ru.po updated by Yuri Kozlov. Closes: #346189
+
+  [ Konstantinos Margaritis]
+  * Updated iso_3166/el.po
+
+  [ Claus Hindsgaul ]
+  * Updated iso_3166/da.po and iso_3166_3/da.po
+
+0.49 Alastair McKinstry <mckinstry@debian.org>
+
+  [ Alastair McKinstry ]
+  * iso_639:
+    - vi.po updated by  Clytie Siddall.
+    - sr.po updated by  Danilo Segan.
+    - eo.po updated by Edmund GRIMLEY EVANS.
+    - sl.po updated by  Primož Peterlin.
+    - ja.po updated by  IIDA Yosiaki.
+  * iso_3166:
+    - sl.po updated by  Primož Peterlin
+    - ku.po by Erdal Ronahî. Closes: #335234.
+      Remove byte-order-mark bytes from file ku.po: Closes: #335975.
+  * iso_3166_2:
+    - corrected spelling errors; thanks to Theppitak Karoonboonyanan.
+      Closes: #331071.
+  * iso_639.tab: Don't sort headers. Closes: #329549.
+  * Allow iso-codes to build without pyxml. Patch thanks to
+    James Henstridge. Closes: #331357, #328152.
+  * Include draft iso_639_3.xml table so that translators see the translations
+    needed. This generates a new.larger iso_639.pot. Closes: #325276.
+  * Correct README file, mentioning XML rather than tab formats.
+    Closes: #334744.
+  [ Tobias Toedter ]
+  * iso_4217:
+    - th.po translated by Theppitak Karoonboonyanan. Closes: #333076
+  * iso_3166:
+    - th.po updated by Theppitak Karoonboonyanan. Closes: #333080
+  * iso_3166_2:
+    - th.po updated by Theppitak Karoonboonyanan. Closes: #333093
+  * iso_639:
+    - th.po updated by Theppitak Karoonboonyanan. Closes: #333094
+
+
+0.48 Alastair McKinstry <mckinstry@debian.org>
+
+  [ Christian Perrier ]
+  * iso_3166:
+    - wo.po updated by Mouhamadou Mamoune Mbacke
+
+  [ Alastair McKinstry ]
+  * iso_4217:
+    - sl.po updated by  Primož Peterlin.
+    - et.po updated by  Ain Vagula.
+  
+  [ Tobias Toedter ]
+  * iso_639:
+    - Added new entry for "Ainu". Thanks to Christian Perrier.
+      Closes: #325273
+    - fr updated by Christian Perrier
+  
+  [ Alastair McKinstry ]
+  * Changed COPYING to LGPL-2.1; License is LGPL as described in
+    debian/copyright and alioth, etc.
+
+0.47-2 Alastair McKinstry <mckinstry@debian.org>
+
+  [ Tobias Toedter ]
+  * Added autoconf and automake1.9 to Build-Depends-Indep, which fixes
+    an FTBFS bug. Thanks to Andreas Jochens for the patch. Closes: #321588
+  * Added an XML Document Type Definition (DTD) for each XML file.
+    Closes: #272064
+  * iso_639:
+    - eo updated by Edmund Grimley Evans
+    - pt_BR updated by Juan Carlos Castro y Castro
+    - wa updated by Pablo Saratxaga
+    - de updated by Wolfgang Rohdewald
+    - fa updated by Roozbeh Pournader
+    - vi updated by Clytie Siddall
+    - ru updated by Yuri Kozlov (Closes: #321538)
+    - nl updated by Luk Claes
+    - es updated by Javier Fernández-Sanguino Peña
+    - da updated by Claus Hindsgaul
+
+  [ Alastair McKinstry ]
+  * iso_639:
+    - fi updated by Tommi Vainikainen
+    - nl further update by Luk Claes
+    - eo further cleanup by  Edmund Grimley Evans.
+    - ga updated by Kevin Patrick Scannell.
+    - vi further updated by Clytie Siddall. 
+  * iso_4217:
+    - vi updated by Clytie Siddall.
+  * iso_3166:
+    - vi updated by Clytie Siddall.
+  * iso_3166_2:
+    - vi updated by Clytie Siddall.
+
+
 0.47 Alastair McKinstry <mckinstry@debian.org>
 
   * Set pkgconfig-dir to DATADIR to be multilib friendly. Thanks to
