@@ -1,5 +1,6 @@
 iso-codes (0.50-2) UNRELEASED; urgency=low
 
+  [ Christian Perrier ]
   * iso_639:
     - fr.po updated by Christian Perrier for zxx
   * iso_3166:
@@ -7,7 +8,13 @@ iso-codes (0.50-2) UNRELEASED; urgency=low
       to fit a decision taken in -i18n
     - km.po added by Kakada Hok. Closes: #359669
 
- -- Christian Perrier <bubulle@debian.org>  Tue, 28 Mar 2006 14:51:06 +0200
+  [ Tobias Toedter ]
+  * iso_3166:
+    - Inclusion of an entry for Jersey, Guernsey, and Isle of Man,
+      according to the ISO 3166-1 NEWSLETTER No. V-11, published
+      on 2006-03-29. Closes: #360425
+
+ -- Tobias Toedter <t.toedter@gmx.net>  Sun,  2 Apr 2006 11:02:04 +0200
 
 iso-codes (0.50-1) experimental; urgency=low
 

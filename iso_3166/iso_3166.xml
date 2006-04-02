@@ -4,7 +4,7 @@
 <!--										-->
 <!-- Copyright (C) 2002,2004 Alastair McKinstry <mckinstry@debian.org>		-->
 <!--   Additional material: Andreas Jochens <aj@andaco.de>			-->
-<!--    Last updated: 2005-08-10						-->
+<!--    Last updated: 2006-04-02						-->
 <!-- Released under the LGPL							-->
 
 <!DOCTYPE iso_3166_entries [
@@ -536,6 +536,11 @@
 		name="Guatemala"
 		official_name="Republic of Guatemala" />
 	<iso_3166_entry
+		alpha_2_code="GG"
+		alpha_3_code="GGY"
+		numeric_code="831"
+		name="Guernsey" />
+	<iso_3166_entry
 		alpha_2_code="GN"
 		alpha_3_code="GIN"
 		numeric_code="324"
@@ -622,7 +627,12 @@
 		alpha_3_code="IRL"
 		numeric_code="372"
 		name="Ireland" />
-		<iso_3166_entry
+	<iso_3166_entry
+		alpha_2_code="IM"
+		alpha_3_code="IMN"
+		numeric_code="833"
+		name="Isle of Man" />
+	<iso_3166_entry
 		alpha_2_code="IL"
 		alpha_3_code="ISR"
 		numeric_code="376"
@@ -644,6 +654,11 @@
 		alpha_3_code="JPN"
 		numeric_code="392"
 		name="Japan" />
+	<iso_3166_entry
+		alpha_2_code="JE"
+		alpha_3_code="JEY"
+		numeric_code="832"
+		name="Jersey" />
 	<iso_3166_entry
 		alpha_2_code="JO"
 		alpha_3_code="JOR"
@@ -1465,7 +1480,7 @@
 	<iso_3166_3_entry
 		alpha_4_code="FQHH"
 		alpha_3_code="ATF"
-		date_withdrawn="1979"      
+		date_withdrawn="1979"
 		names="French Southern and Antarctic Territories"
 		comment="now split between AQ and TF" />
 	<iso_3166_3_entry
@@ -1587,7 +1602,7 @@
 		names="Upper Volta, Republic of" />
 	<iso_3166_3_entry
 		alpha_4_code="VA"
-		alpha_3_code="VAT"	
+		alpha_3_code="VAT"
 		numeric_code="336"
 		date_withdrawn="1996-04-03"
 		names="Vatican City State (Holy See)" />
@@ -1627,4 +1642,3 @@
 		date_withdrawn="1997-07-14"
 		names="Zaire, Republic of" />
 </iso_3166_entries>
-	
