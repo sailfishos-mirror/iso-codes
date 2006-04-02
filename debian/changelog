@@ -1,4 +1,4 @@
-iso-codes (0.50-2) UNRELEASED; urgency=low
+iso-codes (0.51-1) UNRELEASED; urgency=low
 
   [ Christian Perrier ]
   * iso_639:
@@ -13,8 +13,9 @@ iso-codes (0.50-2) UNRELEASED; urgency=low
     - Inclusion of an entry for Jersey, Guernsey, and Isle of Man,
       according to the ISO 3166-1 NEWSLETTER No. V-11, published
       on 2006-03-29. Closes: #360425
+  * Removed double definition of VERSION in Makefile.am
 
- -- Tobias Toedter <t.toedter@gmx.net>  Sun,  2 Apr 2006 11:02:04 +0200
+ -- Tobias Toedter <t.toedter@gmx.net>  Sun,  2 Apr 2006 12:36:23 +0200
 
 iso-codes (0.50-1) experimental; urgency=low
 
