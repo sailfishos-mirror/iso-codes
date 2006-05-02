@@ -24,10 +24,11 @@ iso_3166.pot: iso_3166.xml
 EXTRA_DIST = \
 	$(pofiles)	\
 	$(xml_DATA)	\
+	iso_3166.pot 	\
 	iso3166tab.py
 
 MOSTLYCLEANFILES = \
-	$(noinst_DATA)	\
+	$(mofiles) \
 	$(tab_DATA)
 
 include $(top_srcdir)/rules.make

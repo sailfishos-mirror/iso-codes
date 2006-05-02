@@ -15,9 +15,10 @@ iso_3166_2.pot: iso_3166_2.xml
 
 EXTRA_DIST = \
 	$(pofiles)	\
-	$(xml_DATA)	
+	$(xml_DATA)	\
+	iso_3166_2.pot
 
 MOSTLYCLEANFILES = \
-	$(noinst_DATA)
+	$(mofiles)
 
 include $(top_srcdir)/rules.make

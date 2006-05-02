@@ -25,10 +25,11 @@ iso_639.tab: iso_639.xml
 EXTRA_DIST = \
 	$(pofiles)	\
 	$(xml_DATA)	\
-	$(tab_DATA)
+	$(tab_DATA)	\
+	iso_639.pot
 
 MOSTLYCLEANFILES = \
-	$(noinst_DATA)	\
+	$(mofiles) \
 	$(tab_DATA)
 
 include $(top_srcdir)/rules.make

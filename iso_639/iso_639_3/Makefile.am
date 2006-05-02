@@ -15,9 +15,10 @@ iso_639_3.pot: iso_639_3.xml
 
 EXTRA_DIST = \
 	$(pofiles)	\
-	$(xml_DATA)	
+	$(xml_DATA)	\
+	iso_639_3.pot
 
 MOSTLYCLEANFILES = \
-	$(noinst_DATA)
+	$(mofiles)
 
 include $(top_srcdir)/rules.make
