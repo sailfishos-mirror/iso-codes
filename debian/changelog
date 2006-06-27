@@ -7,8 +7,10 @@ iso-codes (0.52-1) UNRELEASED; urgency=low
   * Remove debian/watch file from EXTRA_DIST in Makefile.am
   * Move to Standards-Version: 3.7.2. No changes required.
   * Update ISO 4217
+  * Remove iso_4217_historic.tab and iso_4217.tab as they are outdated
+    and no longer distributed
 
- -- Tobias Toedter <t.toedter@gmx.net>  Tue, 27 Jun 2006 19:57:14 +0200
+ -- Tobias Toedter <t.toedter@gmx.net>  Tue, 27 Jun 2006 21:28:16 +0200
 
 iso-codes (0.51-1.1) unstable; urgency=low
    
