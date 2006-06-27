@@ -10,8 +10,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_639 CVS\n"
-"Report-Msgid-Bugs-To: Alastair McKinstry <mckinstry@debian.org>\n"
-"POT-Creation-Date: 2006-06-10 19:25+0200\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <iso-codes@packages.debian.org>\n"
+"POT-Creation-Date: 2006-06-28 00:23+0200\n"
 "PO-Revision-Date: 2004-04-01 14:30+0300\n"
 "Last-Translator: Eugeniy Meshcheryakov <eugen@univ.kiev.ua>\n"
 "Language-Team: Ukrainian\n"
@@ -74,6 +74,10 @@ msgstr "Аккадська"
 msgid "Albanian"
 msgstr "Албанська"
 
+#. name for ale
+msgid "Aleut"
+msgstr ""
+
 #. name for alg
 msgid "Algonquian languages"
 msgstr "Алгонкінські мови"
@@ -87,7 +91,8 @@ msgid "Amharic"
 msgstr "Амхарська"
 
 #. name for ang
-msgid "English, Old (ca.450-1100)"
+#, fuzzy
+msgid "English, Old (ca. 450-1100)"
 msgstr "Давньоанглійська (450-1100)"
 
 #. name for anp
@@ -140,7 +145,8 @@ msgid "Asturian; Bable"
 msgstr ""
 
 #. name for ath
-msgid "Athapascan language"
+#, fuzzy
+msgid "Athapascan languages"
 msgstr "Атапаскська мова"
 
 #. name for aus
@@ -300,8 +306,8 @@ msgid "Carib"
 msgstr "Карібська"
 
 #. name for cat
-msgid "Catalan"
-msgstr "Каталонська"
+msgid "Catalan; Valencian"
+msgstr ""
 
 #. name for cau
 msgid "Caucasian (Other)"
@@ -336,7 +342,8 @@ msgid "Chinese"
 msgstr "Китайська"
 
 #. name for chk
-msgid "Chukese"
+#, fuzzy
+msgid "Chuukese"
 msgstr "Чукська"
 
 #. name for chm
@@ -360,8 +367,10 @@ msgid "Cherokee"
 msgstr "Черокі"
 
 #. name for chu
-msgid "Church Slavic"
-msgstr "Церковнослов'янська"
+msgid ""
+"Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church "
+"Slavonic"
+msgstr ""
 
 #. name for chv
 msgid "Chuvash"
@@ -388,23 +397,26 @@ msgid "Corsican"
 msgstr "Корсіканська"
 
 #. name for cpe
-msgid "English-based (Other)"
-msgstr "Засновані на англійській (іниші)"
+#, fuzzy
+msgid "Creoles and pidgins, English based (Other)"
+msgstr "Креольські та піджінізовані мови (інші)"
 
 #. name for cpf
-msgid "French-based (Other)"
-msgstr "Засновані на французькій (інші)"
+#, fuzzy
+msgid "Creoles and pidgins, French-based (Other)"
+msgstr "Креольські та піджінізовані мови (інші)"
 
 #. name for cpp
-msgid "Portuguese-based (Other)"
-msgstr "Засновані на португальській (інші)"
+#, fuzzy
+msgid "Creoles and pidgins, Portuguese-based (Other)"
+msgstr "Креольські та піджінізовані мови (інші)"
 
 #. name for cre
 msgid "Cree"
 msgstr "Крі"
 
 #. name for crh
-msgid "Crimean Turkish; Crimean Tatar"
+msgid "Crimean Tatar; Crimean Turkish"
 msgstr ""
 
 #. name for crp
@@ -435,6 +447,11 @@ msgstr "Датська"
 msgid "Dargwa"
 msgstr ""
 
+#. name for day
+#, fuzzy
+msgid "Dayak"
+msgstr "Сасакська"
+
 #. name for del
 msgid "Delaware"
 msgstr "Делаварська"
@@ -452,7 +469,7 @@ msgid "Dinka"
 msgstr "Дінка"
 
 #. name for div
-msgid "Divehi;Dhivehi;Maldivian"
+msgid "Divehi; Dhivehi; Maldivian"
 msgstr ""
 
 #. name for doi
@@ -476,8 +493,8 @@ msgid "Dutch, Middle (ca. 1050-1350)"
 msgstr "Середньонідерландська (1050-1350)"
 
 #. name for nld
-msgid "Dutch"
-msgstr "Голандська"
+msgid "Dutch; Flemish"
+msgstr ""
 
 #. name for dyu
 msgid "Dyula"
@@ -564,11 +581,13 @@ msgid "French"
 msgstr "Французька"
 
 #. name for frm
-msgid "French, Middle (ca.1400-1600)"
+#, fuzzy
+msgid "French, Middle (ca. 1400-1600)"
 msgstr "Середньофранцузька (1400-1600)"
 
 #. name for fro
-msgid "French, Old (842-ca.1400)"
+#, fuzzy
+msgid "French, Old (842-ca. 1400)"
 msgstr "Давньофранцузька (842-1400)"
 
 #. name for frr
@@ -627,7 +646,8 @@ msgid "Gilbertese"
 msgstr "Гільбертська"
 
 #. name for gla
-msgid "Gaelic; Scottish"
+#, fuzzy
+msgid "Gaelic; Scottish Gaelic"
 msgstr "Гаельська; Шотландська"
 
 #. name for gle
@@ -643,11 +663,13 @@ msgid "Manx"
 msgstr "Мекенська"
 
 #. name for gmh
-msgid "German, Middle High (ca.1050-1500)"
+#, fuzzy
+msgid "German, Middle High (ca. 1050-1500)"
 msgstr "Середньоверхньонімецька (1050-1500)"
 
 #. name for goh
-msgid "German, Old High (ca.750-1050)"
+#, fuzzy
+msgid "German, Old High (ca. 750-1050)"
 msgstr "давньоверхньонімецька (750-1050)"
 
 #. name for gon
@@ -679,7 +701,7 @@ msgid "Guarani"
 msgstr "Гуарані"
 
 #. name for gsw
-msgid "Swiss German; Alemanic"
+msgid "Alemanic; Swiss German"
 msgstr ""
 
 #. name for guj
@@ -687,7 +709,8 @@ msgid "Gujarati"
 msgstr "Гуджараті"
 
 #. name for gwi
-msgid "Gwichin"
+#, fuzzy
+msgid "Gwich´in"
 msgstr "Кучін"
 
 #. name for hai
@@ -735,7 +758,8 @@ msgid "Hmong"
 msgstr "Хмонг"
 
 #. name for hmo
-msgid "Hiri"
+#, fuzzy
+msgid "Hiri Motu"
 msgstr "Хірі"
 
 #. name for hsb
@@ -787,8 +811,8 @@ msgid "Iloko"
 msgstr "Ілоканська"
 
 #. name for ina
-msgid "Interlingua"
-msgstr "Інтерлінгва"
+msgid "Interlingua (International Auxiliary Language Association)"
+msgstr ""
 
 #. name for inc
 msgid "Indic (Other)"
@@ -855,8 +879,8 @@ msgid "Kachin"
 msgstr "Качін"
 
 #. name for kal
-msgid "Greenlandic (Kalaallisut)"
-msgstr "Гренландська (Калаалісут)"
+msgid "Kalaallisut; Greenlandic"
+msgstr ""
 
 #. name for kam
 msgid "Kamba"
@@ -891,7 +915,8 @@ msgid "Kabardian"
 msgstr ""
 
 #. name for kha
-msgid "Khazi"
+#, fuzzy
+msgid "Khasi"
 msgstr "Кхасі"
 
 #. name for khi
@@ -907,7 +932,8 @@ msgid "Khotanese"
 msgstr "Хотаносакська"
 
 #. name for kik
-msgid "Kikuyu"
+#, fuzzy
+msgid "Kikuyu; Gikuyu"
 msgstr "Кікуйю"
 
 #. name for kin
@@ -964,7 +990,8 @@ msgid "Kurukh"
 msgstr "Курукх"
 
 #. name for kua
-msgid "Kuanyama"
+#, fuzzy
+msgid "Kuanyama; Kwanyama"
 msgstr "Куанама"
 
 #. name for kum
@@ -1008,7 +1035,7 @@ msgid "Lezghian"
 msgstr "Лезгінська"
 
 #. name for lim
-msgid "Limburgian"
+msgid "Limburgan; Limburger; Limburgish"
 msgstr ""
 
 #. name for lin
@@ -1028,7 +1055,7 @@ msgid "Lozi"
 msgstr "Лозі"
 
 #. name for ltz
-msgid "Luxembourgish"
+msgid "Luxembourgish; Letzeburgesch"
 msgstr ""
 
 #. name for lua
@@ -1155,6 +1182,11 @@ msgstr "Мальтійська"
 msgid "Manchu"
 msgstr ""
 
+#. name for mni
+#, fuzzy
+msgid "Manipuri"
+msgstr "Канурі"
+
 #. name for mno
 msgid "Manobo languages"
 msgstr "Манобо, мови"
@@ -1209,7 +1241,8 @@ msgid "Nahuatl"
 msgstr "Нахуатль"
 
 #. name for nai
-msgid "North American Indian (Other)"
+#, fuzzy
+msgid "North American Indian"
 msgstr "Північноамериканських індіанців (інші)"
 
 #. name for nap
@@ -1221,15 +1254,18 @@ msgid "Nauru"
 msgstr "Науру"
 
 #. name for nav
-msgid "Navaho"
+#, fuzzy
+msgid "Navajo; Navaho"
 msgstr "Навахо"
 
 #. name for nbl
-msgid "Ndebele, South"
+#, fuzzy
+msgid "Ndebele, South; South Ndebele"
 msgstr "Ндбеле, південне"
 
 #. name for nde
-msgid "Ndebele, North"
+#, fuzzy
+msgid "Ndebele, North; North Ndebele"
 msgstr "Ндбеле, північне"
 
 #. name for ndo
@@ -1237,16 +1273,16 @@ msgid "Ndonga"
 msgstr "Ндонга"
 
 #. name for nds
-msgid "German, Low"
-msgstr "Нижньонімецька"
+msgid "Low German; Low Saxon; German, Low; Saxon, Low"
+msgstr ""
 
 #. name for nep
 msgid "Nepali"
 msgstr "Непалі"
 
 #. name for new
-msgid "Newari"
-msgstr "Неварі"
+msgid "Newari; Nepal Bhasa"
+msgstr ""
 
 #. name for nia
 msgid "Nias"
@@ -1261,12 +1297,13 @@ msgid "Niuean"
 msgstr "Ніуе"
 
 #. name for nno
-msgid "Norwegian Nynorsk"
+#, fuzzy
+msgid "Norwegian Nynorsk; Nynorsk, Norwegian"
 msgstr "Норвежська ньюнорск"
 
 #. name for nob
 #, fuzzy
-msgid "Bokmål, Norwegian"
+msgid "Norwegian Bokmål; Bokmål, Norwegian"
 msgstr "Букмол, норвежська"
 
 #. name for nog
@@ -1282,28 +1319,29 @@ msgid "Norwegian"
 msgstr "Норвежська"
 
 #. name for nqo
-msgid "N'Ko"
+msgid "N'ko"
 msgstr ""
 
 #. name for nso
-msgid "Northern Sotho; Pedi; Sepedi"
+msgid "Northern Sotho, Pedi; Sepedi"
 msgstr ""
 
 #. name for nub
 msgid "Nubian languages"
 msgstr "Нуба, мови"
 
-#. name for nym
-msgid "Nyamwezi"
-msgstr ""
-
 #. name for nwc
-msgid "Classical Newari; Old Newari"
+msgid "Classical Newari; Old Newari; Classical Nepal Bhasa"
 msgstr ""
 
 #. name for nya
-msgid "Chewa; Chichewa; Nyanja"
+#, fuzzy
+msgid "Chichewa; Chewa; Nyanja"
 msgstr "Ньянджа"
+
+#. name for nym
+msgid "Nyamwezi"
+msgstr ""
 
 #. name for nyn
 msgid "Nyankole"
@@ -1318,7 +1356,8 @@ msgid "Nzima"
 msgstr "Нзіма"
 
 #. name for oci
-msgid "Occitan (post 1500)"
+#, fuzzy
+msgid "Occitan (post 1500); Provençal"
 msgstr "оксітанська (після 1500)"
 
 #. name for oji
@@ -1338,7 +1377,8 @@ msgid "Osage"
 msgstr ""
 
 #. name for oss
-msgid "Ossetian"
+#, fuzzy
+msgid "Ossetian; Ossetic"
 msgstr "Осетинська"
 
 #. name for ota
@@ -1366,7 +1406,8 @@ msgid "Pampanga"
 msgstr "Пампанга"
 
 #. name for pan
-msgid "Punjabi"
+#, fuzzy
+msgid "Panjabi; Punjabi"
 msgstr "Пенджабі"
 
 #. name for pap
@@ -1378,7 +1419,8 @@ msgid "Palauan"
 msgstr "Палауанська"
 
 #. name for peo
-msgid "Persian, Old (ca.600-400 B.C.)"
+#, fuzzy
+msgid "Persian, Old (ca. 600-400 B.C.)"
 msgstr "Давньоперська (600-400 до н. е.)"
 
 #. name for fas
@@ -1401,13 +1443,13 @@ msgstr "Палі"
 msgid "Polish"
 msgstr "Польська"
 
-#. name for por
-msgid "Portuguese"
-msgstr "Португальська"
-
 #. name for pon
 msgid "Pohnpeian"
 msgstr "Понапе"
+
+#. name for por
+msgid "Portuguese"
+msgstr "Португальська"
 
 #. name for pra
 msgid "Prakrit languages"
@@ -1421,6 +1463,10 @@ msgstr "Давньопровансальська (до 1500)"
 #. name for pus
 msgid "Pushto"
 msgstr "Пушту"
+
+#. name for qaa-qtz
+msgid "Reserved for local use"
+msgstr ""
 
 #. name for que
 msgid "Quechua"
@@ -1532,7 +1578,8 @@ msgid "Irish, Old (to 900)"
 msgstr "Давньоірландська (до 900)"
 
 #. name for sgn
-msgid "Sign languages"
+#, fuzzy
+msgid "Sign Languages"
 msgstr "Знакові мови"
 
 #. name for shn
@@ -1625,17 +1672,17 @@ msgid "Sotho, Southern"
 msgstr "Сото, південне"
 
 #. name for spa
-msgid "Spanish"
-msgstr "Іспанська"
+msgid "Spanish; Castilian"
+msgstr ""
+
+#. name for srd
+msgid "Sardinian"
+msgstr "Сардська"
 
 #. name for srn
 #, fuzzy
 msgid "Sranan Tongo"
 msgstr "Українська"
-
-#. name for srd
-msgid "Sardinian"
-msgstr "Сардська"
 
 #. name for srr
 msgid "Serer"
@@ -1689,10 +1736,6 @@ msgstr "Тайські (інші)"
 msgid "Tamil"
 msgstr "Тамільська"
 
-#. name for tso
-msgid "Tsonga"
-msgstr "Тсонга"
-
 #. name for tat
 msgid "Tatar"
 msgstr "Татарська"
@@ -1741,16 +1784,17 @@ msgstr "Тіграй (тігріннья, тігриння)"
 msgid "Tiv"
 msgstr "Тів"
 
-#. name for tlh
-msgid "Klingon; tlhIngan-Hol"
-msgstr ""
-
 #. name for tkl
 msgid "Tokelau"
 msgstr "Токелау"
 
+#. name for tlh
+msgid "Klingon; tlhIngan-Hol"
+msgstr ""
+
 #. name for tli
-msgid "Tlinglit"
+#, fuzzy
+msgid "Tlingit"
 msgstr "Тлінгіт"
 
 #. name for tmh
@@ -1776,6 +1820,10 @@ msgstr ""
 #. name for tsn
 msgid "Tswana"
 msgstr "Тсвана"
+
+#. name for tso
+msgid "Tsonga"
+msgstr "Тсонга"
 
 #. name for tuk
 msgid "Turkmen"
@@ -1818,7 +1866,8 @@ msgid "Ugaritic"
 msgstr "Угаритська"
 
 #. name for uig
-msgid "Uighur"
+#, fuzzy
+msgid "Uighur; Uyghur"
 msgstr "Уйгурська"
 
 #. name for ukr
@@ -1854,7 +1903,8 @@ msgid "Vietnamese"
 msgstr "В'єтнамська"
 
 #. name for vol
-msgid "Volapuk"
+#, fuzzy
+msgid "Volapük"
 msgstr "Волап’юк"
 
 #. name for vot
@@ -1931,7 +1981,8 @@ msgid "Zenaga"
 msgstr "Зенага"
 
 #. name for zha
-msgid "Chuang; Zhuang"
+#, fuzzy
+msgid "Zhuang; Chuang"
 msgstr "Чжуан"
 
 #. name for znd
@@ -1949,6 +2000,39 @@ msgstr "Зуньї"
 #. name for zxx
 msgid "No linguistic content"
 msgstr ""
+
+#~ msgid "Catalan"
+#~ msgstr "Каталонська"
+
+#~ msgid "Church Slavic"
+#~ msgstr "Церковнослов'янська"
+
+#~ msgid "English-based (Other)"
+#~ msgstr "Засновані на англійській (іниші)"
+
+#~ msgid "French-based (Other)"
+#~ msgstr "Засновані на французькій (інші)"
+
+#~ msgid "Portuguese-based (Other)"
+#~ msgstr "Засновані на португальській (інші)"
+
+#~ msgid "Dutch"
+#~ msgstr "Голандська"
+
+#~ msgid "Interlingua"
+#~ msgstr "Інтерлінгва"
+
+#~ msgid "Greenlandic (Kalaallisut)"
+#~ msgstr "Гренландська (Калаалісут)"
+
+#~ msgid "German, Low"
+#~ msgstr "Нижньонімецька"
+
+#~ msgid "Newari"
+#~ msgstr "Неварі"
+
+#~ msgid "Spanish"
+#~ msgstr "Іспанська"
 
 #~ msgid "Divehi"
 #~ msgstr "Дівехі"
