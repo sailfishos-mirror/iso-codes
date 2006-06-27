@@ -1,10 +1,8 @@
 <?xml version="1.0"  encoding="UTF-8"?>
-<!-- iso-4217.tab				-->	
-<!--						-->	
 <!-- Codes for currencies and funds		-->
 <!--						-->
 <!-- Status: ISO 4217:2001			-->
-<!-- Last update: 2006-04-29			-->
+<!-- Last update: 2006-06-26			-->
 
 <!DOCTYPE iso_4217_entries [
 	<!ELEMENT iso_4217_entries (iso_4217_entry+, historic_iso_4217_entry*)>
@@ -61,8 +59,8 @@
 		numeric_code="533"
 		currency_name="Aruban Guilder" />
 	<iso_4217_entry
-		letter_code="AZM"
-		numeric_code="031"
+		letter_code="AZN"
+		numeric_code="944"
 		currency_name="Azerbaijanian Manat" />
 	<iso_4217_entry
 		letter_code="BAM"
@@ -76,10 +74,6 @@
 		letter_code="BDT"
 		numeric_code="050"
 		currency_name="Bangladeshi Taka" />
-	<iso_4217_entry
-		letter_code="BGL"
-		numeric_code="100"
-		currency_name="Bulgarian Lev" />
 	<iso_4217_entry
 		letter_code="BGN"
 		numeric_code="975"
@@ -138,12 +132,20 @@
 		currency_name="Canadian Dollar" />
 	<iso_4217_entry
 		letter_code="CDF"
-		numeric_code="180"
+		numeric_code="976"
 		currency_name="Franc Congolais" />
+	<iso_4217_entry
+		letter_code="CHE"
+		numeric_code="947"
+		currency_name="WIR Euro" />
 	<iso_4217_entry
 		letter_code="CHF"
 		numeric_code="756"
 		currency_name="Swiss Franc" />
+	<iso_4217_entry
+		letter_code="CHW"
+		numeric_code="948"
+		currency_name="WIR Franc" />
 	<iso_4217_entry
 		letter_code="CLF"
 		numeric_code="990"
@@ -161,9 +163,17 @@
 		numeric_code="170"
 		currency_name="Colombian Peso" />
 	<iso_4217_entry
+		letter_code="COU"
+		numeric_code="970"
+		currency_name="Unidad de Valor Real" />
+	<iso_4217_entry
 		letter_code="CRC"
 		numeric_code="188"
 		currency_name="Costa Rican Colon" />
+	<iso_4217_entry
+		letter_code="CSD"
+		numeric_code="891"
+		currency_name="Serbian Dinar" />
 	<iso_4217_entry
 		letter_code="CUP"
 		numeric_code="192"
@@ -196,10 +206,6 @@
 		letter_code="DZD"
 		numeric_code="012"
 		currency_name="Algerian Dinar" />
-	<iso_4217_entry
-		letter_code="ECV"
-		numeric_code="983"
-		currency_name="Unidad de Valor Constante UVC" />
 	<iso_4217_entry
 		letter_code="EEK"
 		numeric_code="233"
@@ -397,9 +403,9 @@
 		numeric_code="498"
 		currency_name="Moldovan Leu" />
 	<iso_4217_entry
-		letter_code="MGF"
-		numeric_code="450"
-		currency_name="Malagasy Franc" />
+		letter_code="MGA"
+		numeric_code="969"
+		currency_name="Malagascy Ariary" />
 	<iso_4217_entry
 		letter_code="MKD"
 		numeric_code="807"
@@ -449,8 +455,8 @@
 		numeric_code="458"
 		currency_name="Malaysian Ringgit" />
 	<iso_4217_entry
-		letter_code="MZM"
-		numeric_code="508"
+		letter_code="MZN"
+		numeric_code="943"
 		currency_name="Mozambique Metical" />
 	<iso_4217_entry
 		letter_code="NAD"
@@ -515,7 +521,11 @@
 	<iso_4217_entry
 		letter_code="ROL"
 		numeric_code="642"
-		currency_name="Romanian Leu" />
+		currency_name="Romanian Old Leu" />
+	<iso_4217_entry
+		letter_code="RON"
+		numeric_code="946"
+		currency_name="Romanian New Leu" />
 	<iso_4217_entry
 		letter_code="RUB"
 		numeric_code="643"
@@ -569,9 +579,9 @@
 		numeric_code="706"
 		currency_name="Somali Shilling" />
 	<iso_4217_entry
-		letter_code="SRG"
-		numeric_code="740"
-		currency_name="Suriname Guilder" />
+		letter_code="SRD"
+		numeric_code="968"
+		currency_name="Surinam Dollar" />
 	<iso_4217_entry
 		letter_code="STD"
 		numeric_code="678"
@@ -597,10 +607,6 @@
 		numeric_code="972"
 		currency_name="Tajik Somoni" />
 	<iso_4217_entry
-		letter_code="TLE"
-		numeric_code="626"
-		currency_name="Timor Escudo" />
-	<iso_4217_entry
 		letter_code="TMM"
 		numeric_code="795"
 		currency_name="Turkmenistan Manat" />
@@ -613,9 +619,9 @@
 		numeric_code="776"
 		currency_name="Tongan Pa'anga" />
 	<iso_4217_entry
-		letter_code="TRL"
-		numeric_code="792"
-		currency_name="Turkish Lira" />
+		letter_code="TRY"
+		numeric_code="949"
+		currency_name="New Turkish Lira" />
 	<iso_4217_entry
 		letter_code="TTD"
 		numeric_code="780"
@@ -745,10 +751,6 @@
 		numeric_code="886"
 		currency_name="Yemeni Rial" />
 	<iso_4217_entry
-		letter_code="YUD"
-		numeric_code="891"
-		currency_name="Yugoslavian Dinar" />
-	<iso_4217_entry
 		letter_code="ZAR"
 		numeric_code="710"
 		currency_name="South African Rand" />
@@ -801,6 +803,11 @@
 		currency_name="Austrian Schilling"
 		date_withdrawn="2002-03" />
 	<historic_iso_4217_entry
+		letter_code="AZM"
+		numeric_code="031"
+		currency_name="Azerbaijanian Manat"
+		date_withdrawn="unknown" />
+	<historic_iso_4217_entry
 		letter_code="BAD"
 		numeric_code="070"
 		currency_name="Bosnia and Herzegovina Dinar"
@@ -828,6 +835,11 @@
 		letter_code="BGK"
 		currency_name="Bulgarian Lev A/62"
 		date_withdrawn="1990" />
+	<historic_iso_4217_entry
+		letter_code="BGL"
+		numeric_code="100"
+		currency_name="Bulgarian Lev"
+		date_withdrawn="unknown" />
 	<historic_iso_4217_entry
 		letter_code="BOP"
 		currency_name="Bolivian Peso"
@@ -890,6 +902,11 @@
 		numeric_code="218"
 		currency_name="Ecuador Sucre"
 		date_withdrawn="2000-09-15" />
+	<historic_iso_4217_entry
+		letter_code="ECV"
+		numeric_code="983"
+		currency_name="Unidad de Valor Constante UVC"
+		date_withdrawn="unknown" />
 	<historic_iso_4217_entry
 		letter_code="ESA"
 		numeric_code="996"
@@ -1004,6 +1021,11 @@
 		currency_name="Mali Franc"
 		date_withdrawn="1989-12" />
 	<historic_iso_4217_entry
+		letter_code="MGF"
+		numeric_code="450"
+		currency_name="Malagasy Franc"
+		date_withdrawn="unknown" />
+	<historic_iso_4217_entry
 		letter_code="MLF"
 		numeric_code="446"
 		currency_name="Mali Franc"
@@ -1024,6 +1046,11 @@
 		letter_code="MZE"
 		currency_name="Mozambique Escudo"
 		date_withdrawn="1981" />
+	<historic_iso_4217_entry
+		letter_code="MZM"
+		numeric_code="508"
+		currency_name="Mozambique Metical"
+		date_withdrawn="unknown" />
 	<historic_iso_4217_entry
 		letter_code="NIC"
 		currency_name="Nicaraguan Cordoba"
@@ -1073,6 +1100,11 @@
 		currency_name="Sudanese Pound"
 		date_withdrawn="1998-06" />
 	<historic_iso_4217_entry
+		letter_code="SRG"
+		numeric_code="740"
+		currency_name="Suriname Guilder"
+		date_withdrawn="unknown" />
+	<historic_iso_4217_entry
 		letter_code="SUR"
 		currency_name="USSR Rouble"
 		date_withdrawn="1990-12" />
@@ -1081,6 +1113,16 @@
 		numeric_code="762"
 		currency_name="Tajik Rouble"
 		date_withdrawn="2000" />
+	<historic_iso_4217_entry
+		letter_code="TLE"
+		numeric_code="626"
+		currency_name="Timor Escudo"
+		date_withdrawn="unknown" />
+	<historic_iso_4217_entry
+		letter_code="TRL"
+		numeric_code="792"
+		currency_name="Turkish Lira"
+		date_withdrawn="unknown" />
 	<historic_iso_4217_entry
 		letter_code="UAK"
 		numeric_code="804"
@@ -1120,6 +1162,11 @@
 		numeric_code="720"
 		currency_name="Yemeni Dinar"
 		date_withdrawn="1991-09" />
+    <historic_iso_4217_entry
+		letter_code="YUD"
+		numeric_code="891"
+		currency_name="Yugoslavian Dinar"
+		date_withdrawn="unknown" />
 	<historic_iso_4217_entry
 		letter_code="YUN"
 		numeric_code="890"
