@@ -7,20 +7,20 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_4217 CVS\n"
-"Report-Msgid-Bugs-To: Alastair McKinstry <mckinstry@debian.org>\n"
-"POT-Creation-Date: 2004-06-15 21:36+0100\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <iso-codes@packages.debian.org>\n"
+"POT-Creation-Date: 2006-06-27 20:19+0200\n"
 "PO-Revision-Date: 2006-04-09 21:06+0300\n"
 "Last-Translator: Kęstutis Biliūnas <kebil@kaunas.init.lt>\n"
 "Language-Team: Lithuanian <komp_lt@konferencijos.lt>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit"
+"Content-Transfer-Encoding: 8bit\n"
 
 #. currency_name for AED
 msgid "UAE Dirham"
 msgstr "JAE dirhamas"
 
-#. currency_name for AFA
+#. currency_name for AFN
 msgid "Afghani"
 msgstr "Afganis"
 
@@ -52,7 +52,7 @@ msgstr "Australijos doleris"
 msgid "Aruban Guilder"
 msgstr "Arubos guldenas"
 
-#. currency_name for AZM
+#. currency_name for AZN
 msgid "Azerbaijanian Manat"
 msgstr "Azerbaidžano manatas"
 
@@ -68,7 +68,7 @@ msgstr "Barbadoso doleris"
 msgid "Bangladeshi Taka"
 msgstr "Bangladešo taka"
 
-#. currency_name for BGL
+#. currency_name for BGN
 msgid "Bulgarian Lev"
 msgstr "Bulgarijos levas"
 
@@ -128,9 +128,19 @@ msgstr "Kanados doleris"
 msgid "Franc Congolais"
 msgstr "Kongo frankas"
 
+#. currency_name for CHE
+#, fuzzy
+msgid "WIR Euro"
+msgstr "Euras"
+
 #. currency_name for CHF
 msgid "Swiss Franc"
 msgstr "Šveicarijos frankas"
+
+#. currency_name for CHW
+#, fuzzy
+msgid "WIR Franc"
+msgstr "CFP frankas"
 
 #. currency_name for CLF
 msgid "Unidades de fomento"
@@ -148,16 +158,27 @@ msgstr "Kinijos Renminbi juanis"
 msgid "Colombian Peso"
 msgstr "Kolumbijos pesas"
 
+#. currency_name for COU
+#, fuzzy
+msgid "Unidad de Valor Real"
+msgstr "Unidad de Valor Constante UVC"
+
 #. currency_name for CRC
 msgid "Costa Rican Colon"
 msgstr "Kosta Rikos kolonas"
+
+#. currency_name for CSD
+#, fuzzy
+msgid "Serbian Dinar"
+msgstr "Alžyro dinaras"
 
 #. currency_name for CUP
 msgid "Cuban Peso"
 msgstr "Kubos pesas"
 
 #. currency_name for CVE
-msgid "Cap Verde Escudo"
+#, fuzzy
+msgid "Cape Verde Escudo"
 msgstr "Žaliojo Kyšulio eskudas"
 
 #. currency_name for CYP
@@ -184,12 +205,9 @@ msgstr "Dominikos pesas"
 msgid "Algerian Dinar"
 msgstr "Alžyro dinaras"
 
-#. currency_name for ECV
-msgid "Unidad de Valor Constante UVC"
-msgstr "Unidad de Valor Constante UVC"
-
 #. currency_name for EEK
-msgid "Estonia Kroon"
+#, fuzzy
+msgid "Estonian Kroon"
 msgstr "Estijos krona"
 
 #. currency_name for EGP
@@ -213,7 +231,8 @@ msgid "Fiji Dollar"
 msgstr "Fidžio doleris"
 
 #. currency_name for FKP
-msgid "Falkland Island Pound"
+#, fuzzy
+msgid "Falkland Islands Pound"
 msgstr "Falklando salų svaras"
 
 #. currency_name for GBP
@@ -277,7 +296,8 @@ msgid "Indonesian Rupiah"
 msgstr "Indonezijos rupija"
 
 #. currency_name for ILS
-msgid "Israeli Shekel"
+#, fuzzy
+msgid "New Israeli Shekel"
 msgstr "Izraelio šekelis"
 
 #. currency_name for INR
@@ -384,8 +404,9 @@ msgstr "Maroko dirhamas"
 msgid "Moldovan Leu"
 msgstr "Moldovos lėja"
 
-#. currency_name for MGF
-msgid "Malagasy Franc"
+#. currency_name for MGA
+#, fuzzy
+msgid "Malagascy Ariary"
 msgstr "Madagaskaro frankas"
 
 #. currency_name for MKD
@@ -401,7 +422,8 @@ msgid "Mongolian Tugrik"
 msgstr "Mongolijos tugrikas"
 
 #. currency_name for MOP
-msgid "Macao Patacca"
+#, fuzzy
+msgid "Macao Pataca"
 msgstr "Macao pataka"
 
 #. currency_name for MRO
@@ -429,14 +451,15 @@ msgid "Mexican Peso"
 msgstr "Meksikos pesas"
 
 #. currency_name for MXV
-msgid "Unidad de Inversion (UDI)"
+#, fuzzy
+msgid "Mexican Unidad de Inversion (UID)"
 msgstr "Unidad de Inversion (UDI)"
 
 #. currency_name for MYR
 msgid "Malaysian Ringgit"
 msgstr "Malaizijos ringitas"
 
-#. currency_name for MZM
+#. currency_name for MZN
 msgid "Mozambique Metical"
 msgstr "Mozambiko metikalis"
 
@@ -481,7 +504,8 @@ msgid "Papua New Guinea Kina"
 msgstr "Papua Naujosios Gvinėjos kina"
 
 #. currency_name for PHP
-msgid "Phillipine Peso"
+#, fuzzy
+msgid "Philippine Peso"
 msgstr "Filipinų pesas"
 
 #. currency_name for PKR
@@ -497,11 +521,18 @@ msgid "Paraguay Guarani"
 msgstr "Paragvajaus gvaranis"
 
 #. currency_name for QAR
-msgid "Qatari Riyal"
+#, fuzzy
+msgid "Qatari Rial"
 msgstr "Kataro rialas"
 
 #. currency_name for ROL
-msgid "Romanian Leu"
+#, fuzzy
+msgid "Romanian Old Leu"
+msgstr "Rumunijos lėja"
+
+#. currency_name for RON
+#, fuzzy
+msgid "Romanian New Leu"
 msgstr "Rumunijos lėja"
 
 #. currency_name for RUB
@@ -533,7 +564,8 @@ msgid "Swedish Krona"
 msgstr "Švedijos krona"
 
 #. currency_name for SGD
-msgid "Singapur Dollar"
+#, fuzzy
+msgid "Singapore Dollar"
 msgstr "Singapūro doleris"
 
 #. currency_name for SHP
@@ -553,15 +585,18 @@ msgid "Leone"
 msgstr "Leonė"
 
 #. currency_name for SOS
-msgid "Somali Schilling"
+#, fuzzy
+msgid "Somali Shilling"
 msgstr "Somalio šilingas"
 
-#. currency_name for SRG
-msgid "Suriname Guilder"
-msgstr "Surinamo guldenas"
+#. currency_name for SRD
+#, fuzzy
+msgid "Surinam Dollar"
+msgstr "Singapūro doleris"
 
 #. currency_name for STD
-msgid "Sao Tome and Principe Dobra"
+#, fuzzy
+msgid "São Tome and Principe Dobra"
 msgstr "San Tomės ir Prinsipės dobra"
 
 #. currency_name for SVC
@@ -584,10 +619,6 @@ msgstr "Tailando batas"
 msgid "Tajik Somoni"
 msgstr "Tadžikistano somonis"
 
-#. currency_name for TLE
-msgid "Timor Escudo"
-msgstr "Timoro eskudas"
-
 #. currency_name for TMM
 msgid "Turkmenistan Manat"
 msgstr "Turkmėnistano manatas"
@@ -600,8 +631,9 @@ msgstr "Tuniso dinaras"
 msgid "Tongan Pa'anga"
 msgstr "Tongos panga"
 
-#. currency_name for TRL
-msgid "Turkish Lira"
+#. currency_name for TRY
+#, fuzzy
+msgid "New Turkish Lira"
 msgstr "Turkijos lira"
 
 #. currency_name for TTD
@@ -613,7 +645,8 @@ msgid "New Taiwan Dollar"
 msgstr "Naujasis Taivano doleris"
 
 #. currency_name for TZS
-msgid "Tazanian Schilling"
+#, fuzzy
+msgid "Tanzanian Shilling"
 msgstr "Tanzanijos šilingas"
 
 #. currency_name for UAH
@@ -621,7 +654,8 @@ msgid "Ukrainian Hryvnia"
 msgstr "Ukrainos grivina"
 
 #. currency_name for UGX
-msgid "Ugandan Schilling"
+#, fuzzy
+msgid "Ugandan Shilling"
 msgstr "Ugandos šilingas"
 
 #. currency_name for USD
@@ -673,23 +707,28 @@ msgid "Gold"
 msgstr "Auksas"
 
 #. currency_name for XBA
-msgid "Bond Markets Units"
-msgstr "Obligacijų rinkos vienetas"
-
-#. currency_name for XBB
-msgid "European Composite Unit EURCO"
+#, fuzzy
+msgid "Bond Markets Units European Composite Unit (EURCO)"
 msgstr "Europos sudėtinis valiutos vienetas (EURCO)"
 
-#. currency_name for XBC
-msgid "European Monetary Unit EUM"
+#. currency_name for XBB
+#, fuzzy
+msgid "European Monetary Unit (E.M.U.-6)"
 msgstr "Europos pinigų vienetas (EUM)"
 
+#. currency_name for XBC
+#, fuzzy
+msgid "European Unit of Account 9 (E.U.A.-9)"
+msgstr "Europos apskaitos vienetas (EUA)"
+
 #. currency_name for XBD
-msgid "European Unit of Account EUA"
+#, fuzzy
+msgid "European Unit of Account 17 (E.U.A.-17)"
 msgstr "Europos apskaitos vienetas (EUA)"
 
 #. currency_name for XCD
-msgid "East Caribean Dollar"
+#, fuzzy
+msgid "East Caribbean Dollar"
 msgstr "Rytų Karibų doleris"
 
 #. currency_name for XDR
@@ -729,12 +768,9 @@ msgid "No currency involved"
 msgstr "Valiuta neįvesta"
 
 #. currency_name for YER
-msgid "Yemini Rial"
+#, fuzzy
+msgid "Yemeni Rial"
 msgstr "Jemeno rialas"
-
-#. currency_name for YUD
-msgid "Yugoslavian Dinar"
-msgstr "Jugoslavijos dinaras"
 
 #. currency_name for ZAR
 msgid "South African Rand"
@@ -784,6 +820,11 @@ msgstr "Bosnijos ir Hercegovinos dinaras"
 #. currency_name for BEC
 msgid "Belgian Convertible Franc"
 msgstr "Belgijos konvertuojamas frankas"
+
+#. currency_name for BEF
+#, fuzzy
+msgid "Belgian Franc"
+msgstr "Belgijos finansinis frankas"
 
 #. currency_name for BEL
 msgid "Belgian Financial Franc"
@@ -848,6 +889,10 @@ msgstr "Vokietijos markė"
 #. currency_name for ECS
 msgid "Ecuador Sucre"
 msgstr "Ekvadoro sukrė"
+
+#. currency_name for ECV
+msgid "Unidad de Valor Constante UVC"
+msgstr "Unidad de Valor Constante UVC"
 
 #. currency_name for ESA
 msgid "Spanish Peseta ('A' Account)"
@@ -947,6 +992,10 @@ msgstr "Latvijos rublis"
 msgid "Mali Franc"
 msgstr "Mali frankas"
 
+#. currency_name for MGF
+msgid "Malagasy Franc"
+msgstr "Madagaskaro frankas"
+
 #. currency_name for MTP
 msgid "Maltese Pound"
 msgstr "Maltos svaras"
@@ -992,6 +1041,10 @@ msgstr "Rumunijos lėja A/52"
 msgid "Sudanese Pound"
 msgstr "Sudano svaras"
 
+#. currency_name for SRG
+msgid "Suriname Guilder"
+msgstr "Surinamo guldenas"
+
 #. currency_name for SUR
 msgid "USSR Rouble"
 msgstr "Sovietų Sąjungos (USSR) rublis"
@@ -999,6 +1052,14 @@ msgstr "Sovietų Sąjungos (USSR) rublis"
 #. currency_name for TJR
 msgid "Tajik Rouble"
 msgstr "Tadžikijos rublis"
+
+#. currency_name for TLE
+msgid "Timor Escudo"
+msgstr "Timoro eskudas"
+
+#. currency_name for TRL
+msgid "Turkish Lira"
+msgstr "Turkijos lira"
 
 #. currency_name for UAK
 #, fuzzy
@@ -1037,6 +1098,10 @@ msgstr ""
 msgid "Yemeni Dinar"
 msgstr "Jemeno dinaras"
 
+#. currency_name for YUD
+msgid "Yugoslavian Dinar"
+msgstr "Jugoslavijos dinaras"
+
 #. currency_name for ZAL
 msgid "South African Financial Rand"
 msgstr "Pietų Afrikos finansinis randas"
@@ -1049,3 +1114,5 @@ msgstr "Zairo naujasis zairas"
 msgid "Zaire"
 msgstr "Zairas"
 
+#~ msgid "Bond Markets Units"
+#~ msgstr "Obligacijų rinkos vienetas"

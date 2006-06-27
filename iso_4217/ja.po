@@ -11,9 +11,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_4217 0.37\n"
-"Report-Msgid-Bugs-To: Alastair McKinstry <mckinstry@debian.org>\n"
-"POT-Creation-Date: 2004-06-15 21:36+0100\n"
+"Project-Id-Version: iso_4217 CVS\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <iso-codes@packages.debian.org>\n"
+"POT-Creation-Date: 2006-06-27 20:19+0200\n"
 "PO-Revision-Date: 2004-08-02 23:06+0900\n"
 "Last-Translator: IIDA Yosiaki <iida@gnu.org>\n"
 "Language-Team: Japanese <translation-team-ja@lists.sourceforge.net>\n"
@@ -25,7 +25,7 @@ msgstr ""
 msgid "UAE Dirham"
 msgstr "アラブ首長国連邦ディルハム"
 
-#. currency_name for AFA
+#. currency_name for AFN
 msgid "Afghani"
 msgstr "アフガニ"
 
@@ -57,7 +57,7 @@ msgstr "オーストラリア・ドル"
 msgid "Aruban Guilder"
 msgstr "アルバ・ギルダー"
 
-#. currency_name for AZM
+#. currency_name for AZN
 msgid "Azerbaijanian Manat"
 msgstr "アゼルバイジャン・マナト"
 
@@ -73,7 +73,7 @@ msgstr "バルバドス・ドル"
 msgid "Bangladeshi Taka"
 msgstr "バングラデシュ・タカ"
 
-#. currency_name for BGL
+#. currency_name for BGN
 msgid "Bulgarian Lev"
 msgstr "ブルガリア・レフ"
 
@@ -133,9 +133,19 @@ msgstr "カナダ・ドル"
 msgid "Franc Congolais"
 msgstr "コンゴ・フラン"
 
+#. currency_name for CHE
+#, fuzzy
+msgid "WIR Euro"
+msgstr "ユーロ"
+
 #. currency_name for CHF
 msgid "Swiss Franc"
 msgstr "スイス・フラン"
+
+#. currency_name for CHW
+#, fuzzy
+msgid "WIR Franc"
+msgstr "CFAフラン"
 
 #. currency_name for CLF
 msgid "Unidades de fomento"
@@ -153,16 +163,26 @@ msgstr "中国人民元"
 msgid "Colombian Peso"
 msgstr "コロンビア・ペソ"
 
+#. currency_name for COU
+msgid "Unidad de Valor Real"
+msgstr ""
+
 #. currency_name for CRC
 msgid "Costa Rican Colon"
 msgstr "コスタリカ・コロン"
+
+#. currency_name for CSD
+#, fuzzy
+msgid "Serbian Dinar"
+msgstr "アルジェリア・ディナール"
 
 #. currency_name for CUP
 msgid "Cuban Peso"
 msgstr "キューバ・ペソ"
 
 #. currency_name for CVE
-msgid "Cap Verde Escudo"
+#, fuzzy
+msgid "Cape Verde Escudo"
 msgstr "カーボベルデ・エスクード"
 
 #. currency_name for CYP
@@ -189,12 +209,9 @@ msgstr "ドミニカ・ペソ"
 msgid "Algerian Dinar"
 msgstr "アルジェリア・ディナール"
 
-#. currency_name for ECV
-msgid "Unidad de Valor Constante UVC"
-msgstr ""
-
 #. currency_name for EEK
-msgid "Estonia Kroon"
+#, fuzzy
+msgid "Estonian Kroon"
 msgstr "エストニア・クローン"
 
 #. currency_name for EGP
@@ -218,7 +235,8 @@ msgid "Fiji Dollar"
 msgstr "フィジー・ドル"
 
 #. currency_name for FKP
-msgid "Falkland Island Pound"
+#, fuzzy
+msgid "Falkland Islands Pound"
 msgstr "フォークランド島ポンド"
 
 #. currency_name for GBP
@@ -282,7 +300,8 @@ msgid "Indonesian Rupiah"
 msgstr "インドネシア・ルピア"
 
 #. currency_name for ILS
-msgid "Israeli Shekel"
+#, fuzzy
+msgid "New Israeli Shekel"
 msgstr "イスラエル・シェケル"
 
 #. currency_name for INR
@@ -391,8 +410,9 @@ msgstr "モロッコ・ディルハム"
 msgid "Moldovan Leu"
 msgstr "モルドバ・レイ"
 
-#. currency_name for MGF
-msgid "Malagasy Franc"
+#. currency_name for MGA
+#, fuzzy
+msgid "Malagascy Ariary"
 msgstr "マダガスカル・フラン"
 
 #. currency_name for MKD
@@ -408,7 +428,8 @@ msgid "Mongolian Tugrik"
 msgstr "モンゴル・トグロク"
 
 #. currency_name for MOP
-msgid "Macao Patacca"
+#, fuzzy
+msgid "Macao Pataca"
 msgstr "マカオ・パタカ"
 
 #. currency_name for MRO
@@ -436,14 +457,15 @@ msgid "Mexican Peso"
 msgstr "メキシコ・ペソ"
 
 #. currency_name for MXV
-msgid "Unidad de Inversion (UDI)"
+#, fuzzy
+msgid "Mexican Unidad de Inversion (UID)"
 msgstr "投資単位 (UDI)"
 
 #. currency_name for MYR
 msgid "Malaysian Ringgit"
 msgstr "マレーシア・リンギ"
 
-#. currency_name for MZM
+#. currency_name for MZN
 msgid "Mozambique Metical"
 msgstr "モザンビーク・メティカル"
 
@@ -488,7 +510,8 @@ msgid "Papua New Guinea Kina"
 msgstr "パプアニューギニア・キナ"
 
 #. currency_name for PHP
-msgid "Phillipine Peso"
+#, fuzzy
+msgid "Philippine Peso"
 msgstr "フィリピン・ペソ"
 
 #. currency_name for PKR
@@ -504,11 +527,18 @@ msgid "Paraguay Guarani"
 msgstr "パラグアイ・グアラニー"
 
 #. currency_name for QAR
-msgid "Qatari Riyal"
+#, fuzzy
+msgid "Qatari Rial"
 msgstr "カタール・リアル"
 
 #. currency_name for ROL
-msgid "Romanian Leu"
+#, fuzzy
+msgid "Romanian Old Leu"
+msgstr "ルーマニア・レイ"
+
+#. currency_name for RON
+#, fuzzy
+msgid "Romanian New Leu"
 msgstr "ルーマニア・レイ"
 
 #. currency_name for RUB
@@ -540,7 +570,8 @@ msgid "Swedish Krona"
 msgstr "スウェーデン・クローナ"
 
 #. currency_name for SGD
-msgid "Singapur Dollar"
+#, fuzzy
+msgid "Singapore Dollar"
 msgstr "シンガポール・ドル"
 
 #. currency_name for SHP
@@ -560,15 +591,18 @@ msgid "Leone"
 msgstr "レオネ"
 
 #. currency_name for SOS
-msgid "Somali Schilling"
+#, fuzzy
+msgid "Somali Shilling"
 msgstr "ソマリア・シリング"
 
-#. currency_name for SRG
-msgid "Suriname Guilder"
-msgstr "スリナム・ギルダー"
+#. currency_name for SRD
+#, fuzzy
+msgid "Surinam Dollar"
+msgstr "シンガポール・ドル"
 
 #. currency_name for STD
-msgid "Sao Tome and Principe Dobra"
+#, fuzzy
+msgid "São Tome and Principe Dobra"
 msgstr "サントメ・プリンシペ・ドブラ"
 
 #. currency_name for SVC
@@ -592,10 +626,6 @@ msgstr "タイ・バーツ"
 msgid "Tajik Somoni"
 msgstr "タジキスタン・ソモニ"
 
-#. currency_name for TLE
-msgid "Timor Escudo"
-msgstr "チモール・エスクード"
-
 #. currency_name for TMM
 msgid "Turkmenistan Manat"
 msgstr "トルクメニスタン・マナト"
@@ -608,8 +638,9 @@ msgstr "チュニジア・ディナール"
 msgid "Tongan Pa'anga"
 msgstr "トンガ・パアンガ"
 
-#. currency_name for TRL
-msgid "Turkish Lira"
+#. currency_name for TRY
+#, fuzzy
+msgid "New Turkish Lira"
 msgstr "トルコ・リラ"
 
 #. currency_name for TTD
@@ -621,7 +652,8 @@ msgid "New Taiwan Dollar"
 msgstr "台湾ドル"
 
 #. currency_name for TZS
-msgid "Tazanian Schilling"
+#, fuzzy
+msgid "Tanzanian Shilling"
 msgstr "タンザニア・シリング"
 
 #. currency_name for UAH
@@ -629,7 +661,8 @@ msgid "Ukrainian Hryvnia"
 msgstr "ウクライナ・グリブナ"
 
 #. currency_name for UGX
-msgid "Ugandan Schilling"
+#, fuzzy
+msgid "Ugandan Shilling"
 msgstr "ウガンダ・シリング"
 
 #. currency_name for USD
@@ -681,23 +714,28 @@ msgid "Gold"
 msgstr "金"
 
 #. currency_name for XBA
-msgid "Bond Markets Units"
-msgstr "債券市場単位"
-
-#. currency_name for XBB
-msgid "European Composite Unit EURCO"
+#, fuzzy
+msgid "Bond Markets Units European Composite Unit (EURCO)"
 msgstr "欧州複合単位EURCO"
 
-#. currency_name for XBC
-msgid "European Monetary Unit EUM"
+#. currency_name for XBB
+#, fuzzy
+msgid "European Monetary Unit (E.M.U.-6)"
 msgstr "欧州通貨単位EUM"
 
+#. currency_name for XBC
+#, fuzzy
+msgid "European Unit of Account 9 (E.U.A.-9)"
+msgstr "口座の欧州単位"
+
 #. currency_name for XBD
-msgid "European Unit of Account EUA"
+#, fuzzy
+msgid "European Unit of Account 17 (E.U.A.-17)"
 msgstr "口座の欧州単位"
 
 #. currency_name for XCD
-msgid "East Caribean Dollar"
+#, fuzzy
+msgid "East Caribbean Dollar"
 msgstr "東カリブ・ドル"
 
 #. currency_name for XDR
@@ -737,12 +775,9 @@ msgid "No currency involved"
 msgstr "通貨なし"
 
 #. currency_name for YER
-msgid "Yemini Rial"
+#, fuzzy
+msgid "Yemeni Rial"
 msgstr "イエメン・リアル"
-
-#. currency_name for YUD
-msgid "Yugoslavian Dinar"
-msgstr "ユーゴスラビア・デナル"
 
 #. currency_name for ZAR
 msgid "South African Rand"
@@ -792,6 +827,11 @@ msgstr "ボスニア・ヘルツェゴビナ・ディナール"
 #. currency_name for BEC
 msgid "Belgian Convertible Franc"
 msgstr "ベルギー兌換フラン"
+
+#. currency_name for BEF
+#, fuzzy
+msgid "Belgian Franc"
+msgstr "マリ・フラン"
 
 #. currency_name for BEL
 msgid "Belgian Financial Franc"
@@ -852,6 +892,10 @@ msgstr "ドイツ・マルク"
 #. currency_name for ECS
 msgid "Ecuador Sucre"
 msgstr "エクアドル・スクレ"
+
+#. currency_name for ECV
+msgid "Unidad de Valor Constante UVC"
+msgstr ""
 
 #. currency_name for ESA
 msgid "Spanish Peseta ('A' Account)"
@@ -950,6 +994,10 @@ msgstr "ラトビア・ルーブル"
 msgid "Mali Franc"
 msgstr "マリ・フラン"
 
+#. currency_name for MGF
+msgid "Malagasy Franc"
+msgstr "マダガスカル・フラン"
+
 #. currency_name for MTP
 msgid "Maltese Pound"
 msgstr "マルタ・ポンド"
@@ -994,6 +1042,10 @@ msgstr "ルーマニア・レイ A/52"
 msgid "Sudanese Pound"
 msgstr "スーダン・ポンド"
 
+#. currency_name for SRG
+msgid "Suriname Guilder"
+msgstr "スリナム・ギルダー"
+
 #. currency_name for SUR
 msgid "USSR Rouble"
 msgstr "ソ連ルーブル"
@@ -1001,6 +1053,14 @@ msgstr "ソ連ルーブル"
 #. currency_name for TJR
 msgid "Tajik Rouble"
 msgstr "タジク・ルーブル"
+
+#. currency_name for TLE
+msgid "Timor Escudo"
+msgstr "チモール・エスクード"
+
+#. currency_name for TRL
+msgid "Turkish Lira"
+msgstr "トルコ・リラ"
 
 #. currency_name for UAK
 msgid "Ukrainian Karbovanet"
@@ -1038,6 +1098,10 @@ msgstr ""
 msgid "Yemeni Dinar"
 msgstr "イエメン・ディナール"
 
+#. currency_name for YUD
+msgid "Yugoslavian Dinar"
+msgstr "ユーゴスラビア・デナル"
+
 #. currency_name for ZAL
 msgid "South African Financial Rand"
 msgstr ""
@@ -1049,3 +1113,6 @@ msgstr "新ザイール"
 #. currency_name for ZRZ
 msgid "Zaire"
 msgstr "ザイール"
+
+#~ msgid "Bond Markets Units"
+#~ msgstr "債券市場単位"

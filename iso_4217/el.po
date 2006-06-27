@@ -11,8 +11,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_4217 CVS\n"
-"Report-Msgid-Bugs-To: Alastair McKinstry <mckinstry@debian.org>\n"
-"POT-Creation-Date: 2004-06-15 21:36+0100\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <iso-codes@packages.debian.org>\n"
+"POT-Creation-Date: 2006-06-27 20:19+0200\n"
 "PO-Revision-Date: 2004-01-18 14:48EEST\n"
 "Last-Translator: Konstantinos Margaritis <markos@debian.org>\n"
 "Language-Team: Greek <i18n@hellug.gr>\n"
@@ -26,7 +26,7 @@ msgstr ""
 msgid "UAE Dirham"
 msgstr "Dirham Ην. Αραβ. Εμιράτων"
 
-#. currency_name for AFA
+#. currency_name for AFN
 msgid "Afghani"
 msgstr ""
 
@@ -64,7 +64,7 @@ msgstr "δολλάριο Αυστραλίας"
 msgid "Aruban Guilder"
 msgstr "στερλίνες Αρούμπας"
 
-#. currency_name for AZM
+#. currency_name for AZN
 msgid "Azerbaijanian Manat"
 msgstr ""
 
@@ -81,7 +81,7 @@ msgstr "δολλάριο Μπαρμπέιντος"
 msgid "Bangladeshi Taka"
 msgstr ""
 
-#. currency_name for BGL
+#. currency_name for BGN
 #, fuzzy
 msgid "Bulgarian Lev"
 msgstr "Βουλγαρικό λεβ"
@@ -151,10 +151,19 @@ msgstr "δολλάριο Καναδά"
 msgid "Franc Congolais"
 msgstr ""
 
+#. currency_name for CHE
+msgid "WIR Euro"
+msgstr ""
+
 #. currency_name for CHF
 #, fuzzy
 msgid "Swiss Franc"
 msgstr "Ελβετικό φράγκο"
+
+#. currency_name for CHW
+#, fuzzy
+msgid "WIR Franc"
+msgstr "φράγκο Ρουάντας"
 
 #. currency_name for CLF
 msgid "Unidades de fomento"
@@ -175,9 +184,18 @@ msgstr "γιουάν Κίνας"
 msgid "Colombian Peso"
 msgstr "πέσο Κολομβίας"
 
+#. currency_name for COU
+msgid "Unidad de Valor Real"
+msgstr ""
+
 #. currency_name for CRC
 msgid "Costa Rican Colon"
 msgstr ""
+
+#. currency_name for CSD
+#, fuzzy
+msgid "Serbian Dinar"
+msgstr "δηνάριο Αλγερίας"
 
 #. currency_name for CUP
 #, fuzzy
@@ -186,7 +204,7 @@ msgstr "πέσο Κούβας"
 
 #. currency_name for CVE
 #, fuzzy
-msgid "Cap Verde Escudo"
+msgid "Cape Verde Escudo"
 msgstr "εσκούδο Πράσινου Ακρωτηρίου"
 
 #. currency_name for CYP
@@ -218,13 +236,10 @@ msgstr "πέσο Δομηνίκου"
 msgid "Algerian Dinar"
 msgstr "δηνάριο Αλγερίας"
 
-#. currency_name for ECV
-msgid "Unidad de Valor Constante UVC"
-msgstr ""
-
 #. currency_name for EEK
-msgid "Estonia Kroon"
-msgstr ""
+#, fuzzy
+msgid "Estonian Kroon"
+msgstr "Νορβηγική κορόνα"
 
 #. currency_name for EGP
 #, fuzzy
@@ -250,7 +265,7 @@ msgstr "δολλάριο Φίτζι"
 
 #. currency_name for FKP
 #, fuzzy
-msgid "Falkland Island Pound"
+msgid "Falkland Islands Pound"
 msgstr "λίρα Νήσων Φώκλαντ"
 
 #. currency_name for GBP
@@ -323,7 +338,7 @@ msgstr "ρούπια Ινδονησίας"
 
 #. currency_name for ILS
 #, fuzzy
-msgid "Israeli Shekel"
+msgid "New Israeli Shekel"
 msgstr "Ισραηλινό σέκελ"
 
 #. currency_name for INR
@@ -448,9 +463,9 @@ msgstr ""
 msgid "Moldovan Leu"
 msgstr ""
 
-#. currency_name for MGF
+#. currency_name for MGA
 #, fuzzy
-msgid "Malagasy Franc"
+msgid "Malagascy Ariary"
 msgstr "φράγκο Μαλαγκάσυ"
 
 #. currency_name for MKD
@@ -466,7 +481,7 @@ msgid "Mongolian Tugrik"
 msgstr ""
 
 #. currency_name for MOP
-msgid "Macao Patacca"
+msgid "Macao Pataca"
 msgstr ""
 
 #. currency_name for MRO
@@ -499,14 +514,14 @@ msgid "Mexican Peso"
 msgstr "πέσο Μεξικού"
 
 #. currency_name for MXV
-msgid "Unidad de Inversion (UDI)"
+msgid "Mexican Unidad de Inversion (UID)"
 msgstr ""
 
 #. currency_name for MYR
 msgid "Malaysian Ringgit"
 msgstr ""
 
-#. currency_name for MZM
+#. currency_name for MZN
 msgid "Mozambique Metical"
 msgstr ""
 
@@ -557,7 +572,7 @@ msgstr ""
 
 #. currency_name for PHP
 #, fuzzy
-msgid "Phillipine Peso"
+msgid "Philippine Peso"
 msgstr "πέσο Φιλιππίνων"
 
 #. currency_name for PKR
@@ -577,12 +592,17 @@ msgstr "φράγκο Μαλαγκάσυ"
 
 #. currency_name for QAR
 #, fuzzy
-msgid "Qatari Riyal"
+msgid "Qatari Rial"
 msgstr "ριάλ του Κατάρ"
 
 #. currency_name for ROL
 #, fuzzy
-msgid "Romanian Leu"
+msgid "Romanian Old Leu"
+msgstr "Ρουμανικό λέου"
+
+#. currency_name for RON
+#, fuzzy
+msgid "Romanian New Leu"
 msgstr "Ρουμανικό λέου"
 
 #. currency_name for RUB
@@ -621,7 +641,7 @@ msgstr "Σουηδική Κορόνα"
 
 #. currency_name for SGD
 #, fuzzy
-msgid "Singapur Dollar"
+msgid "Singapore Dollar"
 msgstr "δολλάριο Σιγκαπούρης"
 
 #. currency_name for SHP
@@ -644,16 +664,16 @@ msgstr ""
 
 #. currency_name for SOS
 #, fuzzy
-msgid "Somali Schilling"
+msgid "Somali Shilling"
 msgstr "σελίνι Σομαλίας"
 
-#. currency_name for SRG
+#. currency_name for SRD
 #, fuzzy
-msgid "Suriname Guilder"
-msgstr "φιορίνι Σουρινάμ"
+msgid "Surinam Dollar"
+msgstr "δολλάριο Σιγκαπούρης"
 
 #. currency_name for STD
-msgid "Sao Tome and Principe Dobra"
+msgid "São Tome and Principe Dobra"
 msgstr ""
 
 #. currency_name for SVC
@@ -677,11 +697,6 @@ msgstr ""
 msgid "Tajik Somoni"
 msgstr ""
 
-#. currency_name for TLE
-#, fuzzy
-msgid "Timor Escudo"
-msgstr "εσκούδο Αν. Τιμόρ"
-
 #. currency_name for TMM
 #, fuzzy
 msgid "Turkmenistan Manat"
@@ -696,9 +711,9 @@ msgstr "δηνάριο Τυνησίας"
 msgid "Tongan Pa'anga"
 msgstr ""
 
-#. currency_name for TRL
+#. currency_name for TRY
 #, fuzzy
-msgid "Turkish Lira"
+msgid "New Turkish Lira"
 msgstr "Τουρκική λίρα"
 
 #. currency_name for TTD
@@ -713,7 +728,7 @@ msgstr "νέο δολλάριο Ταϊβάν"
 
 #. currency_name for TZS
 #, fuzzy
-msgid "Tazanian Schilling"
+msgid "Tanzanian Shilling"
 msgstr "σελίνι Τανζανίας"
 
 #. currency_name for UAH
@@ -723,7 +738,7 @@ msgstr "Ιρανικό ριάλ"
 
 #. currency_name for UGX
 #, fuzzy
-msgid "Ugandan Schilling"
+msgid "Ugandan Shilling"
 msgstr "σελίνι Ουγκάντας"
 
 #. currency_name for USD
@@ -776,25 +791,25 @@ msgid "Gold"
 msgstr ""
 
 #. currency_name for XBA
-msgid "Bond Markets Units"
+msgid "Bond Markets Units European Composite Unit (EURCO)"
 msgstr ""
 
 #. currency_name for XBB
-msgid "European Composite Unit EURCO"
-msgstr ""
-
-#. currency_name for XBC
 #, fuzzy
-msgid "European Monetary Unit EUM"
+msgid "European Monetary Unit (E.M.U.-6)"
 msgstr "ευρώ"
 
+#. currency_name for XBC
+msgid "European Unit of Account 9 (E.U.A.-9)"
+msgstr ""
+
 #. currency_name for XBD
-msgid "European Unit of Account EUA"
+msgid "European Unit of Account 17 (E.U.A.-17)"
 msgstr ""
 
 #. currency_name for XCD
 #, fuzzy
-msgid "East Caribean Dollar"
+msgid "East Caribbean Dollar"
 msgstr "δολλάριο Αν. Καραϊβικής"
 
 #. currency_name for XDR
@@ -835,13 +850,8 @@ msgstr ""
 
 #. currency_name for YER
 #, fuzzy
-msgid "Yemini Rial"
+msgid "Yemeni Rial"
 msgstr "ριάλ Υεμένης"
-
-#. currency_name for YUD
-#, fuzzy
-msgid "Yugoslavian Dinar"
-msgstr "νέο δηνάριο Γιουγκοσλαβίας"
 
 #. currency_name for ZAR
 #, fuzzy
@@ -897,6 +907,11 @@ msgstr ""
 #. currency_name for BEC
 #, fuzzy
 msgid "Belgian Convertible Franc"
+msgstr "Βελγικό φράγκο"
+
+#. currency_name for BEF
+#, fuzzy
+msgid "Belgian Franc"
 msgstr "Βελγικό φράγκο"
 
 #. currency_name for BEL
@@ -967,6 +982,10 @@ msgstr "Γερμανικό μάρκο"
 
 #. currency_name for ECS
 msgid "Ecuador Sucre"
+msgstr ""
+
+#. currency_name for ECV
+msgid "Unidad de Valor Constante UVC"
 msgstr ""
 
 #. currency_name for ESA
@@ -1085,6 +1104,11 @@ msgstr "Βουλγαρικό λεβ"
 msgid "Mali Franc"
 msgstr "φράγκο Μαλαγκάσυ"
 
+#. currency_name for MGF
+#, fuzzy
+msgid "Malagasy Franc"
+msgstr "φράγκο Μαλαγκάσυ"
+
 #. currency_name for MTP
 #, fuzzy
 msgid "Maltese Pound"
@@ -1137,6 +1161,11 @@ msgstr "Ρουμανικό λέου"
 msgid "Sudanese Pound"
 msgstr "λίρα Λιβάνου"
 
+#. currency_name for SRG
+#, fuzzy
+msgid "Suriname Guilder"
+msgstr "φιορίνι Σουρινάμ"
+
 #. currency_name for SUR
 #, fuzzy
 msgid "USSR Rouble"
@@ -1146,6 +1175,16 @@ msgstr "ρωσικό ρούβλι"
 #, fuzzy
 msgid "Tajik Rouble"
 msgstr "Βουλγαρικό λεβ"
+
+#. currency_name for TLE
+#, fuzzy
+msgid "Timor Escudo"
+msgstr "εσκούδο Αν. Τιμόρ"
+
+#. currency_name for TRL
+#, fuzzy
+msgid "Turkish Lira"
+msgstr "Τουρκική λίρα"
 
 #. currency_name for UAK
 #, fuzzy
@@ -1189,6 +1228,11 @@ msgstr ""
 #, fuzzy
 msgid "Yemeni Dinar"
 msgstr "ριάλ Υεμένης"
+
+#. currency_name for YUD
+#, fuzzy
+msgid "Yugoslavian Dinar"
+msgstr "νέο δηνάριο Γιουγκοσλαβίας"
 
 #. currency_name for ZAL
 #, fuzzy
