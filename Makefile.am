@@ -14,7 +14,6 @@ EXTRA_DIST = \
 	debian/changelog       \
 	debian/control         \
 	debian/copyright       \
-	debian/rules           \
-	debian/watch
+	debian/rules
 
 DISTCLEANFILES = $(pkgconfig_DATA)
