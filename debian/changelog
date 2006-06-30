@@ -9,8 +9,9 @@ iso-codes (0.52-1) UNRELEASED; urgency=low
   * Update ISO 4217. Closes: #376085
   * Remove iso_4217_historic.tab and iso_4217.tab as they are outdated
     and no longer distributed
+  * iso2pot.py: Derive the header of POT files from the file input
 
- -- Tobias Toedter <t.toedter@gmx.net>  Tue, 27 Jun 2006 21:28:16 +0200
+ -- Tobias Toedter <t.toedter@gmx.net>  Fri, 30 Jun 2006 12:06:05 +0200
 
 iso-codes (0.51-1.1) unstable; urgency=low
 
