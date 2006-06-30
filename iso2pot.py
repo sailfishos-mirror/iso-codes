@@ -39,15 +39,21 @@ class printPot(ContentHandler):
 			self.ofile.write ("msgstr \"\"\n")
 			self.done[n] = 'True'
 
-def printHeader(ofile, report_bugs_to, version):
+def printHeader(ofile, iso_standard, report_bugs_to, version):
     """Print the file header
     """
-    # FIXME Derive these
-    ofile.write ("# SOME DESCRIPTIVE TITLE.\n")
-    ofile.write ("# Copyright (C) " + time.strftime('%Y') + "\n")
+    description = "# Translation of ISO " + iso_standard[0]
+    if iso_standard[1]:
+        description += " (" + iso_standard[1] + ")"
+    description += " to LANGUAGE"
+
+    ofile.write (description + "\n")
+    ofile.write ("#\n")
     ofile.write ("# This file is distributed under the same license as the iso-codes package.\n")
-    ofile.write ("# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.\n")
-    ofile.write ("# \n")
+    ofile.write ("#\n")
+    ofile.write ("# Copyright (C)\n")
+    ofile.write ("#   FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.\n")
+    ofile.write ("#\n")
     ofile.write ("msgid \"\"\n")
     ofile.write ("msgstr \"\"\n")
     ofile.write ("\"Project-Id-Version: iso-codes " + version + "\\n\"\n")
@@ -80,7 +86,7 @@ except Exception,e:
     sys.exit(1)
 
 version = "VERSION"
-report_bugs_to = "Alastair McKinstry <mckinstry@debian.org>"
+report_bugs_to = "Debian iso-codes team <iso-codes@packages.debian.org>"
 fields = ["name","official_name"]
 comment = "code"
 ofile = sys.stdout
@@ -95,7 +101,26 @@ for opt, arg in opts:
     elif opt in ('-o','--outfile'):
         ofile = open(arg, 'w')
 
-printHeader(ofile, report_bugs_to, version)
+# derive the ISO standard from the first file's name
+# e.g. iso_3166_2.xml -> 3166-2
+iso_number = trail[0].rstrip('.xml').split('_')
+iso_number.remove('iso')
+iso_number = '-'.join(iso_number)
+
+if iso_number == '639' or iso_number == '639-3':
+	iso_desc = 'language names'
+elif iso_number == '3166':
+	iso_desc = 'country names'
+elif iso_number == '3166-2':
+	iso_desc = 'country subdivision names'
+elif iso_number == '4217':
+	iso_desc = 'currency names'
+else:
+	iso_desc = ''
+
+iso_standard = [iso_number, iso_desc]
+
+printHeader(ofile, iso_standard, report_bugs_to, version)
 
 p = make_parser()
 
@@ -116,5 +141,3 @@ except Exception, e:
 
 
 ofile.close()
-
-    
