@@ -9,7 +9,6 @@ EXTRA_DIST = \
 	TODO			\
 	rules.make		\
 	iso2pot.py		\
-	iso2tab.py		\
 	tab2h.pl		\
 	debian/changelog       \
 	debian/control         \
