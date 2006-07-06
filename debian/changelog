@@ -6,13 +6,14 @@ iso-codes (0.52-1) UNRELEASED; urgency=low
     - km.po updated by Khoem Sokhem
     - ru.po updated by Yuri Kozlov. Closes: #376234
   * iso_639:
+    - XML source updated.
     - ru.po updated by Yuri Kozlov. Closes: #376234
     - de.po updated by Tobias Toedter
   * iso_4217:
+    - XML source updated. Closes: #376085
     - de.po updated by Tobias Toedter
   * Remove debian/watch file from EXTRA_DIST in Makefile.am
   * Move to Standards-Version: 3.7.2. No changes required.
-  * Update ISO 4217. Closes: #376085
   * Remove iso_4217_historic.tab and iso_4217.tab as they are outdated
     and no longer distributed
   * iso2pot.py: Derive the header of POT files from the file input
