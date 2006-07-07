@@ -23,6 +23,9 @@ iso-codes (0.52-1) UNRELEASED; urgency=low
     and no longer distributed
   * Remove iso2tab.py as it is no longer used.
   * iso2pot.py: Derive the header of POT files from the file input
+  * Use a more portable method of creating directories during the
+    installation of data files. Thanks to Julio M. Merino Vidal
+    for the patch. Closes: #375687
 
   [ Miroslav Kure ]
   * iso_639/cs.po updated
@@ -32,7 +35,7 @@ iso-codes (0.52-1) UNRELEASED; urgency=low
   * iso_4217
     - fr.po updated from the standard itself (lucky me)
 
- -- Tobias Toedter <t.toedter@gmx.net>  Fri, 07 Jul 2006 22:17:49 +0200
+ -- Tobias Toedter <t.toedter@gmx.net>  Fri, 07 Jul 2006 23:19:25 +0200
 
 iso-codes (0.51-1.1) unstable; urgency=low
 
