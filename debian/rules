@@ -1,47 +1,47 @@
 #!/usr/bin/make -f
 # rules file for iso-codes. Uses debhelper.
-# GNU Copyright 2001 by Alastair  McKinstry
+# GNU Copyright 2001 by Alastair McKinstry
+# Modifications Copyright 2006 by Tobias Toedter
 
 # Uncomment this for verbose mode
 # export DH_VERBOSE=1
-
-export DH_COMPAT=5
 
 VERSION=$(shell dpkg-parsechangelog | grep ^Version: | cut -d ' ' -f 2)
 
 FILENAME=iso-3166-udeb_$(VERSION)_all.udeb
 
-build: build-stamp
 
-
-
-configure:
-	chmod +x ./autogen.sh
-	./autogen.sh
-
-build-stamp: configure
+config.status: configure
 	dh_testdir
 	./configure --prefix=/usr
+
+build: build-stamp
+
+build-stamp: config.status
+	dh_testdir
 	$(MAKE)
-	touch build-stamp
+	touch $@
 
 clean:
 	dh_testdir
 	dh_testroot
+	rm -f build-stamp 
 	-$(MAKE) distclean
-	rm -f build-stamp configure aclocal.m4 config.{guess,log,sub} missing
-	rm -f iso_639/iso_639_3/iso_639.xml
-	find . -name Makefile.in -exec rm {} \;
 	dh_clean
+
+
+install: build
+	dh_testdir
+	dh_testroot
+	dh_clean
+	dh_installdirs
+	$(MAKE) install DESTDIR=$(CURDIR)/debian/iso-codes
 
 binary-arch:
 
-binary-indep: build-stamp
-
-binary: binary-arch
+binary-indep: build install
 	dh_testdir
 	dh_testroot
-	make install DESTDIR=`pwd`/debian/iso-codes
 	mkdir -p `pwd`/debian/iso-3166-udeb/usr/share/iso-codes
 	cp iso_3166/iso_3166.tab  \
 		`pwd`/debian/iso-3166-udeb/usr/share/iso-codes
@@ -57,6 +57,5 @@ binary: binary-arch
 	dh_builddeb -p iso-codes
 	dh_builddeb --filename=$(FILENAME)
 
-.PHONY: binary binary-arch binary-indep clean
-
-
+binary: binary-indep binary-arch
+.PHONY: build clean binary-indep binary-arch binary install
