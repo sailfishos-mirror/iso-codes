@@ -32,6 +32,10 @@ iso-codes (0.52-1) UNRELEASED; urgency=low
     for the patch. Closes: #375687
   * Add "compat" file for debhelper
   * Update of the debian/copyright information
+  * debian/control:
+    - Change Build-Depends-Indep to Build-Depends, according to
+      Policy 7.6. The reason is that we call the "clean" target.
+    - Remove autoconf and automake from Build-Depends
 
   [ Miroslav Kure ]
   * iso_639/cs.po updated
@@ -41,7 +45,7 @@ iso-codes (0.52-1) UNRELEASED; urgency=low
   * iso_4217
     - fr.po updated from the standard itself (lucky me)
 
- -- Tobias Toedter <t.toedter@gmx.net>  Sat, 08 Jul 2006 11:12:54 +0200
+ -- Tobias Toedter <t.toedter@gmx.net>  Sun, 09 Jul 2006 00:40:00 +0200
 
 iso-codes (0.51-1.1) unstable; urgency=low
 
