@@ -1,22 +1,24 @@
-# Traditional Chinese (zh_TW) translations of ISO 3166 place names
-# Copyright (C) 2002,2003 Free Software Foundation, Inc.
-# Alastair McKinstry <mckinstry@computer.org>, 2002
-# Translations from KDE:
-#  AceLan <acelan@kde.linux.org.tw> 2001
-#  Kenduest Lee <kenduest@i18n.linux.org.tw> 2001
-# Translations from Debian-Installer:
-#  Tetralet <tetralet@pchome.com.tw> 2004
+# Translation of ISO-3166 (country names) to Traditional Chinese
+#
+# This file is distributed under the same license as the iso-codes package.
+#
+# Copyright (C)
+#   Free Software Foundation, Inc., 2002,2003
+#   Alastair McKinstry <mckinstry@computer.org>, 2002
+#   Translations from KDE:
+#   - AceLan <acelan@kde.linux.org.tw>, 2001
+#   - Kenduest Lee <kenduest@i18n.linux.org.tw>, 2001
+#   Tetralet <tetralet@pchome.com.tw> 2004
+#
 # 	Sorry, I'm NOT very familiar with international relations,
 # 	All translations are based on Ministry of Finance. R.O.C and Google.
 # 	If you find something improper, please feel free to contact with me. Thanks.
 #
-# $Id$
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_3166 CVS\n"
-"Report-Msgid-Bugs-To: Alastair McKinstry <mckinstry@debian.org>\n"
-"POT-Creation-Date: 2006-04-02 14:58+0200\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <iso-codes@packages.debian.org>\n"
+"POT-Creation-Date: 2006-07-08 11:21+0200\n"
 "PO-Revision-Date: 2004-08-24 01:27+0800\n"
 "Last-Translator: Tetralet <tetralet@pchome.com.tw>\n"
 "Language-Team: Debian-user in Chinese [Big5] <debian-chinese-big5@lists."
@@ -428,14 +430,6 @@ msgstr "多米尼克國"
 #. name for DOM
 msgid "Dominican Republic"
 msgstr "多明尼加共和國"
-
-#. name for TLS
-msgid "Timor-Leste"
-msgstr "東帝汶"
-
-#. official_name for TLS
-msgid "Democratic Republic of Timor-Leste"
-msgstr "東帝汶民主共和國"
 
 #. name for ECU
 msgid "Ecuador"
@@ -1309,6 +1303,10 @@ msgstr "塞內加爾"
 msgid "Republic of Senegal"
 msgstr "塞內加爾共和國"
 
+#. name for SCG
+msgid "Serbia and Montenegro"
+msgstr "塞爾維亞及蒙特內哥羅"
+
 #. name for SYC
 msgid "Seychelles"
 msgstr "塞席爾"
@@ -1468,6 +1466,14 @@ msgstr "泰國"
 #. official_name for THA
 msgid "Kingdom of Thailand"
 msgstr "泰王國"
+
+#. name for TLS
+msgid "Timor-Leste"
+msgstr "東帝汶"
+
+#. official_name for TLS
+msgid "Democratic Republic of Timor-Leste"
+msgstr "東帝汶民主共和國"
 
 #. name for TGO
 msgid "Togo"
@@ -1648,7 +1654,3 @@ msgstr "辛巴威"
 #. official_name for ZWE
 msgid "Republic of Zimbabwe"
 msgstr "辛巴威共和國"
-
-#. name for SCG
-msgid "Serbia and Montenegro"
-msgstr "塞爾維亞及蒙特內哥羅"

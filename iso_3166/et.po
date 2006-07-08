@@ -1,19 +1,17 @@
-# translation of et.po to Estonian
-# Estonian translation of ISO 3166 place names
-# Copyright (C) 2002,200, 2006 Free Software Foundation, Inc.
-# Translations from KDE desktop.po:
-#  Hasso Tepper <hasso@estpak.ee>
-# Alastair McKinstry - further translations from ICU-3.0
+# Translation of ISO-3166 (country names) to Estonian
 #
-# $Id$
+# This file is distributed under the same license as the iso-codes package.
 #
-# Alastair McKinstry <mckinstry@computer.org>, 2002.
-# Hasso Tepper <hasso@estpak.ee>, 2006.
+# Copyright (C)
+#   Free Software Foundation, Inc., 2006
+#   Alastair McKinstry <mckinstry@computer.org>, 2002.
+#   Hasso Tepper <hasso@estpak.ee>, 2006.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: et\n"
-"Report-Msgid-Bugs-To: Alastair McKinstry <mckinstry@debian.org>\n"
-"POT-Creation-Date: 2006-04-02 14:58+0200\n"
+"Project-Id-Version: iso_3166 CVS\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <iso-codes@packages.debian.org>\n"
+"POT-Creation-Date: 2006-07-08 11:21+0200\n"
 "PO-Revision-Date: 2006-01-04 22:59+0200\n"
 "Last-Translator: Hasso Tepper <hasso@estpak.ee>\n"
 "Language-Team: Estonian <et@li.org>\n"
@@ -425,14 +423,6 @@ msgstr "Dominica Ühendus"
 #. name for DOM
 msgid "Dominican Republic"
 msgstr "Dominikaani Vabariik"
-
-#. name for TLS
-msgid "Timor-Leste"
-msgstr "Ida-Timor"
-
-#. official_name for TLS
-msgid "Democratic Republic of Timor-Leste"
-msgstr "Ida-Timori Demokraatlik Vabariik"
 
 #. name for ECU
 msgid "Ecuador"
@@ -1306,6 +1296,10 @@ msgstr "Senegal"
 msgid "Republic of Senegal"
 msgstr "Senegali Vabariik"
 
+#. name for SCG
+msgid "Serbia and Montenegro"
+msgstr "Serbia ja Montenegro"
+
 #. name for SYC
 msgid "Seychelles"
 msgstr "Seišellid"
@@ -1465,6 +1459,14 @@ msgstr "Tai"
 #. official_name for THA
 msgid "Kingdom of Thailand"
 msgstr "Tai Kuningriik"
+
+#. name for TLS
+msgid "Timor-Leste"
+msgstr "Ida-Timor"
+
+#. official_name for TLS
+msgid "Democratic Republic of Timor-Leste"
+msgstr "Ida-Timori Demokraatlik Vabariik"
 
 #. name for TGO
 msgid "Togo"
@@ -1645,7 +1647,3 @@ msgstr "Zimbabwe"
 #. official_name for ZWE
 msgid "Republic of Zimbabwe"
 msgstr "Zimbabwe Vabariik"
-
-#. name for SCG
-msgid "Serbia and Montenegro"
-msgstr "Serbia ja Montenegro"

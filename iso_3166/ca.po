@@ -1,17 +1,20 @@
-# Translation of ISO 3166 names to Catalan.
-# Copyright © 2001, 2004, 2006 Free Software Foundation, Inc.
+# Translation of ISO-3166 (country names) to Catalan
+#
+# This file is distributed under the same license as the iso-codes package.
+#
+# Copyright (C)
+#   Free Software Foundation, Inc., 2006
+#   Softcatalà <info@softcatala.org>, 2001.
+#   Alastair McKinstry <mckinstry@computer.org>, 2001.
+#   Orestes Mas i Casals <orestes@tsc.upc.es>, 2004-2006.
 #
 # (orestes: He usat la nomenclatura de http://www.traduim.com/)
 #
-# Softcatalà <info@softcatala.org>, 2001.
-# Alastair McKinstry <mckinstry@computer.org>, 2001.
-# Orestes Mas i Casals <orestes@tsc.upc.es>, 2004-2006.
-
 msgid ""
 msgstr ""
-"Project-Id-Version: iso-codes_iso_3166_ca\n"
-"Report-Msgid-Bugs-To: Alastair McKinstry <mckinstry@debian.org>\n"
-"POT-Creation-Date: 2006-04-02 14:58+0200\n"
+"Project-Id-Version: iso_3166 CVS\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <iso-codes@packages.debian.org>\n"
+"POT-Creation-Date: 2006-07-08 11:21+0200\n"
 "PO-Revision-Date: 2006-04-04 02:06+0200\n"
 "Last-Translator: Orestes Mas Casals <orestes@tsc.upc.edu>\n"
 "Language-Team: Catalan <ca@dodds.net>\n"
@@ -424,14 +427,6 @@ msgstr "Commonwealth de Dominica"
 #. name for DOM
 msgid "Dominican Republic"
 msgstr "República Dominicana"
-
-#. name for TLS
-msgid "Timor-Leste"
-msgstr "Timor Oriental"
-
-#. official_name for TLS
-msgid "Democratic Republic of Timor-Leste"
-msgstr "República Democràtica de Timor Oriental"
 
 #. name for ECU
 msgid "Ecuador"
@@ -1305,6 +1300,11 @@ msgstr "Senegal"
 msgid "Republic of Senegal"
 msgstr "República del Senegal"
 
+# CS (as of 23 July 2003)
+#. name for SCG
+msgid "Serbia and Montenegro"
+msgstr "Sèrbia i Montenegro"
+
 #. name for SYC
 msgid "Seychelles"
 msgstr "Seychelles"
@@ -1464,6 +1464,14 @@ msgstr "Tailàndia"
 #. official_name for THA
 msgid "Kingdom of Thailand"
 msgstr "Regne de Tailàndia"
+
+#. name for TLS
+msgid "Timor-Leste"
+msgstr "Timor Oriental"
+
+#. official_name for TLS
+msgid "Democratic Republic of Timor-Leste"
+msgstr "República Democràtica de Timor Oriental"
 
 #. name for TGO
 msgid "Togo"
@@ -1644,9 +1652,3 @@ msgstr "Zimbabwe"
 #. official_name for ZWE
 msgid "Republic of Zimbabwe"
 msgstr "República de Zimbabwe"
-
-# CS (as of 23 July 2003)
-#. name for SCG
-msgid "Serbia and Montenegro"
-msgstr "Sèrbia i Montenegro"
-

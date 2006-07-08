@@ -1,21 +1,22 @@
-# translation of fi.po to French
-# Finnish translations for ISO 3166 place names
-# Copyright (C) 2002,2003, 2004 Free Software Foundation, Inc.
-# Alastair McKinstry <mckinstry@computer.org>, 2002.
-# Tapio Lehtonen <tale@debian.org>, 2004
+# Translation of ISO-3166 (country names) to Finnish
+#
+# This file is distributed under the same license as the iso-codes package.
+#
+# Copyright (C)
+#   Free Software Foundation, Inc., 2004
+#   Alastair McKinstry <mckinstry@computer.org>, 2002.
+#   Tapio Lehtonen <tale@debian.org>, 2004
+#
 # For Finnish names see
 # http://formin.finland.fi/suomi/ Edustustot
 # and
 # http://www.tulli.fi/fi/05_Ulkomaankauppatilastot/06_SVT/maat2003.jsp
 #
-#
-# $Id$
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_3166 CVS\n"
-"Report-Msgid-Bugs-To: Alastair McKinstry <mckinstry@debian.org>\n"
-"POT-Creation-Date: 2006-04-02 14:58+0200\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <iso-codes@packages.debian.org>\n"
+"POT-Creation-Date: 2006-07-08 11:21+0200\n"
 "PO-Revision-Date: 2004-09-27 21:03+0200\n"
 "Last-Translator: Tapio Lehtonen <tale@debian.org>\n"
 "Language-Team: Finnish <debian-l10n-finnish@lists.debian.org>\n"
@@ -428,14 +429,6 @@ msgstr "Dominican liittovaltio"
 #. name for DOM
 msgid "Dominican Republic"
 msgstr "Dominikaaninen tasavalta"
-
-#. name for TLS
-msgid "Timor-Leste"
-msgstr "Itä-Timor"
-
-#. official_name for TLS
-msgid "Democratic Republic of Timor-Leste"
-msgstr "Itä-Timorin demokraattinen tasavalta"
 
 #. name for ECU
 msgid "Ecuador"
@@ -1309,6 +1302,10 @@ msgstr "Senegal"
 msgid "Republic of Senegal"
 msgstr "Senegalin tasavalta"
 
+#. name for SCG
+msgid "Serbia and Montenegro"
+msgstr "Serbia ja Montenegro "
+
 #. name for SYC
 msgid "Seychelles"
 msgstr "Seychellit"
@@ -1468,6 +1465,14 @@ msgstr "Thaimaa"
 #. official_name for THA
 msgid "Kingdom of Thailand"
 msgstr "Thaimaan kuningaskunta"
+
+#. name for TLS
+msgid "Timor-Leste"
+msgstr "Itä-Timor"
+
+#. official_name for TLS
+msgid "Democratic Republic of Timor-Leste"
+msgstr "Itä-Timorin demokraattinen tasavalta"
 
 #. name for TGO
 msgid "Togo"
@@ -1648,10 +1653,6 @@ msgstr "Zimbabwe"
 #. official_name for ZWE
 msgid "Republic of Zimbabwe"
 msgstr "Zimbabwen tasavalta"
-
-#. name for SCG
-msgid "Serbia and Montenegro"
-msgstr "Serbia ja Montenegro "
 
 #, fuzzy
 #~ msgid "Micronesia"

@@ -1,20 +1,19 @@
-# translation of pl.po to French
-# translation of iso-codes.po to Polish
-# Polish translations of ISO 3166 place names
-# Copyright (C) 2002,2003, 2004 Free Software Foundation, Inc.
-# Translations from KDE:
-# Jacek Stolarczyk <jacek@mer.chemia.polsl.gliwice.pl>
-#  - additional translations from ICU-3.0
-# Alastair McKinstry, <mckinstry@debian.org>, 2004.
-# Tomasz Z. Napierala <zen@debian.linux.org.pl>, 2004.
+# Translation of ISO-3166 (country names) to Polish
 #
-# $Id$
+# This file is distributed under the same license as the iso-codes package.
+#
+# Copyright (C)
+#   Free Software Foundation, Inc., 2004
+#   Translations from KDE:
+#   - Jacek Stolarczyk <jacek@mer.chemia.polsl.gliwice.pl>
+#   Alastair McKinstry, <mckinstry@debian.org>, 2004.
+#   Tomasz Z. Napierala <zen@debian.linux.org.pl>, 2004.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: iso-codes\n"
-"Report-Msgid-Bugs-To: Alastair McKinstry <mckinstry@debian.org>\n"
-"POT-Creation-Date: 2006-04-02 14:58+0200\n"
+"Project-Id-Version: iso_3166 CVS\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <iso-codes@packages.debian.org>\n"
+"POT-Creation-Date: 2006-07-08 11:21+0200\n"
 "PO-Revision-Date: 2004-09-27 18:47+0200\n"
 "Last-Translator: Tomasz Z. Napierala <zen@debian.linux.org.pl>\n"
 "Language-Team: Polish <pddp@debian.linux.org.pl>\n"
@@ -427,14 +426,6 @@ msgstr "Wspólnota Dominiki"
 #. name for DOM
 msgid "Dominican Republic"
 msgstr "Dominikana"
-
-#. name for TLS
-msgid "Timor-Leste"
-msgstr "Timor Wschodni"
-
-#. official_name for TLS
-msgid "Democratic Republic of Timor-Leste"
-msgstr "Demokratyczna Republika Timoru Wschodniego"
 
 #. name for ECU
 msgid "Ecuador"
@@ -1312,6 +1303,10 @@ msgstr "Senegal"
 msgid "Republic of Senegal"
 msgstr "Republika Senegalu"
 
+#. name for SCG
+msgid "Serbia and Montenegro"
+msgstr "Serbia i Czarnogóra"
+
 #. name for SYC
 msgid "Seychelles"
 msgstr "Seszele"
@@ -1471,6 +1466,14 @@ msgstr "Tajlandia"
 #. official_name for THA
 msgid "Kingdom of Thailand"
 msgstr "Królestwo Tajlandii"
+
+#. name for TLS
+msgid "Timor-Leste"
+msgstr "Timor Wschodni"
+
+#. official_name for TLS
+msgid "Democratic Republic of Timor-Leste"
+msgstr "Demokratyczna Republika Timoru Wschodniego"
 
 #. name for TGO
 msgid "Togo"
@@ -1652,10 +1655,6 @@ msgstr "Zimbabwe"
 #. official_name for ZWE
 msgid "Republic of Zimbabwe"
 msgstr "Republika Zimbabwe"
-
-#. name for SCG
-msgid "Serbia and Montenegro"
-msgstr "Serbia i Czarnogóra"
 
 #~ msgid "Iran"
 #~ msgstr "Iran"

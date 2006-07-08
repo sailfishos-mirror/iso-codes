@@ -1,12 +1,15 @@
-# Translation of ISO 3166 to Nepali
+# Translation of ISO-3166 (country names) to Nepali
+#
 # This file is distributed under the same license as the iso-codes package.
+#
 # Copyright (C)
-# Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>, 2006.
+#   Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>, 2006.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: iso-codes 0.51\n"
-"Report-Msgid-Bugs-To: Alastair McKinstry <mckinstry@debian.org>\n"
-"POT-Creation-Date: 2005-02-13 15:03+0100\n"
+"Project-Id-Version: iso_3166 CVS\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <iso-codes@packages.debian.org>\n"
+"POT-Creation-Date: 2006-07-08 11:21+0200\n"
 "PO-Revision-Date: 2006-05-22 23:00+0545\n"
 "Last-Translator: Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>\n"
 "Language-Team: Nepali <info@mpp.org.np>\n"
@@ -420,14 +423,6 @@ msgstr "डोमिनिकाको साझा धन"
 msgid "Dominican Republic"
 msgstr "डोमिनिकन गणराज्य"
 
-#. name for TLS
-msgid "Timor-Leste"
-msgstr "टिमोर-लेस्टे"
-
-#. official_name for TLS
-msgid "Democratic Republic of Timor-Leste"
-msgstr "टिमोर-लेस्टेको प्रजातन्त्रिक गणराज्य"
-
 #. name for ECU
 msgid "Ecuador"
 msgstr "इक्वेडर"
@@ -596,6 +591,11 @@ msgstr "ग्वाटेमाला"
 msgid "Republic of Guatemala"
 msgstr "ग्वाटेमालाको गणराज्य"
 
+#. name for GGY
+#, fuzzy
+msgid "Guernsey"
+msgstr "जर्मनी"
+
 #. name for GIN
 msgid "Guinea"
 msgstr "जिनिया"
@@ -704,6 +704,10 @@ msgstr "इराकको गणराज्य"
 msgid "Ireland"
 msgstr "आयरल्याण्ड"
 
+#. name for IMN
+msgid "Isle of Man"
+msgstr ""
+
 #. name for ISR
 msgid "Israel"
 msgstr "इज्रायल"
@@ -727,6 +731,10 @@ msgstr "जमैका"
 #. name for JPN
 msgid "Japan"
 msgstr "जापान"
+
+#. name for JEY
+msgid "Jersey"
+msgstr ""
 
 #. name for JOR
 msgid "Jordan"
@@ -1288,6 +1296,10 @@ msgstr "सेनेगल"
 msgid "Republic of Senegal"
 msgstr "सेनेगलको गणराज्य"
 
+#. name for SCG
+msgid "Serbia and Montenegro"
+msgstr "सर्बिया र मोन्टेनेग्रो"
+
 #. name for SYC
 msgid "Seychelles"
 msgstr "सिचेल्लिस"
@@ -1447,6 +1459,14 @@ msgstr "थाइल्याण्ड"
 #. official_name for THA
 msgid "Kingdom of Thailand"
 msgstr "थाइल्याण्डको अधिराज्य"
+
+#. name for TLS
+msgid "Timor-Leste"
+msgstr "टिमोर-लेस्टे"
+
+#. official_name for TLS
+msgid "Democratic Republic of Timor-Leste"
+msgstr "टिमोर-लेस्टेको प्रजातन्त्रिक गणराज्य"
 
 #. name for TGO
 msgid "Togo"
@@ -1627,8 +1647,3 @@ msgstr "जिम्बावे"
 #. official_name for ZWE
 msgid "Republic of Zimbabwe"
 msgstr "जिम्बावेको गणराज्य"
-
-#. name for SCG
-msgid "Serbia and Montenegro"
-msgstr "सर्बिया र मोन्टेनेग्रो"
-
