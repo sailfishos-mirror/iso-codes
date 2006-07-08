@@ -25,7 +25,7 @@ iso-codes (0.52-1) UNRELEASED; urgency=low
   * Move to Standards-Version: 3.7.2. No changes required.
   * Remove iso_4217_historic.tab and iso_4217.tab as they are outdated
     and no longer distributed
-  * Remove iso2tab.py as it is no longer used.
+  * Remove iso2tab.py and tab2h.pl as they are no longer used.
   * iso2pot.py: Derive the header of POT files from the file input
   * Use a more portable method of creating directories during the
     installation of data files. Thanks to Julio M. Merino Vidal
@@ -39,7 +39,7 @@ iso-codes (0.52-1) UNRELEASED; urgency=low
   * iso_4217
     - fr.po updated from the standard itself (lucky me)
 
- -- Tobias Toedter <t.toedter@gmx.net>  Sat, 08 Jul 2006 10:48:45 +0200
+ -- Tobias Toedter <t.toedter@gmx.net>  Sat, 08 Jul 2006 11:12:54 +0200
 
 iso-codes (0.51-1.1) unstable; urgency=low
 
