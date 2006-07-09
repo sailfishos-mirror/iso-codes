@@ -8,10 +8,6 @@ EXTRA_DIST = \
 	README			\
 	TODO			\
 	rules.make		\
-	iso2pot.py		\
-	debian/changelog       \
-	debian/control         \
-	debian/copyright       \
-	debian/rules
+	iso2pot.py
 
 DISTCLEANFILES = $(pkgconfig_DATA)
