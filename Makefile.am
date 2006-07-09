@@ -5,8 +5,7 @@ pkgconfig_DATA = iso-codes.pc
 
 EXTRA_DIST = \
 	$(pkgconfig_DATA)	\
-	README			\
-	TODO			\
+	LGPL-2.1		\
 	rules.make		\
 	iso2pot.py
 
