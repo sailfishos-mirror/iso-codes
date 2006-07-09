@@ -1,15 +1,13 @@
 Source: iso-codes
-Priority: optional
 Section: misc
-Build-Depends: debhelper (>= 5), gettext, python, python-xml
+Priority: optional
 Maintainer: Alastair McKinstry <mckinstry@debian.org>
 Uploaders: Tobias Toedter <t.toedter@gmx.net>, Christian Perrier <bubulle@debian.org>
+Build-Depends: debhelper (>= 5), gettext, python, python-xml
 Standards-Version: 3.7.2
 
 Package: iso-codes
 Architecture: all
-Section: misc
-Priority: optional
 Description: ISO language, territory, currency codes and their translations
  This package provides the ISO-639 Language code list, the 
  ISO-4217 currency list, the ISO-3166 Territory code list, 
@@ -21,6 +19,7 @@ Package: iso-3166-udeb
 Architecture: all
 Section: debian-installer
 Priority: optional
+XC-Package-Type: udeb
 Description: provides iso_3166.tab file
  This package provides the iso_3166.tab file, which lists country names
  and their ISO-3166 codes.
