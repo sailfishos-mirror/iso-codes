@@ -8,8 +8,11 @@ iso-codes (0.52-2) UNRELEASED; urgency=low
     - ar.po updated by Ossama M. Khayat. Closes: #377530
     - ro.po updated by Eddy Petrişor. Closes: #378665
   * debian/copyright: Update for the new SVN source code location
+  * iso_3166_2
+    - Corrected some errors in the XML file. Thanks to Andreas Schmidt
+      and Ulrich Mueller for the patch and hints. Closes: #375688
 
- -- Tobias Toedter <t.toedter@gmx.net>  Mon, 24 Jul 2006 19:18:04 +0200
+ -- Tobias Toedter <t.toedter@gmx.net>  Wed, 26 Jul 2006 20:55:04 +0200
 
 iso-codes (0.52-1) unstable; urgency=low
 
