@@ -3,21 +3,26 @@
 # This file is distributed under the same license as the iso-codes package.
 #
 # Copyright (C)
-#   Free Software Foundation, Inc., 2000
+#   Free Software Foundation, Inc., 2000, 2006
 #   Andras TIMAR <timar@gnome.hu>, 2000-2001.
 #   VERÓK István <vi@fsf.hu>, 2004
+#   Gabor Kelemen <kelemeng@gnome.hu>, 2006.
+#
+# http://www.unicode.org/cldr/data/diff/main/hu_HU.html
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_639 CVS\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <iso-codes@packages.debian.org>\n"
 "POT-Creation-Date: 2006-06-28 00:23+0200\n"
-"PO-Revision-Date: 2004-03-30 17:05+0200\n"
-"Last-Translator: VERÓK István <vi@fsf.hu>\n"
-"Language-Team: Debian Hungarian Localization Team <debian-l10n>\n"
+"PO-Revision-Date: 2006-07-18 19:04+0200\n"
+"Last-Translator: Gabor Kelemen <kelemeng@gnome.hu>\n"
+"Language-Team: Hungarian <translation-team-hu@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.2\n"
+"Plural-Forms:  nplurals=1; plural=0;\n"
 
 #. name for aar
 msgid "Afar"
@@ -27,7 +32,6 @@ msgstr "afar"
 msgid "Abkhazian"
 msgstr "abház"
 
-# src/trans.h:220
 #. name for ace
 msgid "Achinese"
 msgstr "akinéz"
@@ -52,14 +56,13 @@ msgstr "afro-ázsiai (egyéb)"
 msgid "Afrihili"
 msgstr "afrihili"
 
-# src/trans.h:281 src/trans.h:318
 #. name for afr
 msgid "Afrikaans"
 msgstr "afrikaans"
 
 #. name for ain
 msgid "Ainu"
-msgstr ""
+msgstr "auinu"
 
 #. name for aka
 msgid "Akan"
@@ -69,54 +72,46 @@ msgstr "akan"
 msgid "Akkadian"
 msgstr "akkád"
 
-# src/trans.h:282
 #. name for sqi
 msgid "Albanian"
 msgstr "albán"
 
 #. name for ale
 msgid "Aleut"
-msgstr ""
+msgstr "aleut"
 
 #. name for alg
 msgid "Algonquian languages"
 msgstr "algonkin nyelvek"
 
 #. name for alt
-#, fuzzy
 msgid "Southern Altai"
-msgstr "déli szami"
+msgstr "déli altáji"
 
-# src/trans.h:283
 #. name for amh
 msgid "Amharic"
 msgstr "amhara"
 
 #. name for ang
-#, fuzzy
 msgid "English, Old (ca. 450-1100)"
 msgstr "óangol (kb. 450-1100)"
 
 #. name for anp
-#, fuzzy
 msgid "Angika"
-msgstr "akan"
+msgstr "angika"
 
 #. name for apa
 msgid "Apache languages"
 msgstr "apacs nyelvek"
 
-# src/trans.h:283
 #. name for ara
 msgid "Arabic"
 msgstr "arab"
 
-# src/trans.h:283
 #. name for arc
 msgid "Aramaic"
 msgstr "arámi"
 
-# src/trans.h:294
 #. name for arg
 msgid "Aragonese"
 msgstr "aragóniai"
@@ -125,7 +120,6 @@ msgstr "aragóniai"
 msgid "Armenian"
 msgstr "örmény"
 
-# src/trans.h:227
 #. name for arn
 msgid "Araucanian"
 msgstr "araukán"
@@ -151,15 +145,13 @@ msgid "Asturian; Bable"
 msgstr "asztúri; bábeli"
 
 #. name for ath
-#, fuzzy
 msgid "Athapascan languages"
-msgstr "atapaszkán"
+msgstr "atapaszkán nyelvek"
 
 #. name for aus
 msgid "Australian languages"
 msgstr "ausztrál nyelvek"
 
-# src/trans.h:283
 #. name for ava
 msgid "Avaric"
 msgstr "avar"
@@ -176,7 +168,6 @@ msgstr "avádi"
 msgid "Aymara"
 msgstr "aymara"
 
-# src/trans.h:311
 #. name for aze
 msgid "Azerbaijani"
 msgstr "azeri"
@@ -201,12 +192,10 @@ msgstr "baluchi"
 msgid "Bambara"
 msgstr "bambara"
 
-# src/trans.h:220
 #. name for ban
 msgid "Balinese"
 msgstr "balinéz"
 
-# src/trans.h:284
 #. name for eus
 msgid "Basque"
 msgstr "baszk"
@@ -223,7 +212,6 @@ msgstr "balti (egyéb)"
 msgid "Beja"
 msgstr "beja"
 
-# src/trans.h:286
 #. name for bel
 msgid "Belarusian"
 msgstr "belorusz"
@@ -268,7 +256,6 @@ msgstr "szikszika"
 msgid "Bantu (Other)"
 msgstr "bantu (egyéb)"
 
-# src/trans.h:309
 #. name for bos
 msgid "Bosnian"
 msgstr "bosnyák"
@@ -277,27 +264,22 @@ msgstr "bosnyák"
 msgid "Braj"
 msgstr "bradzs"
 
-# src/trans.h:285
 #. name for bre
 msgid "Breton"
 msgstr "breton"
 
-# src/trans.h:302
 #. name for btk
 msgid "Batak (Indonesia)"
 msgstr "batak (indonéz)"
 
-# src/trans.h:285
 #. name for bua
 msgid "Buriat"
 msgstr "burját"
 
-# src/trans.h:220
 #. name for bug
 msgid "Buginese"
 msgstr "buginéz"
 
-# src/trans.h:285
 #. name for bul
 msgid "Bulgarian"
 msgstr "bolgár"
@@ -324,7 +306,7 @@ msgstr "karib"
 
 #. name for cat
 msgid "Catalan; Valencian"
-msgstr ""
+msgstr "katalán, valenciai"
 
 #. name for cau
 msgid "Caucasian (Other)"
@@ -346,7 +328,6 @@ msgstr "chamorro"
 msgid "Chibcha"
 msgstr "csibcsa"
 
-# src/trans.h:290
 #. name for che
 msgid "Chechen"
 msgstr "csecsen"
@@ -355,14 +336,11 @@ msgstr "csecsen"
 msgid "Chagatai"
 msgstr "chagati"
 
-# src/trans.h:220
 #. name for zho
 msgid "Chinese"
 msgstr "kínai"
 
-# src/trans.h:220
 #. name for chk
-#, fuzzy
 msgid "Chuukese"
 msgstr "csukéz"
 
@@ -390,7 +368,7 @@ msgstr "cserokí"
 msgid ""
 "Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church "
 "Slavonic"
-msgstr ""
+msgstr "egyházi szláv, régi szláv, régi bolgár, régi egyházi szláv"
 
 #. name for chv
 msgid "Chuvash"
@@ -408,7 +386,6 @@ msgstr "chami nyelvek"
 msgid "Coptic"
 msgstr "kopt"
 
-# src/trans.h:363
 #. name for cor
 msgid "Cornish"
 msgstr "cornwalli"
@@ -418,29 +395,24 @@ msgid "Corsican"
 msgstr "korzikai"
 
 #. name for cpe
-#, fuzzy
 msgid "Creoles and pidgins, English based (Other)"
-msgstr "kreol és pidgin (egyéb)"
+msgstr "kreol és pidgin, angol alapú (egyéb)"
 
 #. name for cpf
-#, fuzzy
 msgid "Creoles and pidgins, French-based (Other)"
-msgstr "kreol és pidgin (egyéb)"
+msgstr "kreol és pidgin, francia alapú (egyéb)"
 
 #. name for cpp
-#, fuzzy
 msgid "Creoles and pidgins, Portuguese-based (Other)"
-msgstr "kreol és pidgin (egyéb)"
+msgstr "kreol és pidgin, portugál alapú (egyéb)"
 
-# src/trans.h:299
 #. name for cre
 msgid "Cree"
 msgstr "cree"
 
 #. name for crh
-#, fuzzy
 msgid "Crimean Tatar; Crimean Turkish"
-msgstr "krími török; krími tatár"
+msgstr "krími tatár; krími török"
 
 #. name for crp
 msgid "Creoles and pidgins (Other)"
@@ -454,7 +426,6 @@ msgstr "kasubi"
 msgid "Cushitic (Other)"
 msgstr "kusita (egyéb)"
 
-# src/trans.h:290
 #. name for ces
 msgid "Czech"
 msgstr "cseh"
@@ -463,7 +434,6 @@ msgstr "cseh"
 msgid "Dakota"
 msgstr "dakota"
 
-# src/trans.h:291
 #. name for dan
 msgid "Danish"
 msgstr "dán"
@@ -472,11 +442,9 @@ msgstr "dán"
 msgid "Dargwa"
 msgstr "dargwa"
 
-# src/trans.h:193
 #. name for day
-#, fuzzy
 msgid "Dayak"
-msgstr "szaszak"
+msgstr "dayak"
 
 #. name for del
 msgid "Delaware"
@@ -496,7 +464,7 @@ msgstr "dinka"
 
 #. name for div
 msgid "Divehi; Dhivehi; Maldivian"
-msgstr ""
+msgstr "divehi; maldív-szigeteki"
 
 #. name for doi
 msgid "Dogri"
@@ -506,7 +474,6 @@ msgstr "dogri"
 msgid "Dravidian (Other)"
 msgstr "dravida (egyéb)"
 
-# src/trans.h:311
 #. name for dsb
 msgid "Lower Sorbian"
 msgstr "alsó szorb"
@@ -521,7 +488,7 @@ msgstr "közép-holland (kb. 1050-1350)"
 
 #. name for nld
 msgid "Dutch; Flemish"
-msgstr ""
+msgstr "holland, flamand"
 
 #. name for dyu
 msgid "Dyula"
@@ -547,7 +514,6 @@ msgstr "ekajuk"
 msgid "Elamite"
 msgstr "elamita"
 
-# src/trans.h:293
 #. name for eng
 msgid "English"
 msgstr "angol"
@@ -556,12 +522,10 @@ msgstr "angol"
 msgid "English, Middle (1100-1500)"
 msgstr "közép-angol (1100-1500)"
 
-# src/trans.h:298
 #. name for epo
 msgid "Esperanto"
 msgstr "eszperantó"
 
-# src/trans.h:309
 #. name for est
 msgid "Estonian"
 msgstr "észt"
@@ -578,7 +542,6 @@ msgstr "ewondo"
 msgid "Fang"
 msgstr "fang"
 
-# src/trans.h:294
 #. name for fao
 msgid "Faroese"
 msgstr "feröi"
@@ -592,11 +555,9 @@ msgid "Fijian"
 msgstr "fidzsi"
 
 #. name for fil
-#, fuzzy
 msgid "Filipino; Pilipino"
-msgstr "blin; bilin"
+msgstr "filippínó"
 
-# src/trans.h:295
 #. name for fin
 msgid "Finnish"
 msgstr "finn"
@@ -609,43 +570,34 @@ msgstr "finnugor (egyéb)"
 msgid "Fon"
 msgstr "fon"
 
-# src/trans.h:296
 #. name for fra
 msgid "French"
 msgstr "francia"
 
 #. name for frm
-#, fuzzy
 msgid "French, Middle (ca. 1400-1600)"
 msgstr "közép-francia (kb. 1400-1600)"
 
 #. name for fro
-#, fuzzy
 msgid "French, Old (842-ca. 1400)"
 msgstr "ófrancia (842-kb.1400)"
 
 #. name for frr
-#, fuzzy
 msgid "Northern Frisian"
-msgstr "északi szami"
+msgstr "északi fríz"
 
-# src/trans.h:227
 #. name for frs
-#, fuzzy
 msgid "Eastern Frisian"
-msgstr "fríz"
+msgstr "keleti fríz"
 
-# src/trans.h:227
 #. name for fry
-#, fuzzy
 msgid "Western Frisian"
-msgstr "fríz"
+msgstr "nyugati fríz"
 
 #. name for ful
 msgid "Fulah"
 msgstr "fula"
 
-# src/trans.h:227
 #. name for fur
 msgid "Friulian"
 msgstr "friul"
@@ -670,49 +622,41 @@ msgstr "német (egyéb)"
 msgid "Georgian"
 msgstr "grúz"
 
-# src/trans.h:298
 #. name for deu
 msgid "German"
 msgstr "német"
 
-# src/trans.h:299
 #. name for gez
 msgid "Geez"
 msgstr "gíz"
 
-# src/trans.h:270
 #. name for gil
 msgid "Gilbertese"
 msgstr "gilberti"
 
 #. name for gla
-#, fuzzy
 msgid "Gaelic; Scottish Gaelic"
-msgstr "gael; skót"
+msgstr "kelta; skót kelta"
 
-# src/trans.h:303
 #. name for gle
 msgid "Irish"
 msgstr "ír"
 
-# src/trans.h:7 src/trans.h:123
 #. name for glg
 msgid "Galician"
-msgstr "gallego"
+msgstr "galíciai"
 
 #. name for glv
 msgid "Manx"
 msgstr "manx"
 
 #. name for gmh
-#, fuzzy
 msgid "German, Middle High (ca. 1050-1500)"
-msgstr "közép-utó-német (kb. 1050-1500)"
+msgstr "német, közép-utó (kb. 1050-1500)"
 
 #. name for goh
-#, fuzzy
 msgid "German, Old High (ca. 750-1050)"
-msgstr "ó-utó-német (kb. 750-1050)"
+msgstr "német, ó-utó (kb. 750-1050)"
 
 #. name for gon
 msgid "Gondi"
@@ -726,7 +670,6 @@ msgstr "gorontalo"
 msgid "Gothic"
 msgstr "gót"
 
-# src/trans.h:299
 #. name for grb
 msgid "Grebo"
 msgstr "grebo"
@@ -745,14 +688,13 @@ msgstr "guarani"
 
 #. name for gsw
 msgid "Alemanic; Swiss German"
-msgstr ""
+msgstr "svájci német"
 
 #. name for guj
 msgid "Gujarati"
 msgstr "gudzsarati"
 
 #. name for gwi
-#, fuzzy
 msgid "Gwich´in"
 msgstr "gwichin"
 
@@ -801,16 +743,13 @@ msgid "Hmong"
 msgstr "hmong"
 
 #. name for hmo
-#, fuzzy
 msgid "Hiri Motu"
-msgstr "hiri"
+msgstr "hiri motu"
 
-# src/trans.h:311
 #. name for hsb
 msgid "Upper Sorbian"
 msgstr "felső szorb"
 
-# src/trans.h:300
 #. name for hun
 msgid "Hungarian"
 msgstr "magyar"
@@ -827,7 +766,6 @@ msgstr "iba"
 msgid "Igbo"
 msgstr "igbo"
 
-# src/trans.h:301
 #. name for isl
 msgid "Icelandic"
 msgstr "izlandi"
@@ -836,7 +774,6 @@ msgstr "izlandi"
 msgid "Ido"
 msgstr "ido"
 
-# src/trans.h:309
 #. name for iii
 msgid "Sichuan Yi"
 msgstr "szecsuáni ji"
@@ -849,7 +786,6 @@ msgstr "ijo"
 msgid "Inuktitut"
 msgstr "inuktitut"
 
-# src/prefs.c:380
 #. name for ile
 msgid "Interlingue"
 msgstr "interlingva"
@@ -860,13 +796,12 @@ msgstr "iloko"
 
 #. name for ina
 msgid "Interlingua (International Auxiliary Language Association)"
-msgstr ""
+msgstr "interlingva (Nemzetközi Segédnyelv Egyesület)"
 
 #. name for inc
 msgid "Indic (Other)"
 msgstr "indi (egyéb)"
 
-# src/trans.h:302
 #. name for ind
 msgid "Indonesian"
 msgstr "indonéz"
@@ -875,7 +810,6 @@ msgstr "indonéz"
 msgid "Indo-European (Other)"
 msgstr "indo-európai (egyéb)"
 
-# src/trans.h:293
 #. name for inh
 msgid "Ingush"
 msgstr "ingus"
@@ -892,12 +826,10 @@ msgstr "iráni (egyéb)"
 msgid "Iroquoian languages"
 msgstr "irokéz nyelvek"
 
-# src/trans.h:287
 #. name for ita
 msgid "Italian"
 msgstr "olasz"
 
-# src/trans.h:222
 #. name for jav
 msgid "Javanese"
 msgstr "jávai"
@@ -906,17 +838,14 @@ msgstr "jávai"
 msgid "Lojban"
 msgstr "lodzsban"
 
-# src/trans.h:222
 #. name for jpn
 msgid "Japanese"
 msgstr "japán"
 
-# src/trans.h:206 src/trans.h:207
 #. name for jpr
 msgid "Judeo-Persian"
 msgstr "judeo-perzsa"
 
-# src/trans.h:283
 #. name for jrb
 msgid "Judeo-Arabic"
 msgstr "judeo-arab"
@@ -935,7 +864,7 @@ msgstr "kachin"
 
 #. name for kal
 msgid "Kalaallisut; Greenlandic"
-msgstr ""
+msgstr "kalaallisut; grönlandi"
 
 #. name for kam
 msgid "Kamba"
@@ -945,7 +874,6 @@ msgstr "kamba"
 msgid "Kannada"
 msgstr "kannada"
 
-# src/trans.h:223
 #. name for kar
 msgid "Karen"
 msgstr "karen"
@@ -954,7 +882,6 @@ msgstr "karen"
 msgid "Kashmiri"
 msgstr "kasmíri"
 
-# src/trans.h:316
 #. name for kau
 msgid "Kanuri"
 msgstr "kanuri"
@@ -972,7 +899,6 @@ msgid "Kabardian"
 msgstr "kabardi"
 
 #. name for kha
-#, fuzzy
 msgid "Khasi"
 msgstr "kazi"
 
@@ -984,19 +910,17 @@ msgstr "koizi (egyéb)"
 msgid "Khmer"
 msgstr "khmer"
 
-# src/trans.h:220
 #. name for kho
 msgid "Khotanese"
 msgstr "kotáni"
 
 #. name for kik
-#, fuzzy
 msgid "Kikuyu; Gikuyu"
-msgstr "kikuyu"
+msgstr "kikuyu; gikuyu"
 
 #. name for kin
 msgid "Kinyarwanda"
-msgstr "kinyarwanda"
+msgstr "kiruanda"
 
 #. name for kir
 msgid "Kirghiz"
@@ -1006,7 +930,6 @@ msgstr "kirgiz"
 msgid "Kimbundu"
 msgstr "kimbundu"
 
-# src/trans.h:223
 #. name for kok
 msgid "Konkani"
 msgstr "konkani"
@@ -1019,12 +942,10 @@ msgstr "komi"
 msgid "Kongo"
 msgstr "kongo"
 
-# src/trans.h:223
 #. name for kor
 msgid "Korean"
 msgstr "koreai"
 
-# src/trans.h:223
 #. name for kos
 msgid "Kosraean"
 msgstr "koszrai"
@@ -1037,31 +958,26 @@ msgstr "kpelle"
 msgid "Karachay-Balkar"
 msgstr "karacsai-balkar"
 
-# src/trans.h:223
 #. name for krl
-#, fuzzy
 msgid "Karelian"
-msgstr "karen"
+msgstr "kareliai"
 
 #. name for kro
 msgid "Kru"
 msgstr "kru"
 
-# src/trans.h:316
 #. name for kru
 msgid "Kurukh"
 msgstr "kuruk"
 
 #. name for kua
-#, fuzzy
 msgid "Kuanyama; Kwanyama"
-msgstr "kuanyama"
+msgstr "kuanyama; kwanyama"
 
 #. name for kum
 msgid "Kumyk"
 msgstr "kumyk"
 
-# src/trans.h:316
 #. name for kur
 msgid "Kurdish"
 msgstr "kurd"
@@ -1070,7 +986,6 @@ msgstr "kurd"
 msgid "Kutenai"
 msgstr "kutenai"
 
-# src/trans.h:47 src/trans.h:50
 #. name for lad
 msgid "Ladino"
 msgstr "ladino"
@@ -1083,17 +998,14 @@ msgstr "landa"
 msgid "Lamba"
 msgstr "lamba"
 
-# src/prefs.c:397 src/trans.h:125
 #. name for lao
 msgid "Lao"
 msgstr "lao"
 
-# src/trans.h:47 src/trans.h:50
 #. name for lat
 msgid "Latin"
 msgstr "latin"
 
-# src/trans.h:289
 #. name for lav
 msgid "Latvian"
 msgstr "lett"
@@ -1104,13 +1016,12 @@ msgstr "lezgi"
 
 #. name for lim
 msgid "Limburgan; Limburger; Limburgish"
-msgstr ""
+msgstr "limburgi"
 
 #. name for lin
 msgid "Lingala"
 msgstr "lingala"
 
-# src/trans.h:309
 #. name for lit
 msgid "Lithuanian"
 msgstr "litván"
@@ -1124,7 +1035,6 @@ msgid "Lozi"
 msgstr "lozi"
 
 #. name for ltz
-#, fuzzy
 msgid "Luxembourgish; Letzeburgesch"
 msgstr "luxemburgi"
 
@@ -1156,7 +1066,6 @@ msgstr "luo (Kenya és Tanzánia)"
 msgid "Lushai"
 msgstr "lushai"
 
-# src/trans.h:305
 #. name for mkd
 msgid "Macedonian"
 msgstr "macedón"
@@ -1169,7 +1078,6 @@ msgstr "maduri"
 msgid "Magahi"
 msgstr "magahi"
 
-# src/trans.h:377
 #. name for mah
 msgid "Marshallese"
 msgstr "marshall-szigeteki"
@@ -1228,7 +1136,7 @@ msgstr "közép-ír (900-1200)"
 
 #. name for mic
 msgid "Mi'kmaq; Micmac"
-msgstr ""
+msgstr "mikmak/micmac"
 
 #. name for min
 msgid "Minangkabau"
@@ -1246,7 +1154,6 @@ msgstr "mon-khmer (egyéb)"
 msgid "Malagasy"
 msgstr "malagasy"
 
-# src/trans.h:377
 #. name for mlt
 msgid "Maltese"
 msgstr "máltai"
@@ -1255,11 +1162,9 @@ msgstr "máltai"
 msgid "Manchu"
 msgstr "manchu"
 
-# src/trans.h:316
 #. name for mni
-#, fuzzy
 msgid "Manipuri"
-msgstr "kanuri"
+msgstr "manipuri"
 
 #. name for mno
 msgid "Manobo languages"
@@ -1289,15 +1194,13 @@ msgstr "több nyelv"
 msgid "Munda languages"
 msgstr "munda nyelvek"
 
-# src/trans.h:299
 #. name for mus
 msgid "Creek"
 msgstr "creek"
 
 #. name for mwl
-#, fuzzy
 msgid "Mirandese"
-msgstr "maduri"
+msgstr "mirandese"
 
 #. name for mwr
 msgid "Marwari"
@@ -1316,9 +1219,8 @@ msgid "Nahuatl"
 msgstr "nahuatl"
 
 #. name for nai
-#, fuzzy
 msgid "North American Indian"
-msgstr "észak-amerikai indián (egyéb)"
+msgstr "észak-amerikai indián"
 
 #. name for nap
 msgid "Neapolitan"
@@ -1329,19 +1231,16 @@ msgid "Nauru"
 msgstr "nauru"
 
 #. name for nav
-#, fuzzy
 msgid "Navajo; Navaho"
 msgstr "navahó"
 
 #. name for nbl
-#, fuzzy
 msgid "Ndebele, South; South Ndebele"
-msgstr "ndebele (déli)"
+msgstr "déli ndebele"
 
 #. name for nde
-#, fuzzy
 msgid "Ndebele, North; North Ndebele"
-msgstr "ndebele (északi)"
+msgstr "északi ndebele"
 
 #. name for ndo
 msgid "Ndonga"
@@ -1349,7 +1248,7 @@ msgstr "ndonga"
 
 #. name for nds
 msgid "Low German; Low Saxon; German, Low; Saxon, Low"
-msgstr ""
+msgstr "délnémet"
 
 #. name for nep
 msgid "Nepali"
@@ -1357,7 +1256,7 @@ msgstr "nepáli"
 
 #. name for new
 msgid "Newari; Nepal Bhasa"
-msgstr ""
+msgstr "newari; nepáli bhasa"
 
 #. name for nia
 msgid "Nias"
@@ -1371,17 +1270,13 @@ msgstr "niger-kordofani (egyéb)"
 msgid "Niuean"
 msgstr "niuei"
 
-# src/trans.h:306
 #. name for nno
-#, fuzzy
 msgid "Norwegian Nynorsk; Nynorsk, Norwegian"
-msgstr "norvég (nynorsk)"
+msgstr "norvég nynorsk; nynorsk, norvég"
 
-# src/trans.h:306
 #. name for nob
-#, fuzzy
 msgid "Norwegian Bokmål; Bokmål, Norwegian"
-msgstr "norvég (bokmal)"
+msgstr "norvég bokmal, bokmal, norvég"
 
 #. name for nog
 msgid "Nogai"
@@ -1391,36 +1286,33 @@ msgstr "nogai"
 msgid "Norse, Old"
 msgstr "ónorvég"
 
-# src/trans.h:306
 #. name for nor
 msgid "Norwegian"
 msgstr "norvég"
 
 #. name for nqo
 msgid "N'ko"
-msgstr ""
+msgstr "n'ko"
 
 #. name for nso
 msgid "Northern Sotho, Pedi; Sepedi"
-msgstr ""
+msgstr "északi szotó, pedi; sepedi"
 
 #. name for nub
 msgid "Nubian languages"
 msgstr "núbiai nyelvek"
 
 #. name for nwc
-#, fuzzy
 msgid "Classical Newari; Old Newari; Classical Nepal Bhasa"
-msgstr "klasszikus newari (ónewari)"
+msgstr "klasszikus newari; ónewari; klasszikus nepáli bhasa"
 
 #. name for nya
-#, fuzzy
 msgid "Chichewa; Chewa; Nyanja"
-msgstr "chewa; chichewa; nyanja"
+msgstr "chichewa; chewa; nyanja"
 
 #. name for nym
 msgid "Nyamwezi"
-msgstr ""
+msgstr "nyamwezi"
 
 #. name for nyn
 msgid "Nyankole"
@@ -1435,9 +1327,8 @@ msgid "Nzima"
 msgstr "nzima"
 
 #. name for oci
-#, fuzzy
 msgid "Occitan (post 1500); Provençal"
-msgstr "okcitán (1500 után)"
+msgstr "okcitán (1500 után); provanszál"
 
 #. name for oji
 msgid "Ojibwa"
@@ -1455,9 +1346,7 @@ msgstr "oromo"
 msgid "Osage"
 msgstr "oszage"
 
-# src/trans.h:224
 #. name for oss
-#, fuzzy
 msgid "Ossetian; Ossetic"
 msgstr "oszét"
 
@@ -1473,7 +1362,6 @@ msgstr "otomi nyelvek"
 msgid "Papuan (Other)"
 msgstr "pápuai (egyéb)"
 
-# src/trans.h:300
 #. name for pag
 msgid "Pangasinan"
 msgstr "pangasini"
@@ -1487,9 +1375,8 @@ msgid "Pampanga"
 msgstr "pampanga"
 
 #. name for pan
-#, fuzzy
 msgid "Panjabi; Punjabi"
-msgstr "pandzsabi"
+msgstr "pandzsábi"
 
 #. name for pap
 msgid "Papiamento"
@@ -1500,11 +1387,9 @@ msgid "Palauan"
 msgstr "palaui"
 
 #. name for peo
-#, fuzzy
 msgid "Persian, Old (ca. 600-400 B.C.)"
 msgstr "perzsa, ó (kb. i.e. 600-400)"
 
-# src/trans.h:206 src/trans.h:207
 #. name for fas
 msgid "Persian"
 msgstr "perzsa"
@@ -1513,7 +1398,6 @@ msgstr "perzsa"
 msgid "Philippine (Other)"
 msgstr "fülöp-szigeteki (egyéb)"
 
-# src/trans.h:313
 #. name for phn
 msgid "Phoenician"
 msgstr "főníciai"
@@ -1522,17 +1406,14 @@ msgstr "főníciai"
 msgid "Pali"
 msgstr "pali"
 
-# src/trans.h:307
 #. name for pol
 msgid "Polish"
 msgstr "lengyel"
 
-# src/trans.h:302
 #. name for pon
 msgid "Pohnpeian"
 msgstr "ponpei"
 
-# src/trans.h:308
 #. name for por
 msgid "Portuguese"
 msgstr "portugál"
@@ -1542,7 +1423,6 @@ msgid "Prakrit languages"
 msgstr "prakrit nyelvek"
 
 #. name for pro
-#, fuzzy
 msgid "Provençal, Old (to 1500)"
 msgstr "provanszál, ó (1500-ig)"
 
@@ -1552,7 +1432,7 @@ msgstr "pushto"
 
 #. name for qaa-qtz
 msgid "Reserved for local use"
-msgstr ""
+msgstr "helyi használatra fenntartva"
 
 #. name for que
 msgid "Quechua"
@@ -1578,12 +1458,10 @@ msgstr "román (egyéb)"
 msgid "Raeto-Romance"
 msgstr "rétoromán"
 
-# src/trans.h:309
 #. name for rom
 msgid "Romany"
 msgstr "roma"
 
-# src/trans.h:309
 #. name for ron
 msgid "Romanian"
 msgstr "román"
@@ -1594,9 +1472,8 @@ msgstr "rundi"
 
 #. name for rup
 msgid "Aromanian; Arumanian; Macedo-Romanian"
-msgstr ""
+msgstr "aromán, macedo-román"
 
-# src/trans.h:224
 #. name for rus
 msgid "Russian"
 msgstr "orosz"
@@ -1625,12 +1502,10 @@ msgstr "szalisi nyelvek"
 msgid "Samaritan Aramaic"
 msgstr "szamaritánus arámi"
 
-# src/trans.h:193
 #. name for san
 msgid "Sanskrit"
 msgstr "szankszrit"
 
-# src/trans.h:193
 #. name for sas
 msgid "Sasak"
 msgstr "szaszak"
@@ -1639,23 +1514,18 @@ msgstr "szaszak"
 msgid "Santali"
 msgstr "szantáli"
 
-# src/trans.h:311
 #. name for srp
 msgid "Serbian"
 msgstr "szerb"
 
-# src/trans.h:227
 #. name for scn
-#, fuzzy
 msgid "Sicilian"
-msgstr "friul"
+msgstr "friuli"
 
-# src/trans.h:44
 #. name for sco
 msgid "Scots"
 msgstr "skót"
 
-# src/trans.h:289
 #. name for hrv
 msgid "Croatian"
 msgstr "horvát"
@@ -1673,7 +1543,6 @@ msgid "Irish, Old (to 900)"
 msgstr "óír (900-ig)"
 
 #. name for sgn
-#, fuzzy
 msgid "Sign Languages"
 msgstr "jelnyelvek"
 
@@ -1685,9 +1554,7 @@ msgstr "shan"
 msgid "Sidamo"
 msgstr "szidamo"
 
-# src/trans.h:270
 #. name for sin
-#, fuzzy
 msgid "Sinhala; Sinhalese"
 msgstr "szingaléz"
 
@@ -1703,12 +1570,10 @@ msgstr "szino-tibeti (egyéb)"
 msgid "Slavic (Other)"
 msgstr "szláv (egyéb)"
 
-# src/trans.h:312
 #. name for slk
 msgid "Slovak"
 msgstr "szlovák"
 
-# src/trans.h:313
 #. name for slv
 msgid "Slovenian"
 msgstr "szlovén"
@@ -1749,7 +1614,6 @@ msgstr "shona"
 msgid "Sindhi"
 msgstr "szindi"
 
-# src/trans.h:313
 #. name for snk
 msgid "Soninke"
 msgstr "soninke"
@@ -1772,18 +1636,15 @@ msgstr "sotho, déli"
 
 #. name for spa
 msgid "Spanish; Castilian"
-msgstr ""
+msgstr "spanyol, kasztíliai"
 
-# src/trans.h:305
 #. name for srd
 msgid "Sardinian"
 msgstr "szardíniai"
 
-# src/trans.h:227
 #. name for srn
-#, fuzzy
 msgid "Sranan Tongo"
-msgstr "ukrán"
+msgstr "sranan tongo"
 
 #. name for srr
 msgid "Serer"
@@ -1809,7 +1670,6 @@ msgstr "szundanéz"
 msgid "Susu"
 msgstr "susu"
 
-# src/trans.h:311
 #. name for sux
 msgid "Sumerian"
 msgstr "sumér"
@@ -1818,17 +1678,14 @@ msgstr "sumér"
 msgid "Swahili"
 msgstr "szuahéli"
 
-# src/trans.h:315
 #. name for swe
 msgid "Swedish"
 msgstr "svéd"
 
-# src/trans.h:311
 #. name for syr
 msgid "Syriac"
 msgstr "szír"
 
-# src/trans.h:289
 #. name for tah
 msgid "Tahitian"
 msgstr "tahiti"
@@ -1865,7 +1722,6 @@ msgstr "tetum"
 msgid "Tajik"
 msgstr "tadzsik"
 
-# src/trans.h:116
 #. name for tgl
 msgid "Tagalog"
 msgstr "tagalog"
@@ -1878,12 +1734,10 @@ msgstr "thai"
 msgid "Tibetan"
 msgstr "tibeti"
 
-# src/trans.h:316
 #. name for tig
 msgid "Tigre"
 msgstr "tigre"
 
-# src/trans.h:316
 #. name for tir
 msgid "Tigrinya"
 msgstr "tigrinya"
@@ -1901,9 +1755,8 @@ msgid "Klingon; tlhIngan-Hol"
 msgstr "klingon; tlhIngan-Hol"
 
 #. name for tli
-#, fuzzy
 msgid "Tlingit"
-msgstr "tlinglit"
+msgstr "tlingit"
 
 #. name for tmh
 msgid "Tamashek"
@@ -1921,7 +1774,6 @@ msgstr "tonga (Tonga-szigetek)"
 msgid "Tok Pisin"
 msgstr "tok pisin"
 
-# src/trans.h:227
 #. name for tsi
 msgid "Tsimshian"
 msgstr "cimsi"
@@ -1946,14 +1798,13 @@ msgstr "tumbuka"
 msgid "Tupi languages"
 msgstr "tupi nyelvek"
 
-# src/trans.h:316
 #. name for tur
 msgid "Turkish"
 msgstr "török"
 
 #. name for tut
 msgid "Altaic (Other)"
-msgstr "alt (egyéb)"
+msgstr "altáji (egyéb)"
 
 #. name for tvl
 msgid "Tuvalu"
@@ -1976,11 +1827,9 @@ msgid "Ugaritic"
 msgstr "uragi"
 
 #. name for uig
-#, fuzzy
 msgid "Uighur; Uyghur"
 msgstr "ujgur"
 
-# src/trans.h:227
 #. name for ukr
 msgid "Ukrainian"
 msgstr "ukrán"
@@ -1989,7 +1838,6 @@ msgstr "ukrán"
 msgid "Umbundu"
 msgstr "umbundu"
 
-# src/prefs.c:380
 #. name for und
 msgid "Undetermined"
 msgstr "ismeretlen"
@@ -2010,13 +1858,11 @@ msgstr "vai"
 msgid "Venda"
 msgstr "venda"
 
-# src/trans.h:270
 #. name for vie
 msgid "Vietnamese"
 msgstr "vietnami"
 
 #. name for vol
-#, fuzzy
 msgid "Volapük"
 msgstr "volapük"
 
@@ -2042,7 +1888,7 @@ msgstr "washo"
 
 #. name for cym
 msgid "Welsh"
-msgstr "velszi"
+msgstr "walesi"
 
 #. name for wen
 msgid "Sorbian languages"
@@ -2057,20 +1903,17 @@ msgid "Wolof"
 msgstr "wolof"
 
 #. name for xal
-#, fuzzy
 msgid "Kalmyk; Oirat"
-msgstr "kalmük"
+msgstr "kalmük; ojrát"
 
 #. name for xho
 msgid "Xhosa"
 msgstr "xhosa"
 
-# src/prefs.c:397 src/trans.h:125
 #. name for yao
 msgid "Yao"
 msgstr "yao"
 
-# src/trans.h:222
 #. name for yap
 msgid "Yapese"
 msgstr "jap"
@@ -2096,9 +1939,8 @@ msgid "Zenaga"
 msgstr "zenaga"
 
 #. name for zha
-#, fuzzy
 msgid "Zhuang; Chuang"
-msgstr "csuang; dzsuang"
+msgstr "dzsuang; csuang"
 
 #. name for znd
 msgid "Zande"
@@ -2114,48 +1956,4 @@ msgstr "zuni"
 
 #. name for zxx
 msgid "No linguistic content"
-msgstr ""
-
-# src/trans.h:287
-#~ msgid "Catalan"
-#~ msgstr "katalán"
-
-#~ msgid "Church Slavic"
-#~ msgstr "egyházi szláv"
-
-#~ msgid "English-based (Other)"
-#~ msgstr "angol-alapú (egyéb)"
-
-#~ msgid "French-based (Other)"
-#~ msgstr "francia-alapú (egyéb)"
-
-#~ msgid "Portuguese-based (Other)"
-#~ msgstr "portugál-alapú (egyéb)"
-
-# src/trans.h:292
-#~ msgid "Dutch"
-#~ msgstr "holland"
-
-# src/prefs.c:380
-#~ msgid "Interlingua"
-#~ msgstr "interlingua"
-
-#~ msgid "Greenlandic (Kalaallisut)"
-#~ msgstr "grönlandi (Kalaallisut)"
-
-# src/trans.h:309
-#~ msgid "Limburgian"
-#~ msgstr "limburgi"
-
-# src/trans.h:298
-#~ msgid "German, Low"
-#~ msgstr "német, alacsony"
-
-#~ msgid "Newari"
-#~ msgstr "newari"
-
-#~ msgid "Spanish"
-#~ msgstr "spanyol"
-
-#~ msgid "Divehi"
-#~ msgstr "divehi"
+msgstr "nincs nyelvi tartalom"
