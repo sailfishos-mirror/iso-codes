@@ -11,6 +11,8 @@ iso-codes (0.52-2) UNRELEASED; urgency=low
   * iso_3166_2
     - Corrected some errors in the XML file. Thanks to Andreas Schmidt
       and Ulrich Mueller for the patch and hints. Closes: #375688
+    - Remove iso_3166_2.tab, it's no longer needed. Thanks to Ulrich
+      Mueller for pointing this out.
   * iso_4217
     - vi.po updated by Clytie Siddall via TP
     - nl.po updated by Luk Claes via TP
@@ -26,7 +28,7 @@ iso-codes (0.52-2) UNRELEASED; urgency=low
   * iso_3166:
     - dz.po updated by Kinley Tshering.
 
- -- Christian Perrier <bubulle@debian.org>  Fri, 28 Jul 2006 07:37:17 +0200
+ -- Tobias Toedter <t.toedter@gmx.net>  Sat, 29 Jul 2006 01:09:24 +0200
 
 iso-codes (0.52-1) unstable; urgency=low
 
