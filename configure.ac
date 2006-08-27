@@ -23,7 +23,7 @@ AC_REVISION([$Revision$])
 dnl FIXME debug why this doesn't work; it substs an '' for VERSION
 dnl until then, use PACKAGE_VERSION instead.
 dnl AC_PREREQ([2.59]i, "${PACKAGE_VERSION}")
-AM_INIT_AUTOMAKE([dist-bzip2])
+AM_INIT_AUTOMAKE([dist-bzip2 foreign])
 AM_MAINTAINER_MODE
 
 AC_SUBST([ACLOCAL_AMFLAGS], ["\${ACLOCAL_FLAGS}"])
