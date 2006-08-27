@@ -86,7 +86,7 @@ except Exception,e:
     sys.exit(1)
 
 version = "VERSION"
-report_bugs_to = "Debian iso-codes team <iso-codes@packages.debian.org>"
+report_bugs_to = "Debian iso-codes team <pkg-isocodes-devel@lists.alioth.debian.org>"
 fields = ["name","official_name"]
 comment = "code"
 ofile = sys.stdout
