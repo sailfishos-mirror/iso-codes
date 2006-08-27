@@ -1,3 +1,47 @@
+iso-codes 0.53
+--------------
+Tobias Toedter <t.toedter@gmx.net>
+Sun, 27 Aug 2006
+
+  [ Alastair McKinstry ]
+  * Fixed typo in New Zealand county name: "Hawkes's' Bay"
+
+  [ Tobias Toedter ]
+  * iso_3166
+    - ar.po updated by Ossama M. Khayat. Closes: #377530
+    - ro.po updated by Eddy Petrişor. Closes: #378665
+    - vi.po updated by Clytie Siddall. Closes: #380591
+    - zh_CN.po updated by Carlos Z.F. Liu. Closes: #381000
+    - fi.po updated by Raija Polojärvi. Closes: #382051
+    - ko.po updated by Sunjae Park. Closes: #384538
+  * debian/copyright: Update for the new SVN source code location
+  * iso_3166_2
+    - Corrected some errors in the XML file. Thanks to Andreas Schmidt
+      and Ulrich Mueller for the patch and hints. Closes: #375688
+    - Remove iso_3166_2.tab, it's no longer needed. Thanks to Ulrich
+      Mueller for pointing this out.
+    - Remove double msgid for "Hawkes Bay" in all po files. Closes: #381355
+  * iso_4217
+    - vi.po updated by Clytie Siddall via TP
+    - nl.po updated by Luk Claes via TP
+    - fi.po updated by Tommi Vainikainen via TP
+    - hu.po updated by Gabor Kelemen via TP
+  * iso_639
+    - vi.po updated by Clytie Siddall via TP
+    - eo.po updated by Edmund GRIMLEY EVANS via TP
+    - fi.po updated by Tommi Vainikainen via TP
+    - hu.po updated by Gabor Kelemen via TP
+  * Changed the contact address to the newly created mailing list
+
+  [ Christian Perrier ]
+  * iso_3166:
+    - dz.po updated by Kinley Tshering.
+    - fi.po updated by Tapio Lehtonen. Closes: #382051
+
+  [ Eugeniy Meshcheryakov ]
+  * iso_3166/uk.po updated
+
+
 iso-codes 0.52
 --------------
 Tobias Toedter <t.toedter@gmx.net>
