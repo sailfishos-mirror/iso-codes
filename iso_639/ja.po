@@ -3,12 +3,12 @@
 # This file is distributed under the same license as the iso-codes package.
 #
 # Copyright (C)
-#   Free Software Foundation, Inc., 2000, 2001, 2004, 2005
+#   Free Software Foundation, Inc., 2000, 2001, 2004, 2005, 2006
 #   Yukihiro Nakai <nakai@gnome.gr.jp>, 2000.
 #   Takuro Ashie <ashie@homa.ne.jp>, 2001.
 #   Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>, 2001.
 #   Alastair McKinstry <mckinstry@computer.org>, 2001.
-#   IIDA Yosiaki <iida@gnu.org>, 2004, 2005.
+#   IIDA Yosiaki <iida@gnu.org>, 2004, 2005, 2006.
 #
 msgid ""
 msgstr ""
@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
 "POT-Creation-Date: 2006-06-28 00:23+0200\n"
-"PO-Revision-Date: 2005-10-22 19:14+0900\n"
+"PO-Revision-Date: 2006-09-13 23:58+0000\n"
 "Last-Translator: IIDA Yosiaki <iida@gnu.org>\n"
 "Language-Team: Japanese <translation-team-ja@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -102,7 +102,7 @@ msgstr "アルバニア語"
 
 #. name for ale
 msgid "Aleut"
-msgstr ""
+msgstr "アレウト語"
 
 # 国国
 # 北米
@@ -124,15 +124,13 @@ msgstr "アムハラ語"
 
 # 国国
 #. name for ang
-#, fuzzy
 msgid "English, Old (ca. 450-1100)"
-msgstr "英語, 古期 (約450-1100)"
+msgstr "英語, 古期 (約 450-1100)"
 
-# 国国
+# インド
 #. name for anp
-#, fuzzy
 msgid "Angika"
-msgstr "アカン語"
+msgstr ""
 
 # 国国
 # 北米
@@ -196,7 +194,6 @@ msgstr "アストゥリアス語; Bable"
 # 北米インディアン
 # Apache, Chipewyan, Dogrib, Gwich'in, Hupa, Navajo, Slaveを除外
 #. name for ath
-#, fuzzy
 msgid "Athapascan languages"
 msgstr "アサパスカン語族"
 
@@ -416,9 +413,13 @@ msgstr "中米インディアン諸語 (その他)"
 msgid "Carib"
 msgstr "カリブ語"
 
+# KDE訳は「カタール語」だが、カタールはQatarだし、
+# 「Language of Andorra, a small part of France and a small part of Spain」
+# というコメントとも合わない
+# 広辞苑「カタルニア語」の項
 #. name for cat
 msgid "Catalan; Valencian"
-msgstr ""
+msgstr "カタロニア語; Valencian"
 
 # 国国
 # コーカサス地方
@@ -466,11 +467,9 @@ msgstr "チャガタイ語"
 msgid "Chinese"
 msgstr "中国語"
 
-# ISOは「Chuukese」
 # ミクロネシア連邦トラック(Truk/Chuuk チューク)州
 # Chuuk, Truk, Trukese, RUK, LAGOON CHUUKESEとも
 #. name for chk
-#, fuzzy
 msgid "Chuukese"
 msgstr "トラック語"
 
@@ -499,11 +498,13 @@ msgstr "チペワイアン語"
 msgid "Cherokee"
 msgstr "チェロキー語"
 
+# 国国
+# KDE訳は「教会スラヴ語」
+# 広辞苑「スラヴごは」の項に「古教会スラヴ語」
+# 古代〜とも
 #. name for chu
-msgid ""
-"Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church "
-"Slavonic"
-msgstr ""
+msgid "Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic"
+msgstr "教会スラブ語; 古スラブ語; 教会スラブ語; 古ブルガリア語; 古教会スラブ語"
 
 # 国国
 # KDE訳は「チュヴァシ語」
@@ -536,23 +537,17 @@ msgstr "コーンウォール語"
 msgid "Corsican"
 msgstr "コルシカ語"
 
-# 国国
 #. name for cpe
-#, fuzzy
 msgid "Creoles and pidgins, English based (Other)"
-msgstr "混成語・混合語 (その他)"
+msgstr "混成語・混合語 (その他), 英語基盤語 (その他)"
 
-# 国国
 #. name for cpf
-#, fuzzy
 msgid "Creoles and pidgins, French-based (Other)"
-msgstr "混成語・混合語 (その他)"
+msgstr "混成語・混合語 (その他), 仏語基盤語 (その他)"
 
-# 国国
 #. name for cpp
-#, fuzzy
 msgid "Creoles and pidgins, Portuguese-based (Other)"
-msgstr "混成語・混合語 (その他)"
+msgstr "混成語・混合語 (その他), 葡語基盤語 (その他)"
 
 # 国国
 #. name for cre
@@ -560,9 +555,8 @@ msgid "Cree"
 msgstr "クリー語"
 
 #. name for crh
-#, fuzzy
 msgid "Crimean Tatar; Crimean Turkish"
-msgstr "クリミア・トルコ語; クリミア・タタール語"
+msgstr "クリミア・タタール語; クリミア・トルコ語"
 
 # 国国
 #. name for crp
@@ -602,11 +596,11 @@ msgstr "デンマーク語"
 msgid "Dargwa"
 msgstr "ダルガン語"
 
-# 国国
+# ボルネオ
+# マイペディア「ダヤク」の項
 #. name for day
-#, fuzzy
 msgid "Dayak"
-msgstr "ササク語"
+msgstr "ダヤク語"
 
 # 国国
 #. name for del
@@ -629,9 +623,10 @@ msgstr "ドクリブ語"
 msgid "Dinka"
 msgstr "ディンカ語"
 
+# モルディブ公用語
 #. name for div
 msgid "Divehi; Dhivehi; Maldivian"
-msgstr ""
+msgstr "ディベヒ語; ディヴェーヒー語; モルディブ語"
 
 # インド
 # 国営公社ラジオでも使用
@@ -664,7 +659,7 @@ msgstr "オランダ語, 中世 (約1050-1350)"
 
 #. name for nld
 msgid "Dutch; Flemish"
-msgstr ""
+msgstr "オランダ語; Flemish"
 
 # デュウラ語とも
 #. name for dyu
@@ -783,39 +778,28 @@ msgid "French"
 msgstr "フランス語"
 
 #. name for frm
-#, fuzzy
 msgid "French, Middle (ca. 1400-1600)"
-msgstr "フランス語, 中世 (約1400-1600)"
+msgstr "フランス語, 中世 (約 1400-1600)"
 
 #. name for fro
-#, fuzzy
 msgid "French, Old (842-ca. 1400)"
-msgstr "フランス語, 古 (842-約1400)"
+msgstr "フランス語, 古 (842-約 1400)"
 
-# ノルウェー
-# SAAMI, NORTHERNとも
 #. name for frr
-#, fuzzy
 msgid "Northern Frisian"
-msgstr "北サーミ語"
+msgstr "北フリジア語"
 
-# 国国は「Friesian」
-# オランダ北東部フリースラント州
-# フリース語、フリースラント語、フリースランド語とも
-# 研究社新英和中辞典にFriesianの項 (Frisianなし)
 #. name for frs
-#, fuzzy
 msgid "Eastern Frisian"
-msgstr "フリジア語"
+msgstr "東フリジア語"
 
 # 国国は「Friesian」
 # オランダ北東部フリースラント州
 # フリース語、フリースラント語、フリースランド語とも
 # 研究社新英和中辞典にFriesianの項 (Frisianなし)
 #. name for fry
-#, fuzzy
 msgid "Western Frisian"
-msgstr "フリジア語"
+msgstr "西フリジア語"
 
 # 国国は「Fula」
 # カメルーン、ニジェールでの綴りはFulaとも
@@ -883,12 +867,10 @@ msgid "Gilbertese"
 msgstr "キリバス語"
 
 # 国国は「Gaelic (Scots) ガエリック語」
-# ISOは「Scottish Gaelic」
 # SILはGLS, USMARCは-GAE
 #. name for gla
-#, fuzzy
 msgid "Gaelic; Scottish Gaelic"
-msgstr "ゲール語; スコットランド"
+msgstr "ゲール語; スコットランド・ゲール語"
 
 # 国国
 # USMARCは-IRI
@@ -915,17 +897,15 @@ msgstr "マン島語"
 # (中高(ちゅうこう)ドイツ語)」
 # 中世高地〜とも
 #. name for gmh
-#, fuzzy
 msgid "German, Middle High (ca. 1050-1500)"
-msgstr "ドイツ語, 中高 (約1050-1500)"
+msgstr "ドイツ語, 中高 (約 1050-1500)"
 
 # 国国
 # ニッポニカ「ドイツ語」の項に「Althochdeutcsh (古高(ここう)ドイツ語)」
 # 古期高地〜、古高地〜とも
 #. name for goh
-#, fuzzy
 msgid "German, Old High (ca. 750-1050)"
-msgstr "ドイツ語, 古高 (約750-1050)"
+msgstr "ドイツ語, 古高 (約 750-1050)"
 
 # 国国
 #. name for gon
@@ -965,7 +945,7 @@ msgstr "グアラニー語"
 
 #. name for gsw
 msgid "Alemanic; Swiss German"
-msgstr ""
+msgstr "Alemanic; スイス系ドイツ語"
 
 # 国国
 # KDE訳は「グジャラート語」「グジャラティ語」
@@ -975,12 +955,10 @@ msgid "Gujarati"
 msgstr "グジャラーティー語"
 
 # カナダ
-# ISOは「Gwich'in」
 # Athapascan系
 # Kutchin, Loucheuxとも
 # グチン語とも
 #. name for gwi
-#, fuzzy
 msgid "Gwich´in"
 msgstr "クイッチン語"
 
@@ -1042,7 +1020,6 @@ msgstr "ヒッタイト語"
 msgid "Hmong"
 msgstr "フモング語"
 
-# ISO, 国国、KDEともに「Hiri Motu」
 # Ethnologueは「Motu, Hiri」
 # パプア・ニューギニア
 # KDE訳は「モツ語」
@@ -1117,9 +1094,15 @@ msgstr "インターリング"
 msgid "Iloko"
 msgstr "イロカノ語"
 
+# KDE訳は「インターリングア」
+# マイペディア「国際語」の項に「インテルリングワ」
+# ニッポニカ「インテルリングア (Interlingua)」の項
+# USMARCは-INT
+# Alexander Gode考案の計画語
 #. name for ina
+#, fuzzy
 msgid "Interlingua (International Auxiliary Language Association)"
-msgstr ""
+msgstr "インターリングァ語 (International Auxiliary Language Association)"
 
 # 国国
 #. name for inc
@@ -1211,7 +1194,7 @@ msgstr "カチン語"
 
 #. name for kal
 msgid "Kalaallisut; Greenlandic"
-msgstr ""
+msgstr "カラアリス語; グリーンランド語"
 
 # 国国
 #. name for kam
@@ -1261,10 +1244,8 @@ msgstr "カザーフ語"
 msgid "Kabardian"
 msgstr "カバルダ語"
 
-# ISO, 国国ともに「Khasi」
 # Kahasi, Khasiyas, Khuchia, Kassi, Khasa, Khashiとも
 #. name for kha
-#, fuzzy
 msgid "Khasi"
 msgstr "カシ語"
 
@@ -1291,9 +1272,8 @@ msgstr "ホータン語"
 # KDE訳は「キクーユ語」
 # ニッポニカ「キクユ族 (Kikuyu)」の項
 #. name for kik
-#, fuzzy
 msgid "Kikuyu; Gikuyu"
-msgstr "キクユ語"
+msgstr "キクユ語; Gikuyu"
 
 # 国国
 # KDE訳は「キヌヤルワンダ語」
@@ -1358,13 +1338,10 @@ msgstr "クペレ語"
 msgid "Karachay-Balkar"
 msgstr "カラチャイ・バルカル語"
 
-# 国国
-# ミャンマー、タイ
-# ニッポニカ「カレン族 (Karen)」の項に「カレン語」
+# 広辞苑「カレリア (Karelia)」の項
 #. name for krl
-#, fuzzy
 msgid "Karelian"
-msgstr "カレン語"
+msgstr "カレリア語"
 
 # 国国
 # コートジボアール、リベリア
@@ -1383,9 +1360,8 @@ msgstr "クルク語"
 # クワニャマ語とも
 # 「Kunama クナマ語」(エリトリア西部) とは別
 #. name for kua
-#, fuzzy
 msgid "Kuanyama; Kwanyama"
-msgstr "クアニャマ語"
+msgstr "クアニャマ語; Kwanyama"
 
 # ロシア
 # ダゲスタン共和国クミク族のトルコ系言語?
@@ -1447,9 +1423,12 @@ msgstr "ラトヴィア語"
 msgid "Lezghian"
 msgstr "レズギ語"
 
+# 2002-08-02に「Limburgish; Linburger; Linburgan」追加
+# SILのLIMは、カメルーンのLIMBUM語。
+# ニッポニカ「リンブルフ (Limburg)」の項 (オランダ、ベルギー各1項)
 #. name for lim
 msgid "Limburgan; Limburger; Limburgish"
-msgstr ""
+msgstr "リンブルク語"
 
 # 国国
 #. name for lin
@@ -1475,13 +1454,10 @@ msgstr "ロジ語"
 # ルクセンブルク、ベルギー、フランス、ドイツ
 # Luxemburgish, Luxemburgian, Luxembourgish, Letzburgisch,
 # Letzebuergesch, MOSELLE FRANCONIAN, Frankishとも
-# 「Letzeburgesch レッツェブルク語」とも?
-# 「Lexembourgesh レクサンブルグ語」?
 # ニッポニカ「ルクセンブルク (Luxembourg)」に「ルクセンブルク語」
 #. name for ltz
-#, fuzzy
 msgid "Luxembourgish; Letzeburgesch"
-msgstr "ルクセンブルク語"
+msgstr "レクサンブルグ語; レッツェブルク語"
 
 # コンゴ民主共和国(旧ザイール)
 # LUBA-KASAIとも
@@ -1656,11 +1632,13 @@ msgstr "マルタ語"
 msgid "Manchu"
 msgstr "満州語"
 
-# 国国
+# http://www.wdic.org/w/WDIC/ISO%20639
+# に「マニプル語」
+# http://www.koredeindia.com/special08.htm
+# に「Manipuri(Meitei）	マニプリー語	マニプル人」
 #. name for mni
-#, fuzzy
 msgid "Manipuri"
-msgstr "カヌリ語"
+msgstr "マニプリー語"
 
 # 国国
 # フィリピン南部
@@ -1713,6 +1691,7 @@ msgstr "ムンダ語族"
 msgid "Creek"
 msgstr "クリーク語"
 
+# ポルトガル
 #. name for mwl
 msgid "Mirandese"
 msgstr "ミランド語"
@@ -1745,9 +1724,8 @@ msgstr "アステカ語"
 
 # 国国
 #. name for nai
-#, fuzzy
 msgid "North American Indian"
-msgstr "北米インディアン諸語 (その他)"
+msgstr "北米インディアン諸語"
 
 #. name for nap
 msgid "Neapolitan"
@@ -1759,25 +1737,20 @@ msgid "Nauru"
 msgstr "ナウル語"
 
 # 国国は「Navajo」
-# ISO英語は「Navaho, Navajo」と併記
 # 仏語はnavaho
 #. name for nav
-#, fuzzy
 msgid "Navajo; Navaho"
 msgstr "ナヴァホ語"
 
 #. name for nbl
-#, fuzzy
 msgid "Ndebele, South; South Ndebele"
-msgstr "ヌデベレ語, 南"
+msgstr "マタベレ語, 南; 南ヌデベレ語"
 
 # 国国は「Ndebele (Zimbabwe) マタベレ語」
 # ニッポニカ「ジンバブエ」の項に「ヌデベレ語」
-# 北ヌデベレ語とも
 #. name for nde
-#, fuzzy
 msgid "Ndebele, North; North Ndebele"
-msgstr "マタベレ語, 北"
+msgstr "マタベレ語, 北; 北ヌデベレ語"
 
 # ナミビア
 # ヌドンガ語とも
@@ -1786,18 +1759,21 @@ msgstr "マタベレ語, 北"
 msgid "Ndonga"
 msgstr "ンドンガ語"
 
+# ニッポニカ「ドイツ語」の項に
+# 「『低地ドイツ語』NiederdeutcshまたはPlattdeutcsh」
 #. name for nds
 msgid "Low German; Low Saxon; German, Low; Saxon, Low"
-msgstr ""
+msgstr "低地ドイツ語; 低地サクソン語; ドイツ語, 低地; サクソン, 低地"
 
 # 国国
 #. name for nep
 msgid "Nepali"
 msgstr "ネパール語"
 
+# 国国
 #. name for new
 msgid "Newari; Nepal Bhasa"
-msgstr ""
+msgstr "ネワール語; Nepal Bhasa"
 
 # インドネシア西部スマトラ島西岸北部沖合いニアス島
 #. name for nia
@@ -1820,15 +1796,13 @@ msgstr "ニウーエイ語"
 # Landsmaal, NEW NORSEとも
 # ニューノシュク〜とも
 #. name for nno
-#, fuzzy
 msgid "Norwegian Nynorsk; Nynorsk, Norwegian"
-msgstr "ニーノシュク・ノルウェー語"
+msgstr "ニーノシュク・ノルウェー語; ノルウェー語, ニーノシュク"
 
 # ニッポニカ「ノルウェー語」の項に「ボークモール bokmal」
 #. name for nob
-#, fuzzy
 msgid "Norwegian Bokmål; Bokmål, Norwegian"
-msgstr "ノルウェー語, ボークモール"
+msgstr "ボークモール・ノルウェー語; ノルウェー語, ボークモール"
 
 # ニッポニカ「ノガイ語」の項
 #. name for nog
@@ -1845,16 +1819,17 @@ msgstr "スカンジナビア語, 古期"
 msgid "Norwegian"
 msgstr "ノルウェー語"
 
+# http://www.wdic.org/w/WDIC/ISO%20639
+# に「ンコ語」
 #. name for nqo
 msgid "N'ko"
-msgstr ""
+msgstr "ンコ語"
 
 # KDE訳は「北サモス語」
 # マイペディア「レソト」の項に「ソト語」
 #. name for nso
-#, fuzzy
 msgid "Northern Sotho, Pedi; Sepedi"
-msgstr "北ソト語; Pedi; Sepedi"
+msgstr "北ソト語, Pedi; Sepedi"
 
 # 国国は「Nubian languages ヌバ語」
 # スーダン
@@ -1866,24 +1841,20 @@ msgstr "ヌバ語族"
 
 # 国国に「Newari (ネワール語)」(new参照)
 #. name for nwc
-#, fuzzy
 msgid "Classical Newari; Old Newari; Classical Nepal Bhasa"
-msgstr "古典ネワール語; 古期ネワール語"
+msgstr "古典ネワール語; 古期ネワール語; Classical Nepal Bhasa"
 
 # 国国は「Nyanja ニャンジャ語」
 # マラウイ
 #. name for nya
-#, fuzzy
 msgid "Chichewa; Chewa; Nyanja"
-msgstr "チェワ語; チチェワ語; ニャンジャ語"
+msgstr "チチェワ語; チェワ語; ニャンジャ語"
 
 # 国国
 #. name for nym
 msgid "Nyamwezi"
 msgstr "ムエジ語"
 
-# ISOの符号は「nyn」が正しい
-# ISOの「nym」はタンザニアのNYAMWEZI語
 # ウガンダ
 # ニャンコーレ語とも
 # 綴りはNYAKOREとも
@@ -1903,11 +1874,9 @@ msgstr "ニョロ語"
 msgid "Nzima"
 msgstr "ンゼマ語"
 
-# オック語とも
 #. name for oci
-#, fuzzy
 msgid "Occitan (post 1500); Provençal"
-msgstr "プロバンス語 (1500-)"
+msgstr "オック語 (1500以後); プロバンス語"
 
 # 国国
 # 北米インディアン
@@ -1930,18 +1899,14 @@ msgstr "オロモ語"
 msgid "Osage"
 msgstr "オーセージ語"
 
-# ISO英語は「Ossetian; Ossetic」と併記
-# 綴りは「Ossetic」とも
-# 国国は「Ossetic」
 # Ethnologueは「Ossetin」
 # KDE訳は「オセット語」
 # 広辞苑「イラン語」の項に「オセット語」
 # マイペディア「オセット語」の項
 # だが、素朴に読めば「オッセト」になるような
 #. name for oss
-#, fuzzy
 msgid "Ossetian; Ossetic"
-msgstr "オセト語"
+msgstr "オセト語; オセット語"
 
 # 国国
 #. name for ota
@@ -1979,9 +1944,8 @@ msgstr "パンパンガ語"
 
 # 国国
 #. name for pan
-#, fuzzy
 msgid "Panjabi; Punjabi"
-msgstr "パンジャブ語"
+msgstr "パンジャブ語; Punjabi"
 
 # 国国
 #. name for pap
@@ -1996,9 +1960,8 @@ msgstr "パラオ語"
 
 # 国国は「古代〜ャ語」
 #. name for peo
-#, fuzzy
 msgid "Persian, Old (ca. 600-400 B.C.)"
-msgstr "ペルシア語, 古代 (紀元前約600-400)"
+msgstr "ペルシア語, 古代 (紀元前約 600-400)"
 
 # 国国は「〜ャ語」
 # 広辞苑「ペルシア語」の項
@@ -2059,7 +2022,7 @@ msgstr "プシュトゥー語"
 
 #. name for qaa-qtz
 msgid "Reserved for local use"
-msgstr ""
+msgstr "局所利用のため予約"
 
 # 国国
 # KDE訳は「ケチュア語」
@@ -2124,7 +2087,7 @@ msgstr "ルンディ語"
 
 #. name for rup
 msgid "Aromanian; Arumanian; Macedo-Romanian"
-msgstr ""
+msgstr "Aromanian; Arumanian; マケド・ルーマニア語"
 
 # 国国
 #. name for rus
@@ -2224,7 +2187,6 @@ msgstr "アイルランド語, 古 (-900)"
 
 # 国国は「手まね言語」
 #. name for sgn
-#, fuzzy
 msgid "Sign Languages"
 msgstr "手話語族"
 
@@ -2360,20 +2322,21 @@ msgstr "ソンガイ語"
 msgid "Sotho, Southern"
 msgstr "ソト語, 南"
 
+# 国国
 #. name for spa
 msgid "Spanish; Castilian"
-msgstr ""
+msgstr "スペイン語; Castilian"
 
 # イタリア
 #. name for srd
 msgid "Sardinian"
 msgstr "サルデーニャ語"
 
-# 国国
+# http://www.wdic.org/w/WDIC/ISO%20639
+# に「スリナム語」
 #. name for srn
-#, fuzzy
 msgid "Sranan Tongo"
-msgstr "ウクライナ語"
+msgstr "スリナム語"
 
 # セネガル
 # 「Serer-Nono セレール・ノノ語」、「Serer-Sin セレール・シン語」がある
@@ -2537,10 +2500,8 @@ msgstr "トケラウ語"
 msgid "Klingon; tlhIngan-Hol"
 msgstr "クリンゴン語; tlhIngan-Hol"
 
-# 国国は「Tlingit」
 # Thlinget, Tlinkitとも
 #. name for tli
-#, fuzzy
 msgid "Tlingit"
 msgstr "トリンギット語"
 
@@ -2580,7 +2541,6 @@ msgstr "チムシュ語"
 msgid "Tswana"
 msgstr "ツワナ語"
 
-# ISO, 国国ともにTSO
 # モザンビーク、南アフリカ
 # ツソンガ語とも
 #. name for tso
@@ -2644,9 +2604,8 @@ msgstr "ウガリット語"
 
 # 国国
 #. name for uig
-#, fuzzy
 msgid "Uighur; Uyghur"
-msgstr "ウイグル語"
+msgstr "ウイグル語; Uyghur"
 
 # 国国
 #. name for ukr
@@ -2698,7 +2657,6 @@ msgstr "ベトナム語"
 # ヴォラピュック語とも
 # Johann Martin Schleyer考案の計画語
 #. name for vol
-#, fuzzy
 msgid "Volapük"
 msgstr "ボラピューク語"
 
@@ -2812,9 +2770,8 @@ msgstr "ゼナガ語"
 # 南北2種類ありCCY、CCXのコードも
 # ニッポニカ「チワン族〔壮族〕 Chuang」の項
 #. name for zha
-#, fuzzy
 msgid "Zhuang; Chuang"
-msgstr "チワン語; チュワン語"
+msgstr "チュワン語; チワン語"
 
 # コンゴ(ザイール)、スーダン
 #. name for znd
@@ -2834,70 +2791,4 @@ msgstr "ズニ語"
 
 #. name for zxx
 msgid "No linguistic content"
-msgstr ""
-
-# 国国
-# KDE訳は「カタール語」だが、カタールはQatarだし、
-# 「Language of Andorra, a small part of France and a small part of Spain」
-# というコメントとも合わない
-# 広辞苑「カタルニア語」の項
-#~ msgid "Catalan"
-#~ msgstr "カタロニア語"
-
-# 国国
-# KDE訳は「教会スラヴ語」
-# 広辞苑「スラヴごは」の項に「古教会スラヴ語」
-# 古代〜とも
-#~ msgid "Church Slavic"
-#~ msgstr "教会スラブ語"
-
-#~ msgid "English-based (Other)"
-#~ msgstr "英語基盤語 (その他)"
-
-#~ msgid "French-based (Other)"
-#~ msgstr "仏語基盤語 (その他)"
-
-#~ msgid "Portuguese-based (Other)"
-#~ msgstr "葡語基盤語 (その他)"
-
-#~ msgid "Dutch"
-#~ msgstr "オランダ語"
-
-# ISO, 国国は「Interlingua (International Auxiliary Language Association)」
-# KDE訳は「インターリングア」
-# マイペディア「国際語」の項に「インテルリングワ」
-# ニッポニカ「インテルリングア (Interlingua)」の項
-# USMARCは-INT
-# Alexander Gode考案の計画語
-#~ msgid "Interlingua"
-#~ msgstr "インターリングァ語"
-
-# ISOは「Kalaallisut」
-# KDE訳は「Kalaallisut カラアリス語」とも
-#~ msgid "Greenlandic (Kalaallisut)"
-#~ msgstr "グリーンランド語 (カラアリス語)"
-
-# ISOに「Limburgian」という英語名はない
-# 2002-08-02に「Limburgish; Linburger; Linburgan」追加
-# SILのLIMは、カメルーンのLIMBUM語。
-# ニッポニカ「リンブルフ (Limburg)」の項 (オランダ、ベルギー各1項)
-#~ msgid "Limburgian"
-#~ msgstr "リンブルク語"
-
-# ニッポニカ「ドイツ語」の項に
-# 「『低地ドイツ語』NiederdeutcshまたはPlattdeutcsh」
-#~ msgid "German, Low"
-#~ msgstr "ドイツ語, 低地"
-
-# 国国
-#~ msgid "Newari"
-#~ msgstr "ネワール語"
-
-# 国国
-#~ msgid "Spanish"
-#~ msgstr "スペイン語"
-
-# ディヴェーヒー語とも
-# モルディブ公用語
-#~ msgid "Divehi"
-#~ msgstr "ディベヒ語"
+msgstr "言語的内容なし"
