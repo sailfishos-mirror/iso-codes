@@ -23,6 +23,9 @@ $ svn copy \
   svn+ssh://<yourname>@svn.debian.org/svn/pkg-isocodes/trunk \
   svn+ssh://<yourname>@svn.debian.org/svn/pkg-isocodes/tags/version_0_XX
 
+Create the Makefiles.
+$ ./configure
+
 Use the Makefile target "release" for creating signed tarballs.
 $ make release
 
