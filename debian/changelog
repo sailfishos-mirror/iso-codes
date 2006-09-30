@@ -5,6 +5,7 @@ iso-codes (0.55-1) UNRELEASED; urgency=low
     - Added "zza" code as of
       http://www.loc.gov/standards/iso639-2/php/code_changes.php
     - update PO and POT files
+    - da.po updated by Claus Hindsgaul
     - fr.po updated by Christian Perrier (from the official list)
   * iso_3166
     - Removed "CS" and added "RS" and "ME" for Serbia and Montenegro split
@@ -16,17 +17,23 @@ iso-codes (0.55-1) UNRELEASED; urgency=low
     - mk.po updated by Georgi Stanojevski
     - nl.po updated by Frans Pop. Closes: #390299
 
+  [ Kenshi Muto ]
+  * iso_3166
+    - ja.po updated
+
+  [ Clytie Siddall ]
+  * iso_3166
+    - vi.po updated
+  * iso_639
+    - vi.po updated
+
   [ Miroslav Kure ]
   * iso_3166
     - cs.po updated
   * iso_639
     - cs.po updated
 
-  [ Kenshi Muto ]
-  * iso_3166
-    - ja.po updated
-
- -- Christian Perrier <bubulle@debian.org>  Sat, 30 Sep 2006 14:14:15 +0200
+ -- Christian Perrier <bubulle@debian.org>  Sat, 30 Sep 2006 18:46:35 +0200
 
 iso-codes (0.54-1) unstable; urgency=low
 
