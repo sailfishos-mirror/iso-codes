@@ -1,5 +1,6 @@
 iso-codes (0.55-1) UNRELEASED; urgency=low
 
+  [ Christian Perrier ]
   * iso_639
     - Added "zza" code as of
       http://www.loc.gov/standards/iso639-2/php/code_changes.php
@@ -11,7 +12,11 @@ iso-codes (0.55-1) UNRELEASED; urgency=low
     - update PO and POT files
     - fr.po updated by Christian Perrier (from the official list)
 
- -- Christian Perrier <bubulle@debian.org>  Sat, 30 Sep 2006 11:21:56 +0200
+  [ Tobias Toedter ]
+  * iso_3166
+    - de.po updated by Tobias Toedter
+
+ -- Tobias Toedter <t.toedter@gmx.net>  Sat, 30 Sep 2006 11:35:36 +0200
 
 iso-codes (0.54-1) unstable; urgency=low
 
