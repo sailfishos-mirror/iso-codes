@@ -21,4 +21,6 @@ EXTRA_DIST = \
 MOSTLYCLEANFILES = \
 	$(mofiles)
 
+check-local: check-content
+
 include $(top_srcdir)/rules.make

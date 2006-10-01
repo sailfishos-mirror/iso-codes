@@ -32,4 +32,6 @@ MOSTLYCLEANFILES = \
 	$(mofiles) \
 	$(tab_DATA)
 
+check-local: check-content
+
 include $(top_srcdir)/rules.make

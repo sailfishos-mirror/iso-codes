@@ -2,6 +2,18 @@
 %.mo: %.po
 	$(MSGFMT) --verbose --check $< -o $@
 
+.PHONY: check-content
+check-content:
+	@grep "Content-Type" *po | grep -v "UTF-8" && touch found-non-utf.stamp || true
+	@if [ -e found-non-utf.stamp ]; then \
+		echo "*********"; \
+		echo "* Error *"; \
+		echo "*********"; \
+		echo "At least one file is not encoded in UTF-8. Please check."; \
+		rm -f found-non-utf.stamp; \
+		false; \
+	fi
+
 localedir = $(datadir)/locale
 
 install-data-hook: $(mofiles)
