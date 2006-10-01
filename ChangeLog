@@ -1,3 +1,58 @@
+iso-codes 0.55
+--------------
+Tobias Toedter <t.toedter@gmx.net>
+Sun, 1 Oct 2006
+
+  [ Christian Perrier ]
+  * iso_639
+    - Added "zza" code as of
+      http://www.loc.gov/standards/iso639-2/php/code_changes.php
+    - update PO and POT files
+    - da.po updated by Claus Hindsgaul
+    - fi.po updated by Tommi Vainikainen
+    - fr.po updated by Christian Perrier (from the official list)
+    - ru.po updated by Yuri Kozlov. Closes: #390330
+  * iso_639_3
+    - hu.po updated by SZERVÁC Attila
+  * iso_3166
+    - Removed "CS" and added "RS" and "ME" for Serbia and Montenegro split
+      http://www.iso.org/iso/en/prods-services/iso3166ma/03updates-on-iso-3166/nlv12-div.html
+    - update PO and POT files
+    - da.po updated by Claus Hindsgaul
+    - fr.po updated by Christian Perrier (from the official list)
+    - hu.po updated by SZERVÁC Attila
+    - mk.po updated by Georgi Stanojevski
+    - nl.po updated by Frans Pop. Closes: #390299
+    - ru.po updated by Yuri Kozlov. Closes: #390330
+    - sk.po updated by Peter Mann
+  * iso_3166_2
+    - hu.po updated by SZERVÁC Attila
+
+  [ Kenshi Muto ]
+  * iso_3166
+    - ja.po updated
+
+  [ Clytie Siddall ]
+  * iso_3166
+    - vi.po updated
+  * iso_639
+    - vi.po updated
+
+  [ Miroslav Kure ]
+  * iso_3166
+    - cs.po updated
+  * iso_639
+    - cs.po updated
+
+  [ Tobias Toedter ]
+  * iso_3166
+    - de.po updated by Tobias Toedter
+    - pt.po updated by Miguel Figueiredo. Closes: #390474
+    - th.po updated by Theppitak Karoonboonyanan. Closes: #390486
+  * iso_639
+    - de.po updated by Tobias Toedter
+
+
 iso-codes 0.54
 --------------
 Tobias Toedter <t.toedter@gmx.net>
