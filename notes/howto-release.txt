@@ -15,13 +15,13 @@ $ svn ci ChangeLog
 Update the version number in configure.ac and commit.
 $ svn ci configure.ac
 
-Update all automatically generated files (configure, Makefiles, etc.).
-$ autoreconf --install --symlink
-
 Create a tag for the next release.
 $ svn copy \
   svn+ssh://<yourname>@svn.debian.org/svn/pkg-isocodes/trunk \
   svn+ssh://<yourname>@svn.debian.org/svn/pkg-isocodes/tags/version_0_XX
+
+Update all automatically generated files (configure, Makefiles, etc.).
+$ autoreconf --install --symlink
 
 Create the Makefiles.
 $ ./configure
