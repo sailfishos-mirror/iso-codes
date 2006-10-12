@@ -3,16 +3,15 @@
 # This file is distributed under the same license as the iso-codes package.
 #
 # Copyright (C)
-#   Free Software Foundation, Inc., 2004
+#   Free Software Foundation, Inc., 2004, 2006
 #   Alastair McKinstry <mckinstry@computer.org>, 2002.
 #   Tapio Lehtonen <tale@debian.org>, 2004, 2006.
 #   Raija Polojärvi <raijapolojarvi@gmail.com>, 2006
+#   Tommi Vainikainen <Tommi.Vainikainen@iki.fi>, 2005-2006.
 #
-# For Finnish names see
-# http://publications.eu.int/code/fi/fi-5000500.htm
-# http://formin.finland.fi/suomi/ Edustustot
-# and
-# http://www.tulli.fi/fi/05_Ulkomaankauppatilastot/06_SVT/maat2003.jsp
+# Lähteet:
+# http://europa.eu.int/comm/translation/currencies/fitable1.htm
+# http://kotoistus.fi/avoimet/kop_alueiden-nimet.html
 #
 msgid ""
 msgstr ""
@@ -20,21 +19,21 @@ msgstr ""
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
 "POT-Creation-Date: 2006-09-30 11:18+0200\n"
-"PO-Revision-Date: 2006-10-05 08:15+0300\n"
-"Last-Translator: Raija Polojärvi <raijapolojarvi@gmail.com>\n"
-"Language-Team: Finnish <debian-l10n-finnish@lists.debian.org>\n"
+"PO-Revision-Date: 2006-10-12 21:23+0300\n"
+"Last-Translator: Tommi Vainikainen <Tommi.Vainikainen@iki.fi>\n"
+"Language-Team: Finnish <translation-team-fi@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: Plural-Forms: nplurals=2; plural=n>1;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. name for AFG
 msgid "Afghanistan"
-msgstr "Afganistan"
+msgstr "Afghanistan"
 
 #. official_name for AFG
 msgid "The Transitional Islamic State of Afghanistan"
-msgstr "Afganistanin islamilainen tasavalta"
+msgstr "Afganistanin islamilainen siirtymäkauden valtio"
 
 #. name for ALA
 msgid "Åland Islands"
@@ -82,7 +81,7 @@ msgstr "Anguilla"
 
 #. name for ATA
 msgid "Antarctica"
-msgstr "Etelänapamanner"
+msgstr "Antarktis"
 
 #. name for ATG
 msgid "Antigua and Barbuda"
@@ -206,11 +205,11 @@ msgstr "Bolivian tasavalta"
 
 #. name for BIH
 msgid "Bosnia and Herzegovina"
-msgstr "Bosnia ja Hertsegovina"
+msgstr "Bosnia-Hertsegovina"
 
 #. official_name for BIH
 msgid "Republic of Bosnia and Herzegovina"
-msgstr "Bosnia ja Hertsegovina"
+msgstr "Bosnia-Hertsegovinan tasavalta"
 
 #. name for BWA
 msgid "Botswana"
@@ -222,7 +221,7 @@ msgstr "Botswanan tasavalta"
 
 #. name for BVT
 msgid "Bouvet Island"
-msgstr "Bouvet'n saari"
+msgstr "Bouvet'nsaari"
 
 #. name for BRA
 msgid "Brazil"
@@ -258,7 +257,7 @@ msgstr "Burundi"
 
 #. official_name for BDI
 msgid "Republic of Burundi"
-msgstr "Burundin tasavalta"
+msgstr "Burindin tasavalta"
 
 #. name for KHM
 msgid "Cambodia"
@@ -326,7 +325,7 @@ msgstr "Joulusaari"
 
 #. name for CCK
 msgid "Cocos (Keeling) Islands"
-msgstr "Kookossaaret (Keeling-saaret)"
+msgstr "Kookossaaret"
 
 #. name for COL
 msgid "Colombia"
@@ -358,7 +357,7 @@ msgstr "Kongon demokraattinen tasavalta"
 
 #. name for COK
 msgid "Cook Islands"
-msgstr "Cook-saaret"
+msgstr "Cookinsaaret"
 
 #. name for CRI
 msgid "Costa Rica"
@@ -486,7 +485,7 @@ msgstr "Etiopian demokraattinen liittotasavalta"
 
 #. name for FLK
 msgid "Falkland Islands (Malvinas)"
-msgstr "Falkland-saaret (Malvinas-saaret)"
+msgstr "Falklandinsaaret"
 
 #. name for FRO
 msgid "Faroe Islands"
@@ -518,7 +517,7 @@ msgstr "Ranskan tasavalta"
 
 #. name for GUF
 msgid "French Guiana"
-msgstr "Ranskan Guinea"
+msgstr "Ranskan Guayana"
 
 #. name for PYF
 msgid "French Polynesia"
@@ -526,7 +525,7 @@ msgstr "Ranskan Polynesia"
 
 #. name for ATF
 msgid "French Southern Territories"
-msgstr "Ranskan eteläiset territoriot"
+msgstr "Ranskan eteläiset alueet"
 
 #. name for GAB
 msgid "Gabon"
@@ -618,12 +617,13 @@ msgstr "Guinea-Bissau"
 
 #. official_name for GNB
 msgid "Republic of Guinea-Bissau"
-msgstr "Guinea-Bissaun tasavalta"
+msgstr "Guinea-Bissaun tasasvalta"
 
 #. name for GUY
 msgid "Guyana"
 msgstr "Guyana"
 
+# Se EU-luettelo sanoo "Guyanan kooperatiivinen tasavalta"??
 #. official_name for GUY
 msgid "Republic of Guyana"
 msgstr "Guyanan tasavalta"
@@ -638,11 +638,11 @@ msgstr "Haitin tasavalta"
 
 #. name for HMD
 msgid "Heard Island and McDonald Islands"
-msgstr "Heardin saari ja McDonaldin saaret"
+msgstr "Heard ja McDonaldinsaaret"
 
 #. name for VAT
 msgid "Holy See (Vatican City State)"
-msgstr "Vatikaanivaltio (Pyhä Istuin)"
+msgstr "Pyhä istuin (Vatikaanivaltio)"
 
 #. name for HND
 msgid "Honduras"
@@ -658,7 +658,7 @@ msgstr "Hong Kong"
 
 #. official_name for HKG
 msgid "Hong Kong Special Administrative Region of China"
-msgstr "Hongkong Kiinan erityishallintoalue"
+msgstr "Kiinan kansantasavallan erityishallintoalue Hong Kong"
 
 #. name for HUN
 msgid "Hungary"
@@ -714,7 +714,7 @@ msgstr "Irlanti"
 
 #. name for IMN
 msgid "Isle of Man"
-msgstr "Mansaaret"
+msgstr "Mansaari"
 
 #. name for ISR
 msgid "Israel"
@@ -778,7 +778,7 @@ msgstr "Kiribatin tasavalta"
 
 #. name for PRK
 msgid "Korea, Democratic People's Republic of"
-msgstr "Pohjois-Korea"
+msgstr "Korean demokraattinen kansantasavalta"
 
 #. official_name for PRK
 msgid "Democratic People's Republic of Korea"
@@ -786,7 +786,7 @@ msgstr "Korean demokraattinen kansantasavalta"
 
 #. name for KOR
 msgid "Korea, Republic of"
-msgstr "Etelä-Korea (Korean tasavalta)"
+msgstr "Korean tasavalta"
 
 #. name for KWT
 msgid "Kuwait"
@@ -796,6 +796,7 @@ msgstr "Kuwait"
 msgid "State of Kuwait"
 msgstr "Kuwaitin valtio"
 
+# EU-luettelossa "Kirgisistan, myös Kirgisia"
 #. name for KGZ
 msgid "Kyrgyzstan"
 msgstr "Kirgisia"
@@ -806,7 +807,7 @@ msgstr "Kirgisian tasavalta"
 
 #. name for LAO
 msgid "Lao People's Democratic Republic"
-msgstr "Laosin demokraattinen kansantasavalta"
+msgstr "Laos"
 
 #. name for LVA
 msgid "Latvia"
@@ -846,7 +847,7 @@ msgstr "Libya"
 
 #. official_name for LBY
 msgid "Socialist People's Libyan Arab Jamahiriya"
-msgstr "Libyan kansan sosialistinen arabitasavalta"
+msgstr "Libyan kansan sosialistinen arabijamahiriya"
 
 #. name for LIE
 msgid "Liechtenstein"
@@ -874,11 +875,11 @@ msgstr "Luxemburgin suurherttuakunta"
 
 #. name for MAC
 msgid "Macao"
-msgstr "Makao"
+msgstr "Macao"
 
 #. official_name for MAC
 msgid "Macao Special Administrative Region of China"
-msgstr "Makao Kiinan erityishallintoalue"
+msgstr "Kiinan kansantasavallan erityishallintoalue Macao"
 
 #. name for MKD
 msgid "Macedonia, Republic of"
@@ -886,7 +887,7 @@ msgstr "Makedonian tasavalta"
 
 #. official_name for MKD
 msgid "The Former Yugoslav Republic of Macedonia"
-msgstr "Entinen Jugoslavian tasavalta Makedonia"
+msgstr "entinen Jugoslavian tasavalta Makedonia"
 
 #. name for MDG
 msgid "Madagascar"
@@ -1114,7 +1115,7 @@ msgstr "Niuen tasavalta"
 
 #. name for NFK
 msgid "Norfolk Island"
-msgstr "Norfolkinsaaret"
+msgstr "Norfolkinsaari"
 
 #. name for MNP
 msgid "Northern Mariana Islands"
@@ -1122,7 +1123,7 @@ msgstr "Pohjois-Mariaanit"
 
 #. official_name for MNP
 msgid "Commonwealth of the Northern Mariana Islands"
-msgstr "Pohjois-Mariaanien kansanyhteisö"
+msgstr "Pohjois-Mariaanien liittovaltio"
 
 #. name for NOR
 msgid "Norway"
@@ -1158,11 +1159,11 @@ msgstr "Palaun tasavalta"
 
 #. name for PSE
 msgid "Palestinian Territory, Occupied"
-msgstr "Palestiinalaisalueet, miehitetyt"
+msgstr "Palestiinalaisalueet, miehitetty"
 
 #. official_name for PSE
 msgid "Occupied Palestinian Territory"
-msgstr "Miehitetyt Palestiinalaisalueet"
+msgstr "miehitetyt palestiinalaisalueet"
 
 #. name for PAN
 msgid "Panama"
@@ -1234,7 +1235,7 @@ msgstr "Qatarin valtio"
 
 #. name for REU
 msgid "Reunion"
-msgstr "Reunion"
+msgstr "Réunion"
 
 #. name for ROU
 msgid "Romania"
@@ -1266,7 +1267,7 @@ msgstr "Saint Lucia"
 
 #. name for SPM
 msgid "Saint Pierre and Miquelon"
-msgstr "Saint Pierre ja Miquelon"
+msgstr "Saint-Pierre ja Miquelon"
 
 #. name for VCT
 msgid "Saint Vincent and the Grenadines"
@@ -1370,7 +1371,7 @@ msgstr "Somalia"
 
 #. official_name for SOM
 msgid "Somali Republic"
-msgstr "Somalian demokraattinen tasavalta"
+msgstr "Somalian tasavalta"
 
 #. name for ZAF
 msgid "South Africa"
@@ -1382,7 +1383,7 @@ msgstr "Etelä-Afrikan tasavalta"
 
 #. name for SGS
 msgid "South Georgia and the South Sandwich Islands"
-msgstr "Etelä-Georgia ja Eteläiset Sandwichsaaret"
+msgstr "Etelä-Georgia ja Eteläiset Sandwichinsaaret"
 
 #. name for ESP
 msgid "Spain"
@@ -1418,7 +1419,7 @@ msgstr "Surinamen tasavalta"
 
 #. name for SJM
 msgid "Svalbard and Jan Mayen"
-msgstr "Huippuvuoret ja Jan Mayen"
+msgstr "Svalbard ja Jan Mayen"
 
 #. name for SWZ
 msgid "Swaziland"
@@ -1450,7 +1451,7 @@ msgstr "Syyrian arabitasavalta"
 
 #. name for TWN
 msgid "Taiwan, Province of China"
-msgstr "Taiwan"
+msgstr "Taiwan, Kiinan provinssi"
 
 #. common_name for TWN
 msgid "Taiwan"
@@ -1466,7 +1467,7 @@ msgstr "Tadžikistanin tasavalta"
 
 #. name for TZA
 msgid "Tanzania, United Republic of"
-msgstr "Tansania, yhdistynyt tasavalta"
+msgstr "Tansanian yhdistynyt tasavalta"
 
 #. official_name for TZA
 msgid "United Republic of Tanzania"
@@ -1558,15 +1559,15 @@ msgstr "Ukraina"
 
 #. name for ARE
 msgid "United Arab Emirates"
-msgstr "Yhdistyneet Arabiemiirikunnat"
+msgstr "Yhdistyneet arabiemiirikunnat"
 
 #. name for GBR
 msgid "United Kingdom"
-msgstr "Iso-Britannia"
+msgstr "Yhdistynyt kuningaskunta"
 
 #. official_name for GBR
 msgid "United Kingdom of Great Britain and Northern Ireland"
-msgstr "Iso-Britannian ja Pohjois-Irlannin yhdistynyt kuningaskunta"
+msgstr "Ison-Britannian ja Pohjois-Irlannin yhdistynyt kuningaskunta"
 
 #. name for USA
 msgid "United States"
@@ -1574,11 +1575,11 @@ msgstr "Yhdysvallat"
 
 #. official_name for USA
 msgid "United States of America"
-msgstr "Amerikan Yhdysvallat"
+msgstr "Amerikan yhdysvallat"
 
 #. name for UMI
 msgid "United States Minor Outlying Islands"
-msgstr "Yhdysvaltojen Tyynenmeren erillissaaret"
+msgstr "Yhdysvaltain pienet erillissaaret"
 
 #. name for URY
 msgid "Uruguay"
@@ -1610,7 +1611,7 @@ msgstr "Venezuela"
 
 #. official_name for VEN
 msgid "Bolivarian Republic of Venezuela"
-msgstr "Venezuelan bolivariaaninen tasavalta"
+msgstr "Venezuelan bolivariaanien tasavalta"
 
 #. name for VNM
 msgid "Viet Nam"
@@ -1622,7 +1623,7 @@ msgstr "Vietnamin sosialistinen tasavalta"
 
 #. name for VGB
 msgid "Virgin Islands, British"
-msgstr "Neitsytsaaret, brittiläiset"
+msgstr "Neitsytsaaret, Brittiläiset"
 
 #. official_name for VGB
 msgid "British Virgin Islands"
@@ -1638,7 +1639,7 @@ msgstr "Yhdysvaltain Neitsytsaaret"
 
 #. name for WLF
 msgid "Wallis and Futuna"
-msgstr "Wallis- ja Futunasaaret"
+msgstr "Wallis ja Futuna"
 
 #. name for ESH
 msgid "Western Sahara"
@@ -1667,18 +1668,3 @@ msgstr "Zimbabwe"
 #. official_name for ZWE
 msgid "Republic of Zimbabwe"
 msgstr "Zimbabwen tasavalta"
-
-#~ msgid "Micronesia"
-#~ msgstr "Mikronesia"
-
-#~ msgid "Iran"
-#~ msgstr "Iran"
-
-#~ msgid "Macedonia"
-#~ msgstr "Makedonia"
-
-#~ msgid "Russia"
-#~ msgstr "Venäjä"
-
-#~ msgid "Britain (UK)"
-#~ msgstr "Yhdistynyt kuningaskunta"
