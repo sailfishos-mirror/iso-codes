@@ -32,7 +32,8 @@ $ make release
 Upload the tarballs and your signatures to the FTP area of Alioth.
 $ ALIOTH_USERNAME=<yourname> make upload
 
-Optionally, remove previous versions from the FTP area of Alioth.
+Please do not remove previous versions from the FTP area of Alioth,
+because they might still be needed by some distributions.
 
 You can now clean up.
 $ cd ..
