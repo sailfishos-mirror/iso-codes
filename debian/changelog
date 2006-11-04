@@ -1,10 +1,15 @@
-iso-codes (0.59-1) UNRELEASED; urgency=low
+iso-codes (1.0-1) UNRELEASED; urgency=low
 
   [ ISO-3166 translations ]
   * Bulgarian (bg.po) updated by Damyan Ivanov. Closes: #396368
   * Bosnian (bs.po) updated by Safir Šećerović. Closes: #396395
 
- -- Tobias Toedter <t.toedter@gmx.net>  Tue, 31 Oct 2006 22:22:40 +0100
+  [Alastair McKinstry]
+  * New major version number. The XML Schema is now considered stable
+   (has not changed in over 1 year) and v1.0 is now released.
+   Note that this is identical to 0.5*; only the version number has changed.
+
+ -- Alastair McKinstry <mckinstry@debian.org>  Sat,  4 Nov 2006 22:15:08 +0000
 
 iso-codes (0.58-1) unstable; urgency=low
 
