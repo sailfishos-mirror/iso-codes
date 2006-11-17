@@ -6,10 +6,14 @@ iso-codes (1.0-1) UNRELEASED; urgency=low
 
   [Alastair McKinstry]
   * New major version number. The XML Schema is now considered stable
-   (has not changed in over 1 year) and v1.0 is now released.
-   Note that this is identical to 0.5*; only the version number has changed.
+    (has not changed in over 1 year) and v1.0 is now released.
+    Note that this is identical to 0.5*; only the version number has changed.
 
- -- Alastair McKinstry <mckinstry@debian.org>  Sat,  4 Nov 2006 22:15:08 +0000
+  [ Tobias Toedter ]
+  * Fix typo for GB-SOM in iso_3166_2.xml and update all .po files.
+    Thanks to Freek de Kruijf for the bug report.
+
+ -- Tobias Toedter <t.toedter@gmx.net>  Fri, 17 Nov 2006 21:24:48 +0100
 
 iso-codes (0.58-1) unstable; urgency=low
 
