@@ -17,7 +17,7 @@ iso_639.pot: iso_639.xml
 	                --fields name --outfile $@ iso_639.xml
 
 iso_639_3.xml:
-	$(top_srcdir)/iso_639/iso-dis-639-tab-parse.py 
+	$(top_srcdir)/iso_639/iso-fdis-639-tab-parse.py 
 
 iso_639.tab: iso_639.xml
 	LC_ALL=C $(srcdir)/iso639tab.py $< > iso_639.tab
