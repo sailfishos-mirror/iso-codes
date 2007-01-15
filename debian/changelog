@@ -33,6 +33,14 @@ iso-codes (1.01-1) UNRELEASED; urgency=low
 
  -- Christian Perrier <bubulle@debian.org>  Sat,  9 Dec 2006 13:48:32 +0100
 
+iso-codes (1.0a-1) unstable; urgency=low
+
+  * Rebuild without auto-generated files to allow transition to testing
+  * "Upstream" version bumped because that means cleaning out the
+    .orig.tar.gz file
+
+ -- Christian Perrier <bubulle@debian.org>  Sun, 14 Jan 2007 20:28:23 +0100
+
 iso-codes (1.0-1) unstable; urgency=low
 
   [ ISO-3166 translations ]
