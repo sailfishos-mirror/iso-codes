@@ -32,7 +32,15 @@ AC_PROG_INSTALL
 AC_PROG_MAKE_SET
 
 AC_PATH_PROG([MSGFMT],[msgfmt])
-
+AC_MSG_CHECKING([if $MSGFMT is GNU msgfmt])
+gnu_msgfmt=no
+MSGFMT_FLAGS=
+if $MSGFMT --version 2>&1 | grep GNU > /dev/null; then
+  gnu_msgfmt=yes
+  MSGFMT_FLAGS="--verbose --check"
+fi
+AC_MSG_RESULT($gnu_msgfmt)
+AC_SUBST(MSGFMT_FLAGS)
 
 DOMAINS="iso_3166 iso_639 iso_4217 iso_3166_2 iso_639_3"
 AC_SUBST([DOMAINS])

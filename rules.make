@@ -1,6 +1,6 @@
 
 %.mo: %.po
-	$(MSGFMT) --verbose --check $< -o $@
+	$(MSGFMT) $(MSGFMT_FLAGS) -o $@ $<
 
 .PHONY: check-content
 check-content:
