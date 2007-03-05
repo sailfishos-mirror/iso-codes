@@ -20,24 +20,30 @@ class printPot(ContentHandler):
 	 self.comment = comment
 	 self.ofile = ofile
 	 self.done = {}
+         self.result = []
 
 
     def startElement(self, name, attrs):
         # Get the name attributes
 	for aname in self.attrnames:
-		n = attrs.get(aname, None)
-		c = attrs.get(self.comment, None)
-		if type(n) == unicode:
-		    n = n.encode('UTF-8')
-		if type(c) == unicode:
-		    c = c.encode('UTF-8')
-		if n != None and not self.done.has_key(n):
-			self.ofile.write("\n")
-                	if c != None:
-				self.ofile.write("#. " + aname + " for " + c +  "\n")
-			self.ofile.write ("msgid \"" + n + "\"\n")
-			self.ofile.write ("msgstr \"\"\n")
-			self.done[n] = 'True'
+            n = attrs.get(aname, None)
+            c = attrs.get(self.comment, None)
+            if type(n) == unicode:
+                n = n.encode('UTF-8')
+            if type(c) == unicode:
+                c = c.encode('UTF-8')
+            if n != None:
+                if not self.done.has_key(n):
+                    self.result.append([n])
+                    self.done[n] = len(self.result)-1
+                if c != None:
+                    try:
+                        self.result[self.done[n]].append('%s for %s' % (aname, c))
+                    except:
+                        print n
+                        print self.done
+                        print result
+                        raise
 
 def printHeader(ofile, iso_standard, report_bugs_to, version):
     """Print the file header
@@ -129,15 +135,21 @@ try:
     p.setContentHandler(dh)
     for infile in trail:
         p.parse(infile)
+    for x in dh.result:
+        ofile.write("\n")
+        if len(x) > 1:
+            ofile.write("#. " + ', '.join(x[1:]) +  "\n")
+        ofile.write ("msgid \"" + x[0] + "\"\n")
+        ofile.write ("msgstr \"\"\n")
 except SAXParseException, e:
     sys.stderr.write('%s:%s:%s: %s\n' % (e.getSystemId(),
                                          e.getLineNumber(),
                                          e.getColumnNumber(),
                                          e.getMessage()))
     sys.exit(1)
-except Exception, e:
-    sys.stderr.write('<unknown>: %s\n' % str(e))
-    sys.exit(1)
+#except Exception, e:
+#    sys.stderr.write('<unknown>: %s\n' % str(e))
+#    sys.exit(1)
 
 
 ofile.close()
