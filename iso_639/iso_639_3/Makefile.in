@@ -329,7 +329,7 @@ uninstall-am: uninstall-xmlDATA
 
 
 iso_639_3.pot: iso_639_3.xml
-	../../iso2pot.py --is-version ${VERSION} --comment code \
+	../../iso2pot.py --is-version ${VERSION} --comment id \
 		--fields name --outfile $@ $< 
 
 check-local: check-content
