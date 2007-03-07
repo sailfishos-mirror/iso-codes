@@ -46,6 +46,7 @@ iso-codes (1.01-1) UNRELEASED; urgency=low
 
   [ ISO-639 translations ]
     - French (fr) updated from the ISO-639 official names in French
+    - Simplified Chinese (zh_CN) updated.
 
   [ ISO-3166-2 translations ]
     - Serbian (sr) updated by Nikola Smolenski (from the TP)
@@ -53,9 +54,14 @@ iso-codes (1.01-1) UNRELEASED; urgency=low
     - Simplified Chinese updated by LI Diaobing
 
   [ LI Daobing ]
-  * update iso2pot.py to keep duplicate information in pot file.
+  * iso2pot.py
+    - keep duplicate information in pot file.
+    - support multiple "--comments" option
+  * ISO-639: keep both 639_1_code and 639_2T_code in the comment of the pot
+    file.
+  * 
 
- -- Tobias Toedter <t.toedter@gmx.net>  Tue,  6 Mar 2007 21:13:36 +0100
+ -- LI Daobing <lidaobing@gmail.com>  Wed,  7 Mar 2007 22:08:34 +0800
 
 iso-codes (1.0a-1) unstable; urgency=low
 

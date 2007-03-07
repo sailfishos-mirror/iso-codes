@@ -13,8 +13,10 @@ mofiles = $(patsubst $(srcdir)/%.po,%.mo, $(pofiles))
 noinst_DATA = $(mofiles) iso_639.pot
 
 iso_639.pot: iso_639.xml
-	$(top_srcdir)/iso2pot.py --is-version $(VERSION) --comments iso_639_2T_code \
-	                --fields name --outfile $@ iso_639.xml
+	$(top_srcdir)/iso2pot.py --is-version $(VERSION) \
+		--comments iso_639_2T_code \
+		--comments iso_639_1_code \
+	        --fields name --outfile $@ iso_639.xml
 
 iso_639_3.xml:
 	$(top_srcdir)/iso_639/iso-fdis-639-tab-parse.py 

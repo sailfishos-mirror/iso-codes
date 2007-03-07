@@ -27,23 +27,19 @@ class printPot(ContentHandler):
         # Get the name attributes
 	for aname in self.attrnames:
             n = attrs.get(aname, None)
-            c = attrs.get(self.comment, None)
+            c = [attrs.get(x, None) for x in self.comment]
             if type(n) == unicode:
                 n = n.encode('UTF-8')
-            if type(c) == unicode:
-                c = c.encode('UTF-8')
+            for i in range(len(c)):
+                if type(c[i]) == unicode:
+                    c[i] = c[i].encode('UTF-8')
             if n != None:
                 if not self.done.has_key(n):
                     self.result.append([n])
                     self.done[n] = len(self.result)-1
-                if c != None:
-                    try:
-                        self.result[self.done[n]].append('%s for %s' % (aname, c))
-                    except:
-                        print n
-                        print self.done
-                        print result
-                        raise
+                comment_str = ", ".join([x for x in c if x is not None])
+                if comment_str:
+                    self.result[self.done[n]].append('%s for %s' % (aname, comment_str))
 
 def printHeader(ofile, iso_standard, report_bugs_to, version):
     """Print the file header
@@ -94,7 +90,7 @@ except Exception,e:
 version = "VERSION"
 report_bugs_to = "Debian iso-codes team <pkg-isocodes-devel@lists.alioth.\"\n\"debian.org>"
 fields = ["name","official_name"]
-comment = "code"
+comment = []
 ofile = sys.stdout
 
 for opt, arg in opts:
@@ -103,9 +99,11 @@ for opt, arg in opts:
     elif opt in ('-f', '--fields'):
     	fields = arg.split(',')
     elif opt in ('-c','--comments'):
-        comment = arg
+        comment.append(arg)
     elif opt in ('-o','--outfile'):
         ofile = open(arg, 'w')
+if not comment:
+    comment = ["code"]
 
 # derive the ISO standard from the first file's name
 # e.g. iso_3166_2.xml -> 3166-2
