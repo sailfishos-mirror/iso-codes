@@ -431,7 +431,7 @@ modify it under the same terms as Perl itself.
     my ($alpha2, $alpha3, $numeric);
     my $country;
 
-    open(DATA, "/usr/share/iso-codes/iso-codes-2.tab") || 
+    open(DATA, "/usr/share/iso-codes/iso_3166.tab") || 
       die "iso-codes data file not present";
 
     while (<DATA>)
