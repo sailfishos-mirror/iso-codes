@@ -15,13 +15,27 @@ $ svn ci ChangeLog
 Update the version number in configure.ac and commit.
 $ svn ci configure.ac
 
-Create a tag for the next release.
+Update all automatically generated files (configure, Makefiles, etc.)
+and commit.
+$ autoreconf --install --symlink
+$ svn ci
+
+Create a tag for the next release. Please respect the following
+release numbering scheme:
+
+- Major version: use this for data organisation changes (like the
+  switch to XML, or incompatible changes in the XML files like the
+  removal of a field)
+- Level 1 minor version: use this when one of the ISO lists is updated
+  or for compatible changes to the XML files, like the addition of
+  a field
+- Level 2 minor version: use this when only translations are updated.
+  If you increment the Level 1 minor version, omit the second level
+  minor version. Example: 1.2.5 -> 1.3, not 1.3.0
+
 $ svn copy \
   svn+ssh://<yourname>@svn.debian.org/svn/pkg-isocodes/trunk \
-  svn+ssh://<yourname>@svn.debian.org/svn/pkg-isocodes/tags/version_0_XX
-
-Update all automatically generated files (configure, Makefiles, etc.).
-$ autoreconf --install --symlink
+  svn+ssh://<yourname>@svn.debian.org/svn/pkg-isocodes/tags/version_MAJOR_MINOR1_MINOR2
 
 Create the Makefiles.
 $ ./configure
