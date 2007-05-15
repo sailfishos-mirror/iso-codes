@@ -1,3 +1,92 @@
+iso-codes 1.1
+-------------
+Tobias Toedter <t.toedter@gmx.net>
+Tue, 15 May 2007
+
+  * Changes to the ISO-3166 list
+    - Numeric code updated for Serbia. Closes: #421663
+    - Alpha-3 code corrected for "Congo, The Democratic
+      Republic of the". Closes: #421664
+
+  * Changes to ISO-3166-2 list
+    - update to newsletter I-7, Add DJ-AR, ID-SR, VN-{71,72,73}
+    - Add CN-64, AF-DAY, AF-PAN. Thanks to LI Daobing for pointing it
+    - Correct the entry for the Maharashtra state in India. Thanks to LI Daobing.
+    - Correct name of KR-{43,45,47}, KP-{PYO,NAJ}, MN-{051,059,064,064},
+      FR-{35,36}, AL-DR, PT-06, BF-TUI, BR-BA, GT-SO, GW-QU, GW-TO, HT-NE, IQ-BA,
+      KH-{23,2,3,5,6,8}, ML-{2,4}, MV-{27,28}, MX-{COA,COL,CHH,MOR}, MZ-A,
+      NA-KH, NZ-WKO, PE-CUS, PG-SAN, PY-{5,6}, RO-{BT,BV,CL,CT}, RW-M,
+      SA-{09,11}, SI-038, SY-HI, TL-{BA,LA,MF}, TZ-08, BG-{10,11}, CO-CAL,
+      DJ-{AS,TA}, GB-{CGV,RFW,TOF}, TZ-10
+    - Correct code of FR-{2A,2B}
+    - move JP section to the proper place
+    - add "City" suffix to the proper place of TW section to avoid the
+      duplicate name between County and City.
+    - add en.po
+    - fix most of the duplicate entry.
+
+  * Changes to ISO-639 list
+    (http://www.loc.gov/standards/iso639-2/php/code_changes.php):
+    - gsw:  Swiss German; Alemannic
+    - bin:  Bini; Edo
+    - car:  Galibi Carib
+    - bad:  Banda languages
+    - btk:  Batak languages
+    - day:  Land Dayak languages
+    - ijo:  Ijo languages
+    - kar:  Karen languages
+    - kro:  Kru languages
+    - nah:  Nahuatl languages
+    - son:  Songhai languages
+    - srn:  Sranan Tongo
+    - znd:  Zande languages
+    - kac:  Kachin; Jingpho
+    - km,khm:  Central Khmer
+    - arn:  Mapudungun; Mapuche
+    - rar:  Rarotongan; Cook Island Maori
+    - rm,roh:  Romansh
+    - ky,kir:  Kirghiz; Kyrgyz
+    - syc: (added) Classical Syriac
+
+  [ ISO-4217 translations ]
+    - Russian (ru) updated by Yuri Kozlov. Closes: #405398
+    - Simplified Chinese (zh_CN) updated by LI Daobing.
+    - Portuguese (pt) updated by Miguel Figueiredo. Closes: #413595
+    - Finnish (fi) updated by Tommi Vainikainen via TP
+    - Serbian (sr) updated by Aleksandar Jelenak via TP
+    - French (fr) completed by Christian Perrier
+    - Dutch (nl) updated by Freek de Kruijf via TP
+    - Polish (pl) updated by Andrzej M. Krzysztofowicz via TP
+    - Russian (ru) updated by Yuri Kozlov. Closes: #421506
+
+  [ ISO-639 translations ]
+    - French (fr) updated from the ISO-639 official names in French
+      but capitalized
+    - Simplified Chinese (zh_CN) updated.
+    - Dutch (nl) updated by Freek de Kruijf via TP
+    - Polish (pl) updated by Andrzej M. Krzysztofowicz via TP
+    - Slovak (sk) updated by Ivan Masár via TP
+    - Russian (ru) updated by Yuri Kozlov. Closes: #421506
+
+  [ ISO-3166-2 translations ]
+    - Serbian (sr) updated by Nikola Smolenski (from the TP)
+    - Dutch updated by Freek de Kruijf (from the TP)
+    - Simplified Chinese updated by LI Diaobing, Ji YongGang
+    - French updated by Christian Perrier
+
+  [ ISO-3166 translations ]
+    - Polish (pl) updated by Andrzej M. Krzysztofowicz via TP
+    - Marathi (mr) updated by Priti Patil. Closes: #416789
+    - Kannada (kn) updated by Vikram Vincent. Closes: #422056
+
+  [ LI Daobing ]
+  * iso2pot.py
+    - keep duplicate information in pot file.
+    - support multiple "--comments" option
+  * ISO-639: keep both 639_1_code and 639_2T_code in the comment of the pot
+    file.
+
+
 iso-codes 1.0
 -------------
 Tobias Toedter <t.toedter@gmx.net>
