@@ -15,6 +15,8 @@ UNRELEASED
   [Tobias Toedter]
   * Don't include iso-codes.pc in the tarball, it is generated
     automatically during configuration
+  * Remove iso639tab.py and iso_639.tab from distribution, as
+    both files are deprecated and no longer used
 
 
 iso-codes 1.1.1
