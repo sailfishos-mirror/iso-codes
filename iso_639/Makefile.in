@@ -54,10 +54,9 @@ am__vpath_adj = case $$p in \
     *) f=$$p;; \
   esac;
 am__strip_dir = `echo $$p | sed -e 's|^.*/||'`;
-am__installdirs = "$(DESTDIR)$(tabdir)" "$(DESTDIR)$(xmldir)"
-tabDATA_INSTALL = $(INSTALL_DATA)
+am__installdirs = "$(DESTDIR)$(xmldir)"
 xmlDATA_INSTALL = $(INSTALL_DATA)
-DATA = $(noinst_DATA) $(tab_DATA) $(xml_DATA)
+DATA = $(noinst_DATA) $(xml_DATA)
 RECURSIVE_CLEAN_TARGETS = mostlyclean-recursive clean-recursive	\
   distclean-recursive maintainer-clean-recursive
 ETAGS = etags
@@ -143,20 +142,16 @@ DOMAIN = iso_639
 SUBDIRS = iso_639_3
 xmldir = $(datadir)/xml/iso-codes
 xml_DATA = $(DOMAIN).xml iso_639_3.xml
-tabdir = $(datadir)/iso-codes
-tab_DATA = $(DOMAIN).tab
 pofiles = $(wildcard $(srcdir)/*.po)
 mofiles = $(patsubst $(srcdir)/%.po,%.mo, $(pofiles))
 noinst_DATA = $(mofiles) iso_639.pot
 EXTRA_DIST = \
 	$(pofiles)	\
 	$(xml_DATA)	\
-	$(tab_DATA)	\
 	iso_639.pot
 
 MOSTLYCLEANFILES = \
-	$(mofiles) \
-	$(tab_DATA)
+	$(mofiles)
 
 all: all-recursive
 
@@ -190,23 +185,6 @@ $(top_srcdir)/configure: @MAINTAINER_MODE_TRUE@ $(am__configure_deps)
 	cd $(top_builddir) && $(MAKE) $(AM_MAKEFLAGS) am--refresh
 $(ACLOCAL_M4): @MAINTAINER_MODE_TRUE@ $(am__aclocal_m4_deps)
 	cd $(top_builddir) && $(MAKE) $(AM_MAKEFLAGS) am--refresh
-install-tabDATA: $(tab_DATA)
-	@$(NORMAL_INSTALL)
-	test -z "$(tabdir)" || $(MKDIR_P) "$(DESTDIR)$(tabdir)"
-	@list='$(tab_DATA)'; for p in $$list; do \
-	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
-	  f=$(am__strip_dir) \
-	  echo " $(tabDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(tabdir)/$$f'"; \
-	  $(tabDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(tabdir)/$$f"; \
-	done
-
-uninstall-tabDATA:
-	@$(NORMAL_UNINSTALL)
-	@list='$(tab_DATA)'; for p in $$list; do \
-	  f=$(am__strip_dir) \
-	  echo " rm -f '$(DESTDIR)$(tabdir)/$$f'"; \
-	  rm -f "$(DESTDIR)$(tabdir)/$$f"; \
-	done
 install-xmlDATA: $(xml_DATA)
 	@$(NORMAL_INSTALL)
 	test -z "$(xmldir)" || $(MKDIR_P) "$(DESTDIR)$(xmldir)"
@@ -405,7 +383,7 @@ check: check-recursive
 all-am: Makefile $(DATA)
 installdirs: installdirs-recursive
 installdirs-am:
-	for dir in "$(DESTDIR)$(tabdir)" "$(DESTDIR)$(xmldir)"; do \
+	for dir in "$(DESTDIR)$(xmldir)"; do \
 	  test -z "$$dir" || $(MKDIR_P) "$$dir"; \
 	done
 install: install-recursive
@@ -451,7 +429,7 @@ info: info-recursive
 
 info-am:
 
-install-data-am: install-tabDATA install-xmlDATA
+install-data-am: install-xmlDATA
 	@$(NORMAL_INSTALL)
 	$(MAKE) $(AM_MAKEFLAGS) install-data-hook
 
@@ -487,7 +465,7 @@ ps: ps-recursive
 
 ps-am:
 
-uninstall-am: uninstall-tabDATA uninstall-xmlDATA
+uninstall-am: uninstall-xmlDATA
 	@$(NORMAL_INSTALL)
 	$(MAKE) $(AM_MAKEFLAGS) uninstall-hook
 
@@ -502,12 +480,11 @@ uninstall-am: uninstall-tabDATA uninstall-xmlDATA
 	install-data-hook install-dvi install-dvi-am install-exec \
 	install-exec-am install-html install-html-am install-info \
 	install-info-am install-man install-pdf install-pdf-am \
-	install-ps install-ps-am install-strip install-tabDATA \
-	install-xmlDATA installcheck installcheck-am installdirs \
-	installdirs-am maintainer-clean maintainer-clean-generic \
-	mostlyclean mostlyclean-generic pdf pdf-am ps ps-am tags \
-	tags-recursive uninstall uninstall-am uninstall-hook \
-	uninstall-tabDATA uninstall-xmlDATA
+	install-ps install-ps-am install-strip install-xmlDATA \
+	installcheck installcheck-am installdirs installdirs-am \
+	maintainer-clean maintainer-clean-generic mostlyclean \
+	mostlyclean-generic pdf pdf-am ps ps-am tags tags-recursive \
+	uninstall uninstall-am uninstall-hook uninstall-xmlDATA
 
 
 iso_639.pot: iso_639.xml
@@ -518,9 +495,6 @@ iso_639.pot: iso_639.xml
 
 iso_639_3.xml:
 	$(top_srcdir)/iso_639/iso-fdis-639-tab-parse.py 
-
-iso_639.tab: iso_639.xml
-	LC_ALL=C $(srcdir)/iso639tab.py $< > iso_639.tab
 
 check-local: check-content
 
