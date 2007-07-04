@@ -2,23 +2,26 @@ iso-codes trunk
 ---------------
 UNRELEASED
 
+  [ ISO-3166-2 ]
+  * Correct misspelled entries for Poland, thanks to Jakub Bogusz.
+
 
 iso-codes 1.2
 -------------
 Tobias Toedter <t.toedter@gmx.net>
 Fri, 29 June 2007
 
-  [ISO-639 translations]
+  [ ISO-639 translations ]
   * Dutch (nl) updated by Freek de Kruijf via TP
   * Irish (ga) updated by Kevin Patrick Scannell via TP
 
-  [ISO-3166-2 translations]
+  [ ISO-3166-2 translations ]
   * Dutch (nl) updated by Freek de Kruijf via TP
 
-  [ISO-4217 translations]
+  [ ISO-4217 translations ]
   * Italian (it) updated by Luca Ferretti via TP
 
-  [Tobias Toedter]
+  [ Tobias Toedter ]
   * Don't include iso-codes.pc in the tarball, it is generated
     automatically during configuration
   * Remove iso639tab.py and iso_639.tab from distribution, as
