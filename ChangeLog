@@ -2,6 +2,12 @@ iso-codes trunk
 ---------------
 UNRELEASED
 
+
+iso-codes 1.3
+-------------
+Tobias Toedter <t.toedter@gmx.net>
+Mon, 23 July 2007
+
   [ ISO-3166-2 ]
   * Correct misspelled entries for Poland, thanks to Jakub Bogusz.
   * Correct spelling of "Wake Island", reported as bug #120111 in
@@ -19,7 +25,8 @@ UNRELEASED
   * Resurrect iso639tab.py and iso_639.tab, as it turns out that
     those files are still needed. This is only a temporary measure;
     the files are still deprecated and should not be used by new
-    programs.
+    programs. This helps fixing a FTBFS bug in geneweb.
+    Closes: #432543
 
 
 iso-codes 1.2
