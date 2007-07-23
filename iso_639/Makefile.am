@@ -27,11 +27,12 @@ iso_639_3.xml:
 EXTRA_DIST = \
 	$(pofiles)	\
 	$(xml_DATA)	\
-	$(tab_DATA)	\
-	iso_639.pot
+	iso_639.pot	\
+	iso639tab.py
 
 MOSTLYCLEANFILES = \
-	$(mofiles)
+	$(mofiles)	\
+	$(tab_DATA)
 
 check-local: check-content
 
