@@ -15,6 +15,12 @@ UNRELEASED
   [ ISO-4217 translations ]
     - Turkish (tr) updated by Nilgün Belma Bugüner via TP.
 
+  [ Tobias Toedter ]
+  * Resurrect iso639tab.py and iso_639.tab, as it turns out that
+    those files are still needed. This is only a temporary measure;
+    the files are still deprecated and should not be used by new
+    programs.
+
 
 iso-codes 1.2
 -------------
