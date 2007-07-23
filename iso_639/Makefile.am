@@ -5,6 +5,12 @@ SUBDIRS = iso_639_3
 xmldir = $(datadir)/xml/iso-codes
 xml_DATA = $(DOMAIN).xml iso_639_3.xml
 
+tabdir = $(datadir)/iso-codes
+tab_DATA = $(DOMAIN).tab
+
+iso_639.tab: iso_639.xml
+	LC_ALL=C $(srcdir)/iso639tab.py $< > iso_639.tab
+
 pofiles = $(wildcard $(srcdir)/*.po)
 mofiles = $(patsubst $(srcdir)/%.po,%.mo, $(pofiles))
 noinst_DATA = $(mofiles) iso_639.pot
@@ -21,6 +27,7 @@ iso_639_3.xml:
 EXTRA_DIST = \
 	$(pofiles)	\
 	$(xml_DATA)	\
+	$(tab_DATA)	\
 	iso_639.pot
 
 MOSTLYCLEANFILES = \
