@@ -2,6 +2,8 @@ iso-codes (1.4-1) UNRELEASED; urgency=low
 
   * New upstream release:
     - &amp; remplaced by "and" in ISO-3166 XML file. Closes: #408590
+    - Replace official name for Bahrain (bh) with "Kingdom of Bahrain",
+      as discussed in the Debian BTS. Closes: #261184
   * The clean rule in debian/rules now only ignores missing Makefile
     errors but catches all other errors. This fixes a lintian warning.
 
