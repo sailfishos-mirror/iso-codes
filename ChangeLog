@@ -3,7 +3,27 @@ iso-codes trunk
 UNRELEASED
 
   [ ISO-3166-2 ]
-  * Simplified Chinese (zh_CN) updated by LI Daobing
+    - Names of Vietnam regions checked and accented properly.
+      Thanks to Clytie Siddall
+
+  [ ISO-3166 ]
+    - &amp; remplaced by "and" in ISO-3166 XML file. Closes: #408590
+
+  [ ISO-3166-2 translations ]
+    - Simplified Chinese (zh_CN) updated by LI Daobing
+    - Slovak (sk) updated by Ivan Masár via TP
+    - Vietnamese (vi) updated by Clytie Siddall via TP
+    - Dutch (nl) updated by Freek de Kruijf via TP
+    - French (fr) updated by Christian Perrier
+
+  [ ISO-3166 translations ]
+    - Vietnamese (vi) updated by Clytie Siddall via TP
+
+  [ ISO-4217 translations ]
+    - Vietnamese (vi) updated by Clytie Siddall via TP
+
+  [ ISO-639 translations ]
+    - Vietnamese (vi) updated by Clytie Siddall via TP
 
 
 iso-codes 1.3
