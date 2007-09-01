@@ -1880,6 +1880,31 @@
 	<iso_3166_2_entry
 		code="DK-080"	name="Northern Jutland" />
 </iso_3166_country>
+	<!-- Dominica -->
+<iso_3166_country code="DM">
+<iso_3166_subset type="Parish">
+	<iso_3166_2_entry
+		code="DM-02"	name="Saint Andrew" />
+	<iso_3166_2_entry
+		code="DM-03"	name="Saint David" />
+	<iso_3166_2_entry
+		code="DM-04"	name="Saint George" />
+	<iso_3166_2_entry
+		code="DM-05"	name="Saint John" />
+	<iso_3166_2_entry
+		code="DM-06"	name="Saint Joseph" />
+	<iso_3166_2_entry
+		code="DM-07"	name="Saint Luke" />
+	<iso_3166_2_entry
+		code="DM-08"	name="Saint Mark" />
+	<iso_3166_2_entry
+		code="DM-09"	name="Saint Patrick" />
+	<iso_3166_2_entry
+		code="DM-10"	name="Saint Paul" />
+	<iso_3166_2_entry
+		code="DM-01"	name="Saint Peter" />
+</iso_3166_subset>
+</iso_3166_country>
 	<!-- Dominican Republic -->
 <iso_3166_country code="DO">
 <iso_3166_subset type="District">
@@ -3117,8 +3142,32 @@
 	<region	code="CO TYRONE"	name="County Tyrone" />
 </geographical_region>
 </iso_3166_country>
+<iso_3166_country code="GD">
+	<!-- Grenada -->
+<iso_3166_subset type="Parish">   
+	<iso_3166_2_entry
+		code="GD-01"	name="Saint Andrew" />
+	<iso_3166_2_entry
+		code="GD-02"	name="Saint David" />
+	<iso_3166_2_entry
+		code="GD-03"	name="Saint George" />
+	<iso_3166_2_entry
+		code="GD-04"	name="Saint John" />
+	<iso_3166_2_entry
+		code="GD-05"	name="Saint Mark" />
+	<iso_3166_2_entry
+		code="GD-06"	name="Saint Patrick" />
+</iso_3166_subset>   
+<iso_3166_subset type="Dependency">   
+	<iso_3166_2_entry
+		code="GD-10"	name="Southern Grenadine Islands" />
+</iso_3166_subset>   
+</iso_3166_country>
 <iso_3166_country code="GE">
 	<!-- Georgia -->
+</iso_3166_country>
+<iso_3166_country code="GG">
+	<!-- Guernsey -->
 </iso_3166_country>
 <iso_3166_country code="GH">
 	<!-- Ghana -->
@@ -3796,6 +3845,9 @@
 	<iso_3166_2_entry
 		code="IL-JM"	name="Yerushalayim Al Quds" />
 </iso_3166_country>
+<iso_3166_country code="IM">
+	<!-- Isle of Man -->
+</iso_3166_country>
 	<!-- India -->
 <iso_3166_country code="IN">
 	<iso_3166_2_entry
@@ -3909,6 +3961,7 @@
 </iso_3166_country>
 	<!-- Iran -->
 <iso_3166_country code="IR">
+<iso_3166_subset type="Province">   
 	<iso_3166_2_entry
 		code="IR-03"	name="Ardabil" />
 	<iso_3166_2_entry
@@ -3965,6 +4018,13 @@
 		code="IR-25"	name="Yazd" />
 	<iso_3166_2_entry
 		code="IR-11"	name="Zanjan" />
+	<iso_3166_2_entry
+		code="IR-29"	name="Khorāsān-e Janūbī" />
+	<iso_3166_2_entry
+		code="IR-30"	name="Khorāsān-e Razavī" />
+	<iso_3166_2_entry
+		code="IR-31"	name="Khorāsān-e Shemālī" />
+</iso_3166_subset>   
 </iso_3166_country>
 	<!-- Iceland -->
 <iso_3166_country code="IS">
@@ -4024,6 +4084,8 @@
 		code="IT-BS"	name="Brescia" />
 	<iso_3166_2_entry
 		code="IT-BR"	name="Brindisi" />
+	<iso_3166_2_entry
+		code="IT-CI"	name="Carbonia-Iglesias" />
 	<iso_3166_2_entry
 		code="IT-CA"	name="Cagliari" />
 	<iso_3166_2_entry
@@ -4106,6 +4168,10 @@
 		code="IT-NO"	name="Novara" />
 	<iso_3166_2_entry
 		code="IT-NU"	name="Nuoro" />
+	<iso_3166_2_entry
+		code="IT-OG"	name="Ogliastra" />
+	<iso_3166_2_entry
+		code="IT-OT"	name="Olbia-Tempio" />
 	<iso_3166_2_entry
 		code="IT-OR"	name="Oristano" />
 	<iso_3166_2_entry
@@ -4190,6 +4256,8 @@
 		code="IT-VC"	name="Vercelli" />
 	<iso_3166_2_entry
 		code="IT-VR"	name="Verona" />
+	<iso_3166_2_entry
+		code="IT-VS"	name="Medio Campidano" />
 	<iso_3166_2_entry
 		code="IT-VV"	name="Vibo Valentia" />
 	<iso_3166_2_entry
@@ -4473,6 +4541,45 @@
 	<iso_3166_2_entry
 		code="KI-P"	name="Phoenix Islands" />
 </iso_3166_country>
+	<!-- Saint Kitts and Nevis -->
+<iso_3166_country code="KN">
+<iso_3166_subset type="State">   
+	<iso_3166_2_entry
+		code="K"	name="Saint Kitts" />
+	<iso_3166_2_entry
+		code="N"	name="Nevis" />
+</iso_3166_subset>   
+<iso_3166_subset type="Parish">   
+	<iso_3166_2_entry
+		code="KN-01"	name="Christ Church Nichola Town" />
+	<iso_3166_2_entry
+		code="KN-02"	name="Saint Anne Sandy Point" />
+	<iso_3166_2_entry
+		code="KN-03"	name="Saint George Basseterre" />
+	<iso_3166_2_entry
+		code="KN-04"	name="Saint George Gingerland" />
+	<iso_3166_2_entry
+		code="KN-05"	name="Saint James Windward" />
+	<iso_3166_2_entry
+		code="KN-06"	name="Saint John Capisterre" />
+	<iso_3166_2_entry
+		code="KN-07"	name="Saint John Figtree" />
+	<iso_3166_2_entry
+		code="KN-08"	name="Saint Mary Cayon" />
+	<iso_3166_2_entry
+		code="KN-09"	name="Saint Paul Capisterre" />
+	<iso_3166_2_entry
+		code="KN-10"	name="Saint Paul Charlestown" />
+	<iso_3166_2_entry
+		code="KN-11"	name="Saint Peter Basseterre" />
+	<iso_3166_2_entry
+		code="KN-12"	name="Saint Thomas Lowland" />
+	<iso_3166_2_entry
+		code="KN-13"	name="Saint Thomas Middle Island" />
+	<iso_3166_2_entry
+		code="KN-14"	name="Trinity Palmetto Point" />
+</iso_3166_subset>   
+</iso_3166_country>
 	<!-- Comorros -->
 <iso_3166_country code="KM">
 	<iso_3166_2_entry
@@ -4643,6 +4750,33 @@
 	<iso_3166_2_entry
 		code="LA-XI"	name="Xiangkhoang" />
 </iso_3166_country>
+	<!-- Liechtenstein -->
+<iso_3166_country code="LI">
+<iso_3166_subset type="Commune">   
+	<iso_3166_2_entry
+		code="LI-01"	name="Balzers" />
+	<iso_3166_2_entry
+		code="LI-02"	name="Eschen" />
+	<iso_3166_2_entry
+		code="LI-03"	name="Gamprin" />
+	<iso_3166_2_entry
+		code="LI-04"	name="Mauren" />
+	<iso_3166_2_entry
+		code="LI-05"	name="Planken" />
+	<iso_3166_2_entry
+		code="LI-06"	name="Ruggell" />
+	<iso_3166_2_entry
+		code="LI-07"	name="Schaan" />
+	<iso_3166_2_entry
+		code="LI-08"	name="Schellenberg" />
+	<iso_3166_2_entry
+		code="LI-09"	name="Triesen" />
+	<iso_3166_2_entry
+		code="LI-10"	name="Triesenberg" />
+	<iso_3166_2_entry
+		code="LI-11"	name="Vaduz" />
+</iso_3166_subset>   
+</iso_3166_country>
 	<!-- Lebanon -->
 <iso_3166_country code="LB">
 	<iso_3166_2_entry
@@ -4650,7 +4784,7 @@
 	<iso_3166_2_entry
 		code="LB-BI"	name="El Begsa" />
 	<iso_3166_2_entry
-		code="LB-JL"	name="Jabal Loubnane" />
+		coDe="LB-JL"	name="Jabal Loubnane" />
 	<iso_3166_2_entry
 		code="LB-AS"	name="Loubnane ech Chemali" />
 	<iso_3166_2_entry
@@ -5068,6 +5202,53 @@
 		code="MD-TI"	name="Tighina [Bender]" />
 	<iso_3166_2_entry
 		code="MD-UN"	name="Ungheni" />
+</iso_3166_country>
+	<!-- Montenegro -->
+<iso_3166_country code="ME">
+<iso_3166_subset type="Municipality">   
+	<iso_3166_2_entry
+		code="ME-01"	name="Andrijevica" />
+	<iso_3166_2_entry
+		code="ME-02"	name="Bar" />
+	<iso_3166_2_entry
+		code="ME-03"	name="Berane" />
+	<iso_3166_2_entry
+		code="ME-04"	name="Bijelo Polje" />
+	<iso_3166_2_entry
+		code="ME-05"	name="Budva" />
+	<iso_3166_2_entry
+		code="ME-06"	name="Cetinje" />
+	<iso_3166_2_entry
+		code="ME-07"	name="Danilovgrad" />
+	<iso_3166_2_entry
+		code="ME-08"	name="Herceg-Novi" />
+	<iso_3166_2_entry
+		code="ME-09"	name="Kolašin" />
+	<iso_3166_2_entry
+		code="ME-10"	name="Kotor" />
+	<iso_3166_2_entry
+		code="ME-11"	name="Mojkovac" />
+	<iso_3166_2_entry
+		code="ME-12"	name="Nikšić" />
+	<iso_3166_2_entry
+		code="ME-13"	name="Plav" />
+	<iso_3166_2_entry
+		code="ME-14"	name="Pljevlja" />
+	<iso_3166_2_entry
+		code="ME-15"	name="Plužine" />
+	<iso_3166_2_entry
+		code="ME-16"	name="Podgorica" />
+	<iso_3166_2_entry
+		code="ME-17"	name="Rožaje" />
+	<iso_3166_2_entry
+		code="ME-18"	name="Šavnik" />
+	<iso_3166_2_entry
+		code="ME-19"	name="Tivat" />
+	<iso_3166_2_entry
+		code="ME-20"	name="Ulcinj" />
+	<iso_3166_2_entry
+		code="ME-21"	name="Žabljak" />
+</iso_3166_subset>   
 </iso_3166_country>
 	<!-- Madagascar -->
 <iso_3166_country code="MG">
