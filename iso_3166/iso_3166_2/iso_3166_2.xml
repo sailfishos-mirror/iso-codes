@@ -61,7 +61,25 @@
 ]>
 
 <iso_3166_2_entries>
-	<!-- United Arab Emirates -->
+	<!-- Andorra -->
+<iso_3166_country code="AD">
+<iso_3166_subset type="Parish">   
+        <iso_3166_2_entry
+                code="AD-07"  name="Andorra la Vella" />
+        <iso_3166_2_entry
+                code="AD-02"  name="Canillo" />
+        <iso_3166_2_entry
+                code="AD-03"  name="Encamp" />
+        <iso_3166_2_entry
+                code="AD-08"  name="Escaldes-Engordany" />
+        <iso_3166_2_entry
+                code="AD-04"  name="La Massana" />
+        <iso_3166_2_entry
+                code="AD-05"  name="La Massana" />
+        <iso_3166_2_entry
+                code="AD-06"  name="Sant Julià de Lòria" />
+</iso_3166_subset>
+</iso_3166_country>
 <iso_3166_country code="AE">
 	<iso_3166_2_entry
 		code="AE-AZ"  name="Abu Zaby" />
@@ -148,6 +166,27 @@
 		code="AF-WAR"	name="Wardak" />
 	<iso_3166_2_entry
 		code="AF-ZAB"	name="Zabol" />
+</iso_3166_country>
+	<!-- Antigua and Barbuda -->
+<iso_3166_country code="AG">
+<iso_3166_subset type="Parish">   
+	<iso_3166_2_entry
+		code="AG-03"	name="Saint George" />
+	<iso_3166_2_entry
+		code="AG-03"	name="Saint John" />
+	<iso_3166_2_entry
+		code="AG-03"	name="Saint Mary" />
+	<iso_3166_2_entry
+		code="AG-03"	name="Saint Paul" />
+	<iso_3166_2_entry
+		code="AG-03"	name="Saint Peter" />
+	<iso_3166_2_entry
+		code="AG-03"	name="Saint Philip" />
+</iso_3166_subset>   
+<iso_3166_subset type="Dependency">   
+	<iso_3166_2_entry
+		code="AG-10"	name="Barbuda" />
+</iso_3166_subset>   
 </iso_3166_country>
 	<!-- Albania -->
 <iso_3166_country code="AL">
@@ -543,6 +582,33 @@
 	<iso_3166_2_entry
 		code="BA-SRP"	name="Republika Srpska" />
 </iso_3166_country>
+	<!-- Barbados -->
+<iso_3166_country code="BB">
+<iso_3166_subset type="Parish">   
+	<iso_3166_2_entry
+		code="BB-01"	name="Christ Church" />
+	<iso_3166_2_entry
+		code="BB-02"	name="Saint Andrew" />
+	<iso_3166_2_entry
+		code="BB-03"	name="Saint George" />
+	<iso_3166_2_entry
+		code="BB-04"	name="Saint James" />
+	<iso_3166_2_entry
+		code="BB-05"	name="Saint John" />
+	<iso_3166_2_entry
+		code="BB-06"	name="Saint Joseph" />
+	<iso_3166_2_entry
+		code="BB-07"	name="Saint Lucy" />
+	<iso_3166_2_entry
+		code="BB-08"	name="Saint Michael" />
+	<iso_3166_2_entry
+		code="BB-09"	name="Saint Peter" />
+	<iso_3166_2_entry
+		code="BB-10"	name="Saint Philip" />
+	<iso_3166_2_entry
+		code="BB-11"	name="Saint Thomas" />
+</iso_3166_subset>   
+</iso_3166_country>
 	<!-- Bangladesh --> 
 <iso_3166_country code="BD">
 	<iso_3166_2_entry
@@ -849,30 +915,18 @@
 </iso_3166_country>
 	<!-- Bahrain -->
 <iso_3166_country code="BH">
+<iso_3166_subset type="Governorate">   
 	<iso_3166_2_entry
-		code="BH-01"	name="Al Hadd" />
+		code="BH-13"	name="Al Manāmah (Al ‘Āşimah)" />
 	<iso_3166_2_entry
-		code="BH-03"	name="Al Manamah" />
+		code="BH-14"	name="Al Janūbīyah" />
 	<iso_3166_2_entry
-		code="BH-10"	name="Al Mintaqah al Gharbiyah" />
+		code="BH-15"	name="Al Muḩarraq" />
 	<iso_3166_2_entry
-		code="BH-07"	name="Al Mintagah al Wusta" />
+		code="BH-16"	name="Al Wusţá" />
 	<iso_3166_2_entry
-		code="BH-05"	name="Al Mintaqah ash Shamaliyah" />
-	<iso_3166_2_entry
-		code="BH-02"	name="Al Muharraq" />
-	<iso_3166_2_entry
-		code="BH-09"	name="Ar Rifa" />
-	<iso_3166_2_entry
-		code="BH-04"	name="Jidd Hafs" />
-	<iso_3166_2_entry
-		code="BH-12"	name="Madluat Jamad" />
-	<iso_3166_2_entry
-		code="BH-08"	name="Madluat Isa" />
-	<iso_3166_2_entry
-		code="BH-11"	name="Mintaqat Juzur tawar" />
-	<iso_3166_2_entry
-		code="BH-06"	name="Sitrah" />
+		code="BH-17"	name="Ash Shamālīyah" />
+</iso_3166_subset>   
 </iso_3166_country>
 	<!-- Burundi -->
 <iso_3166_country code="BI">
@@ -1345,6 +1399,7 @@
 </iso_3166_country>
 	<!-- Cote D'ivoire -->
 <iso_3166_country code="CI">
+<iso_3166_subset type="Region">   
 	<iso_3166_2_entry
 		code="CI-06"	name="18 Montagnes" />
 	<iso_3166_2_entry
@@ -1377,6 +1432,13 @@
 		code="CI-14"	name="Worodouqou" />
 	<iso_3166_2_entry
 		code="CI-08"	name="Zanzan" />
+	<iso_3166_2_entry
+		code="CI-17"	name="Bafin" />
+	<iso_3166_2_entry
+		code="CI-18"	name="Fromager" />
+	<iso_3166_2_entry
+		code="CI-19"	name="Moyen-Cavally" />
+</iso_3166_subset>   
 </iso_3166_country>
 	<!-- Chile -->
 <iso_3166_country code="CL">
