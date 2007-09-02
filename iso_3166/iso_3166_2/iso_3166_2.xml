@@ -28,6 +28,7 @@
 <!--  -Jan Minář							-->
 <!--									-->
 <!-- Up-to-date as of ISO 3166-2 Newsletter I-7 (2005-09-13)            -->
+<!-- Up-to-date as of ISO 3166-2 Newsletter I-8 (2007-04-17)            -->
 
 <!DOCTYPE iso_3166_2_entries [
 	<!ELEMENT iso_3166_2_entries (iso_3166_country+)>
@@ -6860,9 +6861,9 @@
 	<iso_3166_2_entry
 		code="RS-18"	name="Raška" />
 	<iso_3166_2_entry
-		code="RS-07"	name="Srem"" />
+		code="RS-07"	name="Srem" />
 	<iso_3166_2_entry
-		code="RS-12"	name=" Šumadija" />
+		code="RS-12"	name="Šumadija" />
 	<iso_3166_2_entry
 		code="RS-21"	name="Toplica" />
 	<iso_3166_2_entry
@@ -6930,6 +6931,8 @@
 		code="RU-KDA"	name="Krasnodarskiy kray" />
 	<iso_3166_2_entry
 		code="RU-KYA"	name="Krasnoyarskiy kray" />
+	<iso_3166_2_entry
+		code="RU-PER"	name="Permskiy kray" />
 	<iso_3166_2_entry
 		code="RU-PRI"	name="Primorskiy kray" />
 	<iso_3166_2_entry
@@ -7070,30 +7073,20 @@
 </iso_3166_country>
 	<!-- Rwanda -->
 <iso_3166_country code="RW">
+<iso_3166_subset type="Town council">
 	<iso_3166_2_entry
-		code="RW-C"	name="Butare" />
+		code="RW-01"	name="Ville de Kigali" />
+</iso_3166_subset>
+<iso_3166_subset type="Province">
 	<iso_3166_2_entry
-		code="RW-I"	name="Byumba" />
+		code="RW-02"	name="East (Rwanda)" />
 	<iso_3166_2_entry
-		code="RW-E"	name="Cyangugu" />
+		code="RW-03"	name="Northi (Rwanda)" />
 	<iso_3166_2_entry
-		code="RW-D"	name="Gikongoro" />
+		code="RW-04"	name="West (Rwanda)" />
 	<iso_3166_2_entry
-		code="RW-G"	name="Gisenyi" />
-	<iso_3166_2_entry
-		code="RW-B"	name="Gitarama" />
-	<iso_3166_2_entry
-		code="RW-J"	name="Kibungo" />
-	<iso_3166_2_entry
-		code="RW-F"	name="Kibuye" />
-	<iso_3166_2_entry
-		code="RW-K"	name="Kigali-Rural Kigali y' Icyaro" />
-	<iso_3166_2_entry
-		code="RW-L"	name="Kigali-Ville Kigali Ngari" />
-	<iso_3166_2_entry
-		code="RW-M"	name="Umutara" />
-	<iso_3166_2_entry
-		code="RW-H"	name="Ruhengeri" />
+		code="RW-05"	name="South (Rwanda)" />
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Saudi Arabia -->
 <iso_3166_country code="SA">
@@ -7126,8 +7119,11 @@
 </iso_3166_country>
 	<!-- Solomon Islands -->
 <iso_3166_country code="SB">
+<iso_3166_subset type="Capital territory">   
 	<iso_3166_2_entry
 		code="SB-CT"	name="Capital Territory (Honiara)" />
+</iso_3166_subset>   
+<iso_3166_subset type="Province">   
 	<iso_3166_2_entry
 		code="SB-CE"	name="Central (Solomon Islands)" />
 	<iso_3166_2_entry
@@ -7137,11 +7133,65 @@
 	<iso_3166_2_entry
 		code="SB-MK"	name="Makira" />
 	<iso_3166_2_entry
+		code="SB-RB"	name="Rennell and Bellona" />
+	<iso_3166_2_entry
 		code="SB-ML"	name="Malaita" />
 	<iso_3166_2_entry
 		code="SB-TE"	name="Temotu" />
 	<iso_3166_2_entry
 		code="SB-WE"	name="Western (Solomon Islands)" />
+</iso_3166_subset>   
+</iso_3166_country>
+	<!-- Seychelles -->
+<iso_3166_country code="SC">
+<iso_3166_subset type="District">   
+	<iso_3166_2_entry
+		code="SC-01"	code="Anse aux Pins" />
+	<iso_3166_2_entry
+		code="SC-02"	code="Anse Boileau" />
+	<iso_3166_2_entry
+		code="SC-03"	code="Anse Étoile" />
+	<iso_3166_2_entry
+		code="SC-04"	code="Anse Louis" />
+	<iso_3166_2_entry
+		code="SC-05"	code="Anse Royale" />
+	<iso_3166_2_entry
+		code="SC-06"	code="Baie Lazare" />
+	<iso_3166_2_entry
+		code="SC-07"	code="Baie Sainte Anne" />
+	<iso_3166_2_entry
+		code="SC-08"	code="Beau Vallon" />
+	<iso_3166_2_entry
+		code="SC-09"	code="Bel Air" />
+	<iso_3166_2_entry
+		code="SC-10"	code="Bel Ombre" />
+	<iso_3166_2_entry
+		code="SC-11"	code="Cascade" />
+	<iso_3166_2_entry
+		code="SC-12"	code="Glacis" />
+	<iso_3166_2_entry
+		code="SC-13"	code="Grand' Anse (Mahé)" />
+	<iso_3166_2_entry
+		code="SC-14"	code="Grand' Anse (Praslin)" />
+	<iso_3166_2_entry
+		code="SC-15"	code="La Digue" />
+	<iso_3166_2_entry
+		code="SC-16"	code="La Rivière Anglaise" />
+	<iso_3166_2_entry
+		code="SC-17"	code="Mont Buxton" />
+	<iso_3166_2_entry
+		code="SC-18"	code="Mont Fleuri" />
+	<iso_3166_2_entry
+		code="SC-19"	code="Plaisance" />
+	<iso_3166_2_entry
+		code="SC-20"	code="Pointe La Rue" />
+	<iso_3166_2_entry
+		code="SC-21"	code="Port Glaud" />
+	<iso_3166_2_entry
+		code="SC-22"	code="Saint Louis" />
+	<iso_3166_2_entry
+		code="SC-23"	code="Takamaka" />
+</iso_3166_subset>   
 </iso_3166_country>
 	<!-- Sudan -->
 <iso_3166_country code="SD">
@@ -7589,6 +7639,29 @@
 	<iso_3166_2_entry
 		code="SL-S"	name="Southern (Sierra Leone)" />
 </iso_3166_country>
+	<!-- San Marino -->
+<iso_3166_country code="SM">
+<iso_3166_subset type="Municipalities">   
+	<iso_3166_2_entry
+		code="SM-01"	code="Acquaviva" />
+	<iso_3166_2_entry
+		code="SM-06"	code="Borgo Maggiore" />
+	<iso_3166_2_entry
+		code="SM-02"	code="Chiesanuova" />
+	<iso_3166_2_entry
+		code="SM-03"	code="Domagnano" />
+	<iso_3166_2_entry
+		code="SM-04"	code="Faetano" />
+	<iso_3166_2_entry
+		code="SM-05"	code="Fiorentino" />
+	<iso_3166_2_entry
+		code="SM-08"	code="Montegiardino" />
+	<iso_3166_2_entry
+		code="SM-07"	code="San Marino" />
+	<iso_3166_2_entry
+		code="SM-09"	code="Serravalle" />
+</iso_3166_subset>   
+</iso_3166_country>
 	<!-- Senegal -->
 <iso_3166_country code="SN">
 	<iso_3166_2_entry
@@ -7758,6 +7831,7 @@
 </iso_3166_country>
 	<!-- Chad -->
 <iso_3166_country code="TD">
+<iso_3166_subset type="Region">   
 	<iso_3166_2_entry
 		code="TD-BA"	name="Batha" />
 	<iso_3166_2_entry
@@ -7767,7 +7841,9 @@
 	<iso_3166_2_entry
 		code="TD-CB"	name="Chari-Baguirmi" />
 	<iso_3166_2_entry
-		code="TD-GR"	name="Guera" />
+		code="TD-GR"	name="Guéra" />
+	<iso_3166_2_entry
+		code="TD-HL"	name="Guéra" />
 	<iso_3166_2_entry
 		code="TD-KA"	name="Kanem" />
 	<iso_3166_2_entry
@@ -7777,15 +7853,24 @@
 	<iso_3166_2_entry
 		code="TD-LR"	name="Logone-Oriental" />
 	<iso_3166_2_entry
-		code="TD-MK"	name="Mayo-Kebbi" />
+		code="TD-MA"	name="Mandoul" />
+	<iso_3166_2_entry
+		code="TD-ME"	name="Mayo-Kébbi-Est" />
+	<iso_3166_2_entry
+		code="TD-MO"	name="Mayo-Kébbi-Ouest" />
 	<iso_3166_2_entry
 		code="TD-MC"	name="Moyen-Chari" />
+	<iso_3166_2_entry
+		code="TD-ND"	name="Ndjamena" />
 	<iso_3166_2_entry
 		code="TD-OD"	name="Ouaddai" />
 	<iso_3166_2_entry
 		code="TD-SA"	name="Salamat" />
 	<iso_3166_2_entry
-		code="TD-TA"	name="Tandjile" />
+		code="TD-TA"	name="Tandjilé" />
+	<iso_3166_2_entry
+		code="TD-WF"	name="Wadi Fira" />
+</iso_3166_subset>   
 </iso_3166_country>
 	<!-- Togo -->
 <iso_3166_country code="TG">
@@ -8030,6 +8115,21 @@
 	<iso_3166_2_entry
 		code="TN-22"	name="Zaghouan" />
 </iso_3166_country>
+	<!-- Tonga -->
+<iso_3166_country code="TO">
+<iso_3166_subset type="Division">   
+	<iso_3166_2_entry
+		code="TO-01"	name="'Eua" />
+	<iso_3166_2_entry
+		code="TO-02"	name="Ha'apai" />
+	<iso_3166_2_entry
+		code="TO-03"	name="Niuas" />
+	<iso_3166_2_entry
+		code="TO-04"	name="Tongatapu" />
+	<iso_3166_2_entry
+		code="TO-05"	name="Vava'u" />
+</iso_3166_subset>   
+</iso_3166_country>
 	<!-- Turkey -->
 <iso_3166_country code="TR">
 	<iso_3166_2_entry
@@ -8258,6 +8358,29 @@
 		code="TL-OE"	name="Oecussi" />
 	<iso_3166_2_entry
 		code="TL-VI"	name="Viqueque" />
+</iso_3166_country>
+	<!-- Tuvalu -->
+<iso_3166_country code="TV">
+<iso_3166_subset type="Town council">
+	<iso_3166_2_entry
+		code="TV-FUN"	name="Funafuti" />
+</iso_3166_subset>
+<iso_3166_subset type="Island council">
+	<iso_3166_2_entry
+		code="TV-NMG"	name="Nanumanga" />
+	<iso_3166_2_entry
+		code="TV-NMA"	name="Nanumea" />
+	<iso_3166_2_entry
+		code="TV-NIT"	name="Niutao" />
+	<iso_3166_2_entry
+		code="TV-NIU"	name="Nui" />
+	<iso_3166_2_entry
+		code="TV-NKF"	name="Nukufetau" />
+	<iso_3166_2_entry
+		code="TV-NKL"	name="Nukulaelae" />
+	<iso_3166_2_entry
+		code="TV-VAI"	name="Vaitupu" />
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Taiwan -->
 <iso_3166_country code="TW">
@@ -8761,6 +8884,35 @@
 		code="UZ-TO"	name="Toshkent" />
 	<iso_3166_2_entry
 		code="UZ-XO"	name="Xorazm" />
+</iso_3166_country>
+	<!-- Saint Vincent and the Grenadines -->
+<iso_3166_country code="VC">
+<iso_3166_subset type="Parish">
+	<iso_3166_2_entry
+		code="VC-01"	name="Charlotte" />
+	<iso_3166_2_entry
+		code="VC-06"	name="Grenadines" />
+	<iso_3166_2_entry
+		code="VC-02"	name="Saint Andrew" />
+	<iso_3166_2_entry
+		code="VC-03"	name="Saint David" />
+	<iso_3166_2_entry
+		code="VC-04"	name="Saint George" />
+	<iso_3166_2_entry
+		code="VC-05"	name="Saint Patrick" />
+	<iso_3166_2_entry
+		code="VC-01"	name="Charlotte" />
+	<iso_3166_2_entry
+		code="VC-06"	name="Grenadines" />
+	<iso_3166_2_entry
+		code="VC-02"	name="Saint Andrew" />
+	<iso_3166_2_entry
+		code="VC-03"	name="Saint David" />
+	<iso_3166_2_entry
+		code="VC-04"	name="Saint George" />
+	<iso_3166_2_entry
+		code="VC-05"	name="Saint Patrick" />
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Venezuela -->
 <iso_3166_country code="VE">
