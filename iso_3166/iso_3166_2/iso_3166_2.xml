@@ -1296,14 +1296,17 @@
 	<!-- The Democratic Republic of Congo -->
 </iso_3166_country>
 <iso_3166_country code="CD">
+<iso_3166_subset type="City">
 	<iso_3166_2_entry
 		code="CD-KN"	name="Kinshasa" />
+</iso_3166_subset>
+<iso_3166_subset type="Province">
 	<iso_3166_2_entry
 		code="CD-BN"	name="Bandundu" />
 	<iso_3166_2_entry
 		code="CD-BC"	name="Bas-Congo" />
 	<iso_3166_2_entry
-		code="CD-EQ"	name="Equateur" />
+		code="CD-EQ"	name="Équateur" />
 	<iso_3166_2_entry
 		code="CD-HC"	name="Haut-Congo" />
 	<iso_3166_2_entry
@@ -1320,6 +1323,7 @@
 		code="CD-OR"	name="Orientale" />
 	<iso_3166_2_entry
 		code="CD-SK"	name="Sud-Kivu" />
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Central African Republic --> 
 <iso_3166_country code="CF">
@@ -1760,12 +1764,19 @@
 </iso_3166_country>
 	<!-- Cape Verde -->	
 <iso_3166_country code="CV">
+<iso_3166_subset type="District">   
+	<iso_3166_2_entry
+		code="CV-B"	name="Ilhas de Barlavento" />
+	<iso_3166_2_entry
+		code="CV-S"	name="Ilhas de Sotavento" />
+</iso_3166_subset>   
+<iso_3166_subset type="Municipality">   
 	<iso_3166_2_entry
 		code="CV-BV"	name="Boa Vista" />
 	<iso_3166_2_entry
 		code="CV-BR"	name="Brava" />
 	<iso_3166_2_entry
-		code="CV-CS"	name="Calheta de Sao Miguel" />
+		code="CV-CS"	name="Calheta de São Miguel" />
 	<iso_3166_2_entry
 		code="CV-FO"	name="Fogo" />
 	<iso_3166_2_entry
@@ -1773,7 +1784,7 @@
 	<iso_3166_2_entry
 		code="CV-MO"	name="Mosteiros" />
 	<iso_3166_2_entry
-		code="CV-PA"	name="Paul" />
+		code="CV-PA"	name="Paúl" />
 	<iso_3166_2_entry
 		code="CV-PN"	name="Porto Novo" />
 	<iso_3166_2_entry
@@ -1787,15 +1798,16 @@
 	<iso_3166_2_entry
 		code="CV-CR"	name="Santa Cruz (Cape Verde)" />
 	<iso_3166_2_entry
-		code="CV-SD"	name="Sao Domingos" />
+		code="CV-SD"	name="São Domingos" />
 	<iso_3166_2_entry
-		code="CV-SF"	name="Sao Filipe" />
+		code="CV-SF"	name="São Filipe" />
 	<iso_3166_2_entry
-		code="CV-SN"	name="Sao Nicolau" />
+		code="CV-SN"	name="São Nicolau" />
 	<iso_3166_2_entry
-		code="CV-SV"	name="Sao Vicente" />
+		code="CV-SV"	name="São Vicente" />
 	<iso_3166_2_entry
 		code="CV-TA"	name="Tarrafal" />
+</iso_3166_subset>   
 </iso_3166_country>
 	<!-- Cyprus -->
 <iso_3166_country code="CY">
