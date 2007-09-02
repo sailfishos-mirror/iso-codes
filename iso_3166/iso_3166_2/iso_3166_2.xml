@@ -2512,7 +2512,79 @@
 </iso_3166_country>
 	<!-- France -->
 <iso_3166_country code="FR">
-	<!-- France uses its Department codes as ISO 3166-2 subregions -->
+<iso_3166_subset type="Region">
+	<iso_3166_2_entry
+		code="FR-A"	name="Alsace" />
+	<iso_3166_2_entry
+		code="FR-B"	name="Aquitaine" />
+	<iso_3166_2_entry
+		code="FR-C"	name="Auvergne" />
+	<iso_3166_2_entry
+		code="FR-P"	name="Basse-Normandie" />
+	<iso_3166_2_entry
+		code="FR-D"	name="Bourgogne" />
+	<iso_3166_2_entry
+		code="FR-E"	name="Bretagne" />
+	<iso_3166_2_entry
+		code="FR-F"	name="Centre" />
+	<iso_3166_2_entry
+		code="FR-G"	name="Champagne-Ardenne" />
+	<iso_3166_2_entry
+		code="FR-H"	name="Corse" />
+	<iso_3166_2_entry
+		code="FR-I"	name="Franche-Comté" />
+	<iso_3166_2_entry
+		code="FR-Q"	name="Haute-Normandie" />
+	<iso_3166_2_entry
+		code="FR-J"	name="Île-de-France" />
+	<iso_3166_2_entry
+		code="FR-K"	name="Languedoc-Roussillon" />
+	<iso_3166_2_entry
+		code="FR-L"	name="Limousin" />
+	<iso_3166_2_entry
+		code="FR-M"	name="Lorraine" />
+	<iso_3166_2_entry
+		code="FR-N"	name="Midi-Pyrénées" />
+	<iso_3166_2_entry
+		code="FR-O"	name="Nord - Pas-de-Calais" />
+	<iso_3166_2_entry
+		code="FR-R"	name="Pays de la Loire" />
+	<iso_3166_2_entry
+		code="FR-S"	name="Picardie" />
+	<iso_3166_2_entry
+		code="FR-T"	name="Poitou-Charentes" />
+	<iso_3166_2_entry
+		code="FR-U"	name="Provence-Alpes-Côte d'Azur" />
+	<iso_3166_2_entry
+		code="FR-V"	name="Rhône-Alpes" />
+</iso_3166_subset>
+<iso_3166_subset type="Overseas department">
+	<iso_3166_2_entry
+		code="FR-971"	name="Guadeloupe" />
+	<iso_3166_2_entry
+		code="FR-972"	name="Guyane" />
+	<iso_3166_2_entry
+		code="FR-973"	name="Martinique" />
+	<iso_3166_2_entry
+		code="FR-974"	name="Réunion" />
+</iso_3166_subset>
+<iso_3166_subset type="Territorial collectivity">
+	<iso_3166_2_entry
+		code="FR-YT"	name="Mayotte" />
+	<iso_3166_2_entry
+		code="FR-PM"	name="Saint-Pierre-et-Miquelon" />
+</iso_3166_subset>
+<iso_3166_subset type="Overseas territory">
+	<iso_3166_2_entry
+		code="FR-NC"	name="Nouvelle-Calédonie" />
+	<iso_3166_2_entry
+		code="FR-PF"	name="Polynésie française" />
+	<iso_3166_2_entry
+		code="FR-TF"	name="Terres australes françaises" />
+	<iso_3166_2_entry
+		code="FR-WF"	name="Wallis et Futuna" />
+</iso_3166_subset>
+<iso_3166_subset type="Metropolitan department">
 	<iso_3166_2_entry
 		code="FR-01"	name="Ain" />
 	<iso_3166_2_entry
@@ -2703,6 +2775,7 @@
 		code="FR-89"	name="Yonne" />
 	<iso_3166_2_entry
 		code="FR-78"	name="Yvelines" />
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Great Britain -->
 <iso_3166_country code="GB">
