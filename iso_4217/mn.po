@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: iso_4217 CVS\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2007-03-16 13:11+0800\n"
+"POT-Creation-Date: 2007-09-04 22:48+0200\n"
 "PO-Revision-Date: 2003-02-21 13:34+0000\n"
 "Last-Translator: Badral Sanlig <badral@chinggis.com>\n"
 "Language-Team: Mongolian <mn@li.org>\n"
@@ -24,13 +24,13 @@ msgstr ""
 msgid "UAE Dirham"
 msgstr "UAE Ð<94>ÐžÑ<80>Ñ<85>Ð°ÐŒ"
 
-#. currency_name for AFN
+#. currency_name for AFN, currency_name for AFA
 msgid "Afghani"
 msgstr "Ð<90>Ñ<84>Ð³Ð°Ðœ"
 
 #. currency_name for ALL
-msgid "Albanian Lek"
-msgstr "Ð<90>Ð»Ð±Ð°ÐœÐž Ð<9b>ÐµÐº"
+msgid "Lek"
+msgstr ""
 
 #. currency_name for AMD
 msgid "Armenian Dram"
@@ -41,11 +41,12 @@ msgid "Netherlands Antillian Guilder"
 msgstr ""
 "Ð<9d>ÐµÐŽÑ<8d>Ñ<80>Ð»Ð°ÐœÐŽ Ð<90>ÐœÑ<82>ÐžÐ»Ð»ÐžÐ°Ðœ Ð<93>Ò¯Ð¹Ð»ÐŽÑ<8d>Ñ<80>"
 
-#. currency_name for AOA, currency_name for AOK
-msgid "Angola Kwanza"
+#. currency_name for AOA
+#, fuzzy
+msgid "Kwanza"
 msgstr "Ð<90>ÐœÐ³ÐŸÐ» Ð<9a>Ð²Ð°ÐœÐ·Ð°"
 
-#. currency_name for ARS, currency_name for ARY
+#. currency_name for ARS
 msgid "Argentine Peso"
 msgstr "Ð<90>Ñ<80>Ð³ÐµÐœÑ<82>ÐžÐœ Ð<9f>ÐžÑ<81>ÐŸ"
 
@@ -73,7 +74,7 @@ msgstr "Ð<91>Ð°Ñ<80>Ð±Ð°ÐŽÐŸÑ<81> Ð<94>ÐŸÐ»Ð»Ð°Ñ<80>"
 msgid "Bangladeshi Taka"
 msgstr "Ð<91>Ð°ÐœÐ³Ð»Ð°ÐŽÐµÑ<88> Ð¢Ð°ÐºÐ°"
 
-#. currency_name for BGN, currency_name for BGL
+#. currency_name for BGN
 msgid "Bulgarian Lev"
 msgstr "Ð<91>ÐŸÐ»Ð³Ð°Ñ<80> Ð<9b>ÐµÐ²"
 
@@ -110,15 +111,17 @@ msgid "Bahamian Dollar"
 msgstr "Ð<91>Ð°Ñ<85>Ð°ÐŒÐ°Ð¹ Ð<94>ÐŸÐ»Ð»Ð°Ñ<80>"
 
 #. currency_name for BTN
-msgid "Bhutan Ngultrum"
+#, fuzzy
+msgid "Ngultrum"
 msgstr "Ð<91>Ñ<83>Ñ<82>Ð°Ðœ Ð<9d>Ð³Ñ<83>Ð»Ñ<82>Ñ<80>Ñ<83>ÐŒ"
 
 #. currency_name for BWP
-msgid "Botswana Pula"
-msgstr "Ð<91>ÐŸÑ<82>Ñ<81>Ð²Ð°ÐœÐ° Ð<9f>Ñ<83>Ð»Ð°"
+msgid "Pula"
+msgstr ""
 
-#. currency_name for BYR, currency_name for BYB
-msgid "Belarussian Rouble"
+#. currency_name for BYR
+#, fuzzy
+msgid "Belarussian Ruble"
 msgstr "Ð<91>ÐµÐ»Ð°Ñ<80>Ñ<83>Ñ<81>Ñ<81> Ð Ñ<83>Ð±Ð»Ñ<8c>"
 
 #. currency_name for BZD
@@ -156,7 +159,8 @@ msgid "Chilean Peso"
 msgstr "Ð§ÐžÐ»Ðž Ð<9f>ÐžÑ<81>ÐŸ"
 
 #. currency_name for CNY
-msgid "Chinese Yuan Renminbi"
+#, fuzzy
+msgid "Yuan Renminbi"
 msgstr "Ð¥Ñ<8f>Ñ<82>Ð°ÐŽ Ð®Ð°Ðœ"
 
 #. currency_name for COP
@@ -171,11 +175,6 @@ msgstr "Ð®ÐœÐžÐŽÐ°ÐŽ ÐŽÐµ Ð<92>Ð°Ð»ÐŸÑ<80> Ð<9a>ÐŸÐ�
 #. currency_name for CRC
 msgid "Costa Rican Colon"
 msgstr "Ð<9a>ÐŸÑ<81>Ñ<82>Ð° Ð ÐžÐºÐ° Ð<9a>ÐŸÐ»ÐŸÐœ"
-
-#. currency_name for CSD
-#, fuzzy
-msgid "Serbian Dinar"
-msgstr "Ð<90>Ð»Ð¶ÐžÑ<80> Ð<94>ÐžÐœÐ°Ñ<80>"
 
 #. currency_name for CUP
 msgid "Cuban Peso"
@@ -211,17 +210,16 @@ msgid "Algerian Dinar"
 msgstr "Ð<90>Ð»Ð¶ÐžÑ<80> Ð<94>ÐžÐœÐ°Ñ<80>"
 
 #. currency_name for EEK
-#, fuzzy
-msgid "Estonian Kroon"
-msgstr "Ð­Ñ<81>Ñ<82>ÐŸÐœÐž Ð<9a>Ñ<80>ÐŸÐŸÐœ"
+msgid "Kroon"
+msgstr ""
 
 #. currency_name for EGP
 msgid "Egyptian Pound"
 msgstr "Ð<95>Ð³ÐžÐ¿Ñ<82> Ð€Ñ<83>ÐœÑ<82>"
 
 #. currency_name for ERN
-msgid "Eritrean Nakfa"
-msgstr "Ð­Ñ<80>ÐžÑ<82>Ñ<80>Ð° Ð<9d>Ð°ÐºÑ<84>Ð°"
+msgid "Nakfa"
+msgstr ""
 
 #. currency_name for ETB
 msgid "Ethiopian Birr"
@@ -245,19 +243,20 @@ msgid "Pound Sterling"
 msgstr "Ð€Ñ<83>ÐœÑ<82> Ð¡Ñ<82>ÐµÑ<80>Ð»ÐžÐœÐ³"
 
 #. currency_name for GEL
-msgid "Georgian Lari"
-msgstr "Ð<93>ÐµÐŸÑ<80>Ð³Ðž Ð<9b>Ð°Ñ<80>Ðž"
+msgid "Lari"
+msgstr ""
 
 #. currency_name for GHC
-msgid "Ghanaian Cedi"
-msgstr "Ð<93>Ð°ÐœÐ° ÐŠÐµÐŽÐž"
+msgid "Cedi"
+msgstr ""
 
 #. currency_name for GIP
 msgid "Gibraltar Pound"
 msgstr "Ð<93>ÐžÐ±Ñ<80>Ð°Ð»Ñ<82>Ð°Ñ<80> Ð€Ñ<83>ÐœÑ<82>"
 
 #. currency_name for GMD
-msgid "Gambian Dalasi"
+#, fuzzy
+msgid "Dalasi"
 msgstr "Ð<93>Ð°ÐŒÐ±Ðž Ð<94>Ð°Ð»Ð°Ñ<81>Ðž"
 
 #. currency_name for GNF
@@ -265,12 +264,8 @@ msgid "Guinea Franc"
 msgstr "Ð<93>Ñ<83>ÐžÐœÐµÐ° Ð€Ñ<80>Ð°ÐœÐº"
 
 #. currency_name for GTQ
-msgid "Guatemalan Quetzal"
-msgstr "Ð<93>Ñ<83>Ð°Ñ<82>ÐµÐŒÐ°Ð»Ð°Ðœ Ð<9a>Ð²ÐµÑ<82>Ð·Ð°Ð»"
-
-#. currency_name for GWP
-msgid "Guinea-Bissau Peso"
-msgstr "Ð<93>Ñ<83>ÐžÐœÐµÐ°-Ð<91>ÐžÑ<81>Ñ<81>Ð°Ñ<83> Ð<9f>ÐžÑ<81>ÐŸ"
+msgid "Quetzal"
+msgstr ""
 
 #. currency_name for GYD
 msgid "Guyana Dollar"
@@ -281,7 +276,8 @@ msgid "Hong Kong Dollar"
 msgstr "Ð¥ÐŸÐœÐ³ Ð<9a>ÐŸÐœÐ³ Ð<94>ÐŸÐ»Ð»Ð°Ñ<80>"
 
 #. currency_name for HNL
-msgid "Honduran Lempira"
+#, fuzzy
+msgid "Lempira"
 msgstr "Ð<93>ÐŸÐœÐŽÑ<83>Ñ<80>Ð°Ñ<81> Ð<9b>ÐµÐŒÐ¿ÐžÑ<80>Ð°"
 
 #. currency_name for HRK
@@ -293,12 +289,12 @@ msgid "Haitian Gourde"
 msgstr "Ð¥Ð°Ð¹Ñ<82> Ð<93>ÐŸÑ<83>Ñ<80>ÐŽÑ<8d>"
 
 #. currency_name for HUF
-msgid "Hungarian Forint"
-msgstr "Ð£ÐœÐ³Ð°Ñ<80> Ð€ÐŸÑ<80>ÐžÐœÑ<82>"
+msgid "Forint"
+msgstr ""
 
 #. currency_name for IDR
-msgid "Indonesian Rupiah"
-msgstr "Ð<98>ÐœÐŽÐŸÐœÐµÐ· Ð Ñ<83>Ð¿ÐžÐ°"
+msgid "Rupiah"
+msgstr ""
 
 #. currency_name for ILS
 #, fuzzy
@@ -338,12 +334,12 @@ msgid "Kenyan Shilling"
 msgstr "Ð<9a>ÐµÐœÐž ÐšÐžÐ»Ð»ÐžÐœÐ³"
 
 #. currency_name for KGS
-msgid "Kyrgyzstan Som"
-msgstr "Ð<9a>ÐžÑ<80>Ð³ÐžÐ· Ð¡ÐŸÐŒ"
+msgid "Som"
+msgstr ""
 
 #. currency_name for KHR
-msgid "Cambodian Riel"
-msgstr "Ð<9a>Ð°ÐŒÐ±Ñ<83>Ñ<87> Ð ÐžÐµÐ»"
+msgid "Riel"
+msgstr ""
 
 #. currency_name for KMF
 msgid "Comoro Franc"
@@ -366,11 +362,13 @@ msgid "Cayman Islands Dollar"
 msgstr "Ð<9a>Ð°Ñ<83>ÐŒÐ°Ðœ Ð<98>Ñ<81>Ð»Ð°ÐœÐŽ Ð<94>ÐŸÐ»Ð»Ð°Ñ<80>"
 
 #. currency_name for KZT
-msgid "Kazakhstan Tenge"
-msgstr "Ð<9a>Ð°Ð·Ð°Ðº Ð¢Ñ<8d>ÐœÐ³Ñ<8d>"
+#, fuzzy
+msgid "Tenge"
+msgstr "Ð<9b>ÐžÐŸÐœÑ<8d>"
 
 #. currency_name for LAK
-msgid "Lao Kip"
+#, fuzzy
+msgid "Kip"
 msgstr "Ð<9b>Ð°ÐŸ Ð<9a>ÐžÐ¿"
 
 #. currency_name for LBP
@@ -386,8 +384,8 @@ msgid "Liberian Dollar"
 msgstr "Ð<9b>ÐžÐ±ÐµÑ<80>Ðž Ð<94>ÐŸÐ»Ð»Ð°Ñ<80>"
 
 #. currency_name for LSL
-msgid "Lesotho Loti"
-msgstr "Ð<9b>ÐµÑ<81>ÐŸÑ<82>ÐŸ Ð<9b>ÐŸÑ<82>Ðž"
+msgid "Loti"
+msgstr ""
 
 #. currency_name for LTL
 msgid "Lithuanian Litas"
@@ -411,29 +409,29 @@ msgstr "Ð<9c>ÐŸÐ»ÐŽÐ°Ð² Ð<9b>ÐµÑ<83>"
 
 #. currency_name for MGA
 #, fuzzy
-msgid "Malagascy Ariary"
+msgid "Malagasy Ariary"
 msgstr "Ð<9c>Ð°Ð»Ð°Ð¹Ð· Ð€Ñ<80>Ð°ÐœÐº"
 
 #. currency_name for MKD
-msgid "Macedonian Denar"
-msgstr "Ð<9c>Ð°ÐºÐžÐŽÐŸÐœ Ð<94>ÐµÐœÐ°Ñ<80>"
+msgid "Denar"
+msgstr ""
 
-#. currency_name for MMK
-msgid "Myanmar Kyat"
-msgstr "Ð<9c>Ñ<8f>ÐœÐŒÐ°Ñ<80> Ð<9a>Ñ<83>Ð°Ñ<82>"
+#. currency_name for MMK, currency_name for BUK
+msgid "Kyat"
+msgstr ""
 
 #. currency_name for MNT
-msgid "Mongolian Tugrik"
-msgstr "Ð<9c>ÐŸÐœÐ³ÐŸÐ» Ð¢Ó©Ð³Ñ<80>Ó©Ð³"
+msgid "Tugrik"
+msgstr ""
 
 #. currency_name for MOP
 #, fuzzy
-msgid "Macao Pataca"
+msgid "Pataca"
 msgstr "Ð<9c>Ð°ÐºÐ°ÐŸ Ð<9f>Ð°Ñ<82>Ð°ÐºÐ°"
 
 #. currency_name for MRO
-msgid "Mauritanian Ouguiya"
-msgstr "Ð<9c>Ð°Ð²Ñ<80>ÐžÑ<82>Ð°Ðœ Ð<9e>Ñ<83>Ð³Ñ<83>ÐžÑ<8f>"
+msgid "Ouguiya"
+msgstr ""
 
 #. currency_name for MTL
 msgid "Maltese Lira"
@@ -444,11 +442,13 @@ msgid "Mauritius Rupee"
 msgstr "Ð<9c>Ð°Ð²Ñ<80>ÐžÑ<82>ÐžÑ<83>Ñ<81> Ð Ñ<83>Ð¿Ñ<8d>Ñ<8d>"
 
 #. currency_name for MVR
-msgid "Maldive Rufiyaa"
+#, fuzzy
+msgid "Rufiyaa"
 msgstr "Ð<9c>Ð°Ð»ÐŽÐžÐ² Ð ÐžÑ<84>ÐžÑ<8f>Ð°"
 
 #. currency_name for MWK
-msgid "Malawi Kwacha"
+#, fuzzy
+msgid "Kwacha"
 msgstr "Ð<9c>Ð°Ð»Ð°Ð²Ðž Ð<9a>Ð²Ð°Ñ<85>Ð°"
 
 #. currency_name for MXN, currency_name for MXP
@@ -464,20 +464,21 @@ msgstr "Ð®ÐœÐžÐŽÐ°ÐŽ ÐŽÑ<8d> Ð<98>ÐœÐ²ÐµÑ<80>Ñ<82> (UDI)
 msgid "Malaysian Ringgit"
 msgstr "Ð<9c>Ð°Ð»Ð°Ð¹Ð· Ð ÐžÐœÐ³Ð³ÐžÑ<82>"
 
-#. currency_name for MZN, currency_name for MZM
-msgid "Mozambique Metical"
-msgstr "Ð<9c>ÐŸÐ·Ð°ÐŒÐ±ÐžÐº Ð<9c>ÐµÑ<82>ÐžÐºÐ°Ð»"
+#. currency_name for MZN
+msgid "Metical"
+msgstr ""
 
 #. currency_name for NAD
 msgid "Namibian Dollar"
 msgstr "Ð<9d>Ð°ÐŒÐ±Ðž Ð<94>ÐŸÐ»Ð»Ð°Ñ<80>"
 
 #. currency_name for NGN
-msgid "Nigerian Naira"
-msgstr "Ð<9d>ÐžÐ³ÐµÑ<80> Ð<9d>Ð°Ð¹Ñ<80>Ð°"
+msgid "Naira"
+msgstr ""
 
 #. currency_name for NIO
-msgid "Nicaraguan Cordoba Oro"
+#, fuzzy
+msgid "Cordoba Oro"
 msgstr "Ð<9d>ÐžÐºÑ<80>Ð°Ð³Ñ<83>Ð° Ð<9a>ÐŸÑ<80>ÐŽÐŸÐ±Ð° Ð<9e>Ñ<80>ÐŸ"
 
 #. currency_name for NOK
@@ -497,16 +498,17 @@ msgid "Rial Omani"
 msgstr "Ð ÐžÐ°Ð» Ð<9e>ÐŒÐ°ÐœÐž"
 
 #. currency_name for PAB
-msgid "Panamanian Balboa"
-msgstr "Ð<9f>Ð°ÐœÐ°ÐŒ Ð<91>Ð°Ð»Ð±ÐŸÐ°"
+msgid "Balboa"
+msgstr ""
 
 #. currency_name for PEN
-msgid "Peruvian Nuevo Sol"
+#, fuzzy
+msgid "Nuevo Sol"
 msgstr "Ð<9f>ÐµÑ<80>Ñ<83> Ð<9d>Ñ<83>Ñ<8d>Ð²ÐŸ Ð¡ÐŸÐ»"
 
 #. currency_name for PGK
-msgid "Papua New Guinea Kina"
-msgstr "Ð<9f>Ð°Ð¿Ñ<83>Ð° ÐšÐžÐœÑ<8d> Ð<93>Ñ<83>ÐžÐœÐµÐ° Ð<9a>ÐžÐœÐ°"
+msgid "Kina"
+msgstr ""
 
 #. currency_name for PHP
 #, fuzzy
@@ -517,31 +519,29 @@ msgstr "Ð€Ð»ÐžÐ¿Ð¿ÐžÐœ Ð<9f>ÐžÑ<81>ÐŸ"
 msgid "Pakistan Rupee"
 msgstr "Ð<9f>Ð°ÐºÐžÑ<81>Ñ<82>Ð°Ðœ Ð Ñ<83>Ð¿Ñ<8d>Ñ<8d>"
 
-#. currency_name for PLN, currency_name for PLZ
-msgid "Polish Złoty"
+#. currency_name for PLN
+#, fuzzy
+msgid "Polish Zloty"
 msgstr "Ð<9f>ÐŸÐ»Ñ<8c>Ñ<88> Ð<97>ÐŸÐ»ÐŸÑ<82>"
 
 #. currency_name for PYG
-msgid "Paraguay Guarani"
-msgstr "Ð<9f>Ñ<80>Ð°Ð³Ð²Ð°Ð¹ Ð<93>Ñ<83>Ð°Ñ<80>Ð°ÐœÐž"
+#, fuzzy
+msgid "Guarani"
+msgstr "Ð<93>Ñ<83>ÐžÐœÐµÐ° Ð€Ñ<80>Ð°ÐœÐº"
 
 #. currency_name for QAR
 #, fuzzy
 msgid "Qatari Rial"
 msgstr "Ð<9a>Ð²Ð°Ñ<82>Ð°Ñ<80> Ð ÐžÑ<8f>Ð»"
 
-#. currency_name for ROL
-#, fuzzy
-msgid "Romanian Old Leu"
-msgstr "Ð Ñ<83>ÐŒÑ<8b>Ðœ Ð<9b>ÐµÑ<83>"
-
 #. currency_name for RON
 #, fuzzy
 msgid "Romanian New Leu"
 msgstr "Ð Ñ<83>ÐŒÑ<8b>Ðœ Ð<9b>ÐµÑ<83>"
 
-#. currency_name for RUB, currency_name for RUR
-msgid "Russian Rouble"
+#. currency_name for RUB
+#, fuzzy
+msgid "Russian Ruble"
 msgstr "Ð<9e>Ñ<80>ÐŸÑ<81> Ð Ñ<83>Ð±Ð»Ñ<8c>"
 
 #. currency_name for RWF
@@ -560,9 +560,10 @@ msgstr "Ð¡ÐŸÐ»ÐŸÐŒÐŸÐœ Ð<98>Ñ<81>Ð»Ð°ÐœÐŽ Ð<94>ÐŸÐ»
 msgid "Seychelles Rupee"
 msgstr "Ð¡ÐµÑ<83>Ñ<85>ÐµÐ»Ð»Ñ<8d>Ñ<81> Ð Ñ<83>Ð¿Ñ<8d>Ñ<8d>"
 
-#. currency_name for SDD
-msgid "Sudanese Dinar"
-msgstr "Ð¡Ñ<83>ÐŽÐ°Ðœ Ð<94>ÐžÐœÐ°Ñ<80>"
+#. currency_name for SDD, currency_name for SDP
+#, fuzzy
+msgid "Sudanese Pound"
+msgstr "Ð<9b>ÐžÐ±Ð°ÐœÑ<8b> Ð€Ñ<83>ÐœÑ<82>"
 
 #. currency_name for SEK
 msgid "Swedish Krona"
@@ -576,10 +577,6 @@ msgstr "Ð¡ÐžÐœÐ³Ð°Ð¿Ñ<83>Ñ<80> Ð<94>ÐŸÐ»Ð»Ð°Ñ<80>"
 #. currency_name for SHP
 msgid "Saint Helena Pound"
 msgstr "Ð¡Ð°Ð¹ÐœÑ<82> Ð¥ÐµÐ»Ñ<8d>Ðœ Ð€Ñ<83>ÐœÑ<82>"
-
-#. currency_name for SIT
-msgid "Slovenian Tolar"
-msgstr "Ð¡Ð»ÐŸÐ²ÐµÐœ Ð¢ÐŸÐ»Ð°Ñ<80>"
 
 #. currency_name for SKK
 msgid "Slovak Koruna"
@@ -600,40 +597,39 @@ msgid "Surinam Dollar"
 msgstr "Ð¡ÐžÐœÐ³Ð°Ð¿Ñ<83>Ñ<80> Ð<94>ÐŸÐ»Ð»Ð°Ñ<80>"
 
 #. currency_name for STD
-#, fuzzy
-msgid "São Tome and Principe Dobra"
-msgstr "Ð¡Ð°ÐŸ Ð¢ÐŸÐŒÑ<8d> Ð±Ð° Ð<9f>Ñ<80>ÐžÐœÑ<86>ÐžÐ¿ Ð<94>ÐŸÐ±Ñ<80>Ð°"
-
-#. currency_name for SVC
-msgid "El Salvador Colon"
-msgstr "Ð­Ð» Ð¡Ð°Ð»Ð²Ð°ÐŽÐŸÑ<80> Ð<9a>ÐŸÐ»ÐŸÐœ"
+msgid "Dobra"
+msgstr ""
 
 #. currency_name for SYP
 msgid "Syrian Pound"
 msgstr "Ð¡ÐžÑ<80>Ðž Ð€Ñ<83>ÐœÑ<82>"
 
 #. currency_name for SZL
-msgid "Swaziland Lilangeni"
+#, fuzzy
+msgid "Lilangeni"
 msgstr "ÐšÐ²ÐµÑ<86>Ð°Ñ<80>Ñ<8c> Ð<9b>ÐžÐ»Ð°ÐœÐ¶ÐµÐœÐž"
 
 #. currency_name for THB
-msgid "Thai Baht"
+#, fuzzy
+msgid "Baht"
 msgstr "Ð¢Ð°Ð¹ Ð<91>Ð°Ñ<85>Ñ<82>"
 
 #. currency_name for TJS
-msgid "Tajik Somoni"
+#, fuzzy
+msgid "Somoni"
 msgstr "Ð¢Ð°Ð¶ÐžÐº Ð¡ÐŸÐŒÐŸÐœÐž"
 
 #. currency_name for TMM
-msgid "Turkmenistan Manat"
-msgstr "Ð¢Ñ<83>Ñ<80>ÐºÐŒÐµÐœÑ<81>Ñ<82>Ð°Ðœ Ð<9c>Ð°ÐœÐ°Ñ<82>"
+msgid "Manat"
+msgstr ""
 
 #. currency_name for TND
 msgid "Tunisian Dinar"
 msgstr "Ð¢Ñ<83>ÐœÐžÑ<81> Ð<94>ÐžÐœÐ°Ñ<80>"
 
 #. currency_name for TOP
-msgid "Tongan Pa'anga"
+#, fuzzy
+msgid "Pa'anga"
 msgstr "Ð¢ÐŸÐœÐ³Ð° Ð<9f>Ð°Ð°ÐœÐ³Ð°"
 
 #. currency_name for TRY
@@ -655,8 +651,8 @@ msgid "Tanzanian Shilling"
 msgstr "Ð¢Ð°Ð·Ð°Ðœ ÐšÐžÐ»Ð»ÐžÐœÐ³"
 
 #. currency_name for UAH
-msgid "Ukrainian Hryvnia"
-msgstr "Ð£ÐºÑ<80>Ð°Ð¹Ðœ Ð¥Ñ<80>ÐžÐ²ÐœÐžÐ°"
+msgid "Hryvnia"
+msgstr ""
 
 #. currency_name for UGX
 #, fuzzy
@@ -680,20 +676,22 @@ msgid "Peso Uruguayo"
 msgstr "Ð<9f>ÐžÑ<81>ÐŸ Ð£Ñ<80>Ñ<83>Ð³Ð²Ð°Ð¹"
 
 #. currency_name for UZS
-msgid "Uzbekistan Sum"
+#, fuzzy
+msgid "Uzbekistan Som"
 msgstr "Ð£Ð·Ð±ÐµÐºÑ<81>Ñ<82>Ð°Ðœ Ð¡Ñ<83>ÐŒ"
 
 #. currency_name for VEB
-msgid "Venezuela Bolivar"
+#, fuzzy
+msgid "Venezuela Bolívar"
 msgstr "Ð<92>ÐžÐœÐµÑ<81>Ñ<81>Ñ<83>ÐµÐ» Ð<91>ÐŸÐ»ÐžÐ²Ð°Ñ<80>Ñ<8c>"
 
 #. currency_name for VND
-msgid "Viet Nam Dong"
-msgstr "Ð<92>ÐžÑ<82>Ñ<8c>ÐœÐ°ÐŒ Ð<94>ÐŸÐœÐ³"
+msgid "Vietnamese đồng"
+msgstr ""
 
 #. currency_name for VUV
-msgid "Vanuatu Vatu"
-msgstr "Ð<92>Ð°ÐœÑ<83>Ð°Ñ<82>Ñ<83> Ð<92>Ð°Ñ<82>Ñ<83>"
+msgid "Vatu"
+msgstr ""
 
 #. currency_name for WST
 msgid "Samoan Tala"
@@ -713,7 +711,7 @@ msgstr "Ð<90>Ð»Ñ<82>"
 
 #. currency_name for XBA
 #, fuzzy
-msgid "Bond Markets Units European Composite Unit (EURCO)"
+msgid "European Composite Unit (EURCO)"
 msgstr "Ð<95>Ð²Ñ<80>ÐŸÐ¿Ñ<8b>Ðœ ÐœÐžÐ¹Ð»ÐŒÑ<8d>Ð» ÐœÑ<8d>Ð³Ð¶ EURCO"
 
 #. currency_name for XBB
@@ -741,11 +739,13 @@ msgid "Special Drawing Right"
 msgstr "Ð<97>Ñ<8d>Ñ<8d>Ð»Ð¶ÐžÑ<85> Ñ<82>Ñ<83>Ñ<81>Ð³Ð°Ð¹ Ñ<8d>Ñ<80>Ñ<85>"
 
 #. currency_name for XFO
-msgid "Gold-Franc"
+#, fuzzy
+msgid "Gold Franc"
 msgstr "Ð<90>Ð»Ñ<82>-Ð€Ñ<80>Ð°ÐœÐº"
 
 #. currency_name for XFU
-msgid "UIC-Franc"
+#, fuzzy
+msgid "UIC Franc"
 msgstr "UIC-Ð€Ñ<80>Ð°ÐœÐº"
 
 #. currency_name for XOF
@@ -769,7 +769,8 @@ msgid "Code for testing purposes"
 msgstr "Ð¢ÐµÑ<81>Ñ<82>Ð»Ñ<8d>Ñ<85> Ð·ÐŸÑ<80>ÐžÐ»Ð³Ñ<8b>Ðœ ÐºÐŸÐŽ"
 
 #. currency_name for XXX
-msgid "No currency involved"
+#, fuzzy
+msgid "No currency"
 msgstr "Ð<9d>Ñ<8d>Ð³Ð¶ Ð±Ð°Ð¹Ñ<85>Ð³Ò¯Ð¹"
 
 #. currency_name for YER
@@ -793,10 +794,20 @@ msgstr "Ð<97>Ð°ÐŒÐ±Ð°Ð±ÐžÐ² Ð<94>ÐŸÐ»Ð»Ð°Ñ<80>"
 msgid "Andorran Peseta"
 msgstr ""
 
+#. currency_name for ADF
+#, fuzzy
+msgid "Andorran Franc"
+msgstr "Ð Ð²Ð°ÐœÐŽÐ° Ð€Ñ<80>Ð°ÐœÐº"
+
 #. currency_name for ALK
 #, fuzzy
 msgid "Albanian Old Lek"
 msgstr "Ð<90>Ð»Ð±Ð°ÐœÐž Ð<9b>ÐµÐº"
+
+#. currency_name for AOK
+#, fuzzy
+msgid "Angolan New Kwanza"
+msgstr "Ð<90>ÐœÐ³ÐŸÐ» Ð<9a>Ð²Ð°ÐœÐ·Ð°"
 
 #. currency_name for AON
 #, fuzzy
@@ -811,6 +822,15 @@ msgstr "Ð<90>ÐœÐ³ÐŸÐ» Ð<9a>Ð²Ð°ÐœÐ·Ð°"
 #. currency_name for ARA
 #, fuzzy
 msgid "Argentine Austral"
+msgstr "Ð<90>Ñ<80>Ð³ÐµÐœÑ<82>ÐžÐœ Ð<9f>ÐžÑ<81>ÐŸ"
+
+#. currency_name for ARM
+msgid "Argentine peso moneda nacional"
+msgstr ""
+
+#. currency_name for ARL
+#, fuzzy
+msgid "Argentine peso ley"
 msgstr "Ð<90>Ñ<80>Ð³ÐµÐœÑ<82>ÐžÐœ Ð<9f>ÐžÑ<81>ÐŸ"
 
 #. currency_name for ARP
@@ -829,7 +849,7 @@ msgstr ""
 
 #. currency_name for BEC
 #, fuzzy
-msgid "Belgian Convertible Franc"
+msgid "Belgian Franc Convertible"
 msgstr "Ð¥Ó©Ñ<80>Ð²Ó©Ñ<85> Ð<9c>Ð°Ñ<80>Ðº"
 
 #. currency_name for BEF
@@ -838,8 +858,9 @@ msgid "Belgian Franc"
 msgstr "Ð<9c>Ð°Ð»Ð°Ð¹Ð· Ð€Ñ<80>Ð°ÐœÐº"
 
 #. currency_name for BEL
-msgid "Belgian Financial Franc"
-msgstr ""
+#, fuzzy
+msgid "Belgian Franc Financial"
+msgstr "Ð<9c>Ð°Ð»Ð°Ð¹Ð· Ð€Ñ<80>Ð°ÐœÐº"
 
 #. currency_name for BGJ
 #, fuzzy
@@ -849,6 +870,11 @@ msgstr "Ð<91>ÐŸÐ»Ð³Ð°Ñ<80> Ð<9b>ÐµÐ²"
 #. currency_name for BGK
 #, fuzzy
 msgid "Bulgarian Lev A/62"
+msgstr "Ð<91>ÐŸÐ»Ð³Ð°Ñ<80> Ð<9b>ÐµÐ²"
+
+#. currency_name for BGL
+#, fuzzy
+msgid "Bulgarian Lev A/99"
 msgstr "Ð<91>ÐŸÐ»Ð³Ð°Ñ<80> Ð<9b>ÐµÐ²"
 
 #. currency_name for BOP
@@ -876,25 +902,31 @@ msgstr "Ð<91>Ñ<80>Ð°Ð·ÐžÐ» Ð ÐµÐ°Ð»"
 msgid "Brazilian Cruzeiro Real"
 msgstr "Ð<91>Ñ<80>Ð°Ð·ÐžÐ» Ð ÐµÐ°Ð»"
 
-#. currency_name for BUK
-msgid "Kyat"
-msgstr ""
+#. currency_name for BYB
+msgid "Belarussian Rouble"
+msgstr "Ð<91>ÐµÐ»Ð°Ñ<80>Ñ<83>Ñ<81>Ñ<81> Ð Ñ<83>Ð±Ð»Ñ<8c>"
 
 #. currency_name for CNX
 msgid "Chinese Peoples Bank Dollar"
 msgstr ""
 
+#. currency_name for CSD
+#, fuzzy
+msgid "Serbian Dinar"
+msgstr "Ð<90>Ð»Ð¶ÐžÑ<80> Ð<94>ÐžÐœÐ°Ñ<80>"
+
 #. currency_name for CSJ
-msgid "Czechoslovakian Krona A/53"
-msgstr ""
+#, fuzzy
+msgid "Czechoslovak Krona A/53"
+msgstr "Ð§ÐµÑ<85> Ð<9a>Ñ<80>ÐŸÐœ"
 
 #. currency_name for CSK
 #, fuzzy
-msgid "Czechoslovakian Koruna"
+msgid "Czechoslovak Koruna"
 msgstr "Ð§ÐµÑ<85> Ð<9a>Ñ<80>ÐŸÐœ"
 
 #. currency_name for DDM
-msgid "Mark der DDR"
+msgid "East German Mark of the GDR"
 msgstr ""
 
 #. currency_name for DEM
@@ -906,7 +938,8 @@ msgid "Ecuador Sucre"
 msgstr ""
 
 #. currency_name for ECV
-msgid "Unidad de Valor Constante UVC"
+#, fuzzy
+msgid "Ecuador Unidad de Valor Constante UVC"
 msgstr "Ð®ÐœÐžÐŽÐ°ÐŽ ÐŽÐµ Ð<92>Ð°Ð»ÐŸÑ<80> Ð<9a>ÐŸÐœÑ<81>Ñ<82>Ð°ÐœÑ<82> UVC"
 
 #. currency_name for ESA
@@ -953,6 +986,10 @@ msgstr ""
 msgid "Guinea Escudo"
 msgstr "Ð<93>Ñ<83>ÐžÐœÐµÐ° Ð€Ñ<80>Ð°ÐœÐº"
 
+#. currency_name for GWP
+msgid "Guinea-Bissau Peso"
+msgstr "Ð<93>Ñ<83>ÐžÐœÐµÐ°-Ð<91>ÐžÑ<81>Ñ<81>Ð°Ñ<83> Ð<9f>ÐžÑ<81>ÐŸ"
+
 #. currency_name for HRD
 #, fuzzy
 msgid "Croatian Dinar"
@@ -984,8 +1021,9 @@ msgid "Italian Lira"
 msgstr "Ð<98>Ñ<80>Ð°Ðœ Ð ÐžÐ°Ð»"
 
 #. currency_name for LAJ
-msgid "Lao Pot Pol"
-msgstr ""
+#, fuzzy
+msgid "Lao kip"
+msgstr "Ð<9b>Ð°ÐŸ Ð<9a>ÐžÐ¿"
 
 #. currency_name for LSM
 #, fuzzy
@@ -1039,6 +1077,10 @@ msgstr "Ð<9c>Ð°Ð»ÐŽÐžÐ² Ð ÐžÑ<84>ÐžÑ<8f>Ð°"
 msgid "Mozambique Escudo"
 msgstr "Ð<9c>ÐŸÐ·Ð°ÐŒÐ±ÐžÐº Ð<9c>ÐµÑ<82>ÐžÐºÐ°Ð»"
 
+#. currency_name for MZM
+msgid "Mozambique Metical"
+msgstr "Ð<9c>ÐŸÐ·Ð°ÐŒÐ±ÐžÐº Ð<9c>ÐµÑ<82>ÐžÐºÐ°Ð»"
+
 #. currency_name for NIC
 #, fuzzy
 msgid "Nicaraguan Cordoba"
@@ -1059,6 +1101,10 @@ msgstr "Ð<9f>ÐµÑ<80>Ñ<83> Ð<9d>Ñ<83>Ñ<8d>Ð²ÐŸ Ð¡ÐŸÐ»"
 msgid "Peruvian Inti"
 msgstr ""
 
+#. currency_name for PLZ
+msgid "Polish Złoty"
+msgstr "Ð<9f>ÐŸÐ»Ñ<8c>Ñ<88> Ð<97>ÐŸÐ»ÐŸÑ<82>"
+
 #. currency_name for PTE
 #, fuzzy
 msgid "Portuguese Escudo"
@@ -1074,10 +1120,18 @@ msgstr "Ð<91>Ð°Ñ<85>Ð°ÐŒÐ°Ð¹ Ð<94>ÐŸÐ»Ð»Ð°Ñ<80>"
 msgid "Romanian Leu A/52"
 msgstr "Ð Ñ<83>ÐŒÑ<8b>Ðœ Ð<9b>ÐµÑ<83>"
 
-#. currency_name for SDP
+#. currency_name for ROL
 #, fuzzy
-msgid "Sudanese Pound"
-msgstr "Ð<9b>ÐžÐ±Ð°ÐœÑ<8b> Ð€Ñ<83>ÐœÑ<82>"
+msgid "Romanian Old Leu"
+msgstr "Ð Ñ<83>ÐŒÑ<8b>Ðœ Ð<9b>ÐµÑ<83>"
+
+#. currency_name for RUR
+msgid "Russian Rouble"
+msgstr "Ð<9e>Ñ<80>ÐŸÑ<81> Ð Ñ<83>Ð±Ð»Ñ<8c>"
+
+#. currency_name for SIT
+msgid "Slovenian Tolar"
+msgstr "Ð¡Ð»ÐŸÐ²ÐµÐœ Ð¢ÐŸÐ»Ð°Ñ<80>"
 
 #. currency_name for SRG
 msgid "Suriname Guilder"
@@ -1087,6 +1141,10 @@ msgstr "Ð¡Ñ<83>Ñ<80>ÐžÐœÐ°ÐŒ Ð<93>Ò¯Ð¹Ð»ÐŽÑ<8d>Ñ<80>"
 #, fuzzy
 msgid "USSR Rouble"
 msgstr "Ð<9e>Ñ<80>ÐŸÑ<81> Ð Ñ<83>Ð±Ð»Ñ<8c>"
+
+#. currency_name for SVC
+msgid "El Salvador Colon"
+msgstr "Ð­Ð» Ð¡Ð°Ð»Ð²Ð°ÐŽÐŸÑ<80> Ð<9a>ÐŸÐ»ÐŸÐœ"
 
 #. currency_name for TJR
 #, fuzzy
@@ -1160,3 +1218,86 @@ msgstr ""
 #. currency_name for ZRZ
 msgid "Zaire"
 msgstr ""
+
+#~ msgid "Albanian Lek"
+#~ msgstr "Ð<90>Ð»Ð±Ð°ÐœÐž Ð<9b>ÐµÐº"
+
+#~ msgid "Botswana Pula"
+#~ msgstr "Ð<91>ÐŸÑ<82>Ñ<81>Ð²Ð°ÐœÐ° Ð<9f>Ñ<83>Ð»Ð°"
+
+#, fuzzy
+#~ msgid "Estonian Kroon"
+#~ msgstr "Ð­Ñ<81>Ñ<82>ÐŸÐœÐž Ð<9a>Ñ<80>ÐŸÐŸÐœ"
+
+#~ msgid "Eritrean Nakfa"
+#~ msgstr "Ð­Ñ<80>ÐžÑ<82>Ñ<80>Ð° Ð<9d>Ð°ÐºÑ<84>Ð°"
+
+#~ msgid "Georgian Lari"
+#~ msgstr "Ð<93>ÐµÐŸÑ<80>Ð³Ðž Ð<9b>Ð°Ñ<80>Ðž"
+
+#~ msgid "Ghanaian Cedi"
+#~ msgstr "Ð<93>Ð°ÐœÐ° ÐŠÐµÐŽÐž"
+
+#~ msgid "Guatemalan Quetzal"
+#~ msgstr "Ð<93>Ñ<83>Ð°Ñ<82>ÐµÐŒÐ°Ð»Ð°Ðœ Ð<9a>Ð²ÐµÑ<82>Ð·Ð°Ð»"
+
+#~ msgid "Hungarian Forint"
+#~ msgstr "Ð£ÐœÐ³Ð°Ñ<80> Ð€ÐŸÑ<80>ÐžÐœÑ<82>"
+
+#~ msgid "Indonesian Rupiah"
+#~ msgstr "Ð<98>ÐœÐŽÐŸÐœÐµÐ· Ð Ñ<83>Ð¿ÐžÐ°"
+
+#~ msgid "Kyrgyzstan Som"
+#~ msgstr "Ð<9a>ÐžÑ<80>Ð³ÐžÐ· Ð¡ÐŸÐŒ"
+
+#~ msgid "Cambodian Riel"
+#~ msgstr "Ð<9a>Ð°ÐŒÐ±Ñ<83>Ñ<87> Ð ÐžÐµÐ»"
+
+#~ msgid "Kazakhstan Tenge"
+#~ msgstr "Ð<9a>Ð°Ð·Ð°Ðº Ð¢Ñ<8d>ÐœÐ³Ñ<8d>"
+
+#~ msgid "Lesotho Loti"
+#~ msgstr "Ð<9b>ÐµÑ<81>ÐŸÑ<82>ÐŸ Ð<9b>ÐŸÑ<82>Ðž"
+
+#~ msgid "Macedonian Denar"
+#~ msgstr "Ð<9c>Ð°ÐºÐžÐŽÐŸÐœ Ð<94>ÐµÐœÐ°Ñ<80>"
+
+#~ msgid "Myanmar Kyat"
+#~ msgstr "Ð<9c>Ñ<8f>ÐœÐŒÐ°Ñ<80> Ð<9a>Ñ<83>Ð°Ñ<82>"
+
+#~ msgid "Mongolian Tugrik"
+#~ msgstr "Ð<9c>ÐŸÐœÐ³ÐŸÐ» Ð¢Ó©Ð³Ñ<80>Ó©Ð³"
+
+#~ msgid "Mauritanian Ouguiya"
+#~ msgstr "Ð<9c>Ð°Ð²Ñ<80>ÐžÑ<82>Ð°Ðœ Ð<9e>Ñ<83>Ð³Ñ<83>ÐžÑ<8f>"
+
+#~ msgid "Nigerian Naira"
+#~ msgstr "Ð<9d>ÐžÐ³ÐµÑ<80> Ð<9d>Ð°Ð¹Ñ<80>Ð°"
+
+#~ msgid "Panamanian Balboa"
+#~ msgstr "Ð<9f>Ð°ÐœÐ°ÐŒ Ð<91>Ð°Ð»Ð±ÐŸÐ°"
+
+#~ msgid "Papua New Guinea Kina"
+#~ msgstr "Ð<9f>Ð°Ð¿Ñ<83>Ð° ÐšÐžÐœÑ<8d> Ð<93>Ñ<83>ÐžÐœÐµÐ° Ð<9a>ÐžÐœÐ°"
+
+#~ msgid "Paraguay Guarani"
+#~ msgstr "Ð<9f>Ñ<80>Ð°Ð³Ð²Ð°Ð¹ Ð<93>Ñ<83>Ð°Ñ<80>Ð°ÐœÐž"
+
+#~ msgid "Sudanese Dinar"
+#~ msgstr "Ð¡Ñ<83>ÐŽÐ°Ðœ Ð<94>ÐžÐœÐ°Ñ<80>"
+
+#, fuzzy
+#~ msgid "São Tome and Principe Dobra"
+#~ msgstr "Ð¡Ð°ÐŸ Ð¢ÐŸÐŒÑ<8d> Ð±Ð° Ð<9f>Ñ<80>ÐžÐœÑ<86>ÐžÐ¿ Ð<94>ÐŸÐ±Ñ<80>Ð°"
+
+#~ msgid "Turkmenistan Manat"
+#~ msgstr "Ð¢Ñ<83>Ñ<80>ÐºÐŒÐµÐœÑ<81>Ñ<82>Ð°Ðœ Ð<9c>Ð°ÐœÐ°Ñ<82>"
+
+#~ msgid "Ukrainian Hryvnia"
+#~ msgstr "Ð£ÐºÑ<80>Ð°Ð¹Ðœ Ð¥Ñ<80>ÐžÐ²ÐœÐžÐ°"
+
+#~ msgid "Viet Nam Dong"
+#~ msgstr "Ð<92>ÐžÑ<82>Ñ<8c>ÐœÐ°ÐŒ Ð<94>ÐŸÐœÐ³"
+
+#~ msgid "Vanuatu Vatu"
+#~ msgstr "Ð<92>Ð°ÐœÑ<83>Ð°Ñ<82>Ñ<83> Ð<92>Ð°Ñ<82>Ñ<83>"
