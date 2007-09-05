@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: iso_639 0.55\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2007-04-21 11:16+0200\n"
+"POT-Creation-Date: 2007-09-05 18:54+0800\n"
 "PO-Revision-Date: 2007-08-27 22:20+0900\n"
 "Last-Translator: IIDA Yosiaki <iida@gnu.org>\n"
 "Language-Team: Japanese <translation-team-ja@lists.sourceforge.net>\n"
@@ -147,10 +147,9 @@ msgstr "アパッチ語族"
 msgid "Arabic"
 msgstr "アラビア語"
 
-# 国国
 #. name for arc
-msgid "Aramaic"
-msgstr "アラム語"
+msgid "Official Aramaic (700-300 BCE); Imperial Aramaic (700-300 BCE)"
+msgstr ""
 
 #. name for arg, an
 msgid "Aragonese"
@@ -1655,10 +1654,14 @@ msgstr "Mi'kmaq; ミクマク語"
 msgid "Minangkabau"
 msgstr "ミナンカバウ語"
 
-# 国国
+# 国国は「Munda (Other) ムンダ諸語」
+# ISO, Ethnologueは「Munda languages」
+# インド
+# ムンダー〜とも
 #. name for mis
-msgid "Miscellaneous languages"
-msgstr "その他の言語"
+#, fuzzy
+msgid "Uncoded languages"
+msgstr "ザンデ語族"
 
 # 南アジア
 # ニッポニカ「モン・クメール諸言語」の項
@@ -2851,6 +2854,10 @@ msgstr "ユピック語族"
 msgid "Zapotec"
 msgstr "ザポテック語"
 
+#. name for zbl
+msgid "Blissymbols; Blissymbolics; Bliss"
+msgstr ""
+
 # 鳥海訳
 # モーリタニア
 #. name for zen
@@ -2892,3 +2899,11 @@ msgstr "言語的内容なし"
 #. name for zza
 msgid "Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki"
 msgstr "ザザ語; ディミリ語; Dimli; Kirdki; Kirmanjki; Zazaki"
+
+# 国国
+#~ msgid "Aramaic"
+#~ msgstr "アラム語"
+
+# 国国
+#~ msgid "Miscellaneous languages"
+#~ msgstr "その他の言語"
