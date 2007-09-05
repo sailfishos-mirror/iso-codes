@@ -35,6 +35,9 @@ iso-codes (1.5-1) UNRELEASED; urgency=low
       accented named for India, Iran, Nicaragua, Turkey
     - Checked the list with modifications from the ISO-3166 MA newsletter
       I-1: no change
+    - Spelling error for JP-07 name (Closes: #440601)
+    - Other subdivisions of Belgium. (Closes: #440578)
+    - Spelling error for NL-DR name (Closes: #440840)
 
   * ISO-3166:
     - Add the alpha-2 codes for countries part of ISO-3166_3 (former
@@ -44,11 +47,11 @@ iso-codes (1.5-1) UNRELEASED; urgency=low
     - Updated from Wikipedia data (not removing what we had and
       Wikipedia hadn't): http://en.wikipedia.org/wiki/ISO_4217
 
-  [ LI Daobing ]
-  * Spelling error for JP-07 name (Closes: #440601)
-  * Other subdivisions of Belgium. (Closes: #440578)
-  * Spelling error for NL-DR name (Closes: #440840)
-  * [INTL:th] iso_3166 Thai translation (Closes: #440297)
+  [ ISO-3166 translations ]
+  * Thai translation (Closes: #440297)
+
+  [ ISO-639 translations ]
+  * French translation
 
  -- LI Daobing <lidaobing@gmail.com>  Wed,  5 Sep 2007 20:11:23 +0800
 
