@@ -1,5 +1,6 @@
 iso-codes (1.5-1) UNRELEASED; urgency=low
 
+  [ Christian Perrier ]
   * ISO-3166-2:
     - Correct typos in UY-AR and CU-HO. Thanks to Pablo
       Saratxaga
@@ -34,7 +35,7 @@ iso-codes (1.5-1) UNRELEASED; urgency=low
       accented named for India, Iran, Nicaragua, Turkey
     - Checked the list with modifications from the ISO-3166 MA newsletter
       I-1: no change
-  
+
   * ISO-3166:
     - Add the alpha-2 codes for countries part of ISO-3166_3 (former
       countries codes): TP, FX, YU, SC
@@ -43,7 +44,10 @@ iso-codes (1.5-1) UNRELEASED; urgency=low
     - Updated from Wikipedia data (not removing what we had and
       Wikipedia hadn't): http://en.wikipedia.org/wiki/ISO_4217
 
- -- Christian Perrier <bubulle@debian.org>  Wed, 29 Aug 2007 20:48:41 +0200
+  [ LI Daobing ]
+  * Spelling error for JP-07 name (Closes: #440601)
+
+ -- LI Daobing <lidaobing@gmail.com>  Wed,  5 Sep 2007 19:57:12 +0800
 
 iso-codes (1.4-1) unstable; urgency=low
 
