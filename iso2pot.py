@@ -3,6 +3,7 @@
 # Read iso-codes data file and output a .pot file
 # 
 # Copyright (C) 2004,2005 Alastair McKinstry <mckinstry@debian.org>
+# Copyright (C) 2006,2007 Tobias Toedter <t.toedter@gmx.net>
 # Released under the GPL.
 # $Id$
 
@@ -119,6 +120,8 @@ elif iso_number == '3166-2':
 	iso_desc = 'country subdivision names'
 elif iso_number == '4217':
 	iso_desc = 'currency names'
+elif iso_number == '15924':
+	iso_desc = 'script names'
 else:
 	iso_desc = ''
 

@@ -1,4 +1,4 @@
-SUBDIRS = iso_639 iso_3166 iso_4217 notes
+SUBDIRS = iso_15924 iso_3166 iso_4217 iso_639 notes
 
 pkgconfigdir = $(datadir)/pkgconfig
 pkgconfig_DATA = iso-codes.pc
