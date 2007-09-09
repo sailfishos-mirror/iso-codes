@@ -1,6 +1,6 @@
-This package aims to provide the list of the country and language
-(and currency) names in one place, rather than repeated in many
-programs throughout Debian.
+This package aims to provide the list of the country, language,
+language scripts and currency names in one place, rather than repeated
+in many programs throughout the system.
 
 Currently there are lists of languages and countries embedded in:
 
@@ -15,7 +15,7 @@ This leads to about a dozen lists of 200 languages, translated
 into >30 languages ... not very efficient. The aim of this patch
 is to create a single "gettext" domain "iso-639" which contains
 the translations of language names, and one "iso-3166" listing
-the translations of Country  names.
+the translations of country  names.
 
 So the plan is then to be able to use
 	dgettext("iso-639", language_name)
@@ -26,6 +26,7 @@ The files
 /usr/share/xml/iso-codes/iso_639_3.xml
 /usr/share/xml/iso-codes/iso_4217.xml
 /usr/share/xml/iso-codes/iso_3166.xml
+/usr/share/xml/iso-codes/iso_15924.xml
 /usr/share/xml/iso-codes/iso_3166_2.tab
 
 store the files in simple XML format.
@@ -35,20 +36,33 @@ The files
 ISO-3166
 --------
 
-This lists the 2-letter country code and "short" country name.
+This lists the 2-letter country code and "short" country name. The
+official IS0-3166 maintenance agency is ISO:
+http://www.iso.org/iso/country_codes
 
 ISO-639
 -------
-This lists the 2-letter and 3-letter language codes and language names
-
+This lists the 2-letter and 3-letter language codes and language
+names. The official IS0-639 maintenance agency is the Library of
+Congress: http://www.loc.gov/standards/iso639-2/
 
 ISO-639-3
 ---------
-This is a DRAFT extension to the ISO-639 standard.
+This is a DRAFT extension to the ISO-639 standard. The proponent is
+SIL International: http://www.sil.org/iso639-3/
 
 ISO_4217
 --------
-This lists the currency codes and names
+This lists the currency codes and names. The official IS0-4217
+maintenance agency is the British Standards Institution:
+http://www.bsi-global.com/en/Standards-and-Publications/Industry-Sectors/Services/BSI-Currency-Code-Service/
+
+
+ISO_15924
+--------
+This lists the language scripts names. The official IS0-15924
+maintenance agency is the Unicode Consortium:
+http://unicode.org/iso15924/
 
 
 ISO 3166_2
@@ -76,7 +90,7 @@ $ pkg-config --variable=prefix iso-codes
 
 You can detect which sets of translation (domain) files have been installed using
 $ pkg-config --variable=domains iso-codes
-iso-639 iso-3166 iso-4217 iso-3166-1 iso-3166-2 iso-3166-3
+iso-639 iso-3166 iso-4217 iso-3166-1 iso-3166-2 iso-3166-3 iso-15924
 
 
 
@@ -85,5 +99,6 @@ iso-639 iso-3166 iso-4217 iso-3166-1 iso-3166-2 iso-3166-3
 
 --
 Alastair McKinstry, <mckinstry@debian.org>, 2003-12-24
+Christian Perrier, <bubulle@debian.org>, 2007-09-09
      
      
