@@ -8,10 +8,11 @@ Standards-Version: 3.7.2
 
 Package: iso-codes
 Architecture: all
-Description: ISO language, territory, currency codes and their translations
- This package provides the ISO-639 Language code list, the 
- ISO-4217 currency list, the ISO-3166 Territory code list, 
- and ISO-3166-2 sub-territory lists.
+Description: ISO language, territory, currency, script codes and their translations
+ This package provides the ISO 639 language code list, the
+ ISO 4217 currency code list, the ISO 3166 territory code list,
+ the ISO 3166-2 sub-territory list, and the ISO 15924 script code
+ list.
  .
  It also (more importantly) provides their translations in .po form.
 
