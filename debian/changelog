@@ -47,6 +47,10 @@ iso-codes (1.5-1) UNRELEASED; urgency=low
     - Updated from Wikipedia data (not removing what we had and
       Wikipedia hadn't): http://en.wikipedia.org/wiki/ISO_4217
 
+  [ ISO-3166-2 ]
+    - Fix spelling errors in Estonian county names, thanks to
+      Erkki Eilonen. Closes: #444260
+
   [ ISO-3166 translations ]
   * Thai translation (Closes: #440297)
   * Portuguese (pt) updated by Miguel Figueiredo. Closes: #441329
@@ -69,9 +73,9 @@ iso-codes (1.5-1) UNRELEASED; urgency=low
   * Polish (pl) updated by Andrzej M. Krzysztofowicz via TP
 
   [ Tobias Toedter ]
-  * Update Debian package description 
+  * Update Debian package description
 
- -- Tobias Toedter <t.toedter@gmx.net>  Mon, 10 Sep 2007 17:59:12 +0200
+ -- Tobias Toedter <t.toedter@gmx.net>  Tue,  2 Oct 2007 18:13:39 +0200
 
 iso-codes (1.4-1) unstable; urgency=low
 
