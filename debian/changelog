@@ -50,6 +50,8 @@ iso-codes (1.5-1) UNRELEASED; urgency=low
   [ ISO-3166-2 ]
     - Fix spelling errors in Estonian county names, thanks to
       Erkki Eilonen. Closes: #444260
+    - Fix capitalisation in attribute name, thanks to Erkki Eilonen.
+      Closes: #445040
 
   [ ISO-3166 translations ]
   * Thai translation (Closes: #440297)
@@ -75,7 +77,7 @@ iso-codes (1.5-1) UNRELEASED; urgency=low
   [ Tobias Toedter ]
   * Update Debian package description
 
- -- Tobias Toedter <t.toedter@gmx.net>  Tue,  2 Oct 2007 18:13:39 +0200
+ -- Tobias Toedter <t.toedter@gmx.net>  Wed,  3 Oct 2007 14:25:06 +0200
 
 iso-codes (1.4-1) unstable; urgency=low
 
