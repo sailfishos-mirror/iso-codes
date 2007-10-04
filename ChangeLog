@@ -2,6 +2,12 @@ iso-codes trunk
 ---------------
 UNRELEASED
 
+
+iso-codes 1.5
+-------------
+Tobias Toedter <t.toedter@gmx.net>
+Thu,  4 October 2007
+
   [ General ]
     - Add information about contact addresses to README, so that
       translations and bug reports will be easier to get
@@ -58,10 +64,51 @@ UNRELEASED
     - Chinese (Hong Kong) (zh_HK) added by Tobias Toedter from ICU
     - Traditional Chinese (zh_TW) added by Tobias Toedter from ICU
 
-  [ ISO-639 ]
-    - update to 2007-08-08
+  [ ISO-3166-2 ]
+    - Correct typos in UY-AR and CU-HO. Thanks to Pablo
+      Saratxaga
+    - Correct typo in VN-65. Thanks to Clytie Siddall
+    - Complete the list with modifications from the ISO-3166 MA
+      newsletter I-8 of 2007-04-17 (partial)
+    - Correct the list with modifications from the ISO-3166 MA
+      newsletter I-7: correct names for Russia and accented names
+      for Slovenia
+    - Correct the list with modifications from the ISO-3166 MA newsletter
+      I-6: split Australia in territories and provinces, remove Australian
+      Antarctic Territory, Split China subdivisions, Split Colombia
+      subdivisions, add economic regions for Morocco
+    - Correct the list with modifications from the ISO-3166 MA newsletter
+      I-5: use correct accented names for Lybia subdivisions, add
+      geographical regions for Uganda, use accented names for states
+      of Venezuela
+    - Correct the list with modifications from the ISO-3166 MA newsletter
+      I-4 (except some accentuation as the newsletter is not UTF-8 encoded):
+      split Spain entities (and name the autonomous communities properly),
+      split Ethiopia, Add Georgia's entities, split India, split
+      Kirghizistan, split Cambodia, split North Korea, split Lao,
+      split Moldova and corrected accentuation, split Tadjikistan,
+      add Timor-Leste, split Uzbekistan
+    - Checked the list with modifications from the ISO-3166 MA newsletter
+      I-3
+    - Checked the list with modifications from the ISO-3166 MA newsletter
+      I-2: accented names for Abu Dhabi, accented names fur Bulgaria,
+      add divisions for Bangladesh, accented names for Benin, Congo, Capverde,
+      complete list for France, first-level divisions of UK, accented names
+      for Guinea, Guatemala, Croatia, add geographical units for Indonesia,
+      accented named for India, Iran, Nicaragua, Turkey
+    - Checked the list with modifications from the ISO-3166 MA newsletter
+      I-1: no change
+    - Spelling error for JP-07 name (Closes: #440601)
+    - Other subdivisions of Belgium. (Closes: #440578)
+    - Spelling error for NL-DR name (Closes: #440840)
+
+  [ ISO-3166 ]
+    - Add the alpha-2 codes for countries part of ISO-3166_3 (former
+      countries codes): TP, FX, YU, SC
 
   [ ISO-4217 ]
+    - Updated from Wikipedia data (not removing what we had and
+      Wikipedia hadn't): http://en.wikipedia.org/wiki/ISO_4217
     - Add withdrawal date to historic ISO 4217 entries, as this is
       required for the XML file to be valid
 
@@ -71,25 +118,42 @@ UNRELEASED
     - Fix capitalisation in attribute name, thanks to Erkki Eilonen.
       Closes: #445040
 
-  [ ISO-639 translations ]
-    - Wallon (wa) updated by Pablo Saratxaga via TP
-    - Simplified Chinese (zh_CN) updated by LI Daobing via TP
-    - Chinese (Hong Kong) (zh_HK) updated by Abel Cheung via TP
+  [ ISO-639 ]
+    - update to 2007-08-08
 
   [ ISO-3166 translations ]
-    - Russian (ru) updated by Yuri Kozlov
-    - Simplified Chinese (zh_CN) updated by LI Daobing via TP
-    - Walloon (wa) updated by Pablo Saratxaga via TP
-    - Dutch (nl) updated by Freek de Kruijf via TP
-    - Esperanto (eo) updated by Edmund GRIMLEY EVANS via TP
-    - Thai (th) updated by Theppitak Karoonboonyanan
-    - Portuguese (pt) updated by Miguel Figueiredo. Closes: #441329
+  * Thai translation (Closes: #440297)
+  * Portuguese (pt) updated by Miguel Figueiredo. Closes: #441329
+  * Dutch (nl) updated by Freek de Kruijf via TP
+  * Swedish (sv) updated by Daniel Nylander via TP
+  * Hungarian (hu) updated by Gabor Kelemen via TP
+  * Polish (pl) updated by Andrzej M. Krzysztofowicz via TP
+  * Russian (ru) updated by Yuri Kozlov
+  * Simplified Chinese (zh_CN) updated by LI Daobing via TP
+  * Walloon (wa) updated by Pablo Saratxaga via TP
+  * Esperanto (eo) updated by Edmund GRIMLEY EVANS via TP
+  * Thai (th) updated by Theppitak Karoonboonyanan
 
+  [ ISO-639 translations ]
+  * French translation
+  * Dutch (nl) updated by Freek de Kruijf via TP
+  * Hungarian (hu) updated by Gabor Kelemen via TP
+  * Russian (ru) updated by Yuri Kozlov (thanks to Alexander Sigachov)
+  * Polish (pl) updated by Andrzej M. Krzysztofowicz via TP
+
+  [ ISO-4217 translations ]
+  * Hungarian (hu) updated by Gabor Kelemen via TP
+  * Chinese (Hong-Kong) (zh_HK) added by Abel Cheung via TP
+  * Russian (ru) updated by Alexander Sigachov
+  * Polish (pl) updated by Andrzej M. Krzysztofowicz via TP
+  * Wallon (wa) updated by Pablo Saratxaga via TP
+  * Simplified Chinese (zh_CN) updated by LI Daobing via TP
+  
   [ ISO-3166-2 translations ]
-    - Dutch (nl) updated by Freek de Kruijf via TP
-    - Simplified Chinese (zh_CN) updated by LI Daobing via TP
-    - Vietnamese (vi) updated by Clytie Siddall via TP
-    - Wallon (wa) updated by Pablo Saratxaga via TP
+  * Dutch (nl) updated by Freek de Kruijf via TP
+  * Simplified Chinese (zh_CN) updated by LI Daobing via TP
+  * Vietnamese (vi) updated by Clytie Siddall via TP
+  * Wallon (wa) updated by Pablo Saratxaga via TP
 
 
 iso-codes 1.4
