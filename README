@@ -78,7 +78,37 @@ etc. within a country. As these also list the provinces, Counties,
 etc. within a country, they could also be used to provide a
 drop-down list when someone is entering addresses...
 
----------------------------------------------------------------------
+
+--------------------------------------
+REPORTING BUGS AND ADDING TRANSLATIONS
+--------------------------------------
+
+If you find a bug in iso-codes or would like to add or update a
+translation, there are several ways to contact us. Please note
+that you can send your translations to any of the following
+contact addresses, while bug reports should go to any of the
+first three addresses.
+
+* Alioth Bug Tracking System
+  <https://alioth.debian.org/tracker/?atid=413077&group_id=30316>
+  This system can be accessed via webbrowser.
+
+* Debian Bug Tracking System
+  <http://bugs.debian.org/>
+  This system can be accessed via e-mail.
+
+* Development mailing list
+  <mailto:pkg-isocodes-devel@lists.alioth.debian.org>
+  You can subscribe or unsubscribe at this webpage:
+  <http://lists.alioth.debian.org/mailman/listinfo/pkg-isocodes-devel>
+
+* Translation Project
+  <http://www.translationproject.org/>
+  If you're registered at the TP, you can send your translations
+  directly there, and we'll include them in the next release.
+  
+
+--------------------------
 DEVELOPING USING PKGCONFIG
 --------------------------
 
@@ -100,5 +130,4 @@ iso-639 iso-3166 iso-4217 iso-3166-1 iso-3166-2 iso-3166-3 iso-15924
 --
 Alastair McKinstry, <mckinstry@debian.org>, 2003-12-24
 Christian Perrier, <bubulle@debian.org>, 2007-09-09
-     
-     
+Tobias Toedter, <t.toedter@gmx.net>, 2007-10-04
