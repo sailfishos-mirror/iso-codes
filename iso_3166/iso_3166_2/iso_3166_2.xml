@@ -1929,10 +1929,6 @@
 </iso_3166_country>
 	<!-- Djibouti -->
 <iso_3166_country code="DJ">
-<iso_3166_subset type="City">   
-	<iso_3166_2_entry
-		code="DJ-DJ"	name="Djibouti" />
-</iso_3166_subset>   
 <iso_3166_subset type="Region">   
 	<iso_3166_2_entry
 		code="DJ-AS"	name="Ali Sabieh" />
@@ -1944,6 +1940,10 @@
 		code="DJ-OB"	name="Obock" />
 	<iso_3166_2_entry
 		code="DJ-TA"	name="Tadjourah" />
+</iso_3166_subset>   
+<iso_3166_subset type="City">   
+	<iso_3166_2_entry
+		code="DJ-DJ"	name="Djibouti" />
 </iso_3166_subset>   
 </iso_3166_country>
 	<!-- Denmark -->
@@ -4002,6 +4002,26 @@
 </iso_3166_country>
 	<!-- Indonesia -->
 <iso_3166_country code="ID">
+<iso_3166_subset type="Geographical unit">
+	<iso_3166_2_entry
+		code="IJ"	name="Papua" />
+	<iso_3166_2_entry
+		code="JW"	name="Jawa" />
+	<iso_3166_2_entry
+		code="KA"	name="Kalimantan" />
+	<iso_3166_2_entry
+		code="MA"	name="Maluku" />
+	<iso_3166_2_entry
+		code="NU"	name="Nusa Tenggara" />
+	<iso_3166_2_entry
+		code="SL"	name="Sulawesi" />
+	<iso_3166_2_entry
+		code="SM"	name="Sumatera" />
+</iso_3166_subset>
+<iso_3166_subset type="Autonomous Province">
+	<iso_3166_2_entry
+		code="ID-AC"	name="Aceh" />
+</iso_3166_subset>
 <iso_3166_subset type="Province">
 	<iso_3166_2_entry
 		code="ID-BA"	name="Bali" />
@@ -4013,8 +4033,6 @@
 		code="ID-BE"	name="Bengkulu" />
 	<iso_3166_2_entry
 		code="ID-GO"	name="Gorontalo" />
-	<iso_3166_2_entry
-		code="ID-IJ"	name="Irian Jaya" />
 	<iso_3166_2_entry
 		code="ID-JA"	name="Jambi" />
 	<iso_3166_2_entry
@@ -4063,34 +4081,14 @@
 		code="ID-SS"	name="Sumatra Selatan" />
 	<iso_3166_2_entry
 		code="ID-SU"	name="Sumatera Utara" />
-	</iso_3166_subset>
-	<iso_3166_subset type="Special District">
+</iso_3166_subset>
+<iso_3166_subset type="Special District">
 	<iso_3166_2_entry
 		code="ID-JK"	name="Jakarta Raya" />
-</iso_3166_subset>
-<iso_3166_subset type="Autonomous Province">
-	<iso_3166_2_entry
-		code="ID-AC"	name="Aceh" />
 </iso_3166_subset>
 <iso_3166_subset type="Special Region">
 	<iso_3166_2_entry
 		code="ID-YO"	name="Yogyakarta" />
-</iso_3166_subset>
-<iso_3166_subset type="Geographical unit">
-	<iso_3166_2_entry
-		code="IJ"	name="Irian Jaya" />
-	<iso_3166_2_entry
-		code="JW"	name="Jawa" />
-	<iso_3166_2_entry
-		code="KA"	name="Kalimantan" />
-	<iso_3166_2_entry
-		code="MA"	name="Maluku" />
-	<iso_3166_2_entry
-		code="NU"	name="Nusa Tenggara" />
-	<iso_3166_2_entry
-		code="SL"	name="Sulawesi" />
-	<iso_3166_2_entry
-		code="SM"	name="Sumatera" />
 </iso_3166_subset>
 </iso_3166_country>
 	<!-- Ireland -->
