@@ -3447,11 +3447,13 @@
 	<iso_3166_2_entry
 		code="GM-L"	name="Lower River" />
 	<iso_3166_2_entry
-		code="GM-M"	name="MacCarthy Island" />
+		code="GM-M"	name="Central River" />
 	<iso_3166_2_entry
 		code="GM-N"	name="North Bank" />
 	<iso_3166_2_entry
 		code="GM-U"	name="Upper River" />
+	<iso_3166_2_entry
+		code="GM-W"	name="Western" />
 </iso_3166_country>
 	<!-- Guinea -->
 <iso_3166_country code="GN">
@@ -3567,148 +3569,151 @@
 </iso_3166_country>
 	<!-- Greece -->
 <iso_3166_country code="GR">
-<iso_3166_subset type="Region">   
+	<!-- Many variants and transliteration schemes coexist -->
+	<!-- Using the UN/ELOT transiteration -->
+	<!-- Names mostly as in http://www.enae.gr/nomarxies_list.asp -->
+<iso_3166_subset type="Region">
 	<iso_3166_2_entry
-		code="GR-I"	name="Anatolikí Makedonía kai Thráki" />
+		code="GR-I"	name="Periféreia Anatolikís Makedonías kai Thrákis" />
 	<iso_3166_2_entry
-		code="GR-II"	name="Kentrikí Makedonía" />
+		code="GR-II"	name="Periféreia Kentrikís Makedonías" />
 	<iso_3166_2_entry
-		code="GR-III"	name="Dytikí Makedonía" />
+		code="GR-III"	name="Periféreia Dytikís Makedonías" />
 	<iso_3166_2_entry
-		code="GR-IV"	name="Ípeiros" />
+		code="GR-IV"	name="Periféreia Ipeírou" />
 	<iso_3166_2_entry
-		code="GR-V"	name="Thessalía" />
+		code="GR-V"	name="Periféreia Thessalías" />
 	<iso_3166_2_entry
-		code="GR-VI"	name="Iónioi Nísoi" />
+		code="GR-VI"	name="Periféreia Ioníon Níson" />
 	<iso_3166_2_entry
-		code="GR-VII"	name="Dytikí Elláda" />
+		code="GR-VII"	name="Periféreia Dytikís Elládas" />
 	<iso_3166_2_entry
-		code="GR-VIII"	name="Stereá Elláda" />
+		code="GR-VIII"	name="Periféreia Stereás Elládas" />
 	<iso_3166_2_entry
-	  code="GR-IX"	name="Attikí" />
+		code="GR-IX"	name="Periféreia Attikís" />
 	<iso_3166_2_entry
-		code="GR-X"	name="Pelopónnisos" />
+		code="GR-X"	name="Periféreia Peloponnísou" />
 	<iso_3166_2_entry
-		code="GR-XI"	name="Vóreio Aigaío" />
+		code="GR-XI"	name="Periféreia Voreíou Aigaíou" />
 	<iso_3166_2_entry
-		code="GR-XII"	name="Nótio Aigaío" />
+		code="GR-XII"	name="Periféreia Notíou Aigaíou" />
 	<iso_3166_2_entry
-		code="GR-XIII"	name="Kríti" />
-</iso_3166_subset>   
+		code="GR-XIII"	name="Periféreia Krítis" />
+</iso_3166_subset>
 <iso_3166_subset type="Autonomous monastic state">
 	<iso_3166_2_entry
 		code="GR-69"	name="Ágion Óros" />
 </iso_3166_subset>
-<iso_3166_subset type="Prefecture">   
+<iso_3166_subset type="Prefecture">
 	<iso_3166_2_entry
-		code="GR-A1"	name="Athína" />
+		code="GR-A1"	name="Nomós Athinón" />
 	<iso_3166_2_entry
-		code="GR-A2"	name="Anatolikí Attikí" />
+		code="GR-A2"	name="Nomós Anatolikís Attikís" />
 	<iso_3166_2_entry
-		code="GR-A3"	name="Peiraiás" />
+		code="GR-A3"	name="Nomós Peiraiós" />
 	<iso_3166_2_entry
-		code="GR-A4"	name="Dytikí Attikí" />
+		code="GR-A4"	name="Nomós Dytikís Attikís" />
 	<iso_3166_2_entry
-		code="GR-01"	name="Aitoloakarnanía" />
+		code="GR-01"	name="Nomós Aitoloakarnanías" />
 	<iso_3166_2_entry
-		code="GR-03"	name="Boiotía" />
+		code="GR-03"	name="Nomós Voiotías" />
 	<iso_3166_2_entry
-		code="GR-04"	name="Évvoia" />
+		code="GR-04"	name="Nomós Évvoias" />
 	<iso_3166_2_entry
-		code="GR-05"	name="Evrytanía" />
+		code="GR-05"	name="Nomós Evrytanías" />
 	<iso_3166_2_entry
-		code="GR-06"	name="Fthiótida" />
+		code="GR-06"	name="Nomós Fthiótidas" />
 	<iso_3166_2_entry
-		code="GR-07"	name="Fokída" />
+		code="GR-07"	name="Nomós Fokídas" />
 	<iso_3166_2_entry
-		code="GR-11"	name="Argolída" />
+		code="GR-11"	name="Nomós Argolídas" />
 	<iso_3166_2_entry
-		code="GR-12"	name="Arkadía" />
+		code="GR-12"	name="Nomós Arkadías" />
 	<iso_3166_2_entry
-		code="GR-13"	name="Achaḯa" />
+		code="GR-13"	name="Nomós Achaḯas" />
 	<iso_3166_2_entry
-		code="GR-14"	name="Ileía" />
+		code="GR-14"	name="Nomós Ileías" />
 	<iso_3166_2_entry
-		code="GR-15"	name="Korinthía" />
+		code="GR-15"	name="Nomós Korinthías" />
 	<iso_3166_2_entry
-		code="GR-16"	name="Lakonía" />
+		code="GR-16"	name="Nomós Lakonías" />
 	<iso_3166_2_entry
-		code="GR-17"	name="Messinía" />
+		code="GR-17"	name="Nomós Messinías" />
 	<iso_3166_2_entry
-		code="GR-21"	name="Zákynthos" />
+		code="GR-21"	name="Nomós Zakýnthoy" />
 	<iso_3166_2_entry
-		code="GR-22"	name="Kérkyra" />
+		code="GR-22"	name="Nomós Kérkyras" />
 	<iso_3166_2_entry
-		code="GR-23"	name="Kefaloniá kai Itháki" />
+		code="GR-23"	name="Nomós Kefaloniás kai Ithákis" />
 	<iso_3166_2_entry
-		code="GR-24"	name="Lefkáda" />
+		code="GR-24"	name="Nomós Lefkádas" />
 	<iso_3166_2_entry
-		code="GR-31"	name="Árta" />
+		code="GR-31"	name="Nomós Ártas" />
 	<iso_3166_2_entry
-		code="GR-32"	name="Thesprotía" />
+		code="GR-32"	name="Nomós Thesprotías" />
 	<iso_3166_2_entry
-		code="GR-33"	name="Ioánnina" />
+		code="GR-33"	name="Nomós Ioannínon" />
 	<iso_3166_2_entry
-		code="GR-34"	name="Préveza" />
+		code="GR-34"	name="Nomós Prévezas" />
 	<iso_3166_2_entry
-		code="GR-41"	name="Kardítsa" />
+		code="GR-41"	name="Nomós Kardítsas" />
 	<iso_3166_2_entry
-		code="GR-42"	name="Lárissa" />
+		code="GR-42"	name="Nomós Lárissas" />
 	<iso_3166_2_entry
-		code="GR-43"	name="Magnisía" />
+		code="GR-43"	name="Nomós Magnisías" />
 	<iso_3166_2_entry
-		code="GR-44"	name="Tríkala" />
+		code="GR-44"	name="Nomós Trikálon" />
 	<iso_3166_2_entry
-		code="GR-51"	name="Grevená" />
+		code="GR-51"	name="Nomós Grevenón" />
 	<iso_3166_2_entry
-		code="GR-52"	name="Dráma" />
+		code="GR-52"	name="Nomós Drámas" />
 	<iso_3166_2_entry
-		code="GR-53"	name="Imathía" />
+		code="GR-53"	name="Nomós Imathías" />
 	<iso_3166_2_entry
-		code="GR-54"	name="Thessaloníki" />
+		code="GR-54"	name="Nomós Thessaloníkis" />
 	<iso_3166_2_entry
-		code="GR-55"	name="Kavála" />
+		code="GR-55"	name="Nomós Kaválas" />
 	<iso_3166_2_entry
-		code="GR-56"	name="Kastoriá" />
+		code="GR-56"	name="Nomós Kastoriás" />
 	<iso_3166_2_entry
-		code="GR-57"	name="Kilkís" />
+		code="GR-57"	name="Nomós Kilkís" />
 	<iso_3166_2_entry
-		code="GR-58"	name="Kozáni" />
+		code="GR-58"	name="Nomós Kozánis" />
 	<iso_3166_2_entry
-		code="GR-59"	name="Pélla" />
+		code="GR-59"	name="Nomós Péllas" />
 	<iso_3166_2_entry
-		code="GR-61"	name="Piería" />
+		code="GR-61"	name="Nomós Pierías" />
 	<iso_3166_2_entry
-		code="GR-62"	name="Sérres" />
+		code="GR-62"	name="Nomós Sérres" />
 	<iso_3166_2_entry
-		code="GR-63"	name="Flórina" />
+		code="GR-63"	name="Nomós Flórinas" />
 	<iso_3166_2_entry
-		code="GR-64"	name="Chalkidikí" />
+		code="GR-64"	name="Nomós Chalkidikís" />
 	<iso_3166_2_entry
-		code="GR-71"	name="Évros" />
+		code="GR-71"	name="Nomós Évroy" />
 	<iso_3166_2_entry
-		code="GR-72"	name="Xánthi" />
+		code="GR-72"	name="Nomós Xánthis" />
 	<iso_3166_2_entry
-		code="GR-73"	name="Rodópi" />
+		code="GR-73"	name="Nomós Rodópis" />
 	<iso_3166_2_entry
-		code="GR-81"	name="Dodekánisa" />
+		code="GR-81"	name="Nomós Dodekanísoy" />
 	<iso_3166_2_entry
-		code="GR-82"	name="Kykládes" />
+		code="GR-82"	name="Nomós Kykládon" />
 	<iso_3166_2_entry
-		code="GR-83"	name="Lésbos" />
+		code="GR-83"	name="Nomós Lésboy" />
 	<iso_3166_2_entry
-		code="GR-84"	name="Sámos" />
+		code="GR-84"	name="Nomós Sámoy" />
 	<iso_3166_2_entry
-		code="GR-85"	name="Chíos" />
+		code="GR-85"	name="Nomós Chíoy" />
 	<iso_3166_2_entry
-		code="GR-91"	name="Iráklio" />
+		code="GR-91"	name="Nomós Irakleíoy" />
 	<iso_3166_2_entry
-		code="GR-92"	name="Lasíthi" />
+		code="GR-92"	name="Nomós Lasithíoy" />
 	<iso_3166_2_entry
-		code="GR-93"	name="Réthymno" />
+		code="GR-93"	name="Nomós Rethýmnoy" />
 	<iso_3166_2_entry
-		code="GR-94"	name="Chaniá" />
-</iso_3166_subset>   
+		code="GR-94"	name="Nomós Chaníon" />
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Guatemala -->
 <iso_3166_country code="GT">
@@ -3893,6 +3898,8 @@
 </iso_3166_country>
 	<!-- Haiti -->
 <iso_3166_country code="HT">
+	<iso_3166_2 entry
+		code="HT-AR"  name="Artibonite" />
 	<iso_3166_2_entry
 		code="HT-CE"	name="Centre" />
 	<iso_3166_2_entry
@@ -5137,7 +5144,7 @@
 	<iso_3166_2_entry
 		code="LB-NA"	name="Nabatiye" />
 </iso_3166_country>
-	<!-- Syria -->
+	<!-- Sri Lanka -->
 <iso_3166_country code="LK">
 	<iso_3166_2_entry
 		code="LK-52"	name="Ampara" />
@@ -5188,7 +5195,7 @@
 	<iso_3166_2_entry
 		code="LK-53"	name="Trincomalee" />
 	<iso_3166_2_entry
-		code="LK-44"	name="VavunLya" />
+		code="LK-44"	name="Vavuniya" />
 </iso_3166_country>
 	<!-- Liberia -->
 <iso_3166_country code="LR">
@@ -5270,7 +5277,7 @@
 	<iso_3166_2_entry
 		code="LU-D"	name="Diekirch" />
 	<iso_3166_2_entry
-		code="LU-G"	name="GreveNmacher" />
+		code="LU-G"	name="Grevenmacher" />
 	<iso_3166_2_entry
 		code="LU-L"	name="Luxembourg" />
 </iso_3166_country>
@@ -6476,11 +6483,11 @@
 	<iso_3166_2_entry
 		code="NL-FR"	name="Friesland" />
 	<iso_3166_2_entry
-		code="NL-GL"	name="Gelderland" />
+		code="NL-GE"	name="Gelderland" />
 	<iso_3166_2_entry
 		code="NL-GR"	name="Groningen" />
 	<iso_3166_2_entry
-		code="NL-LB"	name="Limburg" />
+		code="NL-LI"	name="Limburg" />
 	<iso_3166_2_entry
 		code="NL-NB"	name="Noord-Brabant" />
 	<iso_3166_2_entry
@@ -6490,9 +6497,9 @@
 	<iso_3166_2_entry
 		code="NL-UT"	name="Utrecht" />
 	<iso_3166_2_entry
-		code="NL-ZH"	name="Zuid-Holland" />
+		code="NL-ZE"	name="Zeeland" />
 	<iso_3166_2_entry
-		code="NL-ZL"	name="Zeeland" />
+		code="NL-ZH"	name="Zuid-Holland" />
 </iso_3166_country>
 	<!-- Norway -->
 <iso_3166_country code="NO">
@@ -6949,13 +6956,13 @@
 	<iso_3166_2_entry
 		code="PK-IS"	name="Islamabad" />
 	<iso_3166_2_entry
-		code="PK-BA"	name="Baluchistan (en)" />
+		code="PK-BA"	name="Balochistan" />
 	<iso_3166_2_entry
 		code="PK-NW"	name="North-West Frontier" />
 	<iso_3166_2_entry
 		code="PK-PB"	name="Punjab" />
 	<iso_3166_2_entry
-		code="PK-SD"	name="Sind (en)" />
+		code="PK-SD"	name="Sindh" />
 	<iso_3166_2_entry
 		code="PK-TA"	name="Federally Administered Tribal Areas" />
 	<iso_3166_2_entry
@@ -8337,7 +8344,7 @@
 	<iso_3166_2_entry
 		code="SY-RD"	name="Rif Dimashq" />
 	<iso_3166_2_entry
-		code="SY-TA"	name="Tarts" />
+		code="SY-TA"	name="Tartus" />
 </iso_3166_country>
 	<!-- Swaziland -->
 <iso_3166_country code="SZ">
@@ -8394,15 +8401,15 @@
 	<!-- Togo -->
 <iso_3166_country code="TG">
 	<iso_3166_2_entry
-		code="TG-C"	name="Centre" />
+		code="TG-C"	name="Région du Centre" />
 	<iso_3166_2_entry
-		code="TG-K"	name="Kara" />
+		code="TG-K"	name="Région de la Kara" />
 	<iso_3166_2_entry
-		code="TG-M"	name="Maritime (Region)" />
+		code="TG-M"	name="Région Maritime" />
 	<iso_3166_2_entry
-		code="TG-P"	name="Plateaux" />
+		code="TG-P"	name="Région des Plateaux" />
 	<iso_3166_2_entry
-		code="TG-S"	name="Savannes" />
+		code="TG-S"	name="Région des Savannes" />
 </iso_3166_country>
 	<!-- Thailand -->
 <iso_3166_country code="TH">
@@ -8889,35 +8896,6 @@
 		code="TT-POS"	name="Port of Spain" />
 	<iso_3166_2_entry
 		code="TT-SFO"	name="San Fernando" />
-</iso_3166_country>
-	<!-- Timor-Leste -->
-<iso_3166_country code="TL">
-	<iso_3166_2_entry
-		code="TL-AL"	name="Aileu" />
-	<iso_3166_2_entry
-		code="TL-AN"	name="Ainaro" />
-	<iso_3166_2_entry
-		code="TL-BA"	name="Baucau" />
-	<iso_3166_2_entry
-		code="TL-BO"	name="Bobonaro" />
-	<iso_3166_2_entry
-		code="TL-CO"	name="Cova Lima" />
-	<iso_3166_2_entry
-		code="TL-DI"	name="Dili" />
-	<iso_3166_2_entry
-		code="TL-ER"	name="Ermera" />
-	<iso_3166_2_entry
-		code="TL-LA"	name="Lautem" />
-	<iso_3166_2_entry
-		code="TL-LI"	name="Liquica" />
-	<iso_3166_2_entry
-		code="TL-MT"	name="Manatuto" />
-	<iso_3166_2_entry
-		code="TL-MF"	name="Manufahi" />
-	<iso_3166_2_entry
-		code="TL-OE"	name="Oecussi" />
-	<iso_3166_2_entry
-		code="TL-VI"	name="Viqueque" />
 </iso_3166_country>
 	<!-- Tuvalu -->
 <iso_3166_country code="TV">
@@ -9689,7 +9667,7 @@
 	<iso_3166_2_entry
 		code="VU-TOB"	name="Torba" />
 </iso_3166_country>
-	<!-- Wallis and Fortuna -->
+	<!-- Samoa -->
 <iso_3166_country code="WS">
 	<iso_3166_2_entry
 		code="WS-AA"	name="A'ana" />
@@ -9698,7 +9676,7 @@
 	<iso_3166_2_entry
 		code="WS-AT"	name="Atua" />
 	<iso_3166_2_entry
-		code="WS-FA"	name="Fa'aaaleleaga" />
+		code="WS-FA"	name="Fa'asaleleaga" />
 	<iso_3166_2_entry
 		code="WS-GE"	name="Gaga'emauga" />
 	<iso_3166_2_entry
