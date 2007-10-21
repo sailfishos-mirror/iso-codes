@@ -195,6 +195,32 @@
 </iso_3166_country>
 	<!-- Albania -->
 <iso_3166_country code="AL">
+<iso_3166_subset type="County">
+	<iso_3166_2_entry
+		code="AL 1"	name="Berat" />
+	<iso_3166_2_entry
+		code="AL 9"	name="Dibër" />
+	<iso_3166_2_entry
+		code="AL 2"	name="Durrës" />
+	<iso_3166_2_entry
+		code="AL 3"	name="Elbasan" />
+	<iso_3166_2_entry
+		code="AL 4"	name="Fier" />
+	<iso_3166_2_entry
+		code="AL 5"	name="Gjirokastër" />
+	<iso_3166_2_entry
+		code="AL 6"	name="Korçë" />
+	<iso_3166_2_entry
+		code="AL 7"	name="Kukës" />
+	<iso_3166_2_entry
+		code="AL 8"	name="Lezhë" />
+	<iso_3166_2_entry
+		code="AL 10"	name="Shkodër" />
+	<iso_3166_2_entry
+		code="AL 11"	name="Tiranë" />
+	<iso_3166_2_entry
+		code="AL 12"	name="Vlorë" />
+</iso_3166_subset>
 <iso_3166_subset type="District">   
 	<iso_3166_2_entry
 		code="AL-BR"	name="Berat" />
@@ -223,7 +249,7 @@
 	<iso_3166_2_entry
 		code="AL-ER"	name="Kolonjë" />
 	<iso_3166_2_entry
-		code="AL-KO"	name="Korcë" />
+		code="AL-KO"	name="Korçë" />
 	<iso_3166_2_entry
 		code="AL-KR"	name="Krujë" />
 	<iso_3166_2_entry
@@ -408,12 +434,6 @@
 </iso_3166_country>
 	<!-- Australia -->
 <iso_3166_country code="AU">
-<iso_3166_subset type="Territory">   
-	<iso_3166_2_entry
-		code="AU-ACT"	name="Australian Capital Territory" />
-	<iso_3166_2_entry
-		code="AU-NT"	name="Northern Territory" />
-</iso_3166_subset>   
 <iso_3166_subset type="State">   
 	<iso_3166_2_entry
 		code="AU-NSW"	name="New South Wales" />
@@ -427,6 +447,12 @@
 		code="AU-VIC"	name="Victoria" />
 	<iso_3166_2_entry
 		code="AU-WA"	name="Western Australia" />
+</iso_3166_subset>   
+<iso_3166_subset type="Territory">   
+	<iso_3166_2_entry
+		code="AU-ACT"	name="Australian Capital Territory" />
+	<iso_3166_2_entry
+		code="AU-NT"	name="Northern Territory" />
 </iso_3166_subset>   
 </iso_3166_country>
 	<!-- Azerbaijan -->
@@ -1609,8 +1635,8 @@
 	<iso_3166_2_entry
 		code="CN-45"	name="Guangxi" />
 	<iso_3166_2_entry
-		code="CN-15"	name="Nei Mongol (mn)" />
-        <iso_3166_2_entry
+		code="CN-15"	name="Nei Mongol" />
+	<iso_3166_2_entry
 		code="CN-64"    name="Ningxia" />
 	<iso_3166_2_entry
 		code="CN-65"	name="Xinjiang" />
@@ -1632,7 +1658,7 @@
 </iso_3166_subset>   
 <iso_3166_subset type="Department">   
 	<iso_3166_2_entry
-		code="CO-AMA"	name="Amazonea" />
+		code="CO-AMA"	name="Amazonas" />
 	<iso_3166_2_entry
 		code="CO-ANT"	name="Antioquia" />
 	<iso_3166_2_entry
@@ -1654,11 +1680,11 @@
 	<iso_3166_2_entry
 		code="CO-CES"	name="Cesar" />
 	<iso_3166_2_entry
+		code="CO-CHO"	name="Chocó" />
+	<iso_3166_2_entry
 		code="CO-COR"	name="Córdoba" />
 	<iso_3166_2_entry
 		code="CO-CUN"	name="Cundinamarca" />
-	<iso_3166_2_entry
-		code="CO-CHO"	name="Chocó" />
 	<iso_3166_2_entry
 		code="CO-GUA"	name="Guainía" />
 	<iso_3166_2_entry
@@ -1678,7 +1704,7 @@
 	<iso_3166_2_entry
 		code="CO-PUT"	name="Putumayo" />
 	<iso_3166_2_entry
-		code="CO-QUI"	name="Quindio" />
+		code="CO-QUI"	name="Quindío" />
 	<iso_3166_2_entry
 		code="CO-RIS"	name="Risaralda" />
 	<iso_3166_2_entry
@@ -4906,16 +4932,6 @@
 </iso_3166_country>
 	<!-- North Korea -->
 <iso_3166_country code="KP">
-<iso_3166_subset type="Special city">
-	<iso_3166_2_entry
-		code="KP-KAE"	name="Kaesong-si" />
-	<iso_3166_2_entry
-		code="KP-NAJ"	name="Najin Sonbong-si" />
-	<iso_3166_2_entry
-		code="KP-NAM"	name="Nampo-si" />
-	<iso_3166_2_entry
-		code="KP-PYO"	name="Pyongyang-si" />
-</iso_3166_subset>   
 <iso_3166_subset type="Province">
 	<iso_3166_2_entry
 		code="KP-CHA"	name="Chagang-do" />
@@ -4935,6 +4951,16 @@
 		code="KP-PYN"	name="Pyongannam-do" />
 	<iso_3166_2_entry
 		code="KP-YAN"	name="Yanggang-do" />
+</iso_3166_subset>   
+<iso_3166_subset type="Special city">
+	<iso_3166_2_entry
+		code="KP-KAE"	name="Kaesong-si" />
+	<iso_3166_2_entry
+		code="KP-NAJ"	name="Najin Sonbong-si" />
+	<iso_3166_2_entry
+		code="KP-NAM"	name="Nampo-si" />
+	<iso_3166_2_entry
+		code="KP-PYO"	name="Pyongyang-si" />
 </iso_3166_subset>   
 </iso_3166_country>
 	<!-- South Korea -->
@@ -5400,37 +5426,37 @@
 <iso_3166_country code="MA">
 <iso_3166_subset type="Economic region">   
 	<iso_3166_2_entry
-		code="MO-09"	name="Chaouia-Ouardigha" />
+		code="MA-09"	name="Chaouia-Ouardigha" />
 	<iso_3166_2_entry
-		code="MO-10"	name="Doukhala-Abda" />
+		code="MA-10"	name="Doukhala-Abda" />
 	<iso_3166_2_entry
-		code="MO-05"	name="Fès-Boulemane" />
+		code="MA-05"	name="Fès-Boulemane" />
 	<iso_3166_2_entry
-		code="MO-02"	name="Gharb-Chrarda-Beni Hssen" />
+		code="MA-02"	name="Gharb-Chrarda-Beni Hssen" />
 	<iso_3166_2_entry
-		code="MO-08"	name="Grand Casablanca" />
+		code="MA-08"	name="Grand Casablanca" />
 	<iso_3166_2_entry
-		code="MO-14"	name="Guelmim-Es Smara" />
+		code="MA-14"	name="Guelmim-Es Smara" />
 	<iso_3166_2_entry
-		code="MO-15"	name="Laâyoune-Boujdour-Sakia el Hamra" />
+		code="MA-15"	name="Laâyoune-Boujdour-Sakia el Hamra" />
 	<iso_3166_2_entry
-		code="MO-04"	name="L'Oriental" />
+		code="MA-04"	name="L'Oriental" />
 	<iso_3166_2_entry
-		code="MO-11"	name="Marrakech-Tensift-Al Haouz" />
+		code="MA-11"	name="Marrakech-Tensift-Al Haouz" />
 	<iso_3166_2_entry
-		code="MO-06"	name="Meknès-Tafilalet" />
+		code="MA-06"	name="Meknès-Tafilalet" />
 	<iso_3166_2_entry
-		code="MO-16"	name="Oued ed Dahab-Lagouira" />
+		code="MA-16"	name="Oued ed Dahab-Lagouira" />
 	<iso_3166_2_entry
-		code="MO-07"	name="Rabat-Salé-Zemmour-Zaer" />
+		code="MA-07"	name="Rabat-Salé-Zemmour-Zaer" />
 	<iso_3166_2_entry
-		code="MO-13"	name="Sous-Massa-Draa" />
+		code="MA-13"	name="Sous-Massa-Draa" />
 	<iso_3166_2_entry
-		code="MO-12"	name="Tadla-Azilal" />
+		code="MA-12"	name="Tadla-Azilal" />
 	<iso_3166_2_entry
-		code="MO-01"	name="Tanger-Tétouan" />
+		code="MA-01"	name="Tanger-Tétouan" />
 	<iso_3166_2_entry
-		code="MO-03"	name="Taza-Al Hoceima-Taounate" />
+		code="MA-03"	name="Taza-Al Hoceima-Taounate" />
 </iso_3166_subset>   
 <iso_3166_subset type="Province">   
 	<iso_3166_2_entry
@@ -5454,11 +5480,11 @@
 	<iso_3166_2_entry
 		code="MA-BER"	name="Berkane" />
 	<iso_3166_2_entry
-		code="MA-BOD"	name="Boujdour" />
+		code="MA-BOD"	name="Boujdour (EH)" />
 	<iso_3166_2_entry
 		code="MA-BOM"	name="Boulemane" />
 	<iso_3166_2_entry
-		code="MA-CAS"	name="Casablanca  [Dar el Beïda]" />
+		code="MA-CAS"	name="Casablanca [Dar el Beïda]" />
 	<iso_3166_2_entry
 		code="MA-CHE"	name="Chefchaouene" />
 	<iso_3166_2_entry
@@ -5472,7 +5498,7 @@
 	<iso_3166_2_entry
 		code="MA-ESI"	name="Essaouira" />
 	<iso_3166_2_entry
-		code="MA-ESM"	name="Es Smara" />
+		code="MA-ESM"	name="Es Smara (EH)" />
 	<iso_3166_2_entry
 		code="MA-FES"	name="Fès" />
 	<iso_3166_2_entry
@@ -9752,11 +9778,11 @@
 	<iso_3166_2_entry
 		code="ZA-NL"	name="Kwazulu-Natal" />
 	<iso_3166_2_entry
+		code="ZA-LP"	name="Limpopo" />
+	<iso_3166_2_entry
 		code="ZA-MP"	name="Mpumalanga" />
 	<iso_3166_2_entry
 		code="ZA-NC"	name="Northern Cape" />
-	<iso_3166_2_entry
-		code="ZA-NP"	name="Limpopo" />
 	<iso_3166_2_entry
 		code="ZA-NW"	name="North-West" />
 	<iso_3166_2_entry
