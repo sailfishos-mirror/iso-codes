@@ -10,7 +10,7 @@
 <!--									-->
 <!-- Proper subdivision codes have the format 'XX-YYY' where XX is the	-->
 <!-- ISO 3166-1 Alpha-2 country code and YYY is a 1-, 2- or 3-character	-->
-<!-- code  for the subdivision.						-->
+<!-- code for the subdivision.						-->
 <!--									-->
 <!-- For some countries the standard also lists a second level of	-->
 <!-- regional divisions (e.g. for BE, FR, GB, IT, etc.). The codes	-->
@@ -19,16 +19,7 @@
 <!--									-->
 <!-- The sorting order is the same that is used in the standard.	-->
 <!--									-->
-<!-- Up-to-date as of newsletter, 2004-03-08, Newsletter 2.		-->
-<!--									-->
-<!-- Up-to-date as of what?!:  Google says:				-->
-<!-- ``ISO 3166-2 Newsletter Number I-6 was published on 2004-03-08.''	-->
-<!-- (http://google.com/search?q=iso%203166%20newsletter%202004-03-08)	-->
-<!-- Cf. http://en.wikipedia.org/wiki/ISO_3166-2                        -->
-<!--  -Jan Minář							-->
-<!--									-->
-<!-- Up-to-date as of ISO 3166-2 Newsletter I-7 (2005-09-13)            -->
-<!-- Up-to-date as of ISO 3166-2 Newsletter I-8 (2007-04-17)            -->
+<!-- Up-to-date as of ISO 3166-2 Newsletter I-8 (2007-04-17)			-->
 
 <!DOCTYPE iso_3166_2_entries [
 	<!ELEMENT iso_3166_2_entries (iso_3166_country+)>
@@ -64,29 +55,29 @@
 <iso_3166_2_entries>
 	<!-- Andorra -->
 <iso_3166_country code="AD">
-<iso_3166_subset type="Parish">   
+<iso_3166_subset type="Parish">
 	<iso_3166_2_entry
-		code="AD-07"  name="Andorra la Vella" />
+		code="AD-07"	name="Andorra la Vella" />
 	<iso_3166_2_entry
-		code="AD-02"  name="Canillo" />
+		code="AD-02"	name="Canillo" />
 	<iso_3166_2_entry
-		code="AD-03"  name="Encamp" />
+		code="AD-03"	name="Encamp" />
 	<iso_3166_2_entry
-		code="AD-08"  name="Escaldes-Engordany" />
+		code="AD-08"	name="Escaldes-Engordany" />
 	<iso_3166_2_entry
-		code="AD-04"  name="La Massana" />
+		code="AD-04"	name="La Massana" />
 	<iso_3166_2_entry
-		code="AD-05"  name="La Massana" />
+		code="AD-05"	name="La Massana" />
 	<iso_3166_2_entry
-		code="AD-06"  name="Sant Julià de Lòria" />
+		code="AD-06"	name="Sant Julià de Lòria" />
 </iso_3166_subset>
 </iso_3166_country>
 <iso_3166_country code="AE">
-<iso_3166_subset type="Emirate">   
+<iso_3166_subset type="Emirate">
 	<iso_3166_2_entry
-		code="AE-AZ"  name="Abū Ȥaby [Abu Dhabi]" />
+		code="AE-AZ"	name="Abū Ȥaby [Abu Dhabi]" />
 	<iso_3166_2_entry
-		code="AE-AJ" 	name="'Ajmān" />
+		code="AE-AJ"	name="'Ajmān" />
 	<iso_3166_2_entry
 		code="AE-FU"	name="Al Fujayrah" />
 	<iso_3166_2_entry
@@ -101,7 +92,7 @@
 </iso_3166_country>
 	<!-- Afghanistan -->
 <iso_3166_country code="AF">
-<iso_3166_subset type="Province">   
+<iso_3166_subset type="Province">
 </iso_3166_subset>
 	<iso_3166_2_entry
 		code="AF-BDS"	name="Badakhshān" />
@@ -174,7 +165,7 @@
 </iso_3166_country>
 	<!-- Antigua and Barbuda -->
 <iso_3166_country code="AG">
-<iso_3166_subset type="Parish">   
+<iso_3166_subset type="Parish">
 	<iso_3166_2_entry
 		code="AG-03"	name="Saint George" />
 	<iso_3166_2_entry
@@ -187,11 +178,11 @@
 		code="AG-07"	name="Saint Peter" />
 	<iso_3166_2_entry
 		code="AG-08"	name="Saint Philip" />
-</iso_3166_subset>   
-<iso_3166_subset type="Dependency">   
+</iso_3166_subset>
+<iso_3166_subset type="Dependency">
 	<iso_3166_2_entry
 		code="AG-10"	name="Barbuda" />
-</iso_3166_subset>   
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Albania -->
 <iso_3166_country code="AL">
@@ -221,7 +212,7 @@
 	<iso_3166_2_entry
 		code="AL 12"	name="Vlorë" />
 </iso_3166_subset>
-<iso_3166_subset type="District">   
+<iso_3166_subset type="District">
 	<iso_3166_2_entry
 		code="AL-BR"	name="Berat" />
 	<iso_3166_2_entry
@@ -294,7 +285,7 @@
 		code="AL-TP"	name="Tropojë" />
 	<iso_3166_2_entry
 		code="AL-VL"	name="Vlorë" />
-</iso_3166_subset>   
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Armenia -->
 <iso_3166_country code="AM">
@@ -323,7 +314,7 @@
 </iso_3166_country>
 	<!-- Angola -->
 <iso_3166_country code="AO">
-<iso_3166_subset type="Province">   
+<iso_3166_subset type="Province">
 	<iso_3166_2_entry
 		code="AO-BGO"	name="Bengo" />
 	<iso_3166_2_entry
@@ -360,7 +351,7 @@
 		code="AO-UIG"	name="Uíge" />
 	<iso_3166_2_entry
 		code="AO-ZAI"	name="Zaire" />
-</iso_3166_subset>   
+</iso_3166_subset>
 </iso_3166_country>
 <iso_3166_country code="AR">
 	<!-- Argentina -->
@@ -414,7 +405,7 @@
 	<!-- Austria -->
 <iso_3166_country code="AT">
 	<iso_3166_2_entry
-	code="AT-1" name="Burgenland" />
+	code="AT-1"	name="Burgenland" />
 	<iso_3166_2_entry
 	code="AT-2"	name="Kärnten" />
 	<iso_3166_2_entry
@@ -434,7 +425,7 @@
 </iso_3166_country>
 	<!-- Australia -->
 <iso_3166_country code="AU">
-<iso_3166_subset type="State">   
+<iso_3166_subset type="State">
 	<iso_3166_2_entry
 		code="AU-NSW"	name="New South Wales" />
 	<iso_3166_2_entry
@@ -447,21 +438,21 @@
 		code="AU-VIC"	name="Victoria" />
 	<iso_3166_2_entry
 		code="AU-WA"	name="Western Australia" />
-</iso_3166_subset>   
-<iso_3166_subset type="Territory">   
+</iso_3166_subset>
+<iso_3166_subset type="Territory">
 	<iso_3166_2_entry
 		code="AU-ACT"	name="Australian Capital Territory" />
 	<iso_3166_2_entry
 		code="AU-NT"	name="Northern Territory" />
-</iso_3166_subset>   
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Azerbaijan -->
 <iso_3166_country code="AZ">
-<iso_3166_subset type="Autonomous republic">   
+<iso_3166_subset type="Autonomous republic">
 	<iso_3166_2_entry
 		code="AZ NX"	name="Naxçıvan" />
-</iso_3166_subset>   
-<iso_3166_subset type="City">   
+</iso_3166_subset>
+<iso_3166_subset type="City">
 	<iso_3166_2_entry
 		code="AZ-AB"	name="Əli Bayramlı" />
 	<iso_3166_2_entry
@@ -484,8 +475,8 @@
 		code="AZ-XA"	name="Xankəndi" />
 	<iso_3166_2_entry
 		code="AZ-YE"	name="Yevlax" />
-</iso_3166_subset>   
-<iso_3166_subset type="Rayon">   
+</iso_3166_subset>
+<iso_3166_subset type="Rayon">
 	<iso_3166_2_entry
 		code="AZ-ABS"	name="Abşeron" />
 	<iso_3166_2_entry
@@ -616,7 +607,7 @@
 		code="AZ-ZAQ"	name="Zaqatala" />
 	<iso_3166_2_entry
 		code="AZ-ZAR"	name="Zərdab" />
-</iso_3166_subset>   
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Bosnia-Herzegovina -->
 <iso_3166_country code="BA">
@@ -627,7 +618,7 @@
 </iso_3166_country>
 	<!-- Barbados -->
 <iso_3166_country code="BB">
-<iso_3166_subset type="Parish">   
+<iso_3166_subset type="Parish">
 	<iso_3166_2_entry
 		code="BB-01"	name="Christ Church" />
 	<iso_3166_2_entry
@@ -650,11 +641,11 @@
 		code="BB-10"	name="Saint Philip" />
 	<iso_3166_2_entry
 		code="BB-11"	name="Saint Thomas" />
-</iso_3166_subset>   
+</iso_3166_subset>
 </iso_3166_country>
-	<!-- Bangladesh --> 
+	<!-- Bangladesh -->
 <iso_3166_country code="BD">
-<iso_3166_subset type="Division">   
+<iso_3166_subset type="Division">
 	<iso_3166_2_entry
 		code="BD 1"	name="Barisal bibhag" />
 	<iso_3166_2_entry
@@ -667,8 +658,8 @@
 		code="BD 5"	name="Rajshahi bibhag" />
 	<iso_3166_2_entry
 		code="BD 6"	name="Sylhet bibhag" />
-</iso_3166_subset>   
-<iso_3166_subset type="District">   
+</iso_3166_subset>
+<iso_3166_subset type="District">
 	<iso_3166_2_entry
 		code="BD-05"	name="Bagerhat zila" />
 	<iso_3166_2_entry
@@ -797,7 +788,7 @@
 		code="BD-63"	name="Tangail zila" />
 	<iso_3166_2_entry
 		code="BD-64"	name="Thakurgaon zila" />
-</iso_3166_subset>   
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Belgium -->
 <iso_3166_country code="BE">
@@ -919,7 +910,7 @@
 </iso_3166_country>
 	<!-- Bulgaria -->
 <iso_3166_country code="BG">
-<iso_3166_subset type="Region">   
+<iso_3166_subset type="Region">
 	<iso_3166_2_entry
 		code="BG-01"	name="Blagoevgrad" />
 	<iso_3166_2_entry
@@ -974,11 +965,11 @@
 		code="BG-05"	name="Vidin" />
 	<iso_3166_2_entry
 		code="BG-06"	name="Vraca" />
-</iso_3166_subset>   
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Bahrain -->
 <iso_3166_country code="BH">
-<iso_3166_subset type="Governorate">   
+<iso_3166_subset type="Governorate">
 	<iso_3166_2_entry
 		code="BH-13"	name="Al Manāmah (Al ‘Āşimah)" />
 	<iso_3166_2_entry
@@ -989,11 +980,11 @@
 		code="BH-16"	name="Al Wusţá" />
 	<iso_3166_2_entry
 		code="BH-17"	name="Ash Shamālīyah" />
-</iso_3166_subset>   
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Burundi -->
 <iso_3166_country code="BI">
-<iso_3166_subset type="Province">   
+<iso_3166_subset type="Province">
 	<iso_3166_2_entry
 		code="BI-BB"	name="Bubanza" />
 	<iso_3166_2_entry
@@ -1024,11 +1015,11 @@
 		code="BI-RT"	name="Rutana" />
 	<iso_3166_2_entry
 		code="BI-RY"	name="Ruyigi" />
-</iso_3166_subset>   
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Benin -->
 <iso_3166_country code="BJ">
-<iso_3166_subset type="Department">   
+<iso_3166_subset type="Department">
 	<iso_3166_2_entry
 		code="BJ-AL"	name="Alibori" />
 	<iso_3166_2_entry
@@ -1053,7 +1044,7 @@
 		code="BJ-PL"	name="Plateau" />
 	<iso_3166_2_entry
 		code="BJ-ZO"	name="Zou" />
-</iso_3166_subset>   
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Brunei Darussalam -->
 <iso_3166_country code="BN">
@@ -1236,7 +1227,7 @@
 </iso_3166_country>
 	<!-- Botswana -->
 <iso_3166_country code="BW">
-<iso_3166_subset type="District">   
+<iso_3166_subset type="District">
 	<iso_3166_2_entry
 		code="BW-CE"	name="Central" />
 	<iso_3166_2_entry
@@ -1257,11 +1248,11 @@
 		code="BW-SE"	name="South-East" />
 	<iso_3166_2_entry
 		code="BW-SO"	name="Southern" />
-</iso_3166_subset>   
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Belarus -->
 <iso_3166_country code="BY-BR">
-<iso_3166_subset type="Oblast">   
+<iso_3166_subset type="Oblast">
 	<!-- ISO 3166-2 gives several Romanised versions of the names; here we choose the GOST be version -->
 	<iso_3166_2_entry
 		code="BY-BR"	name="Brèsckaja voblasc'" />
@@ -1275,7 +1266,7 @@
 		code="BY-MI"	name="Minskaja voblasc'" />
 	<iso_3166_2_entry
 		code="BY-VI"	name="Vicebskaja voblasc'" />
-</iso_3166_subset>   
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Belize -->
 <iso_3166_country code="BZ">
@@ -1295,7 +1286,7 @@
 	<!-- Canada -->
 <iso_3166_country code="CA">
 	<!-- sub-region codes for Canadian provinces and territories -->
-<iso_3166_subset type="Province">   
+<iso_3166_subset type="Province">
 	<iso_3166_2_entry
 		code="CA-AB"	name="Alberta" />
 	<iso_3166_2_entry
@@ -1357,7 +1348,7 @@
 		code="CD-SK"	name="Sud-Kivu" />
 </iso_3166_subset>
 </iso_3166_country>
-	<!-- Central African Republic --> 
+	<!-- Central African Republic -->
 <iso_3166_country code="CF">
 	<iso_3166_2_entry
 		code="CF-BGF"	name="Bangui" />
@@ -1421,7 +1412,7 @@
 </iso_3166_country>
 	<!-- Switzerland -->
 <iso_3166_country code="CH">
-<iso_3166_subset type="Canton">   
+<iso_3166_subset type="Canton">
 	<iso_3166_2_entry
 		code="CH-AG"	name="Aargau" />
 	<iso_3166_2_entry
@@ -1474,11 +1465,11 @@
 		code="CH-ZG"	name="Zug" />
 	<iso_3166_2_entry
 		code="CH-ZH"	name="Zürich" />
-</iso_3166_subset>   
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Cote D'ivoire -->
 <iso_3166_country code="CI">
-<iso_3166_subset type="Region">   
+<iso_3166_subset type="Region">
 	<iso_3166_2_entry
 		code="CI-06"	name="18 Montagnes (Région des)" />
 	<iso_3166_2_entry
@@ -1517,7 +1508,7 @@
 		code="CI-14"	name="Worodouqou (Région du)" />
 	<iso_3166_2_entry
 		code="CI-08"	name="Zanzan (Région du)" />
-</iso_3166_subset>   
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Chile -->
 <iso_3166_country code="CL">
@@ -1573,7 +1564,7 @@
 </iso_3166_country>
 	<!-- China -->
 <iso_3166_country code="CN">
-<iso_3166_subset type="Municipality">   
+<iso_3166_subset type="Municipality">
 	<iso_3166_2_entry
 		code="CN-11"	name="Beijing" />
 	<iso_3166_2_entry
@@ -1582,8 +1573,8 @@
 		code="CN-31"	name="Shanghai" />
 	<iso_3166_2_entry
 		code="CN-12"	name="Tianjin" />
-</iso_3166_subset>   
-<iso_3166_subset type="Province">   
+</iso_3166_subset>
+<iso_3166_subset type="Province">
 	<iso_3166_2_entry
 		code="CN-34"	name="Anhui" />
 	<iso_3166_2_entry
@@ -1630,33 +1621,33 @@
 		code="CN-53"	name="Yunnan" />
 	<iso_3166_2_entry
 		code="CN-33"	name="Zhejiang" />
-</iso_3166_subset>   
-<iso_3166_subset type="Autonomous region">   
+</iso_3166_subset>
+<iso_3166_subset type="Autonomous region">
 	<iso_3166_2_entry
 		code="CN-45"	name="Guangxi" />
 	<iso_3166_2_entry
 		code="CN-15"	name="Nei Mongol" />
 	<iso_3166_2_entry
-		code="CN-64"    name="Ningxia" />
+		code="CN-64"	name="Ningxia" />
 	<iso_3166_2_entry
 		code="CN-65"	name="Xinjiang" />
 	<iso_3166_2_entry
 		code="CN-54"	name="Xizang" />
-</iso_3166_subset>   
-<iso_3166_subset type="Special administrative region">   
+</iso_3166_subset>
+<iso_3166_subset type="Special administrative region">
 	<iso_3166_2_entry
 		code="CN-91"	name="Xianggang (Hong-Kong)" />
 	<iso_3166_2_entry
 		code="CN-92"	name="Aomen (Macau)" />
-</iso_3166_subset>   
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Colombia -->
 <iso_3166_country code="CO">
-<iso_3166_subset type="Capital district">   
+<iso_3166_subset type="Capital district">
 	<iso_3166_2_entry
 		code="CO-DC"	name="Distrito Capital de Bogotá" />
-</iso_3166_subset>   
-<iso_3166_subset type="Department">   
+</iso_3166_subset>
+<iso_3166_subset type="Department">
 	<iso_3166_2_entry
 		code="CO-AMA"	name="Amazonas" />
 	<iso_3166_2_entry
@@ -1721,7 +1712,7 @@
 		code="CO-VAU"	name="Vaupés" />
 	<iso_3166_2_entry
 		code="CO-VID"	name="Vichada" />
-</iso_3166_subset>   
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Costa Rica -->
 <iso_3166_country code="CR">
@@ -1774,7 +1765,7 @@
 		code="CU-99"	name="Isla de la Juventud" />
 <geographical_region type="Province">
 	<!-- Postal codes for Cuba. -->
-	<!-- Data taken from  http://www.columbia.edu/kermit/postal.html -->
+	<!-- Data taken from http://www.columbia.edu/kermit/postal.html -->
 	<!-- Provincias of Cuba, with recommended abbreviations -->
 	<region	code="CU-PR"	name="Pinar del Río" />
 	<region	code="CU-CA"	name="Ciego de Ávila" />
@@ -1796,13 +1787,13 @@
 </iso_3166_country>
 	<!-- Cape Verde -->	
 <iso_3166_country code="CV">
-<iso_3166_subset type="District">   
+<iso_3166_subset type="District">
 	<iso_3166_2_entry
 		code="CV B"	name="Ilhas de Barlavento" />
 	<iso_3166_2_entry
 		code="CV S"	name="Ilhas de Sotavento" />
-</iso_3166_subset>   
-<iso_3166_subset type="Municipality">   
+</iso_3166_subset>
+<iso_3166_subset type="Municipality">
 	<iso_3166_2_entry
 		code="CV-BV"	name="Boa Vista" />
 	<iso_3166_2_entry
@@ -1837,7 +1828,7 @@
 		code="CV-SV"	name="São Vicente" />
 	<iso_3166_2_entry
 		code="CV-TA"	name="Tarrafal" />
-</iso_3166_subset>   
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Cyprus -->
 <iso_3166_country code="CY">
@@ -1854,11 +1845,11 @@
 		code="CY-02"	name="Lemesós" />
 	<iso_3166_2_entry
 		code="CY-05"	name="Páfos" />
-</iso_3166_subset>   
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Czech Republic -->
 <iso_3166_country code="CZ">
-<iso_3166_subset type="Region">   
+<iso_3166_subset type="Region">
 	<iso_3166_2_entry
 		code="CZ-JC"	name="Jihočeský kraj" />
 	<iso_3166_2_entry
@@ -1887,7 +1878,7 @@
 		code="CZ-VY"	name="Vysočina" />
 	<iso_3166_2_entry
 		code="CZ-ZL"	name="Zlínský kraj" />
-</iso_3166_subset>   
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Germany -->
 <iso_3166_country code="DE">
@@ -1927,7 +1918,7 @@
 </iso_3166_country>
 	<!-- Djibouti -->
 <iso_3166_country code="DJ">
-<iso_3166_subset type="Region">   
+<iso_3166_subset type="Region">
 	<iso_3166_2_entry
 		code="DJ-AS"	name="Ali Sabieh" />
 	<iso_3166_2_entry
@@ -1938,11 +1929,11 @@
 		code="DJ-OB"	name="Obock" />
 	<iso_3166_2_entry
 		code="DJ-TA"	name="Tadjourah" />
-</iso_3166_subset>   
-<iso_3166_subset type="City">   
+</iso_3166_subset>
+<iso_3166_subset type="City">
 	<iso_3166_2_entry
 		code="DJ-DJ"	name="Djibouti" />
-</iso_3166_subset>   
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Denmark -->
 <iso_3166_country code="DK">
@@ -2814,7 +2805,7 @@
 	<!-- Great Britain -->
 <iso_3166_country code="GB">
 <iso_3166_subset type="First-level divisions">
-       <!-- These are listed in ISO-3166-2 -->
+	<!-- These are listed in ISO-3166-2 -->
 	<iso_3166_2_entry
 		code="GB ENG"	name="England" />
 	<iso_3166_2_entry
@@ -2825,9 +2816,10 @@
 		code="GB WLS"	name="Wales" />
 </iso_3166_subset>
 <iso_3166_subset type="Division">
-	<!-- Great Britain divisions includes counties, London boroughs, metropolitan districts
-             unitary authorities, Northern Ireland and Scotland council areas, ie a big
-             mess of various things altogether in a category -->
+	<!-- Great Britain divisions includes counties, London boroughs, -->
+	<!-- metropolitan districts unitary authorities, Northern Ireland and -->
+	<!-- Scotland council areas, ie a big mess of various things altogether -->
+	<!-- in a category -->
 	<iso_3166_2_entry
 		code="GB-ABE"	name="Aberdeen City" />
 	<iso_3166_2_entry
@@ -3362,7 +3354,7 @@
 </iso_3166_country>
 <iso_3166_country code="GD">
 	<!-- Grenada -->
-<iso_3166_subset type="Parish">   
+<iso_3166_subset type="Parish">
 	<iso_3166_2_entry
 		code="GD-01"	name="Saint Andrew" />
 	<iso_3166_2_entry
@@ -3375,11 +3367,11 @@
 		code="GD-05"	name="Saint Mark" />
 	<iso_3166_2_entry
 		code="GD-06"	name="Saint Patrick" />
-</iso_3166_subset>   
-<iso_3166_subset type="Dependency">   
+</iso_3166_subset>
+<iso_3166_subset type="Dependency">
 	<iso_3166_2_entry
 		code="GD-10"	name="Southern Grenadine Islands" />
-</iso_3166_subset>  
+</iso_3166_subse>
 </iso_3166_country>
 <iso_3166_country code="GE">
 	<!-- Georgia -->
@@ -3388,11 +3380,11 @@
 		code="GE-AB"	name="Abkhazia" />
 	<iso_3166_2_entry
 		code="GE-AJ"	name="Ajaria" />
-</iso_3166_subset>  
+</iso_3166_subset>
 <iso_3166_subset type="City">
 	<iso_3166_2_entry
 		code="GE-TB"	name="Tbilisi" />
-</iso_3166_subset>  
+</iso_3166_subset>
 <iso_3166_subset type="Region">
 	<iso_3166_2_entry
 		code="GE-GU"	name="Guria" />
@@ -3412,7 +3404,7 @@
 		code="GE-SJ"	name="Samtskhe-Javakheti" />
 	<iso_3166_2_entry
 		code="GE-SK"	name="Shida Kartli" />
-</iso_3166_subset>  
+</iso_3166_subset>
 </iso_3166_country>
 <iso_3166_country code="GG">
 	<!-- Guernsey -->
@@ -3899,7 +3891,7 @@
 	<!-- Haiti -->
 <iso_3166_country code="HT">
 	<iso_3166_2 entry
-		code="HT-AR"  name="Artibonite" />
+		code="HT-AR"	name="Artibonite" />
 	<iso_3166_2_entry
 		code="HT-CE"	name="Centre" />
 	<iso_3166_2_entry
@@ -4099,14 +4091,14 @@
 	<!-- Ireland -->
 <iso_3166_country code="IE">
 <iso_3166_sudset type="Province">
-  <iso_3166_2_entry
-    code="IE C" name="Connacht"/>
-  <iso_3166_2_entry
-    code="IE L"	name="Leinster" />
-  <iso_3166_2_entry
-    code="IE M"	name="Munster" />
-  <iso_3166_2_entry
-    code="IE U"	name="Ulster" />
+	<iso_3166_2_entry
+		code="IE C"	name="Connacht" />
+	<iso_3166_2_entry
+		code="IE L"	name="Leinster" />
+	<iso_3166_2_entry
+		code="IE M"	name="Munster" />
+	<iso_3166_2_entry
+		code="IE U"	name="Ulster" />
 </iso_3166_subset>
 <iso_3166_subset type="County">
 	<!-- Ireland uses Car Registration codes for Counties as ISO 3166-2 regions -->
@@ -4300,7 +4292,7 @@
 </iso_3166_country>
 	<!-- Iran -->
 <iso_3166_country code="IR">
-<iso_3166_subset type="Province">   
+<iso_3166_subset type="Province">
 	<iso_3166_2_entry
 		code="IR-03"	name="Ardabīl" />
 	<iso_3166_2_entry
@@ -4361,7 +4353,7 @@
 		code="IR-25"	name="Yazd" />
 	<iso_3166_2_entry
 		code="IR-11"	name="Zanjān" />
-</iso_3166_subset>   
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Iceland -->
 <iso_3166_country code="IS">
@@ -4705,7 +4697,7 @@
 </iso_3166_country>
 	<!-- Japan -->
 <iso_3166_country code="JP">
-	<!--  Japan uses Prefectures for its ISO 3166-2 regions -->
+	<!-- Japan uses Prefectures for its ISO 3166-2 regions -->
 	<!-- Data taken from http://fotw.digibel.be/flags/jp-prefe.html -->
 	<iso_3166_2_entry
 		code="JP-23"	name="Aichi" />
@@ -4911,13 +4903,13 @@
 </iso_3166_country>
 	<!-- Saint Kitts and Nevis -->
 <iso_3166_country code="KN">
-<iso_3166_subset type="State">   
+<iso_3166_subset type="State">
 	<iso_3166_2_entry
 		code="KN K"	name="Saint Kitts" />
 	<iso_3166_2_entry
 		code="KN N"	name="Nevis" />
-</iso_3166_subset>   
-<iso_3166_subset type="Parish">   
+</iso_3166_subset>
+<iso_3166_subset type="Parish">
 	<iso_3166_2_entry
 		code="KN-01"	name="Christ Church Nichola Town" />
 	<iso_3166_2_entry
@@ -4946,7 +4938,7 @@
 		code="KN-13"	name="Saint Thomas Middle Island" />
 	<iso_3166_2_entry
 		code="KN-15"	name="Trinity Palmetto Point" />
-</iso_3166_subset>   
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Comorros -->
 <iso_3166_country code="KM">
@@ -4978,7 +4970,7 @@
 		code="KP-PYN"	name="Pyongannam-do" />
 	<iso_3166_2_entry
 		code="KP-YAN"	name="Yanggang-do" />
-</iso_3166_subset>   
+</iso_3166_subset>
 <iso_3166_subset type="Special city">
 	<iso_3166_2_entry
 		code="KP-KAE"	name="Kaesong-si" />
@@ -4988,7 +4980,7 @@
 		code="KP-NAM"	name="Nampo-si" />
 	<iso_3166_2_entry
 		code="KP-PYO"	name="Pyongyang-si" />
-</iso_3166_subset>   
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- South Korea -->
 <iso_3166_country code="KR">
@@ -5130,7 +5122,7 @@
 </iso_3166_country>
 	<!-- Liechtenstein -->
 <iso_3166_country code="LI">
-<iso_3166_subset type="Commune">   
+<iso_3166_subset type="Commune">
 	<iso_3166_2_entry
 		code="LI-01"	name="Balzers" />
 	<iso_3166_2_entry
@@ -5153,7 +5145,7 @@
 		code="LI-10"	name="Triesenberg" />
 	<iso_3166_2_entry
 		code="LI-11"	name="Vaduz" />
-</iso_3166_subset>   
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Lebanon -->
 <iso_3166_country code="LB">
@@ -5310,8 +5302,8 @@
 	<!-- Latvia -->
 <iso_3166_country code="LV">
 <iso_3166_subset type="District">
-	<!-- We should probably add a "District" suffix here, but is it "Rajon"
-	     or "Apriņķis"? -->
+	<!-- We should probably add a "District" suffix here, but is it "Rajon" -->
+	<!-- or "Apriņķis"? -->
 	<iso_3166_2_entry
 		code="LV-AI"	name="Aizkraukle" />
 	<iso_3166_2_entry
@@ -5384,7 +5376,7 @@
 </iso_3166_country>
 	<!-- Libya -->
 <iso_3166_country code="LY">
-<iso_3166_subset type="Municipality">   
+<iso_3166_subset type="Municipality">
 	<iso_3166_2_entry
 		code="LY-AJ"	name="Ajdābiyā" />
 	<iso_3166_2_entry
@@ -5453,11 +5445,11 @@
 		code="LY-WD"	name="Wādī al Ḩayāt" />
 	<iso_3166_2_entry
 		code="LY-YJ"	name="Yafran-Jādū" />
-</iso_3166_subset>   
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Morocco -->
 <iso_3166_country code="MA">
-<iso_3166_subset type="Economic region">   
+<iso_3166_subset type="Economic region">
 	<iso_3166_2_entry
 		code="MA 09"	name="Chaouia-Ouardigha" />
 	<iso_3166_2_entry
@@ -5490,8 +5482,8 @@
 		code="MA 01"	name="Tanger-Tétouan" />
 	<iso_3166_2_entry
 		code="MA 03"	name="Taza-Al Hoceima-Taounate" />
-</iso_3166_subset>   
-<iso_3166_subset type="Province">   
+</iso_3166_subset>
+<iso_3166_subset type="Province">
 	<iso_3166_2_entry
 		code="MA-AGD"	name="Agadir" />
 	<iso_3166_2_entry
@@ -5594,18 +5586,18 @@
 		code="MA-TET"	name="Tétouan" />
 	<iso_3166_2_entry
 		code="MA-TIZ"	name="Tiznit" />
-</iso_3166_subset>   
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Moldova -->
 <iso_3166_country code="MD">
 <iso_3166_subset type="Autonomous territory">
 	<iso_3166_2_entry
 		code="MD-GA"	name="Găgăuzia, Unitate Teritorială Autonomă" />
-</iso_3166_subset>   
+</iso_3166_subset>
 <iso_3166_subset type="City">
 	<iso_3166_2_entry
 		code="MD-CU"	name="Chişinău" />
-</iso_3166_subset>   
+</iso_3166_subset>
 <iso_3166_subset type="District">
 	<iso_3166_2_entry
 		code="MD-BA"	name="Bălţi" />
@@ -5627,15 +5619,15 @@
 		code="MD-TI"	name="Tighina" />
 	<iso_3166_2_entry
 		code="MD-UN"	name="Ungheni" />
-</iso_3166_subset>   
+</iso_3166_subset>
 <iso_3166_subset type="Territorial unit">
 	<iso_3166_2_entry
 		code="MD-SN"	name="Stînga Nistrului, unitatea teritorială din" />
-</iso_3166_subset>   
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Montenegro -->
 <iso_3166_country code="ME">
-<iso_3166_subset type="Municipality">   
+<iso_3166_subset type="Municipality">
 	<iso_3166_2_entry
 		code="ME-01"	name="Andrijevica" />
 	<iso_3166_2_entry
@@ -5678,7 +5670,7 @@
 		code="ME-20"	name="Ulcinj" />
 	<iso_3166_2_entry
 		code="ME-21"	name="Žabljak" />
-</iso_3166_subset>   
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Madagascar -->
 <iso_3166_country code="MG">
@@ -5748,7 +5740,7 @@
 </iso_3166_country>
 	<!-- Macedonia -->
 <iso_3166_country code="MK">
-<iso_3166_subset type="Municipality">   
+<iso_3166_subset type="Municipality">
 	<iso_3166_2_entry
 		code="MK-AD"	name="Aerodrom" />
 	<iso_3166_2_entry
@@ -5917,7 +5909,7 @@
 		code="MK-ZE"	name="Želino" />
 	<iso_3166_2_entry
 		code="MK-ZR"	name="Zrnovci" />
-</iso_3166_subset>   
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Mali -->
 <iso_3166_country code="ML">
@@ -6502,7 +6494,7 @@
 </iso_3166_subset>
 <iso_3166_subset type="Autonomous Region">
 	<iso_3166_2_entry
-		code="NI-AN" 	name="Atlántico Norte" />
+		code="NI-AN"	name="Atlántico Norte" />
 	<iso_3166_2_entry
 		code="NI-AS"	name="Atlántico Sur" />
 </iso_3166_subset>
@@ -6583,7 +6575,7 @@
 </iso_3166_country>
 	<!-- Nauru -->
 <iso_3166_country code="NR">
-<iso_3166_subset type="District"> 
+<iso_3166_subset type="District">
 	<iso_3166_2_entry
 		code="NR-01"	name="Aiwo" />
 	<iso_3166_2_entry
@@ -6612,7 +6604,7 @@
 		code="NR-13"	name="Uaboe" />
 	<iso_3166_2_entry
 		code="NR-14"	name="Yaren" />
-</iso_3166_subset>   
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- New Zealand -->
 <iso_3166_country code="NZ">
@@ -6789,7 +6781,7 @@
 </iso_3166_country>
 	<!-- Phillipines -->
 <iso_3166_country code="PH">
-<iso_3166_subset type="Region"> 
+<iso_3166_subset type="Region">
 	<iso_3166_2_entry
 		code="PH 14"	name="Autonomous Region in Muslim Mindanao (ARMM)" />
 	<iso_3166_2_entry
@@ -6822,8 +6814,8 @@
 		code="PH 09"	name="Western Mindanao" />
 	<iso_3166_2_entry
 		code="PH 06"	name="Western Visayas" />
-</iso_3166_subset> 
-<iso_3166_subset type="Province"> 
+</iso_3166_subset>
+<iso_3166_subset type="Province">
 	<iso_3166_2_entry
 		code="PH-ABR"	name="Abra" />
 	<iso_3166_2_entry
@@ -6982,7 +6974,7 @@
 		code="PH-ZAS"	name="Zamboanga del Sur" />
 	<iso_3166_2_entry
 		code="PH-ZSI"	name="Zamboanga Sibiguey" />
-</iso_3166_subset> 
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Pakistan -->
 <iso_3166_country code="PK">
@@ -7005,7 +6997,7 @@
 </iso_3166_country>
 	<!-- Poland -->
 <iso_3166_country code="PL">
-<iso_3166_subset type="Province"> 
+<iso_3166_subset type="Province">
 	<iso_3166_2_entry
 		code="PL-DS"	name="Dolnośląskie" />
 	<iso_3166_2_entry
@@ -7038,7 +7030,7 @@
 		code="PL-WP"	name="Wielkopolskie" />
 	<iso_3166_2_entry
 		code="PL-ZP"	name="Zachodniopomorskie" />
-</iso_3166_subset> 
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Palestine -->
 <iso_3166_country code="PS">
@@ -7089,7 +7081,7 @@
 		code="PT-30"	name="Região Autónoma da Madeira" />
 </iso_3166_country>
 	<!-- Palau -->
-<iso_3166_country code="PW">  
+<iso_3166_country code="PW">
 <iso_3166_subset type="State">
 	<iso_3166_2_entry
 		code="PW-002"	name="Aimeliik" />
@@ -7123,10 +7115,10 @@
 		code="PW-350"	name="Peleliu" />
 	<iso_3166_2_entry
 		code="PW-370"	name="Sonsorol" />
-</iso_3166_subset>   
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Paraguay -->
-<iso_3166_country code="PY">  
+<iso_3166_country code="PY">
 	<iso_3166_2_entry
 		code="PY-ASU"	name="Asunción" />
 	<iso_3166_2_entry
@@ -7352,7 +7344,7 @@
 	<!-- Russia -->
 <iso_3166_country code="RU">
 	<!-- The ISO 3166-2 entries give romanised versions according to two standards, 	-->
-	<!-- GOST (1983) and  Russian   BGN/PCGN (1947).					-->
+	<!-- GOST (1983) and Russian BGN/PCGN (1947).					-->
 	<!-- Here the BGN entry is listed , since it was listed first in the ISO document	-->
 	<!-- Localize to Cyrillic anyway in the po files.					-->
 <iso_3166_subset type="Republic">
@@ -7592,11 +7584,11 @@
 </iso_3166_country>
 	<!-- Solomon Islands -->
 <iso_3166_country code="SB">
-<iso_3166_subset type="Capital territory">   
+<iso_3166_subset type="Capital territory">
 	<iso_3166_2_entry
 		code="SB-CT"	name="Capital Territory (Honiara)" />
-</iso_3166_subset>   
-<iso_3166_subset type="Province">   
+</iso_3166_subset>
+<iso_3166_subset type="Province">
 	<iso_3166_2_entry
 		code="SB-CE"	name="Central" />
 	<iso_3166_2_entry
@@ -7615,11 +7607,11 @@
 		code="SB-TE"	name="Temotu" />
 	<iso_3166_2_entry
 		code="SB-WE"	name="Western" />
-</iso_3166_subset>   
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Seychelles -->
 <iso_3166_country code="SC">
-<iso_3166_subset type="District">   
+<iso_3166_subset type="District">
 	<iso_3166_2_entry
 		code="SC-01"	name="Anse aux Pins" />
 	<iso_3166_2_entry
@@ -7666,7 +7658,7 @@
 		code="SC-22"	name="Saint Louis" />
 	<iso_3166_2_entry
 		code="SC-23"	name="Takamaka" />
-</iso_3166_subset>   
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Sudan -->
 <iso_3166_country code="SD">
@@ -7779,7 +7771,7 @@
 </iso_3166_country>
 	<!-- Slovenia -->
 <iso_3166_country code="SI">
-<iso_3166_subset type="Municipalities">   
+<iso_3166_subset type="Municipalities">
 	<iso_3166_2_entry
 		code="SI-001"	name="Ajdovščina" />
 	<iso_3166_2_entry
@@ -8166,7 +8158,7 @@
 		code="SI-144"	name="Zreče" />
 	<iso_3166_2_entry
 		code="SI-193"	name="Žužemberk" />
-</iso_3166_subset>   
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Slovakia -->
 <iso_3166_country code="SK">	
@@ -8200,7 +8192,7 @@
 </iso_3166_country>
 	<!-- San Marino -->
 <iso_3166_country code="SM">
-<iso_3166_subset type="Municipalities">   
+<iso_3166_subset type="Municipalities">
 	<iso_3166_2_entry
 		code="SM-01"	name="Acquaviva" />
 	<iso_3166_2_entry
@@ -8219,7 +8211,7 @@
 		code="SM-07"	name="San Marino" />
 	<iso_3166_2_entry
 		code="SM-09"	name="Serravalle" />
-</iso_3166_subset>   
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Senegal -->
 <iso_3166_country code="SN">
@@ -8392,7 +8384,7 @@
 </iso_3166_country>
 	<!-- Chad -->
 <iso_3166_country code="TD">
-<iso_3166_subset type="Region">   
+<iso_3166_subset type="Region">
 	<iso_3166_2_entry
 		code="TD-BA"	name="Batha" />
 	<iso_3166_2_entry
@@ -8429,7 +8421,7 @@
 		code="TD-TA"	name="Tandjilé" />
 	<iso_3166_2_entry
 		code="TD-WF"	name="Wadi Fira" />
-</iso_3166_subset>   
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Togo -->
 <iso_3166_country code="TG">
@@ -8603,20 +8595,20 @@
 </iso_3166_country>
 	<!-- Tajikistan -->
 <iso_3166_country code="TJ">
-<iso_3166_subset type="Autonomous region">   
+<iso_3166_subset type="Autonomous region">
 	<iso_3166_2_entry
 		code="TJ-GB"	name="Gorno-Badakhshan" />
-</iso_3166_subset>   
-<iso_3166_subset type="Region">   
+</iso_3166_subset>
+<iso_3166_subset type="Region">
 	<iso_3166_2_entry
 		code="TJ-KT"	name="Khatlon" />
 	<iso_3166_2_entry
 		code="TJ-SU"	name="Sughd" />
-</iso_3166_subset>   
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Timor Leste -->
 <iso_3166_country code="TL">
-<iso_3166_subset type="District">   
+<iso_3166_subset type="District">
 	<iso_3166_2_entry
 		code="TL-AL"	name="Aileu" />
 	<iso_3166_2_entry
@@ -8643,11 +8635,11 @@
 		code="TL-OE"	name="Oecussi" />
 	<iso_3166_2_entry
 		code="TL-VI"	name="Viqueque" />
-</iso_3166_subset>   
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Turkmenistan -->
 <iso_3166_country code="TM">
-<iso_3166_subset type="Region">   
+<iso_3166_subset type="Region">
 	<iso_3166_2_entry
 		code="TM-A"	name="Ahal" />
 	<iso_3166_2_entry
@@ -8658,11 +8650,11 @@
 		code="TM-L"	name="Lebap" />
 	<iso_3166_2_entry
 		code="TM-M"	name="Mary" />
-</iso_3166_subset>   
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Tunisia -->
 <iso_3166_country code="TN">
-<iso_3166_subset type="Governorate">   
+<iso_3166_subset type="Governorate">
 	<iso_3166_2_entry
 		code="TN-31"	name="Béja" />
 	<iso_3166_2_entry
@@ -8711,11 +8703,11 @@
 		code="TN-11"	name="Tunis" />
 	<iso_3166_2_entry
 		code="TN-22"	name="Zaghouan" />
-</iso_3166_subset>   
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Tonga -->
 <iso_3166_country code="TO">
-<iso_3166_subset type="Division">   
+<iso_3166_subset type="Division">
 	<iso_3166_2_entry
 		code="TO-01"	name="'Eua" />
 	<iso_3166_2_entry
@@ -8726,11 +8718,11 @@
 		code="TO-04"	name="Tongatapu" />
 	<iso_3166_2_entry
 		code="TO-05"	name="Vava'u" />
-</iso_3166_subset>   
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Turkey -->
 <iso_3166_country code="TR">
-<iso_3166_subset type="Province">   
+<iso_3166_subset type="Province">
 	<iso_3166_2_entry
 		code="TR-01"	name="Adana" />
 	<iso_3166_2_entry
@@ -8893,7 +8885,7 @@
 		code="TR-66"	name="Yozgat" />
 	<iso_3166_2_entry
 		code="TR-67"	name="Zonguldak" />
-</iso_3166_subset>   
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Trinidad and Tobago -->
 <iso_3166_country code="TT">
@@ -9390,7 +9382,7 @@
 	<iso_3166_2_entry
 		code="US-WY"	name="Wyoming" />
 	<!-- The USPS Also recognizes the following Military"States" -->
-	<!-- (Europe includes Africa, Middile East)  -->
+	<!-- (Europe includes Africa, Middile East) -->
 	<iso_3166_2_entry
 		code="US-AE"	name="Armed Forces Europe" />
 	<iso_3166_2_entry
@@ -9771,7 +9763,7 @@
 </iso_3166_country>
 	<!-- South Africa -->
 <iso_3166_country code="ZA">
-<iso_3166_subset type="Province">   
+<iso_3166_subset type="Province">
 	<iso_3166_2_entry
 		code="ZA-EC"	name="Eastern Cape" />
 	<iso_3166_2_entry
@@ -9790,7 +9782,7 @@
 		code="ZA-NW"	name="North-West" />
 	<iso_3166_2_entry
 		code="ZA-WC"	name="Western Cape" />
-</iso_3166_subset>   
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Zambia -->
 <iso_3166_country code="ZM">
