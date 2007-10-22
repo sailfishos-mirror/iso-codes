@@ -24,10 +24,10 @@
 <!DOCTYPE iso_3166_2_entries [
 	<!ELEMENT iso_3166_2_entries (iso_3166_country+)>
 	<!ELEMENT iso_3166_country (
-		iso_3166_subset*	|
-		geographical_region*	|
-		iso_3166_2_entry*
-	)>
+		iso_3166_subset	|
+		geographical_region	|
+		iso_3166_2_entry
+	)*>
 	<!ATTLIST iso_3166_country
 		code			CDATA	#REQUIRED
 	>
@@ -93,7 +93,6 @@
 	<!-- Afghanistan -->
 <iso_3166_country code="AF">
 <iso_3166_subset type="Province">
-</iso_3166_subset>
 	<iso_3166_2_entry
 		code="AF-BDS"	name="Badakhshān" />
 	<iso_3166_2_entry
@@ -162,6 +161,7 @@
 		code="AF-WAR"	name="Wardak [Wardag]" />
 	<iso_3166_2_entry
 		code="AF-ZAB"	name="Zābol [Zābul]" />
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Antigua and Barbuda -->
 <iso_3166_country code="AG">
@@ -1481,7 +1481,7 @@
 	<iso_3166_2_entry
 		code="CI-10"	name="Denguélé (Région du)" />
 	<iso_3166_2_entry
-		code="CI-18"	name"Fromager (Région du)" />
+		code="CI-18"	name="Fromager (Région du)" />
 	<iso_3166_2_entry
 		code="CI-02"	name="Haut-Sassandra (Région du)" />
 	<iso_3166_2_entry
@@ -3371,7 +3371,7 @@
 <iso_3166_subset type="Dependency">
 	<iso_3166_2_entry
 		code="GD-10"	name="Southern Grenadine Islands" />
-</iso_3166_subse>
+</iso_3166_subset>
 </iso_3166_country>
 <iso_3166_country code="GE">
 	<!-- Georgia -->
@@ -3890,7 +3890,7 @@
 </iso_3166_country>
 	<!-- Haiti -->
 <iso_3166_country code="HT">
-	<iso_3166_2 entry
+	<iso_3166_2_entry
 		code="HT-AR"	name="Artibonite" />
 	<iso_3166_2_entry
 		code="HT-CE"	name="Centre" />
@@ -4090,7 +4090,7 @@
 </iso_3166_country>
 	<!-- Ireland -->
 <iso_3166_country code="IE">
-<iso_3166_sudset type="Province">
+<iso_3166_subset type="Province">
 	<iso_3166_2_entry
 		code="IE C"	name="Connacht" />
 	<iso_3166_2_entry
@@ -9718,7 +9718,6 @@
 		code="WS-VS"	name="Vaisigano" />
 </iso_3166_country>
 	<!-- Yemen -->
-</iso_3166_country>
 <iso_3166_country code="YE">
 <iso_3166_subset type="Governorate">
 	<iso_3166_2_entry
