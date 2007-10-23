@@ -43,6 +43,7 @@
 	<!ATTLIST iso_3166_2_entry
 		code			CDATA	#REQUIRED
 		name			CDATA	#REQUIRED
+		parent			CDATA	#IMPLIED
 	>
 	<!ELEMENT region EMPTY>
 	<!ATTLIST region
@@ -214,77 +215,77 @@
 </iso_3166_subset>
 <iso_3166_subset type="District">
 	<iso_3166_2_entry
-		code="AL-BR"	name="Berat" />
+		code="AL-BR"	name="Berat"	parent="1" />
 	<iso_3166_2_entry
-		code="AL-BU"	name="Bulqizë" />
+		code="AL-BU"	name="Bulqizë"	parent="9" />
 	<iso_3166_2_entry
-		code="AL-DL"	name="Delvinë" />
+		code="AL-DL"	name="Delvinë"	parent="12" />
 	<iso_3166_2_entry
-		code="AL-DV"	name="Devoll" />
+		code="AL-DV"	name="Devoll"	parent="6" />
 	<iso_3166_2_entry
-		code="AL-DI"	name="Dibër" />
+		code="AL-DI"	name="Dibër"	parent="9" />
 	<iso_3166_2_entry
-		code="AL-DR"	name="Durrës" />
+		code="AL-DR"	name="Durrës"	parent="2" />
 	<iso_3166_2_entry
-		code="AL-EL"	name="Elbasan" />
+		code="AL-EL"	name="Elbasan"	parent="3" />
 	<iso_3166_2_entry
-		code="AL-FR"	name="Fier" />
+		code="AL-FR"	name="Fier"	parent="4" />
 	<iso_3166_2_entry
-		code="AL-GR"	name="Gramsh" />
+		code="AL-GR"	name="Gramsh"	parent="3" />
 	<iso_3166_2_entry
-		code="AL-GJ"	name="Gjirokastër" />
+		code="AL-GJ"	name="Gjirokastër"	parent="5" />
 	<iso_3166_2_entry
-		code="AL-HA"	name="Has" />
+		code="AL-HA"	name="Has"	parent="7" />
 	<iso_3166_2_entry
-		code="AL-KA"	name="Kavajë" />
+		code="AL-KA"	name="Kavajë"	parent="11" />
 	<iso_3166_2_entry
-		code="AL-ER"	name="Kolonjë" />
+		code="AL-ER"	name="Kolonjë"	parent="6" />
 	<iso_3166_2_entry
-		code="AL-KO"	name="Korçë" />
+		code="AL-KO"	name="Korçë"	parent="6" />
 	<iso_3166_2_entry
-		code="AL-KR"	name="Krujë" />
+		code="AL-KR"	name="Krujë"	parent="2" />
 	<iso_3166_2_entry
-		code="AL-KC"	name="Kuçovë" />
+		code="AL-KC"	name="Kuçovë"	parent="1" />
 	<iso_3166_2_entry
-		code="AL-KU"	name="Kukës" />
+		code="AL-KU"	name="Kukës"	parent="7" />
 	<iso_3166_2_entry
-		code="AL-KB"	name="Kurbin" />
+		code="AL-KB"	name="Kurbin"	parent="8" />
 	<iso_3166_2_entry
-		code="AL-LE"	name="Lezhë" />
+		code="AL-LE"	name="Lezhë"	parent="8" />
 	<iso_3166_2_entry
-		code="AL-LB"	name="Librazhd" />
+		code="AL-LB"	name="Librazhd"	parent="3" />
 	<iso_3166_2_entry
-		code="AL-LU"	name="Lushnjë" />
+		code="AL-LU"	name="Lushnjë"	parent="4" />
 	<iso_3166_2_entry
-		code="AL-MM"	name="Malësi e Madhe" />
+		code="AL-MM"	name="Malësi e Madhe"	parent="10" />
 	<iso_3166_2_entry
-		code="AL-MK"	name="Mallakastër" />
+		code="AL-MK"	name="Mallakastër"	parent="4" />
 	<iso_3166_2_entry
-		code="AL-MT"	name="Mat" />
+		code="AL-MT"	name="Mat"	parent="9" />
 	<iso_3166_2_entry
-		code="AL-MR"	name="Mirditë" />
+		code="AL-MR"	name="Mirditë"	parent="8" />
 	<iso_3166_2_entry
-		code="AL-PQ"	name="Peqin" />
+		code="AL-PQ"	name="Peqin"	parent="3" />
 	<iso_3166_2_entry
-		code="AL-PR"	name="Përmet" />
+		code="AL-PR"	name="Përmet"	parent="5" />
 	<iso_3166_2_entry
-		code="AL-PG"	name="Pogradec" />
+		code="AL-PG"	name="Pogradec"	parent="6" />
 	<iso_3166_2_entry
-		code="AL-PU"	name="Pukë" />
+		code="AL-PU"	name="Pukë"	parent="10" />
 	<iso_3166_2_entry
-		code="AL-SR"	name="Sarandë" />
+		code="AL-SR"	name="Sarandë"	parent="12" />
 	<iso_3166_2_entry
-		code="AL-SK"	name="Skrapar" />
+		code="AL-SK"	name="Skrapar"	parent="1" />
 	<iso_3166_2_entry
-		code="AL-SH"	name="Shkodër" />
+		code="AL-SH"	name="Shkodër"	parent="10" />
 	<iso_3166_2_entry
-		code="AL-TE"	name="Tepelenë" />
+		code="AL-TE"	name="Tepelenë"	parent="5" />
 	<iso_3166_2_entry
-		code="AL-TR"	name="Tiranë" />
+		code="AL-TR"	name="Tiranë"	parent="11" />
 	<iso_3166_2_entry
-		code="AL-TP"	name="Tropojë" />
+		code="AL-TP"	name="Tropojë"	parent="7" />
 	<iso_3166_2_entry
-		code="AL-VL"	name="Vlorë" />
+		code="AL-VL"	name="Vlorë"	parent="12" />
 </iso_3166_subset>
 </iso_3166_country>
 	<!-- Armenia -->
@@ -492,7 +493,7 @@
 	<iso_3166_2_entry
 		code="AZ-AST"	name="Astara" />
 	<iso_3166_2_entry
-		code="AZ-BAB"	name="Babək" />
+		code="AZ-BAB"	name="Babək"	parent="NX" />
 	<iso_3166_2_entry
 		code="AZ-BAL"	name="Balakən" />
 	<iso_3166_2_entry
@@ -506,7 +507,7 @@
 	<iso_3166_2_entry
 		code="AZ-CAL"	name="Cəlilabab" />
 	<iso_3166_2_entry
-		code="AZ-CUL"	name="Culfa" />
+		code="AZ-CUL"	name="Culfa"	parent="NX" />
 	<iso_3166_2_entry
 		code="AZ-DAS"	name="Daşkəsən" />
 	<iso_3166_2_entry
@@ -542,7 +543,7 @@
 	<iso_3166_2_entry
 		code="AZ-OGU"	name="Oğuz" />
 	<iso_3166_2_entry
-		code="AZ-ORD"	name="Ordubad" />
+		code="AZ-ORD"	name="Ordubad"	parent="NX" />
 	<iso_3166_2_entry
 		code="AZ-QAB"	name="Qəbələ" />
 	<iso_3166_2_entry
@@ -562,9 +563,9 @@
 	<iso_3166_2_entry
 		code="AZ-SAB"	name="Sabirabad" />
 	<iso_3166_2_entry
-		code="AZ-SAD"	name="Sədərək" />
+		code="AZ-SAD"	name="Sədərək"	parent="NX" />
 	<iso_3166_2_entry
-		code="AZ-SAH"	name="Şahbuz" />
+		code="AZ-SAH"	name="Şahbuz"	parent="NX" />
 	<iso_3166_2_entry
 		code="AZ-SAK"	name="Şəki" />
 	<iso_3166_2_entry
@@ -576,7 +577,7 @@
 	<iso_3166_2_entry
 		code="AZ-SMX"	name="Samux" />
 	<iso_3166_2_entry
-		code="AZ-SAR"	name="Şərur" />
+		code="AZ-SAR"	name="Şərur"	parent="NX" />
 	<iso_3166_2_entry
 		code="AZ-SIY"	name="Siyəzən" />
 	<iso_3166_2_entry
@@ -661,133 +662,133 @@
 </iso_3166_subset>
 <iso_3166_subset type="District">
 	<iso_3166_2_entry
-		code="BD-05"	name="Bagerhat zila" />
+		code="BD-05"	name="Bagerhat zila"	parent="4" />
 	<iso_3166_2_entry
-		code="BD-01"	name="Bandarban zila" />
+		code="BD-01"	name="Bandarban zila"	parent="2" />
 	<iso_3166_2_entry
-		code="BD-02"	name="Barguna zila" />
+		code="BD-02"	name="Barguna zila"	parent="1" />
 	<iso_3166_2_entry
-		code="BD-06"	name="Barisal zila" />
+		code="BD-06"	name="Barisal zila"	parent="1" />
 	<iso_3166_2_entry
-		code="BD-07"	name="Bhola zila" />
+		code="BD-07"	name="Bhola zila"	parent="1" />
 	<iso_3166_2_entry
-		code="BD-03"	name="Bogra zila" />
+		code="BD-03"	name="Bogra zila"	parent="5" />
 	<iso_3166_2_entry
-		code="BD-04"	name="Brahmanbaria zila" />
+		code="BD-04"	name="Brahmanbaria zila"	parent="2" />
 	<iso_3166_2_entry
-		code="BD-09"	name="Chandpur zila" />
+		code="BD-09"	name="Chandpur zila"	parent="2" />
 	<iso_3166_2_entry
-		code="BD-10"	name="Chittagong zila" />
+		code="BD-10"	name="Chittagong zila"	parent="2" />
 	<iso_3166_2_entry
-		code="BD-12"	name="Chuadanga zila" />
+		code="BD-12"	name="Chuadanga zila"	parent="4" />
 	<iso_3166_2_entry
-		code="BD-08"	name="Comilla zila" />
+		code="BD-08"	name="Comilla zila"	parent="2" />
 	<iso_3166_2_entry
-		code="BD-11"	name="Cox's Bazar zila" />
+		code="BD-11"	name="Cox's Bazar zila"	parent="2" />
 	<iso_3166_2_entry
-		code="BD-13"	name="Dhaka zila" />
+		code="BD-13"	name="Dhaka zila"	parent="3" />
 	<iso_3166_2_entry
-		code="BD-14"	name="Dinajpur zila" />
+		code="BD-14"	name="Dinajpur zila"	parent="5" />
 	<iso_3166_2_entry
-		code="BD-15"	name="Faridpur zila" />
+		code="BD-15"	name="Faridpur zila"	parent="3" />
 	<iso_3166_2_entry
-		code="BD-16"	name="Feni zila" />
+		code="BD-16"	name="Feni zila"	parent="2" />
 	<iso_3166_2_entry
-		code="BD-19"	name="Gaibandha zila" />
+		code="BD-19"	name="Gaibandha zila"	parent="5" />
 	<iso_3166_2_entry
-		code="BD-18"	name="Gazipur zila" />
+		code="BD-18"	name="Gazipur zila"	parent="3" />
 	<iso_3166_2_entry
-		code="BD-17"	name="Gopalganj zila" />
+		code="BD-17"	name="Gopalganj zila"	parent="3" />
 	<iso_3166_2_entry
-		code="BD-20"	name="Habiganj zila" />
+		code="BD-20"	name="Habiganj zila"	parent="6" />
 	<iso_3166_2_entry
-		code="BD-24"	name="Jaipurhat zila" />
+		code="BD-24"	name="Jaipurhat zila"	parent="5" />
 	<iso_3166_2_entry
-		code="BD-21"	name="Jamalpur zila" />
+		code="BD-21"	name="Jamalpur zila"	parent="3" />
 	<iso_3166_2_entry
-		code="BD-22"	name="Jessore zila" />
+		code="BD-22"	name="Jessore zila"	parent="4" />
 	<iso_3166_2_entry
-		code="BD-25"	name="Jhalakati zila" />
+		code="BD-25"	name="Jhalakati zila"	parent="1" />
 	<iso_3166_2_entry
-		code="BD-23"	name="Jhenaidah zila" />
+		code="BD-23"	name="Jhenaidah zila"	parent="4" />
 	<iso_3166_2_entry
-		code="BD-29"	name="Khagrachari zila" />
+		code="BD-29"	name="Khagrachari zila"	parent="2" />
 	<iso_3166_2_entry
-		code="BD-27"	name="Khulna zila" />
+		code="BD-27"	name="Khulna zila"	parent="4" />
 	<iso_3166_2_entry
-		code="BD-26"	name="Kishorganj zila" />
+		code="BD-26"	name="Kishorganj zila"	parent="3" />
 	<iso_3166_2_entry
-		code="BD-28"	name="Kurigram zila" />
+		code="BD-28"	name="Kurigram zila"	parent="5" />
 	<iso_3166_2_entry
-		code="BD-30"	name="Kushtia zila" />
+		code="BD-30"	name="Kushtia zila"	parent="4" />
 	<iso_3166_2_entry
-		code="BD-31"	name="Lakshmipur zila" />
+		code="BD-31"	name="Lakshmipur zila"	parent="2" />
 	<iso_3166_2_entry
-		code="BD-32"	name="Lalmonirhat zila" />
+		code="BD-32"	name="Lalmonirhat zila"	parent="5" />
 	<iso_3166_2_entry
-		code="BD-36"	name="Madaripur zila" />
+		code="BD-36"	name="Madaripur zila"	parent="3" />
 	<iso_3166_2_entry
-		code="BD-37"	name="Magura zila" />
+		code="BD-37"	name="Magura zila"	parent="4" />
 	<iso_3166_2_entry
-		code="BD-33"	name="Manikganj zila" />
+		code="BD-33"	name="Manikganj zila"	parent="3" />
 	<iso_3166_2_entry
-		code="BD-39"	name="Meherpur zila" />
+		code="BD-39"	name="Meherpur zila"	parent="4" />
 	<iso_3166_2_entry
-		code="BD-38"	name="Moulvibazar zila" />
+		code="BD-38"	name="Moulvibazar zila"	parent="6" />
 	<iso_3166_2_entry
-		code="BD-35"	name="Munshiganj zila" />
+		code="BD-35"	name="Munshiganj zila"	parent="3" />
 	<iso_3166_2_entry
-		code="BD-34"	name="Mymensingh zila" />
+		code="BD-34"	name="Mymensingh zila"	parent="3" />
 	<iso_3166_2_entry
-		code="BD-48"	name="Naogaon zila" />
+		code="BD-48"	name="Naogaon zila"	parent="5" />
 	<iso_3166_2_entry
-		code="BD-43"	name="Narail zila" />
+		code="BD-43"	name="Narail zila"	parent="4" />
 	<iso_3166_2_entry
-		code="BD-40"	name="Narayanganj zila" />
+		code="BD-40"	name="Narayanganj zila"	parent="3" />
 	<iso_3166_2_entry
-		code="BD-42"	name="Narsingdi zila" />
+		code="BD-42"	name="Narsingdi zila"	parent="3" />
 	<iso_3166_2_entry
-		code="BD-44"	name="Natore zila" />
+		code="BD-44"	name="Natore zila"	parent="5" />
 	<iso_3166_2_entry
-		code="BD-45"	name="Nawabganj zila" />
+		code="BD-45"	name="Nawabganj zila"	parent="5" />
 	<iso_3166_2_entry
-		code="BD-41"	name="Netrakona zila" />
+		code="BD-41"	name="Netrakona zila"	parent="3" />
 	<iso_3166_2_entry
-		code="BD-46"	name="Nilphamari zila" />
+		code="BD-46"	name="Nilphamari zila"	parent="5" />
 	<iso_3166_2_entry
-		code="BD-47"	name="Noakhali zila" />
+		code="BD-47"	name="Noakhali zila"	parent="2" />
 	<iso_3166_2_entry
-		code="BD-49"	name="Pabna zila" />
+		code="BD-49"	name="Pabna zila"	parent="5" />
 	<iso_3166_2_entry
-		code="BD-52"	name="Panchagarh zila" />
+		code="BD-52"	name="Panchagarh zila"	parent="5" />
 	<iso_3166_2_entry
-		code="BD-51"	name="Patuakhali zila" />
+		code="BD-51"	name="Patuakhali zila"	parent="1" />
 	<iso_3166_2_entry
-		code="BD-50"	name="Pirojpur zila" />
+		code="BD-50"	name="Pirojpur zila"	parent="1" />
 	<iso_3166_2_entry
-		code="BD-53"	name="Rajbari zila" />
+		code="BD-53"	name="Rajbari zila"	parent="3" />
 	<iso_3166_2_entry
-		code="BD-54"	name="Rajshahi zila" />
+		code="BD-54"	name="Rajshahi zila"	parent="5" />
 	<iso_3166_2_entry
-		code="BD-56"	name="Rangamati zila" />
+		code="BD-56"	name="Rangamati zila"	parent="2" />
 	<iso_3166_2_entry
-		code="BD-55"	name="Rangpur zila" />
+		code="BD-55"	name="Rangpur zila"	parent="5" />
 	<iso_3166_2_entry
-		code="BD-58"	name="Satkhira zila" />
+		code="BD-58"	name="Satkhira zila"	parent="4" />
 	<iso_3166_2_entry
-		code="BD-62"	name="Shariatpur zila" />
+		code="BD-62"	name="Shariatpur zila"	parent="3" />
 	<iso_3166_2_entry
-		code="BD-57"	name="Sherpur zila" />
+		code="BD-57"	name="Sherpur zila"	parent="3" />
 	<iso_3166_2_entry
-		code="BD-59"	name="Sirajganj zila" />
+		code="BD-59"	name="Sirajganj zila"	parent="5" />
 	<iso_3166_2_entry
-		code="BD-61"	name="Sunamganj zila" />
+		code="BD-61"	name="Sunamganj zila"	parent="6" />
 	<iso_3166_2_entry
-		code="BD-60"	name="Sylhet zila" />
+		code="BD-60"	name="Sylhet zila"	parent="6" />
 	<iso_3166_2_entry
-		code="BD-63"	name="Tangail zila" />
+		code="BD-63"	name="Tangail zila"	parent="3" />
 	<iso_3166_2_entry
-		code="BD-64"	name="Thakurgaon zila" />
+		code="BD-64"	name="Thakurgaon zila"	parent="5" />
 </iso_3166_subset>
 </iso_3166_country>
 	<!-- Belgium -->
@@ -1795,39 +1796,39 @@
 </iso_3166_subset>
 <iso_3166_subset type="Municipality">
 	<iso_3166_2_entry
-		code="CV-BV"	name="Boa Vista" />
+		code="CV-BV"	name="Boa Vista"	parent="B" />
 	<iso_3166_2_entry
-		code="CV-BR"	name="Brava" />
+		code="CV-BR"	name="Brava"	parent="S" />
 	<iso_3166_2_entry
-		code="CV-CS"	name="Calheta de São Miguel" />
+		code="CV-CS"	name="Calheta de São Miguel"	parent="S" />
 	<iso_3166_2_entry
-		code="CV-MA"	name="Maio" />
+		code="CV-MA"	name="Maio"	parent="S" />
 	<iso_3166_2_entry
-		code="CV-MO"	name="Mosteiros" />
+		code="CV-MO"	name="Mosteiros"	parent="S" />
 	<iso_3166_2_entry
-		code="CV-PA"	name="Paúl" />
+		code="CV-PA"	name="Paúl"	parent="B" />
 	<iso_3166_2_entry
-		code="CV-PN"	name="Porto Novo" />
+		code="CV-PN"	name="Porto Novo"	parent="B" />
 	<iso_3166_2_entry
-		code="CV-PR"	name="Praia" />
+		code="CV-PR"	name="Praia"	parent="S" />
 	<iso_3166_2_entry
-		code="CV-RG"	name="Ribeira Grande" />
+		code="CV-RG"	name="Ribeira Grande"	parent="B" />
 	<iso_3166_2_entry
-		code="CV-SL"	name="Sal" />
+		code="CV-SL"	name="Sal"	parent="B" />
 	<iso_3166_2_entry
-		code="CV-CA"	name="Santa Catarina" />
+		code="CV-CA"	name="Santa Catarina"	parent="S" />
 	<iso_3166_2_entry
-		code="CV-CR"	name="Santa Cruz" />
+		code="CV-CR"	name="Santa Cruz"	parent="S" />
 	<iso_3166_2_entry
-		code="CV-SD"	name="São Domingos" />
+		code="CV-SD"	name="São Domingos"	parent="S" />
 	<iso_3166_2_entry
-		code="CV-SF"	name="São Filipe" />
+		code="CV-SF"	name="São Filipe"	parent="S" />
 	<iso_3166_2_entry
-		code="CV-SN"	name="São Nicolau" />
+		code="CV-SN"	name="São Nicolau"	parent="B" />
 	<iso_3166_2_entry
-		code="CV-SV"	name="São Vicente" />
+		code="CV-SV"	name="São Vicente"	parent="B" />
 	<iso_3166_2_entry
-		code="CV-TA"	name="Tarrafal" />
+		code="CV-TA"	name="Tarrafal"	parent="S" />
 </iso_3166_subset>
 </iso_3166_country>
 	<!-- Cyprus -->
@@ -2360,105 +2361,105 @@
 </iso_3166_subset>
 <iso_3166_subset type="Province">
 	<iso_3166_2_entry
-		code="ES-VI"	name="Álava" />
+		code="ES-VI"	name="Álava"	parent="PV" />
 	<iso_3166_2_entry
-		code="ES-AB"	name="Albacete" />
+		code="ES-AB"	name="Albacete"	parent="CM" />
 	<iso_3166_2_entry
-		code="ES-A"	name="Alicante" />
+		code="ES-A"	name="Alicante"	parent="VC" />
 	<iso_3166_2_entry
-		code="ES-AL"	name="Almería" />
+		code="ES-AL"	name="Almería"	parent="AN" />
 	<iso_3166_2_entry
-		code="ES-O"	name="Asturias" />
+		code="ES-O"	name="Asturias"	parent="O" />
 	<iso_3166_2_entry
-		code="ES-AV"	name="Ávila" />
+		code="ES-AV"	name="Ávila"	parent="CL" />
 	<iso_3166_2_entry
-		code="ES-BA"	name="Badajoz" />
+		code="ES-BA"	name="Badajoz"	parent="EX" />
 	<iso_3166_2_entry
-		code="ES-IB"	name="Baleares" />
+		code="ES-IB"	name="Baleares"	parent="IB" />
 	<iso_3166_2_entry
-		code="ES-B"	name="Barcelona" />
+		code="ES-B"	name="Barcelona"	parent="CT" />
 	<iso_3166_2_entry
-		code="ES-BU"	name="Burgos" />
+		code="ES-BU"	name="Burgos"	parent="CL" />
 	<iso_3166_2_entry
-		code="ES-CC"	name="Cáceres" />
+		code="ES-CC"	name="Cáceres"	parent="EX" />
 	<iso_3166_2_entry
-		code="ES-CA"	name="Cádiz" />
+		code="ES-CA"	name="Cádiz"	parent="AN" />
 	<iso_3166_2_entry
-		code="ES-S"	name="Cantabria" />
+		code="ES-S"	name="Cantabria"	parent="S" />
 	<iso_3166_2_entry
-		code="ES-CS"	name="Castellón" />
+		code="ES-CS"	name="Castellón"	parent="VC" />
 	<iso_3166_2_entry
-		code="ES-CR"	name="Ciudad Real" />
+		code="ES-CR"	name="Ciudad Real"	parent="CM" />
 	<iso_3166_2_entry
-		code="ES-CO"	name="Córdoba" />
+		code="ES-CO"	name="Córdoba"	parent="AN" />
 	<iso_3166_2_entry
-		code="ES-CU"	name="Cuenca" />
+		code="ES-CU"	name="Cuenca"	parent="CM" />
 	<iso_3166_2_entry
-		code="ES-GI"	name="Girona" />
+		code="ES-GI"	name="Girona"	parent="CT" />
 	<iso_3166_2_entry
-		code="ES-GR"	name="Granada" />
+		code="ES-GR"	name="Granada"	parent="AN" />
 	<iso_3166_2_entry
-		code="ES-GU"	name="Guadalajara" />
+		code="ES-GU"	name="Guadalajara"	parent="CM" />
 	<iso_3166_2_entry
-		code="ES-SS"	name="Guipúzcoa" />
+		code="ES-SS"	name="Guipúzcoa"	parent="PV" />
 	<iso_3166_2_entry
-		code="ES-H"	name="Huelva" />
+		code="ES-H"	name="Huelva"	parent="AN" />
 	<iso_3166_2_entry
-		code="ES-HU"	name="Huesca" />
+		code="ES-HU"	name="Huesca"	parent="AR" />
 	<iso_3166_2_entry
-		code="ES-J"	name="Jaén" />
+		code="ES-J"	name="Jaén"	parent="AN" />
 	<iso_3166_2_entry
-		code="ES-C"	name="A Coruña" />
+		code="ES-C"	name="A Coruña"	parent="GA" />
 	<iso_3166_2_entry
-		code="ES-LO"	name="La Rioja" />
+		code="ES-LO"	name="La Rioja"	parent="LO" />
 	<iso_3166_2_entry
-		code="ES-GC"	name="Las Palmas" />
+		code="ES-GC"	name="Las Palmas"	parent="CN" />
 	<iso_3166_2_entry
-		code="ES-LE"	name="León" />
+		code="ES-LE"	name="León"	parent="CL" />
 	<iso_3166_2_entry
-		code="ES-L"	name="Lleida" />
+		code="ES-L"	name="Lleida"	parent="CT" />
 	<iso_3166_2_entry
-		code="ES-LU"	name="Lugo" />
+		code="ES-LU"	name="Lugo"	parent="GA" />
 	<iso_3166_2_entry
-		code="ES-M"	name="Madrid" />
+		code="ES-M"	name="Madrid"	parent="M" />
 	<iso_3166_2_entry
-		code="ES-MA"	name="Málaga" />
+		code="ES-MA"	name="Málaga"	parent="AN" />
 	<iso_3166_2_entry
-		code="ES-MU"	name="Murcia" />
+		code="ES-MU"	name="Murcia"	parent="MU" />
 	<iso_3166_2_entry
-		code="ES-NA"	name="Navarra" />
+		code="ES-NA"	name="Navarra"	parent="NA" />
 	<iso_3166_2_entry
-		code="ES-OR"	name="Ourense" />
+		code="ES-OR"	name="Ourense"	parent="GA" />
 	<iso_3166_2_entry
-		code="ES-P"	name="Palencia" />
+		code="ES-P"	name="Palencia"	parent="CL" />
 	<iso_3166_2_entry
-		code="ES-PO"	name="Pontevedra" />
+		code="ES-PO"	name="Pontevedra"	parent="GA" />
 	<iso_3166_2_entry
-		code="ES-SA"	name="Salamanca" />
+		code="ES-SA"	name="Salamanca"	parent="CL" />
 	<iso_3166_2_entry
-		code="ES-TF"	name="Santa Cruz de Tenerife" />
+		code="ES-TF"	name="Santa Cruz de Tenerife"	parent="CN" />
 	<iso_3166_2_entry
-		code="ES-SG"	name="Segovia" />
+		code="ES-SG"	name="Segovia"	parent="CL" />
 	<iso_3166_2_entry
-		code="ES-SE"	name="Sevilla" />
+		code="ES-SE"	name="Sevilla"	parent="AN" />
 	<iso_3166_2_entry
-		code="ES-SO"	name="Soria" />
+		code="ES-SO"	name="Soria"	parent="CL" />
 	<iso_3166_2_entry
-		code="ES-T"	name="Tarragona" />
+		code="ES-T"	name="Tarragona"	parent="CT" />
 	<iso_3166_2_entry
-		code="ES-TE"	name="Teruel" />
+		code="ES-TE"	name="Teruel"	parent="AR" />
 	<iso_3166_2_entry
-		code="ES-TO"	name="Toledo" />
+		code="ES-TO"	name="Toledo"	parent="CM" />
 	<iso_3166_2_entry
-		code="ES-V"	name="Valencia" />
+		code="ES-V"	name="Valencia"	parent="VC" />
 	<iso_3166_2_entry
-		code="ES-VA"	name="Valladolid" />
+		code="ES-VA"	name="Valladolid"	parent="CL" />
 	<iso_3166_2_entry
-		code="ES-BI"	name="Vizcaya" />
+		code="ES-BI"	name="Vizcaya"	parent="PV" />
 	<iso_3166_2_entry
-		code="ES-ZA"	name="Zamora" />
+		code="ES-ZA"	name="Zamora"	parent="CL" />
 	<iso_3166_2_entry
-		code="ES-Z"	name="Zaragoza" />
+		code="ES-Z"	name="Zaragoza"	parent="AR" />
 </iso_3166_subset>
 <iso_3166_subset type="Autonomous city">
 	<iso_3166_2_entry
@@ -2611,197 +2612,197 @@
 </iso_3166_subset>
 <iso_3166_subset type="Metropolitan department">
 	<iso_3166_2_entry
-		code="FR-01"	name="Ain" />
+		code="FR-01"	name="Ain"	parent="V" />
 	<iso_3166_2_entry
-		code="FR-02"	name="Aisne" />
+		code="FR-02"	name="Aisne"	parent="S" />
 	<iso_3166_2_entry
-		code="FR-03"	name="Allier" />
+		code="FR-03"	name="Allier"	parent="C" />
 	<iso_3166_2_entry
-		code="FR-04"	name="Alpes-de-Haute-Provence" />
+		code="FR-04"	name="Alpes-de-Haute-Provence"	parent="U" />
 	<iso_3166_2_entry
-		code="FR-06"	name="Alpes-Maritimes" />
+		code="FR-06"	name="Alpes-Maritimes"	parent="U" />
 	<iso_3166_2_entry
-		code="FR-07"	name="Ardèche" />
+		code="FR-07"	name="Ardèche"	parent="V" />
 	<iso_3166_2_entry
-		code="FR-08"	name="Ardennes" />
+		code="FR-08"	name="Ardennes"	parent="G" />
 	<iso_3166_2_entry
-		code="FR-09"	name="Ariège" />
+		code="FR-09"	name="Ariège"	parent="N" />
 	<iso_3166_2_entry
-		code="FR-10"	name="Aube" />
+		code="FR-10"	name="Aube"	parent="G" />
 	<iso_3166_2_entry
-		code="FR-11"	name="Aude" />
+		code="FR-11"	name="Aude"	parent="K" />
 	<iso_3166_2_entry
-		code="FR-12"	name="Aveyron" />
+		code="FR-12"	name="Aveyron"	parent="N" />
 	<iso_3166_2_entry
-		code="FR-67"	name="Bas-Rhin" />
+		code="FR-67"	name="Bas-Rhin"	parent="A" />
 	<iso_3166_2_entry
-		code="FR-13"	name="Bouches-du-Rhône" />
+		code="FR-13"	name="Bouches-du-Rhône"	parent="U" />
 	<iso_3166_2_entry
-		code="FR-14"	name="Calvados" />
+		code="FR-14"	name="Calvados"	parent="P" />
 	<iso_3166_2_entry
-		code="FR-15"	name="Cantal" />
+		code="FR-15"	name="Cantal"	parent="C" />
 	<iso_3166_2_entry
-		code="FR-16"	name="Charente" />
+		code="FR-16"	name="Charente"	parent="T" />
 	<iso_3166_2_entry
-		code="FR-17"	name="Charente-Maritime" />
+		code="FR-17"	name="Charente-Maritime"	parent="T" />
 	<iso_3166_2_entry
-		code="FR-18"	name="Cher" />
+		code="FR-18"	name="Cher"	parent="F" />
 	<iso_3166_2_entry
-		code="FR-19"	name="Corrèze" />
+		code="FR-19"	name="Corrèze"	parent="L" />
 	<iso_3166_2_entry
-		code="FR-2A"	name="Corse-du-Sud" />
+		code="FR-2A"	name="Corse-du-Sud"	parent="H" />
 	<iso_3166_2_entry
-		code="FR-21"	name="Côte-d'Or" />
+		code="FR-21"	name="Côte-d'Or"	parent="D" />
 	<iso_3166_2_entry
-		code="FR-22"	name="Côtes-d'Armor" />
+		code="FR-22"	name="Côtes-d'Armor"	parent="E" />
 	<iso_3166_2_entry
-		code="FR-23"	name="Creuse" />
+		code="FR-23"	name="Creuse"	parent="L" />
 	<iso_3166_2_entry
-		code="FR-79"	name="Deux-Sèvres" />
+		code="FR-79"	name="Deux-Sèvres"	parent="T" />
 	<iso_3166_2_entry
-		code="FR-24"	name="Dordogne" />
+		code="FR-24"	name="Dordogne"	parent="B" />
 	<iso_3166_2_entry
-		code="FR-25"	name="Doubs" />
+		code="FR-25"	name="Doubs"	parent="I" />
 	<iso_3166_2_entry
-		code="FR-26"	name="Drôme" />
+		code="FR-26"	name="Drôme"	parent="V" />
 	<iso_3166_2_entry
-		code="FR-91"	name="Essonne" />
+		code="FR-91"	name="Essonne"	parent="J" />
 	<iso_3166_2_entry
-		code="FR-27"	name="Eure" />
+		code="FR-27"	name="Eure"	parent="Q" />
 	<iso_3166_2_entry
-		code="FR-28"	name="Eure-et-Loir" />
+		code="FR-28"	name="Eure-et-Loir"	parent="F" />
 	<iso_3166_2_entry
-		code="FR-29"	name="Finistère" />
+		code="FR-29"	name="Finistère"	parent="E" />
 	<iso_3166_2_entry
-		code="FR-30"	name="Gard" />
+		code="FR-30"	name="Gard"	parent="K" />
 	<iso_3166_2_entry
-		code="FR-32"	name="Gers" />
+		code="FR-32"	name="Gers"	parent="N" />
 	<iso_3166_2_entry
-		code="FR-33"	name="Gironde" />
+		code="FR-33"	name="Gironde"	parent="B" />
 	<iso_3166_2_entry
-		code="FR-2B"	name="Haute-Corse" />
+		code="FR-2B"	name="Haute-Corse"	parent="H" />
 	<iso_3166_2_entry
-		code="FR-31"	name="Haute-Garonne" />
+		code="FR-31"	name="Haute-Garonne"	parent="N" />
 	<iso_3166_2_entry
-		code="FR-43"	name="Haute-Loire" />
+		code="FR-43"	name="Haute-Loire"	parent="C" />
 	<iso_3166_2_entry
-		code="FR-52"	name="Haute-Marne" />
+		code="FR-52"	name="Haute-Marne"	parent="G" />
 	<iso_3166_2_entry
-		code="FR-05"	name="Hautes-Alpes" />
+		code="FR-05"	name="Hautes-Alpes"	parent="U" />
 	<iso_3166_2_entry
-		code="FR-70"	name="Haute-Saône" />
+		code="FR-70"	name="Haute-Saône"	parent="I" />
 	<iso_3166_2_entry
-		code="FR-74"	name="Haute-Savoie" />
+		code="FR-74"	name="Haute-Savoie"	parent="V" />
 	<iso_3166_2_entry
-		code="FR-65"	name="Hautes-Pyrénées" />
+		code="FR-65"	name="Hautes-Pyrénées"	parent="N" />
 	<iso_3166_2_entry
-		code="FR-87"	name="Haute-Vienne" />
+		code="FR-87"	name="Haute-Vienne"	parent="L" />
 	<iso_3166_2_entry
-		code="FR-68"	name="Haut-Rhin" />
+		code="FR-68"	name="Haut-Rhin"	parent="A" />
 	<iso_3166_2_entry
-		code="FR-92"	name="Hauts-de-Seine" />
+		code="FR-92"	name="Hauts-de-Seine"	parent="J" />
 	<iso_3166_2_entry
-		code="FR-34"	name="Hérault" />
+		code="FR-34"	name="Hérault"	parent="K" />
 	<iso_3166_2_entry
-		code="FR-35"	name="Ille-et-Vilaine" />
+		code="FR-35"	name="Ille-et-Vilaine"	parent="E" />
 	<iso_3166_2_entry
-		code="FR-36"	name="Indre" />
+		code="FR-36"	name="Indre"	parent="F" />
 	<iso_3166_2_entry
-		code="FR-37"	name="Indre-et-Loire" />
+		code="FR-37"	name="Indre-et-Loire"	parent="F" />
 	<iso_3166_2_entry
-		code="FR-38"	name="Isère" />
+		code="FR-38"	name="Isère"	parent="V" />
 	<iso_3166_2_entry
-		code="FR-39"	name="Jura" />
+		code="FR-39"	name="Jura"	parent="I" />
 	<iso_3166_2_entry
-		code="FR-40"	name="Landes" />
+		code="FR-40"	name="Landes"	parent="B" />
 	<iso_3166_2_entry
-		code="FR-41"	name="Loir-et-Cher" />
+		code="FR-41"	name="Loir-et-Cher"	parent="F" />
 	<iso_3166_2_entry
-		code="FR-42"	name="Loire" />
+		code="FR-42"	name="Loire"	parent="V" />
 	<iso_3166_2_entry
-		code="FR-44"	name="Loire-Atlantique" />
+		code="FR-44"	name="Loire-Atlantique"	parent="R" />
 	<iso_3166_2_entry
-		code="FR-45"	name="Loiret" />
+		code="FR-45"	name="Loiret"	parent="F" />
 	<iso_3166_2_entry
-		code="FR-46"	name="Lot" />
+		code="FR-46"	name="Lot"	parent="N" />
 	<iso_3166_2_entry
-		code="FR-47"	name="Lot-et-Garonne" />
+		code="FR-47"	name="Lot-et-Garonne"	parent="B" />
 	<iso_3166_2_entry
-		code="FR-48"	name="Lozère" />
+		code="FR-48"	name="Lozère"	parent="K" />
 	<iso_3166_2_entry
-		code="FR-49"	name="Maine-et-Loire" />
+		code="FR-49"	name="Maine-et-Loire"	parent="R" />
 	<iso_3166_2_entry
-		code="FR-50"	name="Manche" />
+		code="FR-50"	name="Manche"	parent="P" />
 	<iso_3166_2_entry
-		code="FR-51"	name="Marne" />
+		code="FR-51"	name="Marne"	parent="G" />
 	<iso_3166_2_entry
-		code="FR-53"	name="Mayenne" />
+		code="FR-53"	name="Mayenne"	parent="R" />
 	<iso_3166_2_entry
-		code="FR-54"	name="Meurthe-et-Moselle" />
+		code="FR-54"	name="Meurthe-et-Moselle"	parent="M" />
 	<iso_3166_2_entry
-		code="FR-55"	name="Meuse" />
+		code="FR-55"	name="Meuse"	parent="M" />
 	<iso_3166_2_entry
-		code="FR-56"	name="Morbihan" />
+		code="FR-56"	name="Morbihan"	parent="E" />
 	<iso_3166_2_entry
-		code="FR-57"	name="Moselle" />
+		code="FR-57"	name="Moselle"	parent="M" />
 	<iso_3166_2_entry
-		code="FR-58"	name="Nièvre" />
+		code="FR-58"	name="Nièvre"	parent="D" />
 	<iso_3166_2_entry
-		code="FR-59"	name="Nord" />
+		code="FR-59"	name="Nord"	parent="O" />
 	<iso_3166_2_entry
-		code="FR-60"	name="Oise" />
+		code="FR-60"	name="Oise"	parent="S" />
 	<iso_3166_2_entry
-		code="FR-61"	name="Orne" />
+		code="FR-61"	name="Orne"	parent="P" />
 	<iso_3166_2_entry
-		code="FR-75"	name="Paris" />
+		code="FR-75"	name="Paris"	parent="J" />
 	<iso_3166_2_entry
-		code="FR-62"	name="Pas-de-Calais" />
+		code="FR-62"	name="Pas-de-Calais"	parent="O" />
 	<iso_3166_2_entry
-		code="FR-63"	name="Puy-de-Dôme" />
+		code="FR-63"	name="Puy-de-Dôme"	parent="C" />
 	<iso_3166_2_entry
-		code="FR-64"	name="Pyrénées-Atlantiques" />
+		code="FR-64"	name="Pyrénées-Atlantiques"	parent="B" />
 	<iso_3166_2_entry
-		code="FR-66"	name="Pyrénées-Orientales" />
+		code="FR-66"	name="Pyrénées-Orientales"	parent="K" />
 	<iso_3166_2_entry
-		code="FR-69"	name="Rhône" />
+		code="FR-69"	name="Rhône"	parent="V" />
 	<iso_3166_2_entry
-		code="FR-71"	name="Saône-et-Loire" />
+		code="FR-71"	name="Saône-et-Loire"	parent="D" />
 	<iso_3166_2_entry
-		code="FR-72"	name="Sarthe" />
+		code="FR-72"	name="Sarthe"	parent="R" />
 	<iso_3166_2_entry
-		code="FR-73"	name="Savoie" />
+		code="FR-73"	name="Savoie"	parent="V" />
 	<iso_3166_2_entry
-		code="FR-77"	name="Seine-et-Marne" />
+		code="FR-77"	name="Seine-et-Marne"	parent="J" />
 	<iso_3166_2_entry
-		code="FR-76"	name="Seine-Maritime" />
+		code="FR-76"	name="Seine-Maritime"	parent="Q" />
 	<iso_3166_2_entry
-		code="FR-93"	name="Seine-Saint-Denis" />
+		code="FR-93"	name="Seine-Saint-Denis"	parent="J" />
 	<iso_3166_2_entry
-		code="FR-80"	name="Somme" />
+		code="FR-80"	name="Somme"	parent="S" />
 	<iso_3166_2_entry
-		code="FR-81"	name="Tarn" />
+		code="FR-81"	name="Tarn"	parent="N" />
 	<iso_3166_2_entry
-		code="FR-82"	name="Tarn-et-Garonne" />
+		code="FR-82"	name="Tarn-et-Garonne"	parent="N" />
 	<iso_3166_2_entry
-		code="FR-90"	name="Territoire de Belfort" />
+		code="FR-90"	name="Territoire de Belfort"	parent="I" />
 	<iso_3166_2_entry
-		code="FR-94"	name="Val-de-Marne" />
+		code="FR-94"	name="Val-de-Marne"	parent="J" />
 	<iso_3166_2_entry
-		code="FR-95"	name="Val d'Oise" />
+		code="FR-95"	name="Val d'Oise"	parent="J" />
 	<iso_3166_2_entry
-		code="FR-83"	name="Var" />
+		code="FR-83"	name="Var"	parent="U" />
 	<iso_3166_2_entry
-		code="FR-84"	name="Vaucluse" />
+		code="FR-84"	name="Vaucluse"	parent="U" />
 	<iso_3166_2_entry
-		code="FR-85"	name="Vendée" />
+		code="FR-85"	name="Vendée"	parent="R" />
 	<iso_3166_2_entry
-		code="FR-86"	name="Vienne" />
+		code="FR-86"	name="Vienne"	parent="T" />
 	<iso_3166_2_entry
-		code="FR-88"	name="Vosges" />
+		code="FR-88"	name="Vosges"	parent="M" />
 	<iso_3166_2_entry
-		code="FR-89"	name="Yonne" />
+		code="FR-89"	name="Yonne"	parent="D" />
 	<iso_3166_2_entry
-		code="FR-78"	name="Yvelines" />
+		code="FR-78"	name="Yvelines"	parent="J" />
 </iso_3166_subset>
 </iso_3166_country>
 	<!-- Great Britain -->
@@ -2823,465 +2824,465 @@
 	<!-- Scotland council areas, ie a big mess of various things altogether -->
 	<!-- in a category -->
 	<iso_3166_2_entry
-		code="GB-ABE"	name="Aberdeen City" />
+		code="GB-ABE"	name="Aberdeen City"	parent="SCT" />
 	<iso_3166_2_entry
-		code="GB-ABD"	name="Aberdeenshire" />
+		code="GB-ABD"	name="Aberdeenshire"	parent="SCT" />
 	<iso_3166_2_entry
-		code="GB-ANS"	name="Angus" />
+		code="GB-ANS"	name="Angus"	parent="SCT" />
 	<iso_3166_2_entry
-		code="GB-ANT"	name="Antrim" />
+		code="GB-ANT"	name="Antrim"	parent="NIR" />
 	<iso_3166_2_entry
-		code="GB-ARD"	name="Ards" />
+		code="GB-ARD"	name="Ards"	parent="NIR" />
 	<iso_3166_2_entry
-		code="GB-AGB"	name="Argyll and Bute" />
+		code="GB-AGB"	name="Argyll and Bute"	parent="SCT" />
 	<iso_3166_2_entry
-		code="GB-ARM"	name="Armagh" />
+		code="GB-ARM"	name="Armagh"	parent="NIR" />
 	<iso_3166_2_entry
-		code="GB-BLA"	name="Ballymena" />
+		code="GB-BLA"	name="Ballymena"	parent="NIR" />
 	<iso_3166_2_entry
-		code="GB-BLY"	name="Ballymoney" />
+		code="GB-BLY"	name="Ballymoney"	parent="NIR" />
 	<iso_3166_2_entry
-		code="GB-BNB"	name="Banbridge" />
+		code="GB-BNB"	name="Banbridge"	parent="NIR" />
 	<iso_3166_2_entry
-		code="GB-BDG"	name="Barking and Dagenham" />
+		code="GB-BDG"	name="Barking and Dagenham"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-BNE"	name="Barnet" />
+		code="GB-BNE"	name="Barnet"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-BNS"	name="Barnsley" />
+		code="GB-BNS"	name="Barnsley"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-BAS"	name="Bath and North East Somerset" />
+		code="GB-BAS"	name="Bath and North East Somerset"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-BDF"	name="Bedfordshire" />
+		code="GB-BDF"	name="Bedfordshire"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-BFS"	name="Belfast" />
+		code="GB-BFS"	name="Belfast"	parent="NIR" />
 	<iso_3166_2_entry
-		code="GB-BEX"	name="Bexley" />
+		code="GB-BEX"	name="Bexley"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-BIR"	name="Birmingham" />
+		code="GB-BIR"	name="Birmingham"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-BBD"	name="Blackburn with Darwen" />
+		code="GB-BBD"	name="Blackburn with Darwen"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-BPL"	name="Blackpool" />
+		code="GB-BPL"	name="Blackpool"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-BGW"	name="Blaenau Gwent" />
+		code="GB-BGW"	name="Blaenau Gwent"	parent="WLS" />
 	<iso_3166_2_entry
-		code="GB-BOL"	name="Bolton" />
+		code="GB-BOL"	name="Bolton"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-BMH"	name="Bournemouth" />
+		code="GB-BMH"	name="Bournemouth"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-BRC"	name="Bracknell Forest" />
+		code="GB-BRC"	name="Bracknell Forest"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-BRD"	name="Bradford" />
+		code="GB-BRD"	name="Bradford"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-BEN"	name="Brent" />
+		code="GB-BEN"	name="Brent"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-BGE"	name="Bridgend" />
+		code="GB-BGE"	name="Bridgend"	parent="WLS" />
 	<iso_3166_2_entry
-		code="GB-BNH"	name="Brighton and Hove" />
+		code="GB-BNH"	name="Brighton and Hove"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-BST"	name="Bristol, City of" />
+		code="GB-BST"	name="Bristol, City of"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-BRY"	name="Bromley" />
+		code="GB-BRY"	name="Bromley"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-BKM"	name="Buckinghamshire" />
+		code="GB-BKM"	name="Buckinghamshire"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-BUR"	name="Bury" />
+		code="GB-BUR"	name="Bury"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-CAY"	name="Caerphilly" />
+		code="GB-CAY"	name="Caerphilly"	parent="WLS" />
 	<iso_3166_2_entry
-		code="GB-CLD"	name="Calderdale" />
+		code="GB-CLD"	name="Calderdale"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-CAM"	name="Cambridgeshire" />
+		code="GB-CAM"	name="Cambridgeshire"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-CMD"	name="Camden" />
+		code="GB-CMD"	name="Camden"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-CRF"	name="Cardiff" />
+		code="GB-CRF"	name="Cardiff"	parent="WLS" />
 	<iso_3166_2_entry
-		code="GB-CMN"	name="Carmarthenshire" />
+		code="GB-CMN"	name="Carmarthenshire"	parent="WLS" />
 	<iso_3166_2_entry
-		code="GB-CKF"	name="Carrickfergus" />
+		code="GB-CKF"	name="Carrickfergus"	parent="NIR" />
 	<iso_3166_2_entry
-		code="GB-CSR"	name="Castlereagh" />
+		code="GB-CSR"	name="Castlereagh"	parent="NIR" />
 	<iso_3166_2_entry
-		code="GB-CGN"	name="Ceredigion" />
+		code="GB-CGN"	name="Ceredigion"	parent="WLS" />
 	<iso_3166_2_entry
-		code="GB-CHS"	name="Cheshire" />
+		code="GB-CHS"	name="Cheshire"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-CLK"	name="Clackmannanshire" />
+		code="GB-CLK"	name="Clackmannanshire"	parent="SCT" />
 	<iso_3166_2_entry
-		code="GB-CLR"	name="Coleraine" />
+		code="GB-CLR"	name="Coleraine"	parent="NIR" />
 	<iso_3166_2_entry
-		code="GB-CWY"	name="Conwy" />
+		code="GB-CWY"	name="Conwy"	parent="WLS" />
 	<iso_3166_2_entry
-		code="GB-CKT"	name="Cookstown" />
+		code="GB-CKT"	name="Cookstown"	parent="NIR" />
 	<iso_3166_2_entry
-		code="GB-CON"	name="Cornwall" />
+		code="GB-CON"	name="Cornwall"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-COV"	name="Coventry" />
+		code="GB-COV"	name="Coventry"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-CGV"	name="Craigavon" />
+		code="GB-CGV"	name="Craigavon"	parent="NIR" />
 	<iso_3166_2_entry
-		code="GB-CRY"	name="Croydon" />
+		code="GB-CRY"	name="Croydon"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-CMA"	name="Cumbria" />
+		code="GB-CMA"	name="Cumbria"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-DAL"	name="Darlington" />
+		code="GB-DAL"	name="Darlington"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-DEN"	name="Denbighshire" />
+		code="GB-DEN"	name="Denbighshire"	parent="WLS" />
 	<iso_3166_2_entry
-		code="GB-DER"	name="Derby" />
+		code="GB-DER"	name="Derby"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-DBY"	name="Derbyshire" />
+		code="GB-DBY"	name="Derbyshire"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-DRY"	name="Derry" />
+		code="GB-DRY"	name="Derry"	parent="NIR" />
 	<iso_3166_2_entry
-		code="GB-DEV"	name="Devon" />
+		code="GB-DEV"	name="Devon"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-DNC"	name="Doncaster" />
+		code="GB-DNC"	name="Doncaster"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-DOR"	name="Dorset" />
+		code="GB-DOR"	name="Dorset"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-DOW"	name="Down" />
+		code="GB-DOW"	name="Down"	parent="NIR" />
 	<iso_3166_2_entry
-		code="GB-DUD"	name="Dudley" />
+		code="GB-DUD"	name="Dudley"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-DGY"	name="Dumfries and Galloway" />
+		code="GB-DGY"	name="Dumfries and Galloway"	parent="SCT" />
 	<iso_3166_2_entry
-		code="GB-DND"	name="Dundee City" />
+		code="GB-DND"	name="Dundee City"	parent="SCT" />
 	<iso_3166_2_entry
-		code="GB-DGN"	name="Dungannon" />
+		code="GB-DGN"	name="Dungannon"	parent="NIR" />
 	<iso_3166_2_entry
-		code="GB-DUR"	name="Durham" />
+		code="GB-DUR"	name="Durham"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-EAL"	name="Ealing" />
+		code="GB-EAL"	name="Ealing"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-EAY"	name="East Ayrshire" />
+		code="GB-EAY"	name="East Ayrshire"	parent="SCT" />
 	<iso_3166_2_entry
-		code="GB-EDU"	name="East Dunbartonshire" />
+		code="GB-EDU"	name="East Dunbartonshire"	parent="SCT" />
 	<iso_3166_2_entry
-		code="GB-ELN"	name="East Lothian" />
+		code="GB-ELN"	name="East Lothian"	parent="SCT" />
 	<iso_3166_2_entry
-		code="GB-ERW"	name="East Renfrewshire" />
+		code="GB-ERW"	name="East Renfrewshire"	parent="SCT" />
 	<iso_3166_2_entry
-		code="GB-ERY"	name="East Riding of Yorkshire" />
+		code="GB-ERY"	name="East Riding of Yorkshire"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-ESX"	name="East Sussex" />
+		code="GB-ESX"	name="East Sussex"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-EDH"	name="Edinburgh, City of" />
+		code="GB-EDH"	name="Edinburgh, City of"	parent="SCT" />
 	<iso_3166_2_entry
-		code="GB-ELS"	name="Eilean Siar" />
+		code="GB-ELS"	name="Eilean Siar"	parent="SCT" />
 	<iso_3166_2_entry
-		code="GB-ENF"	name="Enfield" />
+		code="GB-ENF"	name="Enfield"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-ESS"	name="Essex" />
+		code="GB-ESS"	name="Essex"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-FAL"	name="Falkirk" />
+		code="GB-FAL"	name="Falkirk"	parent="SCT" />
 	<iso_3166_2_entry
-		code="GB-FER"	name="Fermanagh" />
+		code="GB-FER"	name="Fermanagh"	parent="NIR" />
 	<iso_3166_2_entry
-		code="GB-FIF"	name="Fife" />
+		code="GB-FIF"	name="Fife"	parent="SCT" />
 	<iso_3166_2_entry
-		code="GB-FLN"	name="Flintshire" />
+		code="GB-FLN"	name="Flintshire"	parent="WLS" />
 	<iso_3166_2_entry
-		code="GB-GAT"	name="Gateshead" />
+		code="GB-GAT"	name="Gateshead"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-GLG"	name="Glasgow City" />
+		code="GB-GLG"	name="Glasgow City"	parent="SCT" />
 	<iso_3166_2_entry
-		code="GB-GLS"	name="Gloucestershire" />
+		code="GB-GLS"	name="Gloucestershire"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-GRE"	name="Greenwich" />
+		code="GB-GRE"	name="Greenwich"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-GWN"	name="Gwynedd" />
+		code="GB-GWN"	name="Gwynedd"	parent="WLS" />
 	<iso_3166_2_entry
-		code="GB-HCK"	name="Hackney" />
+		code="GB-HCK"	name="Hackney"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-HAL"	name="Halton" />
+		code="GB-HAL"	name="Halton"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-HMF"	name="Hammersmith and Fulham" />
+		code="GB-HMF"	name="Hammersmith and Fulham"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-HAM"	name="Hampshire" />
+		code="GB-HAM"	name="Hampshire"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-HRY"	name="Haringey" />
+		code="GB-HRY"	name="Haringey"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-HRW"	name="Harrow" />
+		code="GB-HRW"	name="Harrow"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-HPL"	name="Hartlepool" />
+		code="GB-HPL"	name="Hartlepool"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-HAV"	name="Havering" />
+		code="GB-HAV"	name="Havering"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-HEF"	name="Herefordshire, County of" />
+		code="GB-HEF"	name="Herefordshire, County of"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-HRT"	name="Hertfordshire" />
+		code="GB-HRT"	name="Hertfordshire"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-HED"	name="Highland" />
+		code="GB-HED"	name="Highland"	parent="SCT" />
 	<iso_3166_2_entry
-		code="GB-HIL"	name="Hillingdon" />
+		code="GB-HIL"	name="Hillingdon"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-HNS"	name="Hounslow" />
+		code="GB-HNS"	name="Hounslow"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-IVC"	name="Inverclyde" />
+		code="GB-IVC"	name="Inverclyde"	parent="SCT" />
 	<iso_3166_2_entry
-		code="GB-AGY"	name="Isle of Anglesey" />
+		code="GB-AGY"	name="Isle of Anglesey"	parent="WLS" />
 	<iso_3166_2_entry
-		code="GB-IOW"	name="Isle of Wight" />
+		code="GB-IOW"	name="Isle of Wight"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-IOS"	name="Isles of Scilly" />
+		code="GB-IOS"	name="Isles of Scilly"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-ISL"	name="Islington" />
+		code="GB-ISL"	name="Islington"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-KEC"	name="Kensington and Chelsea" />
+		code="GB-KEC"	name="Kensington and Chelsea"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-KEN"	name="Kent" />
+		code="GB-KEN"	name="Kent"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-KHL"	name="Kingston upon Hull, City of" />
+		code="GB-KHL"	name="Kingston upon Hull, City of"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-KTT"	name="Kingston upon Thames" />
+		code="GB-KTT"	name="Kingston upon Thames"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-KIR"	name="Kirklees" />
+		code="GB-KIR"	name="Kirklees"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-KWL"	name="Knowsley" />
+		code="GB-KWL"	name="Knowsley"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-LBH"	name="Lambeth" />
+		code="GB-LBH"	name="Lambeth"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-LAN"	name="Lancashire" />
+		code="GB-LAN"	name="Lancashire"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-LRN"	name="Larne" />
+		code="GB-LRN"	name="Larne"	parent="NIR" />
 	<iso_3166_2_entry
-		code="GB-LDS"	name="Leeds" />
+		code="GB-LDS"	name="Leeds"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-LCE"	name="Leicester" />
+		code="GB-LCE"	name="Leicester"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-LEC"	name="Leicestershire" />
+		code="GB-LEC"	name="Leicestershire"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-LEW"	name="Lewisham" />
+		code="GB-LEW"	name="Lewisham"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-LMV"	name="Limavady" />
+		code="GB-LMV"	name="Limavady"	parent="NIR" />
 	<iso_3166_2_entry
-		code="GB-LIN"	name="Lincolnshire" />
+		code="GB-LIN"	name="Lincolnshire"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-LSB"	name="Lisburn" />
+		code="GB-LSB"	name="Lisburn"	parent="NIR" />
 	<iso_3166_2_entry
-		code="GB-LIV"	name="Liverpool" />
+		code="GB-LIV"	name="Liverpool"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-LND"	name="London, City of" />
+		code="GB-LND"	name="London, City of"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-LUT"	name="Luton" />
+		code="GB-LUT"	name="Luton"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-MFT"	name="Magherafelt" />
+		code="GB-MFT"	name="Magherafelt"	parent="NIR" />
 	<iso_3166_2_entry
-		code="GB-MAN"	name="Manchester" />
+		code="GB-MAN"	name="Manchester"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-MDW"	name="Medway" />
+		code="GB-MDW"	name="Medway"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-MTY"	name="Merthyr Tydfil" />
+		code="GB-MTY"	name="Merthyr Tydfil"	parent="WLS" />
 	<iso_3166_2_entry
-		code="GB-MRT"	name="Merton" />
+		code="GB-MRT"	name="Merton"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-MDB"	name="Middlesbrough" />
+		code="GB-MDB"	name="Middlesbrough"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-MLN"	name="Midlothian" />
+		code="GB-MLN"	name="Midlothian"	parent="SCT" />
 	<iso_3166_2_entry
-		code="GB-MIK"	name="Milton Keynes" />
+		code="GB-MIK"	name="Milton Keynes"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-MON"	name="Monmouthshire" />
+		code="GB-MON"	name="Monmouthshire"	parent="WLS" />
 	<iso_3166_2_entry
-		code="GB-MRY"	name="Moray" />
+		code="GB-MRY"	name="Moray"	parent="SCT" />
 	<iso_3166_2_entry
-		code="GB-MYL"	name="Moyle" />
+		code="GB-MYL"	name="Moyle"	parent="NIR" />
 	<iso_3166_2_entry
-		code="GB-NTL"	name="Neath Port Talbot" />
+		code="GB-NTL"	name="Neath Port Talbot"	parent="WLS" />
 	<iso_3166_2_entry
-		code="GB-NET"	name="Newcastle upon Tyne" />
+		code="GB-NET"	name="Newcastle upon Tyne"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-NWM"	name="Newham" />
+		code="GB-NWM"	name="Newham"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-NWP"	name="Newport" />
+		code="GB-NWP"	name="Newport"	parent="WLS" />
 	<iso_3166_2_entry
-		code="GB-NYM"	name="Newry and Mourne" />
+		code="GB-NYM"	name="Newry and Mourne"	parent="NIR" />
 	<iso_3166_2_entry
-		code="GB-NTA"	name="Newtownabbey" />
+		code="GB-NTA"	name="Newtownabbey"	parent="NIR" />
 	<iso_3166_2_entry
-		code="GB-NFK"	name="Norfolk" />
+		code="GB-NFK"	name="Norfolk"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-NAY"	name="North Ayrshire" />
+		code="GB-NAY"	name="North Ayrshire"	parent="SCT" />
 	<iso_3166_2_entry
-		code="GB-NDN"	name="North Down" />
+		code="GB-NDN"	name="North Down"	parent="NIR" />
 	<iso_3166_2_entry
-		code="GB-NEL"	name="North East Lincolnshire" />
+		code="GB-NEL"	name="North East Lincolnshire"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-NLK"	name="North Lanarkshire" />
+		code="GB-NLK"	name="North Lanarkshire"	parent="SCT" />
 	<iso_3166_2_entry
-		code="GB-NLN"	name="North Lincolnshire" />
+		code="GB-NLN"	name="North Lincolnshire"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-NSM"	name="North Somerset" />
+		code="GB-NSM"	name="North Somerset"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-NTY"	name="North Tyneside" />
+		code="GB-NTY"	name="North Tyneside"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-NYK"	name="North Yorkshire" />
+		code="GB-NYK"	name="North Yorkshire"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-NTH"	name="Northamptonshire" />
+		code="GB-NTH"	name="Northamptonshire"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-NBL"	name="Northumbarland" />
+		code="GB-NBL"	name="Northumbarland"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-NGM"	name="Nottingham" />
+		code="GB-NGM"	name="Nottingham"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-NTT"	name="Nottinghamshire" />
+		code="GB-NTT"	name="Nottinghamshire"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-OLD"	name="Oldham" />
+		code="GB-OLD"	name="Oldham"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-OMH"	name="Omagh" />
+		code="GB-OMH"	name="Omagh"	parent="NIR" />
 	<iso_3166_2_entry
-		code="GB-ORR"	name="Orkney Islands" />
+		code="GB-ORR"	name="Orkney Islands"	parent="SCT" />
 	<iso_3166_2_entry
-		code="GB-OXF"	name="Oxfordshire" />
+		code="GB-OXF"	name="Oxfordshire"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-PEM"	name="Pembrokeshire" />
+		code="GB-PEM"	name="Pembrokeshire"	parent="WLS" />
 	<iso_3166_2_entry
-		code="GB-PKN"	name="Perth and Kinross" />
+		code="GB-PKN"	name="Perth and Kinross"	parent="SCT" />
 	<iso_3166_2_entry
-		code="GB-PTE"	name="Peterborough" />
+		code="GB-PTE"	name="Peterborough"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-PLY"	name="Plymouth" />
+		code="GB-PLY"	name="Plymouth"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-POL"	name="Poole" />
+		code="GB-POL"	name="Poole"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-POR"	name="Portsmouth" />
+		code="GB-POR"	name="Portsmouth"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-POW"	name="Powys" />
+		code="GB-POW"	name="Powys"	parent="WLS" />
 	<iso_3166_2_entry
-		code="GB-RDG"	name="Reading" />
+		code="GB-RDG"	name="Reading"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-RDB"	name="Redbridge" />
+		code="GB-RDB"	name="Redbridge"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-RCC"	name="Redcar and Cleveland" />
+		code="GB-RCC"	name="Redcar and Cleveland"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-RFW"	name="Renfrewshire" />
+		code="GB-RFW"	name="Renfrewshire"	parent="SCT" />
 	<iso_3166_2_entry
-		code="GB-RCT"	name="Rhondda, Cynon, Taff" />
+		code="GB-RCT"	name="Rhondda, Cynon, Taff"	parent="WLS" />
 	<iso_3166_2_entry
-		code="GB-RIC"	name="Richmond upon Thames" />
+		code="GB-RIC"	name="Richmond upon Thames"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-RCH"	name="Rochdale" />
+		code="GB-RCH"	name="Rochdale"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-ROT"	name="Rotherham" />
+		code="GB-ROT"	name="Rotherham"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-RUT"	name="Rutland" />
+		code="GB-RUT"	name="Rutland"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-SLF"	name="Salford" />
+		code="GB-SLF"	name="Salford"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-SAW"	name="Sandwell" />
+		code="GB-SAW"	name="Sandwell"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-SCB"	name="Scottish Borders, The" />
+		code="GB-SCB"	name="Scottish Borders, The"	parent="SCT" />
 	<iso_3166_2_entry
-		code="GB-SFT"	name="Sefton" />
+		code="GB-SFT"	name="Sefton"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-SHF"	name="Sheffield" />
+		code="GB-SHF"	name="Sheffield"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-ZET"	name="Shetland Islands" />
+		code="GB-ZET"	name="Shetland Islands"	parent="SCT" />
 	<iso_3166_2_entry
-		code="GB-SHR"	name="Shropshire" />
+		code="GB-SHR"	name="Shropshire"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-SLG"	name="Slough" />
+		code="GB-SLG"	name="Slough"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-SOL"	name="Solihull" />
+		code="GB-SOL"	name="Solihull"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-SOM"	name="Somerset" />
+		code="GB-SOM"	name="Somerset"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-SAY"	name="South Ayrshire" />
+		code="GB-SAY"	name="South Ayrshire"	parent="SCT" />
 	<iso_3166_2_entry
-		code="GB-SGC"	name="South Gloucestershire" />
+		code="GB-SGC"	name="South Gloucestershire"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-SLK"	name="South Lanarkshire" />
+		code="GB-SLK"	name="South Lanarkshire"	parent="SCT" />
 	<iso_3166_2_entry
-		code="GB-STY"	name="South Tyneside" />
+		code="GB-STY"	name="South Tyneside"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-STH"	name="Southampton" />
+		code="GB-STH"	name="Southampton"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-SOS"	name="Southend-on-Sea" />
+		code="GB-SOS"	name="Southend-on-Sea"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-SWK"	name="Southwark" />
+		code="GB-SWK"	name="Southwark"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-SHN"	name="St. Helens" />
+		code="GB-SHN"	name="St. Helens"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-STS"	name="Staffordshire" />
+		code="GB-STS"	name="Staffordshire"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-STG"	name="Stirling" />
+		code="GB-STG"	name="Stirling"	parent="SCT" />
 	<iso_3166_2_entry
-		code="GB-SKP"	name="Stockport" />
+		code="GB-SKP"	name="Stockport"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-STT"	name="Stockton-on-Tees" />
+		code="GB-STT"	name="Stockton-on-Tees"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-STE"	name="Stoke-on-Trent" />
+		code="GB-STE"	name="Stoke-on-Trent"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-STB"	name="Strabane" />
+		code="GB-STB"	name="Strabane"	parent="NIR" />
 	<iso_3166_2_entry
-		code="GB-SFK"	name="Suffolk" />
+		code="GB-SFK"	name="Suffolk"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-SND"	name="Sunderland" />
+		code="GB-SND"	name="Sunderland"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-SRY"	name="Surrey" />
+		code="GB-SRY"	name="Surrey"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-STN"	name="Sutton" />
+		code="GB-STN"	name="Sutton"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-SWA"	name="Swansea" />
+		code="GB-SWA"	name="Swansea"	parent="WLS" />
 	<iso_3166_2_entry
-		code="GB-SWD"	name="Swindon" />
+		code="GB-SWD"	name="Swindon"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-TAM"	name="Tameside" />
+		code="GB-TAM"	name="Tameside"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-TFW"	name="Telford and Wrekin" />
+		code="GB-TFW"	name="Telford and Wrekin"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-THR"	name="Thurrock" />
+		code="GB-THR"	name="Thurrock"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-TOB"	name="Torbay" />
+		code="GB-TOB"	name="Torbay"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-TOF"	name="Torfaen" />
+		code="GB-TOF"	name="Torfaen"	parent="WLS" />
 	<iso_3166_2_entry
-		code="GB-TWH"	name="Tower Hamlets" />
+		code="GB-TWH"	name="Tower Hamlets"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-TRF"	name="Trafford" />
+		code="GB-TRF"	name="Trafford"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-VGL"	name="Vale of Glamorgan, The" />
+		code="GB-VGL"	name="Vale of Glamorgan, The"	parent="WLS" />
 	<iso_3166_2_entry
-		code="GB-WKF"	name="Wakefield" />
+		code="GB-WKF"	name="Wakefield"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-WLL"	name="Walsall" />
+		code="GB-WLL"	name="Walsall"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-WFT"	name="Waltham Forest" />
+		code="GB-WFT"	name="Waltham Forest"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-WND"	name="Wandsworth" />
+		code="GB-WND"	name="Wandsworth"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-WRT"	name="Warrington" />
+		code="GB-WRT"	name="Warrington"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-WAR"	name="Warwickshire" />
+		code="GB-WAR"	name="Warwickshire"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-WBX"	name="West Berkshire" />
+		code="GB-WBX"	name="West Berkshire"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-WDU"	name="West Dunbartonshire" />
+		code="GB-WDU"	name="West Dunbartonshire"	parent="SCT" />
 	<iso_3166_2_entry
-		code="GB-WLN"	name="West Lothian" />
+		code="GB-WLN"	name="West Lothian"	parent="SCT" />
 	<iso_3166_2_entry
-		code="GB-WSX"	name="West Sussex" />
+		code="GB-WSX"	name="West Sussex"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-WSM"	name="Westminster" />
+		code="GB-WSM"	name="Westminster"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-WGN"	name="Wigan" />
+		code="GB-WGN"	name="Wigan"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-WIL"	name="Wiltshire" />
+		code="GB-WIL"	name="Wiltshire"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-WNM"	name="Windsor and Maidenhead" />
+		code="GB-WNM"	name="Windsor and Maidenhead"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-WRL"	name="Wirral" />
+		code="GB-WRL"	name="Wirral"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-WOK"	name="Wokingham" />
+		code="GB-WOK"	name="Wokingham"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-WLV"	name="Wolverhampton" />
+		code="GB-WLV"	name="Wolverhampton"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-WOR"	name="Worcestershire" />
+		code="GB-WOR"	name="Worcestershire"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-WRX"	name="Wrexham" />
+		code="GB-WRX"	name="Wrexham"	parent="WLS" />
 	<iso_3166_2_entry
-		code="GB-YOR"	name="York" />
+		code="GB-YOR"	name="York"	parent="ENG" />
 </iso_3166_subset>
 	<!-- County names, with official abbreviations -->
 <geographical_region	type="county">
@@ -3465,71 +3466,71 @@
 </iso_3166_subset>
 <iso_3166_subset type="Prefecture">
 	<iso_3166_2_entry
-		code="GN-BE"	name="Beyla" />
+		code="GN-BE"	name="Beyla"	parent="N" />
 	<iso_3166_2_entry
-		code="GN-BF"	name="Boffa" />
+		code="GN-BF"	name="Boffa"	parent="B" />
 	<iso_3166_2_entry
-		code="GN-BK"	name="Boké" />
+		code="GN-BK"	name="Boké"	parent="B" />
 	<iso_3166_2_entry
-		code="GN-CO"	name="Coyah" />
+		code="GN-CO"	name="Coyah"	parent="D" />
 	<iso_3166_2_entry
-		code="GN-DB"	name="Dabola" />
+		code="GN-DB"	name="Dabola"	parent="F" />
 	<iso_3166_2_entry
-		code="GN-DL"	name="Dalaba" />
+		code="GN-DL"	name="Dalaba"	parent="M" />
 	<iso_3166_2_entry
-		code="GN-DI"	name="Dinguiraye" />
+		code="GN-DI"	name="Dinguiraye"	parent="F" />
 	<iso_3166_2_entry
-		code="GN-DU"	name="Dubréka" />
+		code="GN-DU"	name="Dubréka"	parent="D" />
 	<iso_3166_2_entry
-		code="GN-FA"	name="Faranah" />
+		code="GN-FA"	name="Faranah"	parent="F" />
 	<iso_3166_2_entry
-		code="GN-FO"	name="Forécariah" />
+		code="GN-FO"	name="Forécariah"	parent="D" />
 	<iso_3166_2_entry
-		code="GN-FR"	name="Fria" />
+		code="GN-FR"	name="Fria"	parent="B" />
 	<iso_3166_2_entry
-		code="GN-GA"	name="Gaoual" />
+		code="GN-GA"	name="Gaoual"	parent="B" />
 	<iso_3166_2_entry
-		code="GN-GU"	name="Guékédou" />
+		code="GN-GU"	name="Guékédou"	parent="N" />
 	<iso_3166_2_entry
-		code="GN-KA"	name="Kankan" />
+		code="GN-KA"	name="Kankan"	parent="K" />
 	<iso_3166_2_entry
-		code="GN-KE"	name="Kérouané" />
+		code="GN-KE"	name="Kérouané"	parent="K" />
 	<iso_3166_2_entry
-		code="GN-KD"	name="Kindia" />
+		code="GN-KD"	name="Kindia"	parent="D" />
 	<iso_3166_2_entry
-		code="GN-KS"	name="Kissidougou" />
+		code="GN-KS"	name="Kissidougou"	parent="F" />
 	<iso_3166_2_entry
-		code="GN-KB"	name="Koubia" />
+		code="GN-KB"	name="Koubia"	parent="L" />
 	<iso_3166_2_entry
-		code="GN-KN"	name="Koundara" />
+		code="GN-KN"	name="Koundara"	parent="B" />
 	<iso_3166_2_entry
-		code="GN-KO"	name="Kouroussa" />
+		code="GN-KO"	name="Kouroussa"	parent="K" />
 	<iso_3166_2_entry
-		code="GN-LA"	name="Labé" />
+		code="GN-LA"	name="Labé"	parent="L" />
 	<iso_3166_2_entry
-		code="GN-LE"	name="Lélouma" />
+		code="GN-LE"	name="Lélouma"	parent="L" />
 	<iso_3166_2_entry
-		code="GN-LO"	name="Lola" />
+		code="GN-LO"	name="Lola"	parent="N" />
 	<iso_3166_2_entry
-		code="GN-MC"	name="Macenta" />
+		code="GN-MC"	name="Macenta"	parent="N" />
 	<iso_3166_2_entry
-		code="GN-ML"	name="Mali" />
+		code="GN-ML"	name="Mali"	parent="L" />
 	<iso_3166_2_entry
-		code="GN-MM"	name="Mamou" />
+		code="GN-MM"	name="Mamou"	parent="M" />
 	<iso_3166_2_entry
-		code="GN-MD"	name="Mandiana" />
+		code="GN-MD"	name="Mandiana"	parent="K" />
 	<iso_3166_2_entry
-		code="GN-NZ"	name="Nzérékoré" />
+		code="GN-NZ"	name="Nzérékoré"	parent="N" />
 	<iso_3166_2_entry
-		code="GN-PI"	name="Pita" />
+		code="GN-PI"	name="Pita"	parent="M" />
 	<iso_3166_2_entry
-		code="GN-SI"	name="Siguiri" />
+		code="GN-SI"	name="Siguiri"	parent="K" />
 	<iso_3166_2_entry
-		code="GN-TE"	name="Télimélé" />
+		code="GN-TE"	name="Télimélé"	parent="D" />
 	<iso_3166_2_entry
-		code="GN-TO"	name="Tougué" />
+		code="GN-TO"	name="Tougué"	parent="L" />
 	<iso_3166_2_entry
-		code="GN-YO"	name="Yomou" />
+		code="GN-YO"	name="Yomou"	parent="N" />
 </iso_3166_subset>
 </iso_3166_country>
 	<!-- Equatorial Guinea -->
@@ -3592,113 +3593,113 @@
 </iso_3166_subset>
 <iso_3166_subset type="Prefecture">
 	<iso_3166_2_entry
-		code="GR-A1"	name="Nomós Athinón" />
+		code="GR-A1"	name="Nomós Athinón"	parent="IX" />
 	<iso_3166_2_entry
-		code="GR-A2"	name="Nomós Anatolikís Attikís" />
+		code="GR-A2"	name="Nomós Anatolikís Attikís"	parent="IX" />
 	<iso_3166_2_entry
-		code="GR-A3"	name="Nomós Peiraiós" />
+		code="GR-A3"	name="Nomós Peiraiós"	parent="IX" />
 	<iso_3166_2_entry
-		code="GR-A4"	name="Nomós Dytikís Attikís" />
+		code="GR-A4"	name="Nomós Dytikís Attikís"	parent="IX" />
 	<iso_3166_2_entry
-		code="GR-01"	name="Nomós Aitoloakarnanías" />
+		code="GR-01"	name="Nomós Aitoloakarnanías"	parent="VII" />
 	<iso_3166_2_entry
-		code="GR-03"	name="Nomós Voiotías" />
+		code="GR-03"	name="Nomós Voiotías"	parent="VIII" />
 	<iso_3166_2_entry
-		code="GR-04"	name="Nomós Évvoias" />
+		code="GR-04"	name="Nomós Évvoias"	parent="VIII" />
 	<iso_3166_2_entry
-		code="GR-05"	name="Nomós Evrytanías" />
+		code="GR-05"	name="Nomós Evrytanías"	parent="VIII" />
 	<iso_3166_2_entry
-		code="GR-06"	name="Nomós Fthiótidas" />
+		code="GR-06"	name="Nomós Fthiótidas"	parent="VIII" />
 	<iso_3166_2_entry
-		code="GR-07"	name="Nomós Fokídas" />
+		code="GR-07"	name="Nomós Fokídas"	parent="VIII" />
 	<iso_3166_2_entry
-		code="GR-11"	name="Nomós Argolídas" />
+		code="GR-11"	name="Nomós Argolídas"	parent="X" />
 	<iso_3166_2_entry
-		code="GR-12"	name="Nomós Arkadías" />
+		code="GR-12"	name="Nomós Arkadías"	parent="X" />
 	<iso_3166_2_entry
-		code="GR-13"	name="Nomós Achaḯas" />
+		code="GR-13"	name="Nomós Achaḯas"	parent="VII" />
 	<iso_3166_2_entry
-		code="GR-14"	name="Nomós Ileías" />
+		code="GR-14"	name="Nomós Ileías"	parent="VII" />
 	<iso_3166_2_entry
-		code="GR-15"	name="Nomós Korinthías" />
+		code="GR-15"	name="Nomós Korinthías"	parent="X" />
 	<iso_3166_2_entry
-		code="GR-16"	name="Nomós Lakonías" />
+		code="GR-16"	name="Nomós Lakonías"	parent="X" />
 	<iso_3166_2_entry
-		code="GR-17"	name="Nomós Messinías" />
+		code="GR-17"	name="Nomós Messinías"	parent="X" />
 	<iso_3166_2_entry
-		code="GR-21"	name="Nomós Zakýnthoy" />
+		code="GR-21"	name="Nomós Zakýnthoy"	parent="VI" />
 	<iso_3166_2_entry
-		code="GR-22"	name="Nomós Kérkyras" />
+		code="GR-22"	name="Nomós Kérkyras"	parent="VI" />
 	<iso_3166_2_entry
-		code="GR-23"	name="Nomós Kefaloniás kai Ithákis" />
+		code="GR-23"	name="Nomós Kefaloniás kai Ithákis"	parent="VI" />
 	<iso_3166_2_entry
-		code="GR-24"	name="Nomós Lefkádas" />
+		code="GR-24"	name="Nomós Lefkádas"	parent="VI" />
 	<iso_3166_2_entry
-		code="GR-31"	name="Nomós Ártas" />
+		code="GR-31"	name="Nomós Ártas"	parent="VI" />
 	<iso_3166_2_entry
-		code="GR-32"	name="Nomós Thesprotías" />
+		code="GR-32"	name="Nomós Thesprotías"	parent="IV" />
 	<iso_3166_2_entry
-		code="GR-33"	name="Nomós Ioannínon" />
+		code="GR-33"	name="Nomós Ioannínon"	parent="IV" />
 	<iso_3166_2_entry
-		code="GR-34"	name="Nomós Prévezas" />
+		code="GR-34"	name="Nomós Prévezas"	parent="IV" />
 	<iso_3166_2_entry
-		code="GR-41"	name="Nomós Kardítsas" />
+		code="GR-41"	name="Nomós Kardítsas"	parent="V" />
 	<iso_3166_2_entry
-		code="GR-42"	name="Nomós Lárissas" />
+		code="GR-42"	name="Nomós Lárissas"	parent="V" />
 	<iso_3166_2_entry
-		code="GR-43"	name="Nomós Magnisías" />
+		code="GR-43"	name="Nomós Magnisías"	parent="V" />
 	<iso_3166_2_entry
-		code="GR-44"	name="Nomós Trikálon" />
+		code="GR-44"	name="Nomós Trikálon"	parent="V" />
 	<iso_3166_2_entry
-		code="GR-51"	name="Nomós Grevenón" />
+		code="GR-51"	name="Nomós Grevenón"	parent="III" />
 	<iso_3166_2_entry
-		code="GR-52"	name="Nomós Drámas" />
+		code="GR-52"	name="Nomós Drámas"	parent="I" />
 	<iso_3166_2_entry
-		code="GR-53"	name="Nomós Imathías" />
+		code="GR-53"	name="Nomós Imathías"	parent="II" />
 	<iso_3166_2_entry
-		code="GR-54"	name="Nomós Thessaloníkis" />
+		code="GR-54"	name="Nomós Thessaloníkis"	parent="II" />
 	<iso_3166_2_entry
-		code="GR-55"	name="Nomós Kaválas" />
+		code="GR-55"	name="Nomós Kaválas"	parent="I" />
 	<iso_3166_2_entry
-		code="GR-56"	name="Nomós Kastoriás" />
+		code="GR-56"	name="Nomós Kastoriás"	parent="III" />
 	<iso_3166_2_entry
-		code="GR-57"	name="Nomós Kilkís" />
+		code="GR-57"	name="Nomós Kilkís"	parent="II" />
 	<iso_3166_2_entry
-		code="GR-58"	name="Nomós Kozánis" />
+		code="GR-58"	name="Nomós Kozánis"	parent="III" />
 	<iso_3166_2_entry
-		code="GR-59"	name="Nomós Péllas" />
+		code="GR-59"	name="Nomós Péllas"	parent="II" />
 	<iso_3166_2_entry
-		code="GR-61"	name="Nomós Pierías" />
+		code="GR-61"	name="Nomós Pierías"	parent="II" />
 	<iso_3166_2_entry
-		code="GR-62"	name="Nomós Serrón" />
+		code="GR-62"	name="Nomós Serrón"	parent="II" />
 	<iso_3166_2_entry
-		code="GR-63"	name="Nomós Flórinas" />
+		code="GR-63"	name="Nomós Flórinas"	parent="III" />
 	<iso_3166_2_entry
-		code="GR-64"	name="Nomós Chalkidikís" />
+		code="GR-64"	name="Nomós Chalkidikís"	parent="II" />
 	<iso_3166_2_entry
-		code="GR-71"	name="Nomós Évroy" />
+		code="GR-71"	name="Nomós Évroy"	parent="I" />
 	<iso_3166_2_entry
-		code="GR-72"	name="Nomós Xánthis" />
+		code="GR-72"	name="Nomós Xánthis"	parent="I" />
 	<iso_3166_2_entry
-		code="GR-73"	name="Nomós Rodópis" />
+		code="GR-73"	name="Nomós Rodópis"	parent="I" />
 	<iso_3166_2_entry
-		code="GR-81"	name="Nomós Dodekanísoy" />
+		code="GR-81"	name="Nomós Dodekanísoy"	parent="XII" />
 	<iso_3166_2_entry
-		code="GR-82"	name="Nomós Kykládon" />
+		code="GR-82"	name="Nomós Kykládon"	parent="XII" />
 	<iso_3166_2_entry
-		code="GR-83"	name="Nomós Lésboy" />
+		code="GR-83"	name="Nomós Lésboy"	parent="XI" />
 	<iso_3166_2_entry
-		code="GR-84"	name="Nomós Sámoy" />
+		code="GR-84"	name="Nomós Sámoy"	parent="XI" />
 	<iso_3166_2_entry
-		code="GR-85"	name="Nomós Chíoy" />
+		code="GR-85"	name="Nomós Chíoy"	parent="XI" />
 	<iso_3166_2_entry
-		code="GR-91"	name="Nomós Irakleíoy" />
+		code="GR-91"	name="Nomós Irakleíoy"	parent="XIII" />
 	<iso_3166_2_entry
-		code="GR-92"	name="Nomós Lasithíoy" />
+		code="GR-92"	name="Nomós Lasithíoy"	parent="XIII" />
 	<iso_3166_2_entry
-		code="GR-93"	name="Nomós Rethýmnoy" />
+		code="GR-93"	name="Nomós Rethýmnoy"	parent="XIII" />
 	<iso_3166_2_entry
-		code="GR-94"	name="Nomós Chaníon" />
+		code="GR-94"	name="Nomós Chaníon"	parent="XIII" />
 </iso_3166_subset>
 </iso_3166_country>
 	<!-- Guatemala -->
@@ -4011,75 +4012,75 @@
 </iso_3166_subset>
 <iso_3166_subset type="Autonomous Province">
 	<iso_3166_2_entry
-		code="ID-AC"	name="Aceh" />
+		code="ID-AC"	name="Aceh"	parent="SM" />
 </iso_3166_subset>
 <iso_3166_subset type="Province">
 	<iso_3166_2_entry
-		code="ID-BA"	name="Bali" />
+		code="ID-BA"	name="Bali"	parent="NU" />
 	<iso_3166_2_entry
-		code="ID-BB"	name="Bangka Belitung" />
+		code="ID-BB"	name="Bangka Belitung"	parent="SM" />
 	<iso_3166_2_entry
-		code="ID-BT"	name="Banten" />
+		code="ID-BT"	name="Banten"	parent="JW" />
 	<iso_3166_2_entry
-		code="ID-BE"	name="Bengkulu" />
+		code="ID-BE"	name="Bengkulu"	parent="SM" />
 	<iso_3166_2_entry
-		code="ID-GO"	name="Gorontalo" />
+		code="ID-GO"	name="Gorontalo"	parent="SL" />
 	<iso_3166_2_entry
-		code="ID-JA"	name="Jambi" />
+		code="ID-JA"	name="Jambi"	parent="SM" />
 	<iso_3166_2_entry
-		code="ID-JB"	name="Jawa Barat" />
+		code="ID-JB"	name="Jawa Barat"	parent="JW" />
 	<iso_3166_2_entry
-		code="ID-JT"	name="Jawa Tengah" />
+		code="ID-JT"	name="Jawa Tengah"	parent="JW" />
 	<iso_3166_2_entry
-		code="ID-JI"	name="Jawa Timur" />
+		code="ID-JI"	name="Jawa Timur"	parent="JW" />
 	<iso_3166_2_entry
-		code="ID-KB"	name="Kalimantan Barat" />
+		code="ID-KB"	name="Kalimantan Barat"	parent="KA" />
 	<iso_3166_2_entry
-		code="ID-KT"	name="Kalimantan Tengah" />
+		code="ID-KT"	name="Kalimantan Tengah"	parent="KA" />
 	<iso_3166_2_entry
-		code="ID-KS"	name="Kalimantan Selatan" />
+		code="ID-KS"	name="Kalimantan Selatan"	parent="KA" />
 	<iso_3166_2_entry
-		code="ID-KI"	name="Kalimantan Timur" />
+		code="ID-KI"	name="Kalimantan Timur"	parent="KA" />
 	<iso_3166_2_entry
-		code="ID-KR"	name="Kepulauan Riau" />
+		code="ID-KR"	name="Kepulauan Riau"	parent="SM" />
 	<iso_3166_2_entry
-		code="ID-LA"	name="Lampung" />
+		code="ID-LA"	name="Lampung"	parent="SM" />
 	<iso_3166_2_entry
-		code="ID-MA"	name="Maluku" />
+		code="ID-MA"	name="Maluku"	parent="MA" />
 	<iso_3166_2_entry
-		code="ID-MU"	name="Maluku Utara" />
+		code="ID-MU"	name="Maluku Utara"	parent="MA" />
 	<iso_3166_2_entry
-		code="ID-NB"	name="Nusa Tenggara Barat" />
+		code="ID-NB"	name="Nusa Tenggara Barat"	parent="NU" />
 	<iso_3166_2_entry
-		code="ID-NT"	name="Nusa Tenggara Timur" />
+		code="ID-NT"	name="Nusa Tenggara Timur"	parent="NU" />
 	<iso_3166_2_entry
-		code="ID-PA"	name="Papua" />
+		code="ID-PA"	name="Papua"	parent="IJ" />
 	<iso_3166_2_entry
-		code="ID-RI"	name="Riau" />
+		code="ID-RI"	name="Riau"	parent="SM" />
 	<iso_3166_2_entry
-		code="ID-SR"	name="Sulawesi Barat" />
+		code="ID-SR"	name="Sulawesi Barat"	parent="SL" />
 	<iso_3166_2_entry
-		code="ID-SN"	name="Sulawesi Selatan" />
+		code="ID-SN"	name="Sulawesi Selatan"	parent="SL" />
 	<iso_3166_2_entry
-		code="ID-ST"	name="Sulawesi Tengah" />
+		code="ID-ST"	name="Sulawesi Tengah"	parent="SL" />
 	<iso_3166_2_entry
-		code="ID-SG"	name="Sulawesi Tenggara" />
+		code="ID-SG"	name="Sulawesi Tenggara"	parent="SL" />
 	<iso_3166_2_entry
-		code="ID-SA"	name="Sulawesi Utara" />
+		code="ID-SA"	name="Sulawesi Utara"	parent="SL" />
 	<iso_3166_2_entry
-		code="ID-SB"	name="Sumatra Barat" />
+		code="ID-SB"	name="Sumatra Barat"	parent="SM" />
 	<iso_3166_2_entry
-		code="ID-SS"	name="Sumatra Selatan" />
+		code="ID-SS"	name="Sumatra Selatan"	parent="SM" />
 	<iso_3166_2_entry
-		code="ID-SU"	name="Sumatera Utara" />
+		code="ID-SU"	name="Sumatera Utara"	parent="SM" />
 </iso_3166_subset>
 <iso_3166_subset type="Special District">
 	<iso_3166_2_entry
-		code="ID-JK"	name="Jakarta Raya" />
+		code="ID-JK"	name="Jakarta Raya"	parent="JW" />
 </iso_3166_subset>
 <iso_3166_subset type="Special Region">
 	<iso_3166_2_entry
-		code="ID-YO"	name="Yogyakarta" />
+		code="ID-YO"	name="Yogyakarta"	parent="JW" />
 </iso_3166_subset>
 </iso_3166_country>
 	<!-- Ireland -->
@@ -4416,219 +4417,219 @@
 </iso_3166_subset>
 <iso_3166_subset type="Province">
 	<iso_3166_2_entry
-		code="IT-AG"	name="Agrigento" />
+		code="IT-AG"	name="Agrigento"	parent="82" />
 	<iso_3166_2_entry
-		code="IT-AL"	name="Alessandria" />
+		code="IT-AL"	name="Alessandria"	parent="21" />
 	<iso_3166_2_entry
-		code="IT-AN"	name="Ancona" />
+		code="IT-AN"	name="Ancona"	parent="57" />
 	<iso_3166_2_entry
-		code="IT-AO"	name="Aosta" />
+		code="IT-AO"	name="Aosta"	parent="23" />
 	<iso_3166_2_entry
-		code="IT-AR"	name="Arezzo" />
+		code="IT-AR"	name="Arezzo"	parent="52" />
 	<iso_3166_2_entry
-		code="IT-AP"	name="Ascoli Piceno" />
+		code="IT-AP"	name="Ascoli Piceno"	parent="57" />
 	<iso_3166_2_entry
-		code="IT-AT"	name="Asti" />
+		code="IT-AT"	name="Asti"	parent="21" />
 	<iso_3166_2_entry
-		code="IT-AV"	name="Avellino" />
+		code="IT-AV"	name="Avellino"	parent="72" />
 	<iso_3166_2_entry
-		code="IT-BA"	name="Bari" />
+		code="IT-BA"	name="Bari"	parent="75" />
 	<iso_3166_2_entry
-		code="IT-BL"	name="Belluno" />
+		code="IT-BL"	name="Belluno"	parent="34" />
 	<iso_3166_2_entry
-		code="IT-BN"	name="Benevento" />
+		code="IT-BN"	name="Benevento"	parent="72" />
 	<iso_3166_2_entry
-		code="IT-BG"	name="Bergamo" />
+		code="IT-BG"	name="Bergamo"	parent="25" />
 	<iso_3166_2_entry
-		code="IT-BI"	name="Biella" />
+		code="IT-BI"	name="Biella"	parent="21" />
 	<iso_3166_2_entry
-		code="IT-BO"	name="Bologna" />
+		code="IT-BO"	name="Bologna"	parent="45" />
 	<iso_3166_2_entry
-		code="IT-BZ"	name="Bolzano" />
+		code="IT-BZ"	name="Bolzano"	parent="32" />
 	<iso_3166_2_entry
-		code="IT-BS"	name="Brescia" />
+		code="IT-BS"	name="Brescia"	parent="25" />
 	<iso_3166_2_entry
-		code="IT-BR"	name="Brindisi" />
+		code="IT-BR"	name="Brindisi"	parent="75" />
 	<iso_3166_2_entry
-		code="IT-CA"	name="Cagliari" />
+		code="IT-CA"	name="Cagliari"	parent="88" />
 	<iso_3166_2_entry
-		code="IT-CL"	name="Caltanissetta" />
+		code="IT-CL"	name="Caltanissetta"	parent="82" />
 	<iso_3166_2_entry
-		code="IT-CB"	name="Campobasso" />
+		code="IT-CB"	name="Campobasso"	parent="67" />
 	<iso_3166_2_entry
-		code="IT-CI"	name="Carbonia-Iglesias" />
+		code="IT-CI"	name="Carbonia-Iglesias"	parent="88" />
 	<iso_3166_2_entry
-		code="IT-CE"	name="Caserta" />
+		code="IT-CE"	name="Caserta"	parent="72" />
 	<iso_3166_2_entry
-		code="IT-CT"	name="Catania" />
+		code="IT-CT"	name="Catania"	parent="82" />
 	<iso_3166_2_entry
-		code="IT-CZ"	name="Catanzaro" />
+		code="IT-CZ"	name="Catanzaro"	parent="78" />
 	<iso_3166_2_entry
-		code="IT-CH"	name="Chieti" />
+		code="IT-CH"	name="Chieti"	parent="65" />
 	<iso_3166_2_entry
-		code="IT-CO"	name="Como" />
+		code="IT-CO"	name="Como"	parent="25" />
 	<iso_3166_2_entry
-		code="IT-CS"	name="Cosenza" />
+		code="IT-CS"	name="Cosenza"	parent="78" />
 	<iso_3166_2_entry
-		code="IT-CR"	name="Cremona" />
+		code="IT-CR"	name="Cremona"	parent="25" />
 	<iso_3166_2_entry
-		code="IT-KR"	name="Crotone" />
+		code="IT-KR"	name="Crotone"	parent="78" />
 	<iso_3166_2_entry
-		code="IT-CN"	name="Cuneo" />
+		code="IT-CN"	name="Cuneo"	parent="21" />
 	<iso_3166_2_entry
-		code="IT-EN"	name="Enna" />
+		code="IT-EN"	name="Enna"	parent="82" />
 	<iso_3166_2_entry
-		code="IT-FE"	name="Ferrara" />
+		code="IT-FE"	name="Ferrara"	parent="45" />
 	<iso_3166_2_entry
-		code="IT-FI"	name="Firenze" />
+		code="IT-FI"	name="Firenze"	parent="52" />
 	<iso_3166_2_entry
-		code="IT-FG"	name="Foggia" />
+		code="IT-FG"	name="Foggia"	parent="75" />
 	<iso_3166_2_entry
-		code="IT-FO"	name="Forlì" />
+		code="IT-FO"	name="Forlì"	parent="45" />
 	<iso_3166_2_entry
-		code="IT-FR"	name="Frosinone" />
+		code="IT-FR"	name="Frosinone"	parent="62" />
 	<iso_3166_2_entry
-		code="IT-GE"	name="Genova" />
+		code="IT-GE"	name="Genova"	parent="42" />
 	<iso_3166_2_entry
-		code="IT-GO"	name="Gorizia" />
+		code="IT-GO"	name="Gorizia"	parent="36" />
 	<iso_3166_2_entry
-		code="IT-GR"	name="Grosseto" />
+		code="IT-GR"	name="Grosseto"	parent="52" />
 	<iso_3166_2_entry
-		code="IT-IM"	name="Imperia" />
+		code="IT-IM"	name="Imperia"	parent="42" />
 	<iso_3166_2_entry
-		code="IT-IS"	name="Isernia" />
+		code="IT-IS"	name="Isernia"	parent="67" />
 	<iso_3166_2_entry
-		code="IT-SP"	name="La Spezia" />
+		code="IT-SP"	name="La Spezia"	parent="42" />
 	<iso_3166_2_entry
-		code="IT-AQ"	name="L'Aquila" />
+		code="IT-AQ"	name="L'Aquila"	parent="65" />
 	<iso_3166_2_entry
-		code="IT-LT"	name="Latina" />
+		code="IT-LT"	name="Latina"	parent="62" />
 	<iso_3166_2_entry
-		code="IT-LE"	name="Lecce" />
+		code="IT-LE"	name="Lecce"	parent="75" />
 	<iso_3166_2_entry
-		code="IT-LC"	name="Lecco" />
+		code="IT-LC"	name="Lecco"	parent="25" />
 	<iso_3166_2_entry
-		code="IT-LI"	name="Livorno" />
+		code="IT-LI"	name="Livorno"	parent="52" />
 	<iso_3166_2_entry
-		code="IT-LO"	name="Lodi" />
+		code="IT-LO"	name="Lodi"	parent="25" />
 	<iso_3166_2_entry
-		code="IT-LU"	name="Lucca" />
+		code="IT-LU"	name="Lucca"	parent="52" />
 	<iso_3166_2_entry
-		code="IT-SC"	name="Macerata" />
+		code="IT-SC"	name="Macerata"	parent="57" />
 	<iso_3166_2_entry
-		code="IT-MN"	name="Mantova" />
+		code="IT-MN"	name="Mantova"	parent="25" />
 	<iso_3166_2_entry
-		code="IT-MS"	name="Massa-Carrara" />
+		code="IT-MS"	name="Massa-Carrara"	parent="52" />
 	<iso_3166_2_entry
-		code="IT-MT"	name="Matera" />
+		code="IT-MT"	name="Matera"	parent="77" />
 	<iso_3166_2_entry
-		code="IT-VS"	name="Medio Campidano" />
+		code="IT-VS"	name="Medio Campidano"	parent="88" />
 	<iso_3166_2_entry
-		code="IT-ME"	name="Messina" />
+		code="IT-ME"	name="Messina"	parent="82" />
 	<iso_3166_2_entry
-		code="IT-MI"	name="Milano" />
+		code="IT-MI"	name="Milano"	parent="25" />
 	<iso_3166_2_entry
-		code="IT-MO"	name="Modena" />
+		code="IT-MO"	name="Modena"	parent="45" />
 	<iso_3166_2_entry
-		code="IT-NA"	name="Napoli" />
+		code="IT-NA"	name="Napoli"	parent="72" />
 	<iso_3166_2_entry
-		code="IT-NO"	name="Novara" />
+		code="IT-NO"	name="Novara"	parent="21" />
 	<iso_3166_2_entry
-		code="IT-NU"	name="Nuoro" />
+		code="IT-NU"	name="Nuoro"	parent="88" />
 	<iso_3166_2_entry
-		code="IT-OG"	name="Ogliastra" />
+		code="IT-OG"	name="Ogliastra"	parent="88" />
 	<iso_3166_2_entry
-		code="IT-OT"	name="Olbia-Tempio" />
+		code="IT-OT"	name="Olbia-Tempio"	parent="88" />
 	<iso_3166_2_entry
-		code="IT-OR"	name="Oristano" />
+		code="IT-OR"	name="Oristano"	parent="88" />
 	<iso_3166_2_entry
-		code="IT-PD"	name="Padova" />
+		code="IT-PD"	name="Padova"	parent="34" />
 	<iso_3166_2_entry
-		code="IT-PA"	name="Palermo" />
+		code="IT-PA"	name="Palermo"	parent="82" />
 	<iso_3166_2_entry
-		code="IT-PR"	name="Parma" />
+		code="IT-PR"	name="Parma"	parent="45" />
 	<iso_3166_2_entry
-		code="IT-PV"	name="Pavia" />
+		code="IT-PV"	name="Pavia"	parent="25" />
 	<iso_3166_2_entry
-		code="IT-PG"	name="Perugia" />
+		code="IT-PG"	name="Perugia"	parent="55" />
 	<iso_3166_2_entry
-		code="IT-PS"	name="Pesaro e Urbino" />
+		code="IT-PS"	name="Pesaro e Urbino"	parent="57" />
 	<iso_3166_2_entry
-		code="IT-PE"	name="Pescara" />
+		code="IT-PE"	name="Pescara"	parent="65" />
 	<iso_3166_2_entry
-		code="IT-PC"	name="Piacenza" />
+		code="IT-PC"	name="Piacenza"	parent="45" />
 	<iso_3166_2_entry
-		code="IT-PI"	name="Pisa" />
+		code="IT-PI"	name="Pisa"	parent="52" />
 	<iso_3166_2_entry
-		code="IT-PT"	name="Pistoia" />
+		code="IT-PT"	name="Pistoia"	parent="52" />
 	<iso_3166_2_entry
-		code="IT-PN"	name="Pordenone" />
+		code="IT-PN"	name="Pordenone"	parent="36" />
 	<iso_3166_2_entry
-		code="IT-PZ"	name="Potenza" />
+		code="IT-PZ"	name="Potenza"	parent="77" />
 	<iso_3166_2_entry
-		code="IT-PO"	name="Prato" />
+		code="IT-PO"	name="Prato"	parent="52" />
 	<iso_3166_2_entry
-		code="IT-RG"	name="Ragusa" />
+		code="IT-RG"	name="Ragusa"	parent="82" />
 	<iso_3166_2_entry
-		code="IT-RA"	name="Ravenna" />
+		code="IT-RA"	name="Ravenna"	parent="45" />
 	<iso_3166_2_entry
-		code="IT-RC"	name="Reggio Calabria" />
+		code="IT-RC"	name="Reggio Calabria"	parent="78" />
 	<iso_3166_2_entry
-		code="IT-RE"	name="Reggio Emilia" />
+		code="IT-RE"	name="Reggio Emilia"	parent="45" />
 	<iso_3166_2_entry
-		code="IT-RI"	name="Rieti" />
+		code="IT-RI"	name="Rieti"	parent="62" />
 	<iso_3166_2_entry
-		code="IT-RN"	name="Rimini" />
+		code="IT-RN"	name="Rimini"	parent="45" />
 	<iso_3166_2_entry
-		code="IT-RM"	name="Roma" />
+		code="IT-RM"	name="Roma"	parent="62" />
 	<iso_3166_2_entry
-		code="IT-RO"	name="Rovigo" />
+		code="IT-RO"	name="Rovigo"	parent="34" />
 	<iso_3166_2_entry
-		code="IT-SA"	name="Salerno" />
+		code="IT-SA"	name="Salerno"	parent="72" />
 	<iso_3166_2_entry
-		code="IT-SS"	name="Sassari" />
+		code="IT-SS"	name="Sassari"	parent="88" />
 	<iso_3166_2_entry
-		code="IT-SV"	name="Savona" />
+		code="IT-SV"	name="Savona"	parent="42" />
 	<iso_3166_2_entry
-		code="IT-SI"	name="Siena" />
+		code="IT-SI"	name="Siena"	parent="52" />
 	<iso_3166_2_entry
-		code="IT-SR"	name="Siracusa" />
+		code="IT-SR"	name="Siracusa"	parent="82" />
 	<iso_3166_2_entry
-		code="IT-SO"	name="Sondrio" />
+		code="IT-SO"	name="Sondrio"	parent="25" />
 	<iso_3166_2_entry
-		code="IT-TA"	name="Taranto" />
+		code="IT-TA"	name="Taranto"	parent="75" />
 	<iso_3166_2_entry
-		code="IT-TE"	name="Teramo" />
+		code="IT-TE"	name="Teramo"	parent="65" />
 	<iso_3166_2_entry
-		code="IT-TR"	name="Terni" />
+		code="IT-TR"	name="Terni"	parent="55" />
 	<iso_3166_2_entry
-		code="IT-TO"	name="Torino" />
+		code="IT-TO"	name="Torino"	parent="21" />
 	<iso_3166_2_entry
-		code="IT-TP"	name="Trapani" />
+		code="IT-TP"	name="Trapani"	parent="82" />
 	<iso_3166_2_entry
-		code="IT-TN"	name="Trento" />
+		code="IT-TN"	name="Trento"	parent="32" />
 	<iso_3166_2_entry
-		code="IT-TV"	name="Treviso" />
+		code="IT-TV"	name="Treviso"	parent="34" />
 	<iso_3166_2_entry
-		code="IT-TS"	name="Trieste" />
+		code="IT-TS"	name="Trieste"	parent="36" />
 	<iso_3166_2_entry
-		code="IT-UD"	name="Udine" />
+		code="IT-UD"	name="Udine"	parent="36" />
 	<iso_3166_2_entry
-		code="IT-VA"	name="Varese" />
+		code="IT-VA"	name="Varese"	parent="25" />
 	<iso_3166_2_entry
-		code="IT-VE"	name="Venezia" />
+		code="IT-VE"	name="Venezia"	parent="34" />
 	<iso_3166_2_entry
-		code="IT-VB"	name="Verbano-Cusio-Ossola" />
+		code="IT-VB"	name="Verbano-Cusio-Ossola"	parent="21" />
 	<iso_3166_2_entry
-		code="IT-VC"	name="Vercelli" />
+		code="IT-VC"	name="Vercelli"	parent="21" />
 	<iso_3166_2_entry
-		code="IT-VR"	name="Verona" />
+		code="IT-VR"	name="Verona"	parent="34" />
 	<iso_3166_2_entry
-		code="IT-VV"	name="Vibo Valentia" />
+		code="IT-VV"	name="Vibo Valentia"	parent="78" />
 	<iso_3166_2_entry
-		code="IT-VI"	name="Vicenza" />
+		code="IT-VI"	name="Vicenza"	parent="34" />
 	<iso_3166_2_entry
-		code="IT-VT"	name="Viterbo" />
+		code="IT-VT"	name="Viterbo"	parent="62" />
 </iso_3166_subset>
 </iso_3166_country>
 	<!-- Jamaica -->
@@ -4905,33 +4906,33 @@
 </iso_3166_subset>
 <iso_3166_subset type="Parish">
 	<iso_3166_2_entry
-		code="KN-01"	name="Christ Church Nichola Town" />
+		code="KN-01"	name="Christ Church Nichola Town"	parent="K" />
 	<iso_3166_2_entry
-		code="KN-02"	name="Saint Anne Sandy Point" />
+		code="KN-02"	name="Saint Anne Sandy Point"	parent="K" />
 	<iso_3166_2_entry
-		code="KN-03"	name="Saint George Basseterre" />
+		code="KN-03"	name="Saint George Basseterre"	parent="K" />
 	<iso_3166_2_entry
-		code="KN-04"	name="Saint George Gingerland" />
+		code="KN-04"	name="Saint George Gingerland"	parent="N" />
 	<iso_3166_2_entry
-		code="KN-05"	name="Saint James Windward" />
+		code="KN-05"	name="Saint James Windward"	parent="N" />
 	<iso_3166_2_entry
-		code="KN-06"	name="Saint John Capisterre" />
+		code="KN-06"	name="Saint John Capisterre"	parent="K" />
 	<iso_3166_2_entry
-		code="KN-07"	name="Saint John Figtree" />
+		code="KN-07"	name="Saint John Figtree"	parent="N" />
 	<iso_3166_2_entry
-		code="KN-08"	name="Saint Mary Cayon" />
+		code="KN-08"	name="Saint Mary Cayon"	parent="K" />
 	<iso_3166_2_entry
-		code="KN-09"	name="Saint Paul Capisterre" />
+		code="KN-09"	name="Saint Paul Capisterre"	parent="K" />
 	<iso_3166_2_entry
-		code="KN-10"	name="Saint Paul Charlestown" />
+		code="KN-10"	name="Saint Paul Charlestown"	parent="N" />
 	<iso_3166_2_entry
-		code="KN-11"	name="Saint Peter Basseterre" />
+		code="KN-11"	name="Saint Peter Basseterre"	parent="K" />
 	<iso_3166_2_entry
-		code="KN-12"	name="Saint Thomas Lowland" />
+		code="KN-12"	name="Saint Thomas Lowland"	parent="N" />
 	<iso_3166_2_entry
-		code="KN-13"	name="Saint Thomas Middle Island" />
+		code="KN-13"	name="Saint Thomas Middle Island"	parent="K" />
 	<iso_3166_2_entry
-		code="KN-15"	name="Trinity Palmetto Point" />
+		code="KN-15"	name="Trinity Palmetto Point"	parent="K" />
 </iso_3166_subset>
 </iso_3166_country>
 	<!-- Comorros -->
@@ -5479,107 +5480,107 @@
 </iso_3166_subset>
 <iso_3166_subset type="Province">
 	<iso_3166_2_entry
-		code="MA-AGD"	name="Agadir" />
+		code="MA-AGD"	name="Agadir"	parent="13" />
 	<iso_3166_2_entry
-		code="MA-BAH"	name="Aït Baha" />
+		code="MA-BAH"	name="Aït Baha"	parent="13" />
 	<iso_3166_2_entry
-		code="MA-MEL"	name="Aït Melloul" />
+		code="MA-MEL"	name="Aït Melloul"	parent="13" />
 	<iso_3166_2_entry
-		code="MA-HAO"	name="Al Haouz" />
+		code="MA-HAO"	name="Al Haouz"	parent="11" />
 	<iso_3166_2_entry
-		code="MA-HOC"	name="Al Hoceïma" />
+		code="MA-HOC"	name="Al Hoceïma"	parent="03" />
 	<iso_3166_2_entry
-		code="MA-ASZ"	name="Assa-Zag" />
+		code="MA-ASZ"	name="Assa-Zag"	parent="14" />
 	<iso_3166_2_entry
-		code="MA-AZI"	name="Azilal" />
+		code="MA-AZI"	name="Azilal"	parent="12" />
 	<iso_3166_2_entry
-		code="MA-BEM"	name="Beni Mellal" />
+		code="MA-BEM"	name="Beni Mellal"	parent="12" />
 	<iso_3166_2_entry
-		code="MA-BES"	name="Ben Sllmane" />
+		code="MA-BES"	name="Ben Sllmane"	parent="09" />
 	<iso_3166_2_entry
-		code="MA-BER"	name="Berkane" />
+		code="MA-BER"	name="Berkane"	parent="04" />
 	<iso_3166_2_entry
-		code="MA-BOD"	name="Boujdour (EH)" />
+		code="MA-BOD"	name="Boujdour (EH)"	parent="15" />
 	<iso_3166_2_entry
-		code="MA-BOM"	name="Boulemane" />
+		code="MA-BOM"	name="Boulemane"	parent="05" />
 	<iso_3166_2_entry
-		code="MA-CAS"	name="Casablanca [Dar el Beïda]" />
+		code="MA-CAS"	name="Casablanca [Dar el Beïda]"	parent="08" />
 	<iso_3166_2_entry
-		code="MA-CHE"	name="Chefchaouene" />
+		code="MA-CHE"	name="Chefchaouene"	parent="01" />
 	<iso_3166_2_entry
-		code="MA-CHI"	name="Chichaoua" />
+		code="MA-CHI"	name="Chichaoua"	parent="11" />
 	<iso_3166_2_entry
-		code="MA-HAJ"	name="El Hajeb" />
+		code="MA-HAJ"	name="El Hajeb"	parent="06" />
 	<iso_3166_2_entry
-		code="MA-JDI"	name="El Jadida" />
+		code="MA-JDI"	name="El Jadida"	parent="10" />
 	<iso_3166_2_entry
-		code="MA-ERR"	name="Errachidia" />
+		code="MA-ERR"	name="Errachidia"	parent="06" />
 	<iso_3166_2_entry
-		code="MA-ESI"	name="Essaouira" />
+		code="MA-ESI"	name="Essaouira"	parent="11" />
 	<iso_3166_2_entry
-		code="MA-ESM"	name="Es Smara (EH)" />
+		code="MA-ESM"	name="Es Smara (EH)"	parent="14" />
 	<iso_3166_2_entry
-		code="MA-FES"	name="Fès" />
+		code="MA-FES"	name="Fès"	parent="05" />
 	<iso_3166_2_entry
-		code="MA-FIG"	name="Figuig" />
+		code="MA-FIG"	name="Figuig"	parent="04" />
 	<iso_3166_2_entry
-		code="MA-GUE"	name="Guelmim" />
+		code="MA-GUE"	name="Guelmim"	parent="14" />
 	<iso_3166_2_entry
-		code="MA-IFR"	name="Ifrane" />
+		code="MA-IFR"	name="Ifrane"	parent="06" />
 	<iso_3166_2_entry
-		code="MA-JRA"	name="Jerada" />
+		code="MA-JRA"	name="Jerada"	parent="04" />
 	<iso_3166_2_entry
-		code="MA-KES"	name="Kelaat Sraghna" />
+		code="MA-KES"	name="Kelaat Sraghna"	parent="11" />
 	<iso_3166_2_entry
-		code="MA-KEN"	name="Kénitra" />
+		code="MA-KEN"	name="Kénitra"	parent="02" />
 	<iso_3166_2_entry
-		code="MA-KHE"	name="Khemisaet" />
+		code="MA-KHE"	name="Khemisaet"	parent="07" />
 	<iso_3166_2_entry
-		code="MA-KHN"	name="Khenifra" />
+		code="MA-KHN"	name="Khenifra"	parent="06" />
 	<iso_3166_2_entry
-		code="MA-KHO"	name="Khouribga" />
+		code="MA-KHO"	name="Khouribga"	parent="09" />
 	<iso_3166_2_entry
-		code="MA-LAA"	name="Laâyoune (EH)" />
+		code="MA-LAA"	name="Laâyoune (EH)"	parent="15" />
 	<iso_3166_2_entry
-		code="MA-LAP"	name="Larache" />
+		code="MA-LAP"	name="Larache"	parent="01" />
 	<iso_3166_2_entry
-		code="MA-MAR"	name="Marrakech" />
+		code="MA-MAR"	name="Marrakech"	parent="11" />
 	<iso_3166_2_entry
-		code="MA-MEK"	name="Meknsès" />
+		code="MA-MEK"	name="Meknsès"	parent="06" />
 	<iso_3166_2_entry
-		code="MA-NAD"	name="Nador" />
+		code="MA-NAD"	name="Nador"	parent="04" />
 	<iso_3166_2_entry
-		code="MA-OUA"	name="Ouarzazate" />
+		code="MA-OUA"	name="Ouarzazate"	parent="13" />
 	<iso_3166_2_entry
-		code="MA-OUD"	name="Oued ed Dahab (EH)" />
+		code="MA-OUD"	name="Oued ed Dahab (EH)"	parent="16" />
 	<iso_3166_2_entry
-		code="MA-OUJ"	name="Oujda" />
+		code="MA-OUJ"	name="Oujda"	parent="04" />
 	<iso_3166_2_entry
-		code="MA-RBA"	name="Rabat-Salé" />
+		code="MA-RBA"	name="Rabat-Salé"	parent="07" />
 	<iso_3166_2_entry
-		code="MA-SAF"	name="Safi" />
+		code="MA-SAF"	name="Safi"	parent="10" />
 	<iso_3166_2_entry
-		code="MA-SEF"	name="Sefrou" />
+		code="MA-SEF"	name="Sefrou"	parent="05" />
 	<iso_3166_2_entry
-		code="MA-SET"	name="Settat" />
+		code="MA-SET"	name="Settat"	parent="09" />
 	<iso_3166_2_entry
-		code="MA-SIK"	name="Sidl Kacem" />
+		code="MA-SIK"	name="Sidl Kacem"	parent="02" />
 	<iso_3166_2_entry
-		code="MA-TNG"	name="Tanger" />
+		code="MA-TNG"	name="Tanger"	parent="01" />
 	<iso_3166_2_entry
-		code="MA-TNT"	name="Tan-Tan" />
+		code="MA-TNT"	name="Tan-Tan"	parent="14" />
 	<iso_3166_2_entry
-		code="MA-TAO"	name="Taounate" />
+		code="MA-TAO"	name="Taounate"	parent="03" />
 	<iso_3166_2_entry
-		code="MA-TAR"	name="Taroudannt" />
+		code="MA-TAR"	name="Taroudannt"	parent="13" />
 	<iso_3166_2_entry
-		code="MA-TAT"	name="Tata" />
+		code="MA-TAT"	name="Tata"	parent="14" />
 	<iso_3166_2_entry
-		code="MA-TAZ"	name="Taza" />
+		code="MA-TAZ"	name="Taza"	parent="03" />
 	<iso_3166_2_entry
-		code="MA-TET"	name="Tétouan" />
+		code="MA-TET"	name="Tétouan"	parent="01" />
 	<iso_3166_2_entry
-		code="MA-TIZ"	name="Tiznit" />
+		code="MA-TIZ"	name="Tiznit"	parent="13" />
 </iso_3166_subset>
 </iso_3166_country>
 	<!-- Moldova -->
@@ -6137,59 +6138,59 @@
 </iso_3166_subset>
 <iso_3166_subset type="District">
 	<iso_3166_2_entry
-		code="MW-BA"	name="Balaka" />
+		code="MW-BA"	name="Balaka"	parent="S" />
 	<iso_3166_2_entry
-		code="MW-BL"	name="Blantyre" />
+		code="MW-BL"	name="Blantyre"	parent="S" />
 	<iso_3166_2_entry
-		code="MW-CK"	name="Chikwawa" />
+		code="MW-CK"	name="Chikwawa"	parent="S" />
 	<iso_3166_2_entry
-		code="MW-CR"	name="Chiradzulu" />
+		code="MW-CR"	name="Chiradzulu"	parent="S" />
 	<iso_3166_2_entry
-		code="MW-CT"	name="Chitipa" />
+		code="MW-CT"	name="Chitipa"	parent="N" />
 	<iso_3166_2_entry
-		code="MW-DE"	name="Dedza" />
+		code="MW-DE"	name="Dedza"	parent="C" />
 	<iso_3166_2_entry
-		code="MW-DO"	name="Dowa" />
+		code="MW-DO"	name="Dowa"	parent="C" />
 	<iso_3166_2_entry
-		code="MW-KR"	name="Karonga" />
+		code="MW-KR"	name="Karonga"	parent="N" />
 	<iso_3166_2_entry
-		code="MW-KS"	name="Kasungu" />
+		code="MW-KS"	name="Kasungu"	parent="C" />
 	<iso_3166_2_entry
-		code="MW-LK"	name="Likoma Island" />
+		code="MW-LK"	name="Likoma Island"	parent="N" />
 	<iso_3166_2_entry
-		code="MW-LI"	name="Lilongwe" />
+		code="MW-LI"	name="Lilongwe"	parent="C" />
 	<iso_3166_2_entry
-		code="MW-MH"	name="Machinga" />
+		code="MW-MH"	name="Machinga"	parent="S" />
 	<iso_3166_2_entry
-		code="MW-MG"	name="Mangochi" />
+		code="MW-MG"	name="Mangochi"	parent="S" />
 	<iso_3166_2_entry
-		code="MW-MC"	name="Mchinji" />
+		code="MW-MC"	name="Mchinji"	parent="C" />
 	<iso_3166_2_entry
-		code="MW-MU"	name="Mulanje" />
+		code="MW-MU"	name="Mulanje"	parent="S" />
 	<iso_3166_2_entry
-		code="MW-MW"	name="Mwanza" />
+		code="MW-MW"	name="Mwanza"	parent="S" />
 	<iso_3166_2_entry
-		code="MW-MZ"	name="Mzimba" />
+		code="MW-MZ"	name="Mzimba"	parent="N" />
 	<iso_3166_2_entry
-		code="MW-NB"	name="Nkhata Bay" />
+		code="MW-NB"	name="Nkhata Bay"	parent="N" />
 	<iso_3166_2_entry
-		code="MW-NK"	name="Nkhotakota" />
+		code="MW-NK"	name="Nkhotakota"	parent="C" />
 	<iso_3166_2_entry
-		code="MW-NS"	name="Nsanje" />
+		code="MW-NS"	name="Nsanje"	parent="S" />
 	<iso_3166_2_entry
-		code="MW-NU"	name="Ntcheu" />
+		code="MW-NU"	name="Ntcheu"	parent="C" />
 	<iso_3166_2_entry
-		code="MW-NI"	name="Ntchisi" />
+		code="MW-NI"	name="Ntchisi"	parent="C" />
 	<iso_3166_2_entry
-		code="MW-PH"	name="Phalombe" />
+		code="MW-PH"	name="Phalombe"	parent="S" />
 	<iso_3166_2_entry
-		code="MW-RU"	name="Rumphi" />
+		code="MW-RU"	name="Rumphi"	parent="N" />
 	<iso_3166_2_entry
-		code="MW-SA"	name="Salima" />
+		code="MW-SA"	name="Salima"	parent="C" />
 	<iso_3166_2_entry
-		code="MW-TH"	name="Thyolo" />
+		code="MW-TH"	name="Thyolo"	parent="S" />
 	<iso_3166_2_entry
-		code="MW-ZO"	name="Zomba" />
+		code="MW-ZO"	name="Zomba"	parent="S" />
 </iso_3166_subset>
 </iso_3166_country>
 	<!-- Mexico -->
@@ -6811,163 +6812,163 @@
 </iso_3166_subset>
 <iso_3166_subset type="Province">
 	<iso_3166_2_entry
-		code="PH-ABR"	name="Abra" />
+		code="PH-ABR"	name="Abra"	parent="15" />
 	<iso_3166_2_entry
-		code="PH-AGN"	name="Agusan del Norte" />
+		code="PH-AGN"	name="Agusan del Norte"	parent="13" />
 	<iso_3166_2_entry
-		code="PH-AGS"	name="Agusan del Sur" />
+		code="PH-AGS"	name="Agusan del Sur"	parent="13" />
 	<iso_3166_2_entry
-		code="PH-AKL"	name="Aklan" />
+		code="PH-AKL"	name="Aklan"	parent="06" />
 	<iso_3166_2_entry
-		code="PH-ALB"	name="Albay" />
+		code="PH-ALB"	name="Albay"	parent="05" />
 	<iso_3166_2_entry
-		code="PH-ANT"	name="Antique" />
+		code="PH-ANT"	name="Antique"	parent="06" />
 	<iso_3166_2_entry
-		code="PH-APA"	name="Apayao" />
+		code="PH-APA"	name="Apayao"	parent="15" />
 	<iso_3166_2_entry
-		code="PH-AUR"	name="Aurora" />
+		code="PH-AUR"	name="Aurora"	parent="04" />
 	<iso_3166_2_entry
-		code="PH-BAS"	name="Basilan" />
+		code="PH-BAS"	name="Basilan"	parent="09" />
 	<iso_3166_2_entry
-		code="PH-BAN"	name="Batasn" />
+		code="PH-BAN"	name="Batasn"	parent="03" />
 	<iso_3166_2_entry
-		code="PH-BTN"	name="Batanes" />
+		code="PH-BTN"	name="Batanes"	parent="02" />
 	<iso_3166_2_entry
-		code="PH-BTG"	name="Batangas" />
+		code="PH-BTG"	name="Batangas"	parent="04" />
 	<iso_3166_2_entry
-		code="PH-BEN"	name="Benguet" />
+		code="PH-BEN"	name="Benguet"	parent="15" />
 	<iso_3166_2_entry
-		code="PH-BIL"	name="Biliran" />
+		code="PH-BIL"	name="Biliran"	parent="08" />
 	<iso_3166_2_entry
-		code="PH-BOH"	name="Bohol" />
+		code="PH-BOH"	name="Bohol"	parent="07" />
 	<iso_3166_2_entry
-		code="PH-BUK"	name="Bukidnon" />
+		code="PH-BUK"	name="Bukidnon"	parent="10" />
 	<iso_3166_2_entry
-		code="PH-BUL"	name="Bulacan" />
+		code="PH-BUL"	name="Bulacan"	parent="03" />
 	<iso_3166_2_entry
-		code="PH-CAG"	name="Cagayan" />
+		code="PH-CAG"	name="Cagayan"	parent="02" />
 	<iso_3166_2_entry
-		code="PH-CAN"	name="Camarines Norte" />
+		code="PH-CAN"	name="Camarines Norte"	parent="05" />
 	<iso_3166_2_entry
-		code="PH-CAS"	name="Camarines Sur" />
+		code="PH-CAS"	name="Camarines Sur"	parent="05" />
 	<iso_3166_2_entry
-		code="PH-CAM"	name="Camiguin" />
+		code="PH-CAM"	name="Camiguin"	parent="10" />
 	<iso_3166_2_entry
-		code="PH-CAP"	name="Capiz" />
+		code="PH-CAP"	name="Capiz"	parent="06" />
 	<iso_3166_2_entry
-		code="PH-CAT"	name="Catanduanes" />
+		code="PH-CAT"	name="Catanduanes"	parent="05" />
 	<iso_3166_2_entry
-		code="PH-CAV"	name="Cavite" />
+		code="PH-CAV"	name="Cavite"	parent="04" />
 	<iso_3166_2_entry
-		code="PH-CEB"	name="Cebu" />
+		code="PH-CEB"	name="Cebu"	parent="07" />
 	<iso_3166_2_entry
-		code="PH-COM"	name="Compostela Valley" />
+		code="PH-COM"	name="Compostela Valley"	parent="11" />
 	<iso_3166_2_entry
-		code="PH-DAV"	name="Davao del Norte" />
+		code="PH-DAV"	name="Davao del Norte"	parent="11" />
 	<iso_3166_2_entry
-		code="PH-DAS"	name="Davao del Sur" />
+		code="PH-DAS"	name="Davao del Sur"	parent="11" />
 	<iso_3166_2_entry
-		code="PH-DAO"	name="Davao Oriental" />
+		code="PH-DAO"	name="Davao Oriental"	parent="11" />
 	<iso_3166_2_entry
-		code="PH-EAS"	name="Eastern Samar" />
+		code="PH-EAS"	name="Eastern Samar"	parent="08" />
 	<iso_3166_2_entry
-		code="PH-GUI"	name="Guimaras" />
+		code="PH-GUI"	name="Guimaras"	parent="06" />
 	<iso_3166_2_entry
-		code="PH-IFU"	name="Ifugao" />
+		code="PH-IFU"	name="Ifugao"	parent="15" />
 	<iso_3166_2_entry
-		code="PH-ILN"	name="Ilocos Norte" />
+		code="PH-ILN"	name="Ilocos Norte"	parent="01" />
 	<iso_3166_2_entry
-		code="PH-ILS"	name="Ilocos Sur" />
+		code="PH-ILS"	name="Ilocos Sur"	parent="01" />
 	<iso_3166_2_entry
-		code="PH-ILI"	name="Iloilo" />
+		code="PH-ILI"	name="Iloilo"	parent="06" />
 	<iso_3166_2_entry
-		code="PH-ISA"	name="Isabela" />
+		code="PH-ISA"	name="Isabela"	parent="02" />
 	<iso_3166_2_entry
-		code="PH-KAL"	name="Kalinga-Apayso" />
+		code="PH-KAL"	name="Kalinga-Apayso"	parent="15" />
 	<iso_3166_2_entry
-		code="PH-LAG"	name="Laguna" />
+		code="PH-LAG"	name="Laguna"	parent="04" />
 	<iso_3166_2_entry
-		code="PH-LAN"	name="Lanao del Norte" />
+		code="PH-LAN"	name="Lanao del Norte"	parent="12" />
 	<iso_3166_2_entry
-		code="PH-LAS"	name="Lanao del Sur" />
+		code="PH-LAS"	name="Lanao del Sur"	parent="14" />
 	<iso_3166_2_entry
-		code="PH-LUN"	name="La Union" />
+		code="PH-LUN"	name="La Union"	parent="01" />
 	<iso_3166_2_entry
-		code="PH-LEY"	name="Leyte" />
+		code="PH-LEY"	name="Leyte"	parent="08" />
 	<iso_3166_2_entry
-		code="PH-MAG"	name="Maguindanao" />
+		code="PH-MAG"	name="Maguindanao"	parent="14" />
 	<iso_3166_2_entry
-		code="PH-MAD"	name="Marinduque" />
+		code="PH-MAD"	name="Marinduque"	parent="04" />
 	<iso_3166_2_entry
-		code="PH-MAS"	name="Masbate" />
+		code="PH-MAS"	name="Masbate"	parent="05" />
 	<iso_3166_2_entry
-		code="PH-MDC"	name="Mindoro Occidental" />
+		code="PH-MDC"	name="Mindoro Occidental"	parent="04" />
 	<iso_3166_2_entry
-		code="PH-MDR"	name="Mindoro Oriental" />
+		code="PH-MDR"	name="Mindoro Oriental"	parent="04" />
 	<iso_3166_2_entry
-		code="PH-MSC"	name="Misamis Occidental" />
+		code="PH-MSC"	name="Misamis Occidental"	parent="10" />
 	<iso_3166_2_entry
-		code="PH-MSR"	name="Misamis Oriental" />
+		code="PH-MSR"	name="Misamis Oriental"	parent="10" />
 	<iso_3166_2_entry
-		code="PH-MOU"	name="Mountain Province" />
+		code="PH-MOU"	name="Mountain Province"	parent="15" />
 	<iso_3166_2_entry
-		code="PH-NEC"	name="Negroe Occidental" />
+		code="PH-NEC"	name="Negroe Occidental"	parent="06" />
 	<iso_3166_2_entry
-		code="PH-NER"	name="Negros Oriental" />
+		code="PH-NER"	name="Negros Oriental"	parent="07" />
 	<iso_3166_2_entry
-		code="PH-NCO"	name="North Cotabato" />
+		code="PH-NCO"	name="North Cotabato"	parent="12" />
 	<iso_3166_2_entry
-		code="PH-NSA"	name="Northern Samar" />
+		code="PH-NSA"	name="Northern Samar"	parent="08" />
 	<iso_3166_2_entry
-		code="PH-NUE"	name="Nueva Ecija" />
+		code="PH-NUE"	name="Nueva Ecija"	parent="03" />
 	<iso_3166_2_entry
-		code="PH-NUV"	name="Nueva Vizcaya" />
+		code="PH-NUV"	name="Nueva Vizcaya"	parent="02" />
 	<iso_3166_2_entry
-		code="PH-PLW"	name="Palawan" />
+		code="PH-PLW"	name="Palawan"	parent="04" />
 	<iso_3166_2_entry
-		code="PH-PAM"	name="Pampanga" />
+		code="PH-PAM"	name="Pampanga"	parent="03" />
 	<iso_3166_2_entry
-		code="PH-PAN"	name="Pangasinan" />
+		code="PH-PAN"	name="Pangasinan"	parent="01" />
 	<iso_3166_2_entry
-		code="PH-QUE"	name="Quezon" />
+		code="PH-QUE"	name="Quezon"	parent="04" />
 	<iso_3166_2_entry
-		code="PH-QUI"	name="Quirino" />
+		code="PH-QUI"	name="Quirino"	parent="02" />
 	<iso_3166_2_entry
-		code="PH-RIZ"	name="Rizal" />
+		code="PH-RIZ"	name="Rizal"	parent="04" />
 	<iso_3166_2_entry
-		code="PH-ROM"	name="Romblon" />
+		code="PH-ROM"	name="Romblon"	parent="04" />
 	<iso_3166_2_entry
-		code="PH-SAR"	name="Sarangani" />
+		code="PH-SAR"	name="Sarangani"	parent="11" />
 	<iso_3166_2_entry
-		code="PH-SIG"	name="Siquijor" />
+		code="PH-SIG"	name="Siquijor"	parent="07" />
 	<iso_3166_2_entry
-		code="PH-SOR"	name="Sorsogon" />
+		code="PH-SOR"	name="Sorsogon"	parent="05" />
 	<iso_3166_2_entry
-		code="PH-SCO"	name="South Cotabato" />
+		code="PH-SCO"	name="South Cotabato"	parent="11" />
 	<iso_3166_2_entry
-		code="PH-SLE"	name="Southern Leyte" />
+		code="PH-SLE"	name="Southern Leyte"	parent="08" />
 	<iso_3166_2_entry
-		code="PH-SUK"	name="Sultan Kudarat" />
+		code="PH-SUK"	name="Sultan Kudarat"	parent="12" />
 	<iso_3166_2_entry
-		code="PH-SLU"	name="Sulu" />
+		code="PH-SLU"	name="Sulu"	parent="14" />
 	<iso_3166_2_entry
-		code="PH-SUN"	name="Surigao del Norte" />
+		code="PH-SUN"	name="Surigao del Norte"	parent="13" />
 	<iso_3166_2_entry
-		code="PH-SUR"	name="Surigao del Sur" />
+		code="PH-SUR"	name="Surigao del Sur"	parent="13" />
 	<iso_3166_2_entry
-		code="PH-TAR"	name="Tarlac" />
+		code="PH-TAR"	name="Tarlac"	parent="03" />
 	<iso_3166_2_entry
-		code="PH-TAW"	name="Tawi-Tawi" />
+		code="PH-TAW"	name="Tawi-Tawi"	parent="14" />
 	<iso_3166_2_entry
-		code="PH-WSA"	name="Western Samar" />
+		code="PH-WSA"	name="Western Samar"	parent="08" />
 	<iso_3166_2_entry
-		code="PH-ZMB"	name="Zambales" />
+		code="PH-ZMB"	name="Zambales"	parent="03" />
 	<iso_3166_2_entry
-		code="PH-ZAN"	name="Zamboanga del Norte" />
+		code="PH-ZAN"	name="Zamboanga del Norte"	parent="09" />
 	<iso_3166_2_entry
-		code="PH-ZAS"	name="Zamboanga del Sur" />
+		code="PH-ZAS"	name="Zamboanga del Sur"	parent="09" />
 	<iso_3166_2_entry
-		code="PH-ZSI"	name="Zamboanga Sibiguey" />
+		code="PH-ZSI"	name="Zamboanga Sibiguey"	parent="09" />
 </iso_3166_subset>
 </iso_3166_country>
 	<!-- Pakistan -->
@@ -7276,17 +7277,17 @@
 </iso_3166_subset>
 <iso_3166_subset type="District">
 	<iso_3166_2_entry
-		code="RS-01"	name="Severna Bačka" />
+		code="RS-01"	name="Severna Bačka"	parent="VO" />
 	<iso_3166_2_entry
-		code="RS-06"	name="Južna Bačka" />
+		code="RS-06"	name="Južna Bačka"	parent="VO" />
 	<iso_3166_2_entry
-		code="RS-05"	name="Zapadna Bačka" />
+		code="RS-05"	name="Zapadna Bačka"	parent="VO" />
 	<iso_3166_2_entry
-		code="RS-03"	name="Severni Banat" />
+		code="RS-03"	name="Severni Banat"	parent="VO" />
 	<iso_3166_2_entry
-		code="RS-02"	name="Srednji Banat" />
+		code="RS-02"	name="Srednji Banat"	parent="VO" />
 	<iso_3166_2_entry
-		code="RS-04"	name="Južni Banat" />
+		code="RS-04"	name="Južni Banat"	parent="VO" />
 	<iso_3166_2_entry
 		code="RS-14"	name="Bor" />
 	<iso_3166_2_entry
@@ -7296,11 +7297,11 @@
 	<iso_3166_2_entry
 		code="RS-09"	name="Kolubara" />
 	<iso_3166_2_entry
-		code="RS-25"	name="Kosovo" />
+		code="RS-25"	name="Kosovo"	parent="KM" />
 	<iso_3166_2_entry
-		code="RS-28"	name="Kosovska Mitrovica" />
+		code="RS-28"	name="Kosovska Mitrovica"	parent="KM" />
 	<iso_3166_2_entry
-		code="RS-29"	name="Kosovo-Pomoravlje" />
+		code="RS-29"	name="Kosovo-Pomoravlje"	parent="KM" />
 	<iso_3166_2_entry
 		code="RS-08"	name="Mačva" />
 	<iso_3166_2_entry
@@ -7310,7 +7311,7 @@
 	<iso_3166_2_entry
 		code="RS-24"	name="Pčinja" />
 	<iso_3166_2_entry
-		code="RS-26"	name="Peć" />
+		code="RS-26"	name="Peć"	parent="KM" />
 	<iso_3166_2_entry
 		code="RS-22"	name="Pirot" />
 	<iso_3166_2_entry
@@ -7318,13 +7319,13 @@
 	<iso_3166_2_entry
 		code="RS-13"	name="Pomoravlje" />
 	<iso_3166_2_entry
-		code="RS-27"	name="Prizren" />
+		code="RS-27"	name="Prizren"	parent="KM" />
 	<iso_3166_2_entry
 		code="RS-19"	name="Rasina" />
 	<iso_3166_2_entry
 		code="RS-18"	name="Raška" />
 	<iso_3166_2_entry
-		code="RS-07"	name="Srem" />
+		code="RS-07"	name="Srem"	parent="VO" />
 	<iso_3166_2_entry
 		code="RS-12"	name="Šumadija" />
 	<iso_3166_2_entry
@@ -9122,117 +9123,117 @@
 </iso_3166_subset>
 <iso_3166_subset type="District">
 	<iso_3166_2_entry
-		code="UG-301"	name="Adjumani" />
+		code="UG-301"	name="Adjumani"	parent="N" />
 	<iso_3166_2_entry
-		code="UG-302"	name="Apac" />
+		code="UG-302"	name="Apac"	parent="N" />
 	<iso_3166_2_entry
-		code="UG-303"	name="Arua" />
+		code="UG-303"	name="Arua"	parent="N" />
 	<iso_3166_2_entry
-		code="UG-201"	name="Bugiri" />
+		code="UG-201"	name="Bugiri"	parent="E" />
 	<iso_3166_2_entry
-		code="UG-401"	name="Bundibugyo" />
+		code="UG-401"	name="Bundibugyo"	parent="W" />
 	<iso_3166_2_entry
-		code="UG-402"	name="Bushenyi" />
+		code="UG-402"	name="Bushenyi"	parent="W" />
 	<iso_3166_2_entry
-		code="UG-202"	name="Busia" />
+		code="UG-202"	name="Busia"	parent="E" />
 	<iso_3166_2_entry
-		code="UG-304"	name="Gulu" />
+		code="UG-304"	name="Gulu"	parent="N" />
 	<iso_3166_2_entry
-		code="UG-403"	name="Hoima" />
+		code="UG-403"	name="Hoima"	parent="W" />
 	<iso_3166_2_entry
-		code="UG-203"	name="Iganga" />
+		code="UG-203"	name="Iganga"	parent="E" />
 	<iso_3166_2_entry
-		code="UG-204"	name="Jinja" />
+		code="UG-204"	name="Jinja"	parent="E" />
 	<iso_3166_2_entry
-		code="UG-404"	name="Kabale" />
+		code="UG-404"	name="Kabale"	parent="W" />
 	<iso_3166_2_entry
-		code="UG-405"	name="Kabarole" />
+		code="UG-405"	name="Kabarole"	parent="W" />
 	<iso_3166_2_entry
-		code="UG-213"	name="Kaberamaido" />
+		code="UG-213"	name="Kaberamaido"	parent="E" />
 	<iso_3166_2_entry
-		code="UG-101"	name="Kalangala" />
+		code="UG-101"	name="Kalangala"	parent="C" />
 	<iso_3166_2_entry
-		code="UG-102"	name="Kampala" />
+		code="UG-102"	name="Kampala"	parent="C" />
 	<iso_3166_2_entry
-		code="UG-205"	name="Kamuli" />
+		code="UG-205"	name="Kamuli"	parent="E" />
 	<iso_3166_2_entry
-		code="UG-413"	name="Kamwenge" />
+		code="UG-413"	name="Kamwenge"	parent="W" />
 	<iso_3166_2_entry
-		code="UG-414"	name="Kanungu" />
+		code="UG-414"	name="Kanungu"	parent="W" />
 	<iso_3166_2_entry
-		code="UG-206"	name="Kapchorwa" />
+		code="UG-206"	name="Kapchorwa"	parent="E" />
 	<iso_3166_2_entry
-		code="UG-406"	name="Kasese" />
+		code="UG-406"	name="Kasese"	parent="W" />
 	<iso_3166_2_entry
-		code="UG-207"	name="Katakwi" />
+		code="UG-207"	name="Katakwi"	parent="E" />
 	<iso_3166_2_entry
-		code="UG-112"	name="Kayunga" />
+		code="UG-112"	name="Kayunga"	parent="C" />
 	<iso_3166_2_entry
-		code="UG-407"	name="Kibaale" />
+		code="UG-407"	name="Kibaale"	parent="W" />
 	<iso_3166_2_entry
-		code="UG-103"	name="Kiboga" />
+		code="UG-103"	name="Kiboga"	parent="C" />
 	<iso_3166_2_entry
-		code="UG-408"	name="Kisoro" />
+		code="UG-408"	name="Kisoro"	parent="W" />
 	<iso_3166_2_entry
-		code="UG-305"	name="Kitgum" />
+		code="UG-305"	name="Kitgum"	parent="N" />
 	<iso_3166_2_entry
-		code="UG-306"	name="Kotido" />
+		code="UG-306"	name="Kotido"	parent="N" />
 	<iso_3166_2_entry
-		code="UG-208"	name="Kumi" />
+		code="UG-208"	name="Kumi"	parent="E" />
 	<iso_3166_2_entry
-		code="UG-415"	name="Kyenjojo" />
+		code="UG-415"	name="Kyenjojo"	parent="W" />
 	<iso_3166_2_entry
-		code="UG-307"	name="Lira" />
+		code="UG-307"	name="Lira"	parent="N" />
 	<iso_3166_2_entry
-		code="UG-104"	name="Luwero" />
+		code="UG-104"	name="Luwero"	parent="C" />
 	<iso_3166_2_entry
-		code="UG-105"	name="Masaka" />
+		code="UG-105"	name="Masaka"	parent="C" />
 	<iso_3166_2_entry
-		code="UG-409"	name="Masindi" />
+		code="UG-409"	name="Masindi"	parent="W" />
 	<iso_3166_2_entry
-		code="UG-214"	name="Mayuge" />
+		code="UG-214"	name="Mayuge"	parent="E" />
 	<iso_3166_2_entry
-		code="UG-209"	name="Mbale" />
+		code="UG-209"	name="Mbale"	parent="E" />
 	<iso_3166_2_entry
-		code="UG-410"	name="Mbarara" />
+		code="UG-410"	name="Mbarara"	parent="W" />
 	<iso_3166_2_entry
-		code="UG-308"	name="Moroto" />
+		code="UG-308"	name="Moroto"	parent="N" />
 	<iso_3166_2_entry
-		code="UG-309"	name="Moyo" />
+		code="UG-309"	name="Moyo"	parent="N" />
 	<iso_3166_2_entry
-		code="UG-106"	name="Mpigi" />
+		code="UG-106"	name="Mpigi"	parent="C" />
 	<iso_3166_2_entry
-		code="UG-107"	name="Mubende" />
+		code="UG-107"	name="Mubende"	parent="C" />
 	<iso_3166_2_entry
-		code="UG-108"	name="Mukono" />
+		code="UG-108"	name="Mukono"	parent="C" />
 	<iso_3166_2_entry
-		code="UG-311"	name="Nakapiripirit" />
+		code="UG-311"	name="Nakapiripirit"	parent="N" />
 	<iso_3166_2_entry
-		code="UG-109"	name="Nakasongola" />
+		code="UG-109"	name="Nakasongola"	parent="C" />
 	<iso_3166_2_entry
-		code="UG-310"	name="Nebbi" />
+		code="UG-310"	name="Nebbi"	parent="N" />
 	<iso_3166_2_entry
-		code="UG-411"	name="Ntungamo" />
+		code="UG-411"	name="Ntungamo"	parent="W" />
 	<iso_3166_2_entry
-		code="UG-312"	name="Pader" />
+		code="UG-312"	name="Pader"	parent="N" />
 	<iso_3166_2_entry
-		code="UG-210"	name="Pallisa" />
+		code="UG-210"	name="Pallisa"	parent="E" />
 	<iso_3166_2_entry
-		code="UG-110"	name="Rakai" />
+		code="UG-110"	name="Rakai"	parent="C" />
 	<iso_3166_2_entry
-		code="UG-412"	name="Rukungiri" />
+		code="UG-412"	name="Rukungiri"	parent="W" />
 	<iso_3166_2_entry
-		code="UG-111"	name="Sembabule" />
+		code="UG-111"	name="Sembabule"	parent="C" />
 	<iso_3166_2_entry
-		code="UG-215"	name="Sironko" />
+		code="UG-215"	name="Sironko"	parent="E" />
 	<iso_3166_2_entry
-		code="UG-211"	name="Soroti" />
+		code="UG-211"	name="Soroti"	parent="E" />
 	<iso_3166_2_entry
-		code="UG-212"	name="Tororo" />
+		code="UG-212"	name="Tororo"	parent="E" />
 	<iso_3166_2_entry
-		code="UG-113"	name="Wakiso" />
+		code="UG-113"	name="Wakiso"	parent="C" />
 	<iso_3166_2_entry
-		code="UG-313"	name="Yumbe" />
+		code="UG-313"	name="Yumbe"	parent="N" />
 </iso_3166_subset>
 </iso_3166_country>
 	<!-- United States Minor Outlying Islands -->
