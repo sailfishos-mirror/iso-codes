@@ -1,8 +1,10 @@
-iso-codes (1.5-2) UNRELEASED; urgency=low
+iso-codes (1.6-1) UNRELEASED; urgency=low
 
   * New upstream release
+  * debian/rules: Use bzip2 compression for the .deb, saving 0.5 MB.
+    Thanks to Martin Pitt for the patch. Closes: #447727
 
- -- Christian Perrier <bubulle@debian.org>  Sun, 07 Oct 2007 20:19:42 +0200
+ -- Tobias Toedter <t.toedter@gmx.net>  Tue, 23 Oct 2007 19:21:58 +0200
 
 iso-codes (1.5-1) unstable; urgency=low
 
