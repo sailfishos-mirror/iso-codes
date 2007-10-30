@@ -1,5 +1,11 @@
-iso-codes 1.6
+iso-codes trunk
 ---------------
+UNRELEASED
+
+  [ General ]
+  * Remove no.po files from all subdirectories, as they have been
+    superseeded by nb.po files.
+
   [ ISO-3166 translations ]
   * Traditional Chinese (Closes: #445641)
   * Gujarati (Closes: #445745)
@@ -84,7 +90,8 @@ iso-codes 1.6
   * distinguish RU-AL and RU-ALT.
   * distinguish BW-NW, CM-NW, ZA-NW.
   * distinguish BW-SO, MW S, SL-S, ZM-07.
-	
+
+
 iso-codes 1.5
 -------------
 Tobias Toedter <t.toedter@gmx.net>
