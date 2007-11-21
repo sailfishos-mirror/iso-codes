@@ -5,6 +5,23 @@ UNRELEASED
   [ ISO-3166 translations ]
   * Norwegian Bokmål (Closes: #452098)
 
+  [ ISO-4217 ]
+  * Corrected names:
+    (from http://www.iso.org/iso/support/faqs/faqs_widely_used_standards/widely_used_standards_other/currency_codes/currency_codes_list-1.htm)
+    BDT, BOV, HTG, ILS, JPY, KRW, MXD, NAD, PLN, RON, UGX
+    UZS, VND, WST, XDR, XFO, XFU, ZAR, ZMK
+    Thanks to Vladimir Volovich for reporting (Closes: #451199)
+  * Moved to historic section: GHC, SDD, VEB
+  * New (or previously missin) entries:
+    GHS: Ghana Cedi
+    GWP: Guinea-Bissau Peso
+    RSD: Serbian Dinar
+    SDG: Sudanese pound
+    SVC: El Salvador Colon
+    UYI: Uruguay Peso en Unidades Indexadas
+    VEF: Bolivar Fuerte
+	
+
 iso-codes 1.6
 -------------
 Tobias Toedter <t.toedter@gmx.net>
