@@ -54,7 +54,7 @@ binary-indep: build install
 	dh_gencontrol -- -fdebian/files~
 	dpkg-distaddfile $(FILENAME)  debian-installer optional
 	dh_md5sums -p iso-codes
-	dh_builddeb -p iso-codes -- -Z bzip2
+	dh_builddeb -p iso-codes
 	dh_builddeb --filename=$(FILENAME)
 
 binary: binary-indep binary-arch

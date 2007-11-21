@@ -1,3 +1,10 @@
+iso-codes (1.6-2) unstable; urgency=low
+
+  * Remove bzip2 compression from debian/rules, as this requires a
+    Pre-Depends on dpkg (>= 1.10.24)
+
+ -- Tobias Toedter <t.toedter@gmx.net>  Wed, 21 Nov 2007 10:03:18 +0100
+
 iso-codes (1.6-1) unstable; urgency=low
 
   * New upstream release. This closes the following bugs from Debian
