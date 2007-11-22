@@ -2,6 +2,11 @@ iso-codes trunk
 ---------------
 UNRELEASED
 
+  [ General ]
+  * iso2pot.py now marks historic entries as such, so that translators
+    do not report "obsolete" entries. This relies on the attribute
+    "date_withdrawn" and currently applies to ISO 3166 and ISO 4217.
+
   [ ISO-3166 translations ]
   * Norwegian Bokmål (Closes: #452098)
 

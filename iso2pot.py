@@ -15,7 +15,7 @@ class printPot(ContentHandler):
     def __init__(self, nameslist,comment, ofile):
          """ 
 	 nameslist is the elements to be printed in msgid strings,
-	 comment is the atrribute to be used in the comment line
+	 comment is the attribute to be used in the comment line
 	 """
          self.attrnames = nameslist
 	 self.comment = comment
@@ -28,6 +28,7 @@ class printPot(ContentHandler):
         # Get the name attributes
 	for aname in self.attrnames:
             n = attrs.get(aname, None)
+            date_withdrawn = attrs.get('date_withdrawn', None)
             c = [attrs.get(x, None) for x in self.comment]
             if type(n) == unicode:
                 n = n.encode('UTF-8')
@@ -40,7 +41,17 @@ class printPot(ContentHandler):
                     self.done[n] = len(self.result)-1
                 comment_str = ", ".join([x for x in c if x is not None])
                 if comment_str:
-                    self.result[self.done[n]].append('%s for %s' % (aname, comment_str))
+                    # Special case for ISO 3166 and ISO 4217, as they contain
+                    # historic entries. In order to not trigger bug reports
+                    # from translators for "obsolete" entries, we specially
+                    # mark those historic entries.
+                    if date_withdrawn is not None:
+                        translator_comment = 'historic %s for %s (withdrawn %s)' % \
+                        (aname, comment_str, date_withdrawn)
+                    else:
+                        translator_comment = '%s for %s' % \
+                        (aname, comment_str)
+                    self.result[self.done[n]].append(translator_comment)
 
 def printHeader(ofile, iso_standard, report_bugs_to, version):
     """Print the file header
