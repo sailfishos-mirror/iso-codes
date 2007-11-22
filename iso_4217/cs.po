@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: iso_4217 CVS\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2007-09-04 22:48+0200\n"
+"POT-Creation-Date: 2007-11-22 10:27+0100\n"
 "PO-Revision-Date: 2006-07-01 16:30+0200\n"
 "Last-Translator: Miroslav Kure <kurem@debian.cz>\n"
 "Language-Team: Czech <provoz@debian.cz>\n"
@@ -70,8 +70,8 @@ msgid "Barbados Dollar"
 msgstr "Barbadoský dolar"
 
 #. currency_name for BDT
-msgid "Bangladeshi Taka"
-msgstr "Bangladéšská taka"
+msgid "Taka"
+msgstr ""
 
 #. currency_name for BGN
 msgid "Bulgarian Lev"
@@ -98,8 +98,8 @@ msgid "Boliviano"
 msgstr "Boliviano"
 
 #. currency_name for BOV
-msgid "Bolivian Mvdol"
-msgstr "Bolivijský mvdol"
+msgid "Mvdol"
+msgstr ""
 
 #. currency_name for BRL
 msgid "Brazilian Real"
@@ -240,9 +240,10 @@ msgstr "Britská libra"
 msgid "Lari"
 msgstr ""
 
-#. currency_name for GHC
-msgid "Cedi"
-msgstr ""
+#. currency_name for GHS
+#, fuzzy
+msgid "Ghana Cedi"
+msgstr "Ghanský cedi"
 
 #. currency_name for GIP
 msgid "Gibraltar Pound"
@@ -260,6 +261,10 @@ msgstr "Guinejský frank"
 #. currency_name for GTQ
 msgid "Quetzal"
 msgstr ""
+
+#. currency_name for GWP, currency_name for GWP
+msgid "Guinea-Bissau Peso"
+msgstr "Guinea-Bissauské peso"
 
 #. currency_name for GYD
 msgid "Guyana Dollar"
@@ -279,7 +284,8 @@ msgid "Croatian Kuna"
 msgstr "Chorvatská kuna"
 
 #. currency_name for HTG
-msgid "Haitian Gourde"
+#, fuzzy
+msgid "Gourde"
 msgstr "Haitský gourde"
 
 #. currency_name for HUF
@@ -291,7 +297,8 @@ msgid "Rupiah"
 msgstr ""
 
 #. currency_name for ILS
-msgid "New Israeli Shekel"
+#, fuzzy
+msgid "New Israeli Sheqel"
 msgstr "Izraelský nový šekel"
 
 #. currency_name for INR
@@ -319,8 +326,8 @@ msgid "Jordanian Dinar"
 msgstr "Jordánský dinár"
 
 #. currency_name for JPY
-msgid "Japanese Yen"
-msgstr "Japonský jen"
+msgid "Yen"
+msgstr ""
 
 #. currency_name for KES
 msgid "Kenyan Shilling"
@@ -343,8 +350,8 @@ msgid "North Korean Won"
 msgstr "Severokorejský won"
 
 #. currency_name for KRW
-msgid "South Korean Won"
-msgstr "Jihokorejský won"
+msgid "Won"
+msgstr ""
 
 #. currency_name for KWD
 msgid "Kuwaiti Dinar"
@@ -439,7 +446,7 @@ msgstr "Mauricijská rupie"
 msgid "Rufiyaa"
 msgstr "Maledivská rufiya"
 
-#. currency_name for MWK
+#. currency_name for MWK, currency_name for ZMK
 #, fuzzy
 msgid "Kwacha"
 msgstr "Malawská kwacha"
@@ -449,7 +456,8 @@ msgid "Mexican Peso"
 msgstr "Mexické peso"
 
 #. currency_name for MXV
-msgid "Mexican Unidad de Inversion (UID)"
+#, fuzzy
+msgid "Mexican Unidad de Inversion (UDI)"
 msgstr "Mexican Unidad de Inversion (UID)"
 
 #. currency_name for MYR
@@ -461,7 +469,8 @@ msgid "Metical"
 msgstr ""
 
 #. currency_name for NAD
-msgid "Namibian Dollar"
+#, fuzzy
+msgid "Namibia Dollar"
 msgstr "Namibijský dolar"
 
 #. currency_name for NGN
@@ -512,9 +521,8 @@ msgid "Pakistan Rupee"
 msgstr "Pákistánská rupie"
 
 #. currency_name for PLN
-#, fuzzy
-msgid "Polish Zloty"
-msgstr "Polský zlotý"
+msgid "Zloty"
+msgstr ""
 
 #. currency_name for PYG
 #, fuzzy
@@ -526,8 +534,13 @@ msgid "Qatari Rial"
 msgstr "Katarský riyal"
 
 #. currency_name for RON
-msgid "Romanian New Leu"
-msgstr "Rumunské nové leu"
+#, fuzzy
+msgid "New Leu"
+msgstr "Nový zair"
+
+#. currency_name for RSD, currency_name for CSD
+msgid "Serbian Dinar"
+msgstr "Srbský dinár"
 
 #. currency_name for RUB
 #, fuzzy
@@ -550,7 +563,7 @@ msgstr "Šalamounovy ostrovy - dolar"
 msgid "Seychelles Rupee"
 msgstr "Seychelská rupie"
 
-#. currency_name for SDD, currency_name for SDP
+#. currency_name for SDG, currency_name for SDD, currency_name for SDP
 msgid "Sudanese Pound"
 msgstr "Súdánská libra"
 
@@ -585,6 +598,10 @@ msgstr "Surinamský dolar"
 #. currency_name for STD
 msgid "Dobra"
 msgstr ""
+
+#. currency_name for SVC, currency_name for SVC
+msgid "El Salvador Colon"
+msgstr "Salvádorský colon"
 
 #. currency_name for SYP
 msgid "Syrian Pound"
@@ -639,7 +656,8 @@ msgid "Hryvnia"
 msgstr ""
 
 #. currency_name for UGX
-msgid "Ugandan Shilling"
+#, fuzzy
+msgid "Uganda Shilling"
 msgstr "Ugandský šilink"
 
 #. currency_name for USD
@@ -654,22 +672,25 @@ msgstr "Americký dolar (příští den)"
 msgid "US Dollar (Same day)"
 msgstr "Americký dolar (stejný den)"
 
+#. currency_name for UYI
+msgid "Uruguay Peso en Unidades Indexadas"
+msgstr ""
+
 #. currency_name for UYU
 msgid "Peso Uruguayo"
 msgstr "Uruguayské peso"
 
 #. currency_name for UZS
 #, fuzzy
-msgid "Uzbekistan Som"
+msgid "Uzbekistan Sum"
 msgstr "Uzbecký sum"
 
-#. currency_name for VEB
-#, fuzzy
-msgid "Venezuela Bolívar"
-msgstr "Venezuelský bolivar"
+#. currency_name for VEF
+msgid "Bolivar Fuerte"
+msgstr ""
 
 #. currency_name for VND
-msgid "Vietnamese đồng"
+msgid "Dong"
 msgstr ""
 
 #. currency_name for VUV
@@ -677,8 +698,9 @@ msgid "Vatu"
 msgstr ""
 
 #. currency_name for WST
-msgid "Samoan Tala"
-msgstr "Samojská tala"
+#, fuzzy
+msgid "Tala"
+msgstr "Gambijský dalasi"
 
 #. currency_name for XAF
 msgid "CFA Franc BEAC"
@@ -714,17 +736,17 @@ msgid "East Caribbean Dollar"
 msgstr "Východokaribský dolar"
 
 #. currency_name for XDR
-msgid "Special Drawing Right"
-msgstr "Special Drawing Right"
+msgid "SDR"
+msgstr ""
 
 #. currency_name for XFO
 #, fuzzy
-msgid "Gold Franc"
+msgid "Gold-Franc"
 msgstr "Zlatý frank"
 
 #. currency_name for XFU
 #, fuzzy
-msgid "UIC Franc"
+msgid "UIC-Franc"
 msgstr "UIC frank"
 
 #. currency_name for XOF
@@ -757,12 +779,8 @@ msgid "Yemeni Rial"
 msgstr "Jemenský rial"
 
 #. currency_name for ZAR
-msgid "South African Rand"
-msgstr "Jihoafrický rand"
-
-#. currency_name for ZMK
-msgid "Zambian Kwacha"
-msgstr "Zambijská kwacha"
+msgid "Rand"
+msgstr ""
 
 #. currency_name for ZWD
 msgid "Zimbabwe Dollar"
@@ -874,10 +892,6 @@ msgstr "Běloruský rubl"
 msgid "Chinese Peoples Bank Dollar"
 msgstr "Čínský bankovní dolar"
 
-#. currency_name for CSD
-msgid "Serbian Dinar"
-msgstr "Srbský dinár"
-
 #. currency_name for CSJ
 #, fuzzy
 msgid "Czechoslovak Krona A/53"
@@ -937,6 +951,10 @@ msgstr "Guinejský syli"
 msgid "Equatorial Guinea Ekwele"
 msgstr "Rovníková Guinea - ekwele"
 
+#. currency_name for GHC
+msgid "Cedi"
+msgstr ""
+
 #. currency_name for GRD
 msgid "Greek Drachma"
 msgstr "Řecká drachma"
@@ -944,10 +962,6 @@ msgstr "Řecká drachma"
 #. currency_name for GWE
 msgid "Guinea Escudo"
 msgstr "Guinejské escudo"
-
-#. currency_name for GWP
-msgid "Guinea-Bissau Peso"
-msgstr "Guinea-Bissauské peso"
 
 #. currency_name for HRD
 msgid "Croatian Dinar"
@@ -1078,10 +1092,6 @@ msgstr "Surinamský gulden"
 msgid "USSR Rouble"
 msgstr "Ruský rubl"
 
-#. currency_name for SVC
-msgid "El Salvador Colon"
-msgstr "Salvádorský colon"
-
 #. currency_name for TJR
 msgid "Tajik Rouble"
 msgstr "Tádžikistánský rubl"
@@ -1113,6 +1123,11 @@ msgstr "Uruguayské staré peso"
 #. currency_name for UYP
 msgid "Uruguayan Peso"
 msgstr "Uruguayské peso"
+
+#. currency_name for VEB
+#, fuzzy
+msgid "Venezuela Bolívar"
+msgstr "Venezuelský bolivar"
 
 #. currency_name for VNC
 msgid "Viet Nam Old Dong"
@@ -1146,6 +1161,37 @@ msgstr "Nový zair"
 msgid "Zaire"
 msgstr "Zair"
 
+#~ msgid "Bangladeshi Taka"
+#~ msgstr "Bangladéšská taka"
+
+#~ msgid "Bolivian Mvdol"
+#~ msgstr "Bolivijský mvdol"
+
+#~ msgid "Japanese Yen"
+#~ msgstr "Japonský jen"
+
+#~ msgid "South Korean Won"
+#~ msgstr "Jihokorejský won"
+
+#, fuzzy
+#~ msgid "Polish Zloty"
+#~ msgstr "Polský zlotý"
+
+#~ msgid "Romanian New Leu"
+#~ msgstr "Rumunské nové leu"
+
+#~ msgid "Samoan Tala"
+#~ msgstr "Samojská tala"
+
+#~ msgid "Special Drawing Right"
+#~ msgstr "Special Drawing Right"
+
+#~ msgid "South African Rand"
+#~ msgstr "Jihoafrický rand"
+
+#~ msgid "Zambian Kwacha"
+#~ msgstr "Zambijská kwacha"
+
 #~ msgid "Albanian Lek"
 #~ msgstr "Albánský lek"
 
@@ -1160,9 +1206,6 @@ msgstr "Zair"
 
 #~ msgid "Georgian Lari"
 #~ msgstr "Gruzijský lari"
-
-#~ msgid "Ghanaian Cedi"
-#~ msgstr "Ghanský cedi"
 
 #~ msgid "Guatemalan Quetzal"
 #~ msgstr "Guatemalský quetzal"
