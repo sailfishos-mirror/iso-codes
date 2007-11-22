@@ -8,6 +8,8 @@ iso-codes (1.7-1) UNRELEASED; urgency=low
     Add Pre-Depends: dpkg (>= 1.10.24) to debian/control, otherwise
     the package gets automatically REJECTED by ftp-master.
     Closes: #447727
+  * debian/control: Change XS-Vcs-Svn and XS-Vcs-Browser to
+    Vcs-Svn and Vcs-Browser, as this is supported by dpkg 1.14.6
 
  -- Tobias Toedter <t.toedter@gmx.net>  Thu, 22 Nov 2007 09:22:59 +0100
 
