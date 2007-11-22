@@ -1,3 +1,16 @@
+iso-codes (1.7-1) UNRELEASED; urgency=low
+
+  * New upstream release. This closes the following bugs from Debian
+    BTS:
+    - Closes: #452098
+  * debian/rules: Use bzip2 compression for the .deb, saving 0.5 MB.
+    Thanks to Martin Pitt <martin.pitt@ubuntu.com> for the patch.
+    Add Pre-Depends: dpkg (>= 1.10.24) to debian/control, otherwise
+    the package gets automatically REJECTED by ftp-master.
+    Closes: #447727
+
+ -- Tobias Toedter <t.toedter@gmx.net>  Thu, 22 Nov 2007 09:22:59 +0100
+
 iso-codes (1.6-2) unstable; urgency=low
 
   * Remove bzip2 compression from debian/rules, as this requires a
