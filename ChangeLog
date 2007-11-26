@@ -7,9 +7,6 @@ UNRELEASED
     do not report "obsolete" entries. This relies on the attribute
     "date_withdrawn" and currently applies to ISO 3166 and ISO 4217.
 
-  [ ISO-3166 translations ]
-  * Norwegian Bokmål by Hans Fredrik Nordhaug (Closes: #452098)
-
   [ ISO-4217 ]
   * Corrected names:
     (from http://www.iso.org/iso/support/faqs/faqs_widely_used_standards/widely_used_standards_other/currency_codes/currency_codes_list-1.htm)
@@ -33,6 +30,10 @@ UNRELEASED
 
   [ ISO-3166 translations ]
   * Polish by Andrzej M. Krzysztofowicz(TP)
+  * Norwegian Bokmål by Hans Fredrik Nordhaug (Closes: #452098)
+
+  [ ISO-639 translations ]
+  * Esperanto by Edmund GRIMLEY EVANS (TP)
 
   [ ISO-15924 translations ]
   * Russian by Yuri Kozlov
@@ -40,6 +41,7 @@ UNRELEASED
   [ ISO-639 translations ]
   * Russian by Yuri Kozlov
 
+>>>>>>> .r1196
 iso-codes 1.6
 -------------
 Tobias Toedter <t.toedter@gmx.net>
