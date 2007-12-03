@@ -14,6 +14,13 @@ check-content:
 		false; \
 	fi
 
+.PHONY: update-po
+update-po:
+	for pofile in $(pofiles); do \
+		$(MSGMERGE) $$pofile $(DOMAIN).pot > tmpfile; \
+		mv tmpfile $$pofile; \
+	done
+
 localedir = $(datadir)/locale
 
 install-data-hook: $(mofiles)
