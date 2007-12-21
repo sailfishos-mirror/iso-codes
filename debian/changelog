@@ -1,4 +1,4 @@
-iso-codes (1.7-1) UNRELEASED; urgency=low
+iso-codes (1.7-1) unstable; urgency=low
 
   * New upstream release. This closes the following bugs from Debian
     BTS:
@@ -8,8 +8,9 @@ iso-codes (1.7-1) UNRELEASED; urgency=low
     Closes: #447727
   * debian/control: Change XS-Vcs-Svn and XS-Vcs-Browser to
     Vcs-Svn and Vcs-Browser, as this is supported by dpkg 1.14.6
+  * Update Standards-Version to 3.7.3, no changes needed
 
- -- Tobias Toedter <t.toedter@gmx.net>  Fri, 21 Dec 2007 11:12:25 +0100
+ -- Tobias Toedter <t.toedter@gmx.net>  Fri, 21 Dec 2007 12:06:03 +0100
 
 iso-codes (1.6-2) unstable; urgency=low
 
