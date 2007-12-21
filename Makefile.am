@@ -13,6 +13,9 @@ DISTCLEANFILES = $(pkgconfig_DATA)
 
 .PHONY: release
 release: check distcheck
+
+.PHONY: sign-release
+sign-release: iso-codes-$(VERSION).tar.gz iso-codes-$(VERSION).tar.bz2
 	rm -f iso-codes-$(VERSION).tar.gz.sig
 	rm -f iso-codes-$(VERSION).tar.bz2.sig
 	gpg --detach-sign iso-codes-$(VERSION).tar.gz
