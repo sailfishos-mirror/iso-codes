@@ -40,8 +40,11 @@ $ svn copy \
 Create the Makefiles.
 $ ./configure
 
-Use the Makefile target "release" for creating signed tarballs.
+Use the Makefile target "release" for creating checked tarballs.
 $ make release
+
+Use the Makefile target "sign-release" to sign the tarballs.
+$ make sign-release
 
 Upload the tarballs and your signatures to the FTP area of Alioth.
 $ ALIOTH_USERNAME=<yourname> make upload
@@ -52,3 +55,7 @@ because they might still be needed by some distributions.
 You can now clean up.
 $ cd ..
 $ rm -rf release/
+
+Inform the Translation Project about the new release. Send a mail to
+<coordinator@translationproject.org> and send a CC to
+<pkg-isocodes-devel@lists.alioth.debian.org>.
