@@ -1,4 +1,4 @@
-# translation of iso_15924-1.5.po to Dutch
+# translation of iso_15924-1.7.po to Dutch
 # Translation of ISO 15924 (script names) to Dutch
 #
 # This file is distributed under the same license as the iso-codes package.
@@ -9,17 +9,18 @@
 #     Translations taken from ICU SVN on 2007-09-09
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_15924 1.5\n"
+"Project-Id-Version: iso_15924-1.7\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
 "POT-Creation-Date: 2007-12-03 12:29+0100\n"
-"PO-Revision-Date: 2007-10-13 10:25-0600\n"
+"PO-Revision-Date: 2007-12-21 17:29+0100\n"
 "Last-Translator: Freek de Kruijf <f.de.kruijf@hetnet.nl>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
 #. name for Arab
 msgid "Arabic"
@@ -27,7 +28,7 @@ msgstr "Arabisch"
 
 #. name for Armi
 msgid "Imperial Aramaic"
-msgstr ""
+msgstr "Rijks-Aramees"
 
 #. name for Armn
 msgid "Armenian"
@@ -74,9 +75,8 @@ msgid "Buhid"
 msgstr "Buhid"
 
 #. name for Cakm
-#, fuzzy
 msgid "Chakma"
-msgstr "Cham"
+msgstr "Chakma"
 
 #. name for Cans
 msgid "Unified Canadian Aboriginal Syllabics"
@@ -135,7 +135,6 @@ msgid "Egyptian hieroglyphs"
 msgstr "Egyptische hiërogliefen"
 
 #. name for Ethi
-#, fuzzy
 msgid "Ethiopic (Geʻez)"
 msgstr "Ethiopisch (GeDez)"
 
@@ -248,13 +247,12 @@ msgid "Korean (alias for Hangul + Han)"
 msgstr "Koreaans (alias voor (Hangul + Han)"
 
 #. name for Kthi
-#, fuzzy
 msgid "Kaithi"
-msgstr "Kharoshthi"
+msgstr "Kaithi"
 
 #. name for Lana
 msgid "Lanna, Tai Tham"
-msgstr ""
+msgstr "Lanna, Tai Tham"
 
 #. name for Laoo
 msgid "Lao"
@@ -366,11 +364,11 @@ msgstr "Phags-pa"
 
 #. name for Phli
 msgid "Inscriptional Pahlavi"
-msgstr ""
+msgstr "Inscriptie Pahlavi"
 
 #. name for Phlv
 msgid "Psalter Pahlavi"
-msgstr ""
+msgstr "Psalmen Pahlavi"
 
 #. name for Phlv
 msgid "Book Pahlavi"
@@ -385,9 +383,8 @@ msgid "Pollard Phonetic"
 msgstr "Pollard-fonetisch"
 
 #. name for Prti
-#, fuzzy
 msgid "Inscriptional Parthian"
-msgstr "Han (Traditioneel)"
+msgstr "Inscriptie Parthian"
 
 #. name for Qaaa
 msgid "Reserved for private use (start)"
@@ -474,9 +471,8 @@ msgid "Tamil"
 msgstr "Tamil"
 
 #. name for Tavt
-#, fuzzy
 msgid "Tai Viet"
-msgstr "Tai Le"
+msgstr "Tai Viet"
 
 #. name for Telu
 msgid "Telugu"
@@ -504,7 +500,7 @@ msgstr "Thais"
 
 #. name for Tibt
 msgid "Tibetan"
-msgstr "Tibetaans"
+msgstr "Tibettaans"
 
 #. name for Ugar
 msgid "Ugaritic"
@@ -532,12 +528,11 @@ msgstr "Yi"
 
 #. name for Zmth
 msgid "Mathematical notation"
-msgstr ""
+msgstr "Wiskundige notatie"
 
 #. name for Zsym
-#, fuzzy
 msgid "Symbols"
-msgstr "Blissymbolen"
+msgstr "Symbolen"
 
 #. name for Zxxx
 msgid "Code for unwritten documents"
@@ -550,6 +545,3 @@ msgstr "Code voor onbepaald schrift"
 #. name for Zzzz
 msgid "Code for uncoded script"
 msgstr "Code voor niet-gecodeerd schrift"
-
-#~ msgid "Lanna"
-#~ msgstr "Lanna"
