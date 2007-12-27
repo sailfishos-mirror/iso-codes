@@ -5,12 +5,17 @@ UNRELEASED
   [ ISO-639 ]
   * Changes from ISO-639 maintenance agency:
     - Dec 17th 2007: added 'Pashto' as alternative for ps
-	
+
+  [ ISO-3166-3 ]
+  * Remove attribute "alpha_2_code" from some entries, as the
+    information is included in the first two letters of the
+    "alpha_4_code". Closes: #445667
+
   [ ISO-4217 ]
   * GWP removed from the non-historic section (was duplicated)
   * SVC removed from the historic section (still used in El Salvador
     for financial transactions)
-	
+
   [ ISO-639 translations ]
   * Esperanto by Edmund GRIMLEY EVANS (TP)
   * French by Christian Perrier
@@ -24,6 +29,7 @@ UNRELEASED
 
   [ ISO-3166-2 translations ]
   * Vietnamese by Clytie Siddall (TP)
+
 
 iso-codes 1.7
 -------------

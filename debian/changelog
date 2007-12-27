@@ -1,3 +1,12 @@
+iso-codes (1.8-1) UNRELEASED; urgency=low
+
+  * New upstream release. This closes the following bugs from Debian
+    BTS:
+    - Remove attribute "alpha_2_code" from some ISO 3166-3 entries,
+      making the DTD valid again. Closes: #445667
+
+ -- Tobias Toedter <t.toedter@gmx.net>  Thu, 27 Dec 2007 17:09:23 +0100
+
 iso-codes (1.7-1) unstable; urgency=low
 
   * New upstream release. This closes the following bugs from Debian
