@@ -917,15 +917,13 @@
 	<iso_3166_2_entry
 		code="BG-02"	name="Burgas" />
 	<iso_3166_2_entry
-		code="BG-08"	name="Dobrič" />
+		code="BG-08"	name="Dobrich" />
 	<iso_3166_2_entry
 		code="BG-07"	name="Gabrovo" />
 	<iso_3166_2_entry
 		code="BG-26"	name="Haskovo" />
 	<iso_3166_2_entry
-		code="BG-28"	name="Jambol" />
-	<iso_3166_2_entry
-		code="BG-09"	name="Kărdžali" />
+		code="BG-09"	name="Kardzhali" />
 	<iso_3166_2_entry
 		code="BG-10"	name="Kyustendil" />
 	<iso_3166_2_entry
@@ -933,7 +931,7 @@
 	<iso_3166_2_entry
 		code="BG-12"	name="Montana" />
 	<iso_3166_2_entry
-		code="BG-13"	name="Pazardžik" />
+		code="BG-13"	name="Pazardzhik" />
 	<iso_3166_2_entry
 		code="BG-14"	name="Pernik" />
 	<iso_3166_2_entry
@@ -945,27 +943,31 @@
 	<iso_3166_2_entry
 		code="BG-18"	name="Ruse" />
 	<iso_3166_2_entry
+		code="BG-27"	name="Shumen" />
+	<iso_3166_2_entry
 		code="BG-19"	name="Silistra" />
 	<iso_3166_2_entry
 		code="BG-20"	name="Sliven" />
 	<iso_3166_2_entry
-		code="BG-21"	name="Smoljan" />
+		code="BG-21"	name="Smolyan" />
 	<iso_3166_2_entry
-		code="BG-23"	name="Sofija" />
+		code="BG-23"	name="Sofia" />
+	<iso_3166_2_entry
+		code="BG-22"	name="Sofia-Grad" />
 	<iso_3166_2_entry
 		code="BG-24"	name="Stara Zagora" />
 	<iso_3166_2_entry
-		code="BG-27"	name="Šumen" />
-	<iso_3166_2_entry
-		code="BG-25"	name="Targovište" />
+		code="BG-25"	name="Targovishte" />
 	<iso_3166_2_entry
 		code="BG-03"	name="Varna" />
 	<iso_3166_2_entry
-		code="BG-04"	name="Veliko Tărnovo" />
+		code="BG-04"	name="Veliko Tarnovo" />
 	<iso_3166_2_entry
 		code="BG-05"	name="Vidin" />
 	<iso_3166_2_entry
-		code="BG-06"	name="Vraca" />
+		code="BG-06"	name="Vratsa" />
+	<iso_3166_2_entry
+		code="BG-28"	name="Yambol" />
 </iso_3166_subset>
 </iso_3166_country>
 	<!-- Bahrain -->
@@ -1046,6 +1048,9 @@
 	<iso_3166_2_entry
 		code="BJ-ZO"	name="Zou" />
 </iso_3166_subset>
+</iso_3166_country>
+  <!-- Saint Barthélemy -->
+<iso_3166_country code="BL">
 </iso_3166_country>
 	<!-- Brunei Darussalam -->
 <iso_3166_country code="BN">
@@ -1852,33 +1857,217 @@
 <iso_3166_country code="CZ">
 <iso_3166_subset type="Region">
 	<iso_3166_2_entry
-		code="CZ-JC"	name="Jihočeský kraj" />
+		code="CZ JC"	name="Jihočeský kraj" />
 	<iso_3166_2_entry
-		code="CZ-JM"	name="Jihomoravský kraj" />
+		code="CZ JM"	name="Jihomoravský kraj" />
 	<iso_3166_2_entry
-		code="CZ-KA"	name="Karlovarský kraj" />
+		code="CZ KA"	name="Karlovarský kraj" />
 	<iso_3166_2_entry
-		code="CZ-KR"	name="Královéhradecký kraj" />
+		code="CZ KR"	name="Královéhradecký kraj" />
 	<iso_3166_2_entry
-		code="CZ-LI"	name="Liberecký kraj" />
+		code="CZ LI"	name="Liberecký kraj" />
 	<iso_3166_2_entry
-		code="CZ-MO"	name="Moravskoslezský kraj" />
+		code="CZ MO"	name="Moravskoslezský kraj" />
 	<iso_3166_2_entry
-		code="CZ-OL"	name="Olomoucký kraj" />
+		code="CZ OL"	name="Olomoucký kraj" />
 	<iso_3166_2_entry
-		code="CZ-PA"	name="Pardubický kraj" />
+		code="CZ PA"	name="Pardubický kraj" />
 	<iso_3166_2_entry
-		code="CZ-PL"	name="Plzeňský kraj" />
+		code="CZ PL"	name="Plzeňský kraj" />
 	<iso_3166_2_entry
-		code="CZ-PR"	name="Praha, hlavní město" />
+		code="CZ PR"	name="Praha, hlavní město" />
 	<iso_3166_2_entry
-		code="CZ-ST"	name="Středočeský kraj" />
+		code="CZ ST"	name="Středočeský kraj" />
 	<iso_3166_2_entry
-		code="CZ-US"	name="Ústecký kraj" />
+		code="CZ US"	name="Ústecký kraj" />
 	<iso_3166_2_entry
-		code="CZ-VY"	name="Vysočina" />
+		code="CZ VY"	name="Vysočina" />
 	<iso_3166_2_entry
-		code="CZ-ZL"	name="Zlínský kraj" />
+		code="CZ ZL"	name="Zlínský kraj" />
+</iso_3166_subset>
+<iso_3166_subset type="district">
+	<iso_3166_2_entry
+		code="CZ-201"	name="Benešov"	parent="ST" />
+	<iso_3166_2_entry
+		code="CZ-202"	name="Beroun"	parent="ST" />
+	<iso_3166_2_entry
+		code="CZ-203"	name="Kladno"	parent="ST" />
+	<iso_3166_2_entry
+		code="CZ-204"	name="Kolín"	parent="ST" />
+	<iso_3166_2_entry
+		code="CZ-205"	name="Kutná Hora"	parent="ST" />
+	<iso_3166_2_entry
+		code="CZ-206"	name="Mělník"	parent="ST" />
+	<iso_3166_2_entry
+		code="CZ-207"	name="Mladá Boleslav"	parent="ST" />
+	<iso_3166_2_entry
+		code="CZ-208"	name="Nymburk"	parent="ST" />
+	<iso_3166_2_entry
+		code="CZ-209"	name="Praha-východ"	parent="ST" />
+	<iso_3166_2_entry
+		code="CZ-20A"	name="Praha-západ"	parent="ST" />
+	<iso_3166_2_entry
+		code="CZ-20B"	name="Příbram"	parent="ST" />
+	<iso_3166_2_entry
+		code="CZ-20C"	name="Rakovník"	parent="ST" />
+	<iso_3166_2_entry
+		code="CZ-311"	name="České Budějovice"	parent="JC" />
+	<iso_3166_2_entry
+		code="CZ-312"	name="Český Krumlov"	parent="JC" />
+	<iso_3166_2_entry
+		code="CZ-313"	name="Jindřichův Hradec"	parent="JC" />
+	<iso_3166_2_entry
+		code="CZ-314"	name="Písek"	parent="JC" />
+	<iso_3166_2_entry
+		code="CZ-315"	name="Prachatice"	parent="JC" />
+	<iso_3166_2_entry
+		code="CZ-316"	name="Strakonice"	parent="JC" />
+	<iso_3166_2_entry
+		code="CZ-317"	name="Tábor"	parent="JC" />
+	<iso_3166_2_entry
+		code="CZ-321"	name="Domažlice"	parent="PL" />
+	<iso_3166_2_entry
+		code="CZ-322"	name="Klatovy"	parent="PL" />
+	<iso_3166_2_entry
+		code="CZ-323"	name="Plzeň-město"	parent="PL" />
+	<iso_3166_2_entry
+		code="CZ-324"	name="Plzeň-jih"	parent="PL" />
+	<iso_3166_2_entry
+		code="CZ-325"	name="Plzeň-sever"	parent="PL" />
+	<iso_3166_2_entry
+		code="CZ-326"	name="Rokycany"	parent="PL" />
+	<iso_3166_2_entry
+		code="CZ-327"	name="Tachov"	parent="PL" />
+	<iso_3166_2_entry
+		code="CZ-411"	name="Cheb"	parent="KA" />
+	<iso_3166_2_entry
+		code="CZ-412"	name="Karlovy Vary"	parent="KA" />
+	<iso_3166_2_entry
+		code="CZ-413"	name="Sokolov"	parent="KA" />
+	<iso_3166_2_entry
+		code="CZ-421"	name="Děčín"	parent="US" />
+	<iso_3166_2_entry
+		code="CZ-422"	name="Chomutov"	parent="US" />
+	<iso_3166_2_entry
+		code="CZ-423"	name="Litoměřice"	parent="US" />
+	<iso_3166_2_entry
+		code="CZ-424"	name="Louny"	parent="US" />
+	<iso_3166_2_entry
+		code="CZ-425"	name="Most"	parent="US" />
+	<iso_3166_2_entry
+		code="CZ-426"	name="Teplice"	parent="US" />
+	<iso_3166_2_entry
+		code="CZ-427"	name="Ústí nad Labem"	parent="US" />
+	<iso_3166_2_entry
+		code="CZ-511"	name="Česká Lípa"	parent="LI" />
+	<iso_3166_2_entry
+		code="CZ-512"	name="Jablonec nad Nisou"	parent="LI" />
+	<iso_3166_2_entry
+		code="CZ-513"	name="Liberec"	parent="LI" />
+	<iso_3166_2_entry
+		code="CZ-514"	name="Semily"	parent="LI" />
+	<iso_3166_2_entry
+		code="CZ-521"	name="Hradec Králové"	parent="KR" />
+	<iso_3166_2_entry
+		code="CZ-522"	name="Jičín"	parent="KR" />
+	<iso_3166_2_entry
+		code="CZ-523"	name="Náchod"	parent="KR" />
+	<iso_3166_2_entry
+		code="CZ-524"	name="Rychnov nad Kněžnou"	parent="KR" />
+	<iso_3166_2_entry
+		code="CZ-525"	name="Trutnov"	parent="KR" />
+	<iso_3166_2_entry
+		code="CZ-531"	name="Chrudim"	parent="PA" />
+	<iso_3166_2_entry
+		code="CZ-532"	name="Pardubice"	parent="PA" />
+	<iso_3166_2_entry
+		code="CZ-533"	name="Svitavy"	parent="PA" />
+	<iso_3166_2_entry
+		code="CZ-534"	name="Ústí nad Orlicí"	parent="PA" />
+	<iso_3166_2_entry
+		code="CZ-621"	name="Blansko"	parent="JM" />
+	<iso_3166_2_entry
+		code="CZ-622"	name="Brno-město"	parent="JM" />
+	<iso_3166_2_entry
+		code="CZ-623"	name="Brno-venkov"	parent="JM" />
+	<iso_3166_2_entry
+		code="CZ-624"	name="Břeclav"	parent="JM" />
+	<iso_3166_2_entry
+		code="CZ-625"	name="Hodonín"	parent="JM" />
+	<iso_3166_2_entry
+		code="CZ-626"	name="Vyškov"	parent="JM" />
+	<iso_3166_2_entry
+		code="CZ-627"	name="Znojmo"	parent="JM" />
+	<iso_3166_2_entry
+		code="CZ-711"	name="Jeseník"	parent="OL" />
+	<iso_3166_2_entry
+		code="CZ-712"	name="Olomouc"	parent="OL" />
+	<iso_3166_2_entry
+		code="CZ-713"	name="Prostĕjov"	parent="OL" />
+	<iso_3166_2_entry
+		code="CZ-714"	name="Přerov"	parent="OL" />
+	<iso_3166_2_entry
+		code="CZ-715"	name="Šumperk"	parent="OL" />
+	<iso_3166_2_entry
+		code="CZ-721"	name="Kromĕříž"	parent="ZL" />
+	<iso_3166_2_entry
+		code="CZ-722"	name="Uherské Hradištĕ"	parent="ZL" />
+	<iso_3166_2_entry
+		code="CZ-723"	name="Vsetín"	parent="ZL" />
+	<iso_3166_2_entry
+		code="CZ-724"	name="Zlín"	parent="ZL" />
+	<iso_3166_2_entry
+		code="CZ-801"	name="Bruntál"	parent="MO" />
+	<iso_3166_2_entry
+		code="CZ-802"	name="Frýdek - Místek"	parent="MO" />
+	<iso_3166_2_entry
+		code="CZ-803"	name="Karviná"	parent="MO" />
+	<iso_3166_2_entry
+		code="CZ-804"	name="Nový Jičín"	parent="MO" />
+	<iso_3166_2_entry
+		code="CZ-805"	name="Opava"	parent="MO" />
+	<iso_3166_2_entry
+		code="CZ-806"	name="Ostrava - město"	parent="MO" />
+	<iso_3166_2_entry
+		code="CZ-101"	name="Praha 1"	parent="PR" />
+	<iso_3166_2_entry
+		code="CZ-102"	name="Praha 2"	parent="PR" />
+	<iso_3166_2_entry
+		code="CZ-103"	name="Praha 3"	parent="PR" />
+	<iso_3166_2_entry
+		code="CZ-104"	name="Praha 4"	parent="PR" />
+	<iso_3166_2_entry
+		code="CZ-105"	name="Praha 5"	parent="PR" />
+	<iso_3166_2_entry
+		code="CZ-106"	name="Praha 6"	parent="PR" />
+	<iso_3166_2_entry
+		code="CZ-107"	name="Praha 7"	parent="PR" />
+	<iso_3166_2_entry
+		code="CZ-108"	name="Praha 8"	parent="PR" />
+	<iso_3166_2_entry
+		code="CZ-109"	name="Praha 9"	parent="PR" />
+	<iso_3166_2_entry
+		code="CZ-10A"	name="Praha 10"	parent="PR" />
+	<iso_3166_2_entry
+		code="CZ-10B"	name="Praha 11"	parent="PR" />
+	<iso_3166_2_entry
+		code="CZ-10C"	name="Praha 12"	parent="PR" />
+	<iso_3166_2_entry
+		code="CZ-10D"	name="Praha 13"	parent="PR" />
+	<iso_3166_2_entry
+		code="CZ-10E"	name="Praha 14"	parent="PR" />
+	<iso_3166_2_entry
+		code="CZ-10F"	name="Praha 15"	parent="PR" />
+	<iso_3166_2_entry
+		code="CZ-611"	name="Havlíčkův Brod"	parent="VY" />
+	<iso_3166_2_entry
+		code="CZ-612"	name="Jihlava"	parent="VY" />
+	<iso_3166_2_entry
+		code="CZ-613"	name="Pelhřimov"	parent="VY" />
+	<iso_3166_2_entry
+		code="CZ-614"	name="Třebíč"	parent="VY" />
+	<iso_3166_2_entry
+		code="CZ-615"	name="Žd’ár nad Sázavou"	parent="VY" />
 </iso_3166_subset>
 </iso_3166_country>
 	<!-- Germany -->
@@ -2538,7 +2727,7 @@
 </iso_3166_country>
 	<!-- France -->
 <iso_3166_country code="FR">
-<iso_3166_subset type="Region">
+<iso_3166_subset type="Metropolitan region">
 	<iso_3166_2_entry
 		code="FR A"	name="Alsace" />
 	<iso_3166_2_entry
@@ -2584,31 +2773,15 @@
 	<iso_3166_2_entry
 		code="FR V"	name="Rhône-Alpes" />
 </iso_3166_subset>
-<iso_3166_subset type="Overseas department">
+<iso_3166_subset type="Overseas region/department">
 	<iso_3166_2_entry
-		code="FR-971"	name="Guadeloupe" />
+		code="FR GP"	name="Guadeloupe" />
 	<iso_3166_2_entry
-		code="FR-972"	name="Guyane" />
+		code="FR GF"	name="Guyane" />
 	<iso_3166_2_entry
-		code="FR-973"	name="Martinique" />
+		code="FR MQ"	name="Martinique" />
 	<iso_3166_2_entry
-		code="FR-974"	name="Réunion" />
-</iso_3166_subset>
-<iso_3166_subset type="Territorial collectivity">
-	<iso_3166_2_entry
-		code="FR-YT"	name="Mayotte" />
-	<iso_3166_2_entry
-		code="FR-PM"	name="Saint-Pierre-et-Miquelon" />
-</iso_3166_subset>
-<iso_3166_subset type="Overseas territory">
-	<iso_3166_2_entry
-		code="FR-NC"	name="Nouvelle-Calédonie" />
-	<iso_3166_2_entry
-		code="FR-PF"	name="Polynésie française" />
-	<iso_3166_2_entry
-		code="FR-TF"	name="Terres australes françaises" />
-	<iso_3166_2_entry
-		code="FR-WF"	name="Wallis et Futuna" />
+		code="FR RE"	name="Réunion" />
 </iso_3166_subset>
 <iso_3166_subset type="Metropolitan department">
 	<iso_3166_2_entry
@@ -2804,25 +2977,267 @@
 	<iso_3166_2_entry
 		code="FR-78"	name="Yvelines"	parent="J" />
 </iso_3166_subset>
+<iso_3166_subset type="Dependency">
+	<iso_3166_2_entry
+		code="FR-CP"	name="Clipperton" />
+</iso_3166_subset>
+<iso_3166_subset type="Overseas territorial collectivity">
+	<iso_3166_2_entry
+		code="FR-BL"	name="Saint-Barthélemy" />
+	<iso_3166_2_entry
+		code="FR-MF"	name="Saint-Martin" />
+	<iso_3166_2_entry
+		code="FR-NC"	name="Nouvelle-Calédonie" />
+	<iso_3166_2_entry
+		code="FR-PF"	name="Polynésie française" />
+	<iso_3166_2_entry
+		code="FR-PM"	name="Saint-Pierre-et-Miquelon" />
+	<iso_3166_2_entry
+		code="FR-TF"	name="Terres australes françaises" />
+	<iso_3166_2_entry
+		code="FR-WF"	name="Wallis et Futuna" />
+	<iso_3166_2_entry
+		code="FR-YT"	name="Mayotte" />
+</iso_3166_subset>
 </iso_3166_country>
-	<!-- Great Britain -->
+	<!-- United Kingdom -->
 <iso_3166_country code="GB">
-<iso_3166_subset type="First-level divisions">
+<iso_3166_subset type="Country">
 	<!-- These are listed in ISO-3166-2 -->
 	<iso_3166_2_entry
 		code="GB ENG"	name="England" />
 	<iso_3166_2_entry
-		code="GB NIR"	name="Northern Ireland" />
-	<iso_3166_2_entry
 		code="GB SCT"	name="Scotland" />
+<iso_3166_subset type="Province">
+	<iso_3166_2_entry
+		code="GB NIR"	name="Northern Ireland" />
+</iso_3166_subset>
+<iso_3166_subset type="Principality">
 	<iso_3166_2_entry
 		code="GB WLS"	name="Wales" />
 </iso_3166_subset>
+<iso_3166_subset type="Included for completeness">
+	<iso_3166_2_entry
+		code="GB EAW"	name="England and Wales" />
+	<iso_3166_2_entry
+		code="GB GBN"	name="Great Britain" />
+	<iso_3166_2_entry
+		code="GB UKM"	name="United Kingdom" />
+</iso_3166_subset>
+<iso_3166_subset type="Two-tier county">
+	<iso_3166_2_entry
+		code="GB-BDF"	name="Bedfordshire"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-BKM"	name="Buckinghamshire"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-CAM"	name="Cambridgeshire"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-CHS"	name="Cheshire"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-CON"	name="Cornwall"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-CMA"	name="Cumbria"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-DBY"	name="Derbyshire"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-DEV"	name="Devon"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-DOR"	name="Dorset"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-DUR"	name="Durham"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-ESX"	name="East Sussex"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-ESS"	name="Essex"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-GLS"	name="Gloucestershire"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-HAM"	name="Hampshire"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-HRT"	name="Hertfordshire"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-KEN"	name="Kent"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-LAN"	name="Lancashire"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-LEC"	name="Leicestershire"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-LIN"	name="Lincolnshire"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-NFK"	name="Norfolk"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-NYK"	name="North Yorkshire"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-NTH"	name="Northamptonshire"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-NBL"	name="Northumbarland"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-NTT"	name="Nottinghamshire"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-OXF"	name="Oxfordshire"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-SOM"	name="Somerset"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-STS"	name="Staffordshire"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-SFK"	name="Suffolk"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-SRY"	name="Surrey"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-WSX"	name="West Sussex"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-WIL"	name="Wiltshire"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-WOR"	name="Worcestershire"	parent="ENG" />
+</iso_3166_subset>
+<iso_3166_subset type="London borough">
+	<iso_3166_2_entry
+		code="GB-BDG"	name="Barking and Dagenham"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-BNE"	name="Barnet"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-BEX"	name="Bexley"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-BEN"	name="Brent"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-BRY"	name="Bromley"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-CMD"	name="Camden"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-CRY"	name="Croydon"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-EAL"	name="Ealing"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-ENF"	name="Enfield"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-GRE"	name="Greenwich"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-HCK"	name="Hackney"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-HMF"	name="Hammersmith and Fulham"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-HRY"	name="Haringey"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-HRW"	name="Harrow"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-HAV"	name="Havering"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-HIL"	name="Hillingdon"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-HNS"	name="Hounslow"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-ISL"	name="Islington"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-KEC"	name="Kensington and Chelsea"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-KTT"	name="Kingston upon Thames"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-LBH"	name="Lambeth"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-LEW"	name="Lewisham"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-MRT"	name="Merton"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-NWM"	name="Newham"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-RDB"	name="Redbridge"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-RIC"	name="Richmond upon Thames"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-SWK"	name="Southwark"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-STN"	name="Sutton"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-TWH"	name="Tower Hamlets"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-WFT"	name="Waltham Forest"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-WND"	name="Wandsworth"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-WSM"	name="Westminster"	parent="ENG" />
+</iso_3166_subset>
+<iso_3166_subset type="Metropolitan district">
+	<iso_3166_2_entry
+		code="GB-BNS"	name="Barnsley"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-BIR"	name="Birmingham"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-BOL"	name="Bolton"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-BRD"	name="Bradford"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-BUR"	name="Bury"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-CLD"	name="Calderdale"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-COV"	name="Coventry"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-DNC"	name="Doncaster"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-DUD"	name="Dudley"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-GAT"	name="Gateshead"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-KIR"	name="Kirklees"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-KWL"	name="Knowsley"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-LDS"	name="Leeds"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-LIV"	name="Liverpool"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-MAN"	name="Manchester"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-NET"	name="Newcastle upon Tyne"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-NTY"	name="North Tyneside"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-OLD"	name="Oldham"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-RCH"	name="Rochdale"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-ROT"	name="Rotherham"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-SLF"	name="Salford"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-SAW"	name="Sandwell"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-SFT"	name="Sefton"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-SHF"	name="Sheffield"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-SOL"	name="Solihull"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-STY"	name="South Tyneside"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-SHN"	name="St. Helens"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-SKP"	name="Stockport"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-SND"	name="Sunderland"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-TAM"	name="Tameside"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-TRF"	name="Trafford"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-WKF"	name="Wakefield"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-WLL"	name="Walsall"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-WGN"	name="Wigan"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-WRL"	name="Wirral"	parent="ENG" />
+	<iso_3166_2_entry
+		code="GB-WLV"	name="Wolverhampton"	parent="ENG" />
+</iso_3166_subset>
+<iso_3166_subset type="City corporation">
+	<iso_3166_2_entry
+		code="GB-LND"	name="London, City of"	parent="ENG" />
+</iso_3166_subset>
 <iso_3166_subset type="Division">
-	<!-- Great Britain divisions includes counties, London boroughs, -->
-	<!-- metropolitan districts unitary authorities, Northern Ireland and -->
-	<!-- Scotland council areas, ie a big mess of various things altogether -->
-	<!-- in a category -->
+	<!-- Great Britain divisions includes English single-tier counties -->
+	<!-- and unitary authorities, Northern Ireland and Scotland council -->
+	<!-- areas and Welsh unitary authorities. -->
 	<iso_3166_2_entry
 		code="GB-ABE"	name="Aberdeen City"	parent="SCT" />
 	<iso_3166_2_entry
@@ -2844,21 +3259,9 @@
 	<iso_3166_2_entry
 		code="GB-BNB"	name="Banbridge"	parent="NIR" />
 	<iso_3166_2_entry
-		code="GB-BDG"	name="Barking and Dagenham"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-BNE"	name="Barnet"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-BNS"	name="Barnsley"	parent="ENG" />
-	<iso_3166_2_entry
 		code="GB-BAS"	name="Bath and North East Somerset"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-BDF"	name="Bedfordshire"	parent="ENG" />
-	<iso_3166_2_entry
 		code="GB-BFS"	name="Belfast"	parent="NIR" />
-	<iso_3166_2_entry
-		code="GB-BEX"	name="Bexley"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-BIR"	name="Birmingham"	parent="ENG" />
 	<iso_3166_2_entry
 		code="GB-BBD"	name="Blackburn with Darwen"	parent="ENG" />
 	<iso_3166_2_entry
@@ -2866,15 +3269,9 @@
 	<iso_3166_2_entry
 		code="GB-BGW"	name="Blaenau Gwent"	parent="WLS" />
 	<iso_3166_2_entry
-		code="GB-BOL"	name="Bolton"	parent="ENG" />
-	<iso_3166_2_entry
 		code="GB-BMH"	name="Bournemouth"	parent="ENG" />
 	<iso_3166_2_entry
 		code="GB-BRC"	name="Bracknell Forest"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-BRD"	name="Bradford"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-BEN"	name="Brent"	parent="ENG" />
 	<iso_3166_2_entry
 		code="GB-BGE"	name="Bridgend"	parent="WLS" />
 	<iso_3166_2_entry
@@ -2882,19 +3279,7 @@
 	<iso_3166_2_entry
 		code="GB-BST"	name="Bristol, City of"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-BRY"	name="Bromley"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-BKM"	name="Buckinghamshire"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-BUR"	name="Bury"	parent="ENG" />
-	<iso_3166_2_entry
 		code="GB-CAY"	name="Caerphilly"	parent="WLS" />
-	<iso_3166_2_entry
-		code="GB-CLD"	name="Calderdale"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-CAM"	name="Cambridgeshire"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-CMD"	name="Camden"	parent="ENG" />
 	<iso_3166_2_entry
 		code="GB-CRF"	name="Cardiff"	parent="WLS" />
 	<iso_3166_2_entry
@@ -2906,8 +3291,6 @@
 	<iso_3166_2_entry
 		code="GB-CGN"	name="Ceredigion"	parent="WLS" />
 	<iso_3166_2_entry
-		code="GB-CHS"	name="Cheshire"	parent="ENG" />
-	<iso_3166_2_entry
 		code="GB-CLK"	name="Clackmannanshire"	parent="SCT" />
 	<iso_3166_2_entry
 		code="GB-CLR"	name="Coleraine"	parent="NIR" />
@@ -2916,15 +3299,7 @@
 	<iso_3166_2_entry
 		code="GB-CKT"	name="Cookstown"	parent="NIR" />
 	<iso_3166_2_entry
-		code="GB-CON"	name="Cornwall"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-COV"	name="Coventry"	parent="ENG" />
-	<iso_3166_2_entry
 		code="GB-CGV"	name="Craigavon"	parent="NIR" />
-	<iso_3166_2_entry
-		code="GB-CRY"	name="Croydon"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-CMA"	name="Cumbria"	parent="ENG" />
 	<iso_3166_2_entry
 		code="GB-DAL"	name="Darlington"	parent="ENG" />
 	<iso_3166_2_entry
@@ -2932,29 +3307,15 @@
 	<iso_3166_2_entry
 		code="GB-DER"	name="Derby"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-DBY"	name="Derbyshire"	parent="ENG" />
-	<iso_3166_2_entry
 		code="GB-DRY"	name="Derry"	parent="NIR" />
 	<iso_3166_2_entry
-		code="GB-DEV"	name="Devon"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-DNC"	name="Doncaster"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-DOR"	name="Dorset"	parent="ENG" />
-	<iso_3166_2_entry
 		code="GB-DOW"	name="Down"	parent="NIR" />
-	<iso_3166_2_entry
-		code="GB-DUD"	name="Dudley"	parent="ENG" />
 	<iso_3166_2_entry
 		code="GB-DGY"	name="Dumfries and Galloway"	parent="SCT" />
 	<iso_3166_2_entry
 		code="GB-DND"	name="Dundee City"	parent="SCT" />
 	<iso_3166_2_entry
 		code="GB-DGN"	name="Dungannon"	parent="NIR" />
-	<iso_3166_2_entry
-		code="GB-DUR"	name="Durham"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-EAL"	name="Ealing"	parent="ENG" />
 	<iso_3166_2_entry
 		code="GB-EAY"	name="East Ayrshire"	parent="SCT" />
 	<iso_3166_2_entry
@@ -2966,15 +3327,9 @@
 	<iso_3166_2_entry
 		code="GB-ERY"	name="East Riding of Yorkshire"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-ESX"	name="East Sussex"	parent="ENG" />
-	<iso_3166_2_entry
 		code="GB-EDH"	name="Edinburgh, City of"	parent="SCT" />
 	<iso_3166_2_entry
 		code="GB-ELS"	name="Eilean Siar"	parent="SCT" />
-	<iso_3166_2_entry
-		code="GB-ENF"	name="Enfield"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-ESS"	name="Essex"	parent="ENG" />
 	<iso_3166_2_entry
 		code="GB-FAL"	name="Falkirk"	parent="SCT" />
 	<iso_3166_2_entry
@@ -2984,41 +3339,17 @@
 	<iso_3166_2_entry
 		code="GB-FLN"	name="Flintshire"	parent="WLS" />
 	<iso_3166_2_entry
-		code="GB-GAT"	name="Gateshead"	parent="ENG" />
-	<iso_3166_2_entry
 		code="GB-GLG"	name="Glasgow City"	parent="SCT" />
-	<iso_3166_2_entry
-		code="GB-GLS"	name="Gloucestershire"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-GRE"	name="Greenwich"	parent="ENG" />
 	<iso_3166_2_entry
 		code="GB-GWN"	name="Gwynedd"	parent="WLS" />
 	<iso_3166_2_entry
-		code="GB-HCK"	name="Hackney"	parent="ENG" />
-	<iso_3166_2_entry
 		code="GB-HAL"	name="Halton"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-HMF"	name="Hammersmith and Fulham"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-HAM"	name="Hampshire"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-HRY"	name="Haringey"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-HRW"	name="Harrow"	parent="ENG" />
 	<iso_3166_2_entry
 		code="GB-HPL"	name="Hartlepool"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-HAV"	name="Havering"	parent="ENG" />
-	<iso_3166_2_entry
 		code="GB-HEF"	name="Herefordshire, County of"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-HRT"	name="Hertfordshire"	parent="ENG" />
-	<iso_3166_2_entry
 		code="GB-HED"	name="Highland"	parent="SCT" />
-	<iso_3166_2_entry
-		code="GB-HIL"	name="Hillingdon"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-HNS"	name="Hounslow"	parent="ENG" />
 	<iso_3166_2_entry
 		code="GB-IVC"	name="Inverclyde"	parent="SCT" />
 	<iso_3166_2_entry
@@ -3028,55 +3359,23 @@
 	<iso_3166_2_entry
 		code="GB-IOS"	name="Isles of Scilly"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-ISL"	name="Islington"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-KEC"	name="Kensington and Chelsea"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-KEN"	name="Kent"	parent="ENG" />
-	<iso_3166_2_entry
 		code="GB-KHL"	name="Kingston upon Hull, City of"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-KTT"	name="Kingston upon Thames"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-KIR"	name="Kirklees"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-KWL"	name="Knowsley"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-LBH"	name="Lambeth"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-LAN"	name="Lancashire"	parent="ENG" />
 	<iso_3166_2_entry
 		code="GB-LRN"	name="Larne"	parent="NIR" />
 	<iso_3166_2_entry
-		code="GB-LDS"	name="Leeds"	parent="ENG" />
-	<iso_3166_2_entry
 		code="GB-LCE"	name="Leicester"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-LEC"	name="Leicestershire"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-LEW"	name="Lewisham"	parent="ENG" />
 	<iso_3166_2_entry
 		code="GB-LMV"	name="Limavady"	parent="NIR" />
 	<iso_3166_2_entry
-		code="GB-LIN"	name="Lincolnshire"	parent="ENG" />
-	<iso_3166_2_entry
 		code="GB-LSB"	name="Lisburn"	parent="NIR" />
-	<iso_3166_2_entry
-		code="GB-LIV"	name="Liverpool"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-LND"	name="London, City of"	parent="ENG" />
 	<iso_3166_2_entry
 		code="GB-LUT"	name="Luton"	parent="ENG" />
 	<iso_3166_2_entry
 		code="GB-MFT"	name="Magherafelt"	parent="NIR" />
 	<iso_3166_2_entry
-		code="GB-MAN"	name="Manchester"	parent="ENG" />
-	<iso_3166_2_entry
 		code="GB-MDW"	name="Medway"	parent="ENG" />
 	<iso_3166_2_entry
 		code="GB-MTY"	name="Merthyr Tydfil"	parent="WLS" />
-	<iso_3166_2_entry
-		code="GB-MRT"	name="Merton"	parent="ENG" />
 	<iso_3166_2_entry
 		code="GB-MDB"	name="Middlesbrough"	parent="ENG" />
 	<iso_3166_2_entry
@@ -3092,17 +3391,11 @@
 	<iso_3166_2_entry
 		code="GB-NTL"	name="Neath Port Talbot"	parent="WLS" />
 	<iso_3166_2_entry
-		code="GB-NET"	name="Newcastle upon Tyne"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-NWM"	name="Newham"	parent="ENG" />
-	<iso_3166_2_entry
 		code="GB-NWP"	name="Newport"	parent="WLS" />
 	<iso_3166_2_entry
 		code="GB-NYM"	name="Newry and Mourne"	parent="NIR" />
 	<iso_3166_2_entry
 		code="GB-NTA"	name="Newtownabbey"	parent="NIR" />
-	<iso_3166_2_entry
-		code="GB-NFK"	name="Norfolk"	parent="ENG" />
 	<iso_3166_2_entry
 		code="GB-NAY"	name="North Ayrshire"	parent="SCT" />
 	<iso_3166_2_entry
@@ -3116,25 +3409,11 @@
 	<iso_3166_2_entry
 		code="GB-NSM"	name="North Somerset"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-NTY"	name="North Tyneside"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-NYK"	name="North Yorkshire"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-NTH"	name="Northamptonshire"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-NBL"	name="Northumbarland"	parent="ENG" />
-	<iso_3166_2_entry
 		code="GB-NGM"	name="Nottingham"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-NTT"	name="Nottinghamshire"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-OLD"	name="Oldham"	parent="ENG" />
 	<iso_3166_2_entry
 		code="GB-OMH"	name="Omagh"	parent="NIR" />
 	<iso_3166_2_entry
 		code="GB-ORR"	name="Orkney Islands"	parent="SCT" />
-	<iso_3166_2_entry
-		code="GB-OXF"	name="Oxfordshire"	parent="ENG" />
 	<iso_3166_2_entry
 		code="GB-PEM"	name="Pembrokeshire"	parent="WLS" />
 	<iso_3166_2_entry
@@ -3152,31 +3431,15 @@
 	<iso_3166_2_entry
 		code="GB-RDG"	name="Reading"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-RDB"	name="Redbridge"	parent="ENG" />
-	<iso_3166_2_entry
 		code="GB-RCC"	name="Redcar and Cleveland"	parent="ENG" />
 	<iso_3166_2_entry
 		code="GB-RFW"	name="Renfrewshire"	parent="SCT" />
 	<iso_3166_2_entry
 		code="GB-RCT"	name="Rhondda, Cynon, Taff"	parent="WLS" />
 	<iso_3166_2_entry
-		code="GB-RIC"	name="Richmond upon Thames"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-RCH"	name="Rochdale"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-ROT"	name="Rotherham"	parent="ENG" />
-	<iso_3166_2_entry
 		code="GB-RUT"	name="Rutland"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-SLF"	name="Salford"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-SAW"	name="Sandwell"	parent="ENG" />
-	<iso_3166_2_entry
 		code="GB-SCB"	name="Scottish Borders, The"	parent="SCT" />
-	<iso_3166_2_entry
-		code="GB-SFT"	name="Sefton"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-SHF"	name="Sheffield"	parent="ENG" />
 	<iso_3166_2_entry
 		code="GB-ZET"	name="Shetland Islands"	parent="SCT" />
 	<iso_3166_2_entry
@@ -3184,31 +3447,17 @@
 	<iso_3166_2_entry
 		code="GB-SLG"	name="Slough"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-SOL"	name="Solihull"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-SOM"	name="Somerset"	parent="ENG" />
-	<iso_3166_2_entry
 		code="GB-SAY"	name="South Ayrshire"	parent="SCT" />
 	<iso_3166_2_entry
 		code="GB-SGC"	name="South Gloucestershire"	parent="ENG" />
 	<iso_3166_2_entry
 		code="GB-SLK"	name="South Lanarkshire"	parent="SCT" />
 	<iso_3166_2_entry
-		code="GB-STY"	name="South Tyneside"	parent="ENG" />
-	<iso_3166_2_entry
 		code="GB-STH"	name="Southampton"	parent="ENG" />
 	<iso_3166_2_entry
 		code="GB-SOS"	name="Southend-on-Sea"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-SWK"	name="Southwark"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-SHN"	name="St. Helens"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-STS"	name="Staffordshire"	parent="ENG" />
-	<iso_3166_2_entry
 		code="GB-STG"	name="Stirling"	parent="SCT" />
-	<iso_3166_2_entry
-		code="GB-SKP"	name="Stockport"	parent="ENG" />
 	<iso_3166_2_entry
 		code="GB-STT"	name="Stockton-on-Tees"	parent="ENG" />
 	<iso_3166_2_entry
@@ -3216,19 +3465,9 @@
 	<iso_3166_2_entry
 		code="GB-STB"	name="Strabane"	parent="NIR" />
 	<iso_3166_2_entry
-		code="GB-SFK"	name="Suffolk"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-SND"	name="Sunderland"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-SRY"	name="Surrey"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-STN"	name="Sutton"	parent="ENG" />
-	<iso_3166_2_entry
 		code="GB-SWA"	name="Swansea"	parent="WLS" />
 	<iso_3166_2_entry
 		code="GB-SWD"	name="Swindon"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-TAM"	name="Tameside"	parent="ENG" />
 	<iso_3166_2_entry
 		code="GB-TFW"	name="Telford and Wrekin"	parent="ENG" />
 	<iso_3166_2_entry
@@ -3238,19 +3477,7 @@
 	<iso_3166_2_entry
 		code="GB-TOF"	name="Torfaen"	parent="WLS" />
 	<iso_3166_2_entry
-		code="GB-TWH"	name="Tower Hamlets"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-TRF"	name="Trafford"	parent="ENG" />
-	<iso_3166_2_entry
 		code="GB-VGL"	name="Vale of Glamorgan, The"	parent="WLS" />
-	<iso_3166_2_entry
-		code="GB-WKF"	name="Wakefield"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-WLL"	name="Walsall"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-WFT"	name="Waltham Forest"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-WND"	name="Wandsworth"	parent="ENG" />
 	<iso_3166_2_entry
 		code="GB-WRT"	name="Warrington"	parent="ENG" />
 	<iso_3166_2_entry
@@ -3262,23 +3489,9 @@
 	<iso_3166_2_entry
 		code="GB-WLN"	name="West Lothian"	parent="SCT" />
 	<iso_3166_2_entry
-		code="GB-WSX"	name="West Sussex"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-WSM"	name="Westminster"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-WGN"	name="Wigan"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-WIL"	name="Wiltshire"	parent="ENG" />
-	<iso_3166_2_entry
 		code="GB-WNM"	name="Windsor and Maidenhead"	parent="ENG" />
 	<iso_3166_2_entry
-		code="GB-WRL"	name="Wirral"	parent="ENG" />
-	<iso_3166_2_entry
 		code="GB-WOK"	name="Wokingham"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-WLV"	name="Wolverhampton"	parent="ENG" />
-	<iso_3166_2_entry
-		code="GB-WOR"	name="Worcestershire"	parent="ENG" />
 	<iso_3166_2_entry
 		code="GB-WRX"	name="Wrexham"	parent="WLS" />
 	<iso_3166_2_entry
