@@ -11,11 +11,13 @@ iso_639_3_dir = os.path.join(iso_639_dir, "iso_639_3")
 iso_3166_dir = os.path.join(basedir, "iso_3166")
 iso_3166_2_dir = os.path.join(iso_3166_dir, "iso_3166_2")
 iso_4217_dir = os.path.join(basedir, "iso_4217")
+iso_15924_dir = os.path.join(basedir, "iso_15924")
 dirs = [iso_639_dir,
         iso_639_3_dir,
         iso_3166_dir,
         iso_3166_2_dir,
-        iso_4217_dir]
+        iso_4217_dir,
+        iso_15924_dir]
 
 def _cmp(l, r):
     return -cmp(l[1:], r[1:])
