@@ -19,7 +19,7 @@
 <!--									-->
 <!-- The sorting order is the same that is used in the standard.	-->
 <!--									-->
-<!-- Up-to-date as of ISO 3166-2 Newsletter I-8 (2007-04-17)			-->
+<!-- Up-to-date as of ISO 3166-2 Newsletter I-9 (2007-11-28)		-->
 
 <!DOCTYPE iso_3166_2_entries [
 	<!ELEMENT iso_3166_2_entries (iso_3166_country+)>
@@ -3008,6 +3008,7 @@
 		code="GB ENG"	name="England" />
 	<iso_3166_2_entry
 		code="GB SCT"	name="Scotland" />
+</iso_3166_subset>
 <iso_3166_subset type="Province">
 	<iso_3166_2_entry
 		code="GB NIR"	name="Northern Ireland" />
@@ -3591,27 +3592,27 @@
 </iso_3166_subset>
 <iso_3166_subset type="City">
 	<iso_3166_2_entry
-		code="GE-TB"	name="Tbilisi" />
+		code="GE-TB"	name="T’bilisi" />
 </iso_3166_subset>
 <iso_3166_subset type="Region">
 	<iso_3166_2_entry
 		code="GE-GU"	name="Guria" />
 	<iso_3166_2_entry
-		code="GE-IM"	name="Imereti" />
+		code="GE-IM"	name="Imeret’i" />
 	<iso_3166_2_entry
-		code="GE-KA"	name="Kakheti" />
+		code="GE-KA"	name="Kakhet’i" />
 	<iso_3166_2_entry
-		code="GE-KK"	name="Kvemo Kartli" />
+		code="GE-KK"	name="K’vemo K’art’li" />
 	<iso_3166_2_entry
-		code="GE-MM"	name="Mtskheta-Mtianeti" />
+		code="GE-MM"	name="Mts’khet’a-Mt’ianet’i" />
 	<iso_3166_2_entry
-		code="GE-RL"	name="Racha-Lechkhumi [and] Kvemo Svaneti" />
+		code="GE-RL"	name="Racha-Lech’khumi-K’vemo Svanet’i" />
 	<iso_3166_2_entry
-		code="GE-SZ"	name="Samegrelo-Zemo Svaneti" />
+		code="GE-SZ"	name="Samegrelo-Zemo Svanet’i" />
 	<iso_3166_2_entry
-		code="GE-SJ"	name="Samtskhe-Javakheti" />
+		code="GE-SJ"	name="Samts’khe-Javakhet’i" />
 	<iso_3166_2_entry
-		code="GE-SK"	name="Shida Kartli" />
+		code="GE-SK"	name="Shida K’art’li" />
 </iso_3166_subset>
 </iso_3166_country>
 <iso_3166_country code="GG">
@@ -5357,18 +5358,24 @@
 </iso_3166_country>
 	<!-- Lebanon -->
 <iso_3166_country code="LB">
+<iso_3166_subset type="Governorate">
 	<iso_3166_2_entry
-		code="LB-BA"	name="Beirout" />
+		code="LB-AK"	name="Aakkâr" />
 	<iso_3166_2_entry
-		code="LB-BI"	name="El Begsa" />
+		code="LB-BH"	name="Baalbek-Hermel" />
 	<iso_3166_2_entry
-		code="LB-JL"	name="Jabal Loubnane" />
+		code="LB-BI"	name="Béqaa" />
 	<iso_3166_2_entry
-		code="LB-AS"	name="Loubnane ech Chemali" />
+		code="LB-BA"	name="Beyrouth" />
 	<iso_3166_2_entry
-		code="LB-JA"	name="Loubnane ej Jnoubi" />
+		code="LB-AS"	name="Liban-Nord" />
 	<iso_3166_2_entry
-		code="LB-NA"	name="Nabatiye" />
+		code="LB-JA"	name="Liban-Sud" />
+	<iso_3166_2_entry
+		code="LB-JL"	name="Mont-Liban" />
+	<iso_3166_2_entry
+		code="LB-NA"	name="Nabatîyé" />
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Sri Lanka -->
 <iso_3166_country code="LK">
@@ -5880,6 +5887,9 @@
 		code="ME-21"	name="Žabljak" />
 </iso_3166_subset>
 </iso_3166_country>
+	<!-- Saint Martin (French part) -->
+<iso_3166_country code="MF">
+</iso_3166_country>
 	<!-- Madagascar -->
 <iso_3166_country code="MG">
 	<iso_3166_2_entry
@@ -5950,173 +5960,173 @@
 <iso_3166_country code="MK">
 <iso_3166_subset type="Municipality">
 	<iso_3166_2_entry
-		code="MK-AD"	name="Aerodrom" />
+		code="MK-01"	name="Aerodrom" />
 	<iso_3166_2_entry
-		code="MK-AR"	name="Aračinovo" />
+		code="MK-02"	name="Aračinovo" />
 	<iso_3166_2_entry
-		code="MK-BR"	name="Berovo" />
+		code="MK-03"	name="Berovo" />
 	<iso_3166_2_entry
-		code="MK-TL"	name="Bitola" />
+		code="MK-04"	name="Bitola" />
 	<iso_3166_2_entry
-		code="MK-BG"	name="Bogdanci" />
+		code="MK-05"	name="Bogdanci" />
 	<iso_3166_2_entry
-		code="MK-VJ"	name="Bogovinje" />
+		code="MK-06"	name="Bogovinje" />
 	<iso_3166_2_entry
-		code="MK-BS"	name="Bosilovo" />
+		code="MK-07"	name="Bosilovo" />
 	<iso_3166_2_entry
-		code="MK-BN"	name="Brvenica" />
+		code="MK-08"	name="Brvenica" />
 	<iso_3166_2_entry
-		code="MK-BU"	name="Butel" />
+		code="MK-09"	name="Butel" />
 	<iso_3166_2_entry
-		code="MK-CE"	name="Centar" />
+		code="MK-77"	name="Centar" />
 	<iso_3166_2_entry
-		code="MK-CZ"	name="Centar Župa" />
+		code="MK-78"	name="Centar Župa" />
 	<iso_3166_2_entry
-		code="MK-CI"	name="Čair" />
+		code="MK-79"	name="Čair" />
 	<iso_3166_2_entry
-		code="MK-CA"	name="Čaška" />
+		code="MK-80"	name="Čaška" />
 	<iso_3166_2_entry
-		code="MK-CH"	name="Češinovo-Obleševo" />
+		code="MK-81"	name="Češinovo-Obleševo" />
 	<iso_3166_2_entry
-		code="MK-CS"	name="Čučer Sandevo" />
+		code="MK-82"	name="Čučer Sandevo" />
 	<iso_3166_2_entry
-		code="MK-DB"	name="Debar" />
+		code="MK-21"	name="Debar" />
 	<iso_3166_2_entry
-		code="MK-DA"	name="Debarca" />
+		code="MK-22"	name="Debarca" />
 	<iso_3166_2_entry
-		code="MK-DL"	name="Delčevo" />
+		code="MK-23"	name="Delčevo" />
 	<iso_3166_2_entry
-		code="MK-DM"	name="Demir Hisar" />
+		code="MK-25"	name="Demir Hisar" />
 	<iso_3166_2_entry
-		code="MK-DK"	name="Demir Kapija" />
+		code="MK-24"	name="Demir Kapija" />
 	<iso_3166_2_entry
-		code="MK-SD"	name="Dojran" />
+		code="MK-26"	name="Dojran" />
 	<iso_3166_2_entry
-		code="MK-DE"	name="Dolneni" />
+		code="MK-27"	name="Dolneni" />
 	<iso_3166_2_entry
-		code="MK-DR"	name="Drugovo" />
+		code="MK-28"	name="Drugovo" />
 	<iso_3166_2_entry
-		code="MK-GB"	name="Gazi Baba" />
+		code="MK-17"	name="Gazi Baba" />
 	<iso_3166_2_entry
-		code="MK-GV"	name="Gevgelija" />
+		code="MK-18"	name="Gevgelija" />
 	<iso_3166_2_entry
-		code="MK-GP"	name="Gjorče Petrov" />
+		code="MK-29"	name="Gjorče Petrov" />
 	<iso_3166_2_entry
-		code="MK-GT"	name="Gostivar" />
+		code="MK-19"	name="Gostivar" />
 	<iso_3166_2_entry
-		code="MK-GR"	name="Gradsko" />
+		code="MK-20"	name="Gradsko" />
 	<iso_3166_2_entry
-		code="MK-IL"	name="Ilinden" />
+		code="MK-34"	name="Ilinden" />
 	<iso_3166_2_entry
-		code="MK-JG"	name="Jegunovce" />
+		code="MK-35"	name="Jegunovce" />
 	<iso_3166_2_entry
-		code="MK-KB"	name="Karbinci" />
+		code="MK-37"	name="Karbinci" />
 	<iso_3166_2_entry
-		code="MK-KX"	name="Karpoš" />
+		code="MK-38"	name="Karpoš" />
 	<iso_3166_2_entry
-		code="MK-AV"	name="Kavadarci" />
+		code="MK-36"	name="Kavadarci" />
 	<iso_3166_2_entry
-		code="MK-KH"	name="Kičevo" />
+		code="MK-40"	name="Kičevo" />
 	<iso_3166_2_entry
-		code="MK-VD"	name="Kisela Voda" />
+		code="MK-39"	name="Kisela Voda" />
 	<iso_3166_2_entry
-		code="MK-OC"	name="Kočani" />
+		code="MK-42"	name="Kočani" />
 	<iso_3166_2_entry
-		code="MK-KN"	name="Konče" />
+		code="MK-41"	name="Konče" />
 	<iso_3166_2_entry
-		code="MK-KY"	name="Kratovo" />
+		code="MK-43"	name="Kratovo" />
 	<iso_3166_2_entry
-		code="MK-KZ"	name="Kriva Palanka" />
+		code="MK-44"	name="Kriva Palanka" />
 	<iso_3166_2_entry
-		code="MK-KG"	name="Krivogaštani" />
+		code="MK-45"	name="Krivogaštani" />
 	<iso_3166_2_entry
-		code="MK-KS"	name="Kruševo" />
+		code="MK-46"	name="Kruševo" />
 	<iso_3166_2_entry
-		code="MK-UM"	name="Kumanovo" />
+		code="MK-47"	name="Kumanovo" />
 	<iso_3166_2_entry
-		code="MK-LI"	name="Lipkovo" />
+		code="MK-48"	name="Lipkovo" />
 	<iso_3166_2_entry
-		code="MK-LO"	name="Lozovo" />
+		code="MK-49"	name="Lozovo" />
 	<iso_3166_2_entry
-		code="MK-MK"	name="Makedonska Kamenica" />
+		code="MK-51"	name="Makedonska Kamenica" />
 	<iso_3166_2_entry
-		code="MK-MD"	name="Makedonski Brod" />
+		code="MK-52"	name="Makedonski Brod" />
 	<iso_3166_2_entry
-		code="MK-MR"	name="Mavrovo-i-Rostuša" />
+		code="MK-50"	name="Mavrovo-i-Rostuša" />
 	<iso_3166_2_entry
-		code="MK-MG"	name="Mogila" />
+		code="MK-53"	name="Mogila" />
 	<iso_3166_2_entry
-		code="MK-NG"	name="Negotino" />
+		code="MK-54"	name="Negotino" />
 	<iso_3166_2_entry
-		code="MK-NV"	name="Novaci" />
+		code="MK-55"	name="Novaci" />
 	<iso_3166_2_entry
-		code="MK-NS"	name="Novo Selo" />
+		code="MK-56"	name="Novo Selo" />
 	<iso_3166_2_entry
-		code="MK-OD"	name="Ohrid" />
+		code="MK-58"	name="Ohrid" />
 	<iso_3166_2_entry
-		code="MK-OS"	name="Oslomej" />
+		code="MK-57"	name="Oslomej" />
 	<iso_3166_2_entry
-		code="MK-PH"	name="Pehčevo" />
+		code="MK-60"	name="Pehčevo" />
 	<iso_3166_2_entry
-		code="MK-PE"	name="Petrovec" />
+		code="MK-59"	name="Petrovec" />
 	<iso_3166_2_entry
-		code="MK-PN"	name="Plasnica" />
+		code="MK-61"	name="Plasnica" />
 	<iso_3166_2_entry
-		code="MK-PP"	name="Prilep" />
+		code="MK-62"	name="Prilep" />
 	<iso_3166_2_entry
-		code="MK-PT"	name="Probištip" />
+		code="MK-63"	name="Probištip" />
 	<iso_3166_2_entry
-		code="MK-RV"	name="Radoviš" />
+		code="MK-64"	name="Radoviš" />
 	<iso_3166_2_entry
-		code="MK-RN"	name="Rankovce" />
+		code="MK-65"	name="Rankovce" />
 	<iso_3166_2_entry
-		code="MK-RE"	name="Resen" />
+		code="MK-66"	name="Resen" />
 	<iso_3166_2_entry
-		code="MK-RM"	name="Rosoman" />
+		code="MK-67"	name="Rosoman" />
 	<iso_3166_2_entry
-		code="MK-AJ"	name="Saraj" />
+		code="MK-68"	name="Saraj" />
 	<iso_3166_2_entry
-		code="MK-ST"	name="Štip" />
+		code="MK-83"	name="Štip" />
 	<iso_3166_2_entry
-		code="MK-SO"	name="Šuto Orizari" />
+		code="MK-84"	name="Šuto Orizari" />
 	<iso_3166_2_entry
-		code="MK-SS"	name="Sopište" />
+		code="MK-70"	name="Sopište" />
 	<iso_3166_2_entry
-		code="MK-NA"	name="Staro Nagoričane" />
+		code="MK-71"	name="Staro Nagoričane" />
 	<iso_3166_2_entry
-		code="MK-UG"	name="Struga" />
+		code="MK-72"	name="Struga" />
 	<iso_3166_2_entry
-		code="MK-RU"	name="Strumica" />
+		code="MK-73"	name="Strumica" />
 	<iso_3166_2_entry
-		code="MK-SU"	name="Studeničani" />
+		code="MK-74"	name="Studeničani" />
 	<iso_3166_2_entry
-		code="MK-SL"	name="Sveti Nikole" />
+		code="MK-69"	name="Sveti Nikole" />
 	<iso_3166_2_entry
-		code="MK-TR"	name="Tearce" />
+		code="MK-75"	name="Tearce" />
 	<iso_3166_2_entry
-		code="MK-ET"	name="Tetovo" />
+		code="MK-76"	name="Tetovo" />
 	<iso_3166_2_entry
-		code="MK-VA"	name="Valandovo" />
+		code="MK-10"	name="Valandovo" />
 	<iso_3166_2_entry
-		code="MK-VL"	name="Vasilevo" />
+		code="MK-11"	name="Vasilevo" />
 	<iso_3166_2_entry
-		code="MK-VE"	name="Veles" />
+		code="MK-13"	name="Veles" />
 	<iso_3166_2_entry
-		code="MK-VV"	name="Vevčani" />
+		code="MK-12"	name="Vevčani" />
 	<iso_3166_2_entry
-		code="MK-NI"	name="Vinica" />
+		code="MK-14"	name="Vinica" />
 	<iso_3166_2_entry
-		code="MK-VC"	name="Vraneštica" />
+		code="MK-15"	name="Vraneštica" />
 	<iso_3166_2_entry
-		code="MK-VH"	name="Vrapčište" />
+		code="MK-16"	name="Vrapčište" />
 	<iso_3166_2_entry
-		code="MK-ZA"	name="Zajas" />
+		code="MK-31"	name="Zajas" />
 	<iso_3166_2_entry
-		code="MK-ZK"	name="Zelenikovo" />
+		code="MK-32"	name="Zelenikovo" />
 	<iso_3166_2_entry
-		code="MK-ZE"	name="Želino" />
+		code="MK-30"	name="Želino" />
 	<iso_3166_2_entry
-		code="MK-ZR"	name="Zrnovci" />
+		code="MK-33"	name="Zrnovci" />
 </iso_3166_subset>
 </iso_3166_country>
 	<!-- Mali -->
@@ -6252,6 +6262,147 @@
 		code="MR-11"	name="Tiris Zemmour" />
 	<iso_3166_2_entry
 		code="MR-06"	name="Trarza" />
+</iso_3166_country>
+	<!-- Malta -->
+<iso_3166_country code="MT">
+<iso_3166_subset type="Local council">
+	<iso_3166_2_entry
+		code="MT-01"	name="Attard" />
+	<iso_3166_2_entry
+		code="MT-02"	name="Balzan" />
+	<iso_3166_2_entry
+		code="MT-03"	name="Birgu" />
+	<iso_3166_2_entry
+		code="MT-04"	name="Birkirkara" />
+	<iso_3166_2_entry
+		code="MT-05"	name="Birżebbuġa" />
+	<iso_3166_2_entry
+		code="MT-06"	name="Bormla" />
+	<iso_3166_2_entry
+		code="MT-07"	name="Dingli" />
+	<iso_3166_2_entry
+		code="MT-08"	name="Fgura" />
+	<iso_3166_2_entry
+		code="MT-09"	name="Floriana" />
+	<iso_3166_2_entry
+		code="MT-10"	name="Fontana" />
+	<iso_3166_2_entry
+		code="MT-11"	name="Gudja" />
+	<iso_3166_2_entry
+		code="MT-12"	name="Gżira" />
+	<iso_3166_2_entry
+		code="MT-13"	name="Għajnsielem" />
+	<iso_3166_2_entry
+		code="MT-14"	name="Għarb" />
+	<iso_3166_2_entry
+		code="MT-15"	name="Għargħur" />
+	<iso_3166_2_entry
+		code="MT-16"	name="Għasri" />
+	<iso_3166_2_entry
+		code="MT-17"	name="Għaxaq" />
+	<iso_3166_2_entry
+		code="MT-18"	name="Ħamrun" />
+	<iso_3166_2_entry
+		code="MT-19"	name="Iklin" />
+	<iso_3166_2_entry
+		code="MT-20"	name="Isla" />
+	<iso_3166_2_entry
+		code="MT-21"	name="Kalkara" />
+	<iso_3166_2_entry
+		code="MT-22"	name="Kerċem" />
+	<iso_3166_2_entry
+		code="MT-23"	name="Kirkop" />
+	<iso_3166_2_entry
+		code="MT-24"	name="Lija" />
+	<iso_3166_2_entry
+		code="MT-25"	name="Luqa" />
+	<iso_3166_2_entry
+		code="MT-26"	name="Marsa" />
+	<iso_3166_2_entry
+		code="MT-27"	name="Marsaskala" />
+	<iso_3166_2_entry
+		code="MT-28"	name="Marsaxlokk" />
+	<iso_3166_2_entry
+		code="MT-29"	name="Mdina" />
+	<iso_3166_2_entry
+		code="MT-30"	name="Mellieħa" />
+	<iso_3166_2_entry
+		code="MT-31"	name="Mġarr" />
+	<iso_3166_2_entry
+		code="MT-32"	name="Mosta" />
+	<iso_3166_2_entry
+		code="MT-33"	name="Mqabba" />
+	<iso_3166_2_entry
+		code="MT-34"	name="Msida" />
+	<iso_3166_2_entry
+		code="MT-35"	name="Mtarfa" />
+	<iso_3166_2_entry
+		code="MT-36"	name="Munxar" />
+	<iso_3166_2_entry
+		code="MT-37"	name="Nadur" />
+	<iso_3166_2_entry
+		code="MT-38"	name="Naxxar" />
+	<iso_3166_2_entry
+		code="MT-39"	name="Paola" />
+	<iso_3166_2_entry
+		code="MT-40"	name="Pembroke" />
+	<iso_3166_2_entry
+		code="MT-41"	name="Pietà" />
+	<iso_3166_2_entry
+		code="MT-42"	name="Qala" />
+	<iso_3166_2_entry
+		code="MT-43"	name="Qormi" />
+	<iso_3166_2_entry
+		code="MT-44"	name="Qrendi" />
+	<iso_3166_2_entry
+		code="MT-45"	name="Rabat Għawdex" />
+	<iso_3166_2_entry
+		code="MT-46"	name="Rabat Malta" />
+	<iso_3166_2_entry
+		code="MT-47"	name="Safi" />
+	<iso_3166_2_entry
+		code="MT-48"	name="San Ġiljan " />
+	<iso_3166_2_entry
+		code="MT-49"	name="San Ġwann " />
+	<iso_3166_2_entry
+		code="MT-50"	name="San Lawrenz " />
+	<iso_3166_2_entry
+		code="MT-51"	name="San Pawl il-Baħar " />
+	<iso_3166_2_entry
+		code="MT-52"	name="Sannat" />
+	<iso_3166_2_entry
+		code="MT-53"	name="Santa Luċija " />
+	<iso_3166_2_entry
+		code="MT-54"	name="Santa Venera" />
+	<iso_3166_2_entry
+		code="MT-55"	name="Siġġiewi" />
+	<iso_3166_2_entry
+		code="MT-56"	name="Sliema" />
+	<iso_3166_2_entry
+		code="MT-57"	name="Swieqi" />
+	<iso_3166_2_entry
+		code="MT-58"	name="Ta’ Xbiex" />
+	<iso_3166_2_entry
+		code="MT-59"	name="Tarxien" />
+	<iso_3166_2_entry
+		code="MT-60"	name="Valletta" />
+	<iso_3166_2_entry
+		code="MT-61"	name="Xagħra" />
+	<iso_3166_2_entry
+		code="MT-62"	name="Xewkija" />
+	<iso_3166_2_entry
+		code="MT-63"	name="Xgħajra" />
+	<iso_3166_2_entry
+		code="MT-64"	name="Żabbar" />
+	<iso_3166_2_entry
+		code="MT-65"	name="Żebbuġ Għawdex " />
+	<iso_3166_2_entry
+		code="MT-66"	name="Żebbuġ Malta" />
+	<iso_3166_2_entry
+		code="MT-67"	name="Żejtun" />
+	<iso_3166_2_entry
+		code="MT-68"	name="Żurrieq" />
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Mauritius -->
 <iso_3166_country code="MU">
@@ -7557,161 +7708,161 @@
 	<!-- Localize to Cyrillic anyway in the po files.					-->
 <iso_3166_subset type="Republic">
 	<iso_3166_2_entry
-		code="RU-AD"	name="Adygeya" />
+		code="RU-AD"	name="Adygeya, Respublika" />
 	<iso_3166_2_entry
-		code="RU-AL"	name="Altay (Republic)" />
+		code="RU-AL"	name="Altay, Respublika" />
 	<iso_3166_2_entry
-		code="RU-BA"	name="Bashkortostan" />
+		code="RU-BA"	name="Bashkortostan, Respublika" />
 	<iso_3166_2_entry
-		code="RU-BU"	name="Buryatiya" />
+		code="RU-BU"	name="Buryatiya, Respublika" />
 	<iso_3166_2_entry
-		code="RU-CE"	name="Chechenya" />
+		code="RU-CE"	name="Chechenskaya Respublika" />
 	<iso_3166_2_entry
-		code="RU-CU"	name="Chuvashiya" />
+		code="RU-CU"	name="Chuvashskaya Respublika" />
 	<iso_3166_2_entry
-		code="RU-DA"	name="Dagestan" />
+		code="RU-DA"	name="Dagestan, Respublika" />
 	<iso_3166_2_entry
-		code="RU-IN"	name="Ingushetiaya" />
+		code="RU-IN"	name="Respublika Ingushetiya" />
 	<iso_3166_2_entry
-		code="RU-KB"	name="Kabardino-Balkariya" />
+		code="RU-KB"	name="Kabardino-Balkarskaya Respublika" />
 	<iso_3166_2_entry
-		code="RU-KL"	name="Kalmykiya" />
+		code="RU-KL"	name="Kalmykiya, Respublika" />
 	<iso_3166_2_entry
-		code="RU-KC"	name="Karachayevo-Cherkesiya" />
+		code="RU-KC"	name="Karachayevo-Cherkesskaya Respublika" />
 	<iso_3166_2_entry
-		code="RU-KR"	name="Kareliya" />
+		code="RU-KR"	name="Kareliya, Respublika" />
 	<iso_3166_2_entry
-		code="RU-KK"	name="Khakasiya" />
+		code="RU-KK"	name="Khakasiya, Respublika" />
 	<iso_3166_2_entry
-		code="RU-KO"	name="Komi" />
+		code="RU-KO"	name="Komi, Respublika" />
 	<iso_3166_2_entry
-		code="RU-ME"	name="Mariy El" />
+		code="RU-ME"	name="Mariy El, Respublika" />
 	<iso_3166_2_entry
-		code="RU-MO"	name="Mordoviya" />
+		code="RU-MO"	name="Mordoviya, Respublika" />
 	<iso_3166_2_entry
-		code="RU-SA"	name="Sakha [Yakutiya]" />
+		code="RU-SA"	name="Sakha, Respublika [Yakutiya]" />
 	<iso_3166_2_entry
-		code="RU-SE"	name="Severnaya Osetiya-Alaniya" />
+		code="RU-SE"	name="Severnaya Osetiya-Alaniya, Respublika" />
 	<iso_3166_2_entry
-		code="RU-TA"	name="Tatarstan" />
+		code="RU-TA"	name="Tatarstan, Respublika" />
 	<iso_3166_2_entry
-		code="RU-TY"	name="Tyva [Tuva]" />
+		code="RU-TY"	name="Tyva, Respublika [Tuva]" />
 	<iso_3166_2_entry
-		code="RU-UD"	name="Udmurtiya" />
+		code="RU-UD"	name="Udmurtskaya Respublika" />
 </iso_3166_subset>
 <iso_3166_subset type="Administrative Territory">
 	<iso_3166_2_entry
-		code="RU-ALT"	name="Altay (Administrative Territory)" />
+		code="RU-ALT"	name="Altayskiy kray" />
 	<iso_3166_2_entry
-		code="RU-KHA"	name="Khabarovsk" />
+		code="RU-KAM"	name="Kamchatskiy kray" />
 	<iso_3166_2_entry
-		code="RU-KDA"	name="Krasnodar" />
+		code="RU-KHA"	name="Khabarovskiy kray" />
 	<iso_3166_2_entry
-		code="RU-KYA"	name="Krasnoyarsk" />
+		code="RU-KDA"	name="Krasnodarskiy kray" />
 	<iso_3166_2_entry
-		code="RU-PER"	name="Perm" />
+		code="RU-KYA"	name="Krasnoyarskiy kray" />
 	<iso_3166_2_entry
-		code="RU-PRI"	name="Primorie" />
+		code="RU-PER"	name="Permskiy kray" />
 	<iso_3166_2_entry
-		code="RU-STA"	name="Stavropol'" />
+		code="RU-PRI"	name="Primorskiy kray" />
+	<iso_3166_2_entry
+		code="RU-STA"	name="Stavropol'skiy kray" />
 </iso_3166_subset>
 <iso_3166_subset type="Administrative Region">
 	<iso_3166_2_entry
-		code="RU-AMU"	name="Amur" />
+		code="RU-AMU"	name="Amurskaya oblast'" />
 	<iso_3166_2_entry
-		code="RU-ARK"	name="Arkhangel'sk'" />
+		code="RU-ARK"	name="Arkhangel'skaya oblast'" />
 	<iso_3166_2_entry
-		code="RU-AST"	name="Astrakhan" />
+		code="RU-AST"	name="Astrakhanskaya oblast'" />
 	<iso_3166_2_entry
-		code="RU-BEL"	name="Belgorod" />
+		code="RU-BEL"	name="Belgorodskaya oblast'" />
 	<iso_3166_2_entry
-		code="RU-BRY"	name="Bryansk" />
+		code="RU-BRY"	name="Bryanskaya oblast'" />
 	<iso_3166_2_entry
-		code="RU-CHE"	name="Chelyabinsk" />
+		code="RU-CHE"	name="Chelyabinskaya oblast'" />
 	<iso_3166_2_entry
-		code="RU-CHI"	name="Chita" />
+		code="RU-CHI"	name="Chitinskaya oblast'" />
 	<iso_3166_2_entry
-		code="RU-IRK"	name="Irkutisk" />
+		code="RU-IRK"	name="Irkutiskaya oblast'" />
 	<iso_3166_2_entry
-		code="RU-IVA"	name="Ivanovo" />
+		code="RU-IVA"	name="Ivanovskaya oblast'" />
 	<iso_3166_2_entry
-		code="RU-KGD"	name="Kaliningrad" />
+		code="RU-KGD"	name="Kaliningradskaya oblast'" />
 	<iso_3166_2_entry
-		code="RU-KLU"	name="Kaluga" />
+		code="RU-KLU"	name="Kaluzhskaya oblast'" />
 	<iso_3166_2_entry
-		code="RU-KAM"	name="Kamchatka" />
+		code="RU-KEM"	name="Kemerovskaya oblast'" />
 	<iso_3166_2_entry
-		code="RU-KEM"	name="Kemerovo" />
+		code="RU-KIR"	name="Kirovskaya oblast'" />
 	<iso_3166_2_entry
-		code="RU-KIR"	name="Kirov" />
+		code="RU-KOS"	name="Kostromskaya oblast'" />
 	<iso_3166_2_entry
-		code="RU-KOS"	name="Kostroma" />
+		code="RU-KGN"	name="Kurganskaya oblast'" />
 	<iso_3166_2_entry
-		code="RU-KGN"	name="Kurgan" />
+		code="RU-KRS"	name="Kurskaya oblast'" />
 	<iso_3166_2_entry
-		code="RU-KRS"	name="Kursk" />
+		code="RU-LEN"	name="Leningradskaya oblast'" />
 	<iso_3166_2_entry
-		code="RU-LEN"	name="Leningrad" />
+		code="RU-LIP"	name="Lipetskaya oblast'" />
 	<iso_3166_2_entry
-		code="RU-LIP"	name="Lipetsk" />
+		code="RU-MAG"	name="Magadanskaya oblast'" />
 	<iso_3166_2_entry
-		code="RU-MAG"	name="Magadan" />
+		code="RU-MOS"	name="Moskovskaya oblast'" />
 	<iso_3166_2_entry
-		code="RU-MOS"	name="Moskova" />
+		code="RU-MUR"	name="Murmanskaya oblast'" />
 	<iso_3166_2_entry
-		code="RU-MUR"	name="Murmansk" />
+		code="RU-NIZ"	name="Nizhegorodskaya oblast'" />
 	<iso_3166_2_entry
-		code="RU-NIZ"	name="Nizhny Novgorod" />
+		code="RU-NGR"	name="Novgorodskaya oblast'" />
 	<iso_3166_2_entry
-		code="RU-NGR"	name="Novgorod" />
+		code="RU-NVS"	name="Novosibirskaya oblast'" />
 	<iso_3166_2_entry
-		code="RU-NVS"	name="Novosibirsk" />
+		code="RU-OMS"	name="Omskaya oblast'" />
 	<iso_3166_2_entry
-		code="RU-OMS"	name="Omsk" />
+		code="RU-ORE"	name="Orenburgskaya oblast'" />
 	<iso_3166_2_entry
-		code="RU-ORE"	name="Orenburg" />
+		code="RU-ORL"	name="Orlovskaya oblast'" />
 	<iso_3166_2_entry
-		code="RU-ORL"	name="Orel [Oryol]" />
+		code="RU-PNZ"	name="Penzenskaya oblast'" />
 	<iso_3166_2_entry
-		code="RU-PNZ"	name="Penza" />
+		code="RU-PSK"	name="Pskovskaya oblast'" />
 	<iso_3166_2_entry
-		code="RU-PSK"	name="Pskov" />
+		code="RU-ROS"	name="Rostovskaya oblast'" />
 	<iso_3166_2_entry
-		code="RU-ROS"	name="Rostov" />
+		code="RU-RYA"	name="Ryazanskaya oblast'" />
 	<iso_3166_2_entry
-		code="RU-RYA"	name="Ryazan" />
+		code="RU-SAK"	name="Sakhalinskaya oblast'" />
 	<iso_3166_2_entry
-		code="RU-SAK"	name="Sakhalin" />
+		code="RU-SAM"	name="Samaraskaya oblast'" />
 	<iso_3166_2_entry
-		code="RU-SAM"	name="Samara" />
+		code="RU-SAR"	name="Saratovskaya oblast'" />
 	<iso_3166_2_entry
-		code="RU-SAR"	name="Saratov" />
+		code="RU-SMO"	name="Smolenskaya oblast'" />
 	<iso_3166_2_entry
-		code="RU-SMO"	name="Smolensk" />
+		code="RU-SVE"	name="Sverdlovskaya oblast'" />
 	<iso_3166_2_entry
-		code="RU-SVE"	name="Sverdlovsk" />
+		code="RU-TAM"	name="Tambovskaya oblast'" />
 	<iso_3166_2_entry
-		code="RU-TAM"	name="Tambov" />
+		code="RU-TOM"	name="Tomskaya oblast'" />
 	<iso_3166_2_entry
-		code="RU-TOM"	name="Tomsk" />
+		code="RU-TUL"	name="Tul'skaya oblast'" />
 	<iso_3166_2_entry
-		code="RU-TUL"	name="Tula" />
+		code="RU-TVE"	name="Tverskaya oblast'" />
 	<iso_3166_2_entry
-		code="RU-TVE"	name="Tver" />
+		code="RU-TYU"	name="Tyumenskaya oblast'" />
 	<iso_3166_2_entry
-		code="RU-TYU"	name="Tyumen" />
+		code="RU-ULY"	name="Ul'yanovskaya oblast'" />
 	<iso_3166_2_entry
-		code="RU-ULY"	name="Ul'yanovsk" />
+		code="RU-VLA"	name="Vladimirskaya oblast'" />
 	<iso_3166_2_entry
-		code="RU-VLA"	name="Vladimir" />
+		code="RU-VGG"	name="Volgogradskaya oblast'" />
 	<iso_3166_2_entry
-		code="RU-VGG"	name="Volgograd" />
+		code="RU-VLG"	name="Vologodskaya oblast'" />
 	<iso_3166_2_entry
-		code="RU-VLG"	name="Vologoda" />
+		code="RU-VOR"	name="Voronezhskaya oblast'" />
 	<iso_3166_2_entry
-		code="RU-VOR"	name="Voronezh" />
-	<iso_3166_2_entry
-		code="RU-YAR"	name="Yaroslavl" />
+		code="RU-YAR"	name="Yaroslavskaya oblast'" />
 </iso_3166_subset>
 <iso_3166_subset type="Autonomous City">
 	<iso_3166_2_entry
@@ -7721,27 +7872,21 @@
 </iso_3166_subset>
 <iso_3166_subset type="Autonomous Region">
 	<iso_3166_2_entry
-		code="RU-YEV"	name="Yevrey" />
+		code="RU-YEV"	name="Yevreyskaya avtonomnaya oblast'" />
 </iso_3166_subset>
 <iso_3166_subset type="Autonomous District">
 	<iso_3166_2_entry
-		code="RU-AGB"	name="Aginsk Buryat" />
+		code="RU-AGB"	name="Aginsky Buryatskiy avtonomnyy okrug" />
 	<iso_3166_2_entry
-		code="RU-CHU"	name="Chukotka" />
+		code="RU-CHU"	name="Chukotskiy avtonomnyy okrug" />
 	<iso_3166_2_entry
-		code="RU-EVE"	name="Evenk" />
+		code="RU-KHM"	name="Khanty-Mansiysky avtonomnyy okrug-Yugra" />
 	<iso_3166_2_entry
-		code="RU-KHM"	name="Khanty-Mansiysk [Yugra]" />
+		code="RU-NEN"	name="Nenetskiy avtonomnyy okrug" />
 	<iso_3166_2_entry
-		code="RU-KOR"	name="Koryak" />
+		code="RU-UOB"	name="Ust'-Ordynskiy Buryatskiy avtonomnyy okrug" />
 	<iso_3166_2_entry
-		code="RU-NEN"	name="Nenets" />
-	<iso_3166_2_entry
-		code="RU-TAY"	name="Taymyr (Dolgano-Nenetsk)" />
-	<iso_3166_2_entry
-		code="RU-UOB"	name="Ust'-Ordyn Buryat" />
-	<iso_3166_2_entry
-		code="RU-YAN"	name="Yamalo-Nenets" />
+		code="RU-YAN"	name="Yamalo-Nenetskiy avtonomnyy okrug" />
 </iso_3166_subset>
 </iso_3166_country>
 	<!-- Rwanda -->
@@ -7870,58 +8015,58 @@
 </iso_3166_country>
 	<!-- Sudan -->
 <iso_3166_country code="SD">
+<iso_3166_subset type="state">
 	<iso_3166_2_entry
-		code="SD-23"	name="A'ali an Nil" />
+		code="SD-26"	name="Al Baḩr al Aḩmar" />
 	<iso_3166_2_entry
-		code="SD-26"	name="Al Bah al Ahmar" />
+		code="SD-18"	name="Al Buḩayrāt" />
 	<iso_3166_2_entry
-		code="SD-18"	name="Al Buhayrat" />
+		code="SD-07"	name="Al Jazīrah" />
 	<iso_3166_2_entry
-		code="SD-07"	name="Al Jazirah" />
+		code="SD-03"	name="Al Kharţūm" />
 	<iso_3166_2_entry
-		code="SD-03"	name="Al Khartum" />
+		code="SD-06"	name="Al Qaḑārif" />
 	<iso_3166_2_entry
-		code="SD-06"	name="Al Qadarif" />
+		code="SD-22"	name="Al Waḩdah" />
 	<iso_3166_2_entry
-		code="SD-22"	name="Al Wahdah" />
+		code="SD-04"	name="An Nīl" />
 	<iso_3166_2_entry
-		code="SD-04"	name="An Nil" />
+		code="SD-08"	name="An Nīl al Abyaḑ" />
 	<iso_3166_2_entry
-		code="SD-08"	name="An Nil al Abyaq" />
+		code="SD-24"	name="An Nīl al Azraq" />
 	<iso_3166_2_entry
-		code="SD-24"	name="An Nil al Azraq" />
+		code="SD-01"	name="Ash Shamālīyah" />
 	<iso_3166_2_entry
-		code="SD-01"	name="Ash Shamallyah" />
+		code="SD-23"	name="A‘ālī an Nīl" />
 	<iso_3166_2_entry
-		code="SD-17"	name="Bahr al Jabal" />
+		code="SD-17"	name="Baḩr al Jabal" />
 	<iso_3166_2_entry
-		code="SD-16"	name="Gharb al Istiwa'iyah" />
+		code="SD-16"	name="Gharb al Istiwā'īyah" />
 	<iso_3166_2_entry
-		code="SD-14"	name="Gharb Ba~r al Ghazal" />
+		code="SD-14"	name="Gharb Baḩr al Ghazāl" />
 	<iso_3166_2_entry
-		code="SD-12"	name="Gharb Darfur" />
+		code="SD-12"	name="Gharb Dārfūr" />
 	<iso_3166_2_entry
-		code="SD-10"	name="Gharb Kurdufan" />
+		code="SD-11"	name="Janūb Dārfūr" />
 	<iso_3166_2_entry
-		code="SD-11"	name="Janub Darfur" />
+		code="SD-13"	name="Janūb Kurdufān" />
 	<iso_3166_2_entry
-		code="SD-13"	name="Janub Rurdufan" />
+		code="SD-20"	name="Jūnqalī" />
 	<iso_3166_2_entry
-		code="SD-20"	name="Jnqall" />
+		code="SD-05"	name="Kassalā" />
 	<iso_3166_2_entry
-		code="SD-05"	name="Kassala" />
+		code="SD-15"	name="Shamāl Baḩr al Ghazāl" />
 	<iso_3166_2_entry
-		code="SD-15"	name="Shamal Batr al Ghazal" />
+		code="SD-02"	name="Shamāl Dārfūr" />
 	<iso_3166_2_entry
-		code="SD-02"	name="Shamal Darfur" />
+		code="SD-09"	name="Shamāl Kurdufān" />
 	<iso_3166_2_entry
-		code="SD-09"	name="Shamal Kurdufan" />
+		code="SD-19"	name="Sharq al Istiwā'īyah" />
 	<iso_3166_2_entry
-		code="SD-19"	name="Sharq al Istiwa'iyah" />
+		code="SD-25"	name="Sinnār" />
 	<iso_3166_2_entry
-		code="SD-25"	name="Sinnar" />
-	<iso_3166_2_entry
-		code="SD-21"	name="Warab" />
+		code="SD-21"	name="Wārāb" />
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Sweden -->
 <iso_3166_country code="SE">
@@ -7967,6 +8112,21 @@
 		code="SE-T"	name="Örebro län" />
 	<iso_3166_2_entry
 		code="SE-E"	name="Östergötlands län" />
+</iso_3166_country>
+<iso_3166_country code="SG">
+	<!-- Singapore -->
+<iso_3166_subset type="district">
+	<iso_3166_2_entry
+		code="SG-01"	name="Central Singapore" />
+	<iso_3166_2_entry
+		code="SG-02"	name="North East" />
+	<iso_3166_2_entry
+		code="SG-03"	name="North West" />
+	<iso_3166_2_entry
+		code="SG-04"	name="South East" />
+	<iso_3166_2_entry
+		code="SG-05"	name="South West" />
+</iso_3166_subset>
 </iso_3166_country>
 	<!-- Saint Helena -->
 <iso_3166_country code="SH">
@@ -9336,13 +9496,27 @@
 </iso_3166_subset>
 <iso_3166_subset type="District">
 	<iso_3166_2_entry
+		code="UG-317"	name="Abim"	parent="N" />
+	<iso_3166_2_entry
 		code="UG-301"	name="Adjumani"	parent="N" />
+	<iso_3166_2_entry
+		code="UG-314"	name="Amolatar"	parent="N" />
+	<iso_3166_2_entry
+		code="UG-216"	name="Amuria"	parent="E" />
+	<iso_3166_2_entry
+		code="UG-319"	name="Amuru"	parent="N" />
 	<iso_3166_2_entry
 		code="UG-302"	name="Apac"	parent="N" />
 	<iso_3166_2_entry
 		code="UG-303"	name="Arua"	parent="N" />
 	<iso_3166_2_entry
+		code="UG-217"	name="Budaka"	parent="E" />
+	<iso_3166_2_entry
 		code="UG-201"	name="Bugiri"	parent="E" />
+	<iso_3166_2_entry
+		code="UG-218"	name="Bukwa"	parent="E" />
+	<iso_3166_2_entry
+		code="UG-419"	name="Bulisa"	parent="W" />
 	<iso_3166_2_entry
 		code="UG-401"	name="Bundibugyo"	parent="W" />
 	<iso_3166_2_entry
@@ -9350,13 +9524,23 @@
 	<iso_3166_2_entry
 		code="UG-202"	name="Busia"	parent="E" />
 	<iso_3166_2_entry
+		code="UG-219"	name="Butaleja"	parent="E" />
+	<iso_3166_2_entry
+		code="UG-318"	name="Dokolo"	parent="N" />
+	<iso_3166_2_entry
 		code="UG-304"	name="Gulu"	parent="N" />
 	<iso_3166_2_entry
 		code="UG-403"	name="Hoima"	parent="W" />
 	<iso_3166_2_entry
+		code="UG-416"	name="Ibanda"	parent="W" />
+	<iso_3166_2_entry
 		code="UG-203"	name="Iganga"	parent="E" />
 	<iso_3166_2_entry
+		code="UG-417"	name="Isingiro"	parent="W" />
+	<iso_3166_2_entry
 		code="UG-204"	name="Jinja"	parent="E" />
+	<iso_3166_2_entry
+		code="UG-315"	name="Kaabong"	parent="N" />
 	<iso_3166_2_entry
 		code="UG-404"	name="Kabale"	parent="W" />
 	<iso_3166_2_entry
@@ -9365,6 +9549,8 @@
 		code="UG-213"	name="Kaberamaido"	parent="E" />
 	<iso_3166_2_entry
 		code="UG-101"	name="Kalangala"	parent="C" />
+	<iso_3166_2_entry
+		code="UG-220"	name="Kaliro"	parent="E" />
 	<iso_3166_2_entry
 		code="UG-102"	name="Kampala"	parent="C" />
 	<iso_3166_2_entry
@@ -9386,9 +9572,13 @@
 	<iso_3166_2_entry
 		code="UG-103"	name="Kiboga"	parent="C" />
 	<iso_3166_2_entry
+		code="UG-418"	name="Kiruhura"	parent="W" />
+	<iso_3166_2_entry
 		code="UG-408"	name="Kisoro"	parent="W" />
 	<iso_3166_2_entry
 		code="UG-305"	name="Kitgum"	parent="N" />
+	<iso_3166_2_entry
+		code="UG-316"	name="Koboko"	parent="N" />
 	<iso_3166_2_entry
 		code="UG-306"	name="Kotido"	parent="N" />
 	<iso_3166_2_entry
@@ -9400,6 +9590,10 @@
 	<iso_3166_2_entry
 		code="UG-104"	name="Luwero"	parent="C" />
 	<iso_3166_2_entry
+		code="UG-221"	name="Manafwa"	parent="E" />
+	<iso_3166_2_entry
+		code="UG-320"	name="Maracha"	parent="N" />
+	<iso_3166_2_entry
 		code="UG-105"	name="Masaka"	parent="C" />
 	<iso_3166_2_entry
 		code="UG-409"	name="Masindi"	parent="W" />
@@ -9409,6 +9603,8 @@
 		code="UG-209"	name="Mbale"	parent="E" />
 	<iso_3166_2_entry
 		code="UG-410"	name="Mbarara"	parent="W" />
+	<iso_3166_2_entry
+		code="UG-114"	name="Mityana"	parent="C" />
 	<iso_3166_2_entry
 		code="UG-308"	name="Moroto"	parent="N" />
 	<iso_3166_2_entry
@@ -9422,11 +9618,17 @@
 	<iso_3166_2_entry
 		code="UG-311"	name="Nakapiripirit"	parent="N" />
 	<iso_3166_2_entry
+		code="UG-115"	name="Nakaseke"	parent="C" />
+	<iso_3166_2_entry
 		code="UG-109"	name="Nakasongola"	parent="C" />
+	<iso_3166_2_entry
+		code="UG-222"	name="Namutumba"	parent="E" />
 	<iso_3166_2_entry
 		code="UG-310"	name="Nebbi"	parent="N" />
 	<iso_3166_2_entry
 		code="UG-411"	name="Ntungamo"	parent="W" />
+	<iso_3166_2_entry
+		code="UG-321"	name="Oyam"	parent="N" />
 	<iso_3166_2_entry
 		code="UG-312"	name="Pader"	parent="N" />
 	<iso_3166_2_entry
