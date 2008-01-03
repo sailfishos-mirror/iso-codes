@@ -1,9 +1,7 @@
 TODO for iso-codes
 ==================
 
-- Tidy up ISO 3166 Tables
-
-- Add man pages documenting them.
+- Add man pages documenting ISO tables.
 
 (1) Perl code incorrectly refers to Locale::Currency module.
 (2) Add the following:
@@ -12,14 +10,9 @@ TODO for iso-codes
 
 That parse the ISO 3166-2 files
 
-- Ensure compatability with language / territory names in GLIBC Locales
+- Ensure compatibility with language / territory names in GLIBC Locales
   files.
 
 - KDE:
 	desktop.po file contains such information
 	entry.desktop has redundant language name information
-
-- Add entries for "ven" (Venda); no iso-639-1 code exists, but used in kde.
-
-French Guinea is GF not FJ
-Mozambique MZ
