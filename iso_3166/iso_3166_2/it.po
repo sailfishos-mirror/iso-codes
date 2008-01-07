@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: iso_3166_2 CVS\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2008-01-03 17:44+0100\n"
+"POT-Creation-Date: 2008-01-07 10:02+0100\n"
 "PO-Revision-Date: 2000-01-15 02:44+01:00\n"
 "Last-Translator: Andrea Scialpi <solopec@tiscalinet.it>\n"
 "Language-Team: it <it@li.org>\n"
@@ -2022,10 +2022,6 @@ msgstr "Bulgaria"
 msgid "Ceará"
 msgstr "Cina"
 
-#. name for BR-DF, name for MX-DIF, name for VE-A
-msgid "Distrito Federal"
-msgstr ""
-
 #. name for BR-ES
 msgid "Espírito Santo"
 msgstr ""
@@ -2121,6 +2117,10 @@ msgstr "San Marino"
 #, fuzzy
 msgid "Tocantins"
 msgstr "Posizione"
+
+#. name for BR-DF, name for MX-DIF, name for VE-A
+msgid "Distrito Federal"
+msgstr ""
 
 #. name for BS-AC
 #, fuzzy
@@ -2509,10 +2509,6 @@ msgstr "Data"
 msgid "Sud-Kivu"
 msgstr ""
 
-#. name for CF-BGF
-msgid "Bangui"
-msgstr ""
-
 #. name for CF-BB
 msgid "Bamingui-Bangoran"
 msgstr ""
@@ -2547,10 +2543,6 @@ msgstr "Malawi"
 msgid "Mbomou"
 msgstr ""
 
-#. name for CF-KB
-msgid "Nana-Grébizi"
-msgstr ""
-
 #. name for CF-NM
 msgid "Nana-Mambéré"
 msgstr ""
@@ -2573,19 +2565,22 @@ msgstr "Guam"
 msgid "Ouham-Pendé"
 msgstr "Guam"
 
+#. name for CF-VR
+msgid "Vakaga"
+msgstr ""
+
+#. name for CF-KB
+msgid "Nana-Grébizi"
+msgstr ""
+
 #. name for CF-SE
 #, fuzzy
 msgid "Sangha-Mbaéré"
 msgstr "Senegal"
 
-#. name for CF-VR
-msgid "Vakaga"
+#. name for CF-BGF
+msgid "Bangui"
 msgstr ""
-
-#. name for CG-BZV
-#, fuzzy
-msgid "Brazzaville"
-msgstr "Brasile"
 
 #. name for CG-11
 msgid "Bouenza"
@@ -2634,6 +2629,11 @@ msgstr "Polonia"
 #, fuzzy
 msgid "Sangha"
 msgstr "Senegal"
+
+#. name for CG-BZV
+#, fuzzy
+msgid "Brazzaville"
+msgstr "Brasile"
 
 #. name for CH-AG
 msgid "Aargau"
@@ -3992,14 +3992,6 @@ msgstr "Taiwan"
 msgid "Djibouti"
 msgstr "Djibouti"
 
-#. name for DK-147
-msgid "Frederikaberg municipality"
-msgstr ""
-
-#. name for DK-101
-msgid "Copenhagen municipality"
-msgstr ""
-
 #. name for DK-015
 #, fuzzy
 msgid "Copenhagen"
@@ -4063,6 +4055,14 @@ msgstr ""
 #, fuzzy
 msgid "Northern Jutland"
 msgstr "Paesi Bassi"
+
+#. name for DK-147
+msgid "Frederikaberg municipality"
+msgstr ""
+
+#. name for DK-101
+msgid "Copenhagen municipality"
+msgstr ""
 
 #. name for DM-03, name for GD-02, name for VC-03
 #, fuzzy
@@ -6972,10 +6972,6 @@ msgstr ""
 msgid "Volta"
 msgstr "Malta"
 
-#. name for GM-B
-msgid "Banjul"
-msgstr ""
-
 #. name for GM-L
 msgid "Lower River"
 msgstr ""
@@ -6991,6 +6987,10 @@ msgstr ""
 
 #. name for GM-U
 msgid "Upper River"
+msgstr ""
+
+#. name for GM-B
+msgid "Banjul"
 msgstr ""
 
 #. name for GN B
@@ -7605,11 +7605,6 @@ msgstr ""
 msgid "Zacapa"
 msgstr ""
 
-#. name for GW-BS
-#, fuzzy
-msgid "Bissau"
-msgstr "Guinea Bissau"
-
 #. name for GW-BA
 #, fuzzy
 msgid "Bafatá"
@@ -7647,6 +7642,11 @@ msgstr "Cina"
 #, fuzzy
 msgid "Tombali"
 msgstr "Romania"
+
+#. name for GW-BS
+#, fuzzy
+msgid "Bissau"
+msgstr "Guinea Bissau"
 
 #. name for GY-BA
 #, fuzzy
@@ -7882,10 +7882,6 @@ msgstr "Suoni"
 msgid "Sud-Est"
 msgstr "Suoni"
 
-#. name for HU-BU
-msgid "Budapest"
-msgstr ""
-
 #. name for HU-BK
 #, fuzzy
 msgid "Bács-Kiskun"
@@ -8061,6 +8057,10 @@ msgstr ""
 
 #. name for HU-ZE
 msgid "Zalaegerszeg"
+msgstr ""
+
+#. name for HU-BU
+msgid "Budapest"
 msgstr ""
 
 #. name for ID IJ, name for ID-PA
@@ -8778,10 +8778,6 @@ msgstr ""
 msgid "Norðurland vestra"
 msgstr ""
 
-#. name for IS-0
-msgid "Reykjavík"
-msgstr ""
-
 #. name for IS-8
 #, fuzzy
 msgid "Suðurland"
@@ -8801,6 +8797,10 @@ msgstr "Paesi Bassi"
 #, fuzzy
 msgid "Vesturland"
 msgstr "Paesi Bassi"
+
+#. name for IS-0
+msgid "Reykjavík"
+msgstr ""
 
 #. name for IT 65
 msgid "Abruzzo"
@@ -11913,10 +11913,6 @@ msgstr ""
 msgid "Shan"
 msgstr "Spagna"
 
-#. name for MN-1
-msgid "Ulanbaatar"
-msgstr ""
-
 #. name for MN-073
 #, fuzzy
 msgid "Arhangay"
@@ -11934,10 +11930,6 @@ msgstr ""
 #, fuzzy
 msgid "Bulgan"
 msgstr "Bulgaria"
-
-#. name for MN-037
-msgid "Darhan uul"
-msgstr ""
 
 #. name for MN-061
 msgid "Dornod"
@@ -11959,11 +11951,6 @@ msgstr ""
 msgid "Govi-Altay"
 msgstr ""
 
-#. name for MN-064
-#, fuzzy
-msgid "Govi-Sumber"
-msgstr "Novembre"
-
 #. name for MN-039
 msgid "Hentiy"
 msgstr ""
@@ -11979,10 +11966,6 @@ msgstr "Georgia"
 
 #. name for MN-053
 msgid "Ömnögovi"
-msgstr ""
-
-#. name for MN-035
-msgid "Orhon"
 msgstr ""
 
 #. name for MN-055
@@ -12008,10 +11991,22 @@ msgstr ""
 msgid "Uvs"
 msgstr ""
 
-#. name for MO
+#. name for MN-1
+msgid "Ulanbaatar"
+msgstr ""
+
+#. name for MN-037
+msgid "Darhan uul"
+msgstr ""
+
+#. name for MN-064
 #, fuzzy
-msgid "Macao"
-msgstr "Malta"
+msgid "Govi-Sumber"
+msgstr "Novembre"
+
+#. name for MN-035
+msgid "Orhon"
+msgstr ""
 
 #. name for MR-NKC
 msgid "Nouakchott"
@@ -12990,7 +12985,7 @@ msgstr ""
 msgid "Maradi"
 msgstr "Malawi"
 
-#. name for NE-S
+#. name for NE-5
 msgid "Tahoua"
 msgstr ""
 
@@ -13453,11 +13448,6 @@ msgstr ""
 msgid "Canterbury"
 msgstr ""
 
-#. name for NZ-GIS
-#, fuzzy
-msgid "Gisborne"
-msgstr "Gabon"
-
 #. name for NZ-HKB
 msgid "Hawkes Bay"
 msgstr ""
@@ -13465,15 +13455,6 @@ msgstr ""
 #. name for NZ-MWT
 msgid "Manawatu-Wanganui"
 msgstr ""
-
-#. name for NZ-MBH
-msgid "Marlborough"
-msgstr ""
-
-#. name for NZ-NSN
-#, fuzzy
-msgid "Nelson"
-msgstr "Motivazione:"
 
 #. name for NZ-NTL
 #, fuzzy
@@ -13494,11 +13475,6 @@ msgstr "Suoni"
 msgid "Taranaki"
 msgstr "Tanzania"
 
-#. name for NZ-TAS
-#, fuzzy
-msgid "Tasman"
-msgstr "Taiwan"
-
 #. name for NZ-WKO
 #, fuzzy
 msgid "Waikato"
@@ -13512,6 +13488,25 @@ msgstr ""
 msgid "West Coast"
 msgstr ""
 
+#. name for NZ-GIS
+#, fuzzy
+msgid "Gisborne"
+msgstr "Gabon"
+
+#. name for NZ-MBH
+msgid "Marlborough"
+msgstr ""
+
+#. name for NZ-NSN
+#, fuzzy
+msgid "Nelson"
+msgstr "Motivazione:"
+
+#. name for NZ-TAS
+#, fuzzy
+msgid "Tasman"
+msgstr "Taiwan"
+
 #. name for OM-DA
 msgid "Ad Dakhillyah"
 msgstr ""
@@ -13519,11 +13514,6 @@ msgstr ""
 #. name for OM-BA
 msgid "Al Batinah"
 msgstr ""
-
-#. name for OM-JA
-#, fuzzy
-msgid "Al Janblyah"
-msgstr "Panama"
 
 #. name for OM-WU
 #, fuzzy
@@ -13538,6 +13528,11 @@ msgstr "Batch"
 #. name for OM-ZA
 msgid "Az Zahirah"
 msgstr ""
+
+#. name for OM-JA
+#, fuzzy
+msgid "Al Janblyah"
+msgstr "Panama"
 
 #. name for OM-MA
 msgid "Masqat"
@@ -14281,10 +14276,6 @@ msgstr ""
 
 #. name for PL-ZP
 msgid "Zachodniopomorskie"
-msgstr ""
-
-#. name for PS
-msgid "Palestinian Territory, Occupied"
 msgstr ""
 
 #. name for PT-01
@@ -15755,14 +15746,14 @@ msgstr "Corea del Sud"
 msgid "Saint Helena"
 msgstr ""
 
+#. name for SH-TA
+msgid "Tristan da Cunha"
+msgstr ""
+
 #. name for SH-AC
 #, fuzzy
 msgid "Ascension"
 msgstr "Azione"
-
-#. name for SH-TA
-msgid "Tristan da Cunha"
-msgstr ""
 
 #. name for SI-001
 msgid "Ajdovščina"
@@ -18472,8 +18463,9 @@ msgid "Vinnyts'ka Oblast'"
 msgstr ""
 
 #. name for UA-07
-msgid "Volyos'ka Oblast'"
-msgstr ""
+#, fuzzy
+msgid "Volyns'ka Oblast'"
+msgstr "Costa d'Avorio"
 
 #. name for UA-21
 msgid "Zakarpats'ka Oblast'"
@@ -18911,10 +18903,6 @@ msgstr "Albania"
 msgid "Alaska"
 msgstr "Alias:"
 
-#. name for US-AS
-msgid "American Samoa"
-msgstr "Samoa americane"
-
 #. name for US-AZ
 #, fuzzy
 msgid "Arizona"
@@ -18942,10 +18930,6 @@ msgstr ""
 msgid "Delaware"
 msgstr ""
 
-#. name for US-DC
-msgid "District of Columbia"
-msgstr ""
-
 #. name for US-FL, name for UY-FD
 #, fuzzy
 msgid "Florida"
@@ -18954,10 +18938,6 @@ msgstr "Francia"
 #. name for US-GA
 msgid "Georgia"
 msgstr "Georgia"
-
-#. name for US-GU
-msgid "Guam"
-msgstr "Guam"
 
 #. name for US-HI
 #, fuzzy
@@ -19057,11 +19037,6 @@ msgstr ""
 msgid "North Dakota"
 msgstr ""
 
-#. name for US-MP
-#, fuzzy
-msgid "Northern Mariana Islands"
-msgstr "Isole Vergini Britanniche"
-
 #. name for US-OH
 msgid "Ohio"
 msgstr ""
@@ -19077,10 +19052,6 @@ msgstr "Colore Testo"
 
 #. name for US-PA
 msgid "Pennsylvania"
-msgstr ""
-
-#. name for US-PR
-msgid "Puerto Rico"
 msgstr ""
 
 #. name for US-RI
@@ -19106,10 +19077,6 @@ msgstr ""
 msgid "Texas"
 msgstr ""
 
-#. name for US-UM
-msgid "United States Minor Outlying Islands"
-msgstr ""
-
 #. name for US-UT
 msgid "Utah"
 msgstr ""
@@ -19117,11 +19084,6 @@ msgstr ""
 #. name for US-VT
 msgid "Vermont"
 msgstr ""
-
-#. name for US-VI
-#, fuzzy
-msgid "Virgin Islands"
-msgstr "Isole Vergini Britanniche"
 
 #. name for US-VA
 msgid "Virginia"
@@ -19142,6 +19104,36 @@ msgstr ""
 #. name for US-WY
 msgid "Wyoming"
 msgstr ""
+
+#. name for US-DC
+msgid "District of Columbia"
+msgstr ""
+
+#. name for US-AS
+msgid "American Samoa"
+msgstr "Samoa americane"
+
+#. name for US-GU
+msgid "Guam"
+msgstr "Guam"
+
+#. name for US-MP
+#, fuzzy
+msgid "Northern Mariana Islands"
+msgstr "Isole Vergini Britanniche"
+
+#. name for US-PR
+msgid "Puerto Rico"
+msgstr ""
+
+#. name for US-UM
+msgid "United States Minor Outlying Islands"
+msgstr ""
+
+#. name for US-VI
+#, fuzzy
+msgid "Virgin Islands"
+msgstr "Isole Vergini Britanniche"
 
 #. name for US-AE
 msgid "Armed Forces Europe"
@@ -19919,6 +19911,10 @@ msgstr ""
 #, fuzzy
 msgid "Midlands"
 msgstr "Finlandia"
+
+#, fuzzy
+#~ msgid "Macao"
+#~ msgstr "Malta"
 
 #, fuzzy
 #~ msgid "Kărdžali"

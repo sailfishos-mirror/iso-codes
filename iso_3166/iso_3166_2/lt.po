@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: iso_3166_2 CVS\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2008-01-03 17:44+0100\n"
+"POT-Creation-Date: 2008-01-07 10:02+0100\n"
 "PO-Revision-Date: 2007-11-16 12:43+0200\n"
 "Last-Translator: Kęstutis Biliūnas <kebil@kaunas.init.lt>\n"
 "Language-Team: Lithuanian <komp_lt@konferencijos.lt>\n"
@@ -1839,10 +1839,6 @@ msgstr "Bahija"
 msgid "Ceará"
 msgstr "Seara"
 
-#. name for BR-DF, name for MX-DIF, name for VE-A
-msgid "Distrito Federal"
-msgstr "Brazilijos federalinė teritorija"
-
 #. name for BR-ES
 #, fuzzy
 msgid "Espírito Santo"
@@ -1936,6 +1932,10 @@ msgstr "San Paulas"
 #, fuzzy
 msgid "Tocantins"
 msgstr "Tokantinsas"
+
+#. name for BR-DF, name for MX-DIF, name for VE-A
+msgid "Distrito Federal"
+msgstr "Brazilijos federalinė teritorija"
 
 #. name for BS-AC
 msgid "Acklins and Crooked Islands"
@@ -2291,10 +2291,6 @@ msgstr ""
 msgid "Sud-Kivu"
 msgstr ""
 
-#. name for CF-BGF
-msgid "Bangui"
-msgstr ""
-
 #. name for CF-BB
 msgid "Bamingui-Bangoran"
 msgstr ""
@@ -2327,10 +2323,6 @@ msgstr ""
 msgid "Mbomou"
 msgstr ""
 
-#. name for CF-KB
-msgid "Nana-Grébizi"
-msgstr ""
-
 #. name for CF-NM
 msgid "Nana-Mambéré"
 msgstr ""
@@ -2351,17 +2343,21 @@ msgstr ""
 msgid "Ouham-Pendé"
 msgstr ""
 
-#. name for CF-SE
-msgid "Sangha-Mbaéré"
-msgstr ""
-
 #. name for CF-VR
 msgid "Vakaga"
 msgstr ""
 
-#. name for CG-BZV
-msgid "Brazzaville"
-msgstr "Brazavilis"
+#. name for CF-KB
+msgid "Nana-Grébizi"
+msgstr ""
+
+#. name for CF-SE
+msgid "Sangha-Mbaéré"
+msgstr ""
+
+#. name for CF-BGF
+msgid "Bangui"
+msgstr ""
 
 #. name for CG-11
 msgid "Bouenza"
@@ -2402,6 +2398,10 @@ msgstr ""
 #. name for CG-13
 msgid "Sangha"
 msgstr ""
+
+#. name for CG-BZV
+msgid "Brazzaville"
+msgstr "Brazavilis"
 
 #. name for CH-AG
 msgid "Aargau"
@@ -3695,14 +3695,6 @@ msgstr ""
 msgid "Djibouti"
 msgstr "Džibutis"
 
-#. name for DK-147
-msgid "Frederikaberg municipality"
-msgstr "Frederiksbergo komuna"
-
-#. name for DK-101
-msgid "Copenhagen municipality"
-msgstr "Kopenhagos komuna"
-
 #. name for DK-015
 msgid "Copenhagen"
 msgstr "Kopenhaga"
@@ -3758,6 +3750,14 @@ msgstr "Viborgo amtas"
 #. name for DK-080
 msgid "Northern Jutland"
 msgstr "Šiaurės Jutlandijos amtas"
+
+#. name for DK-147
+msgid "Frederikaberg municipality"
+msgstr "Frederiksbergo komuna"
+
+#. name for DK-101
+msgid "Copenhagen municipality"
+msgstr "Kopenhagos komuna"
 
 #. name for DM-03, name for GD-02, name for VC-03
 msgid "Saint David"
@@ -6432,10 +6432,6 @@ msgstr ""
 msgid "Volta"
 msgstr ""
 
-#. name for GM-B
-msgid "Banjul"
-msgstr "Bandžulis"
-
 #. name for GM-L
 msgid "Lower River"
 msgstr ""
@@ -6452,6 +6448,10 @@ msgstr ""
 #. name for GM-U
 msgid "Upper River"
 msgstr ""
+
+#. name for GM-B
+msgid "Banjul"
+msgstr "Bandžulis"
 
 #. name for GN B
 msgid "Boké, Gouvernorat de"
@@ -7037,10 +7037,6 @@ msgstr ""
 msgid "Zacapa"
 msgstr ""
 
-#. name for GW-BS
-msgid "Bissau"
-msgstr "Bisau"
-
 #. name for GW-BA
 msgid "Bafatá"
 msgstr ""
@@ -7072,6 +7068,10 @@ msgstr ""
 #. name for GW-TO
 msgid "Tombali"
 msgstr ""
+
+#. name for GW-BS
+msgid "Bissau"
+msgstr "Bisau"
 
 #. name for GY-BA
 msgid "Barima-Waini"
@@ -7300,10 +7300,6 @@ msgstr ""
 msgid "Sud-Est"
 msgstr ""
 
-#. name for HU-BU
-msgid "Budapest"
-msgstr "Budapeštas"
-
 #. name for HU-BK
 msgid "Bács-Kiskun"
 msgstr ""
@@ -7467,6 +7463,10 @@ msgstr ""
 #. name for HU-ZE
 msgid "Zalaegerszeg"
 msgstr ""
+
+#. name for HU-BU
+msgid "Budapest"
+msgstr "Budapeštas"
 
 #. name for ID IJ, name for ID-PA
 msgid "Papua"
@@ -8110,11 +8110,6 @@ msgstr ""
 msgid "Norðurland vestra"
 msgstr ""
 
-#. name for IS-0
-#, fuzzy
-msgid "Reykjavík"
-msgstr "Reikjavikas"
-
 #. name for IS-8
 #, fuzzy
 msgid "Suðurland"
@@ -8132,6 +8127,11 @@ msgstr ""
 #. name for IS-3
 msgid "Vesturland"
 msgstr "Vesturlandas"
+
+#. name for IS-0
+#, fuzzy
+msgid "Reykjavík"
+msgstr "Reikjavikas"
 
 #. name for IT 65
 msgid "Abruzzo"
@@ -10974,10 +10974,6 @@ msgstr "Rachinų valstija"
 msgid "Shan"
 msgstr "Šanų valstija"
 
-#. name for MN-1
-msgid "Ulanbaatar"
-msgstr "Ulan Batoras"
-
 #. name for MN-073
 msgid "Arhangay"
 msgstr "Archangajaus provincija"
@@ -10994,10 +10990,6 @@ msgstr "Bajan-Olgio provincija"
 #. name for MN-067
 msgid "Bulgan"
 msgstr "Bulgano provincija"
-
-#. name for MN-037
-msgid "Darhan uul"
-msgstr "Darchan-Ulo provincija"
 
 #. name for MN-061
 msgid "Dornod"
@@ -11019,10 +11011,6 @@ msgstr "Zabchano provincija"
 msgid "Govi-Altay"
 msgstr "Gobio-Altajaus provincija"
 
-#. name for MN-064
-msgid "Govi-Sumber"
-msgstr "Gobisumbero provincija"
-
 #. name for MN-039
 msgid "Hentiy"
 msgstr "Chento provincija"
@@ -11040,10 +11028,6 @@ msgstr "Chubsgolo provincija"
 #, fuzzy
 msgid "Ömnögovi"
 msgstr "Omniogobio provincija"
-
-#. name for MN-035
-msgid "Orhon"
-msgstr "Orchono provincija"
 
 #. name for MN-055
 #, fuzzy
@@ -11067,9 +11051,21 @@ msgstr ""
 msgid "Uvs"
 msgstr "Ubso provincija"
 
-#. name for MO
-msgid "Macao"
-msgstr ""
+#. name for MN-1
+msgid "Ulanbaatar"
+msgstr "Ulan Batoras"
+
+#. name for MN-037
+msgid "Darhan uul"
+msgstr "Darchan-Ulo provincija"
+
+#. name for MN-064
+msgid "Govi-Sumber"
+msgstr "Gobisumbero provincija"
+
+#. name for MN-035
+msgid "Orhon"
+msgstr "Orchono provincija"
 
 #. name for MR-NKC
 msgid "Nouakchott"
@@ -11997,7 +11993,7 @@ msgstr "Doso departamentas"
 msgid "Maradi"
 msgstr "Maradžio departamentas"
 
-#. name for NE-S
+#. name for NE-5
 msgid "Tahoua"
 msgstr "Tahua departamentas"
 
@@ -12417,10 +12413,6 @@ msgstr "Gausybės įlankos regionas"
 msgid "Canterbury"
 msgstr "Kenterberio regionas"
 
-#. name for NZ-GIS
-msgid "Gisborne"
-msgstr "Gisborno regionas"
-
 #. name for NZ-HKB
 msgid "Hawkes Bay"
 msgstr "Hauko įlankos regionas"
@@ -12428,14 +12420,6 @@ msgstr "Hauko įlankos regionas"
 #. name for NZ-MWT
 msgid "Manawatu-Wanganui"
 msgstr "Manavatu Vanganui regionas"
-
-#. name for NZ-MBH
-msgid "Marlborough"
-msgstr "Malbrou regionas"
-
-#. name for NZ-NSN
-msgid "Nelson"
-msgstr "Nelsono regionas"
 
 #. name for NZ-NTL
 msgid "Northland"
@@ -12453,10 +12437,6 @@ msgstr "Sautlando regionas"
 msgid "Taranaki"
 msgstr "Taranakio regionas"
 
-#. name for NZ-TAS
-msgid "Tasman"
-msgstr "Tasmano regionas"
-
 #. name for NZ-WKO
 msgid "Waikato"
 msgstr "Vaikato regionas"
@@ -12469,16 +12449,28 @@ msgstr "Velingtonas"
 msgid "West Coast"
 msgstr "Vakarų Pakrantės regionas"
 
+#. name for NZ-GIS
+msgid "Gisborne"
+msgstr "Gisborno regionas"
+
+#. name for NZ-MBH
+msgid "Marlborough"
+msgstr "Malbrou regionas"
+
+#. name for NZ-NSN
+msgid "Nelson"
+msgstr "Nelsono regionas"
+
+#. name for NZ-TAS
+msgid "Tasman"
+msgstr "Tasmano regionas"
+
 #. name for OM-DA
 msgid "Ad Dakhillyah"
 msgstr ""
 
 #. name for OM-BA
 msgid "Al Batinah"
-msgstr ""
-
-#. name for OM-JA
-msgid "Al Janblyah"
 msgstr ""
 
 #. name for OM-WU
@@ -12491,6 +12483,10 @@ msgstr ""
 
 #. name for OM-ZA
 msgid "Az Zahirah"
+msgstr ""
+
+#. name for OM-JA
+msgid "Al Janblyah"
 msgstr ""
 
 #. name for OM-MA
@@ -13183,10 +13179,6 @@ msgstr "Didžiosios Lenkijos vaivadija"
 #. name for PL-ZP
 msgid "Zachodniopomorskie"
 msgstr "Vakarų Pamario vaivadija"
-
-#. name for PS
-msgid "Palestinian Territory, Occupied"
-msgstr "Okupuota Palestinos teritorija"
 
 #. name for PT-01
 msgid "Aveiro"
@@ -14572,12 +14564,12 @@ msgstr "Naujasis Pietų Velsas"
 msgid "Saint Helena"
 msgstr "Šventoji Elena"
 
-#. name for SH-AC
-msgid "Ascension"
-msgstr ""
-
 #. name for SH-TA
 msgid "Tristan da Cunha"
+msgstr ""
+
+#. name for SH-AC
+msgid "Ascension"
 msgstr ""
 
 #. name for SI-001
@@ -17012,7 +17004,8 @@ msgid "Vinnyts'ka Oblast'"
 msgstr "Vinycios sritis"
 
 #. name for UA-07
-msgid "Volyos'ka Oblast'"
+#, fuzzy
+msgid "Volyns'ka Oblast'"
 msgstr "Volynės sritis"
 
 #. name for UA-21
@@ -17411,10 +17404,6 @@ msgstr "Alabama"
 msgid "Alaska"
 msgstr "Aliaska"
 
-#. name for US-AS
-msgid "American Samoa"
-msgstr "Amerikos Samoa"
-
 #. name for US-AZ
 msgid "Arizona"
 msgstr "Arizona"
@@ -17439,10 +17428,6 @@ msgstr "Konektikutas"
 msgid "Delaware"
 msgstr "Delaveras"
 
-#. name for US-DC
-msgid "District of Columbia"
-msgstr "Kolumbijos apygarda"
-
 #. name for US-FL, name for UY-FD
 msgid "Florida"
 msgstr "Florida"
@@ -17450,10 +17435,6 @@ msgstr "Florida"
 #. name for US-GA
 msgid "Georgia"
 msgstr "Džordžija"
-
-#. name for US-GU
-msgid "Guam"
-msgstr "Guamas"
 
 #. name for US-HI
 msgid "Hawaii"
@@ -17543,10 +17524,6 @@ msgstr "Šiaurės Karolina"
 msgid "North Dakota"
 msgstr "Šiaurės Dakota"
 
-#. name for US-MP
-msgid "Northern Mariana Islands"
-msgstr "Marianos šiaurinės salos"
-
 #. name for US-OH
 msgid "Ohio"
 msgstr "Ohajas"
@@ -17562,10 +17539,6 @@ msgstr "Oregonas"
 #. name for US-PA
 msgid "Pennsylvania"
 msgstr "Pensilvanija"
-
-#. name for US-PR
-msgid "Puerto Rico"
-msgstr "Puerto Rikas"
 
 #. name for US-RI
 msgid "Rhode Island"
@@ -17587,10 +17560,6 @@ msgstr "Tenesis"
 msgid "Texas"
 msgstr "Teksasas"
 
-#. name for US-UM
-msgid "United States Minor Outlying Islands"
-msgstr ""
-
 #. name for US-UT
 msgid "Utah"
 msgstr "Juta"
@@ -17598,10 +17567,6 @@ msgstr "Juta"
 #. name for US-VT
 msgid "Vermont"
 msgstr "Vermontas"
-
-#. name for US-VI
-msgid "Virgin Islands"
-msgstr "Mergelių salos"
 
 #. name for US-VA
 msgid "Virginia"
@@ -17622,6 +17587,34 @@ msgstr "Viskonsinas"
 #. name for US-WY
 msgid "Wyoming"
 msgstr "Vajomingas"
+
+#. name for US-DC
+msgid "District of Columbia"
+msgstr "Kolumbijos apygarda"
+
+#. name for US-AS
+msgid "American Samoa"
+msgstr "Amerikos Samoa"
+
+#. name for US-GU
+msgid "Guam"
+msgstr "Guamas"
+
+#. name for US-MP
+msgid "Northern Mariana Islands"
+msgstr "Marianos šiaurinės salos"
+
+#. name for US-PR
+msgid "Puerto Rico"
+msgstr "Puerto Rikas"
+
+#. name for US-UM
+msgid "United States Minor Outlying Islands"
+msgstr ""
+
+#. name for US-VI
+msgid "Virgin Islands"
+msgstr "Mergelių salos"
 
 #. name for US-AE
 msgid "Armed Forces Europe"
@@ -18349,6 +18342,9 @@ msgstr "Pietų Matabelija"
 #. name for ZW-MI
 msgid "Midlands"
 msgstr "Midlandsas"
+
+#~ msgid "Palestinian Territory, Occupied"
+#~ msgstr "Okupuota Palestinos teritorija"
 
 #~ msgid "Kărdžali"
 #~ msgstr "Kerdžalai"
