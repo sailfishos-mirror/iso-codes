@@ -2,91 +2,99 @@ iso-codes
 =========
 <http://pkg-isocodes.alioth.debian.org/>
 
+This package provides lists of various ISO standards (e.g. country,
+language, language scripts, and currency names) in one place, rather
+than repeated in many programs throughout the system.
 
-This package aims to provide the list of the country, language,
-language scripts and currency names in one place, rather than repeated
-in many programs throughout the system.
+Currently there are lists of languages and countries embedded in
+several different programs, which leads to dozens of lists of
+200 languages, translated into more than 30 languages ... not
+very efficient.
 
-Currently there are lists of languages and countries embedded in:
+With this package, we create a single "gettext domain" for every
+supported ISO standard which contains the translations of
+that domain. It is easy for a programmer to re-use those
+translations instead of maintaining their own translation
+infrastructure. Moreover, the programmer does not need to follow
+changes in the ISO standard and will not work with outdated
+information.
 
-- Gnome Libs
-- bootfloppies / PGI
-- KDE
-- Gnumeric
-- Gnucash
-- ...
+To use this translation infrastructure, the programmer just needs
+to call dgettext() in their program.
 
-This leads to about a dozen lists of 200 languages, translated
-into >30 languages ... not very efficient. The aim of this patch
-is to create a single "gettext" domain "iso-639" which contains
-the translations of language names, and one "iso-3166" listing
-the translations of country  names.
+Example:
+    dgettext("iso_639", "French")
+will return the translation for "French", depending on the
+current locale.
 
-So the plan is then to be able to use
-	dgettext("iso-639", language_name)
-to get the correct translations.
+Furthermore, this package provides the ISO standards as XML files
+to be used by other applications as well. All those XML files
+are stored in the directory "/usr/share/xml/iso-codes".
 
-The files
-/usr/share/xml/iso-codes/iso_639.xml
-/usr/share/xml/iso-codes/iso_639_3.xml
-/usr/share/xml/iso-codes/iso_4217.xml
-/usr/share/xml/iso-codes/iso_3166.xml
-/usr/share/xml/iso-codes/iso_15924.xml
-/usr/share/xml/iso-codes/iso_3166_2.xml
 
-store the files in simple XML format.
-
-The files
-
-ISO-3166
---------
+ISO 3166
+========
 
 This lists the 2-letter country code and "short" country name. The
-official IS0-3166 maintenance agency is ISO:
-http://www.iso.org/iso/country_codes
+official ISO 3166 maintenance agency is ISO. The gettext domain is
+"iso_3166".
+<http://www.iso.org/iso/country_codes>
 
-ISO-639
--------
+
+ISO 639
+=======
+
 This lists the 2-letter and 3-letter language codes and language
-names. The official IS0-639 maintenance agency is the Library of
-Congress: http://www.loc.gov/standards/iso639-2/
-
-ISO-639-3
----------
-This is a DRAFT extension to the ISO-639 standard. The proponent is
-SIL International: http://www.sil.org/iso639-3/
-
-ISO_4217
---------
-This lists the currency codes and names. The official IS0-4217
-maintenance agency is the British Standards Institution:
-http://www.bsi-global.com/en/Standards-and-Publications/Industry-Sectors/Services/BSI-Currency-Code-Service/
+names. The official ISO 639 maintenance agency is the Library of
+Congress. The gettext domain is "iso_639".
+<http://www.loc.gov/standards/iso639-2/>
 
 
-ISO_15924
---------
-This lists the language scripts names. The official IS0-15924
-maintenance agency is the Unicode Consortium:
-http://unicode.org/iso15924/
+ISO 639-3
+=========
+
+This is a further development of ISO 639-2, see above. All codes
+of ISO 639-2 are included in ISO 639-3. ISO 639-3 attempts to
+provide as complete an enumeration of languages as possible,
+including living, extinct, ancient, and constructed languages,
+whether major or minor, written or unwritten. We're currently
+in the progress of merging ISO 639-2 and ISO 639-3. The gettext
+domain is "iso_639_3". The official ISO 639-3 maintenance agency
+is SIL International.
+<http://www.sil.org/iso639-3/>
 
 
-ISO 3166_2
------------
+ISO 4217
+========
+
+This lists the currency codes and names. The official ISO 4217
+maintenance agency is the British Standards Institution. The
+gettext domain is "iso_4217".
+<http://www.bsi-global.com/en/Standards-and-Publications/Industry-Sectors/Services/BSI-Currency-Code-Service/>
+
+
+ISO 15924
+=========
+
+This lists the language scripts names. The official ISO 15924
+maintenance agency is the Unicode Consortium. The gettext
+domain is "iso_15924".
+<http://unicode.org/iso15924/>
+
+
+ISO 3166-2
+==========
+
 The ISO 3166 standard includes a "Country Subdivision Code",
 giving a code for the names of the principal administrative
-subdivisions of the countries coded in ISO 3166.
-
-ISO 3166-2 is a set of files giving this ISO 3166-2 standard:
-(available at http://www.din.de/gremein/nabd/iso3166ma/a3ptnorm.html)
-this is a standard that gives short codes for provinces,
-etc. within a country. As these also list the provinces, Counties,
-etc. within a country, they could also be used to provide a
-drop-down list when someone is entering addresses...
+subdivisions of the countries coded in ISO 3166. The official
+ISO 3166-2 maintenance agency is ISO. The gettext domain is
+"iso_3166_2".
+<http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.htm>
 
 
---------------------------------------
-REPORTING BUGS AND ADDING TRANSLATIONS
---------------------------------------
+Reporting bugs and adding translations
+======================================
 
 If you find a bug in iso-codes or would like to add or update a
 translation, there are several ways to contact us. Please note
@@ -111,28 +119,24 @@ first three addresses.
   <http://www.translationproject.org/>
   If you're registered at the TP, you can send your translations
   directly there, and we'll include them in the next release.
-  
 
---------------------------
-DEVELOPING USING PKGCONFIG
---------------------------
 
-A pkgconfig file has been included to aid developing with this package.
-You can detect the prefix where the translations have been placed using
+Developing using pkgconfig
+==========================
+
+A pkgconfig file has been included to aid developing with this
+package. You can detect the prefix where the translations have
+been placed using
 
 $ pkg-config --variable=prefix iso-codes
 /usr
 
-You can detect which sets of translation (domain) files have been installed using
+You can detect which gettext domains have been installed using
 $ pkg-config --variable=domains iso-codes
-iso-639 iso-3166 iso-4217 iso-3166-1 iso-3166-2 iso-3166-3 iso-15924
+iso_15924 iso_3166 iso_4217 iso_639 iso_3166_2 iso_639_3
 
 
-
-
-
-
---
+-- 
 Alastair McKinstry, <mckinstry@debian.org>, 2003-12-24
 Christian Perrier, <bubulle@debian.org>, 2007-09-09
-Tobias Toedter, <t.toedter@gmx.net>, 2007-10-04
+Tobias Toedter, <t.toedter@gmx.net>, 2008-01-22
