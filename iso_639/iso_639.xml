@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- iso-639.tab							-->
-<!--									-->
-<!-- Copyright (C) 2005 Alastair McKinstry   <mckinstry@computer.org>   -->
-<!-- Released under the GNU License; see file COPYING for details	-->
-<!--									-->
-<!-- Last update: 2007-08-08    					-->
-<!--									-->
-<!-- This file gives a list of all languages in the ISO-639		-->
-<!-- standard, and is used to provide translations (via gettext)	-->
-<!--									-->
-<!-- Status: ISO 639-2:1998 + additions and changes until 2007-08-08	-->
-<!-- Source: http://www.loc.gov/standards/iso639-2/langcodes.html	-->
-<!-- change: http://www.loc.gov/standards/iso639-2/php/code_changes.php -->
+
+<!--
+This file gives a list of all languages in the ISO 639
+standard, and is used to provide translations via gettext
+
+Copyright (C) 2004-2006 Alastair McKinstry <mckinstry@computer.org>
+Copyright (C) 2004-2007 Christian Perrier <bubulle@debian.org>
+Copyright (C) 2005-2006 Tobias Toedter <t.toedter@gmx.net>
+
+    This file is free software; you can redistribute it and/or
+    modify it under the terms of the GNU Lesser General Public
+    License as published by the Free Software Foundation; either
+    version 2.1 of the License, or (at your option) any later version.
+
+    This file is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+    Lesser General Public License for more details.
+
+    You should have received a copy of the GNU Lesser General Public
+    License along with this file; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+
+Source: <http://www.loc.gov/standards/iso639-2/>
+-->
 
 <!DOCTYPE iso_639_entries [
 	<!ELEMENT iso_639_entries (iso_639_entry+)>

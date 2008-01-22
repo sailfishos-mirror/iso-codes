@@ -1,14 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<!-- iso_639_3.xml							-->
-<!-- 									-->
-<!-- DRAFT DRAFT DRAFT							-->
-<!-- iso-639-3 draft standard						-->
-<!-- WARNING: The contents of this DRAFT standard will not be shipped   -->
-<!-- in iso_639_3.xml in production releases of iso-codes; when the     -->
-<!-- standard is released, the data will probably be folded into        -->
-<!-- iso_639.xml. Please contact mckinstry@debian.org if you have any   -->
-<!-- comments on the format of this data.			        -->
+<!--
+This file gives a list of all languages in the ISO 639-3
+standard, and is used to provide translations via gettext
+
+Copyright (C) 2005 Alastair McKinstry <mckinstry@computer.org>
+
+    This file is free software; you can redistribute it and/or
+    modify it under the terms of the GNU Lesser General Public
+    License as published by the Free Software Foundation; either
+    version 2.1 of the License, or (at your option) any later version.
+
+    This file is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+    Lesser General Public License for more details.
+
+    You should have received a copy of the GNU Lesser General Public
+    License along with this file; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+
+Source: <http://www.sil.org/iso639-3/>
+-->
 
 <!DOCTYPE iso_639_3_entries [
 	<!ELEMENT iso_639_3_entries (iso_639_3_entry+)>

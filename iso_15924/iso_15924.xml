@@ -1,20 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<!-- iso-15924.xml							-->
-<!--									-->
-<!-- Copyright (C) 2007 Ivan Masar <helix84@centrum.sk>   		-->
-<!-- Released under the GNU License; see file COPYING for details	-->
-<!--									-->
-<!-- Last update: 2007-09-07    					-->
-<!--									-->
-<!-- This file gives a list of all script names in the ISO-15924	-->
-<!-- standard, and is used to provide translations (via gettext)	-->
-<!--									-->
-<!-- Status: ISO 15924:2004 + additions and changes until 2007-07-15	-->
-<!-- About:  http://unicode.org/iso15924/				-->
-<!--         http://unicode.org/iso15924/codelists.html			-->
-<!-- Source: http://unicode.org/iso15924/iso15924-text.html		-->
-<!-- Change: http://unicode.org/iso15924/codechanges.html 		-->
+<!--
+This file gives a list of all script names in the ISO 15924
+standard, and is used to provide translations via gettext
+
+Copyright (C) 2007 Ivan Masar <helix84@centrum.sk>
+Copyright (C) 2007 Christian Perrier <bubulle@debian.org>
+Copyright (C) 2007 Tobias Toedter <t.toedter@gmx.net>
+
+    This file is free software; you can redistribute it and/or
+    modify it under the terms of the GNU Lesser General Public
+    License as published by the Free Software Foundation; either
+    version 2.1 of the License, or (at your option) any later version.
+
+    This file is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+    Lesser General Public License for more details.
+
+    You should have received a copy of the GNU Lesser General Public
+    License along with this file; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+
+Source: <http://unicode.org/iso15924/>
+-->
 
 <!DOCTYPE iso_15924_entries [
 	<!ELEMENT iso_15924_entries (iso_15924_entry+)>

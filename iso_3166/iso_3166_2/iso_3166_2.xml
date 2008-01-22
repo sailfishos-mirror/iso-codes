@@ -1,25 +1,40 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<!--									-->
-<!-- ISO-3166-2 Standard for country subdivisions			-->
-<!--									-->
-<!-- The following conventions are used in this file:			-->
-<!--									-->
-<!-- If the standard lists a subdivision name in more than language	-->
-<!-- and/or romanization system, only the first listed name is shown.	-->
-<!--									-->
-<!-- Proper subdivision codes have the format 'XX-YYY' where XX is the	-->
-<!-- ISO 3166-1 Alpha-2 country code and YYY is a 1-, 2- or 3-character	-->
-<!-- code for the subdivision.						-->
-<!--									-->
-<!-- For some countries the standard also lists a second level of	-->
-<!-- regional divisions (e.g. for BE, FR, GB, IT, etc.). The codes	-->
-<!-- for these regional divisions are shown as 'XX YYYY', i.e. with a	-->
-<!-- space character instead of the '-'.				-->
-<!--									-->
-<!-- The sorting order is the same that is used in the standard.	-->
-<!--									-->
-<!-- Up-to-date as of ISO 3166-2 Newsletter I-9 (2007-11-28)		-->
+<!--
+This file gives a list of all country subdivisions in the ISO 3166-2
+standard, and is used to provide translations via gettext
+
+The following conventions are used in this file:
+If the standard lists a subdivision name in more than one language
+and/or romanization system, only the first listed name is shown.
+
+For some countries the standard also lists a second level of
+regional divisions (e.g. for BE, FR, GB, IT, etc.). The codes
+for these regional divisions are shown as 'XX YYYY', i.e. with a
+space character instead of the '-'.
+
+Copyright (C) 2004-2006 Alastair McKinstry <mckinstry@computer.org>
+Copyright (C) 2004, 2007 Christian Perrier <bubulle@debian.org>
+Copyright (C) 2005-2007 Tobias Toedter <t.toedter@gmx.net>
+Copyright (C) 2007 LI Daobing <lidaobing@gmail.com>
+Copyright (C) 2007-2008 Alexis Darrasse <alexis@ortsa.com>
+
+    This file is free software; you can redistribute it and/or
+    modify it under the terms of the GNU Lesser General Public
+    License as published by the Free Software Foundation; either
+    version 2.1 of the License, or (at your option) any later version.
+
+    This file is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+    Lesser General Public License for more details.
+
+    You should have received a copy of the GNU Lesser General Public
+    License along with this file; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+
+Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.htm>
+-->
 
 <!DOCTYPE iso_3166_2_entries [
 	<!ELEMENT iso_3166_2_entries (iso_3166_country+)>
