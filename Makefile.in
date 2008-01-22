@@ -157,7 +157,7 @@ SUBDIRS = iso_15924 iso_3166 iso_4217 iso_639 notes
 pkgconfigdir = $(datadir)/pkgconfig
 pkgconfig_DATA = iso-codes.pc
 EXTRA_DIST = \
-	LGPL-2.1		\
+	LICENSE			\
 	rules.make		\
 	iso2pot.py
 

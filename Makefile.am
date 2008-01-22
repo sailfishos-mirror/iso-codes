@@ -4,7 +4,7 @@ pkgconfigdir = $(datadir)/pkgconfig
 pkgconfig_DATA = iso-codes.pc
 
 EXTRA_DIST = \
-	LGPL-2.1		\
+	LICENSE			\
 	rules.make		\
 	iso2pot.py
 
