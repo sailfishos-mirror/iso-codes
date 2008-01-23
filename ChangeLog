@@ -54,7 +54,12 @@ UNRELEASED
 
   [ ISO-15924 translations ]
   * Vietnamese by Clytie Siddall (TP)
-	
+  * Remove files which have only very few translations (from
+    ICU libraries) and have not been updated for a long time:
+    be.po, ca.po, cs.po, cy.po, hi.po, hr.po, mt.po, ps.po,
+    so.po, sq.po, te.po
+
+
 iso-codes 1.8
 -------------
 Tobias Toedter <t.toedter@gmx.net>
