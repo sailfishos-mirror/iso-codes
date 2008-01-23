@@ -350,12 +350,17 @@ check-content:
 		false; \
 	fi
 
+# This target merges all po files with the current pot file,
+# removes obsolete msgids and substitutes the Project-Id-Version
+# header with the correct value
 .PHONY: update-po
 update-po:
 	for pofile in $(pofiles); do \
 		$(MSGMERGE) $$pofile $(DOMAIN).pot > tmpfile; \
-		mv tmpfile $$pofile; \
+		msgattrib --no-obsolete tmpfile > $$pofile; \
+		sed -i -e 's/^\"Project-Id-Version: iso.*/\"Project-Id-Version: $(DOMAIN) $(VERSION)\\n\"/' $$pofile; \
 	done
+	rm -f tmpfile
 
 install-data-hook: $(mofiles)
 	$(mkinstalldirs) $(DESTDIR)$(datadir)
