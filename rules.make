@@ -17,6 +17,14 @@ check-content:
 # This target merges all po files with the current pot file,
 # removes obsolete msgids and substitutes the Project-Id-Version
 # header with the correct value
+#
+# NOTE:
+# Removing obsolete msgids is not the recommended way to go.
+# However, we've decided that in the specific case of iso-codes
+# the benefit outweights the loss of information. Having only msgids
+# with one (sometimes two or three) words, the fuzzy matching performed
+# with obsolete msgids will not ease the translator's work, but
+# will lead to confusing entries.
 .PHONY: update-po
 update-po:
 	for pofile in $(pofiles); do \
