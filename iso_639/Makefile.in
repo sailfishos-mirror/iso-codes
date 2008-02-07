@@ -143,7 +143,7 @@ top_srcdir = @top_srcdir@
 DOMAIN = iso_639
 SUBDIRS = iso_639_3
 xmldir = $(datadir)/xml/iso-codes
-xml_DATA = $(DOMAIN).xml iso_639_3.xml
+xml_DATA = $(DOMAIN).xml
 tabdir = $(datadir)/iso-codes
 tab_DATA = $(DOMAIN).tab
 pofiles = $(wildcard $(srcdir)/*.po)
@@ -518,9 +518,6 @@ iso_639.pot: iso_639.xml
 		--comments iso_639_2T_code \
 		--comments iso_639_1_code \
 	        --fields name --outfile $@ iso_639.xml
-
-iso_639_3.xml:
-	$(top_srcdir)/iso_639/iso-fdis-639-tab-parse.py 
 
 check-local: check-content
 

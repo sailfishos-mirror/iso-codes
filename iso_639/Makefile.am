@@ -1,9 +1,9 @@
 DOMAIN = iso_639
-VERSION= @PACKAGE_VERSION@
+VERSION = @PACKAGE_VERSION@
 SUBDIRS = iso_639_3
 
 xmldir = $(datadir)/xml/iso-codes
-xml_DATA = $(DOMAIN).xml iso_639_3.xml
+xml_DATA = $(DOMAIN).xml
 
 tabdir = $(datadir)/iso-codes
 tab_DATA = $(DOMAIN).tab
@@ -20,9 +20,6 @@ iso_639.pot: iso_639.xml
 		--comments iso_639_2T_code \
 		--comments iso_639_1_code \
 	        --fields name --outfile $@ iso_639.xml
-
-iso_639_3.xml:
-	$(top_srcdir)/iso_639/iso-fdis-639-tab-parse.py 
 
 EXTRA_DIST = \
 	$(pofiles)	\
