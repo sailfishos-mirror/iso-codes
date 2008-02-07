@@ -16,7 +16,7 @@ dnl 59 Temple Place, Suite 330, Boston, MA 02111-1307  USA
 dnl
 dnl $Id$
 
-AC_INIT([ISO Codes],[1.8],[],[iso-codes])
+AC_INIT([ISO Codes],[1.9],[],[iso-codes])
 
 AC_REVISION([$Revision$])
 
