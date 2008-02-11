@@ -5,14 +5,15 @@
 # Copyright (C)
 #   Tobias Toedter <t.toedter@gmx.net>, 2007.
 #     Translations taken from ICU SVN on 2007-09-09
+#   Theppitak Karoonboonyanan <thep@linux.thai.net>, 2008.
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_15924 1.8\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
 "POT-Creation-Date: 2007-12-03 12:29+0100\n"
-"PO-Revision-Date: 2007-09-09 16:07+0200\n"
-"Last-Translator: Tobias Toedter <t.toedter@gmx.net>\n"
+"PO-Revision-Date: 2008-02-11 18:07+0200\n"
+"Last-Translator: Theppitak Karoonboonyanan <thep@linux.thai.net>\n"
 "Language-Team: Thai\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -53,11 +54,11 @@ msgstr "บลิสซิมโบลส์"
 
 #. name for Bopo
 msgid "Bopomofo"
-msgstr "โบโพโมโฟ"
+msgstr "ปอพอมอฟอ (จู้อิน)"
 
 #. name for Brah
 msgid "Brahmi"
-msgstr "บรามี"
+msgstr "พราหมี"
 
 #. name for Brai
 msgid "Braille"
@@ -65,20 +66,19 @@ msgstr "เบรลล์"
 
 #. name for Bugi
 msgid "Buginese"
-msgstr "บูกินิส"
+msgstr "บูกินีส"
 
 #. name for Buhd
 msgid "Buhid"
 msgstr "บูฮิด"
 
 #. name for Cakm
-#, fuzzy
 msgid "Chakma"
-msgstr "จาม"
+msgstr ""
 
 #. name for Cans
 msgid "Unified Canadian Aboriginal Syllabics"
-msgstr "สัญลักษณ์ชนเผ่าพื้นเมืองแคนาดา"
+msgstr "รูปพยางค์รวมชนเผ่าพื้นเมืองแคนาดา"
 
 #. name for Cari
 msgid "Carian"
@@ -102,26 +102,23 @@ msgstr "คอปติก"
 
 #. name for Cprt
 msgid "Cypriot"
-msgstr "ไซพริออต"
+msgstr "ซิพริออต"
 
 #. name for Cyrl
 msgid "Cyrillic"
 msgstr "ซีริลลิก"
 
 #. name for Cyrs
-#, fuzzy
 msgid "Cyrillic (Old Church Slavonic variant)"
-msgstr "ซีริลลิกโบสถ์สลาโวนิกโบราณ"
+msgstr "ซีริลลิก (แบบเชิร์ชสลาโวนิกโบราณ)"
 
 #. name for Deva
-#, fuzzy
 msgid "Devanagari (Nagari)"
 msgstr "เทวนาครี"
 
 #. name for Dsrt
-#, fuzzy
 msgid "Deseret (Mormon)"
-msgstr "เดเซเรท"
+msgstr "เดเซอเรต (มอร์มอน)"
 
 #. name for Egyd
 msgid "Egyptian demotic"
@@ -129,21 +126,19 @@ msgstr "ดีโมติกอียิปต์"
 
 #. name for Egyh
 msgid "Egyptian hieratic"
-msgstr "เฮียราติกอียิปต์"
+msgstr "ไฮราติกอียิปต์"
 
 #. name for Egyp
 msgid "Egyptian hieroglyphs"
-msgstr "เฮียโรกลิฟส์อียิปต์"
+msgstr "ไฮโรกลิฟส์อียิปต์"
 
 #. name for Ethi
-#, fuzzy
 msgid "Ethiopic (Geʻez)"
-msgstr "เอธิโอเปีย"
+msgstr "เอธิโอเปีย (กี'อิซ)"
 
 #. name for Geor
-#, fuzzy
 msgid "Georgian (Mkhedruli)"
-msgstr "คัตซูรี (อาซอมทัฟรูลีและนูสคูรี)"
+msgstr ""
 
 #. name for Geok
 msgid "Khutsuri (Asomtavruli and Nuskhuri)"
@@ -163,33 +158,31 @@ msgstr "กรีก"
 
 #. name for Gujr
 msgid "Gujarati"
-msgstr "คุชราต"
+msgstr "คุชราตี"
 
 #. name for Guru
 msgid "Gurmukhi"
-msgstr "เกอร์มูคิ"
+msgstr "คุรุมุขี"
 
 #. name for Hang
 msgid "Hangul (Hangŭl, Hangeul)"
-msgstr ""
+msgstr "ฮันกึล"
 
 #. name for Hani
 msgid "Han (Hanzi, Kanji, Hanja)"
-msgstr ""
+msgstr "ฮั่น (ฮั่นจื้อ, คันจิ, ฮันจา)"
 
 #. name for Hano
 msgid "Hanunoo (Hanunóo)"
-msgstr ""
+msgstr "ฮานูโนโอ"
 
 #. name for Hans
-#, fuzzy
 msgid "Han (Simplified variant)"
-msgstr "ฮั่นตัวย่อ"
+msgstr "ฮั่นประยุกต์"
 
 #. name for Hant
-#, fuzzy
 msgid "Han (Traditional variant)"
-msgstr "ฮั่นตัวเต็ม"
+msgstr "ฮั่นดั้งเดิม"
 
 #. name for Hebr
 msgid "Hebrew"
@@ -201,11 +194,11 @@ msgstr "ฮิรางานะ"
 
 #. name for Hmng
 msgid "Pahawh Hmong"
-msgstr "พาฮาวมอง"
+msgstr "ม้ง"
 
 #. name for Hrkt
 msgid "(alias for Hiragana + Katakana)"
-msgstr ""
+msgstr "(= ฮิรางานะ + คาตาคานะ)"
 
 #. name for Hung
 msgid "Old Hungarian"
@@ -213,11 +206,11 @@ msgstr "ฮังการีโบราณ"
 
 #. name for Inds
 msgid "Indus (Harappan)"
-msgstr ""
+msgstr "อินดัส (ฮารัปปัน)"
 
 #. name for Ital
 msgid "Old Italic (Etruscan, Oscan, etc.)"
-msgstr ""
+msgstr "อิตาลิกโบราณ (อีทรัสกัน, ออสกัน ฯลฯ)"
 
 #. name for Java
 msgid "Javanese"
@@ -225,7 +218,7 @@ msgstr "ชวา"
 
 #. name for Jpan
 msgid "Japanese (alias for Han + Hiragana + Katakana)"
-msgstr ""
+msgstr "ญี่ปุ่น (= ฮั่น + ฮิรางานะ + คาตาคานะ)"
 
 #. name for Kali
 msgid "Kayah Li"
@@ -233,11 +226,11 @@ msgstr "คยาห์"
 
 #. name for Kana
 msgid "Katakana"
-msgstr "กาตะกานะ"
+msgstr "คาตาคานะ"
 
 #. name for Khar
 msgid "Kharoshthi"
-msgstr "คาโรสติ"
+msgstr "ขโรษฐี"
 
 #. name for Khmr
 msgid "Khmer"
@@ -245,40 +238,37 @@ msgstr "เขมร"
 
 #. name for Knda
 msgid "Kannada"
-msgstr "กันนาดา"
+msgstr "กัณณาท"
 
 #. name for Kore
 msgid "Korean (alias for Hangul + Han)"
-msgstr ""
+msgstr "เกาหลี (= ฮันกึล + ฮั่น)"
 
 #. name for Kthi
-#, fuzzy
 msgid "Kaithi"
-msgstr "คาโรสติ"
+msgstr ""
 
 #. name for Lana
 msgid "Lanna, Tai Tham"
-msgstr ""
+msgstr "ล้านนา, อักษรธรรมไท"
 
 #. name for Laoo
 msgid "Lao"
 msgstr "ลาว"
 
 #. name for Latf
-#, fuzzy
 msgid "Latin (Fraktur variant)"
-msgstr "ลาติน (ฟรังเตอร์)"
+msgstr "ละติน (แบบแฟรกทูร์)"
 
 #. name for Latg
 msgid "Latin (Gaelic variant)"
-msgstr ""
+msgstr "ละติน (แบบเกลิก)"
 
 #. name for Latn
 msgid "Latin"
-msgstr "ลาติน"
+msgstr "ละติน"
 
 #. name for Lepc
-#, fuzzy
 msgid "Lepcha (Róng)"
 msgstr "เลปชา"
 
@@ -303,18 +293,16 @@ msgid "Lydian"
 msgstr ""
 
 #. name for Mand
-#, fuzzy
 msgid "Mandaic, Mandaean"
-msgstr "แมนแดน"
+msgstr "แมนเดอิก, แมนดีอัน"
 
 #. name for Mani
-#, fuzzy
 msgid "Manichaean"
-msgstr "แมนแดน"
+msgstr "แมนิคีอัน"
 
 #. name for Maya
 msgid "Mayan hieroglyphs"
-msgstr "มายันฮีโรกลิฟส์"
+msgstr "มายันไฮโรกลิฟส์"
 
 #. name for Mero
 msgid "Meroitic"
@@ -322,7 +310,7 @@ msgstr "เมโรติก"
 
 #. name for Mlym
 msgid "Malayalam"
-msgstr "มาลายาลัม"
+msgstr "มะละยาลัม"
 
 #. name for Moon
 msgid "Moon (Moon code, Moon script, Moon type)"
@@ -338,7 +326,7 @@ msgstr ""
 
 #. name for Mymr
 msgid "Myanmar (Burmese)"
-msgstr ""
+msgstr "พม่า"
 
 #. name for Nkoo
 msgid "N’Ko"
@@ -346,7 +334,7 @@ msgstr "เอ็นโก"
 
 #. name for Ogam
 msgid "Ogham"
-msgstr "โอคัม"
+msgstr "ออกัม"
 
 #. name for Olck
 msgid "Ol Chiki (Ol Cemet’, Ol, Santali)"
@@ -370,7 +358,7 @@ msgstr "เปอร์มิกโบราณ"
 
 #. name for Phag
 msgid "Phags-pa"
-msgstr "ฟากส์-พา"
+msgstr "พัคสปะ"
 
 #. name for Phli
 msgid "Inscriptional Pahlavi"
@@ -393,17 +381,16 @@ msgid "Pollard Phonetic"
 msgstr "สัทศาสตร์พอลลาร์ด"
 
 #. name for Prti
-#, fuzzy
 msgid "Inscriptional Parthian"
-msgstr "ฮั่นตัวเต็ม"
+msgstr ""
 
 #. name for Qaaa
 msgid "Reserved for private use (start)"
-msgstr ""
+msgstr "สงวนสำหรับการใช้งานเอกชน (เริ่ม)"
 
 #. name for Qabx
 msgid "Reserved for private use (end)"
-msgstr ""
+msgstr "สงวนสำหรับการใช้งานเอกชน (จบ)"
 
 #. name for Rjng
 msgid "Rejang, Redjang, Kaganga"
@@ -419,7 +406,7 @@ msgstr "รูนิก"
 
 #. name for Samr
 msgid "Samaritan"
-msgstr ""
+msgstr "ซามาริทัน"
 
 #. name for Sara
 msgid "Sarati"
@@ -431,12 +418,11 @@ msgstr ""
 
 #. name for Sgnw
 msgid "SignWriting"
-msgstr ""
+msgstr "การเขียนภาษามือ"
 
 #. name for Shaw
-#, fuzzy
 msgid "Shavian (Shaw)"
-msgstr "ชาเวียน"
+msgstr "เชเวียน (ชอว์)"
 
 #. name for Sinh
 msgid "Sinhala"
@@ -444,28 +430,27 @@ msgstr "สิงหล"
 
 #. name for Sund
 msgid "Sundanese"
-msgstr ""
+msgstr "ซูดาน"
 
 #. name for Sylo
 msgid "Syloti Nagri"
-msgstr "ไซโลทินากรี"
+msgstr "สิลฒีนาครี"
 
 #. name for Syrc
 msgid "Syriac"
-msgstr "ซีเรียค"
+msgstr "ซีริแอก"
 
 #. name for Syre
-#, fuzzy
 msgid "Syriac (Estrangelo variant)"
-msgstr "ซีเรึยคเอสทราจีโล"
+msgstr "ซีริแอก (แบบเอสทรานจีโล)"
 
 #. name for Syrj
 msgid "Syriac (Western variant)"
-msgstr ""
+msgstr "ซีริแอก (แบบตะวันตก)"
 
 #. name for Syrn
 msgid "Syriac (Eastern variant)"
-msgstr ""
+msgstr "ซีริแอก (แบบตะวันออก)"
 
 #. name for Tagb
 msgid "Tagbanwa"
@@ -473,7 +458,7 @@ msgstr "ตักบันวา"
 
 #. name for Tale
 msgid "Tai Le"
-msgstr "ไทเล"
+msgstr "ไทลื้อ"
 
 #. name for Talu
 msgid "New Tai Lue"
@@ -484,22 +469,20 @@ msgid "Tamil"
 msgstr "ทมิฬ"
 
 #. name for Tavt
-#, fuzzy
 msgid "Tai Viet"
-msgstr "ไทเล"
+msgstr "ไทเวียด"
 
 #. name for Telu
 msgid "Telugu"
-msgstr "เทลูกู"
+msgstr "เตลุคู"
 
 #. name for Teng
 msgid "Tengwar"
-msgstr "เทงวอร์"
+msgstr "เทงกวาร์"
 
 #. name for Tfng
-#, fuzzy
 msgid "Tifinagh (Berber)"
-msgstr "ทิฟินาค"
+msgstr "ทิฟินาค (เบอร์เบอร์)"
 
 #. name for Tglg
 msgid "Tagalog"
@@ -507,7 +490,7 @@ msgstr "ตากาล็อก"
 
 #. name for Thaa
 msgid "Thaana"
-msgstr "ทานา"
+msgstr "ทานะ"
 
 #. name for Thai
 msgid "Thai"
@@ -535,29 +518,28 @@ msgstr "เปอร์เซียโบราณ"
 
 #. name for Xsux
 msgid "Cuneiform, Sumero-Akkadian"
-msgstr ""
+msgstr "คูนิฟอร์ม, สุเมโร-อัคคาเดียน"
 
 #. name for Yiii
 msgid "Yi"
-msgstr "ยิ"
+msgstr "อี้"
 
 #. name for Zmth
 msgid "Mathematical notation"
-msgstr ""
+msgstr "สัญกรณ์คณิตศาสตร์"
 
 #. name for Zsym
-#, fuzzy
 msgid "Symbols"
-msgstr "บลิสซิมโบลส์"
+msgstr "สัญลักษณ์"
 
 #. name for Zxxx
 msgid "Code for unwritten documents"
-msgstr ""
+msgstr "รหัสสำหรับเอกสารที่ไม่มีการเขียน"
 
 #. name for Zyyy
 msgid "Code for undetermined script"
-msgstr ""
+msgstr "รหัสสำหรับอักษรที่ยังไม่ระบุแน่ชัด"
 
 #. name for Zzzz
 msgid "Code for uncoded script"
-msgstr ""
+msgstr "รหัสสำหรับอักษรที่ยังไม่ลงรหัส"
