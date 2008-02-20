@@ -93,14 +93,20 @@ ISO 3166-2 maintenance agency is ISO. The gettext domain is
 <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.htm>
 
 
-Reporting bugs and adding translations
-======================================
+Adding or updating translations
+===============================
 
-If you find a bug in iso-codes or would like to add or update a
-translation, there are several ways to contact us. Please note
-that you can send your translations to any of the following
-contact addresses, while bug reports should go to any of the
-first three addresses.
+The preferred way to send in a translation is using the Translation
+Project (TP). You can find more information about it on their
+website:
+
+  <http://www.translationproject.org/>
+
+
+Reporting a bug
+===============
+
+If you find a bug in iso-codes, there are several ways to contact us.
 
 * Alioth Bug Tracking System
   <https://alioth.debian.org/tracker/?atid=413077&group_id=30316>
@@ -114,11 +120,6 @@ first three addresses.
   <mailto:pkg-isocodes-devel@lists.alioth.debian.org>
   You can subscribe or unsubscribe at this webpage:
   <http://lists.alioth.debian.org/mailman/listinfo/pkg-isocodes-devel>
-
-* Translation Project
-  <http://www.translationproject.org/>
-  If you're registered at the TP, you can send your translations
-  directly there, and we'll include them in the next release.
 
 
 Developing using pkgconfig
