@@ -38,10 +38,7 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 
 <!DOCTYPE iso_3166_2_entries [
 	<!ELEMENT iso_3166_2_entries (iso_3166_country+)>
-	<!ELEMENT iso_3166_country (
-		iso_3166_subset	|
-		geographical_region
-	)*>
+  <!ELEMENT iso_3166_country (iso_3166_subset*)>
 	<!ATTLIST iso_3166_country
 		code			CDATA	#REQUIRED
 	>
@@ -49,21 +46,11 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<!ATTLIST iso_3166_subset
 		type			CDATA	#REQUIRED
 	>
-	<!ELEMENT geographical_region (region+)>
-	<!ATTLIST geographical_region
-		type			CDATA	#IMPLIED
-	>
 	<!ELEMENT iso_3166_2_entry EMPTY>
 	<!ATTLIST iso_3166_2_entry
 		code			CDATA	#REQUIRED
 		name			CDATA	#REQUIRED
 		parent			CDATA	#IMPLIED
-	>
-	<!ELEMENT region EMPTY>
-	<!ATTLIST region
-		code			CDATA	#REQUIRED
-		name			CDATA	#REQUIRED
-		comment			CDATA	#IMPLIED
 	>
 ]>
 
@@ -1829,27 +1816,6 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="CU-99"	name="Isla de la Juventud" />
 </iso_3166_subset>
-<geographical_region type="Province">
-	<!-- Postal codes for Cuba. -->
-	<!-- Data taken from http://www.columbia.edu/kermit/postal.html -->
-	<!-- Provincias of Cuba, with recommended abbreviations -->
-	<region	code="CU-PR"	name="Pinar del Río" />
-	<region	code="CU-CA"	name="Ciego de Ávila" />
-	<region code="CU-CH"	name="Ciudad de La Habana" />
-	<region code="CU-CG"	name="Camagüey" />
-	<region code="CU-HA"	name="La Habana" />
-	<region	code="CU-LT"	name="Las Tunas" />
-	<region	code="CU-MT"	name="Matanzas" />
-	<region	code="CU-HO"	name="Holguín" />
-	<region	code="CU-VC"	name="Villa Clara" />
-	<region	code="CU-GR"	name="Granma" />
-	<region	code="CU-CF"	name="Cienfuegos" />
-	<region	code="CU-SC"	name="Santiago de Cuba" />
-	<region	code="CU-SS"	name="Sancti Spíritus" />
-	<region	code="CU-GT"	name="Guantánamo" />
-	<region code="CU-IJ"	name="Municipio Especial Isla de la Juventud"
-			comment="This is a special Municipio, treated as a Provicia" />
-</geographical_region>
 </iso_3166_country>
 	<!-- Cape Verde -->	
 <iso_3166_country code="CV">
@@ -3083,7 +3049,6 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<!-- United Kingdom -->
 <iso_3166_country code="GB">
 <iso_3166_subset type="Country">
-	<!-- These are listed in ISO-3166-2 -->
 	<iso_3166_2_entry
 		code="GB ENG"	name="England" />
 	<iso_3166_2_entry
@@ -3578,68 +3543,6 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="GB-YOR"	name="York"	parent="ENG" />
 </iso_3166_subset>
-	<!-- County names, with official abbreviations -->
-<geographical_region	type="county">
-	<region	code="BEDS"	name="Bedfordshire" />
-	<region	code="BERKS"	name="Berkshire" />
-	<region	code="BORDER"	name="Borders" />
-	<region	code="BUCKS"	name="Buckinghamshire" />
-	<region	code="CAMBS"	name="Cambridgeshire" />
-	<region	code="CENT"	name="Central" />
-	<region	code="CI"	name="Channel Islands" />
-	<region	code="CHESH"	name="Cheshire" />
-	<region	code="CLEV"	name="Cleveland" />
-	<region	code="CORN"	name="Cornwall" />
-	<region	code="CUMB"	name="Cumbria" />
-	<region	code="DERBY"	name="Derbyshire" />
-	<region	code="DEVON"	name="Devonshire" />
-	<region	code="DORSET"	name="Dorsetshire" />
-	<region	code="DUMGAL"	name="Dumfries &amp; Galloway" />
-	<region	code="GLAM"	name="Glamorganshire" />
-	<region	code="GLOUS"	name="Gloucestershire" />
-	<region	code="GRAMP"	name="Grampian" />
-	<region	code="GWYNED"	name="Gwynedd" />
-	<region	code="HANTS"	name="Hampshire" />
-	<region	code="HERWOR"	name="Herefordshire &amp; Worcestershire" />
-	<region	code="HERTS"	name="Hertfordshire" />
-	<region	code="HIGHL"	name="Highland" />
-	<region	code="HUMBER"	name="Humberside" />
-	<region	code="HUNTS"	name="Huntingdonshire" />
-	<region	code="IOM"	name="Isle of Man" />
-	<region	code="IOW"	name="Isle of White" />
-	<region	code="LANARKS"	name="Lanarkshire" />
-	<region	code="LANCS"	name="Lancashire" />
-	<region	code="LEICS"	name="Leicestershire" />
-	<region	code="LINCS"	name="Licolnshire" />
-	<region	code="LOTH"	name="Lothian" />
-	<region	code="MIDDX"	name="Middlesex" />
-	<region	code="NORF"	name="Norfolk" />
-	<region	code="NHANTS"	name="Northamptonshire" />
-	<region	code="NTHUMB"	name="Northumberland" />
-	<region	code="NOTTS"	name="Nottinghamshire" />
-	<region	code="OXON"	name="Oxfordshire" />
-	<region	code="PEMBS"	name="Pembrokeshire" />
-	<region	code="RUTLAND"	name="Rutlandshire" />
-	<region	code="SHROPS"	name="Shropshire" />
-	<region	code="SOM"	name="Somersetshire" />
-	<region	code="STAFFS"	name="Staffordshire" />
-	<region	code="STRATH"	name="Strathclyde" />
-	<region	code="SUFF"	name="Suffolk" />
-	<region	code="SUSS"	name="Sussex" />
-	<region	code="TAYS"	name="Tayside" />
-	<region	code="TYNE"	name="Tyne &amp; Wear" />
-	<region	code="WARKS"	name="Warwickshire" />
-	<region	code="WILTS"	name="Wiltshire" />
-	<region	code="WORCS"	name="Worcestershire" />
-	<region	code="YORK"	name="Yorkshire" />
-	<region	code="CO ANTRIM"	name="County Antrim" />
-	<region	code="CO ARMAGH"	name="County Armagh" />
-	<region	code="CO DOWN"	name="County Down" />
-	<region	code="CO DURHAM"	name="County Durham" />
-	<region	code="CO FERMANAGH"	name="County Fermanagh" />
-	<region	code="CO DERRY"	name="County Londonderry" />
-	<region	code="CO TYRONE"	name="County Tyrone" />
-</geographical_region>
 </iso_3166_country>
 	<!-- Grenada -->
 <iso_3166_country code="GD">
@@ -10042,16 +9945,6 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="US-VI"	name="Virgin Islands" />
 </iso_3166_subset>
-<geographical_region>
-	<!-- The USPS Also recognizes the following Military"States" -->
-	<!-- (Europe includes Africa, Middile East) -->
-	<region
-		code="US-AE"	name="Armed Forces Europe" />
-	<region
-		code="US-AA"	name="Armed Forces Americas" />
-	<region
-		code="US-AP"	name="Armed Forces Pacific" />
-</geographical_region>
 </iso_3166_country>
 	<!-- Uruguay -->
 <iso_3166_country code="UY">
