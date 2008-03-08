@@ -3,7 +3,7 @@ Section: misc
 Priority: optional
 Maintainer: Alastair McKinstry <mckinstry@debian.org>
 Uploaders: Tobias Toedter <t.toedter@gmx.net>, Christian Perrier <bubulle@debian.org>
-Build-Depends: debhelper (>= 5), gettext, python, python-xml
+Build-Depends: debhelper (>= 5), gettext, python (>= 2.4)
 Standards-Version: 3.7.3
 Homepage: http://pkg-isocodes.alioth.debian.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-isocodes/trunk/iso-codes/
