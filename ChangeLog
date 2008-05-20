@@ -1,12 +1,17 @@
-iso-codes 2.2
+iso-codes 3.0
 -------------
 Tobias Toedter <toddy@debian.org>
 UNRELEASED
 
+  [ ISO-4217 ]
+  * Remove empty numeric_code attributes from XFO and XFU, they are
+    defined as "Nil" in the standard. This requires a change in the
+    DTD for iso_4217.xml, making it backwards incompatible.
+    Thanks to Christian Theune. Closes: alioth#310826
+
   [ ISO-15924 ]
-  * Correct errors found by Christian Theune, thanks a lot.
-    - Change alpha4 code for Psalter Pahlavi from Phlv to Phlp.
-      Closes: alioth#310824
+  * Change alpha4 code for Psalter Pahlavi from Phlv to Phlp.
+    Thanks to Christian Theune. Closes: alioth#310824
 
   [ ISO-3166 translations ]
   * French by Christian Perrier

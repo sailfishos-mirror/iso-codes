@@ -1,4 +1,4 @@
-<?xml version="1.0"  encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 <!--
 This file gives a list of all currencies in the ISO 4217
@@ -30,7 +30,7 @@ Source: <http://www.bsi-global.com/en/Standards-and-Publications/Industry-Sector
 	<!ELEMENT iso_4217_entry EMPTY>
 	<!ATTLIST iso_4217_entry
 		letter_code		CDATA	#REQUIRED
-		numeric_code		CDATA	#REQUIRED
+		numeric_code		CDATA	#IMPLIED
 		currency_name		CDATA	#REQUIRED
 	>
 	<!ELEMENT historic_iso_4217_entry EMPTY>
@@ -729,11 +729,9 @@ Source: <http://www.bsi-global.com/en/Standards-and-Publications/Industry-Sector
 		currency_name="SDR" />
 	<iso_4217_entry
 		letter_code="XFO"
-		numeric_code="   "
 		currency_name="Gold-Franc" />
 	<iso_4217_entry
 		letter_code="XFU"
-		numeric_code="   "
 		currency_name="UIC-Franc" />
 	<iso_4217_entry
 		letter_code="XOF"
