@@ -3,6 +3,11 @@ iso-codes 2.2
 Tobias Toedter <toddy@debian.org>
 UNRELEASED
 
+  [ ISO-15924 ]
+  * Correct errors found by Christian Theune, thanks a lot.
+    - Change alpha4 code for Psalter Pahlavi from Phlv to Phlp.
+      Closes: alioth#310824
+
   [ ISO-3166 translations ]
   * French by Christian Perrier
   * Malayalam by Praveen A. (TP)
@@ -15,6 +20,9 @@ UNRELEASED
   * Albanian by Elian Myftiu. Closes: #480277
   * Belarusian by Pavel Piatruk (direct from l10n team)
   * Japanese by Kenshi Muto
+  * Czech by Miroslav Kure
+
+  [ ISO-3166-2 translations ]
   * Czech by Miroslav Kure
 
   [ ISO-639 translations ]
