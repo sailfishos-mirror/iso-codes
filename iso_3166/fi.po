@@ -7,19 +7,18 @@
 #   Alastair McKinstry <mckinstry@computer.org>, 2002.
 #   Tapio Lehtonen <tale@debian.org>, 2004, 2006.
 #   Raija Polojärvi <raijapolojarvi@gmail.com>, 2006
-#   Tommi Vainikainen <Tommi.Vainikainen@iki.fi>, 2005-2006.
+#   Tommi Vainikainen <Tommi.Vainikainen@iki.fi>, 2005-2006, 2008.
 #
 # Lähteet:
 # http://europa.eu.int/comm/translation/currencies/fitable1.htm
 # http://kotoistus.fi/avoimet/kop_alueiden-nimet.html
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_3166 2.0\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2008-04-30 09:47+0200\n"
-"PO-Revision-Date: 2006-10-12 21:23+0300\n"
+"POT-Creation-Date: 2008-01-03 10:48+0100\n"
+"PO-Revision-Date: 2008-05-28 10:08+0300\n"
 "Last-Translator: Tommi Vainikainen <Tommi.Vainikainen@iki.fi>\n"
 "Language-Team: Finnish <translation-team-fi@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -32,9 +31,8 @@ msgid "Afghanistan"
 msgstr "Afghanistan"
 
 #. official_name for AFG
-#, fuzzy
 msgid "Islamic Republic of Afghanistan"
-msgstr "Pakistanin islamilainen tasavalta"
+msgstr "Afganistanin islamilainen tasavalta"
 
 #. name for ALA
 msgid "Åland Islands"
@@ -141,7 +139,6 @@ msgid "Bahrain"
 msgstr "Bahrain"
 
 #. official_name for BHR
-#, fuzzy
 msgid "Kingdom of Bahrain"
 msgstr "Bahrainin kuningaskunta"
 
@@ -374,7 +371,6 @@ msgid "Côte d'Ivoire"
 msgstr "Norsunluurannikko"
 
 #. official_name for CIV
-#, fuzzy
 msgid "Republic of Côte d'Ivoire"
 msgstr "Norsunluurannikon tasavalta"
 
@@ -985,8 +981,8 @@ msgid "Federated States of Micronesia"
 msgstr "Mikronesian liittovaltio"
 
 #. name for MDA
-msgid "Moldova"
-msgstr ""
+msgid "Moldova, Republic of"
+msgstr "Moldovan tasavalta"
 
 #. official_name for MDA
 msgid "Republic of Moldova"
@@ -1004,9 +1000,13 @@ msgstr "Monacon ruhtinaskunta"
 msgid "Mongolia"
 msgstr "Mongolia"
 
-#. name for MNE, official_name for MNE
+#. name for MNE
 msgid "Montenegro"
 msgstr "Montenegro"
+
+#. official_name for MNE
+msgid "Republic of Montenegro"
+msgstr "Montenegron tasavalta"
 
 #. name for MSR
 msgid "Montserrat"
@@ -1254,7 +1254,7 @@ msgstr "Ruandan tasavalta"
 
 #. name for BLM
 msgid "Saint Barthélemy"
-msgstr ""
+msgstr "Saint Barthélemy"
 
 #. name for SHN
 msgid "Saint Helena"
@@ -1270,7 +1270,7 @@ msgstr "Saint Lucia"
 
 #. name for MAF
 msgid "Saint Martin (French part)"
-msgstr ""
+msgstr "Saint Martin (ranskalainen osa)"
 
 #. name for SPM
 msgid "Saint Pierre and Miquelon"
@@ -1677,168 +1677,149 @@ msgid "Republic of Zimbabwe"
 msgstr "Zimbabwen tasavalta"
 
 #. historic names for ATB (withdrawn 1979)
-#, fuzzy
 msgid "British Antarctic Territory"
-msgstr "Brittiläinen Intian valtameren alue"
+msgstr "Brittiläinen Antarktis-alue"
 
 #. historic names for BUR (withdrawn 1989-12-05)
-#, fuzzy
 msgid "Burma, Socialist Republic of the Union of"
-msgstr "Vietnamin sosialistinen tasavalta"
+msgstr "Burman sosialistinen tasavaltaliitto"
 
 #. historic names for BYS (withdrawn 1992-06-15)
 msgid "Byelorussian SSR Soviet Socialist Republic"
-msgstr ""
+msgstr "Valko-Venäjän sosialistinen neuvostotasavalta"
 
 #. historic names for CTE (withdrawn 1984)
 msgid "Canton and Enderbury Islands"
-msgstr ""
+msgstr "Kanton- ja Enderburysaaret"
 
 #. historic names for CSK (withdrawn 1993-06-15)
 msgid "Czechoslovakia, Czechoslovak Socialist Republic"
-msgstr ""
+msgstr "Tšekkoslovakian sosialistinen tasavalta"
 
 #. historic names for DHY (withdrawn 1977)
 msgid "Dahomey"
-msgstr ""
+msgstr "Dahomey"
 
 #. historic names for ATN (withdrawn 1983)
 msgid "Dronning Maud Land"
-msgstr ""
+msgstr "Kuningatar Maudin maa"
 
 #. historic names for TMP (withdrawn 2002-05-20)
 msgid "East Timor"
-msgstr ""
+msgstr "Itä-Timor"
 
 #. historic names for FXX (withdrawn 1997-07-14)
 msgid "France, Metropolitan"
-msgstr ""
+msgstr "Ranskan metropoli"
 
 #. historic names for AFI (withdrawn 1977)
 msgid "French Afars and Issas"
-msgstr ""
+msgstr "Ranskalainen afarit ja issat"
 
 #. historic names for ATF (withdrawn 1979)
-#, fuzzy
 msgid "French Southern and Antarctic Territories"
-msgstr "Ranskan eteläiset alueet"
+msgstr "Ranskan eteläiset ja Antarktis-alueet"
 
 #. historic names for DDR (withdrawn 1990-10-30)
-#, fuzzy
 msgid "German Democratic Republic"
-msgstr "Laos"
+msgstr "Saksan demokraattinen tasavalta"
 
 #. historic names for DEU (withdrawn 1990-10-30)
-#, fuzzy
 msgid "Germany, Federal Republic of"
 msgstr "Saksan liittotasavalta"
 
 #. historic names for GEL (withdrawn 1979)
-#, fuzzy
 msgid "Gilbert and Ellice Islands"
-msgstr "Turks- ja Caicossaaret"
+msgstr "Gilbert- ja Ellicesaaret"
 
 #. historic names for JTN (withdrawn 1986)
-#, fuzzy
 msgid "Johnston Island"
-msgstr "Cookinsaaret"
+msgstr "Johnstonsaari"
 
 #. historic names for MID (withdrawn 1986)
-#, fuzzy
 msgid "Midway Islands"
-msgstr "Caymansaaret"
+msgstr "Midwaysaaret"
 
 #. historic names for NTZ (withdrawn 1993-07-12)
 msgid "Neutral Zone"
-msgstr ""
+msgstr "Neutraali alue"
 
 #. historic names for NHB (withdrawn 1980)
 msgid "New Hebrides"
-msgstr ""
+msgstr "Uudet Herbidit"
 
 #. historic names for PCI (withdrawn 1986)
 msgid "Pacific Islands (trust territory)"
-msgstr ""
+msgstr "Tyynenmeren saaret (luottamusalue)"
 
 #. historic names for PAN (withdrawn 1993-07-22)
-#, fuzzy
 msgid "Panama, Republic of"
-msgstr "Makedonian tasavalta"
+msgstr "Panaman tasavalta"
 
 #. historic names for PCZ (withdrawn 1980)
 msgid "Panama Canal Zone"
-msgstr ""
+msgstr "Panaman kanaalialue"
 
 #. historic names for ROM (withdrawn 2002-02-01)
-#, fuzzy
 msgid "Romania, Socialist Republic of"
-msgstr "Vietnamin sosialistinen tasavalta"
+msgstr "Romanian sosialistinen tasavalta"
 
 #. historic names for KNA (withdrawn 1988)
 msgid "St. Kitts-Nevis-Anguilla"
-msgstr ""
+msgstr "St. Kitts-Nevis-Anguilla"
 
 #. historic names for SCG (withdrawn 2006-06-05)
-#, fuzzy
 msgid "Serbia and Montenegro"
-msgstr "Montenegron tasavalta"
+msgstr "Serbia ja Montenegro"
 
 #. historic names for SKM (withdrawn 1975)
 msgid "Sikkim"
-msgstr ""
+msgstr "Sikkim"
 
 #. historic names for RHO (withdrawn 1980)
 msgid "Southern Rhodesia"
-msgstr ""
+msgstr "Etelä-Rhodesia"
 
 #. historic names for ESH (withdrawn 1988)
 msgid "Spanish Sahara"
-msgstr ""
+msgstr "Espanjalainen Sahara"
 
 #. historic names for PUS (withdrawn 1986)
 msgid "US Miscellaneous Pacific Islands"
-msgstr ""
+msgstr "Yhdysvaltojen sekalaiset Tyynenmeren saaret"
 
 #. historic names for SUN (withdrawn 1992-08-30)
 msgid "USSR, Union of Soviet Socialist Republics"
-msgstr ""
+msgstr "Neuvostoliitto, Sosialististen neuvostotasavaltojen liitto"
 
 #. historic names for HVO (withdrawn 1984)
-#, fuzzy
 msgid "Upper Volta, Republic of"
-msgstr "Moldovan tasavalta"
+msgstr "Ylä-Voltan tasavalta"
 
 #. historic names for VAT (withdrawn 1996-04-03)
-#, fuzzy
 msgid "Vatican City State (Holy See)"
-msgstr "Pyhä istuin (Vatikaanivaltio)"
+msgstr "Vatikaanin kaupunkivaltio (Pyhä istuin)"
 
 #. historic names for VDR (withdrawn 1977)
-#, fuzzy
 msgid "Viet-Nam, Democratic Republic of"
-msgstr "Korean demokraattinen kansantasavalta"
+msgstr "Viet-Namin demokraattinen tasavalta"
 
 #. historic names for WAK (withdrawn 1986)
-#, fuzzy
 msgid "Wake Island"
-msgstr "Färsaaret"
+msgstr "Wakesaaret"
 
 #. historic names for YMD (withdrawn 1990-08-14)
-#, fuzzy
 msgid "Yemen, Democratic, People's Democratic Republic of"
-msgstr "Korean demokraattinen kansantasavalta"
+msgstr "Jemenin demokraattinen kansantasavalta"
 
 #. historic names for YEM (withdrawn 1990-08-14)
-#, fuzzy
 msgid "Yemen, Yemen Arab Republic"
-msgstr "Syyrian arabitasavalta"
+msgstr "Jemenin arabitasavalta"
 
 #. historic names for YUG (withdrawn 1993-07-28)
-#, fuzzy
 msgid "Yugoslavia, Socialist Federal Republic of"
-msgstr "Tansanian yhdistynyt tasavalta"
+msgstr "Jugoslavian sosialistinen liittotasavalta"
 
 #. historic names for ZAR (withdrawn 1997-07-14)
-#, fuzzy
 msgid "Zaire, Republic of"
-msgstr "Korean tasavalta"
+msgstr "Zairen tasavalta"
