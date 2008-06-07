@@ -1,5 +1,8 @@
-iso-codes (3.0-2) UNRELEASED; urgency=low
+iso-codes (3.0.1-1) UNRELEASED; urgency=low
 
+  * New upstream release. This closes the following bugs from Debian
+    BTS:
+    - ISO-3166: Wolof by M Mamoune Mbacke. Closes: #484711
   * Add Suggests: isoquery
   * Use Standards-Version 3.8.0, no changes needed
 
