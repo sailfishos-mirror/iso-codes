@@ -5,7 +5,7 @@ an XML file for our own use.
 """
 
 inverted_names = {}
-names=open("iso-639-3_Name_Index_20080114.tab")
+names=open("iso-639-3_Name_Index_20080603.tab")
 for li in names.readlines():
 	(code, name, inverted_name) = li.split('\t')
 	inverted_name = inverted_name.strip()

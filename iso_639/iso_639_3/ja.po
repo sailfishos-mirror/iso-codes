@@ -8,10 +8,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_639_3 1.8\n"
+"Project-Id-Version: iso_639_3 3.0\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2008-01-23 20:30+0100\n"
+"POT-Creation-Date: 2008-06-14 14:30+0200\n"
 "PO-Revision-Date: 2005-10-22 19:14+0900\n"
 "Last-Translator: IIDA Yosiaki <iida@gnu.org>\n"
 "Language-Team: Japanese <translation-team-ja@lists.sourceforge.net>\n"
@@ -18646,9 +18646,11 @@ msgstr "ネパール語"
 msgid "Khmer, Northern"
 msgstr "モン・クメール諸語 (その他)"
 
+# 国国
 #. name for kxn
-msgid "Melanau, Kanowit-Tanjung"
-msgstr ""
+#, fuzzy
+msgid "Melanau, Kanowit-Tanjong"
+msgstr "サンターリー語"
 
 #. name for kxo
 msgid "Kanoé"
@@ -20352,9 +20354,15 @@ msgstr "ロジ語"
 msgid "Inonhan"
 msgstr "インドネシア語"
 
+# 国国
+# KDE訳は「カタール語」だが、カタールはQatarだし、
+# 「Language of Andorra, a small part of France and a small part of Spain」
+# というコメントとも合わない
+# 広辞苑「カタルニア語」の項
 #. name for loe
-msgid "Saluan, Coastal"
-msgstr ""
+#, fuzzy
+msgid "Coastal"
+msgstr "カタロニア語"
 
 # 国国
 #. name for lof
@@ -27642,7 +27650,7 @@ msgstr ""
 # 広辞苑「ペルシア語」の項
 #. name for ope
 #, fuzzy
-msgid "Persian, Old"
+msgid "Old Persian"
 msgstr "ペルシア語"
 
 #. name for opk
