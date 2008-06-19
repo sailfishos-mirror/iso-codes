@@ -2,6 +2,11 @@ iso-codes trunk
 ---------------
 UNRELEASED
 
+  [ General ]
+  * Rename iso-639-3 table files from SIL to omit the last publication
+    date, so that the actual differences are better visible and the
+    Python script for generating the XML source file does not fail
+
   [ ISO-3166 translations ]
   * Irish by Kevin Scannell (TP)
   * Sync from TP
@@ -45,7 +50,8 @@ UNRELEASED
   * Update to 2008-06-03
 
   [ ISO-15924 ]
-  * Slovak by Ivan Masár  
+  * Slovak by Ivan Masár
+
 
 iso-codes 3.0
 -------------

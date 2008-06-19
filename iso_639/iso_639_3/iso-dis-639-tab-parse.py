@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 """
-Parse the SIL.org iso-639-3_YYYYMMDD.tab file and create
+Parse the SIL.org iso_639_3.tab file and create
 an XML file for our own use.
 """
 
 inverted_names = {}
-names=open("iso-639-3_Name_Index_20080603.tab")
+names=open("iso_639_3_Name_Index.tab")
 for li in names.readlines():
 	(code, name, inverted_name) = li.split('\t')
 	inverted_name = inverted_name.strip()
@@ -14,7 +14,7 @@ for li in names.readlines():
 names.close()
 
 
-f=open("iso-639-3_20080114.tab")
+f=open("iso_639_3.tab")
 
 ot=open("iso_639_3.xml","w")
 
