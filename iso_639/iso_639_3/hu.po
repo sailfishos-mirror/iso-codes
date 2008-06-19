@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: iso_639_3 3.0\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2008-06-14 14:30+0200\n"
+"POT-Creation-Date: 2008-06-19 11:10+0200\n"
 "PO-Revision-Date: 2006-09-30 17:54+0100\n"
 "Last-Translator: SZERVÁC Attila <sas@321.hu>\n"
 "Language-Team: Hungarian <debian-l10n-hungarian@lists.d.o>\n"
@@ -6970,10 +6970,11 @@ msgstr "dán"
 msgid "Chin, Daai"
 msgstr ""
 
-#. name for dap, name for yso
+# src/trans.h:302
+#. name for dap
 #, fuzzy
-msgid "Nisi"
-msgstr "nias"
+msgid "Nisi (India)"
+msgstr "batak (indonéz)"
 
 #. name for daq
 msgid "Maria, Dandami"
@@ -10894,6 +10895,11 @@ msgstr ""
 #. name for hix
 msgid "Hixkaryána"
 msgstr ""
+
+#. name for hji
+#, fuzzy
+msgid "Haji"
+msgstr "hindi"
 
 #. name for hka
 #, fuzzy
@@ -17457,6 +17463,11 @@ msgstr ""
 msgid "Layakha"
 msgstr "kazah"
 
+#. name for lyg
+#, fuzzy
+msgid "Lyngngam"
+msgstr "lunda"
+
 #. name for lyn
 #, fuzzy
 msgid "Luyana"
@@ -18841,11 +18852,6 @@ msgstr "iloko"
 msgid "Malfaxal"
 msgstr "malajalam"
 
-#. name for mly
-#, fuzzy
-msgid "Malay (individual language)"
-msgstr "maláj jelnyelv"
-
 #. name for mlz
 #, fuzzy
 msgid "Malaynon"
@@ -19891,11 +19897,6 @@ msgstr "jakut"
 #. name for muv
 msgid "Muthuvan"
 msgstr ""
-
-#. name for muw
-#, fuzzy
-msgid "Mundari"
-msgstr "mandar"
 
 #. name for mux
 #, fuzzy
@@ -23094,12 +23095,6 @@ msgstr "ónorvég"
 msgid "Okpamheri"
 msgstr ""
 
-# src/trans.h:206 src/trans.h:207
-#. name for ope
-#, fuzzy
-msgid "Old Persian"
-msgstr "perzsa"
-
 #. name for opk
 msgid "Kopkaka"
 msgstr ""
@@ -24269,6 +24264,11 @@ msgstr ""
 #. name for pmx
 msgid "Naga, Poumei"
 msgstr ""
+
+#. name for pmy
+#, fuzzy
+msgid "Malay, Papuan"
+msgstr "malajalam"
 
 #. name for pmz
 #, fuzzy
@@ -27933,6 +27933,10 @@ msgstr ""
 msgid "Samtao"
 msgstr "szamoai"
 
+#. name for stv
+msgid "Silt'e"
+msgstr ""
+
 #. name for stw
 msgid "Satawalese"
 msgstr ""
@@ -30809,6 +30813,16 @@ msgstr "unámi"
 msgid "Worora"
 msgstr ""
 
+#. name for unr
+#, fuzzy
+msgid "Mundari"
+msgstr "mandar"
+
+#. name for unx
+#, fuzzy
+msgid "Munda"
+msgstr "lunda"
+
 #. name for unz
 msgid "Kaili, Unde"
 msgstr ""
@@ -31790,6 +31804,12 @@ msgstr "valio"
 #. name for wlc
 msgid "Comorian, Mwali"
 msgstr ""
+
+# src/trans.h:223
+#. name for wle
+#, fuzzy
+msgid "Wolane"
+msgstr "volani"
 
 #. name for wlg
 msgid "Kunbarlang"
@@ -33159,10 +33179,6 @@ msgstr "serpa"
 msgid "Assan"
 msgstr "orosz"
 
-#. name for xst
-msgid "Silt'e"
-msgstr ""
-
 #. name for xsu
 msgid "Sanumá"
 msgstr ""
@@ -34159,6 +34175,10 @@ msgstr "jugoszláv jelnyelv"
 msgid "Sani"
 msgstr "szankszrit"
 
+#. name for yso
+msgid "Nisi (China)"
+msgstr ""
+
 #. name for ysp
 #, fuzzy
 msgid "Lolopo, Southern"
@@ -34649,6 +34669,11 @@ msgstr "kazár"
 msgid "Zhuang, Liujiang"
 msgstr "sotho, déli"
 
+#. name for zlm
+#, fuzzy
+msgid "Malay (individual language)"
+msgstr "maláj jelnyelv"
+
 #. name for zln
 #, fuzzy
 msgid "Zhuang, Lianshan"
@@ -34963,6 +34988,11 @@ msgstr "koszrai"
 #. name for zsl
 msgid "Zambian Sign Language"
 msgstr "zambiai jelnyelv"
+
+#. name for zsm
+#, fuzzy
+msgid "Malay, Standard"
+msgstr "malajalam"
 
 #. name for zsr
 msgid "Zapotec, Southern Rincon"
