@@ -1,6 +1,7 @@
 # Irish translations of ISO 639 Language names
 # Copyright (C) 2002 Free Software Foundation, Inc.
-# Kevin Patrick Scannell <scannell@SLU.EDU>, 2004
+# This file is distributed under the same license as the iso-codes package.
+# Kevin Patrick Scannell <scannell@SLU.EDU>, 2004, 2008
 # Alastair McKinstry <mckinstry@computer.org>, 2002
 # Sean V. Kelley <s_oceallaigh@yahoo.com>, 1999
 #
@@ -11,11 +12,10 @@
 #   free to fill in gaps but please continue to mark coinages as such.  --KPS
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_639 3.1\n"
-"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
-"debian.org>\n"
+"Project-Id-Version: iso_639-3.1\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth.debian.org>\n"
 "POT-Creation-Date: 2008-07-01 16:17+0200\n"
-"PO-Revision-Date: 2007-10-09 07:10-0500\n"
+"PO-Revision-Date: 2008-07-06 07:10-0600\n"
 "Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -146,7 +146,7 @@ msgstr "Asaimis"
 
 #. name for ast
 msgid "Asturian; Bable; Leonese; Asturleonese"
-msgstr ""
+msgstr "Astúiris; Baiblis"
 
 # de Bhaldraithe "Apáis"
 #. name for ath
@@ -379,9 +379,7 @@ msgid "Cherokee"
 msgstr "Seiricis"
 
 #. name for chu, cu
-msgid ""
-"Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church "
-"Slavonic"
+msgid "Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic"
 msgstr "Slaivis; Slavóinic; Slavóinis"
 
 #. name for chv, cv
@@ -419,8 +417,7 @@ msgstr "Crióil agus teangacha briotaireachta, bunaithe ar an bhFraincis (Eile)"
 
 #. name for cpp
 msgid "Creoles and pidgins, Portuguese-based (Other)"
-msgstr ""
-"Crióil agus teangacha briotaireachta, bunaithe ar an bPortaingéilis (Eile)"
+msgstr "Crióil agus teangacha briotaireachta, bunaithe ar an bPortaingéilis (Eile)"
 
 # Firefox
 #. name for cre, cr
@@ -800,7 +797,6 @@ msgstr ""
 
 # Firefox
 #. name for iii, ii
-#, fuzzy
 msgid "Sichuan Yi; Nuosu"
 msgstr "Íais Shisiuánach"
 
@@ -814,7 +810,6 @@ msgstr "Ionúitis"
 
 # used to be called "Occidental" -- convenient way to distinguish from "ia" ?
 #. name for ile, ie
-#, fuzzy
 msgid "Interlingue; Occidental"
 msgstr "Idirtheanga iartharach"
 
@@ -1480,7 +1475,6 @@ msgid "Provençal, Old (to 1500)"
 msgstr "Sean-Phroibhinsis (go dtí 1500)"
 
 #. name for pus, ps
-#, fuzzy
 msgid "Pushto; Pashto"
 msgstr "Paistis"
 
@@ -2039,10 +2033,82 @@ msgid "Zuni"
 msgstr ""
 
 #. name for zxx
-#, fuzzy
 msgid "No linguistic content; Not applicable"
-msgstr "Gan ábhar teangeolaíoch"
+msgstr "Gan ábhar teangeolaíoch; Níl bainteach"
 
 #. name for zza
 msgid "Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki"
 msgstr ""
+
+#~ msgid "Asturian; Bable"
+#~ msgstr "Astúiris; Baiblis"
+
+#~ msgid "Aramaic"
+#~ msgstr "Aramais"
+
+#~ msgid "Miscellaneous languages"
+#~ msgstr "Teangacha éagsúla"
+
+# Arócánach in OLT --kps
+#~ msgid "Araucanian"
+#~ msgstr "Arócáinis"
+
+#~ msgid "Carib"
+#~ msgstr "Cairibis"
+
+#~ msgid "Alemanic; Swiss German"
+#~ msgstr "Gearmáinis Eilvéiseach"
+
+#~ msgid "Khmer"
+#~ msgstr "Ciméiris"
+
+#~ msgid "Raeto-Romance"
+#~ msgstr "Raeta-Rómáinsis"
+
+#~ msgid "Catalan"
+#~ msgstr "Catalóinis"
+
+#~ msgid "Church Slavic"
+#~ msgstr "Slaivis"
+
+#~ msgid "English-based (Other)"
+#~ msgstr "Bunaithe ar an mBéarla (Eile)"
+
+#~ msgid "French-based (Other)"
+#~ msgstr "Bunaithe ar an bhFraincis (Eile)"
+
+#~ msgid "Portuguese-based (Other)"
+#~ msgstr "Bunaithe ar an bPortaingéilis (Eile)"
+
+#~ msgid "Divehi"
+#~ msgstr "Divéihis"
+
+#~ msgid "Dutch"
+#~ msgstr "Ollainnis"
+
+# coinage --kps; google has it "as is"
+#~ msgid "Interlingua"
+#~ msgstr "Idirtheanga"
+
+# placename well-known
+#~ msgid "Greenlandic (Kalaallisut)"
+#~ msgstr "Graonlainnis (Kalaallisut)"
+
+# coined -kps
+#~ msgid "Limburgian"
+#~ msgstr "Liombuirgis"
+
+#~ msgid "German, Low"
+#~ msgstr "Gearmáinis Íochtarach"
+
+#~ msgid "Spanish"
+#~ msgstr "Spáinnis"
+
+#~ msgid "Gallegan"
+#~ msgstr "Gailísis"
+
+#~ msgid "Sotho, Northern"
+#~ msgstr "Seipidis"
+
+#~ msgid "Norwegian Bokmal"
+#~ msgstr "Ioruais Bokmal"
