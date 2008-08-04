@@ -1,15 +1,9 @@
 #!/usr/bin/make -f
-# rules file for iso-codes. Uses debhelper.
 # GNU Copyright 2001 by Alastair McKinstry
-# Modifications Copyright 2006 by Tobias Toedter
+# Modifications Copyright 2006, 2008 by Tobias Quathamer
 
 # Uncomment this for verbose mode
 # export DH_VERBOSE=1
-
-VERSION=$(shell dpkg-parsechangelog | grep ^Version: | cut -d ' ' -f 2)
-
-FILENAME=iso-3166-udeb_$(VERSION)_all.udeb
-
 
 config.status: configure
 	dh_testdir
@@ -42,20 +36,14 @@ binary-arch:
 binary-indep: build install
 	dh_testdir
 	dh_testroot
-	mkdir -p `pwd`/debian/iso-3166-udeb/usr/share/iso-codes
-	cp iso_3166/iso_3166.tab  \
-		`pwd`/debian/iso-3166-udeb/usr/share/iso-codes
-	dh_installdocs -p iso-codes TODO README
-	dh_installchangelogs -p iso-codes ChangeLog
+	dh_installdocs TODO README
+	dh_installchangelogs ChangeLog
 	dh_compress
 	dh_fixperms
 	dh_installdeb
-	dh_gencontrol -p iso-codes
-	dh_gencontrol -- -fdebian/files~
-	dpkg-distaddfile $(FILENAME)  debian-installer optional
-	dh_md5sums -p iso-codes
-	dh_builddeb -p iso-codes -- -Z bzip2
-	dh_builddeb --filename=$(FILENAME)
+	dh_gencontrol
+	dh_md5sums
+	dh_builddeb -- -Z bzip2
 
 binary: binary-indep binary-arch
 .PHONY: build clean binary-indep binary-arch binary install

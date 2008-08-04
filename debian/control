@@ -20,12 +20,3 @@ Description: ISO language, territory, currency, script codes and their translati
  list.
  .
  It also (more importantly) provides their translations in .po form.
-
-Package: iso-3166-udeb
-Architecture: all
-Section: debian-installer
-Priority: optional
-XC-Package-Type: udeb
-Description: provides iso_3166.tab file
- This package provides the iso_3166.tab file, which lists country names
- and their ISO-3166 codes.
