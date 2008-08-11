@@ -1,18 +1,14 @@
-# Translation of ISO-639 (language names) to Finnish
-#
+# Finnish translations for iso_639 package.
+# Copyright (C) 2005-2008 Free Software Foundation, Inc.
 # This file is distributed under the same license as the iso-codes package.
-#
-# Copyright (C)
-#   Free Software Foundation, Inc., 2005, 2006
-#   Tommi Vainikainen <Tommi.Vainikainen@iki.fi>, 2005-2007.
+# Tommi Vainikainen <Tommi.Vainikainen@iki.fi>, 2005-2008.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_639 3.1\n"
-"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
-"debian.org>\n"
+"Project-Id-Version: iso_639 3.2\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth.debian.org>\n"
 "POT-Creation-Date: 2008-07-09 08:36+0200\n"
-"PO-Revision-Date: 2007-05-15 19:19+0300\n"
+"PO-Revision-Date: 2008-08-10 21:52+0300\n"
 "Last-Translator: Tommi Vainikainen <Tommi.Vainikainen@iki.fi>\n"
 "Language-Team: Finnish <translation-team-fi@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -106,7 +102,7 @@ msgstr "arabia"
 
 #. name for arc
 msgid "Official Aramaic (700-300 BCE); Imperial Aramaic (700-300 BCE)"
-msgstr ""
+msgstr "aramea"
 
 #. name for arg, an
 msgid "Aragonese"
@@ -138,7 +134,7 @@ msgstr "asami"
 
 #. name for ast
 msgid "Asturian; Bable; Leonese; Asturleonese"
-msgstr ""
+msgstr "asturia"
 
 #. name for ath
 msgid "Athapascan languages"
@@ -206,7 +202,7 @@ msgstr "muut balttilaiset kielet"
 
 #. name for bej
 msgid "Beja; Bedawiyet"
-msgstr ""
+msgstr "bedža"
 
 #. name for bel, be
 msgid "Belarusian"
@@ -354,16 +350,14 @@ msgstr "choctaw"
 
 #. name for chp
 msgid "Chipewyan; Dene Suline"
-msgstr ""
+msgstr "chipewyan"
 
 #. name for chr
 msgid "Cherokee"
 msgstr "cherokee"
 
 #. name for chu, cu
-msgid ""
-"Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church "
-"Slavonic"
+msgid "Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic"
 msgstr "kirkkoslaavi"
 
 #. name for chv, cv
@@ -683,7 +677,6 @@ msgid "Guarani"
 msgstr "guarani"
 
 #. name for gsw
-#, fuzzy
 msgid "Swiss German; Alemannic; Alsatian"
 msgstr "sveitsinsaksa"
 
@@ -772,7 +765,6 @@ msgid "Ido"
 msgstr "ido"
 
 #. name for iii, ii
-#, fuzzy
 msgid "Sichuan Yi; Nuosu"
 msgstr "sichuanin-yi"
 
@@ -785,7 +777,6 @@ msgid "Inuktitut"
 msgstr "inuktitut"
 
 #. name for ile, ie
-#, fuzzy
 msgid "Interlingue; Occidental"
 msgstr "interlingue"
 
@@ -1144,9 +1135,8 @@ msgid "Minangkabau"
 msgstr "minangkabau"
 
 #. name for mis
-#, fuzzy
 msgid "Uncoded languages"
-msgstr "zande"
+msgstr "kooditon kieli"
 
 #. name for mkh
 msgid "Mon-Khmer (Other)"
@@ -1329,7 +1319,6 @@ msgid "Nzima"
 msgstr "nzima"
 
 #. name for oci, oc
-#, fuzzy
 msgid "Occitan (post 1500); Provençal (post 1500)"
 msgstr "oksitaani"
 
@@ -1375,7 +1364,7 @@ msgstr "pahlavi"
 
 #. name for pam
 msgid "Pampanga; Kapampangan"
-msgstr ""
+msgstr "pampanga"
 
 #. name for pan, pa
 msgid "Panjabi; Punjabi"
@@ -1426,12 +1415,10 @@ msgid "Prakrit languages"
 msgstr "prakrit-kielet"
 
 #. name for pro
-#, fuzzy
 msgid "Provençal, Old (to 1500); Old Occitan (to 1500)"
 msgstr "muinaisprovensaali"
 
 #. name for pus, ps
-#, fuzzy
 msgid "Pushto; Pashto"
 msgstr "pašto"
 
@@ -1886,7 +1873,7 @@ msgstr "wakashkielet"
 
 #. name for wal
 msgid "Wolaitta; Wolaytta"
-msgstr ""
+msgstr "wolaytta"
 
 #. name for war
 msgid "Waray"
@@ -1947,7 +1934,7 @@ msgstr "sapoteekki"
 
 #. name for zbl
 msgid "Blissymbols; Blissymbolics; Bliss"
-msgstr ""
+msgstr "Bliss-symbolit"
 
 #. name for zen
 msgid "Zenaga"
@@ -1970,10 +1957,122 @@ msgid "Zuni"
 msgstr "zuni"
 
 #. name for zxx
-#, fuzzy
 msgid "No linguistic content; Not applicable"
-msgstr "(ei kielellistä sisältöä)"
+msgstr "ei kielellistä sisältöä; ei sovellu"
 
 #. name for zza
 msgid "Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki"
 msgstr "zaza; dimili; dimli; kirdki; kirmanjki; zazaki"
+
+#~ msgid "Aramaic"
+#~ msgstr "aramea"
+
+#~ msgid "Asturian; Bable"
+#~ msgstr "asturia"
+
+# laustaan "bedža"...
+#~ msgid "Beja"
+#~ msgstr "beja"
+
+#~ msgid "Chipewyan"
+#~ msgstr "chipewyan"
+
+#~ msgid "Miscellaneous languages"
+#~ msgstr "luokittelemattomat kielet"
+
+#~ msgid "Pampanga"
+#~ msgstr "pampanga"
+
+#~ msgid "Walamo"
+#~ msgstr "walamo"
+
+# mapudungu on kielen kotiperäinen nimi, ja käytetty "valloittajien" kieltä..
+#~ msgid "Araucanian"
+#~ msgstr "araukaani"
+
+#~ msgid "Banda"
+#~ msgstr "banda"
+
+#~ msgid "Batak (Indonesia)"
+#~ msgstr "batak"
+
+#~ msgid "Carib"
+#~ msgstr "karibi"
+
+#~ msgid "Dayak"
+#~ msgstr "dayak"
+
+#~ msgid "Alemanic; Swiss German"
+#~ msgstr "sveitsinsaksa"
+
+#~ msgid "Ijo"
+#~ msgstr "idžo"
+
+#~ msgid "Kachin"
+#~ msgstr "kachin"
+
+#~ msgid "Karen"
+#~ msgstr "karen"
+
+#~ msgid "Khmer"
+#~ msgstr "khmer"
+
+#~ msgid "Kru"
+#~ msgstr "kru-kielet"
+
+#~ msgid "Nahuatl"
+#~ msgstr "nahuatl"
+
+#~ msgid "Rarotongan"
+#~ msgstr "rarotonga"
+
+#~ msgid "Raeto-Romance"
+#~ msgstr "retoromaani"
+
+#~ msgid "Songhai"
+#~ msgstr "songhai"
+
+#~ msgid "Zande"
+#~ msgstr "zande"
+
+#~ msgid "Catalan"
+#~ msgstr "katalaani"
+
+#~ msgid "Church Slavic"
+#~ msgstr "kirkkoslaavi"
+
+#~ msgid "English-based (Other)"
+#~ msgstr "muut englantiin perustuvat kreolit ja pidginit"
+
+#~ msgid "French-based (Other)"
+#~ msgstr "muut ranskaan perustuvat kreolit ja pidginit"
+
+#~ msgid "Portuguese-based (Other)"
+#~ msgstr "muut portugaliin perustuvat kreolit ja pidginit"
+
+#~ msgid "Divehi"
+#~ msgstr "divehi"
+
+#~ msgid "Dutch"
+#~ msgstr "hollanti"
+
+#~ msgid "Interlingua"
+#~ msgstr "interlingua"
+
+#~ msgid "Greenlandic (Kalaallisut)"
+#~ msgstr "grönlanti"
+
+#~ msgid "Limburgian"
+#~ msgstr "limburg"
+
+#~ msgid "German, Low"
+#~ msgstr "alasaksa"
+
+#~ msgid "Newari"
+#~ msgstr "newari"
+
+#~ msgid "Spanish"
+#~ msgstr "espanja"
+
+#~ msgid "Gallegan"
+#~ msgstr "galicia"
