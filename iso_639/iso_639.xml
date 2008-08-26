@@ -5,8 +5,8 @@ This file gives a list of all languages in the ISO 639
 standard, and is used to provide translations via gettext
 
 Copyright (C) 2004-2006 Alastair McKinstry <mckinstry@computer.org>
-Copyright (C) 2004-2007 Christian Perrier <bubulle@debian.org>
-Copyright (C) 2005-2006 Tobias Toedter <t.toedter@gmx.net>
+Copyright (C) 2004-2008 Christian Perrier <bubulle@debian.org>
+Copyright (C) 2005-2008 Tobias Quathamer <toddy@debian.org>
 
     This file is free software; you can redistribute it and/or
     modify it under the terms of the GNU Lesser General Public
@@ -766,7 +766,7 @@ Source: <http://www.loc.gov/standards/iso639-2/>
 	<iso_639_entry
 		iso_639_2B_code="gwi"
 		iso_639_2T_code="gwi"
-		name="Gwich´in" />
+		name="Gwich'in" />
 	<iso_639_entry
 		iso_639_2B_code="hai"
 		iso_639_2T_code="hai"
@@ -821,6 +821,11 @@ Source: <http://www.loc.gov/standards/iso639-2/>
 		iso_639_2T_code="hmo"
 		iso_639_1_code="ho"
 		name="Hiri Motu" />
+	<iso_639_entry
+		iso_639_2B_code="hrv"
+		iso_639_2T_code="hrv"
+		iso_639_1_code="hr"
+		name="Croatian" />
 	<iso_639_entry
 		iso_639_2B_code="hsb"
 		iso_639_2T_code="hsb"
@@ -1384,7 +1389,7 @@ Source: <http://www.loc.gov/standards/iso639-2/>
 	<iso_639_entry
 		iso_639_2B_code="new"
 		iso_639_2T_code="new"
-		name="Newari; Nepal Bhasa" />
+		name="Nepal Bhasa; Newari" />
 	<iso_639_entry
 		iso_639_2B_code="nia"
 		iso_639_2T_code="nia"
@@ -1406,7 +1411,7 @@ Source: <http://www.loc.gov/standards/iso639-2/>
 		iso_639_2B_code="nob"
 		iso_639_2T_code="nob"
 		iso_639_1_code="nb"
-		name="Norwegian Bokmål; Bokmål, Norwegian" />
+		name="Bokmål, Norwegian; Norwegian Bokmål" />
 	<iso_639_entry
 		iso_639_2B_code="nog"
 		iso_639_2T_code="nog"
@@ -1423,11 +1428,11 @@ Source: <http://www.loc.gov/standards/iso639-2/>
 	<iso_639_entry
 		iso_639_2B_code="nqo"
 		iso_639_2T_code="nqo"
-		name="N'ko" />
+		name="N'Ko" />
 	<iso_639_entry
 		iso_639_2B_code="nso"
 		iso_639_2T_code="nso"
-		name="Northern Sotho, Pedi; Sepedi" />
+		name="Pedi; Sepedi; Northern Sotho" />
 	<iso_639_entry
 		iso_639_2B_code="nub"
 		iso_639_2T_code="nub"
@@ -1461,7 +1466,7 @@ Source: <http://www.loc.gov/standards/iso639-2/>
 		iso_639_2B_code="oci"
 		iso_639_2T_code="oci"
 		iso_639_1_code="oc"
-		name="Occitan (post 1500); Provençal (post 1500)" />
+		name="Occitan (post 1500)" />
 	<iso_639_entry
 		iso_639_2B_code="oji"
 		iso_639_2T_code="oji"
@@ -1566,7 +1571,7 @@ Source: <http://www.loc.gov/standards/iso639-2/>
 	<iso_639_entry
 		iso_639_2B_code="pro"
 		iso_639_2T_code="pro"
-		name="Provençal, Old (to 1500); Old Occitan (to 1500)" />
+		name="Provençal, Old (to 1500); Occitan, Old (to 1500)" />
 	<iso_639_entry
 		iso_639_2B_code="pus"
 		iso_639_2T_code="pus"
@@ -1592,7 +1597,7 @@ Source: <http://www.loc.gov/standards/iso639-2/>
 	<iso_639_entry
 		iso_639_2B_code="rar"
 		iso_639_2T_code="rar"
-		name="Rarotongan; Cook Island Maori" />
+		name="Rarotongan; Cook Islands Maori" />
 	<iso_639_entry
 		iso_639_2B_code="roa"
 		iso_639_2T_code="roa"
@@ -1664,11 +1669,6 @@ Source: <http://www.loc.gov/standards/iso639-2/>
 		iso_639_2T_code="sat"
 		name="Santali" />
 	<iso_639_entry
-		iso_639_2B_code="scc"
-		iso_639_2T_code="srp"
-		iso_639_1_code="sr"
-		name="Serbian" />
-	<iso_639_entry
 		iso_639_2B_code="scn"
 		iso_639_2T_code="scn"
 		name="Sicilian" />
@@ -1676,11 +1676,6 @@ Source: <http://www.loc.gov/standards/iso639-2/>
 		iso_639_2B_code="sco"
 		iso_639_2T_code="sco"
 		name="Scots" />
-	<iso_639_entry
-		iso_639_2B_code="scr"
-		iso_639_2T_code="hrv"
-		iso_639_1_code="hr"
-		name="Croatian" />
 	<iso_639_entry
 		iso_639_2B_code="sel"
 		iso_639_2T_code="sel"
@@ -1808,6 +1803,11 @@ Source: <http://www.loc.gov/standards/iso639-2/>
 		iso_639_2B_code="srn"
 		iso_639_2T_code="srn"
 		name="Sranan Tongo" />
+	<iso_639_entry
+		iso_639_2B_code="srp"
+		iso_639_2T_code="srp"
+		iso_639_1_code="sr"
+		name="Serbian" />
 	<iso_639_entry
 		iso_639_2B_code="srr"
 		iso_639_2T_code="srr"
