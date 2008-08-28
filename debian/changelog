@@ -1,9 +1,10 @@
-iso-codes (3.2-2) UNRELEASED; urgency=low
+iso-codes (3.3-1) unstable; urgency=low
 
+  * New upstream release.
   * Remove iso-3166 udeb package from debian/control and debian/rules.
-    The udeb is no longer needed by localechooser >= 2.04.
+    The udeb is no longer needed by localechooser >= 2.04. Closes: #490534
 
- -- Tobias Quathamer <toddy@debian.org>  Mon, 04 Aug 2008 14:53:45 +0200
+ -- Tobias Quathamer <toddy@debian.org>  Thu, 28 Aug 2008 09:05:03 +0200
 
 iso-codes (3.2-1) unstable; urgency=low
 
