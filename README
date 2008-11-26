@@ -32,6 +32,20 @@ to be used by other applications as well. All those XML files
 are stored in the directory "/usr/share/xml/iso-codes".
 
 
+NEWS: iso_3166.tab removed
+==========================
+
+Please note that the plain text tabular file "iso_3166.tab" has been
+removed from the directory /usr/share/iso-codes. If you need that
+specific format, you can easily regenerate the file. Install the
+package isoquery and run the following command:
+
+$ isoquery | cut -f 1,4 | sort > iso_3166.tab
+
+See the output of "isoquery --help" or "man isoquery" for more
+information and usage examples.
+
+
 ISO 3166
 ========
 
