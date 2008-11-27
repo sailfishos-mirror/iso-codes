@@ -1,18 +1,14 @@
 TODO for iso-codes
 ==================
 
+- Maybe add ISO 639-5
+
+- Clear up remaining license issues (GPL vs. LGPL)
+
+- Maybe switch to version 3 of license (GPL or LGPL)
+
+- Remove iso_639.tab, add a note to README about that
+
+- Remove obsolete files from notes directory
+
 - Add man pages documenting ISO tables.
-
-(1) Perl code incorrectly refers to Locale::Currency module.
-(2) Add the following:
-	all_subdivision_codes (code)
-	all_subdivision_names (code)
-
-That parse the ISO 3166-2 files
-
-- Ensure compatibility with language / territory names in GLIBC Locales
-  files.
-
-- KDE:
-	desktop.po file contains such information
-	entry.desktop has redundant language name information
