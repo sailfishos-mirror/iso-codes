@@ -3,9 +3,8 @@
 # Read iso-codes data file and output a .pot file
 # 
 # Copyright (C) 2004,2005 Alastair McKinstry <mckinstry@debian.org>
-# Copyright (C) 2006,2007 Tobias Toedter <t.toedter@gmx.net>
+# Copyright (C) 2006,2007 Tobias Quathamer <toddy@debian.org>
 # Released under the GPL.
-# $Id$
 
 from xml.sax import make_parser, SAXException, SAXParseException
 from xml.sax.handler import feature_namespaces, ContentHandler
