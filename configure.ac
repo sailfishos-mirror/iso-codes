@@ -13,12 +13,8 @@ dnl
 dnl You should have received a copy of the GNU General Public License along
 dnl with this program; if not, write to the Free Software Foundation, Inc.,
 dnl 59 Temple Place, Suite 330, Boston, MA 02111-1307  USA
-dnl
-dnl $Id$
 
 AC_INIT([ISO Codes],[3.5],[],[iso-codes])
-
-AC_REVISION([$Revision$])
 
 dnl FIXME debug why this doesn't work; it substs an '' for VERSION
 dnl until then, use PACKAGE_VERSION instead.
