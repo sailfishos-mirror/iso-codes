@@ -3,23 +3,23 @@ How to release a new version of iso-codes
 
 Make sure you have all the latest updates and no stale files
 in your working copy. The best way to achieve this is to get
-a fresh checkout from the SVN server.
+a fresh checkout from the git server.
 $ mkdir release
 $ cd release
-$ svn co svn+ssh://<yourname>@svn.debian.org/svn/pkg-isocodes/trunk/iso-codes
+$ git clone ssh://<user>@git.debian.org/git/iso-codes/iso-codes.git
 
 Update the version number in configure.ac, also update the ChangeLog
 with the current release number, your name, and the date.
 Commit the changes.
-$ svn ci configure.ac ChangeLog
+$ git commit -a -m "Prepare next release"
 
 Update all automatically generated files (configure, Makefiles, etc.)
 and commit.
 $ autoreconf --install --symlink
-$ svn ci
+$ git commit -a -m "Update automatically generated files"
 
-Create a tag for the next release. Please respect the following
-release numbering scheme:
+Create an annotated and GPG-signed tag for the next release.
+Please respect the following release numbering scheme:
 
 - Major version: use this for data organisation changes (like the
   switch to XML, or incompatible changes in the XML files like the
@@ -31,9 +31,7 @@ release numbering scheme:
   If you increment the Level 1 minor version, omit the second level
   minor version. Example: 1.2.5 -> 1.3, not 1.3.0
 
-$ svn copy \
-  svn+ssh://<yourname>@svn.debian.org/svn/pkg-isocodes/trunk \
-  svn+ssh://<yourname>@svn.debian.org/svn/pkg-isocodes/tags/version_MAJOR_MINOR1_MINOR2
+$ git tag -s -m "iso-codes MAJOR.MINOR1.MINOR2" iso-codes/MAJOR.MINOR1.MINOR2
 
 Create the Makefiles.
 $ ./configure
@@ -58,6 +56,17 @@ $ rm -rf release/
 How to release a new Debian revision
 ====================================
 
+Check out the debian branch of iso-codes and merge the master branch.
+$ git checkout debian
+$ git merge master
+
 Copy the ChangeLog entries which fix a bug in the Debian BTS to
 debian/changelog and commit.
-$ svn ci debian/changelog
+$ git commit debian/changelog
+
+When you're ready to upload, create an annotated and GPG-signed tag
+for the release.
+$ git tag -s -m "Debian release 3.5.1-1" debian/3.5.1-1
+
+Go back to the master branch.
+$ git checkout master
