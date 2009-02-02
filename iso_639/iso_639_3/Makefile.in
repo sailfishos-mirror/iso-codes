@@ -340,15 +340,7 @@ check-local: check-content
 
 .PHONY: check-content
 check-content:
-	@grep "Content-Type" *po | grep -v "UTF-8" && touch found-non-utf.stamp || true
-	@if [ -e found-non-utf.stamp ]; then \
-		echo "*********"; \
-		echo "* Error *"; \
-		echo "*********"; \
-		echo "At least one file is not encoded in UTF-8. Please check."; \
-		rm -f found-non-utf.stamp; \
-		false; \
-	fi
+	perl $(top_builddir)/check_valid_utf8.pl $(pofiles)
 
 # This target merges all po files with the current pot file,
 # removes obsolete msgids and substitutes the Project-Id-Version
