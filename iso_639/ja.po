@@ -12,10 +12,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_639 3.5\n"
+"Project-Id-Version: iso_639 3.6\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2008-10-22 19:30+0200\n"
+"POT-Creation-Date: 2009-03-04 22:21+0100\n"
 "PO-Revision-Date: 2007-08-27 22:20+0900\n"
 "Last-Translator: IIDA Yosiaki <iida@gnu.org>\n"
 "Language-Team: Japanese <translation-team-ja@lists.sourceforge.net>\n"
@@ -67,10 +67,12 @@ msgstr "アダングメ語"
 msgid "Adyghe; Adygei"
 msgstr "アディゲ語; アディジェイ語"
 
-# かつてセム・ハム〜、ハム・セム〜とも言われたが、現在では否定
+# 国国
+# 北米
 #. name for afa
-msgid "Afro-Asiatic (Other)"
-msgstr "アフロ・アジア諸語 (その他)"
+#, fuzzy
+msgid "Afro-Asiatic languages"
+msgstr "アパッチ語族"
 
 # 鳥海訳、CLDR訳
 # アフリカ大陸の国際補助語
@@ -170,10 +172,13 @@ msgstr "Mapudungun; Mapuche"
 msgid "Arapaho"
 msgstr "アラパホー語"
 
-# 国国は「人工諸語」。言語はすべて人工だし、誤訳か
+# 国国
+# メキシコ
+# 中米インディアン
 #. name for art
-msgid "Artificial (Other)"
-msgstr "計画諸語 (その他)"
+#, fuzzy
+msgid "Artificial languages"
+msgstr "オトミ語族"
 
 # 国国
 # 北米インディアン
@@ -282,9 +287,11 @@ msgid "Basa"
 msgstr "バサ語"
 
 # 国国
+# 中米
 #. name for bat
-msgid "Baltic (Other)"
-msgstr "バルト諸語 (その他)"
+#, fuzzy
+msgid "Baltic languages"
+msgstr "バタク語族"
 
 #. name for bej
 msgid "Beja; Bedawiyet"
@@ -308,10 +315,11 @@ msgid "Bengali"
 msgstr "ベンガル語"
 
 # 国国
-# アフリカ北部
+# 中米
 #. name for ber
-msgid "Berber (Other)"
-msgstr "ベルベル諸語 (その他)"
+#, fuzzy
+msgid "Berber languages"
+msgstr "カレン語族"
 
 # 国国
 #. name for bho
@@ -348,12 +356,14 @@ msgstr "ビスラマ語"
 msgid "Siksika"
 msgstr "シクシカ語"
 
-# 国国
-# アフリカ赤道周辺
-# バンツー〜とも
+# 国国は「Munda (Other) ムンダ諸語」
+# ISO, Ethnologueは「Munda languages」
+# インド
+# ムンダー〜とも
 #. name for bnt
-msgid "Bantu (Other)"
-msgstr "バントゥ諸語 (その他)"
+#, fuzzy
+msgid "Bantu languages"
+msgstr "バンダ語族"
 
 #. name for bos, bs
 msgid "Bosnian"
@@ -410,7 +420,8 @@ msgid "Caddo"
 msgstr "カドー語"
 
 #. name for cai
-msgid "Central American Indian (Other)"
+#, fuzzy
+msgid "Central American Indian languages"
 msgstr "中米インディアン諸語 (その他)"
 
 # スペイン北西
@@ -429,11 +440,11 @@ msgid "Catalan; Valencian"
 msgstr "カタロニア語; バレンシア語"
 
 # 国国
-# コーカサス地方
-# カフカス〜とも
+# 北・中央米インディアン
 #. name for cau
-msgid "Caucasian (Other)"
-msgstr "コーカサス諸語 (その他)"
+#, fuzzy
+msgid "Caucasian languages"
+msgstr "ワカシ語族"
 
 # 国国
 # 広辞苑「セブアノ語(Sebuano)」の項
@@ -441,11 +452,11 @@ msgstr "コーカサス諸語 (その他)"
 msgid "Cebuano"
 msgstr "セブアノ語"
 
-# 国国
-# アイルランド島周辺
+# 中国、ベトナム、カンボジア
 #. name for cel
-msgid "Celtic (Other)"
-msgstr "ケルト諸語 (その他)"
+#, fuzzy
+msgid "Celtic languages"
+msgstr "チャム語族"
 
 # 国国
 # ミクロネシア
@@ -548,15 +559,18 @@ msgid "Corsican"
 msgstr "コルシカ語"
 
 #. name for cpe
-msgid "Creoles and pidgins, English based (Other)"
+#, fuzzy
+msgid "Creoles and pidgins, English based"
 msgstr "混成語・混合語 (その他), 英語基盤語 (その他)"
 
 #. name for cpf
-msgid "Creoles and pidgins, French-based (Other)"
+#, fuzzy
+msgid "Creoles and pidgins, French-based"
 msgstr "混成語・混合語 (その他), 仏語基盤語 (その他)"
 
 #. name for cpp
-msgid "Creoles and pidgins, Portuguese-based (Other)"
+#, fuzzy
+msgid "Creoles and pidgins, Portuguese-based"
 msgstr "混成語・混合語 (その他), 葡語基盤語 (その他)"
 
 # 国国
@@ -570,7 +584,8 @@ msgstr "クリミア・タタール語; クリミア・トルコ語"
 
 # 国国
 #. name for crp
-msgid "Creoles and pidgins (Other)"
+#, fuzzy
+msgid "Creoles and pidgins"
 msgstr "混成語・混合語 (その他)"
 
 # CLDR訳
@@ -580,11 +595,11 @@ msgstr "混成語・混合語 (その他)"
 msgid "Kashubian"
 msgstr "カシューブ語"
 
-# 国国
-# アフリカの角
+# 中国、ベトナム、カンボジア
 #. name for cus
-msgid "Cushitic (Other)"
-msgstr "クシュ諸語 (その他)"
+#, fuzzy
+msgid "Cushitic languages"
+msgstr "チャム語族"
 
 # 国国
 # チェック語とも
@@ -654,11 +669,11 @@ msgid "Dogri"
 msgstr "ドグリ語"
 
 # 国国
-# ドラビダ〜とも
-# インド南部
+# ドイツ
 #. name for dra
-msgid "Dravidian (Other)"
-msgstr "ドラヴィダ諸語 (その他)"
+#, fuzzy
+msgid "Dravidian languages"
+msgstr "ソルビア語族"
 
 # CLDR訳
 # 低地ソルブ語、ソルビア語とも
@@ -785,10 +800,11 @@ msgid "Finnish"
 msgstr "フィン語"
 
 # 国国
-# フィンランドからロシア北西部、ハンガリー
+# ドイツ
 #. name for fiu
-msgid "Finno-Ugrian (Other)"
-msgstr "フィン・ウゴル諸語 (その他)"
+#, fuzzy
+msgid "Finno-Ugrian languages"
+msgstr "ソルビア語族"
 
 # ベナン (ダオメー) 南部
 #. name for fon
@@ -858,11 +874,11 @@ msgstr "ガヨ語"
 msgid "Gbaya"
 msgstr "バヤ語"
 
-# 国国
-# ドイツからイギリス、北欧
+# 中国、ベトナム、カンボジア
 #. name for gem
-msgid "Germanic (Other)"
-msgstr "ゲルマン諸語 (その他)"
+#, fuzzy
+msgid "Germanic languages"
+msgstr "チャム語族"
 
 # 国国
 #. name for kat, ka
@@ -1144,10 +1160,14 @@ msgstr "イロカノ語"
 msgid "Interlingua (International Auxiliary Language Association)"
 msgstr "インターリングア語 (国際補助語協会)"
 
-# 国国
+# 国国は「Munda (Other) ムンダ諸語」
+# ISO, Ethnologueは「Munda languages」
+# インド
+# ムンダー〜とも
 #. name for inc
-msgid "Indic (Other)"
-msgstr "インド諸語 (その他)"
+#, fuzzy
+msgid "Indic languages"
+msgstr "バンダ語族"
 
 # 国国
 # インドネシア
@@ -1157,9 +1177,12 @@ msgid "Indonesian"
 msgstr "インドネシア語"
 
 # 国国
+# 北米
+# イロクォイ〜とも
 #. name for ine
-msgid "Indo-European (Other)"
-msgstr "印欧諸語 (その他)"
+#, fuzzy
+msgid "Indo-European languages"
+msgstr "イロコイ語族"
 
 # CLDR訳
 # ロシア連邦南部北カフカス地方チェチェノ・イングーシ共和国
@@ -1176,9 +1199,12 @@ msgid "Inupiaq"
 msgstr "イヌピアック語"
 
 # 国国
+# 北米
+# イロクォイ〜とも
 #. name for ira
-msgid "Iranian (Other)"
-msgstr "イラン諸語 (その他)"
+#, fuzzy
+msgid "Iranian languages"
+msgstr "イロコイ語族"
 
 # 国国
 # 北米
@@ -1292,10 +1318,12 @@ msgid "Khasi"
 msgstr "カシ語"
 
 # 国国
-# アフリカ南部
+# メキシコ
+# 中米インディアン
 #. name for khi
-msgid "Khoisan (Other)"
-msgstr "コイサン諸語 (その他)"
+#, fuzzy
+msgid "Khoisan languages"
+msgstr "オトミ語族"
 
 #. name for khm, km
 msgid "Central Khmer"
@@ -1604,11 +1632,10 @@ msgstr "マンディンゴ語"
 msgid "Maori"
 msgstr "マオリ語"
 
-# 国国
-# 太平洋からインド洋
 #. name for map
-msgid "Austronesian (Other)"
-msgstr "オーストロネシア諸語 (その他)"
+#, fuzzy
+msgid "Austronesian languages"
+msgstr "オーストラリア語族"
 
 # 国国
 #. name for mar, mr
@@ -1670,11 +1697,12 @@ msgstr "ミナンカバウ語"
 msgid "Uncoded languages"
 msgstr "ザンデ語族"
 
-# 南アジア
-# ニッポニカ「モン・クメール諸言語」の項
+# ブラジル
+# 南米インディアン
 #. name for mkh
-msgid "Mon-Khmer (Other)"
-msgstr "モン・クメール諸語 (その他)"
+#, fuzzy
+msgid "Mon-Khmer languages"
+msgstr "クルー語族"
 
 # 国国
 # KDE訳、CLDR訳は「マダガスカル語」
@@ -1794,7 +1822,8 @@ msgstr "ナワトル語族"
 
 # 国国
 #. name for nai
-msgid "North American Indian"
+#, fuzzy
+msgid "North American Indian languages"
 msgstr "北米インディアン諸語"
 
 #. name for nap
@@ -1854,7 +1883,8 @@ msgstr "ニアス語"
 # 国国
 # アフリカ中央部
 #. name for nic
-msgid "Niger-Kordofanian (Other)"
+#, fuzzy
+msgid "Niger-Kordofanian languages"
 msgstr "ニジェール・コルドファン諸語 (その他)"
 
 # 国国
@@ -1993,12 +2023,12 @@ msgstr "トルコ語, オスマン (1500-1928)"
 msgid "Otomian languages"
 msgstr "オトミ語族"
 
-# 国国は「Papuan-Australian」(ママ)「 (Other)」
-# ニューギニア島とその周辺
-# Ethnologueでは、non-Austronesianとしている
+# 国国
+# 中米
 #. name for paa
-msgid "Papuan (Other)"
-msgstr "パプア諸語 (その他)"
+#, fuzzy
+msgid "Papuan languages"
+msgstr "マヤ語族"
 
 # 国国
 # CLDR訳は「パンガシナン語」
@@ -2043,9 +2073,11 @@ msgstr "ペルシア語, 古代 (紀元前約 600-400)"
 msgid "Persian"
 msgstr "ペルシア語"
 
+# 国国
 #. name for phi
-msgid "Philippine (Other)"
-msgstr "フィリピン諸語 (その他)"
+#, fuzzy
+msgid "Philippine languages"
+msgstr "多言語"
 
 # 「Punic ポエニ語」とも
 #. name for phn
@@ -2132,10 +2164,12 @@ msgid "Rarotongan; Cook Islands Maori"
 msgstr "ラロトンガ語; クック島マオリ語"
 
 # 国国
-# 西欧
+# メキシコ
+# 中米インディアン
 #. name for roa
-msgid "Romance (Other)"
-msgstr "ロマンス諸語 (その他)"
+#, fuzzy
+msgid "Romance languages"
+msgstr "オトミ語族"
 
 # 国国
 # ニッポニカ「ジプシー」の項に「Romany」「ロマニー語」
@@ -2197,7 +2231,8 @@ msgstr "ヤクート語"
 
 # 国国
 #. name for sai
-msgid "South American Indian (Other)"
+#, fuzzy
+msgid "South American Indian languages"
 msgstr "南米インディアン諸語 (その他)"
 
 # 国国
@@ -2244,11 +2279,11 @@ msgstr "スコットランド語"
 msgid "Selkup"
 msgstr "セリクプ語"
 
-# 国国
-# アフリカ北部からアラビア半島
+# 中国、ベトナム、カンボジア
 #. name for sem
-msgid "Semitic (Other)"
-msgstr "セム諸語 (その他)"
+#, fuzzy
+msgid "Semitic languages"
+msgstr "チャム語族"
 
 # CLDR訳は「古期アイルランド語」
 #. name for sga
@@ -2287,18 +2322,18 @@ msgid "Siouan languages"
 msgstr "スー語族"
 
 # 国国
-# 中国からビルマ
+# 北米
+# ニッポニカ「スー族」→「ダコタ族」の項に「スー(シュー)族 Sioux」「スー語」
 #. name for sit
-msgid "Sino-Tibetan (Other)"
-msgstr "シナ・チベット諸語 (その他)"
+#, fuzzy
+msgid "Sino-Tibetan languages"
+msgstr "スー語族"
 
-# 国国
-# ロシア西部からバルカン半島
-# 広辞苑「スラヴ語派 (Slavic)」の項
-# マイペディア、ニッポニカ「スラブ語派」の項
+# 中国、ベトナム、カンボジア
 #. name for sla
-msgid "Slavic (Other)"
-msgstr "スラブ諸語 (その他)"
+#, fuzzy
+msgid "Slavic languages"
+msgstr "チャム語族"
 
 # 国国
 # KDE訳、CLDR訳は「スロバキア語」
@@ -2325,10 +2360,11 @@ msgstr "南サーミ語"
 msgid "Northern Sami"
 msgstr "北サーミ語"
 
-# 北欧、バルト海周辺
+# 中国、ベトナム、カンボジア
 #. name for smi
-msgid "Sami languages (Other)"
-msgstr "サーミ語族 (その他)"
+#, fuzzy
+msgid "Sami languages"
+msgstr "チャム語族"
 
 #. name for smj
 msgid "Lule Sami"
@@ -2424,12 +2460,12 @@ msgid "Serer"
 msgstr "セレル語"
 
 # 国国
-# アフリカ中央部
-# CLDR訳は「ナイル・サハラ諸語」
-# ハム〜とも
+# CLDR訳は「セイリッシュ語族」
+# 北米インディアン。セーリッシ〜とも
 #. name for ssa
-msgid "Nilo-Saharan (Other)"
-msgstr "ナイロ・サハラ諸語 (その他)"
+#, fuzzy
+msgid "Nilo-Saharan languages"
+msgstr "サリシュ語族"
 
 # スワジランド王国
 # KDE訳は「スワート語」
@@ -2487,11 +2523,12 @@ msgstr "シリア語"
 msgid "Tahitian"
 msgstr "タヒチ語"
 
-# 国国
-# 南アジア
+# ブラジル
+# 南米インディアン
 #. name for tai
-msgid "Tai (Other)"
-msgstr "タイ諸語 (その他)"
+#, fuzzy
+msgid "Tai languages"
+msgstr "トゥピ語族"
 
 # 国国
 # KDE訳、CLDR訳は「タミール語」
@@ -2656,10 +2693,12 @@ msgstr "トゥピ語族"
 msgid "Turkish"
 msgstr "トルコ語"
 
-# ロシア中央から極東
+# 国国
+# 北米
 #. name for tut
-msgid "Altaic (Other)"
-msgstr "アルタイ諸語 (その他)"
+#, fuzzy
+msgid "Altaic languages"
+msgstr "アパッチ語族"
 
 # 国国
 #. name for tvl
