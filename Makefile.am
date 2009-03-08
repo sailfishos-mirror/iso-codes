@@ -6,7 +6,8 @@ pkgconfig_DATA = iso-codes.pc
 EXTRA_DIST = \
 	LICENSE			\
 	rules.make		\
-	iso2pot.py
+	iso2pot.py		\
+	check_valid_utf8.pl
 
 DISTCLEANFILES = $(pkgconfig_DATA)
 
