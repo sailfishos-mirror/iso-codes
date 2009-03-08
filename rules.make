@@ -4,7 +4,7 @@
 
 .PHONY: check-content
 check-content:
-	perl $(top_builddir)/check_valid_utf8.pl $(pofiles)
+	perl $(top_srcdir)/check_valid_utf8.pl $(pofiles)
 
 # This target merges all po files with the current pot file,
 # removes obsolete msgids and substitutes the Project-Id-Version
