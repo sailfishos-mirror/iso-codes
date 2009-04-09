@@ -4,12 +4,28 @@
 # Computeroversættelse Tobias Toedter <t.toedter@gmx.net>, 2007.
 # Joe Hansen <joedalton2@yahoo.dk>, 2009.
 #
+# Vedrørende stort begyndelsesbogstav: På engelsk er de her ord med stort,
+# det er de ikke på dansk. Sproget kan bruges inde i sætninger og de
+# skal derfor oversættes med småt.
+#
+# Kenneths kommentarer (som er fulgt)
+# Jeg tror ikke vi skal bruge stort begyndelsesbogstav i starten af
+# sætningerne, der hvor det er sprognavne der står. Så vidt jeg forstår
+# bruges de her iso filer som "opslagsværker" til strenge, således at
+# udviklere der ønsker at bruge f.eks. sprognavne i deres programmer kan
+# indsætte dem herfra, i stedet for at skrive den engang til. Dvs. at
+# disse strenge ligeså nemt kan blive sat ind i midten af en streng i
+# det pågældende program som i starten og så har vi problemerne med om
+# det bliver korrekt eller ej.
+#
+# Ovenstående er ikke helt afklaret, så hvis nogen ser dem her brugt i praksis
+# hvor de ikke er korrekte, så vend venligst tilbage på <dansk@dansk-gruppen.dk>
+# På forhånd tak, Joe
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_15924 3.8\n"
-"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
-"debian.org>\n"
-"POT-Creation-Date: 2009-04-05 17:23+0200\n"
+"Project-Id-Version: iso_15924-3.8\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth.debian.org>\n"
+"POT-Creation-Date: 2008-07-01 15:51+0200\n"
 "PO-Revision-Date: 2009-03-22 16:07+0200\n"
 "Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
@@ -214,7 +230,7 @@ msgstr "indus (harappan)"
 # ISO 639-3: 	osc
 #. name for Ital
 msgid "Old Italic (Etruscan, Oscan, etc.)"
-msgstr "olditaliensk (etrusisk, oskansk etc.)"
+msgstr "olditaliensk (etruskisk, oskansk etc.)"
 
 #. name for Java
 msgid "Javanese"
@@ -253,8 +269,8 @@ msgid "Kaithi"
 msgstr "kaithi"
 
 #. name for Lana
-msgid "Tai Thal (Lanna)"
-msgstr ""
+msgid "Lanna, Tai Tham"
+msgstr "lanna, tai tham"
 
 # hmm, hedder det ikke laotian på engelsk
 #. name for Laoo
@@ -288,10 +304,6 @@ msgstr "lineær A"
 #. name for Linb
 msgid "Linear B"
 msgstr "lineær B"
-
-#. name for Lisu
-msgid "Lisu (Fraser)"
-msgstr ""
 
 #. name for Lyci
 msgid "Lycian"
@@ -333,13 +345,10 @@ msgstr "mongolsk"
 msgid "Meitei Mayek (Meithei, Meetei)"
 msgstr "meitei mayek (meithei, meetei)"
 
+# Uafklaret. Skal det kun være Burmesisk?
 #. name for Mymr
 msgid "Myanmar (Burmese)"
 msgstr "myanmarsk (burmesisk)"
-
-#. name for Nkgb
-msgid "Nakhi Geba ('Na-'Khi ²Ggŏ-¹baw, Naxi Geba)"
-msgstr ""
 
 #. name for Nkoo
 msgid "N’Ko"
@@ -390,8 +399,8 @@ msgid "Phoenician"
 msgstr "fønikisk"
 
 #. name for Plrd
-msgid "Miao (Pollard)"
-msgstr ""
+msgid "Pollard Phonetic"
+msgstr "pollardtegn"
 
 #. name for Prti
 msgid "Inscriptional Parthian"
@@ -406,8 +415,7 @@ msgid "Reserved for private use (end)"
 msgstr "reserveret til privat brug (slut)"
 
 #. name for Rjng
-#, fuzzy
-msgid "Rejang (Redjang, Kaganga)"
+msgid "Rejang, Redjang, Kaganga"
 msgstr "rejang, redjang, kaganga"
 
 #. name for Roro
@@ -499,8 +507,8 @@ msgid "Tifinagh (Berber)"
 msgstr "tifinagh (berber)"
 
 #. name for Tglg
-msgid "Tagalog (Baybayin, Alibata)"
-msgstr ""
+msgid "Tagalog"
+msgstr "tagalog"
 
 #. name for Thaa
 msgid "Thaana"
@@ -538,11 +546,6 @@ msgstr "cuneiform, sumero-akkadiansk"
 msgid "Yi"
 msgstr "yi"
 
-#. name for Zinh
-#, fuzzy
-msgid "Code for inherited script"
-msgstr "kode for uafsluttet skript"
-
 #. name for Zmth
 msgid "Mathematical notation"
 msgstr "matematisk notation"
@@ -555,10 +558,12 @@ msgstr "symboler"
 msgid "Code for unwritten documents"
 msgstr "kode for uskrevne dokumenter"
 
+# Forslag fra Claus Agerskov: Kode for ubestemt skriftart
 #. name for Zyyy
 msgid "Code for undetermined script"
 msgstr "kode for uafsluttet skript"
 
+# Forslag fra Claus Agerskov: Kode for skriftart uden kode
 #. name for Zzzz
 msgid "Code for uncoded script"
 msgstr "kode for ukodet skript"
