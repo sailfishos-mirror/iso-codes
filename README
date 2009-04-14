@@ -99,7 +99,7 @@ This lists the language scripts names. The official ISO 15924
 maintenance agency is the Unicode Consortium. The gettext
 domain is "iso_15924".
 <http://unicode.org/iso15924/>
-Changes are listed on http://unicode.org/iso15924/codechanges.html.
+
 
 ISO 3166-2
 ==========
@@ -112,10 +112,38 @@ ISO 3166-2 maintenance agency is ISO. The gettext domain is
 <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.htm>
 
 
+Tracking updates to the various ISO standards
+=============================================
+
+Below is a list of websites we use to check for updates to the
+standards. Please note that ISO 4217 is missing, because the BSI
+does not provide a list of changes.
+
+ISO 3166 and ISO 3166-2:
+http://www.iso.org/iso/country_codes/check_what_s_new.htm
+http://www.iso.org/iso/country_codes/updates_on_iso_3166.htm
+http://www.iso.org/iso/en/prods-services/iso3166ma/02iso-3166-code-lists/list-en1-semic.txt
+
+ISO-639:
+http://www.loc.gov/standards/iso639-2/php/code_changes.php
+
+ISO 639-3:
+http://www.sil.org/iso639-3/codes.asp?order=639_3&letter=%25
+
+ISO-15924:
+http://unicode.org/iso15924/codechanges.html
+
+
 Adding or updating translations
 ===============================
 
-The preferred way to send in a translation is using the Translation
+You can send your translation as a bug report against the package
+iso-codes to the Debian Bug Tracking System. You can either send an email
+or use the tool reportbug. More details are on this website:
+
+  <http://bugs.debian.org/>
+
+Another way to send in a translation is using the Translation
 Project (TP). You can find more information about it on their
 website:
 
