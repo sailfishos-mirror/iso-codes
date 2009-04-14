@@ -4,14 +4,17 @@
 #
 # Alastair McKinstry <mckinstry@computer.org>, 2002,2004.
 # Claus Hindsgaul <claus_h@image.dk>, 2004.
-# Joe Hansen <joedalton2@yahoo.dk>, 2008.
+# Joe Hansen <joedalton2@yahoo.dk>, 2008, 2009.
+#
+# wikihenvisning http://da.wikipedia.org/wiki/ISO_4217
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_4217 3.5.1\n"
+"Project-Id-Version: iso_4217 3.8\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
 "POT-Creation-Date: 2009-01-15 22:54+0100\n"
-"PO-Revision-Date: 2008-08-27 13:58+0200\n"
+"PO-Revision-Date: 2009-04-13 13:58+0200\n"
 "Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "MIME-Version: 1.0\n"
@@ -28,6 +31,8 @@ msgstr "UAE dirham"
 msgid "Afghani"
 msgstr "Afghani"
 
+# Valutakurser.dk kalder dem for "lek" men på udenrigsministeriets hjemmeside 
+# (http://www.um.dk/da/menu/Udenrigspolitik/Landefakta/LandefaktaEuropa/LandefaktaAlbanien) # hedder de "leke"
 # Albanske lek
 #. currency_name for ALL
 msgid "Lek"
@@ -41,6 +46,9 @@ msgstr "Armensk dram"
 msgid "Netherlands Antillian Guilder"
 msgstr "Hollandsk-antilsk gylden"
 
+# Ifølge valutakurser.dk hedder de "ny kwanza (AON)"
+# Men på udenrigsministeriets hjemmeside kalder de dem bare kwanza
+# http://www.um.dk/da/menu/Udenrigspolitik/Landefakta/LandefaktaAfrika/Angola
 # Angolansk kwanza
 #. currency_name for AOA
 msgid "Kwanza"
@@ -70,6 +78,9 @@ msgstr "Konvertibel mark"
 msgid "Barbados Dollar"
 msgstr "Barbados-dollar"
 
+# Ifølge valutakurser.dk hedder de bare "tak (BDT)"
+# Men ifølge udenrigsministeriet hedder de "taka" som du har skrevet.
+# http://www.um.dk/da/menu/Udenrigspolitik/Landefakta/LandefaktaAsien/Bangladesh.htm
 # Bangladeshi Taka (BDT)
 #. currency_name for BDT
 msgid "Taka"
@@ -99,6 +110,10 @@ msgstr "Brunei-dollar"
 msgid "Boliviano"
 msgstr "Boliviano"
 
+# Ifølge valutakurser.dk og um.dk hedder de "boliviano (BON)"
+# http://www.um.dk/da/menu/Udenrigspolitik/Landefakta/Landefakta
+# Latinamerika/LandefaktaBolivia
+# Mvdol er en børskode
 # BOV  Mvdol Bolivia
 #. currency_name for BOV
 msgid "Mvdol"
@@ -122,6 +137,8 @@ msgstr "Ngultrum"
 msgid "Pula"
 msgstr "Pula"
 
+# Ifølge Udenrigsministeriet(http://www.um.dk/da/menu/Udenrigspolitik/Landefakta
+# /LandefaktaEuropa/LandefaktaBelarus) hedder de "belarussiske rubel (BRB)
 #. currency_name for BYR
 msgid "Belarussian Ruble"
 msgstr "Hviderussisk rubel"
@@ -139,18 +156,16 @@ msgid "Franc Congolais"
 msgstr "Congolesisk franc"
 
 #. currency_name for CHE
-#, fuzzy
 msgid "WIR Euro"
-msgstr "Euro"
+msgstr "WIR-euro"
 
 #. currency_name for CHF
 msgid "Swiss Franc"
 msgstr "Schweizerfranc"
 
 #. currency_name for CHW
-#, fuzzy
 msgid "WIR Franc"
-msgstr "CFP Franc"
+msgstr "WIR-franc"
 
 #. currency_name for CLF
 msgid "Unidades de fomento"
@@ -182,9 +197,8 @@ msgid "Cuban Peso"
 msgstr "Cubansk peso"
 
 #. currency_name for CVE
-#, fuzzy
 msgid "Cape Verde Escudo"
-msgstr "Cape Verde-escudo"
+msgstr "Kapverdisk escudo"
 
 #. currency_name for CYP
 msgid "Cyprus Pound"
@@ -212,7 +226,7 @@ msgstr "Algerisk dinar"
 
 #. currency_name for EEK
 msgid "Kroon"
-msgstr ""
+msgstr "Kroon"
 
 #. currency_name for EGP
 msgid "Egyptian Pound"
@@ -220,7 +234,7 @@ msgstr "Egyptisk pund"
 
 #. currency_name for ERN
 msgid "Nakfa"
-msgstr ""
+msgstr "Nakfa"
 
 #. currency_name for ETB
 msgid "Ethiopian Birr"
@@ -235,9 +249,8 @@ msgid "Fiji Dollar"
 msgstr "Fiji-dollar"
 
 #. currency_name for FKP
-#, fuzzy
 msgid "Falkland Islands Pound"
-msgstr "Falkland-øernes pund"
+msgstr "Falklandsøernes pund"
 
 #. currency_name for GBP
 msgid "Pound Sterling"
@@ -245,7 +258,7 @@ msgstr "Britisk pund sterling"
 
 #. currency_name for GEL
 msgid "Lari"
-msgstr ""
+msgstr "Lari"
 
 #. currency_name for GHS
 #, fuzzy
@@ -743,8 +756,9 @@ msgid "East Caribbean Dollar"
 msgstr "Østkaribisk dollar"
 
 #. currency_name for XDR
+#, fuzzy
 msgid "Special Drawing Rights"
-msgstr ""
+msgstr "Speciel tegningsret"
 
 #. currency_name for XFO
 #, fuzzy
@@ -1143,7 +1157,6 @@ msgid "Uruguayan Peso"
 msgstr "Uruguayansk peso"
 
 #. historic currency_name for VEB (withdrawn 2008-01-01)
-#, fuzzy
 msgid "Venezuela Bolívar"
 msgstr "Venezuelsk bolivar"
 
