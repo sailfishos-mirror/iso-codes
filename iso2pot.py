@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# coding: utf-8
 #
 # Read iso-codes data file and output a .pot file
 #
@@ -77,12 +78,12 @@ def printHeader(ofile, iso_standard, report_bugs_to, version):
     ofile.write ("#\n")
     ofile.write ("# This file is distributed under the same license as the iso-codes package.\n")
     ofile.write ("#\n")
-    ofile.write ("# Copyright (C)\n")
-    ofile.write ("#   FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.\n")
+    ofile.write ("# Copyright ©\n")
+    ofile.write ("# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.\n")
     ofile.write ("#\n")
     ofile.write ("msgid \"\"\n")
     ofile.write ("msgstr \"\"\n")
-    ofile.write ("\"Project-Id-Version: iso-codes " + version + "\\n\"\n")
+    ofile.write ("\"Project-Id-Version: iso_" + iso_standard[0] + " " + version + "\\n\"\n")
     ofile.write ("\"Report-Msgid-Bugs-To: " + report_bugs_to + "\\n\"\n")
     ofile.write ("\"POT-Creation-Date: " + time.strftime('%F %H:%M%z') + "\\n\"\n")
     ofile.write ("\"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\n\"\n")
