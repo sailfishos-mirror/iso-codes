@@ -7,7 +7,10 @@ XXXX-XX-XX
   * Use the GNU Lesser General Public License for all files included
     in this package.
   * Do no longer provide the file /usr/share/iso-codes/iso_639.tab
-    which has been deprecated for a long time now
+    which has been deprecated for a long time now.
+  * Do no longer include the notes directory in the tarball, because
+    all files were outdated and deprecated. Moreover, none of those
+    files have ever been installed.
 
   [ ISO 3166 ]
   * Fix wrong capitalization for "Moldova, Republic of"
@@ -38,7 +41,8 @@ XXXX-XX-XX
   * Russian by Yuri Kozlov
   * Korean by Changwoo Ryu (TP)
   * Bengali by Rezwan Shahid
-  * Kazakh updated by Baurzhan Muftakhidinov and Dauren Sarsenov. Closes: #524815
+  * Kazakh updated by Baurzhan Muftakhidinov and Dauren Sarsenov.
+    Closes: #524815
   * Slovak by Ivan Masár
 
   [ ISO 3166-2 translations ]

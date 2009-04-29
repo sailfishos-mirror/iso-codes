@@ -1,4 +1,4 @@
-SUBDIRS = iso_15924 iso_3166 iso_4217 iso_639 notes
+SUBDIRS = iso_15924 iso_3166 iso_4217 iso_639
 
 pkgconfigdir = $(datadir)/pkgconfig
 pkgconfig_DATA = iso-codes.pc
@@ -26,7 +26,7 @@ sign-release: iso-codes-$(VERSION).tar.gz iso-codes-$(VERSION).tar.bz2
 upload:
 	@if [[ "$(ALIOTH_USERNAME)" == "" ]]; then \
 		echo "Please set your Alioth username. Example command line:"; \
-		echo "  ALIOTH_USERNAME=toddy-guest make upload"; \
+		echo "  ALIOTH_USERNAME=toddy make upload"; \
 	fi
 	@if [[ -f "iso-codes-$(VERSION).tar.gz" ]] \
 	&& [[ -f "iso-codes-$(VERSION).tar.bz2" ]] \
