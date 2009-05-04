@@ -16,7 +16,7 @@ space character instead of the '-'.
 Copyright (C) 2004-2006 Alastair McKinstry <mckinstry@computer.org>
 Copyright (C) 2004, 2007 Christian Perrier <bubulle@debian.org>
 Copyright (C) 2005-2007 Tobias Quathamer <toddy@debian.org>
-Copyright (C) 2007 LI Daobing <lidaobing@gmail.com>
+Copyright (C) 2007, 2009 LI Daobing <lidaobing@gmail.com>
 Copyright (C) 2007-2009 Alexis Darrasse <alexis@ortsa.com>
 
     This file is free software; you can redistribute it and/or
@@ -3015,6 +3015,29 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 		code="FR-WF"	name="Wallis et Futuna" />
 	<iso_3166_2_entry
 		code="FR-YT"	name="Mayotte" />
+</iso_3166_subset>
+</iso_3166_country>
+	<!-- Gabon -->
+<iso_3166_country code="GA">
+<iso_3166_subset type="Province">
+	<iso_3166_2_entry
+		code="GA-1"	name="Estuaire" />
+	<iso_3166_2_entry
+		code="GA-2"	name="Haut-Ogooué" />
+	<iso_3166_2_entry
+		code="GA-3"	name="Moyen-Ogooué" />
+	<iso_3166_2_entry
+		code="GA-4"	name="Ngounié" />
+	<iso_3166_2_entry
+		code="GA-5"	name="Nyanga" />
+	<iso_3166_2_entry
+		code="GA-6"	name="Ogooué-Ivindo" />
+	<iso_3166_2_entry
+		code="GA-7"	name="Ogooué-Lolo" />
+	<iso_3166_2_entry
+		code="GA-8"	name="Ogooué-Maritime" />
+	<iso_3166_2_entry
+		code="GA-9"	name="Woleu-Ntem" />
 </iso_3166_subset>
 </iso_3166_country>
 	<!-- United Kingdom -->
