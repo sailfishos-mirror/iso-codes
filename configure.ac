@@ -14,11 +14,8 @@ dnl You should have received a copy of the GNU General Public License along
 dnl with this program; if not, write to the Free Software Foundation, Inc.,
 dnl 59 Temple Place, Suite 330, Boston, MA 02111-1307  USA
 
-AC_INIT([ISO Codes],[3.9],[],[iso-codes])
+AC_INIT([iso-codes],[3.9])
 
-dnl FIXME debug why this doesn't work; it substs an '' for VERSION
-dnl until then, use PACKAGE_VERSION instead.
-dnl AC_PREREQ([2.59]i, "${PACKAGE_VERSION}")
 AM_INIT_AUTOMAKE([dist-bzip2 foreign])
 AM_MAINTAINER_MODE
 
@@ -54,3 +51,4 @@ iso_639/iso_639_3/Makefile
 ])
 
 AC_OUTPUT
+
