@@ -32,7 +32,7 @@ PRE_UNINSTALL = :
 POST_UNINSTALL = :
 DIST_COMMON = $(srcdir)/Makefile.am $(srcdir)/Makefile.in \
 	$(top_srcdir)/rules.make
-subdir = iso_3166/iso_3166_2
+subdir = iso_3166_2
 ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
 am__aclocal_m4_deps = $(top_srcdir)/configure.ac
 am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \
@@ -154,9 +154,9 @@ $(srcdir)/Makefile.in: @MAINTAINER_MODE_TRUE@ $(srcdir)/Makefile.am $(top_srcdir
 	      exit 1;; \
 	  esac; \
 	done; \
-	echo ' cd $(top_srcdir) && $(AUTOMAKE) --foreign  iso_3166/iso_3166_2/Makefile'; \
+	echo ' cd $(top_srcdir) && $(AUTOMAKE) --foreign  iso_3166_2/Makefile'; \
 	cd $(top_srcdir) && \
-	  $(AUTOMAKE) --foreign  iso_3166/iso_3166_2/Makefile
+	  $(AUTOMAKE) --foreign  iso_3166_2/Makefile
 .PRECIOUS: Makefile
 Makefile: $(srcdir)/Makefile.in $(top_builddir)/config.status
 	@case '$?' in \
@@ -331,7 +331,7 @@ uninstall-am: uninstall-xmlDATA
 
 
 iso_3166_2.pot: iso_3166_2.xml
-	../../iso2pot.py --is-version ${VERSION} --comment code \
+	../iso2pot.py --is-version ${VERSION} --comment code \
 		--fields name --outfile $@ $< 
 
 check-local: check-content

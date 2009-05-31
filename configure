@@ -2486,7 +2486,7 @@ $as_echo "$gnu_msgfmt" >&6; }
 DOMAINS="iso_15924 iso_3166 iso_4217 iso_639 iso_3166_2 iso_639_3"
 
 
-ac_config_files="$ac_config_files Makefile iso-codes.pc iso_15924/Makefile iso_3166/Makefile iso_3166/iso_3166_2/Makefile iso_4217/Makefile iso_639/Makefile iso_639/iso_639_3/Makefile"
+ac_config_files="$ac_config_files Makefile iso-codes.pc iso_15924/Makefile iso_3166/Makefile iso_3166_2/Makefile iso_4217/Makefile iso_639/Makefile iso_639_3/Makefile"
 
 
 cat >confcache <<\_ACEOF
@@ -3111,10 +3111,10 @@ do
     "iso-codes.pc") CONFIG_FILES="$CONFIG_FILES iso-codes.pc" ;;
     "iso_15924/Makefile") CONFIG_FILES="$CONFIG_FILES iso_15924/Makefile" ;;
     "iso_3166/Makefile") CONFIG_FILES="$CONFIG_FILES iso_3166/Makefile" ;;
-    "iso_3166/iso_3166_2/Makefile") CONFIG_FILES="$CONFIG_FILES iso_3166/iso_3166_2/Makefile" ;;
+    "iso_3166_2/Makefile") CONFIG_FILES="$CONFIG_FILES iso_3166_2/Makefile" ;;
     "iso_4217/Makefile") CONFIG_FILES="$CONFIG_FILES iso_4217/Makefile" ;;
     "iso_639/Makefile") CONFIG_FILES="$CONFIG_FILES iso_639/Makefile" ;;
-    "iso_639/iso_639_3/Makefile") CONFIG_FILES="$CONFIG_FILES iso_639/iso_639_3/Makefile" ;;
+    "iso_639_3/Makefile") CONFIG_FILES="$CONFIG_FILES iso_639_3/Makefile" ;;
 
   *) { { $as_echo "$as_me:$LINENO: error: invalid argument: $ac_config_target" >&5
 $as_echo "$as_me: error: invalid argument: $ac_config_target" >&2;}

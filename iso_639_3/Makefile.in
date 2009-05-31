@@ -32,7 +32,7 @@ PRE_UNINSTALL = :
 POST_UNINSTALL = :
 DIST_COMMON = $(srcdir)/Makefile.am $(srcdir)/Makefile.in \
 	$(top_srcdir)/rules.make
-subdir = iso_639/iso_639_3
+subdir = iso_639_3
 ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
 am__aclocal_m4_deps = $(top_srcdir)/configure.ac
 am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \
@@ -154,9 +154,9 @@ $(srcdir)/Makefile.in: @MAINTAINER_MODE_TRUE@ $(srcdir)/Makefile.am $(top_srcdir
 	      exit 1;; \
 	  esac; \
 	done; \
-	echo ' cd $(top_srcdir) && $(AUTOMAKE) --foreign  iso_639/iso_639_3/Makefile'; \
+	echo ' cd $(top_srcdir) && $(AUTOMAKE) --foreign  iso_639_3/Makefile'; \
 	cd $(top_srcdir) && \
-	  $(AUTOMAKE) --foreign  iso_639/iso_639_3/Makefile
+	  $(AUTOMAKE) --foreign  iso_639_3/Makefile
 .PRECIOUS: Makefile
 Makefile: $(srcdir)/Makefile.in $(top_builddir)/config.status
 	@case '$?' in \
@@ -331,7 +331,7 @@ uninstall-am: uninstall-xmlDATA
 
 
 iso_639_3.pot: iso_639_3.xml
-	../../iso2pot.py --is-version ${VERSION} --comment id \
+	../iso2pot.py --is-version ${VERSION} --comment id \
 		--fields name --outfile $@ $< 
 
 check-local: check-content
