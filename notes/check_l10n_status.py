@@ -7,7 +7,7 @@ from subprocess import Popen, PIPE
 
 basedir = os.path.realpath(os.path.join(os.path.split(sys.argv[0])[0], ".."))
 iso_639_dir = os.path.join(basedir, "iso_639")
-iso_639_3_dir = os.path.join(iso_639_dir, "iso_639_3")
+iso_639_3_dir = os.path.join(basedir, "iso_639_3")
 iso_3166_dir = os.path.join(basedir, "iso_3166")
 iso_3166_2_dir = os.path.join(basedir, "iso_3166_2")
 iso_4217_dir = os.path.join(basedir, "iso_4217")
