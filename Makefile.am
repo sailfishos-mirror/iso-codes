@@ -1,4 +1,4 @@
-SUBDIRS = iso_15924 iso_3166 iso_4217 iso_639
+SUBDIRS = iso_15924 iso_3166 iso_3166_2 iso_4217 iso_639
 
 pkgconfigdir = $(datadir)/pkgconfig
 pkgconfig_DATA = iso-codes.pc
@@ -36,3 +36,4 @@ upload:
 		scp iso-codes-$(VERSION).tar.* \
 		$(ALIOTH_USERNAME)@alioth.debian.org:/var/lib/gforge/chroot/ftproot/pub/pkg-isocodes; \
 	fi
+
