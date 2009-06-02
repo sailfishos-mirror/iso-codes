@@ -12,6 +12,15 @@ iso-codes UNRELEASED
   * Indonesian by Andhika Padmawan (TP)
   * Danish by Joe Hansen (TP)
 
+  [ ISO 639 translations ]
+  * Marathi almost completely removed, except for the translation of
+    "Marathi" itself. The existing translations were not correct, but
+    contained some Unicode characters not valid for that language.
+    Closes: alioth#311588
+
+  [ ISO 639-3 translations ]
+  * Marathi almost completely removed, see above entry
+
 
 iso-codes 3.10
 --------------
@@ -24,7 +33,7 @@ Mon, 1 June 2009
   * Move directory iso_639_3 from iso_639 directory into
     top source directory
 
-  [ ISO-3166 ]
+  [ ISO 3166 ]
   * Changes from ISO-3166 MA Newsletter VI-6.
     - BO "short" name to "Bolivia, Plurinational State of"
     - BO long name to "Plurinational State of Bolivia"
