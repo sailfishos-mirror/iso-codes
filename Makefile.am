@@ -16,10 +16,8 @@ DISTCLEANFILES = $(pkgconfig_DATA)
 release: check distcheck
 
 .PHONY: sign-release
-sign-release: iso-codes-$(VERSION).tar.gz iso-codes-$(VERSION).tar.bz2
-	rm -f iso-codes-$(VERSION).tar.gz.sig
+sign-release: iso-codes-$(VERSION).tar.bz2
 	rm -f iso-codes-$(VERSION).tar.bz2.sig
-	gpg --detach-sign iso-codes-$(VERSION).tar.gz
 	gpg --detach-sign iso-codes-$(VERSION).tar.bz2
 
 .PHONY: upload
@@ -28,12 +26,9 @@ upload:
 		echo "Please set your Alioth username. Example command line:"; \
 		echo "  ALIOTH_USERNAME=toddy make upload"; \
 	fi
-	@if [[ -f "iso-codes-$(VERSION).tar.gz" ]] \
-	&& [[ -f "iso-codes-$(VERSION).tar.bz2" ]] \
-	&& [[ -f "iso-codes-$(VERSION).tar.gz.sig" ]] \
+	@if [[ -f "iso-codes-$(VERSION).tar.bz2" ]] \
 	&& [[ -f "iso-codes-$(VERSION).tar.bz2.sig" ]] \
 	&& [[ -n "$(ALIOTH_USERNAME)" ]]; then \
 		scp iso-codes-$(VERSION).tar.* \
 		$(ALIOTH_USERNAME)@alioth.debian.org:/var/lib/gforge/chroot/ftproot/pub/pkg-isocodes; \
 	fi
-

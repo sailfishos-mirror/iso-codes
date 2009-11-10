@@ -118,8 +118,8 @@ am__relativize = \
     dir1=`echo "$$dir1" | sed -e "$$sed_rest"`; \
   done; \
   reldir="$$dir2"
-DIST_ARCHIVES = $(distdir).tar.gz $(distdir).tar.bz2
 GZIP_ENV = --best
+DIST_ARCHIVES = $(distdir).tar.bz2
 distuninstallcheck_listfiles = find . -type f -print
 distcleancheck_listfiles = find . -type f -print
 ACLOCAL = @ACLOCAL@
@@ -500,7 +500,6 @@ dist-zip: distdir
 	$(am__remove_distdir)
 
 dist dist-all: distdir
-	tardir=$(distdir) && $(am__tar) | GZIP=$(GZIP_ENV) gzip -c >$(distdir).tar.gz
 	tardir=$(distdir) && $(am__tar) | bzip2 -9 -c >$(distdir).tar.bz2
 	$(am__remove_distdir)
 
@@ -706,10 +705,8 @@ uninstall-am: uninstall-pkgconfigDATA
 release: check distcheck
 
 .PHONY: sign-release
-sign-release: iso-codes-$(VERSION).tar.gz iso-codes-$(VERSION).tar.bz2
-	rm -f iso-codes-$(VERSION).tar.gz.sig
+sign-release: iso-codes-$(VERSION).tar.bz2
 	rm -f iso-codes-$(VERSION).tar.bz2.sig
-	gpg --detach-sign iso-codes-$(VERSION).tar.gz
 	gpg --detach-sign iso-codes-$(VERSION).tar.bz2
 
 .PHONY: upload
@@ -718,9 +715,7 @@ upload:
 		echo "Please set your Alioth username. Example command line:"; \
 		echo "  ALIOTH_USERNAME=toddy make upload"; \
 	fi
-	@if [[ -f "iso-codes-$(VERSION).tar.gz" ]] \
-	&& [[ -f "iso-codes-$(VERSION).tar.bz2" ]] \
-	&& [[ -f "iso-codes-$(VERSION).tar.gz.sig" ]] \
+	@if [[ -f "iso-codes-$(VERSION).tar.bz2" ]] \
 	&& [[ -f "iso-codes-$(VERSION).tar.bz2.sig" ]] \
 	&& [[ -n "$(ALIOTH_USERNAME)" ]]; then \
 		scp iso-codes-$(VERSION).tar.* \

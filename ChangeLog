@@ -1,6 +1,10 @@
 iso-codes trunk
 ---------------
 
+  [ General ]
+  * The package iso-codes does no longer provide a gzip'ed tarball,
+    the compression method is now bzip2
+
   [ ISO 3166 translations ]
   * German typo fix found by Christian Persch. Closes: alioth#312050
 

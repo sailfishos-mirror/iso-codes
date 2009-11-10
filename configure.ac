@@ -16,7 +16,7 @@ dnl 59 Temple Place, Suite 330, Boston, MA 02111-1307  USA
 
 AC_INIT([iso-codes],[3.11.1])
 
-AM_INIT_AUTOMAKE([dist-bzip2 foreign])
+AM_INIT_AUTOMAKE([dist-bzip2 no-dist-gzip foreign])
 AM_MAINTAINER_MODE
 
 AC_SUBST([ACLOCAL_AMFLAGS], ["\${ACLOCAL_FLAGS}"])
