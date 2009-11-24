@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: iso_15924 3.11.1\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2009-04-05 17:23+0200\n"
+"POT-Creation-Date: 2009-11-24 08:57+0100\n"
 "PO-Revision-Date: 2009-08-01 12:36+0200\n"
 "Last-Translator: Miroslav Kure <kurem@debian.cz>\n"
 "Language-Team: Czech <debian-l10n-czech@lists.debian.org>\n"
@@ -37,6 +37,10 @@ msgstr "avestické písmo"
 #. name for Bali
 msgid "Balinese"
 msgstr "balijské písmo"
+
+#. name for Bamu
+msgid "Bamum"
+msgstr ""
 
 #. name for Batk
 msgid "Batak"
@@ -150,7 +154,7 @@ msgstr "hlaholice"
 msgid "Gothic"
 msgstr "gotické písmo"
 
-#. name for Grek
+#. name for Grek, name for Gran
 msgid "Greek"
 msgstr "řecké písmo"
 
@@ -247,7 +251,8 @@ msgid "Kaithi"
 msgstr "kaithi"
 
 #. name for Lana
-msgid "Tai Thal (Lanna)"
+#, fuzzy
+msgid "Tai Tham (Lanna)"
 msgstr "tai thal (lanna)"
 
 #. name for Laoo
@@ -306,9 +311,14 @@ msgstr "manicheické písmo"
 msgid "Mayan hieroglyphs"
 msgstr "mayské hieroglyfy"
 
-#. name for Mero
-msgid "Meroitic"
+#. name for Merc
+#, fuzzy
+msgid "Meroitic Cursive"
 msgstr "meroitické písmo"
+
+#. name for Mero
+msgid "Meroitic Hieroglyphic"
+msgstr ""
 
 #. name for Mlym
 msgid "Malayalam"
@@ -347,8 +357,8 @@ msgid "Ol Chiki (Ol Cemet’, Ol, Santali)"
 msgstr "ol chiki (ol cemet’, ol, santali)"
 
 #. name for Orkh
-msgid "Orkhon"
-msgstr "orchonské písmo"
+msgid "Old Turkic, Orkhon Runic"
+msgstr ""
 
 #. name for Orya
 msgid "Oriya"
@@ -417,6 +427,11 @@ msgstr "samarské písmo"
 #. name for Sara
 msgid "Sarati"
 msgstr "sarati (písmo Tolkienovy Středozemě)"
+
+#. name for Sarb
+#, fuzzy
+msgid "Old South Arabian"
+msgstr "staromaďarské písmo"
 
 #. name for Saur
 msgid "Saurashtra"
@@ -518,6 +533,10 @@ msgstr "vai"
 msgid "Visible Speech"
 msgstr "viditelná řeč"
 
+#. name for Wara
+msgid "Warang Citi (Varang Kshiti)"
+msgstr ""
+
 #. name for Xpeo
 msgid "Old Persian"
 msgstr "staroperské klínové písmo"
@@ -553,3 +572,6 @@ msgstr "kód pro neznámé písmo"
 #. name for Zzzz
 msgid "Code for uncoded script"
 msgstr "kód pro nekódované písmo"
+
+#~ msgid "Orkhon"
+#~ msgstr "orchonské písmo"

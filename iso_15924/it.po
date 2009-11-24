@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: iso_15924 3.11.1\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2009-04-05 17:23+0200\n"
+"POT-Creation-Date: 2009-11-24 08:57+0100\n"
 "PO-Revision-Date: 2009-05-03 10:09+0800\n"
 "Last-Translator: Milo Casagrande <milo@casagrande.name>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
@@ -38,6 +38,10 @@ msgstr "Avestano"
 #. name for Bali
 msgid "Balinese"
 msgstr "Balinese"
+
+#. name for Bamu
+msgid "Bamum"
+msgstr ""
 
 #. name for Batk
 msgid "Batak"
@@ -151,7 +155,7 @@ msgstr "Glagolitico"
 msgid "Gothic"
 msgstr "Gotico"
 
-#. name for Grek
+#. name for Grek, name for Gran
 msgid "Greek"
 msgstr "Greco"
 
@@ -248,7 +252,8 @@ msgid "Kaithi"
 msgstr "Kaithi"
 
 #. name for Lana
-msgid "Tai Thal (Lanna)"
+#, fuzzy
+msgid "Tai Tham (Lanna)"
 msgstr "Tai thal (Lanna)"
 
 #. name for Laoo
@@ -307,9 +312,14 @@ msgstr "Manicheo"
 msgid "Mayan hieroglyphs"
 msgstr "Geroglifici maya"
 
-#. name for Mero
-msgid "Meroitic"
+#. name for Merc
+#, fuzzy
+msgid "Meroitic Cursive"
 msgstr "Meroitico"
+
+#. name for Mero
+msgid "Meroitic Hieroglyphic"
+msgstr ""
 
 #. name for Mlym
 msgid "Malayalam"
@@ -348,8 +358,8 @@ msgid "Ol Chiki (Ol Cemet’, Ol, Santali)"
 msgstr "Ol chiki (ol cemet’, ol, santali)"
 
 #. name for Orkh
-msgid "Orkhon"
-msgstr "Orkhon"
+msgid "Old Turkic, Orkhon Runic"
+msgstr ""
 
 #. name for Orya
 msgid "Oriya"
@@ -418,6 +428,11 @@ msgstr "Samaritano"
 #. name for Sara
 msgid "Sarati"
 msgstr "Sarati"
+
+#. name for Sarb
+#, fuzzy
+msgid "Old South Arabian"
+msgstr "Antico ungherese"
 
 #. name for Saur
 msgid "Saurashtra"
@@ -519,6 +534,10 @@ msgstr "Vai"
 msgid "Visible Speech"
 msgstr "Parola visualizzata"
 
+#. name for Wara
+msgid "Warang Citi (Varang Kshiti)"
+msgstr ""
+
 #. name for Xpeo
 msgid "Old Persian"
 msgstr "Persiano antico"
@@ -554,3 +573,6 @@ msgstr "Codice per scritture non determinate"
 #. name for Zzzz
 msgid "Code for uncoded script"
 msgstr "Codice per scritture non codificate"
+
+#~ msgid "Orkhon"
+#~ msgstr "Orkhon"

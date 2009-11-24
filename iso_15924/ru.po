@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: iso_15924 3.11.1\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2009-04-05 17:23+0200\n"
+"POT-Creation-Date: 2009-11-24 08:57+0100\n"
 "PO-Revision-Date: 2009-08-05 15:25+0200\n"
 "Last-Translator: Pavel Maryanov <acid_jack@ukr.net>\n"
 "Language-Team: Russian <gnu@mx.ru>\n"
@@ -37,6 +37,10 @@ msgstr "Авестийская"
 #. name for Bali
 msgid "Balinese"
 msgstr "Балийская"
+
+#. name for Bamu
+msgid "Bamum"
+msgstr ""
 
 #. name for Batk
 msgid "Batak"
@@ -150,7 +154,7 @@ msgstr "Глаголица"
 msgid "Gothic"
 msgstr "Готская"
 
-#. name for Grek
+#. name for Grek, name for Gran
 msgid "Greek"
 msgstr "Греческая"
 
@@ -247,7 +251,8 @@ msgid "Kaithi"
 msgstr "Кайтхи"
 
 #. name for Lana
-msgid "Tai Thal (Lanna)"
+#, fuzzy
+msgid "Tai Tham (Lanna)"
 msgstr "Тай-там (Ланна)"
 
 #. name for Laoo
@@ -306,9 +311,14 @@ msgstr "Манихейская"
 msgid "Mayan hieroglyphs"
 msgstr "Майя"
 
-#. name for Mero
-msgid "Meroitic"
+#. name for Merc
+#, fuzzy
+msgid "Meroitic Cursive"
 msgstr "Мероитская"
+
+#. name for Mero
+msgid "Meroitic Hieroglyphic"
+msgstr ""
 
 #. name for Mlym
 msgid "Malayalam"
@@ -347,8 +357,8 @@ msgid "Ol Chiki (Ol Cemet’, Ol, Santali)"
 msgstr "Ол Чики"
 
 #. name for Orkh
-msgid "Orkhon"
-msgstr "Орхоно-енисейская"
+msgid "Old Turkic, Orkhon Runic"
+msgstr ""
 
 #. name for Orya
 msgid "Oriya"
@@ -417,6 +427,11 @@ msgstr "Самаритянская"
 #. name for Sara
 msgid "Sarati"
 msgstr "Сарати"
+
+#. name for Sarb
+#, fuzzy
+msgid "Old South Arabian"
+msgstr "Старовенгерская"
 
 #. name for Saur
 msgid "Saurashtra"
@@ -518,6 +533,10 @@ msgstr "Вайская"
 msgid "Visible Speech"
 msgstr "Видимая речь"
 
+#. name for Wara
+msgid "Warang Citi (Varang Kshiti)"
+msgstr ""
+
 #. name for Xpeo
 msgid "Old Persian"
 msgstr "Староперсидская"
@@ -553,3 +572,6 @@ msgstr "Общепринятая"
 #. name for Zzzz
 msgid "Code for uncoded script"
 msgstr "Неизвестная или недействительная письменность"
+
+#~ msgid "Orkhon"
+#~ msgstr "Орхоно-енисейская"
