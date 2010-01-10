@@ -2,7 +2,7 @@
 # Copyright (C) 2007 Tobias Toedter <t.toedter@gmx.net>.
 # This file is distributed under the same license as the iso-codes package.
 # Computeroversættelse Tobias Toedter <t.toedter@gmx.net>, 2007.
-# Joe Hansen <joedalton2@yahoo.dk>, 2009.
+# Joe Hansen <joedalton2@yahoo.dk>, 2009, 2010.
 #
 # Vedrørende stort begyndelsesbogstav: På engelsk er de her ord med stort,
 # det er de ikke på dansk. Sproget kan bruges inde i sætninger og de
@@ -23,11 +23,10 @@
 # På forhånd tak, Joe
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_15924 3.12.1\n"
-"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
-"debian.org>\n"
+"Project-Id-Version: iso_15924-3.12.1\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth.debian.org>\n"
 "POT-Creation-Date: 2009-11-24 09:03+0100\n"
-"PO-Revision-Date: 2009-05-20 16:07+0200\n"
+"PO-Revision-Date: 2010-01-10 16:07+0200\n"
 "Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "MIME-Version: 1.0\n"
@@ -54,9 +53,12 @@ msgstr "avestisk"
 msgid "Balinese"
 msgstr "balinesisk"
 
+# Bamoun, is one of the Benue-Congo languages of Cameroon, 
+# with approximately a quarter million speakers.
+# den store danske har bamum.
 #. name for Bamu
 msgid "Bamum"
-msgstr ""
+msgstr "bamum"
 
 #. name for Batk
 msgid "Batak"
@@ -177,9 +179,12 @@ msgstr "gotisk"
 msgid "Greek"
 msgstr "græsk"
 
+# grantha meaning "book" or "manuscript") is an ancient script that 
+# was prevalent in South India. 
+# den store danske har grantha.
 #. name for Gran
 msgid "Grantha"
-msgstr ""
+msgstr "grantha"
 
 #. name for Gujr
 msgid "Gujarati"
@@ -277,10 +282,14 @@ msgstr "koreansk (alias for hangul + han)"
 msgid "Kaithi"
 msgstr "kaithi"
 
+# The Tai Tham script, also known as the Lanna script is used for 
+# three living languages: Northern Thai (that is, Kam Mu’ang), Tai 
+# Lü and Khün. In addition, the Lanna script is also used for Lao 
+# Tham (or old Lao) and other dialect variants in Buddhist palm leaves 
+# and notebooks. The script is also known as Tham or Yuan script.
 #. name for Lana
-#, fuzzy
 msgid "Tai Tham (Lanna)"
-msgstr "tai thal (lanna)"
+msgstr "tai tham (lanna)"
 
 # hmm, hedder det ikke laotian på engelsk
 #. name for Laoo
@@ -340,13 +349,12 @@ msgid "Mayan hieroglyphs"
 msgstr "mayahieroglyffer"
 
 #. name for Merc
-#, fuzzy
 msgid "Meroitic Cursive"
-msgstr "meroitisk"
+msgstr "kursiv meroitisk"
 
 #. name for Mero
 msgid "Meroitic Hieroglyphic"
-msgstr ""
+msgstr "hieroglyfisk meroitisk"
 
 #. name for Mlym
 msgid "Malayalam"
@@ -385,9 +393,10 @@ msgstr "ogham"
 msgid "Ol Chiki (Ol Cemet’, Ol, Santali)"
 msgstr "ol chiki (ol cemet’, ol, santali)"
 
+# Orkhon set på den store danske.
 #. name for Orkh
 msgid "Old Turkic, Orkhon Runic"
-msgstr ""
+msgstr "Oldtyrkisk, Orkhonruner"
 
 #. name for Orya
 msgid "Oriya"
@@ -458,9 +467,8 @@ msgid "Sarati"
 msgstr "sarati"
 
 #. name for Sarb
-#, fuzzy
 msgid "Old South Arabian"
-msgstr "oldungarsk"
+msgstr "oldsydarabisk"
 
 #. name for Saur
 msgid "Saurashtra"
@@ -562,9 +570,10 @@ msgstr "vai"
 msgid "Visible Speech"
 msgstr "synlig tale"
 
+# intet fundet
 #. name for Wara
 msgid "Warang Citi (Varang Kshiti)"
-msgstr ""
+msgstr "warang citi (varang kshiti)"
 
 #. name for Xpeo
 msgid "Old Persian"
@@ -603,3 +612,15 @@ msgstr "kode for uafsluttet skript"
 #. name for Zzzz
 msgid "Code for uncoded script"
 msgstr "kode for ukodet skript"
+
+#~ msgid "Orkhon"
+#~ msgstr "orkhon"
+
+#~ msgid "Lanna, Tai Tham"
+#~ msgstr "lanna, tai tham"
+
+#~ msgid "Pollard Phonetic"
+#~ msgstr "pollardtegn"
+
+#~ msgid "Tagalog"
+#~ msgstr "tagalog"
