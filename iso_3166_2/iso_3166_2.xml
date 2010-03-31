@@ -17,7 +17,7 @@ Copyright (C) 2004-2006 Alastair McKinstry <mckinstry@computer.org>
 Copyright (C) 2004, 2007 Christian Perrier <bubulle@debian.org>
 Copyright (C) 2005-2007 Tobias Quathamer <toddy@debian.org>
 Copyright (C) 2007, 2009 LI Daobing <lidaobing@gmail.com>
-Copyright (C) 2007-2009 Alexis Darrasse <alexis@ortsa.com>
+Copyright (C) 2007-2010 Alexis Darrasse <alexis@ortsa.com>
 
     This file is free software; you can redistribute it and/or
     modify it under the terms of the GNU Lesser General Public
@@ -35,6 +35,7 @@ Copyright (C) 2007-2009 Alexis Darrasse <alexis@ortsa.com>
 
 Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.htm>
 -->
+
 
 <!DOCTYPE iso_3166_2_entries [
 	<!ELEMENT iso_3166_2_entries (iso_3166_country+)>
@@ -191,101 +192,101 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 <iso_3166_country code="AL">
 <iso_3166_subset type="County">
 	<iso_3166_2_entry
-		code="AL 1"	name="Berat" />
+		code="AL-01"	name="Berat" />
 	<iso_3166_2_entry
-		code="AL 9"	name="Dibër" />
+		code="AL-09"	name="Dibër" />
 	<iso_3166_2_entry
-		code="AL 2"	name="Durrës" />
+		code="AL-02"	name="Durrës" />
 	<iso_3166_2_entry
-		code="AL 3"	name="Elbasan" />
+		code="AL-03"	name="Elbasan" />
 	<iso_3166_2_entry
-		code="AL 4"	name="Fier" />
+		code="AL-04"	name="Fier" />
 	<iso_3166_2_entry
-		code="AL 5"	name="Gjirokastër" />
+		code="AL-05"	name="Gjirokastër" />
 	<iso_3166_2_entry
-		code="AL 6"	name="Korçë" />
+		code="AL-06"	name="Korçë" />
 	<iso_3166_2_entry
-		code="AL 7"	name="Kukës" />
+		code="AL-07"	name="Kukës" />
 	<iso_3166_2_entry
-		code="AL 8"	name="Lezhë" />
+		code="AL-08"	name="Lezhë" />
 	<iso_3166_2_entry
-		code="AL 10"	name="Shkodër" />
+		code="AL-10"	name="Shkodër" />
 	<iso_3166_2_entry
-		code="AL 11"	name="Tiranë" />
+		code="AL-11"	name="Tiranë" />
 	<iso_3166_2_entry
-		code="AL 12"	name="Vlorë" />
+		code="AL-12"	name="Vlorë" />
 </iso_3166_subset>
 <iso_3166_subset type="District">
 	<iso_3166_2_entry
-		code="AL-BR"	name="Berat"	parent="1" />
+		code="AL-BR"	name="Berat"	parent="01" />
 	<iso_3166_2_entry
-		code="AL-BU"	name="Bulqizë"	parent="9" />
+		code="AL-BU"	name="Bulqizë"	parent="09" />
 	<iso_3166_2_entry
 		code="AL-DL"	name="Delvinë"	parent="12" />
 	<iso_3166_2_entry
-		code="AL-DV"	name="Devoll"	parent="6" />
+		code="AL-DV"	name="Devoll"	parent="06" />
 	<iso_3166_2_entry
-		code="AL-DI"	name="Dibër"	parent="9" />
+		code="AL-DI"	name="Dibër"	parent="09" />
 	<iso_3166_2_entry
-		code="AL-DR"	name="Durrës"	parent="2" />
+		code="AL-DR"	name="Durrës"	parent="02" />
 	<iso_3166_2_entry
-		code="AL-EL"	name="Elbasan"	parent="3" />
+		code="AL-EL"	name="Elbasan"	parent="03" />
 	<iso_3166_2_entry
-		code="AL-FR"	name="Fier"	parent="4" />
+		code="AL-FR"	name="Fier"	parent="04" />
 	<iso_3166_2_entry
-		code="AL-GR"	name="Gramsh"	parent="3" />
+		code="AL-GR"	name="Gramsh"	parent="03" />
 	<iso_3166_2_entry
-		code="AL-GJ"	name="Gjirokastër"	parent="5" />
+		code="AL-GJ"	name="Gjirokastër"	parent="05" />
 	<iso_3166_2_entry
-		code="AL-HA"	name="Has"	parent="7" />
+		code="AL-HA"	name="Has"	parent="07" />
 	<iso_3166_2_entry
 		code="AL-KA"	name="Kavajë"	parent="11" />
 	<iso_3166_2_entry
-		code="AL-ER"	name="Kolonjë"	parent="6" />
+		code="AL-ER"	name="Kolonjë"	parent="06" />
 	<iso_3166_2_entry
-		code="AL-KO"	name="Korçë"	parent="6" />
+		code="AL-KO"	name="Korçë"	parent="06" />
 	<iso_3166_2_entry
-		code="AL-KR"	name="Krujë"	parent="2" />
+		code="AL-KR"	name="Krujë"	parent="02" />
 	<iso_3166_2_entry
-		code="AL-KC"	name="Kuçovë"	parent="1" />
+		code="AL-KC"	name="Kuçovë"	parent="01" />
 	<iso_3166_2_entry
-		code="AL-KU"	name="Kukës"	parent="7" />
+		code="AL-KU"	name="Kukës"	parent="07" />
 	<iso_3166_2_entry
-		code="AL-KB"	name="Kurbin"	parent="8" />
+		code="AL-KB"	name="Kurbin"	parent="08" />
 	<iso_3166_2_entry
-		code="AL-LE"	name="Lezhë"	parent="8" />
+		code="AL-LE"	name="Lezhë"	parent="08" />
 	<iso_3166_2_entry
-		code="AL-LB"	name="Librazhd"	parent="3" />
+		code="AL-LB"	name="Librazhd"	parent="03" />
 	<iso_3166_2_entry
-		code="AL-LU"	name="Lushnjë"	parent="4" />
+		code="AL-LU"	name="Lushnjë"	parent="04" />
 	<iso_3166_2_entry
 		code="AL-MM"	name="Malësi e Madhe"	parent="10" />
 	<iso_3166_2_entry
-		code="AL-MK"	name="Mallakastër"	parent="4" />
+		code="AL-MK"	name="Mallakastër"	parent="04" />
 	<iso_3166_2_entry
-		code="AL-MT"	name="Mat"	parent="9" />
+		code="AL-MT"	name="Mat"	parent="09" />
 	<iso_3166_2_entry
-		code="AL-MR"	name="Mirditë"	parent="8" />
+		code="AL-MR"	name="Mirditë"	parent="08" />
 	<iso_3166_2_entry
-		code="AL-PQ"	name="Peqin"	parent="3" />
+		code="AL-PQ"	name="Peqin"	parent="03" />
 	<iso_3166_2_entry
-		code="AL-PR"	name="Përmet"	parent="5" />
+		code="AL-PR"	name="Përmet"	parent="05" />
 	<iso_3166_2_entry
-		code="AL-PG"	name="Pogradec"	parent="6" />
+		code="AL-PG"	name="Pogradec"	parent="06" />
 	<iso_3166_2_entry
 		code="AL-PU"	name="Pukë"	parent="10" />
 	<iso_3166_2_entry
 		code="AL-SR"	name="Sarandë"	parent="12" />
 	<iso_3166_2_entry
-		code="AL-SK"	name="Skrapar"	parent="1" />
+		code="AL-SK"	name="Skrapar"	parent="01" />
 	<iso_3166_2_entry
 		code="AL-SH"	name="Shkodër"	parent="10" />
 	<iso_3166_2_entry
-		code="AL-TE"	name="Tepelenë"	parent="5" />
+		code="AL-TE"	name="Tepelenë"	parent="05" />
 	<iso_3166_2_entry
 		code="AL-TR"	name="Tiranë"	parent="11" />
 	<iso_3166_2_entry
-		code="AL-TP"	name="Tropojë"	parent="7" />
+		code="AL-TP"	name="Tropojë"	parent="07" />
 	<iso_3166_2_entry
 		code="AL-VL"	name="Vlorë"	parent="12" />
 </iso_3166_subset>
@@ -1082,9 +1083,9 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 <iso_3166_country code="BO">
 <iso_3166_subset type="Department">
 	<iso_3166_2_entry
-		code="BO-C"	name="Cochabamba" />
-	<iso_3166_2_entry
 		code="BO-H"	name="Chuquisaca" />
+	<iso_3166_2_entry
+		code="BO-C"	name="Cochabamba" />
 	<iso_3166_2_entry
 		code="BO-B"	name="El Beni" />
 	<iso_3166_2_entry
@@ -1883,33 +1884,33 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 <iso_3166_country code="CZ">
 <iso_3166_subset type="Region">
 	<iso_3166_2_entry
-		code="CZ JC"	name="Jihočeský kraj" />
+		code="CZ-JC"	name="Jihočeský kraj" />
 	<iso_3166_2_entry
-		code="CZ JM"	name="Jihomoravský kraj" />
+		code="CZ-JM"	name="Jihomoravský kraj" />
 	<iso_3166_2_entry
-		code="CZ KA"	name="Karlovarský kraj" />
+		code="CZ-KA"	name="Karlovarský kraj" />
 	<iso_3166_2_entry
-		code="CZ KR"	name="Královéhradecký kraj" />
+		code="CZ-KR"	name="Královéhradecký kraj" />
 	<iso_3166_2_entry
-		code="CZ LI"	name="Liberecký kraj" />
+		code="CZ-LI"	name="Liberecký kraj" />
 	<iso_3166_2_entry
-		code="CZ MO"	name="Moravskoslezský kraj" />
+		code="CZ-MO"	name="Moravskoslezský kraj" />
 	<iso_3166_2_entry
-		code="CZ OL"	name="Olomoucký kraj" />
+		code="CZ-OL"	name="Olomoucký kraj" />
 	<iso_3166_2_entry
-		code="CZ PA"	name="Pardubický kraj" />
+		code="CZ-PA"	name="Pardubický kraj" />
 	<iso_3166_2_entry
-		code="CZ PL"	name="Plzeňský kraj" />
+		code="CZ-PL"	name="Plzeňský kraj" />
 	<iso_3166_2_entry
-		code="CZ PR"	name="Praha, hlavní město" />
+		code="CZ-PR"	name="Praha, hlavní město" />
 	<iso_3166_2_entry
-		code="CZ ST"	name="Středočeský kraj" />
+		code="CZ-ST"	name="Středočeský kraj" />
 	<iso_3166_2_entry
-		code="CZ US"	name="Ústecký kraj" />
+		code="CZ-US"	name="Ústecký kraj" />
 	<iso_3166_2_entry
-		code="CZ VY"	name="Vysočina" />
+		code="CZ-VY"	name="Vysočina" />
 	<iso_3166_2_entry
-		code="CZ ZL"	name="Zlínský kraj" />
+		code="CZ-ZL"	name="Zlínský kraj" />
 </iso_3166_subset>
 <iso_3166_subset type="district">
 	<iso_3166_2_entry
@@ -1917,143 +1918,99 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="CZ-202"	name="Beroun"	parent="ST" />
 	<iso_3166_2_entry
-		code="CZ-203"	name="Kladno"	parent="ST" />
-	<iso_3166_2_entry
-		code="CZ-204"	name="Kolín"	parent="ST" />
-	<iso_3166_2_entry
-		code="CZ-205"	name="Kutná Hora"	parent="ST" />
-	<iso_3166_2_entry
-		code="CZ-206"	name="Mělník"	parent="ST" />
-	<iso_3166_2_entry
-		code="CZ-207"	name="Mladá Boleslav"	parent="ST" />
-	<iso_3166_2_entry
-		code="CZ-208"	name="Nymburk"	parent="ST" />
-	<iso_3166_2_entry
-		code="CZ-209"	name="Praha-východ"	parent="ST" />
-	<iso_3166_2_entry
-		code="CZ-20A"	name="Praha-západ"	parent="ST" />
-	<iso_3166_2_entry
-		code="CZ-20B"	name="Příbram"	parent="ST" />
-	<iso_3166_2_entry
-		code="CZ-20C"	name="Rakovník"	parent="ST" />
-	<iso_3166_2_entry
-		code="CZ-311"	name="České Budějovice"	parent="JC" />
-	<iso_3166_2_entry
-		code="CZ-312"	name="Český Krumlov"	parent="JC" />
-	<iso_3166_2_entry
-		code="CZ-313"	name="Jindřichův Hradec"	parent="JC" />
-	<iso_3166_2_entry
-		code="CZ-314"	name="Písek"	parent="JC" />
-	<iso_3166_2_entry
-		code="CZ-315"	name="Prachatice"	parent="JC" />
-	<iso_3166_2_entry
-		code="CZ-316"	name="Strakonice"	parent="JC" />
-	<iso_3166_2_entry
-		code="CZ-317"	name="Tábor"	parent="JC" />
-	<iso_3166_2_entry
-		code="CZ-321"	name="Domažlice"	parent="PL" />
-	<iso_3166_2_entry
-		code="CZ-322"	name="Klatovy"	parent="PL" />
-	<iso_3166_2_entry
-		code="CZ-323"	name="Plzeň-město"	parent="PL" />
-	<iso_3166_2_entry
-		code="CZ-324"	name="Plzeň-jih"	parent="PL" />
-	<iso_3166_2_entry
-		code="CZ-325"	name="Plzeň-sever"	parent="PL" />
-	<iso_3166_2_entry
-		code="CZ-326"	name="Rokycany"	parent="PL" />
-	<iso_3166_2_entry
-		code="CZ-327"	name="Tachov"	parent="PL" />
-	<iso_3166_2_entry
-		code="CZ-411"	name="Cheb"	parent="KA" />
-	<iso_3166_2_entry
-		code="CZ-412"	name="Karlovy Vary"	parent="KA" />
-	<iso_3166_2_entry
-		code="CZ-413"	name="Sokolov"	parent="KA" />
-	<iso_3166_2_entry
-		code="CZ-421"	name="Děčín"	parent="US" />
-	<iso_3166_2_entry
-		code="CZ-422"	name="Chomutov"	parent="US" />
-	<iso_3166_2_entry
-		code="CZ-423"	name="Litoměřice"	parent="US" />
-	<iso_3166_2_entry
-		code="CZ-424"	name="Louny"	parent="US" />
-	<iso_3166_2_entry
-		code="CZ-425"	name="Most"	parent="US" />
-	<iso_3166_2_entry
-		code="CZ-426"	name="Teplice"	parent="US" />
-	<iso_3166_2_entry
-		code="CZ-427"	name="Ústí nad Labem"	parent="US" />
-	<iso_3166_2_entry
-		code="CZ-511"	name="Česká Lípa"	parent="LI" />
-	<iso_3166_2_entry
-		code="CZ-512"	name="Jablonec nad Nisou"	parent="LI" />
-	<iso_3166_2_entry
-		code="CZ-513"	name="Liberec"	parent="LI" />
-	<iso_3166_2_entry
-		code="CZ-514"	name="Semily"	parent="LI" />
-	<iso_3166_2_entry
-		code="CZ-521"	name="Hradec Králové"	parent="KR" />
-	<iso_3166_2_entry
-		code="CZ-522"	name="Jičín"	parent="KR" />
-	<iso_3166_2_entry
-		code="CZ-523"	name="Náchod"	parent="KR" />
-	<iso_3166_2_entry
-		code="CZ-524"	name="Rychnov nad Kněžnou"	parent="KR" />
-	<iso_3166_2_entry
-		code="CZ-525"	name="Trutnov"	parent="KR" />
-	<iso_3166_2_entry
-		code="CZ-531"	name="Chrudim"	parent="PA" />
-	<iso_3166_2_entry
-		code="CZ-532"	name="Pardubice"	parent="PA" />
-	<iso_3166_2_entry
-		code="CZ-533"	name="Svitavy"	parent="PA" />
-	<iso_3166_2_entry
-		code="CZ-534"	name="Ústí nad Orlicí"	parent="PA" />
-	<iso_3166_2_entry
 		code="CZ-621"	name="Blansko"	parent="JM" />
 	<iso_3166_2_entry
 		code="CZ-622"	name="Brno-město"	parent="JM" />
 	<iso_3166_2_entry
 		code="CZ-623"	name="Brno-venkov"	parent="JM" />
 	<iso_3166_2_entry
+		code="CZ-801"	name="Bruntál"	parent="MO" />
+	<iso_3166_2_entry
 		code="CZ-624"	name="Břeclav"	parent="JM" />
+	<iso_3166_2_entry
+		code="CZ-511"	name="Česká Lípa"	parent="LI" />
+	<iso_3166_2_entry
+		code="CZ-311"	name="České Budějovice"	parent="JC" />
+	<iso_3166_2_entry
+		code="CZ-312"	name="Český Krumlov"	parent="JC" />
+	<iso_3166_2_entry
+		code="CZ-421"	name="Děčín"	parent="US" />
+	<iso_3166_2_entry
+		code="CZ-321"	name="Domažlice"	parent="PL" />
+	<iso_3166_2_entry
+		code="CZ-802"	name="Frýdek Místek"	parent="MO" />
+	<iso_3166_2_entry
+		code="CZ-611"	name="Havlíčkův Brod"	parent="VY" />
 	<iso_3166_2_entry
 		code="CZ-625"	name="Hodonín"	parent="JM" />
 	<iso_3166_2_entry
-		code="CZ-626"	name="Vyškov"	parent="JM" />
+		code="CZ-521"	name="Hradec Králové"	parent="KR" />
 	<iso_3166_2_entry
-		code="CZ-627"	name="Znojmo"	parent="JM" />
+		code="CZ-411"	name="Cheb"	parent="KA" />
+	<iso_3166_2_entry
+		code="CZ-422"	name="Chomutov"	parent="US" />
+	<iso_3166_2_entry
+		code="CZ-531"	name="Chrudim"	parent="PA" />
+	<iso_3166_2_entry
+		code="CZ-512"	name="Jablonec nad Nisou"	parent="LI" />
 	<iso_3166_2_entry
 		code="CZ-711"	name="Jeseník"	parent="OL" />
 	<iso_3166_2_entry
-		code="CZ-712"	name="Olomouc"	parent="OL" />
+		code="CZ-522"	name="Jičín"	parent="KR" />
 	<iso_3166_2_entry
-		code="CZ-713"	name="Prostĕjov"	parent="OL" />
+		code="CZ-612"	name="Jihlava"	parent="VY" />
 	<iso_3166_2_entry
-		code="CZ-714"	name="Přerov"	parent="OL" />
+		code="CZ-313"	name="Jindřichův Hradec"	parent="JC" />
 	<iso_3166_2_entry
-		code="CZ-715"	name="Šumperk"	parent="OL" />
-	<iso_3166_2_entry
-		code="CZ-721"	name="Kromĕříž"	parent="ZL" />
-	<iso_3166_2_entry
-		code="CZ-722"	name="Uherské Hradištĕ"	parent="ZL" />
-	<iso_3166_2_entry
-		code="CZ-723"	name="Vsetín"	parent="ZL" />
-	<iso_3166_2_entry
-		code="CZ-724"	name="Zlín"	parent="ZL" />
-	<iso_3166_2_entry
-		code="CZ-801"	name="Bruntál"	parent="MO" />
-	<iso_3166_2_entry
-		code="CZ-802"	name="Frýdek - Místek"	parent="MO" />
+		code="CZ-412"	name="Karlovy Vary"	parent="KA" />
 	<iso_3166_2_entry
 		code="CZ-803"	name="Karviná"	parent="MO" />
 	<iso_3166_2_entry
+		code="CZ-203"	name="Kladno"	parent="ST" />
+	<iso_3166_2_entry
+		code="CZ-322"	name="Klatovy"	parent="PL" />
+	<iso_3166_2_entry
+		code="CZ-204"	name="Kolín"	parent="ST" />
+	<iso_3166_2_entry
+		code="CZ-721"	name="Kromĕříž"	parent="ZL" />
+	<iso_3166_2_entry
+		code="CZ-205"	name="Kutná Hora"	parent="ST" />
+	<iso_3166_2_entry
+		code="CZ-513"	name="Liberec"	parent="LI" />
+	<iso_3166_2_entry
+		code="CZ-423"	name="Litoměřice"	parent="US" />
+	<iso_3166_2_entry
+		code="CZ-424"	name="Louny"	parent="US" />
+	<iso_3166_2_entry
+		code="CZ-206"	name="Mělník"	parent="ST" />
+	<iso_3166_2_entry
+		code="CZ-207"	name="Mladá Boleslav"	parent="ST" />
+	<iso_3166_2_entry
+		code="CZ-425"	name="Most"	parent="US" />
+	<iso_3166_2_entry
+		code="CZ-523"	name="Náchod"	parent="KR" />
+	<iso_3166_2_entry
 		code="CZ-804"	name="Nový Jičín"	parent="MO" />
+	<iso_3166_2_entry
+		code="CZ-208"	name="Nymburk"	parent="ST" />
+	<iso_3166_2_entry
+		code="CZ-712"	name="Olomouc"	parent="OL" />
 	<iso_3166_2_entry
 		code="CZ-805"	name="Opava"	parent="MO" />
 	<iso_3166_2_entry
-		code="CZ-806"	name="Ostrava - město"	parent="MO" />
+		code="CZ-806"	name="Ostrava město"	parent="MO" />
+	<iso_3166_2_entry
+		code="CZ-532"	name="Pardubice"	parent="PA" />
+	<iso_3166_2_entry
+		code="CZ-613"	name="Pelhřimov"	parent="VY" />
+	<iso_3166_2_entry
+		code="CZ-314"	name="Písek"	parent="JC" />
+	<iso_3166_2_entry
+		code="CZ-324"	name="Plzeň jih"	parent="PL" />
+	<iso_3166_2_entry
+		code="CZ-323"	name="Plzeň město"	parent="PL" />
+	<iso_3166_2_entry
+		code="CZ-325"	name="Plzeň sever"	parent="PL" />
 	<iso_3166_2_entry
 		code="CZ-101"	name="Praha 1"	parent="PR" />
 	<iso_3166_2_entry
@@ -2085,13 +2042,57 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="CZ-10F"	name="Praha 15"	parent="PR" />
 	<iso_3166_2_entry
-		code="CZ-611"	name="Havlíčkův Brod"	parent="VY" />
+		code="CZ-209"	name="Praha východ"	parent="ST" />
 	<iso_3166_2_entry
-		code="CZ-612"	name="Jihlava"	parent="VY" />
+		code="CZ-20A"	name="Praha západ"	parent="ST" />
 	<iso_3166_2_entry
-		code="CZ-613"	name="Pelhřimov"	parent="VY" />
+		code="CZ-315"	name="Prachatice"	parent="JC" />
+	<iso_3166_2_entry
+		code="CZ-713"	name="Prostĕjov"	parent="OL" />
+	<iso_3166_2_entry
+		code="CZ-714"	name="Přerov"	parent="OL" />
+	<iso_3166_2_entry
+		code="CZ-20B"	name="Příbram"	parent="ST" />
+	<iso_3166_2_entry
+		code="CZ-20C"	name="Rakovník"	parent="ST" />
+	<iso_3166_2_entry
+		code="CZ-326"	name="Rokycany"	parent="PL" />
+	<iso_3166_2_entry
+		code="CZ-524"	name="Rychnov nad Kněžnou"	parent="KR" />
+	<iso_3166_2_entry
+		code="CZ-514"	name="Semily"	parent="LI" />
+	<iso_3166_2_entry
+		code="CZ-413"	name="Sokolov"	parent="KA" />
+	<iso_3166_2_entry
+		code="CZ-316"	name="Strakonice"	parent="JC" />
+	<iso_3166_2_entry
+		code="CZ-533"	name="Svitavy"	parent="PA" />
+	<iso_3166_2_entry
+		code="CZ-715"	name="Šumperk"	parent="OL" />
+	<iso_3166_2_entry
+		code="CZ-317"	name="Tábor"	parent="JC" />
+	<iso_3166_2_entry
+		code="CZ-327"	name="Tachov"	parent="PL" />
+	<iso_3166_2_entry
+		code="CZ-426"	name="Teplice"	parent="US" />
+	<iso_3166_2_entry
+		code="CZ-525"	name="Trutnov"	parent="KR" />
 	<iso_3166_2_entry
 		code="CZ-614"	name="Třebíč"	parent="VY" />
+	<iso_3166_2_entry
+		code="CZ-722"	name="Uherské Hradištĕ"	parent="ZL" />
+	<iso_3166_2_entry
+		code="CZ-427"	name="Ústí nad Labem"	parent="US" />
+	<iso_3166_2_entry
+		code="CZ-534"	name="Ústí nad Orlicí"	parent="PA" />
+	<iso_3166_2_entry
+		code="CZ-723"	name="Vsetín"	parent="ZL" />
+	<iso_3166_2_entry
+		code="CZ-626"	name="Vyškov"	parent="JM" />
+	<iso_3166_2_entry
+		code="CZ-724"	name="Zlín"	parent="ZL" />
+	<iso_3166_2_entry
+		code="CZ-627"	name="Znojmo"	parent="JM" />
 	<iso_3166_2_entry
 		code="CZ-615"	name="Žd’ár nad Sázavou"	parent="VY" />
 </iso_3166_subset>
@@ -2521,43 +2522,45 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 </iso_3166_country>
 	<!-- Spain -->
 <iso_3166_country code="ES">
-<iso_3166_subset type="Autonomous communities">
+<iso_3166_subset type="Autonomous community">
 	<iso_3166_2_entry
-		code="ES AN"	name="Andalucía" />
+		code="ES-AN"	name="Andalucía" />
 	<iso_3166_2_entry
-		code="ES AR"	name="Aragón" />
+		code="ES-AR"	name="Aragón" />
 	<iso_3166_2_entry
-		code="ES O"	name="Asturias, Principado de" />
+		code="ES-AS"	name="Asturias, Principado de" />
 	<iso_3166_2_entry
-		code="ES CN"	name="Canarias" />
+		code="ES-CN"	name="Canarias" />
 	<iso_3166_2_entry
-		code="ES S"	name="Cantabria" />
+		code="ES-CB"	name="Cantabria" />
 	<iso_3166_2_entry
-		code="ES CM"	name="Castilla-La Mancha" />
+		code="ES-CM"	name="Castilla-La Mancha" />
 	<iso_3166_2_entry
-		code="ES CL"	name="Castilla y León" />
+		code="ES-CL"	name="Castilla y León" />
 	<iso_3166_2_entry
-		code="ES CT"	name="Cataluña" />
+		code="ES-CT"	name="Catalunya" />
 	<iso_3166_2_entry
-		code="ES EX"	name="Extremadura" />
+		code="ES-EX"	name="Extremadura" />
 	<iso_3166_2_entry
-		code="ES GA"	name="Galicia" />
+		code="ES-GA"	name="Galicia" />
 	<iso_3166_2_entry
-		code="ES IB"	name="Illes Balears" />
+		code="ES-IB"	name="Illes Balears" />
 	<iso_3166_2_entry
-		code="ES LO"	name="La Rioja" />
+		code="ES-RI"	name="La Rioja" />
 	<iso_3166_2_entry
-		code="ES M"	name="Madrid, Comunidad de" />
+		code="ES-MD"	name="Madrid, Comunidad de" />
 	<iso_3166_2_entry
-		code="ES MU"	name="Murcia, Región de" />
+		code="ES-MC"	name="Murcia, Región de" />
 	<iso_3166_2_entry
-		code="ES NA"	name="Navarra, Comunidad Foral de" />
+		code="ES-NC"	name="Navarra, Comunidad Foral de" />
 	<iso_3166_2_entry
-		code="ES PV"	name="País Vasco" />
+		code="ES-PV"	name="País Vasco" />
 	<iso_3166_2_entry
-		code="ES VC"	name="Valenciana, Comunidad" />
+		code="ES-VC"	name="Valenciana, Comunidad" />
 </iso_3166_subset>
 <iso_3166_subset type="Province">
+	<iso_3166_2_entry
+		code="ES-C"	name="A Coruña"	parent="GA" />
 	<iso_3166_2_entry
 		code="ES-VI"	name="Álava"	parent="PV" />
 	<iso_3166_2_entry
@@ -2567,13 +2570,13 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="ES-AL"	name="Almería"	parent="AN" />
 	<iso_3166_2_entry
-		code="ES-O"	name="Asturias"	parent="O" />
+		code="ES-O"	name="Asturias"	parent="AS" />
 	<iso_3166_2_entry
 		code="ES-AV"	name="Ávila"	parent="CL" />
 	<iso_3166_2_entry
 		code="ES-BA"	name="Badajoz"	parent="EX" />
 	<iso_3166_2_entry
-		code="ES-IB"	name="Baleares"	parent="IB" />
+		code="ES-IB"	name="Balears"	parent="IB" />
 	<iso_3166_2_entry
 		code="ES-B"	name="Barcelona"	parent="CT" />
 	<iso_3166_2_entry
@@ -2583,7 +2586,7 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="ES-CA"	name="Cádiz"	parent="AN" />
 	<iso_3166_2_entry
-		code="ES-S"	name="Cantabria"	parent="S" />
+		code="ES-S"	name="Cantabria"	parent="CB" />
 	<iso_3166_2_entry
 		code="ES-CS"	name="Castellón"	parent="VC" />
 	<iso_3166_2_entry
@@ -2607,9 +2610,7 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="ES-J"	name="Jaén"	parent="AN" />
 	<iso_3166_2_entry
-		code="ES-C"	name="A Coruña"	parent="GA" />
-	<iso_3166_2_entry
-		code="ES-LO"	name="La Rioja"	parent="LO" />
+		code="ES-LO"	name="La Rioja"	parent="RI" />
 	<iso_3166_2_entry
 		code="ES-GC"	name="Las Palmas"	parent="CN" />
 	<iso_3166_2_entry
@@ -2619,13 +2620,13 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="ES-LU"	name="Lugo"	parent="GA" />
 	<iso_3166_2_entry
-		code="ES-M"	name="Madrid"	parent="M" />
+		code="ES-M"	name="Madrid"	parent="MD" />
 	<iso_3166_2_entry
 		code="ES-MA"	name="Málaga"	parent="AN" />
 	<iso_3166_2_entry
-		code="ES-MU"	name="Murcia"	parent="MU" />
+		code="ES-MU"	name="Murcia"	parent="MC" />
 	<iso_3166_2_entry
-		code="ES-NA"	name="Navarra"	parent="NA" />
+		code="ES-NA"	name="Navarra"	parent="NC" />
 	<iso_3166_2_entry
 		code="ES-OR"	name="Ourense"	parent="GA" />
 	<iso_3166_2_entry
@@ -2746,59 +2747,59 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 <iso_3166_country code="FR">
 <iso_3166_subset type="Metropolitan region">
 	<iso_3166_2_entry
-		code="FR A"	name="Alsace" />
+		code="FR-A"	name="Alsace" />
 	<iso_3166_2_entry
-		code="FR B"	name="Aquitaine" />
+		code="FR-B"	name="Aquitaine" />
 	<iso_3166_2_entry
-		code="FR C"	name="Auvergne" />
+		code="FR-C"	name="Auvergne" />
 	<iso_3166_2_entry
-		code="FR P"	name="Basse-Normandie" />
+		code="FR-P"	name="Basse-Normandie" />
 	<iso_3166_2_entry
-		code="FR D"	name="Bourgogne" />
+		code="FR-D"	name="Bourgogne" />
 	<iso_3166_2_entry
-		code="FR E"	name="Bretagne" />
+		code="FR-E"	name="Bretagne" />
 	<iso_3166_2_entry
-		code="FR F"	name="Centre" />
+		code="FR-F"	name="Centre" />
 	<iso_3166_2_entry
-		code="FR G"	name="Champagne-Ardenne" />
+		code="FR-G"	name="Champagne-Ardenne" />
 	<iso_3166_2_entry
-		code="FR H"	name="Corse" />
+		code="FR-H"	name="Corse" />
 	<iso_3166_2_entry
-		code="FR I"	name="Franche-Comté" />
+		code="FR-I"	name="Franche-Comté" />
 	<iso_3166_2_entry
-		code="FR Q"	name="Haute-Normandie" />
+		code="FR-Q"	name="Haute-Normandie" />
 	<iso_3166_2_entry
-		code="FR J"	name="Île-de-France" />
+		code="FR-J"	name="Île-de-France" />
 	<iso_3166_2_entry
-		code="FR K"	name="Languedoc-Roussillon" />
+		code="FR-K"	name="Languedoc-Roussillon" />
 	<iso_3166_2_entry
-		code="FR L"	name="Limousin" />
+		code="FR-L"	name="Limousin" />
 	<iso_3166_2_entry
-		code="FR M"	name="Lorraine" />
+		code="FR-M"	name="Lorraine" />
 	<iso_3166_2_entry
-		code="FR N"	name="Midi-Pyrénées" />
+		code="FR-N"	name="Midi-Pyrénées" />
 	<iso_3166_2_entry
-		code="FR O"	name="Nord - Pas-de-Calais" />
+		code="FR-O"	name="Nord - Pas-de-Calais" />
 	<iso_3166_2_entry
-		code="FR R"	name="Pays de la Loire" />
+		code="FR-R"	name="Pays de la Loire" />
 	<iso_3166_2_entry
-		code="FR S"	name="Picardie" />
+		code="FR-S"	name="Picardie" />
 	<iso_3166_2_entry
-		code="FR T"	name="Poitou-Charentes" />
+		code="FR-T"	name="Poitou-Charentes" />
 	<iso_3166_2_entry
-		code="FR U"	name="Provence-Alpes-Côte d'Azur" />
+		code="FR-U"	name="Provence-Alpes-Côte d'Azur" />
 	<iso_3166_2_entry
-		code="FR V"	name="Rhône-Alpes" />
+		code="FR-V"	name="Rhône-Alpes" />
 </iso_3166_subset>
 <iso_3166_subset type="Overseas region/department">
 	<iso_3166_2_entry
-		code="FR GP"	name="Guadeloupe" />
+		code="FR-GP"	name="Guadeloupe" />
 	<iso_3166_2_entry
-		code="FR GF"	name="Guyane" />
+		code="FR-GF"	name="Guyane" />
 	<iso_3166_2_entry
-		code="FR MQ"	name="Martinique" />
+		code="FR-MQ"	name="Martinique" />
 	<iso_3166_2_entry
-		code="FR RE"	name="Réunion" />
+		code="FR-RE"	name="Réunion" />
 </iso_3166_subset>
 <iso_3166_subset type="Metropolitan department">
 	<iso_3166_2_entry
@@ -3000,21 +3001,21 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 </iso_3166_subset>
 <iso_3166_subset type="Overseas territorial collectivity">
 	<iso_3166_2_entry
-		code="FR-BL"	name="Saint-Barthélemy" />
-	<iso_3166_2_entry
-		code="FR-MF"	name="Saint-Martin" />
+		code="FR-YT"	name="Mayotte" />
 	<iso_3166_2_entry
 		code="FR-NC"	name="Nouvelle-Calédonie" />
 	<iso_3166_2_entry
 		code="FR-PF"	name="Polynésie française" />
+	<iso_3166_2_entry
+		code="FR-BL"	name="Saint-Barthélemy" />
+	<iso_3166_2_entry
+		code="FR-MF"	name="Saint-Martin" />
 	<iso_3166_2_entry
 		code="FR-PM"	name="Saint-Pierre-et-Miquelon" />
 	<iso_3166_2_entry
 		code="FR-TF"	name="Terres australes françaises" />
 	<iso_3166_2_entry
 		code="FR-WF"	name="Wallis et Futuna" />
-	<iso_3166_2_entry
-		code="FR-YT"	name="Mayotte" />
 </iso_3166_subset>
 </iso_3166_country>
 	<!-- Gabon -->
@@ -3642,21 +3643,21 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 <iso_3166_country code="GN">
 <iso_3166_subset type="Governorate">
 	<iso_3166_2_entry
-		code="GN B"	name="Boké, Gouvernorat de" />
+		code="GN-B"	name="Boké" />
 	<iso_3166_2_entry
-		code="GN F"	name="Faranah, Gouvernorat de" />
+		code="GN-F"	name="Faranah" />
 	<iso_3166_2_entry
-		code="GN K"	name="Kankan, Gouvernorat de" />
+		code="GN-K"	name="Kankan" />
 	<iso_3166_2_entry
-		code="GN D"	name="Kindia, Gouvernorat de" />
+		code="GN-D"	name="Kindia" />
 	<iso_3166_2_entry
-		code="GN L"	name="Labé, Gouvernorat de" />
+		code="GN-L"	name="Labé" />
 	<iso_3166_2_entry
-		code="GN M"	name="Mamou, Gouvernorat de" />
+		code="GN-M"	name="Mamou" />
 	<iso_3166_2_entry
-		code="GN N"	name="Nzérékoré, Gouvernorat de" />
+		code="GN-N"	name="Nzérékoré" />
 </iso_3166_subset>
-<iso_3166_subset type="City">
+<iso_3166_subset type="Special zone">
 	<iso_3166_2_entry
 		code="GN C"	name="Conakry" />
 </iso_3166_subset>
@@ -3754,150 +3755,141 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 </iso_3166_country>
 	<!-- Greece -->
 <iso_3166_country code="GR">
-	<!-- Many variants and transliteration schemes coexist -->
-	<!-- Using the UN/ELOT transiteration -->
-	<!-- Names mostly as in http://www.enae.gr/nomarxies_list.asp -->
-<iso_3166_subset type="Region">
+<iso_3166_subset type="Administrative region">
 	<iso_3166_2_entry
-		code="GR I"	name="Periféreia Anatolikís Makedonías kai Thrákis" />
+		code="GR-A"	name="Anatoliki Makedonia kai Thraki" />
 	<iso_3166_2_entry
-		code="GR II"	name="Periféreia Kentrikís Makedonías" />
+		code="GR-I"	name="Attiki" />
 	<iso_3166_2_entry
-		code="GR III"	name="Periféreia Dytikís Makedonías" />
+		code="GR-G"	name="Dytiki Ellada" />
 	<iso_3166_2_entry
-		code="GR IV"	name="Periféreia Ipeírou" />
+		code="GR-C"	name="Dytiki Makedonia" />
 	<iso_3166_2_entry
-		code="GR V"	name="Periféreia Thessalías" />
+		code="GR-F"	name="Ionia Nisia" />
 	<iso_3166_2_entry
-		code="GR VI"	name="Periféreia Ioníon Níson" />
+		code="GR-D"	name="Ipeiros" />
 	<iso_3166_2_entry
-		code="GR VII"	name="Periféreia Dytikís Elládas" />
+		code="GR-B"	name="Kentriki Makedonia" />
 	<iso_3166_2_entry
-		code="GR VIII"	name="Periféreia Stereás Elládas" />
+		code="GR-M"	name="Kriti" />
 	<iso_3166_2_entry
-		code="GR IX"	name="Periféreia Attikís" />
+		code="GR-L"	name="Notio Aigaio" />
 	<iso_3166_2_entry
-		code="GR X"	name="Periféreia Peloponnísou" />
+		code="GR-J"	name="Peloponnisos" />
 	<iso_3166_2_entry
-		code="GR XI"	name="Periféreia Voreíou Aigaíou" />
+		code="GR-H"	name="Sterea Ellada" />
 	<iso_3166_2_entry
-		code="GR XII"	name="Periféreia Notíou Aigaíou" />
+		code="GR-E"	name="Thessalia" />
 	<iso_3166_2_entry
-		code="GR XIII"	name="Periféreia Krítis" />
+		code="GR-K"	name="Voreio Aigaio" />
 </iso_3166_subset>
-<iso_3166_subset type="Autonomous monastic state">
+<iso_3166_subset type="Self-governed part">
 	<iso_3166_2_entry
 		code="GR-69"	name="Ágion Óros" />
 </iso_3166_subset>
-<iso_3166_subset type="Prefecture">
+<iso_3166_subset type="Department">
 	<iso_3166_2_entry
-		code="GR-A1"	name="Nomós Athinón"	parent="IX" />
+		code="GR-13"	name="Achaïa"	parent="G" />
 	<iso_3166_2_entry
-		code="GR-A2"	name="Nomós Anatolikís Attikís"	parent="IX" />
+		code="GR-01"	name="Aitolia kai Akarnania"	parent="G" />
 	<iso_3166_2_entry
-		code="GR-A3"	name="Nomós Peiraiós"	parent="IX" />
+		code="GR-11"	name="Argolida"	parent="J" />
 	<iso_3166_2_entry
-		code="GR-A4"	name="Nomós Dytikís Attikís"	parent="IX" />
+		code="GR-12"	name="Arkadia"	parent="J" />
 	<iso_3166_2_entry
-		code="GR-01"	name="Nomós Aitoloakarnanías"	parent="VII" />
+		code="GR-31"	name="Arta"	parent="F" />
 	<iso_3166_2_entry
-		code="GR-03"	name="Nomós Voiotías"	parent="VIII" />
+		code="GR-A1"	name="Attiki"	parent="I" />
 	<iso_3166_2_entry
-		code="GR-04"	name="Nomós Évvoias"	parent="VIII" />
+		code="GR-64"	name="Chalkidiki"	parent="B" />
 	<iso_3166_2_entry
-		code="GR-05"	name="Nomós Evrytanías"	parent="VIII" />
+		code="GR-94"	name="Chania"	parent="M" />
 	<iso_3166_2_entry
-		code="GR-06"	name="Nomós Fthiótidas"	parent="VIII" />
+		code="GR-85"	name="Chios"	parent="K" />
 	<iso_3166_2_entry
-		code="GR-07"	name="Nomós Fokídas"	parent="VIII" />
+		code="GR-81"	name="Dodekanisos"	parent="L" />
 	<iso_3166_2_entry
-		code="GR-11"	name="Nomós Argolídas"	parent="X" />
+		code="GR-52"	name="Drama"	parent="A" />
 	<iso_3166_2_entry
-		code="GR-12"	name="Nomós Arkadías"	parent="X" />
+		code="GR-71"	name="Evros"	parent="A" />
 	<iso_3166_2_entry
-		code="GR-13"	name="Nomós Achaḯas"	parent="VII" />
+		code="GR-05"	name="Evrytania"	parent="H" />
 	<iso_3166_2_entry
-		code="GR-14"	name="Nomós Ileías"	parent="VII" />
+		code="GR-04"	name="Evvoias"	parent="H" />
 	<iso_3166_2_entry
-		code="GR-15"	name="Nomós Korinthías"	parent="X" />
+		code="GR-63"	name="Florina"	parent="C" />
 	<iso_3166_2_entry
-		code="GR-16"	name="Nomós Lakonías"	parent="X" />
+		code="GR-07"	name="Fokida"	parent="H" />
 	<iso_3166_2_entry
-		code="GR-17"	name="Nomós Messinías"	parent="X" />
+		code="GR-06"	name="Fthiotida"	parent="H" />
 	<iso_3166_2_entry
-		code="GR-21"	name="Nomós Zakýnthoy"	parent="VI" />
+		code="GR-51"	name="Grevena"	parent="C" />
 	<iso_3166_2_entry
-		code="GR-22"	name="Nomós Kérkyras"	parent="VI" />
+		code="GR-14"	name="Aleia"	parent="G" />
 	<iso_3166_2_entry
-		code="GR-23"	name="Nomós Kefaloniás kai Ithákis"	parent="VI" />
+		code="GR-53"	name="Amathia"	parent="B" />
 	<iso_3166_2_entry
-		code="GR-24"	name="Nomós Lefkádas"	parent="VI" />
+		code="GR-33"	name="Aoannina"	parent="D" />
 	<iso_3166_2_entry
-		code="GR-31"	name="Nomós Ártas"	parent="VI" />
+		code="GR-91"	name="Arakleio"	parent="M" />
 	<iso_3166_2_entry
-		code="GR-32"	name="Nomós Thesprotías"	parent="IV" />
+		code="GR-41"	name="Karditsa"	parent="E" />
 	<iso_3166_2_entry
-		code="GR-33"	name="Nomós Ioannínon"	parent="IV" />
+		code="GR-56"	name="Kastoria"	parent="C" />
 	<iso_3166_2_entry
-		code="GR-34"	name="Nomós Prévezas"	parent="IV" />
+		code="GR-55"	name="Kavala"	parent="A" />
 	<iso_3166_2_entry
-		code="GR-41"	name="Nomós Kardítsas"	parent="V" />
+		code="GR-23"	name="Kefalonia"	parent="F" />
 	<iso_3166_2_entry
-		code="GR-42"	name="Nomós Lárissas"	parent="V" />
+		code="GR-22"	name="Kerkyra"	parent="F" />
 	<iso_3166_2_entry
-		code="GR-43"	name="Nomós Magnisías"	parent="V" />
+		code="GR-57"	name="Kilkis"	parent="B" />
 	<iso_3166_2_entry
-		code="GR-44"	name="Nomós Trikálon"	parent="V" />
+		code="GR-15"	name="Korinthia"	parent="J" />
 	<iso_3166_2_entry
-		code="GR-51"	name="Nomós Grevenón"	parent="III" />
+		code="GR-58"	name="Kozani"	parent="C" />
 	<iso_3166_2_entry
-		code="GR-52"	name="Nomós Drámas"	parent="I" />
+		code="GR-82"	name="Kyklades"	parent="L" />
 	<iso_3166_2_entry
-		code="GR-53"	name="Nomós Imathías"	parent="II" />
+		code="GR-16"	name="Lakonia"	parent="J" />
 	<iso_3166_2_entry
-		code="GR-54"	name="Nomós Thessaloníkis"	parent="II" />
+		code="GR-42"	name="Larisa"	parent="E" />
 	<iso_3166_2_entry
-		code="GR-55"	name="Nomós Kaválas"	parent="I" />
+		code="GR-92"	name="Lasithi"	parent="M" />
 	<iso_3166_2_entry
-		code="GR-56"	name="Nomós Kastoriás"	parent="III" />
+		code="GR-24"	name="Lefkada"	parent="F" />
 	<iso_3166_2_entry
-		code="GR-57"	name="Nomós Kilkís"	parent="II" />
+		code="GR-83"	name="Lesvos"	parent="K" />
 	<iso_3166_2_entry
-		code="GR-58"	name="Nomós Kozánis"	parent="III" />
+		code="GR-43"	name="Magnisias"	parent="E" />
 	<iso_3166_2_entry
-		code="GR-59"	name="Nomós Péllas"	parent="II" />
+		code="GR-17"	name="Messinia"	parent="J" />
 	<iso_3166_2_entry
-		code="GR-61"	name="Nomós Pierías"	parent="II" />
+		code="GR-59"	name="Pella"	parent="B" />
 	<iso_3166_2_entry
-		code="GR-62"	name="Nomós Serrón"	parent="II" />
+		code="GR-61"	name="Pieria"	parent="B" />
 	<iso_3166_2_entry
-		code="GR-63"	name="Nomós Flórinas"	parent="III" />
+		code="GR-34"	name="Preveza"	parent="D" />
 	<iso_3166_2_entry
-		code="GR-64"	name="Nomós Chalkidikís"	parent="II" />
+		code="GR-93"	name="Rethymno"	parent="M" />
 	<iso_3166_2_entry
-		code="GR-71"	name="Nomós Évroy"	parent="I" />
+		code="GR-73"	name="Rodopi"	parent="A" />
 	<iso_3166_2_entry
-		code="GR-72"	name="Nomós Xánthis"	parent="I" />
+		code="GR-84"	name="Samos"	parent="K" />
 	<iso_3166_2_entry
-		code="GR-73"	name="Nomós Rodópis"	parent="I" />
+		code="GR-62"	name="Serres"	parent="B" />
 	<iso_3166_2_entry
-		code="GR-81"	name="Nomós Dodekanísoy"	parent="XII" />
+		code="GR-32"	name="Thesprotia"	parent="D" />
 	<iso_3166_2_entry
-		code="GR-82"	name="Nomós Kykládon"	parent="XII" />
+		code="GR-54"	name="Thessaloniki"	parent="B" />
 	<iso_3166_2_entry
-		code="GR-83"	name="Nomós Lésboy"	parent="XI" />
+		code="GR-44"	name="Trikala"	parent="E" />
 	<iso_3166_2_entry
-		code="GR-84"	name="Nomós Sámoy"	parent="XI" />
+		code="GR-03"	name="Eoiotia"	parent="H" />
 	<iso_3166_2_entry
-		code="GR-85"	name="Nomós Chíoy"	parent="XI" />
+		code="GR-72"	name="Janthi"	parent="A" />
 	<iso_3166_2_entry
-		code="GR-91"	name="Nomós Irakleíoy"	parent="XIII" />
-	<iso_3166_2_entry
-		code="GR-92"	name="Nomós Lasithíoy"	parent="XIII" />
-	<iso_3166_2_entry
-		code="GR-93"	name="Nomós Rethýmnoy"	parent="XIII" />
-	<iso_3166_2_entry
-		code="GR-94"	name="Nomós Chaníon"	parent="XIII" />
+		code="GR-21"	name="Zakynthos"	parent="F" />
 </iso_3166_subset>
 </iso_3166_country>
 	<!-- Guatemala -->
@@ -3951,27 +3943,35 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 </iso_3166_country>
 	<!-- Guinea-Bissau -->
 <iso_3166_country code="GW">
-<iso_3166_subset type="Region">
-	<iso_3166_2_entry
-		code="GW-BA"	name="Bafatá" />
-	<iso_3166_2_entry
-		code="GW-BM"	name="Biombo" />
-	<iso_3166_2_entry
-		code="GW-BL"	name="Bolama" />
-	<iso_3166_2_entry
-		code="GW-CA"	name="Cacheu" />
-	<iso_3166_2_entry
-		code="GW-GA"	name="Gabú" />
-	<iso_3166_2_entry
-		code="GW-OI"	name="Oio" />
-	<iso_3166_2_entry
-		code="GW-QU"	name="Quinara" />
-	<iso_3166_2_entry
-		code="GW-TO"	name="Tombali" />
-</iso_3166_subset>
 <iso_3166_subset type="Autonomous sector">
 	<iso_3166_2_entry
 		code="GW-BS"	name="Bissau" />
+</iso_3166_subset>
+<iso_3166_subset type="Province">
+	<iso_3166_2_entry
+		code="GW-L"	name="Leste" />
+	<iso_3166_2_entry
+		code="GW-N"	name="Norte" />
+	<iso_3166_2_entry
+		code="GW-S"	name="Sul" />
+</iso_3166_subset>
+<iso_3166_subset type="Region">
+	<iso_3166_2_entry
+		code="GW-BA"	name="Bafatá"	parent="L" />
+	<iso_3166_2_entry
+		code="GW-BM"	name="Biombo"	parent="N" />
+	<iso_3166_2_entry
+		code="GW-BL"	name="Bolama"	parent="S" />
+	<iso_3166_2_entry
+		code="GW-CA"	name="Cacheu"	parent="N" />
+	<iso_3166_2_entry
+		code="GW-GA"	name="Gabú"	parent="L" />
+	<iso_3166_2_entry
+		code="GW-OI"	name="Oio"	parent="N" />
+	<iso_3166_2_entry
+		code="GW-QU"	name="Quinara"	parent="S" />
+	<iso_3166_2_entry
+		code="GW-TO"	name="Tombali"	parent="S" />
 </iso_3166_subset>
 </iso_3166_country>
 	<!-- Guyana -->
@@ -4209,19 +4209,19 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 <iso_3166_country code="ID">
 <iso_3166_subset type="Geographical unit">
 	<iso_3166_2_entry
-		code="ID IJ"	name="Papua" />
+		code="ID-JW"	name="Jawa" />
 	<iso_3166_2_entry
-		code="ID JW"	name="Jawa" />
+		code="ID-KA"	name="Kalimantan" />
 	<iso_3166_2_entry
-		code="ID KA"	name="Kalimantan" />
+		code="ID-MA"	name="Maluku" />
 	<iso_3166_2_entry
-		code="ID MA"	name="Maluku" />
+		code="ID-NU"	name="Nusa Tenggara" />
 	<iso_3166_2_entry
-		code="ID NU"	name="Nusa Tenggara" />
+		code="ID-IJ"	name="Papua" />
 	<iso_3166_2_entry
-		code="ID SL"	name="Sulawesi" />
+		code="ID-SL"	name="Sulawesi" />
 	<iso_3166_2_entry
-		code="ID SM"	name="Sumatera" />
+		code="ID-SM"	name="Sumatera" />
 </iso_3166_subset>
 <iso_3166_subset type="Autonomous Province">
 	<iso_3166_2_entry
@@ -4269,6 +4269,8 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="ID-PA"	name="Papua"	parent="IJ" />
 	<iso_3166_2_entry
+		code="ID-PB"	name="Papua Barat"	parent="IJ" />
+	<iso_3166_2_entry
 		code="ID-RI"	name="Riau"	parent="SM" />
 	<iso_3166_2_entry
 		code="ID-SR"	name="Sulawesi Barat"	parent="SL" />
@@ -4300,68 +4302,68 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 <iso_3166_country code="IE">
 <iso_3166_subset type="Province">
 	<iso_3166_2_entry
-		code="IE C"	name="Connacht" />
+		code="IE-C"	name="Connacht" />
 	<iso_3166_2_entry
-		code="IE L"	name="Leinster" />
+		code="IE-L"	name="Leinster" />
 	<iso_3166_2_entry
-		code="IE M"	name="Munster" />
+		code="IE-M"	name="Munster" />
 	<iso_3166_2_entry
-		code="IE U"	name="Ulster" />
+		code="IE-U"	name="Ulster" />
 </iso_3166_subset>
 <iso_3166_subset type="County">
 	<!-- Ireland uses Car Registration codes for Counties as ISO 3166-2 regions -->
 	<iso_3166_2_entry
-		code="IE-C"	name="Cork" />
+		code="IE-CW"	name="Carlow"	parent="L" />
 	<iso_3166_2_entry
-		code="IE-CE"	name="Clare" />
+		code="IE-CN"	name="Cavan"	parent="U" />
 	<iso_3166_2_entry
-		code="IE-CN"	name="Cavan" />
+		code="IE-CE"	name="Clare"	parent="M" />
 	<iso_3166_2_entry
-		code="IE-CW"	name="Carlow" />
+		code="IE-C"	name="Cork"	parent="M" />
 	<iso_3166_2_entry
-		code="IE-D"	name="Dublin" />
+		code="IE-DL"	name="Donegal"	parent="U" />
 	<iso_3166_2_entry
-		code="IE-DL"	name="Donegal" />
+		code="IE-D"	name="Dublin"	parent="L" />
 	<iso_3166_2_entry
-		code="IE-G"	name="Galway" />
+		code="IE-G"	name="Galway"	parent="C" />
 	<iso_3166_2_entry
-		code="IE-KE"	name="Kildare" />
+		code="IE-KY"	name="Kerry"	parent="M" />
 	<iso_3166_2_entry
-		code="IE-KK"	name="Kilkenny" />
+		code="IE-KE"	name="Kildare"	parent="L" />
 	<iso_3166_2_entry
-		code="IE-KY"	name="Kerry" />
+		code="IE-KK"	name="Kilkenny"	parent="L" />
 	<iso_3166_2_entry
-		code="IE-LD"	name="Longford" />
+		code="IE-LS"	name="Laois"	parent="L" />
 	<iso_3166_2_entry
-		code="IE-LH"	name="Louth" />
+		code="IE-LM"	name="Leitrim"	parent="C" />
 	<iso_3166_2_entry
-		code="IE-LK"	name="Limerick" />
+		code="IE-LK"	name="Limerick"	parent="M" />
 	<iso_3166_2_entry
-		code="IE-LM"	name="Leitrim" />
+		code="IE-LD"	name="Longford"	parent="L" />
 	<iso_3166_2_entry
-		code="IE-LS"	name="Laois" />
+		code="IE-LH"	name="Louth"	parent="L" />
 	<iso_3166_2_entry
-		code="IE-MH"	name="Meath" />
+		code="IE-MO"	name="Mayo"	parent="C" />
 	<iso_3166_2_entry
-		code="IE-MN"	name="Monaghan" />
+		code="IE-MH"	name="Meath"	parent="L" />
 	<iso_3166_2_entry
-		code="IE-MO"	name="Mayo" />
+		code="IE-MN"	name="Monaghan"	parent="U" />
 	<iso_3166_2_entry
-		code="IE-OY"	name="Offaly" />
+		code="IE-OY"	name="Offaly"	parent="L" />
 	<iso_3166_2_entry
-		code="IE-RN"	name="Roscommon" />
+		code="IE-RN"	name="Roscommon"	parent="C" />
 	<iso_3166_2_entry
-		code="IE-SO"	name="Sligo" />
+		code="IE-SO"	name="Sligo"	parent="C" />
 	<iso_3166_2_entry
-		code="IE-TA"	name="Tipperary" />
+		code="IE-TA"	name="Tipperary"	parent="M" />
 	<iso_3166_2_entry
-		code="IE-WD"	name="Waterford" />
+		code="IE-WD"	name="Waterford"	parent="M" />
 	<iso_3166_2_entry
-		code="IE-WH"	name="Westmeath" />
+		code="IE-WH"	name="Westmeath"	parent="L" />
 	<iso_3166_2_entry
-		code="IE-WW"	name="Wicklow" />
+		code="IE-WX"	name="Wexford"	parent="L" />
 	<iso_3166_2_entry
-		code="IE-WX"	name="Wexford" />
+		code="IE-WW"	name="Wicklow"	parent="L" />
 </iso_3166_subset>
 </iso_3166_country>
 	<!-- Israel -->
@@ -4595,45 +4597,45 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 <iso_3166_country code="IT">
 <iso_3166_subset type="Region">
 	<iso_3166_2_entry
-		code="IT 65"	name="Abruzzo"	/>
+		code="IT-65"	name="Abruzzo"	/>
 	<iso_3166_2_entry
-		code="IT 77"	name="Basilicata" />
+		code="IT-77"	name="Basilicata" />
 	<iso_3166_2_entry
-		code="IT 78"	name="Calabria" />
+		code="IT-78"	name="Calabria" />
 	<iso_3166_2_entry
-		code="IT 72"	name="Campania" />
+		code="IT-72"	name="Campania" />
 	<iso_3166_2_entry
-		code="IT 45"	name="Emilia-Romagna" />
+		code="IT-45"	name="Emilia-Romagna" />
 	<iso_3166_2_entry
-		code="IT 36"	name="Friuli-Venezia Giulia" />
+		code="IT-36"	name="Friuli-Venezia Giulia" />
 	<iso_3166_2_entry
-		code="IT 62"	name="Lazio" />
+		code="IT-62"	name="Lazio" />
 	<iso_3166_2_entry
-		code="IT 42"	name="Liguria" />
+		code="IT-42"	name="Liguria" />
 	<iso_3166_2_entry
-		code="IT 25"	name="Lombardia" />
+		code="IT-25"	name="Lombardia" />
 	<iso_3166_2_entry
-		code="IT 57"	name="Marche" />
+		code="IT-57"	name="Marche" />
 	<iso_3166_2_entry
-		code="IT 67"	name="Molise" />
+		code="IT-67"	name="Molise" />
 	<iso_3166_2_entry
-		code="IT 21"	name="Piemonte" />
+		code="IT-21"	name="Piemonte" />
 	<iso_3166_2_entry
-		code="IT 75"	name="Puglia" />
+		code="IT-75"	name="Puglia" />
 	<iso_3166_2_entry
-		code="IT 88"	name="Sardegna" />
+		code="IT-88"	name="Sardegna" />
 	<iso_3166_2_entry
-		code="IT 82"	name="Sicilia" />
+		code="IT-82"	name="Sicilia" />
 	<iso_3166_2_entry
-		code="IT 52"	name="Toscana" />
+		code="IT-52"	name="Toscana" />
 	<iso_3166_2_entry
-		code="IT 32"	name="Trentino-Alto Adige" />
+		code="IT-32"	name="Trentino-Alto Adige" />
 	<iso_3166_2_entry
-		code="IT 55"	name="Umbria" />
+		code="IT-55"	name="Umbria" />
 	<iso_3166_2_entry
-		code="IT 23"	name="Valle d'Aosta" />
+		code="IT-23"	name="Valle d'Aosta" />
 	<iso_3166_2_entry
-		code="IT 34"	name="Veneto" />
+		code="IT-34"	name="Veneto" />
 </iso_3166_subset>
 <iso_3166_subset type="Province">
 	<iso_3166_2_entry
@@ -4654,6 +4656,8 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 		code="IT-AV"	name="Avellino"	parent="72" />
 	<iso_3166_2_entry
 		code="IT-BA"	name="Bari"	parent="75" />
+	<iso_3166_2_entry
+		code="IT-BT"	name="Barletta-Andria-Trani"	parent="75" />
 	<iso_3166_2_entry
 		code="IT-BL"	name="Belluno"	parent="34" />
 	<iso_3166_2_entry
@@ -4699,13 +4703,15 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="IT-EN"	name="Enna"	parent="82" />
 	<iso_3166_2_entry
+		code="IT-FM"	name="Fermo"	parent="57" />
+	<iso_3166_2_entry
 		code="IT-FE"	name="Ferrara"	parent="45" />
 	<iso_3166_2_entry
 		code="IT-FI"	name="Firenze"	parent="52" />
 	<iso_3166_2_entry
 		code="IT-FG"	name="Foggia"	parent="75" />
 	<iso_3166_2_entry
-		code="IT-FO"	name="Forlì"	parent="45" />
+		code="IT-FC"	name="Forlì-Cesena"	parent="45" />
 	<iso_3166_2_entry
 		code="IT-FR"	name="Frosinone"	parent="62" />
 	<iso_3166_2_entry
@@ -4750,6 +4756,8 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 		code="IT-MI"	name="Milano"	parent="25" />
 	<iso_3166_2_entry
 		code="IT-MO"	name="Modena"	parent="45" />
+	<iso_3166_2_entry
+		code="IT-MB"	name="Monza e Brianza"	parent="25" />
 	<iso_3166_2_entry
 		code="IT-NA"	name="Napoli"	parent="72" />
 	<iso_3166_2_entry
@@ -5129,9 +5137,9 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 <iso_3166_country code="KN">
 <iso_3166_subset type="State">
 	<iso_3166_2_entry
-		code="KN K"	name="Saint Kitts" />
+		code="KN-K"	name="Saint Kitts" />
 	<iso_3166_2_entry
-		code="KN N"	name="Nevis" />
+		code="KN-N"	name="Nevis" />
 </iso_3166_subset>
 <iso_3166_subset type="Parish">
 	<iso_3166_2_entry
@@ -5177,35 +5185,33 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 </iso_3166_country>
 	<!-- North Korea -->
 <iso_3166_country code="KP">
-<iso_3166_subset type="Province">
+<iso_3166_subset type="Capital city">
 	<iso_3166_2_entry
-		code="KP-CHA"	name="Chagang-do" />
-	<iso_3166_2_entry
-		code="KP-HAB"	name="Hamgyongbuk-do" />
-	<iso_3166_2_entry
-		code="KP-HAN"	name="Hamgyongnam-do" />
-	<iso_3166_2_entry
-		code="KP-HWB"	name="Hwanghaebuk-do" />
-	<iso_3166_2_entry
-		code="KP-HWN"	name="Hwanghaenam-do" />
-	<iso_3166_2_entry
-		code="KP-KAN"	name="Kangwon-do" />
-	<iso_3166_2_entry
-		code="KP-PYB"	name="Pyonganbuk-do" />
-	<iso_3166_2_entry
-		code="KP-PYN"	name="Pyongannam-do" />
-	<iso_3166_2_entry
-		code="KP-YAN"	name="Yanggang-do" />
+		code="KP-01"	name="Pyongyang-si" />
 </iso_3166_subset>
 <iso_3166_subset type="Special city">
 	<iso_3166_2_entry
-		code="KP-KAE"	name="Kaesong-si" />
+		code="KP-13"	name="Najin Sonbong-si" />
+</iso_3166_subset>
+<iso_3166_subset type="Province">
 	<iso_3166_2_entry
-		code="KP-NAJ"	name="Najin Sonbong-si" />
+		code="KP-02"	name="Pyongannam-do" />
 	<iso_3166_2_entry
-		code="KP-NAM"	name="Nampo-si" />
+		code="KP-03"	name="Pyonganbuk-do" />
 	<iso_3166_2_entry
-		code="KP-PYO"	name="Pyongyang-si" />
+		code="KP-04"	name="Chagang-do" />
+	<iso_3166_2_entry
+		code="KP-05"	name="Hamgyongnam-do" />
+	<iso_3166_2_entry
+		code="KP-06"	name="Hamgyongbuk-do" />
+	<iso_3166_2_entry
+		code="KP-07"	name="Kangwon-do" />
+	<iso_3166_2_entry
+		code="KP-08"	name="Hwanghaenam-do" />
+	<iso_3166_2_entry
+		code="KP-09"	name="Hwanghaebuk-do" />
+	<iso_3166_2_entry
+		code="KP-10"	name="Yanggang-do" />
 </iso_3166_subset>
 </iso_3166_country>
 	<!-- South Korea -->
