@@ -18,6 +18,11 @@ and commit.
 $ autoreconf --install --symlink
 $ git commit -a -m "Update automatically generated files"
 
+Update all .po files (including the automatic update of the
+sr@latin locale) and commit.
+$ make update-po
+$ git commit -a -m "Refresh .po files"
+
 Create an annotated and GPG-signed tag for the next release.
 Please respect the following release numbering scheme:
 
