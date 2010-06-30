@@ -103,6 +103,7 @@ PACKAGE_TARNAME = @PACKAGE_TARNAME@
 PACKAGE_URL = @PACKAGE_URL@
 PACKAGE_VERSION = @PACKAGE_VERSION@
 PATH_SEPARATOR = @PATH_SEPARATOR@
+RECODE_SR_LATIN = @RECODE_SR_LATIN@
 SET_MAKE = @SET_MAKE@
 SHELL = @SHELL@
 STRIP = @STRIP@
@@ -398,6 +399,7 @@ update-po:
 		msgattrib --no-obsolete tmpfile > $$pofile; \
 		sed -i -e 's/^\"Project-Id-Version: iso.*/\"Project-Id-Version: $(DOMAIN) $(VERSION)\\n\"/' $$pofile; \
 	done
+	$(RECODE_SR_LATIN) < sr.po > sr@latin.po
 	rm -f tmpfile
 
 install-data-hook: $(mofiles)

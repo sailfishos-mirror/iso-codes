@@ -157,6 +157,7 @@ PACKAGE_TARNAME = @PACKAGE_TARNAME@
 PACKAGE_URL = @PACKAGE_URL@
 PACKAGE_VERSION = @PACKAGE_VERSION@
 PATH_SEPARATOR = @PATH_SEPARATOR@
+RECODE_SR_LATIN = @RECODE_SR_LATIN@
 SET_MAKE = @SET_MAKE@
 SHELL = @SHELL@
 STRIP = @STRIP@
@@ -703,7 +704,13 @@ uninstall-am: uninstall-pkgconfigDATA
 
 
 .PHONY: release
-release: check distcheck
+release: update-po check distcheck
+
+.PHONY: update-po
+update-po:
+	for domain in $(SUBDIRS); do \
+		cd $$domain && make update-po && cd ..; \
+	done
 
 .PHONY: sign-release
 sign-release: iso-codes-$(VERSION).tar.bz2
