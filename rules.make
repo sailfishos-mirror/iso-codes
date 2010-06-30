@@ -24,6 +24,7 @@ update-po:
 		msgattrib --no-obsolete tmpfile > $$pofile; \
 		sed -i -e 's/^\"Project-Id-Version: iso.*/\"Project-Id-Version: $(DOMAIN) $(VERSION)\\n\"/' $$pofile; \
 	done
+	$(RECODE_SR_LATIN) < sr.po > sr@latin.po
 	rm -f tmpfile
 
 localedir = $(datadir)/locale

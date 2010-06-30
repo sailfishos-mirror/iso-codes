@@ -26,6 +26,7 @@ AC_PROG_MAKE_SET
 
 AC_PATH_PROG([MSGMERGE],[msgmerge])
 AC_PATH_PROG([MSGFMT],[msgfmt])
+AC_PATH_PROG([RECODE_SR_LATIN],[recode-sr-latin])
 AC_MSG_CHECKING([if $MSGFMT is GNU msgfmt])
 gnu_msgfmt=no
 MSGFMT_FLAGS=

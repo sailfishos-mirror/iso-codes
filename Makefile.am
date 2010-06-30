@@ -13,7 +13,13 @@ DISTCLEANFILES = $(pkgconfig_DATA)
 
 
 .PHONY: release
-release: check distcheck
+release: update-po check distcheck
+
+.PHONY: update-po
+update-po:
+	for domain in $(SUBDIRS); do \
+		cd $$domain && make update-po && cd ..; \
+	done
 
 .PHONY: sign-release
 sign-release: iso-codes-$(VERSION).tar.bz2
