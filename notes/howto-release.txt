@@ -18,6 +18,9 @@ and commit.
 $ autoreconf --install --symlink
 $ git commit -a -m "Update automatically generated files"
 
+Create the Makefiles.
+$ ./configure
+
 Update all .po files (including the automatic update of the
 sr@latin locale) and commit.
 $ make update-po
@@ -37,9 +40,6 @@ Please respect the following release numbering scheme:
   minor version. Example: 1.2.5 -> 1.3, not 1.3.0
 
 $ git tag -s -m "iso-codes MAJOR.MINOR1.MINOR2" iso-codes/MAJOR.MINOR1.MINOR2
-
-Create the Makefiles.
-$ ./configure
 
 Use the Makefile target "release" for creating checked tarballs.
 $ make release
