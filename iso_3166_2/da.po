@@ -11,10 +11,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_3166_2-3.17\n"
+"Project-Id-Version: iso_3166_2-3.18\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth.debian.org>\n"
-"POT-Creation-Date: 2010-05-03 15:10+0200\n"
-"PO-Revision-Date: 2010-07-06 22:00+0200\n"
+"POT-Creation-Date: 2010-06-30 10:08+0200\n"
+"PO-Revision-Date: 2010-07-18 22:00+0200\n"
 "Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "MIME-Version: 1.0\n"
@@ -6092,9 +6092,12 @@ msgstr "Halton"
 msgid "Hartlepool"
 msgstr "Hartlepool"
 
+# på dansk ville man vel sige (hvis man absolut ikke kunne undgå det)
+# County'et Herefordshire
+# ville nok oversætte til Herefordshire county
 #. name for GB-HEF
 msgid "Herefordshire, County of"
-msgstr "Herefordshire, county af"
+msgstr "Herefordshire County"
 
 #. name for GB-HED
 msgid "Highland"
@@ -6108,13 +6111,17 @@ msgstr "Inverclyde"
 msgid "Isle of Anglesey"
 msgstr "Øen Anglesey"
 
+# http://da.wikipedia.org/wiki/Isle_of_Wight
+# http://www.denstoredanske.dk/Rejser,_geografi_og_historie/
+# Storbritannien_og_Irland/Egne_i_England/Isle_of_Wight?highlight=wight
 #. name for GB-IOW
 msgid "Isle of Wight"
-msgstr "Øen Wight"
+msgstr "Isle of Wight"
 
+# http://da.wikipedia.org/wiki/Isles_of_Scilly
 #. name for GB-IOS
 msgid "Isles of Scilly"
-msgstr "Øen Scilly"
+msgstr "Scillyøerne"
 
 #. name for GB-KHL
 msgid "Kingston upon Hull, City of"
@@ -6276,9 +6283,11 @@ msgstr "Rhondda, Cynon, Taff"
 msgid "Rutland"
 msgstr "Rutland"
 
+# da vi ikke rigtig ved om Borders mere er en stedbetegnelse og 
+# derfor ikke kan oversættes bruges ikke De Skotske Grænseegne
 #. name for GB-SCB
 msgid "Scottish Borders, The"
-msgstr "De Skotske Grænseegne"
+msgstr "Scottish Borders"
 
 #. name for GB-ZET
 msgid "Shetland Islands"
@@ -6352,9 +6361,12 @@ msgstr "Torbay"
 msgid "Torfaen"
 msgstr "Torfaen"
 
+# "Dalen Glamorgan"
+# svensk bruger uoversat
+# http://sv.wikipedia.org/wiki/Vale_of_Glamorgan
 #. name for GB-VGL
 msgid "Vale of Glamorgan, The"
-msgstr "Dalen Glamorgan"
+msgstr "Vale of Glamorgan"
 
 #. name for GB-WRT
 msgid "Warrington"
@@ -6392,9 +6404,11 @@ msgstr "Wrexham"
 msgid "York"
 msgstr "York"
 
+# Kan ikke finde noget der tyder på at denne ikke kan oversættes
+# måske 'Sydlige Grenadineøer'
 #. name for GD-10
 msgid "Southern Grenadine Islands"
-msgstr ""
+msgstr "Sydlige Grenadineøer"
 
 # GE = Georgien
 #. name for GE-AB
@@ -6831,17 +6845,17 @@ msgstr "Grevenmacher"
 
 #. name for GR-14
 #, fuzzy
-msgid "Aleia"
+msgid "Ileia"
 msgstr "Lleida"
 
 #. name for GR-53
 #, fuzzy
-msgid "Amathia"
+msgid "Imathia"
 msgstr "Bulgarien"
 
 #. name for GR-33
 #, fuzzy
-msgid "Aoannina"
+msgid "Ioannina"
 msgstr "Indiana"
 
 #. name for GR-91
@@ -6920,7 +6934,7 @@ msgstr ""
 
 #. name for GR-43
 #, fuzzy
-msgid "Magnisias"
+msgid "Magnisia"
 msgstr "Manitoba"
 
 #. name for GR-17
@@ -6983,8 +6997,9 @@ msgid "Voiotia"
 msgstr "Haiti"
 
 #. name for GR-72
-msgid "Janthi"
-msgstr ""
+#, fuzzy
+msgid "Xanthi"
+msgstr "Bulgarien"
 
 #. name for GR-21
 msgid "Zakynthos"
@@ -14154,6 +14169,7 @@ msgstr "Sri Lanka"
 msgid "Zlatiborski okrug"
 msgstr "Algeriet"
 
+# 21 selvstyrende republikker
 #. name for RU-AD
 msgid "Adygeya, Respublika"
 msgstr "Adygej, Republikken"
@@ -14163,9 +14179,8 @@ msgid "Altay, Respublika"
 msgstr "Altaj, Republikken"
 
 #. name for RU-BA
-#, fuzzy
 msgid "Bashkortostan, Respublika"
-msgstr "Tatarstan, Republikken"
+msgstr "Basjkirien, Republikken"
 
 #. name for RU-BU
 msgid "Buryatiya, Respublika"
@@ -14185,30 +14200,27 @@ msgstr "Dagestan, Republikken"
 
 #. name for RU-IN
 msgid "Respublika Ingushetiya"
-msgstr ""
+msgstr "Republikken Ingusjien"
 
 #. name for RU-KB
-#, fuzzy
 msgid "Kabardino-Balkarskaya Respublika"
-msgstr "Kabardino-Balkar, Republikken"
+msgstr "Kabardino-Balkarien, Republikken"
 
 #. name for RU-KL
-#, fuzzy
 msgid "Kalmykiya, Respublika"
-msgstr "Karelija, Republikken"
+msgstr "Kalmykien, Republikken"
 
 #. name for RU-KC
-#, fuzzy
 msgid "Karachayevo-Cherkesskaya Respublika"
 msgstr "Karatjaj-Tjerkessien, Republikken"
 
 #. name for RU-KR
 msgid "Kareliya, Respublika"
-msgstr "Karelija, Republikken"
+msgstr "Karelen, Republikken"
 
 #. name for RU-KK
 msgid "Khakasiya, Respublika"
-msgstr "Khakassien, Republikken"
+msgstr "Khakasien, Republikken"
 
 #. name for RU-KO
 msgid "Komi, Respublika"
@@ -14220,70 +14232,60 @@ msgstr "Mari-el, Republikken"
 
 #. name for RU-MO
 msgid "Mordoviya, Respublika"
-msgstr "Mordovien, Republikken"
+msgstr "Mordovinien, Republikken"
 
 #. name for RU-SA
-#, fuzzy
 msgid "Sakha, Respublika [Yakutiya]"
-msgstr "Sakha-Jakutien, Republikken"
+msgstr "Sakha, Republikken [Jakutien]"
 
 #. name for RU-SE
-#, fuzzy
 msgid "Severnaya Osetiya-Alaniya, Respublika"
-msgstr "Nord-Ossetien, Republikken"
+msgstr "Nordossetien, Republikken"
 
 #. name for RU-TA
 msgid "Tatarstan, Respublika"
 msgstr "Tatarstan, Republikken"
 
 #. name for RU-TY
-#, fuzzy
 msgid "Tyva, Respublika [Tuva]"
-msgstr "Adygej, Republikken"
+msgstr "Tuva, Republikken"
 
 #. name for RU-UD
 msgid "Udmurtskaya Respublika"
 msgstr "Udmurtien, Republikken"
 
+# 9 russiske krajer
 #. name for RU-ALT
-#, fuzzy
 msgid "Altayskiy kray"
-msgstr "Alaska"
+msgstr "Altajskij Kraj"
 
 #. name for RU-KAM
-#, fuzzy
 msgid "Kamchatskiy kray"
-msgstr "Kenya"
+msgstr "Kamtjatka Kraj"
 
 #. name for RU-KHA
-#, fuzzy
 msgid "Khabarovskiy kray"
-msgstr "Alaska"
+msgstr "Chabarovsk Kraj"
 
 #. name for RU-KDA
-#, fuzzy
 msgid "Krasnodarskiy kray"
-msgstr "Kandahar"
+msgstr "Krasnodar Kraj"
 
 #. name for RU-KYA
-#, fuzzy
 msgid "Krasnoyarskiy kray"
-msgstr "Alaska"
+msgstr "Krasnojarsk Kraj"
 
 #. name for RU-PER
-#, fuzzy
 msgid "Permskiy kray"
-msgstr "Alaska"
+msgstr "Perm Kraj"
 
 #. name for RU-PRI
-#, fuzzy
 msgid "Primorskiy kray"
-msgstr "Alaska"
+msgstr "Primorje Kraj"
 
 #. name for RU-STA
-#, fuzzy
 msgid "Stavropol'skiy kray"
-msgstr "Alaska"
+msgstr "Stavropol Kraj"
 
 #. name for RU-AMU
 #, fuzzy
