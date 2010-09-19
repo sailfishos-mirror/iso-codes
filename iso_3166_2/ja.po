@@ -1,5 +1,6 @@
 # Japanese translations of ISO 3166 place names
-# Copyright (C) 2002 Free Software Foundation, Inc.
+# This file is distributed under the same license as the iso-codes package.
+# Copyright (C) Free Software Foundation, Inc., 2002, 2010.
 # Alastair McKinstry, <mckinstry@computer.org>, 2002.
 # Translations from KDE: 
 #   Taiki Komoda <kom@kde.gr.jp>
@@ -7,30 +8,35 @@
 #  Kenshi Muto <kmuto@debian.org>
 #  tsuno <tsuno@ngy.1st.ne.jp>
 #
-# $Id$
+# $Id: ja.po 1028 2007-09-05 12:40:22Z lidaobing-guest $
 #
+# Yasuaki Taniguchi <yasuakit@gmail.com>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_3166_2 3.20\n"
-"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
-"debian.org>\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth.debian.org>\n"
 "POT-Creation-Date: 2010-08-30 10:09+0200\n"
-"PO-Revision-Date: 2004-01-17 18:12+0900\n"
-"Last-Translator: tsuno <tsuno@ngy.1st.ne.jp>\n"
-"Language-Team: Japanese <Kdeveloper@kde.gr.jp>\n"
+"PO-Revision-Date: 2010-09-12 01:35+0900\n"
+"Last-Translator: Yasuaki Taniguchi <yasuakit@gmail.com>\n"
+"Language-Team: Japanese <translation-team-ja@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
 
+# 国名・地名に関する情報源
+# 外務省: http://www.mofa.go.jp/mofaj/area/index.html
+# 二宮書店 高等地図帳 (検定教科書): http://www.ninomiyashoten.co.jp/pc/atlas/
+# JIS規格: JIS X 0304:1990 (少し古いため最新のものに追従していない)
+# 2010年9月外務省データ等を基に表記修正
+# 島嶼などで地図帳に記載がないものは世界大百科事典、
+# 日本大百科全書、マイペディア、Google Earth などを参考にした。
 #. name for AD-07
 msgid "Andorra la Vella"
-msgstr ""
+msgstr "アンドララベリャ"
 
 #. name for AD-02
-#, fuzzy
 msgid "Canillo"
-msgstr "エルサルバドル"
+msgstr ""
 
 #. name for AD-03
 msgid "Encamp"
@@ -41,14 +47,12 @@ msgid "Escaldes-Engordany"
 msgstr ""
 
 #. name for AD-04
-#, fuzzy
 msgid "La Massana"
-msgstr "マルタ"
+msgstr ""
 
 #. name for AD-05
-#, fuzzy
 msgid "Ordino"
-msgstr "マルディン"
+msgstr ""
 
 #. name for AD-06
 msgid "Sant Julià de Lòria"
@@ -56,7 +60,7 @@ msgstr ""
 
 #. name for AE-AZ
 msgid "Abū Ȥaby [Abu Dhabi]"
-msgstr ""
+msgstr "アブダビ"
 
 #. name for AE-AJ
 #, fuzzy
@@ -92,9 +96,8 @@ msgid "Bādghīs"
 msgstr ""
 
 #. name for AF-BGL
-#, fuzzy
 msgid "Baghlān"
-msgstr "バグラン"
+msgstr "バグラーン"
 
 #. name for AF-BAL
 msgid "Balkh"
@@ -110,16 +113,14 @@ msgid "Dāykondī"
 msgstr "リトアニア"
 
 #. name for AF-FRA
-#, fuzzy
 msgid "Farāh"
-msgstr "フランス"
+msgstr "ファラー"
 
 #. name for AF-FYB
 msgid "Fāryāb"
 msgstr ""
 
 #. name for AF-GHA
-#, fuzzy
 msgid "Ghaznī"
 msgstr "ガズニ"
 
@@ -142,12 +143,11 @@ msgstr ""
 
 #. name for AF-KAB
 msgid "Kābul [Kābol]"
-msgstr ""
+msgstr "カブール"
 
 #. name for AF-KAN
-#, fuzzy
 msgid "Kandahār"
-msgstr "カンダハル"
+msgstr "カンダハール"
 
 #. name for AF-KAP
 msgid "Kāpīsā"
@@ -164,7 +164,7 @@ msgstr ""
 
 #. name for AF-KDZ
 msgid "Kondoz [Kunduz]"
-msgstr ""
+msgstr "クンドーズ"
 
 #. name for AF-LAG
 msgid "Laghmān"
@@ -231,37 +231,32 @@ msgid "Zābol [Zābul]"
 msgstr ""
 
 #. name for AG-03, name for BB-03, name for DM-04, name for GD-03, name for VC-04
-#, fuzzy
 msgid "Saint George"
-msgstr "サンタフェ"
+msgstr "セントジョージ"
 
 #. name for AG-04, name for BB-05, name for DM-05, name for GD-04
-#, fuzzy
 msgid "Saint John"
-msgstr "埼玉"
+msgstr "セントジョン"
 
 #. name for AG-05, name for JM-05
 msgid "Saint Mary"
-msgstr ""
+msgstr "セントメアリー"
 
 #. name for AG-06, name for DM-10
-#, fuzzy
 msgid "Saint Paul"
-msgstr "埼玉"
+msgstr "セントポール"
 
 #. name for AG-07, name for BB-09, name for DM-01
-#, fuzzy
 msgid "Saint Peter"
-msgstr "サン・ビセンテ"
+msgstr "セントピーター"
 
 #. name for AG-08, name for BB-10
 msgid "Saint Philip"
-msgstr ""
+msgstr "セントフィリップ"
 
 #. name for AG-10
-#, fuzzy
 msgid "Barbuda"
-msgstr "バルバドス"
+msgstr "バーブーダ"
 
 #. name for AG-11
 msgid "Redonda"
@@ -276,9 +271,8 @@ msgid "Dibër"
 msgstr ""
 
 #. name for AL-02, name for AL-DR
-#, fuzzy
 msgid "Durrës"
-msgstr "ドゥレス"
+msgstr "ドゥラス"
 
 #. name for AL-03, name for AL-EL
 msgid "Elbasan"
@@ -286,7 +280,7 @@ msgstr "エルバサン"
 
 #. name for AL-04, name for AL-FR
 msgid "Fier"
-msgstr ""
+msgstr "フィエル"
 
 #. name for AL-05, name for AL-GJ
 msgid "Gjirokastër"
@@ -299,26 +293,23 @@ msgstr "コルチェ"
 
 #. name for AL-07, name for AL-KU
 msgid "Kukës"
-msgstr ""
+msgstr "クカス"
 
 #. name for AL-08, name for AL-LE
 msgid "Lezhë"
 msgstr ""
 
 #. name for AL-10, name for AL-SH
-#, fuzzy
 msgid "Shkodër"
-msgstr "シュコデル"
+msgstr "シュコダル"
 
 #. name for AL-11, name for AL-TR
-#, fuzzy
 msgid "Tiranë"
 msgstr "ティラナ"
 
 #. name for AL-12, name for AL-VL
-#, fuzzy
 msgid "Vlorë"
-msgstr "ヴロレ"
+msgstr "ヴローラ"
 
 #. name for AL-BU
 msgid "Bulqizë"
@@ -402,9 +393,8 @@ msgid "Pukë"
 msgstr ""
 
 #. name for AL-SR
-#, fuzzy
 msgid "Sarandë"
-msgstr "アイスランド"
+msgstr ""
 
 #. name for AL-SK
 msgid "Skrapar"
@@ -418,6 +408,7 @@ msgstr ""
 msgid "Tropojë"
 msgstr ""
 
+# check from here
 #. name for AM-ER
 msgid "Erevan"
 msgstr "イェレヴァン"
@@ -1039,9 +1030,8 @@ msgid "Unsko-sanski kanton"
 msgstr ""
 
 #. name for BA-08
-#, fuzzy
 msgid "Zapadnohercegovački kanton"
-msgstr "カナダ"
+msgstr ""
 
 #. name for BA-04
 msgid "Zeničko-dobojski kanton"
@@ -1449,7 +1439,7 @@ msgstr "カナダ"
 #. name for BF-08, name for RW-02
 #, fuzzy
 msgid "Est"
-msgstr "西ケープ"
+msgstr "エストニア"
 
 #. name for BF-09
 msgid "Hauts-Bassins"
@@ -1466,8 +1456,9 @@ msgid "Plateau-Central"
 msgstr "プラトー"
 
 #. name for BF-12
+#, fuzzy
 msgid "Sahel"
-msgstr ""
+msgstr "スペイン"
 
 #. name for BF-13
 msgid "Sud-Ouest"
@@ -2040,7 +2031,7 @@ msgstr "パナマ"
 #. name for BR-PB
 #, fuzzy
 msgid "Paraíba"
-msgstr "パナマ"
+msgstr "クロアチア"
 
 #. name for BR-PE
 msgid "Pernambuco"
@@ -2049,12 +2040,12 @@ msgstr ""
 #. name for BR-PI
 #, fuzzy
 msgid "Piauí"
-msgstr "ラトビア"
+msgstr "ロシア"
 
 #. name for BR-PR
 #, fuzzy
 msgid "Paraná"
-msgstr "パナマ"
+msgstr "ジャマイカ"
 
 #. name for BR-RJ
 msgid "Rio de Janeiro"
@@ -2135,7 +2126,7 @@ msgstr "ヨーロッパ、中央"
 #. name for BS-CE
 #, fuzzy
 msgid "Central Eleuthera"
-msgstr "カナダ"
+msgstr "ヨーロッパ、中央"
 
 #. name for BS-FP
 msgid "City of Freeport"
@@ -2148,7 +2139,7 @@ msgstr ""
 #. name for BS-EG
 #, fuzzy
 msgid "East Grand Bahama"
-msgstr "パナマ"
+msgstr "西ケープ"
 
 #. name for BS-EX
 msgid "Exuma"
@@ -2212,8 +2203,9 @@ msgid "Ragged Island"
 msgstr ""
 
 #. name for BS-RC
+#, fuzzy
 msgid "Rum Cay"
-msgstr ""
+msgstr "ルーマニア"
 
 #. name for BS-SS, name for SV-SS
 msgid "San Salvador"
@@ -2241,7 +2233,7 @@ msgstr ""
 #. name for BS-WG
 #, fuzzy
 msgid "West Grand Bahama"
-msgstr "パナマ"
+msgstr "オランダ"
 
 #. name for BT-33
 msgid "Bumthang"
@@ -3303,8 +3295,9 @@ msgid "Mosteiros"
 msgstr ""
 
 #. name for CV-PA
+#, fuzzy
 msgid "Paul"
-msgstr ""
+msgstr "パラウリ"
 
 #. name for CV-PN
 msgid "Porto Novo"
@@ -3332,9 +3325,8 @@ msgid "Sal"
 msgstr ""
 
 #. name for CV-CF
-#, fuzzy
 msgid "Santa Catarina de Fogo"
-msgstr "サンタ・アナ"
+msgstr ""
 
 #. name for CV-SD
 msgid "São Domingos"
@@ -3385,9 +3377,8 @@ msgid "Lárnaka"
 msgstr "カナダ"
 
 #. name for CY-01
-#, fuzzy
 msgid "Lefkosía"
-msgstr "リトアニア"
+msgstr ""
 
 #. name for CY-02
 msgid "Lemesós"
@@ -3568,7 +3559,7 @@ msgstr "クルクラルエリ"
 #. name for CZ-803
 #, fuzzy
 msgid "Karviná"
-msgstr "パナマ"
+msgstr "サウンド"
 
 #. name for CZ-203
 #, fuzzy
@@ -3746,14 +3737,12 @@ msgid "Praha 15"
 msgstr "クロアチア"
 
 #. name for CZ-209
-#, fuzzy
 msgid "Praha východ"
-msgstr "クロアチア"
+msgstr ""
 
 #. name for CZ-20A
-#, fuzzy
 msgid "Praha západ"
-msgstr "クロアチア"
+msgstr ""
 
 #. name for CZ-315
 msgid "Prachatice"
@@ -3975,9 +3964,8 @@ msgid "Hovedstaden"
 msgstr ""
 
 #. name for DK-85
-#, fuzzy
 msgid "Sjælland"
-msgstr "ポーランド"
+msgstr ""
 
 #. name for DM-03, name for GD-02, name for VC-03
 #, fuzzy
@@ -4378,7 +4366,7 @@ msgstr ""
 #. name for EC-M
 #, fuzzy
 msgid "Manabí"
-msgstr "マニサ"
+msgstr "マケドニア語"
 
 #. name for EC-S
 msgid "Morona-Santiago"
@@ -5562,9 +5550,8 @@ msgid "Polynésie française"
 msgstr ""
 
 #. name for FR-BL
-#, fuzzy
 msgid "Saint-Barthélemy"
-msgstr "サンタフェ"
+msgstr ""
 
 #. name for FR-MF
 #, fuzzy
@@ -5597,9 +5584,8 @@ msgid "Moyen-Ogooué"
 msgstr ""
 
 #. name for GA-4
-#, fuzzy
 msgid "Ngounié"
-msgstr "上海"
+msgstr ""
 
 #. name for GA-5
 #, fuzzy
@@ -6933,9 +6919,8 @@ msgid "Anatoliki Makedonia kai Thraki"
 msgstr ""
 
 #. name for GR-I, name for GR-A1
-#, fuzzy
 msgid "Attiki"
-msgstr "オーストリア"
+msgstr ""
 
 #. name for GR-G
 msgid "Dytiki Ellada"
@@ -6954,9 +6939,8 @@ msgid "Ipeiros"
 msgstr ""
 
 #. name for GR-B
-#, fuzzy
 msgid "Kentriki Makedonia"
-msgstr "ヨーロッパ、中央"
+msgstr ""
 
 #. name for GR-M
 #, fuzzy
@@ -6991,7 +6975,7 @@ msgstr ""
 #. name for GR-13
 #, fuzzy
 msgid "Achaïa"
-msgstr "グラナダ"
+msgstr "チェコ"
 
 #. name for GR-01
 msgid "Aitolia kai Akarnania"
@@ -7005,7 +6989,7 @@ msgstr "ボリビア"
 #. name for GR-12
 #, fuzzy
 msgid "Arkadia"
-msgstr "クロアチア"
+msgstr "オーストラリア"
 
 #. name for GR-64
 msgid "Chalkidiki"
@@ -7014,7 +6998,7 @@ msgstr ""
 #. name for GR-94
 #, fuzzy
 msgid "Chania"
-msgstr "クロアチア"
+msgstr "中国"
 
 #. name for GR-85
 #, fuzzy
@@ -7026,9 +7010,8 @@ msgid "Dodekanisos"
 msgstr ""
 
 #. name for GR-52
-#, fuzzy
 msgid "Drama"
-msgstr "パナマ"
+msgstr ""
 
 #. name for GR-71
 msgid "Evros"
@@ -7037,21 +7020,21 @@ msgstr ""
 #. name for GR-05
 #, fuzzy
 msgid "Evrytania"
-msgstr "クロアチア"
+msgstr "エストニア"
 
 #. name for GR-04
+#, fuzzy
 msgid "Evvoias"
-msgstr ""
+msgstr "エストニア"
 
 #. name for GR-63
-#, fuzzy
 msgid "Florina"
-msgstr "セルビア"
+msgstr ""
 
 #. name for GR-07
 #, fuzzy
 msgid "Fokida"
-msgstr "セルビア"
+msgstr "福岡"
 
 #. name for GR-06
 #, fuzzy
@@ -7061,32 +7044,31 @@ msgstr "中国"
 #. name for GR-51
 #, fuzzy
 msgid "Grevena"
-msgstr "ギリシャ"
+msgstr "グラナダ"
 
 #. name for GR-14
 #, fuzzy
 msgid "Ileia"
-msgstr "ボリビア"
+msgstr "スロベニア"
 
 #. name for GR-53
 #, fuzzy
 msgid "Imathia"
-msgstr "バーミヤン"
+msgstr "ラトビア"
 
 #. name for GR-33
 #, fuzzy
 msgid "Ioannina"
-msgstr "アイコン"
+msgstr "ルーマニア"
 
 #. name for GR-91
 #, fuzzy
 msgid "Irakleio"
-msgstr "ティラナ"
+msgstr "茨木"
 
 #. name for GR-41
-#, fuzzy
 msgid "Karditsa"
-msgstr "ラトビア"
+msgstr ""
 
 #. name for GR-56
 #, fuzzy
@@ -7104,19 +7086,16 @@ msgid "Kefallonia"
 msgstr "カルフォニア"
 
 #. name for GR-22
-#, fuzzy
 msgid "Kerkyra"
-msgstr "カゲラ"
+msgstr ""
 
 #. name for GR-57
-#, fuzzy
 msgid "Kilkis"
-msgstr "ビトリス"
+msgstr ""
 
 #. name for GR-15
-#, fuzzy
 msgid "Korinthia"
-msgstr "アイコン"
+msgstr ""
 
 #. name for GR-58
 #, fuzzy
@@ -7130,7 +7109,7 @@ msgstr ""
 #. name for GR-16
 #, fuzzy
 msgid "Lakonia"
-msgstr "遼寧"
+msgstr "リトアニア"
 
 #. name for GR-42
 #, fuzzy
@@ -7145,26 +7124,23 @@ msgstr "マルタ"
 #. name for GR-24
 #, fuzzy
 msgid "Lefkada"
-msgstr "リトアニア"
+msgstr "ルアンダ"
 
 #. name for GR-83
 msgid "Lesvos"
 msgstr ""
 
 #. name for GR-43
-#, fuzzy
 msgid "Magnisia"
-msgstr "マニサ"
+msgstr ""
 
 #. name for GR-17
-#, fuzzy
 msgid "Messinia"
-msgstr "ロシア"
+msgstr ""
 
 #. name for GR-59
-#, fuzzy
 msgid "Pella"
-msgstr "ペルー"
+msgstr ""
 
 #. name for GR-61
 #, fuzzy
@@ -7172,9 +7148,8 @@ msgid "Pieria"
 msgstr "ラトビア"
 
 #. name for GR-34
-#, fuzzy
 msgid "Preveza"
-msgstr "ポルトガル"
+msgstr ""
 
 #. name for GR-93
 msgid "Rethymno"
@@ -7185,9 +7160,8 @@ msgid "Rodopi"
 msgstr ""
 
 #. name for GR-84
-#, fuzzy
 msgid "Samos"
-msgstr "サムスン"
+msgstr ""
 
 #. name for GR-62
 #, fuzzy
@@ -7203,19 +7177,16 @@ msgid "Thessaloniki"
 msgstr ""
 
 #. name for GR-44
-#, fuzzy
 msgid "Trikala"
-msgstr "タイ"
+msgstr ""
 
 #. name for GR-03
-#, fuzzy
 msgid "Voiotia"
-msgstr "セルビア"
+msgstr ""
 
 #. name for GR-72
-#, fuzzy
 msgid "Xanthi"
-msgstr "江西"
+msgstr ""
 
 #. name for GR-21
 msgid "Zakynthos"
@@ -7471,7 +7442,7 @@ msgstr ""
 #. name for HN-SB
 #, fuzzy
 msgid "Santa Bárbara"
-msgstr "サンタ・アナ"
+msgstr "クロアチア"
 
 #. name for HN-VA
 msgid "Valle"
@@ -7693,9 +7664,8 @@ msgid "Eger"
 msgstr ""
 
 #. name for HU-ER
-#, fuzzy
 msgid "Érd"
-msgstr "セルビア"
+msgstr ""
 
 #. name for HU-GY
 msgid "Győr"
@@ -8472,9 +8442,8 @@ msgid "Suðurland"
 msgstr "ポーランド"
 
 #. name for IS-2
-#, fuzzy
 msgid "Suðurnes"
-msgstr "トルコ"
+msgstr ""
 
 #. name for IS-4
 msgid "Vestfirðir"
@@ -9372,9 +9341,8 @@ msgid "Batken"
 msgstr "マルタ"
 
 #. name for KG-C
-#, fuzzy
 msgid "Chü"
-msgstr "中国"
+msgstr ""
 
 #. name for KG-J
 msgid "Jalal-Abad"
@@ -9928,9 +9896,8 @@ msgid "Baalbek-Hermel"
 msgstr ""
 
 #. name for LB-BI
-#, fuzzy
 msgid "Béqaa"
-msgstr "グラナダ"
+msgstr ""
 
 #. name for LB-BA
 #, fuzzy
@@ -9948,7 +9915,7 @@ msgstr ""
 #. name for LB-JL
 #, fuzzy
 msgid "Mont-Liban"
-msgstr "モナガス"
+msgstr "モンテビデオ"
 
 #. name for LB-NA
 msgid "Nabatîyé"
@@ -9987,8 +9954,9 @@ msgid "Ūva paḷāta"
 msgstr ""
 
 #. name for LK-52
+#, fuzzy
 msgid "Ampāara"
-msgstr ""
+msgstr "日本"
 
 #. name for LK-71
 msgid "Anurādhapura"
@@ -10048,7 +10016,7 @@ msgstr ""
 #. name for LK-43
 #, fuzzy
 msgid "Mannārama"
-msgstr "カナダ"
+msgstr "パナマ"
 
 #. name for LK-22
 #, fuzzy
@@ -10087,14 +10055,12 @@ msgid "Ratnapura"
 msgstr ""
 
 #. name for LK-53
-#, fuzzy
 msgid "Trikuṇāmalaya"
-msgstr "タイ"
+msgstr ""
 
 #. name for LK-44
-#, fuzzy
 msgid "Vavuniyāva"
-msgstr "スロベニア"
+msgstr ""
 
 #. name for LR-BM
 msgid "Bomi"
@@ -10370,9 +10336,8 @@ msgid "Al Buţnān"
 msgstr ""
 
 #. name for LY-JA
-#, fuzzy
 msgid "Al Jabal al Akhḑar"
-msgstr "パナマ"
+msgstr ""
 
 #. name for LY-JA
 #, fuzzy
@@ -10576,7 +10541,7 @@ msgstr ""
 #. name for MA-CHE
 #, fuzzy
 msgid "Chefchaouen"
-msgstr "ペチャブーン"
+msgstr "チャチェンサオ"
 
 #. name for MA-CHI
 msgid "Chichaoua"
@@ -10658,7 +10623,7 @@ msgstr "フランス"
 #. name for MA-MED
 #, fuzzy
 msgid "Médiouna"
-msgstr "アイコン"
+msgstr "メリダ"
 
 #. name for MA-MOU
 msgid "Moulay Yacoub"
@@ -10712,7 +10677,7 @@ msgstr ""
 #. name for MA-TAI
 #, fuzzy
 msgid "Taourirt"
-msgstr "ナミュール"
+msgstr "台湾"
 
 #. name for MA-TAR
 #, fuzzy
@@ -10763,14 +10728,12 @@ msgid "Inezgane-Ait Melloul"
 msgstr ""
 
 #. name for MA-MMD
-#, fuzzy
 msgid "Marrakech-Medina"
-msgstr "フランス"
+msgstr ""
 
 #. name for MA-MMN
-#, fuzzy
 msgid "Marrakech-Menara"
-msgstr "フランス"
+msgstr ""
 
 #. name for MA-MEK
 msgid "Meknès"
@@ -10794,7 +10757,7 @@ msgstr "ルーマニア"
 #. name for MA-SAL
 #, fuzzy
 msgid "Salé"
-msgstr "バーゼル"
+msgstr "サルタ"
 
 #. name for MA-SYB
 msgid "Sidi Youssef Ben Ali"
@@ -10836,12 +10799,14 @@ msgid "Anenii Noi"
 msgstr ""
 
 #. name for MD-BS
+#, fuzzy
 msgid "Basarabeasca"
-msgstr ""
+msgstr "ペルー"
 
 #. name for MD-BR
+#, fuzzy
 msgid "Briceni"
-msgstr ""
+msgstr "ブレント"
 
 #. name for MD-CA
 #, fuzzy
@@ -10849,8 +10814,9 @@ msgid "Cahul"
 msgstr "チリ"
 
 #. name for MD-CT
+#, fuzzy
 msgid "Cantemir"
-msgstr ""
+msgstr "チャンクル"
 
 #. name for MD-CL, name for RO-CL
 msgid "Călărași"
@@ -10893,11 +10859,12 @@ msgstr ""
 #. name for MD-FL
 #, fuzzy
 msgid "Florești"
-msgstr "セルビア"
+msgstr "ベトナム語"
 
 #. name for MD-GL
+#, fuzzy
 msgid "Glodeni"
-msgstr ""
+msgstr "ペルニク"
 
 #. name for MD-HI
 msgid "Hîncești"
@@ -10906,11 +10873,12 @@ msgstr ""
 #. name for MD-IA
 #, fuzzy
 msgid "Ialoveni"
-msgstr "マルタ"
+msgstr "スロベニア"
 
 #. name for MD-LE
+#, fuzzy
 msgid "Leova"
-msgstr ""
+msgstr "グラナダ"
 
 #. name for MD-NI
 #, fuzzy
@@ -10926,8 +10894,9 @@ msgid "Orhei"
 msgstr ""
 
 #. name for MD-RE
+#, fuzzy
 msgid "Rezina"
-msgstr ""
+msgstr "ラトビア"
 
 #. name for MD-RI
 msgid "Rîșcani"
@@ -11092,8 +11061,9 @@ msgid "Toliara"
 msgstr ""
 
 #. name for MH-L
+#, fuzzy
 msgid "Ralik chain"
-msgstr ""
+msgstr "スペイン"
 
 #. name for MH-T
 #, fuzzy
@@ -11852,12 +11822,12 @@ msgstr "オーストラリア"
 #. name for MT-09
 #, fuzzy
 msgid "Floriana"
-msgstr "セルビア"
+msgstr "フランス"
 
 #. name for MT-10
 #, fuzzy
 msgid "Fontana"
-msgstr "モナガス"
+msgstr "モンタナ"
 
 #. name for MT-11
 #, fuzzy
@@ -11867,7 +11837,7 @@ msgstr "グラナダ"
 #. name for MT-12
 #, fuzzy
 msgid "Gżira"
-msgstr "パナマ"
+msgstr "グラナダ"
 
 #. name for MT-13
 msgid "Għajnsielem"
@@ -11926,7 +11896,7 @@ msgstr "セルビア"
 #. name for MT-25
 #, fuzzy
 msgid "Luqa"
-msgstr "ルアンダ"
+msgstr "ルガ"
 
 #. name for MT-26
 #, fuzzy
@@ -12031,9 +12001,8 @@ msgid "Rabat Malta"
 msgstr ""
 
 #. name for MT-48
-#, fuzzy
 msgid "San Ġiljan"
-msgstr "埼玉"
+msgstr ""
 
 #. name for MT-49
 #, fuzzy
@@ -12084,7 +12053,7 @@ msgstr ""
 #. name for MT-59
 #, fuzzy
 msgid "Tarxien"
-msgstr "台湾"
+msgstr "カリブ"
 
 #. name for MT-60
 #, fuzzy
@@ -12277,7 +12246,7 @@ msgstr ""
 #. name for MW C
 #, fuzzy
 msgid "Central Region"
-msgstr "カナダ"
+msgstr "ヨーロッパ、中央"
 
 #. name for MW N
 #, fuzzy
@@ -12332,7 +12301,7 @@ msgstr ""
 #. name for MW-LK
 #, fuzzy
 msgid "Likoma"
-msgstr "フィンランド"
+msgstr "ラトビア"
 
 #. name for MW-LI
 msgid "Lilongwe"
@@ -12365,8 +12334,9 @@ msgid "Mzimba"
 msgstr ""
 
 #. name for MW-NE
+#, fuzzy
 msgid "Neno"
-msgstr ""
+msgstr "グラナダ"
 
 #. name for MW-NB
 msgid "Nkhata Bay"
@@ -13175,12 +13145,12 @@ msgstr "マルタ"
 #. name for NP-SA
 #, fuzzy
 msgid "Sagarmatha"
-msgstr "サマルカンド"
+msgstr "ジャマイカ"
 
 #. name for NP-SE
 #, fuzzy
 msgid "Seti"
-msgstr "韓国"
+msgstr "セルビア"
 
 #. name for NR-01
 #, fuzzy
@@ -13343,9 +13313,8 @@ msgid "Al Bāţinah"
 msgstr "アル・マッカ"
 
 #. name for OM-ZA
-#, fuzzy
 msgid "Az̧ Z̧āhirah"
-msgstr "アル・マッカ"
+msgstr ""
 
 #. name for OM-BU
 #, fuzzy
@@ -13353,8 +13322,9 @@ msgid "Al Buraymī"
 msgstr "アル・マッカ"
 
 #. name for OM-MA
+#, fuzzy
 msgid "Masqaţ"
-msgstr ""
+msgstr "マニサ"
 
 #. name for OM-MU
 msgid "Musandam"
@@ -13401,8 +13371,9 @@ msgid "Veraguas"
 msgstr "パラグアイ"
 
 #. name for PA-EM
+#, fuzzy
 msgid "Emberá"
-msgstr ""
+msgstr "エルメラ"
 
 #. name for PA-KY
 #, fuzzy
@@ -13610,9 +13581,8 @@ msgid "CALABARZON (Region IV-A)"
 msgstr ""
 
 #. name for PH-13
-#, fuzzy
 msgid "Caraga (Region XIII)"
-msgstr "ヨーロッパ、中央"
+msgstr ""
 
 #. name for PH-03
 #, fuzzy
@@ -14129,7 +14099,7 @@ msgstr "コロンビア"
 #. name for PT-07
 #, fuzzy
 msgid "Évora"
-msgstr "セルビア"
+msgstr "韓国語"
 
 #. name for PT-08
 msgid "Faro"
@@ -14162,7 +14132,7 @@ msgstr "ポルトガル"
 #. name for PT-14
 #, fuzzy
 msgid "Santarém"
-msgstr "サンタフェ"
+msgstr "埼玉"
 
 #. name for PT-15
 #, fuzzy
@@ -14565,9 +14535,8 @@ msgid "Borski okrug"
 msgstr ""
 
 #. name for RS-11
-#, fuzzy
 msgid "Braničevski okrug"
-msgstr "カリブ"
+msgstr ""
 
 #. name for RS-23
 msgid "Jablanički okrug"
@@ -14582,9 +14551,8 @@ msgid "Južnobanatski okrug"
 msgstr ""
 
 #. name for RS-09
-#, fuzzy
 msgid "Kolubarski okrug"
-msgstr "カバロレ"
+msgstr ""
 
 #. name for RS-25
 #, fuzzy
@@ -14621,18 +14589,16 @@ msgid "Pećki okrug"
 msgstr ""
 
 #. name for RS-22
-#, fuzzy
 msgid "Pirotski okrug"
-msgstr "カリブ"
+msgstr ""
 
 #. name for RS-10
 msgid "Podunavski okrug"
 msgstr ""
 
 #. name for RS-13
-#, fuzzy
 msgid "Pomoravski okrug"
-msgstr "カリブ"
+msgstr ""
 
 #. name for RS-27
 #, fuzzy
@@ -14840,14 +14806,13 @@ msgid "Astrakhanskaya oblast'"
 msgstr "ポルターバ"
 
 #. name for RU-BEL
-#, fuzzy
 msgid "Belgorodskaya oblast'"
-msgstr "ポルターバ"
+msgstr ""
 
 #. name for RU-BRY
 #, fuzzy
 msgid "Bryanskaya oblast'"
-msgstr "ポルターバ"
+msgstr "チェルニーゴブ"
 
 #. name for RU-CHE
 #, fuzzy
@@ -14870,14 +14835,13 @@ msgid "Kaliningradskaya oblast'"
 msgstr "ノルウェー"
 
 #. name for RU-KLU
-#, fuzzy
 msgid "Kaluzhskaya oblast'"
-msgstr "ポルターバ"
+msgstr ""
 
 #. name for RU-KEM
 #, fuzzy
 msgid "Kemerovskaya oblast'"
-msgstr "ポルターバ"
+msgstr "チェルニーゴブ"
 
 #. name for RU-KIR
 #, fuzzy
@@ -14892,12 +14856,12 @@ msgstr "ジトーミル"
 #. name for RU-KGN
 #, fuzzy
 msgid "Kurganskaya oblast'"
-msgstr "ポルターバ"
+msgstr "チェルニーゴブ"
 
 #. name for RU-KRS
 #, fuzzy
 msgid "Kurskaya oblast'"
-msgstr "ポルターバ"
+msgstr "ジトーミル"
 
 #. name for RU-LEN
 #, fuzzy
@@ -14910,9 +14874,8 @@ msgid "Lipetskaya oblast'"
 msgstr "チェルニーゴブ"
 
 #. name for RU-MAG
-#, fuzzy
 msgid "Magadanskaya oblast'"
-msgstr "ポルターバ"
+msgstr ""
 
 #. name for RU-MOS
 #, fuzzy
@@ -14942,12 +14905,11 @@ msgstr "ポルターバ"
 #. name for RU-OMS
 #, fuzzy
 msgid "Omskaya oblast'"
-msgstr "ポルターバ"
+msgstr "ジトーミル"
 
 #. name for RU-ORE
-#, fuzzy
 msgid "Orenburgskaya oblast'"
-msgstr "ポルターバ"
+msgstr ""
 
 #. name for RU-ORL
 #, fuzzy
@@ -14970,9 +14932,8 @@ msgid "Rostovskaya oblast'"
 msgstr "ポルターバ"
 
 #. name for RU-RYA
-#, fuzzy
 msgid "Ryazanskaya oblast'"
-msgstr "ポルターバ"
+msgstr ""
 
 #. name for RU-SAK
 msgid "Sakhalinskaya oblast'"
@@ -15016,12 +14977,12 @@ msgstr "ポルターバ"
 #. name for RU-TVE
 #, fuzzy
 msgid "Tverskaya oblast'"
-msgstr "ポルターバ"
+msgstr "チェルニーゴブ"
 
 #. name for RU-TYU
 #, fuzzy
 msgid "Tyumenskaya oblast'"
-msgstr "ポルターバ"
+msgstr "ジトーミル"
 
 #. name for RU-ULY
 #, fuzzy
@@ -15243,9 +15204,8 @@ msgid "La Digue"
 msgstr "サン・ミゲル"
 
 #. name for SC-16
-#, fuzzy
 msgid "English River"
-msgstr "カナダ"
+msgstr ""
 
 #. name for SC-24
 msgid "Les Mamelles"
@@ -15291,9 +15251,8 @@ msgid "Takamaka"
 msgstr "タスマニア"
 
 #. name for SD-26
-#, fuzzy
 msgid "Al Baḩr al Aḩmar"
-msgstr "パナマ"
+msgstr ""
 
 #. name for SD-18
 #, fuzzy
@@ -15310,9 +15269,8 @@ msgid "Al Kharţūm"
 msgstr ""
 
 #. name for SD-06
-#, fuzzy
 msgid "Al Qaḑārif"
-msgstr "アル・ベイダ"
+msgstr ""
 
 #. name for SD-22
 #, fuzzy
@@ -15385,9 +15343,8 @@ msgid "Sharq al Istiwā'īyah"
 msgstr ""
 
 #. name for SD-25
-#, fuzzy
 msgid "Sinnār"
-msgstr "中国"
+msgstr ""
 
 #. name for SD-21
 msgid "Wārāb"
@@ -15509,8 +15466,9 @@ msgid "Ajdovščina"
 msgstr ""
 
 #. name for SI-195
+#, fuzzy
 msgid "Apače"
-msgstr ""
+msgstr "アパク"
 
 #. name for SI-002
 #, fuzzy
@@ -15598,8 +15556,9 @@ msgid "Cerkvenjak"
 msgstr ""
 
 #. name for SI-196
+#, fuzzy
 msgid "Cirkulane"
-msgstr ""
+msgstr "フランス"
 
 #. name for SI-015
 msgid "Črenšovci"
@@ -15681,8 +15640,9 @@ msgid "Gorišnica"
 msgstr "セルビア"
 
 #. name for SI-207
+#, fuzzy
 msgid "Gorje"
-msgstr ""
+msgstr "ドーセット"
 
 #. name for SI-029
 #, fuzzy
@@ -15922,8 +15882,9 @@ msgid "Majšperk"
 msgstr "ペルー"
 
 #. name for SI-198
+#, fuzzy
 msgid "Makole"
-msgstr ""
+msgstr "マルタ"
 
 #. name for SI-070
 #, fuzzy
@@ -16062,8 +16023,9 @@ msgid "Podvelka"
 msgstr ""
 
 #. name for SI-200
+#, fuzzy
 msgid "Poljčane"
-msgstr ""
+msgstr "プレヴェン"
 
 #. name for SI-173
 msgid "Polzela"
@@ -16212,8 +16174,9 @@ msgid "Starče"
 msgstr "韓国"
 
 #. name for SI-203
+#, fuzzy
 msgid "Straža"
-msgstr ""
+msgstr "セルビア"
 
 #. name for SI-181
 msgid "Sveta Ana"
@@ -16483,9 +16446,8 @@ msgid "Western Area (Freetown)"
 msgstr "東地域 (フリータウン)"
 
 #. name for SL-S
-#, fuzzy
 msgid "Southern (Sierra Leone)"
-msgstr "ノーザン・プロビンス"
+msgstr ""
 
 #. name for SM-01
 msgid "Acquaviva"
@@ -16543,8 +16505,9 @@ msgid "Fatick"
 msgstr "ファティック"
 
 #. name for SN-KA
+#, fuzzy
 msgid "Kaffrine"
-msgstr ""
+msgstr "サウンド"
 
 #. name for SN-KL
 msgid "Kaolack"
@@ -16727,9 +16690,8 @@ msgid "Chalatenango"
 msgstr "チャラテナンゴ"
 
 #. name for SV-UN
-#, fuzzy
 msgid "La Unión"
-msgstr "遼寧"
+msgstr ""
 
 #. name for SV-MO
 #, fuzzy
@@ -16813,7 +16775,7 @@ msgstr ""
 #. name for SY-TA
 #, fuzzy
 msgid "Tartus"
-msgstr "マルタ"
+msgstr "コロンビア"
 
 #. name for SZ-HH
 msgid "Hhohho"
@@ -16858,8 +16820,9 @@ msgid "Innīdī"
 msgstr ""
 
 #. name for TD-KA
+#, fuzzy
 msgid "Kānim"
-msgstr ""
+msgstr "ドイツ"
 
 #. name for TD-LO
 msgid "Lūqūn al Gharbī"
@@ -16910,8 +16873,9 @@ msgid "Tānjilī"
 msgstr ""
 
 #. name for TD-TI
+#, fuzzy
 msgid "Tibastī"
-msgstr ""
+msgstr "マルタ"
 
 #. name for TD-OD
 msgid "Waddāy"
@@ -17339,9 +17303,8 @@ msgid "Mary"
 msgstr "マリー"
 
 #. name for TM-S
-#, fuzzy
 msgid "Aşgabat"
-msgstr "ルーマニア"
+msgstr ""
 
 #. name for TN-31
 msgid "Béja"
@@ -18241,7 +18204,7 @@ msgstr "アジュマニ"
 #. name for UG-314
 #, fuzzy
 msgid "Amolatar"
-msgstr "マルタ"
+msgstr "日本"
 
 #. name for UG-216
 #, fuzzy
@@ -18305,7 +18268,7 @@ msgstr ""
 #. name for UG-219
 #, fuzzy
 msgid "Butaleja"
-msgstr "ペルー"
+msgstr "バーゼル"
 
 #. name for UG-318
 msgid "Dokolo"
@@ -18488,7 +18451,7 @@ msgstr ""
 #. name for UG-114
 #, fuzzy
 msgid "Mityana"
-msgstr "モナガス"
+msgstr "ミランダ"
 
 #. name for UG-308
 msgid "Moroto"
@@ -18903,9 +18866,8 @@ msgid "Paysandú"
 msgstr "パイサンドゥー"
 
 #. name for UY-RN
-#, fuzzy
 msgid "Río Negro"
-msgstr "リオネグロ"
+msgstr ""
 
 #. name for UY-RV
 msgid "Rivera"
@@ -19533,8 +19495,9 @@ msgid "Ma'rib"
 msgstr "マリブ"
 
 #. name for YE-RA
+#, fuzzy
 msgid "Raymah"
-msgstr ""
+msgstr "ルーマニア"
 
 #. name for YE-SD
 #, fuzzy
@@ -19654,3 +19617,757 @@ msgstr "南マタベランド"
 #, fuzzy
 msgid "Midlands"
 msgstr "中部"
+
+#~ msgid "Capital federal"
+#~ msgstr "連邦区"
+
+#, fuzzy
+#~ msgid "Rio Negro (Argentina)"
+#~ msgstr "リオネグロ"
+
+#, fuzzy
+#~ msgid "Santa Cruz (Argentina)"
+#~ msgstr "サンタクルス"
+
+#, fuzzy
+#~ msgid "Santa Cruz (Bolivia)"
+#~ msgstr "サンタクルス"
+
+#, fuzzy
+#~ msgid "Southern"
+#~ msgstr "韓国"
+
+#, fuzzy
+#~ msgid "Plateaux (Congo)"
+#~ msgstr "プラトー"
+
+#, fuzzy
+#~ msgid "Bafin"
+#~ msgstr "バーミヤン"
+
+#, fuzzy
+#~ msgid "Santa Cruz (Cape Verde)"
+#~ msgstr "サンタクルス"
+
+#, fuzzy
+#~ msgid "Copenhagen"
+#~ msgstr "日本"
+
+#, fuzzy
+#~ msgid "Western Zealand"
+#~ msgstr "オランダ"
+
+#, fuzzy
+#~ msgid "Funen"
+#~ msgstr "クネネ"
+
+#, fuzzy
+#~ msgid "Southern Jutland"
+#~ msgstr "オランダ"
+
+#, fuzzy
+#~ msgid "Northern Jutland"
+#~ msgstr "オランダ"
+
+#, fuzzy
+#~ msgid "Suhaj"
+#~ msgstr "サウンド"
+
+#, fuzzy
+#~ msgid "Córdoba (Spain)"
+#~ msgstr "コルドバ"
+
+#, fuzzy
+#~ msgid "Granada (Spain)"
+#~ msgstr "グラナダ"
+
+#, fuzzy
+#~ msgid "Harari People"
+#~ msgstr "ハラレ"
+
+#, fuzzy
+#~ msgid "Central (Fiji)"
+#~ msgstr "ヨーロッパ、中央"
+
+#, fuzzy
+#~ msgid "Eastern (Fiji)"
+#~ msgstr "ヨーロッパ、東"
+
+#, fuzzy
+#~ msgid "Northern (Fiji)"
+#~ msgstr "ヨーロッパ、北"
+
+#, fuzzy
+#~ msgid "Western (Fiji)"
+#~ msgstr "ヨーロッパ、西"
+
+#, fuzzy
+#~ msgid "Channel islands"
+#~ msgstr "フィンランド"
+
+#~ msgid "Bridgend"
+#~ msgstr "ブリッジエンド"
+
+#~ msgid "Sir Gaerfyrddin"
+#~ msgstr "カマ−ザンシャー"
+
+#~ msgid "Ceredigion"
+#~ msgstr "セレディゴン"
+
+#, fuzzy
+#~ msgid "Guernsey"
+#~ msgstr "ドイツ"
+
+#, fuzzy
+#~ msgid "Northumbarland"
+#~ msgstr "オランダ"
+
+#, fuzzy
+#~ msgid "Berkshire"
+#~ msgstr "ベッドフォードシャー"
+
+#, fuzzy
+#~ msgid "Borders"
+#~ msgstr "北朝鮮"
+
+#, fuzzy
+#~ msgid "Channel Islands"
+#~ msgstr "フィンランド"
+
+#, fuzzy
+#~ msgid "Cleveland"
+#~ msgstr "ポーランド"
+
+#, fuzzy
+#~ msgid "Devonshire"
+#~ msgstr "デンビシャー"
+
+#, fuzzy
+#~ msgid "Dorsetshire"
+#~ msgstr "ドーセット"
+
+#, fuzzy
+#~ msgid "Dumfries & Galloway"
+#~ msgstr "ダムフリースアンドギャラウェイ"
+
+#, fuzzy
+#~ msgid "Glamorganshire"
+#~ msgstr "クラックマナンシア"
+
+#, fuzzy
+#~ msgid "Grampian"
+#~ msgstr "バーミヤン"
+
+#, fuzzy
+#~ msgid "Humberside"
+#~ msgstr "湖北"
+
+#, fuzzy
+#~ msgid "Huntingdonshire"
+#~ msgstr "北朝鮮"
+
+#, fuzzy
+#~ msgid "Lanarkshire"
+#~ msgstr "カーマーゼンシャー"
+
+#, fuzzy
+#~ msgid "Licolnshire"
+#~ msgstr "北朝鮮"
+
+#, fuzzy
+#~ msgid "Lothian"
+#~ msgstr "東ロジアン"
+
+#, fuzzy
+#~ msgid "Rutlandshire"
+#~ msgstr "ポーランド"
+
+#, fuzzy
+#~ msgid "Somersetshire"
+#~ msgstr "アバディーンシア"
+
+#, fuzzy
+#~ msgid "Sussex"
+#~ msgstr "東サセックス"
+
+#, fuzzy
+#~ msgid "Tayside"
+#~ msgstr "台北"
+
+#, fuzzy
+#~ msgid "Yorkshire"
+#~ msgstr "北朝鮮"
+
+#, fuzzy
+#~ msgid "County Antrim"
+#~ msgstr "アントリム"
+
+#, fuzzy
+#~ msgid "County Armagh"
+#~ msgstr "アーマー"
+
+#, fuzzy
+#~ msgid "County Down"
+#~ msgstr "北朝鮮"
+
+#, fuzzy
+#~ msgid "County Durham"
+#~ msgstr "ダラム"
+
+#, fuzzy
+#~ msgid "County Fermanagh"
+#~ msgstr "ドイツ"
+
+#, fuzzy
+#~ msgid "Northern (Ghana)"
+#~ msgstr "北ケープ"
+
+#, fuzzy
+#~ msgid "Khorāsān"
+#~ msgstr "パナマ"
+
+#, fuzzy
+#~ msgid "Ma'an"
+#~ msgstr "マルタ"
+
+#, fuzzy
+#~ msgid "Central (Kenya)"
+#~ msgstr "ヨーロッパ、中央"
+
+#, fuzzy
+#~ msgid "Eastern (Kenya)"
+#~ msgstr "西ケープ"
+
+#, fuzzy
+#~ msgid "Maryland (Liberia)"
+#~ msgstr "アイスランド"
+
+#, fuzzy
+#~ msgid "Luxembourg (Luxembourg)"
+#~ msgstr "ルクセンブルグ"
+
+#, fuzzy
+#~ msgid "Al Qubbah"
+#~ msgstr "アル・ホデイダ"
+
+#, fuzzy
+#~ msgid "Mizdah"
+#~ msgstr "メリダ"
+
+#, fuzzy
+#~ msgid "Edineţ"
+#~ msgstr "ウクライナ"
+
+#, fuzzy
+#~ msgid "Lăpuşna"
+#~ msgstr "リトアニア"
+
+#, fuzzy
+#~ msgid "Macao"
+#~ msgstr "マルタ"
+
+#, fuzzy
+#~ msgid "Likoma Island"
+#~ msgstr "フィンランド"
+
+#, fuzzy
+#~ msgid "Tasman"
+#~ msgstr "台湾"
+
+#, fuzzy
+#~ msgid "Al Wusta"
+#~ msgstr "オーストリア"
+
+#, fuzzy
+#~ msgid "Colon (Panama)"
+#~ msgstr "パナマ"
+
+#, fuzzy
+#~ msgid "Cusco"
+#~ msgstr "デュズジェ"
+
+#, fuzzy
+#~ msgid "Northern (Papua New Guinea)"
+#~ msgstr "北ケープ"
+
+#, fuzzy
+#~ msgid "Bicol"
+#~ msgstr "ボリビア"
+
+#, fuzzy
+#~ msgid "Southern Mindanao"
+#~ msgstr "オランダ"
+
+#, fuzzy
+#~ msgid "Western Mindanao"
+#~ msgstr "オランダ"
+
+#, fuzzy
+#~ msgid "Central (Paraguay)"
+#~ msgstr "パラグアイ"
+
+#, fuzzy
+#~ msgid "Bor"
+#~ msgstr "ボリビア"
+
+#, fuzzy
+#~ msgid "Jablanica"
+#~ msgstr "ジャマイカ"
+
+#, fuzzy
+#~ msgid "Kolubara"
+#~ msgstr "ホンデュラス"
+
+#, fuzzy
+#~ msgid "Mačva"
+#~ msgstr "マルタ"
+
+#, fuzzy
+#~ msgid "Moravica"
+#~ msgstr "ノルウェー"
+
+#, fuzzy
+#~ msgid "Nišava"
+#~ msgstr "新潟"
+
+#, fuzzy
+#~ msgid "Pčinja"
+#~ msgstr "ラトビア"
+
+#, fuzzy
+#~ msgid "Pirot"
+#~ msgstr "バーモント"
+
+#, fuzzy
+#~ msgid "Pomoravlje"
+#~ msgstr "ポルトガル"
+
+#, fuzzy
+#~ msgid "Raška"
+#~ msgstr "ルーマニア"
+
+#, fuzzy
+#~ msgid "Srem"
+#~ msgstr "韓国"
+
+#, fuzzy
+#~ msgid "Altay"
+#~ msgstr "アンタルヤ"
+
+#, fuzzy
+#~ msgid "Buryatiya"
+#~ msgstr "ブラジル"
+
+#, fuzzy
+#~ msgid "Chuvashiya"
+#~ msgstr "彰化"
+
+#, fuzzy
+#~ msgid "Dagestan"
+#~ msgstr "ポーランド"
+
+#, fuzzy
+#~ msgid "Khakasiya"
+#~ msgstr "ダッカ州"
+
+#, fuzzy
+#~ msgid "Mariy El"
+#~ msgstr "マリー"
+
+#, fuzzy
+#~ msgid "Mordoviya"
+#~ msgstr "ノルウェー"
+
+#, fuzzy
+#~ msgid "Tatarstan"
+#~ msgstr "タタール"
+
+#, fuzzy
+#~ msgid "Udmurtiya"
+#~ msgstr "カンブリア"
+
+#, fuzzy
+#~ msgid "Perm"
+#~ msgstr "パナマ"
+
+#, fuzzy
+#~ msgid "Astrakhan"
+#~ msgstr "アルダハン"
+
+#, fuzzy
+#~ msgid "Belgorod"
+#~ msgstr "ノルウェー"
+
+#, fuzzy
+#~ msgid "Bryan"
+#~ msgstr "フランス"
+
+#, fuzzy
+#~ msgid "Chita"
+#~ msgstr "中国"
+
+#, fuzzy
+#~ msgid "Ivanovio"
+#~ msgstr "熊本"
+
+#, fuzzy
+#~ msgid "Kaluga"
+#~ msgstr "カナダ"
+
+#, fuzzy
+#~ msgid "Kemerovo"
+#~ msgstr "ブラジル"
+
+#, fuzzy
+#~ msgid "Kostroma"
+#~ msgstr "イスラエル"
+
+#, fuzzy
+#~ msgid "Kurgan"
+#~ msgstr "パナマ"
+
+#, fuzzy
+#~ msgid "Kursk"
+#~ msgstr "バルバドス"
+
+#, fuzzy
+#~ msgid "Leningrad"
+#~ msgstr "セルビア"
+
+#, fuzzy
+#~ msgid "Magadan"
+#~ msgstr "カナダ"
+
+#, fuzzy
+#~ msgid "Moskova"
+#~ msgstr "キソロ"
+
+#, fuzzy
+#~ msgid "Novgorod"
+#~ msgstr "ノルウェー"
+
+#, fuzzy
+#~ msgid "Omsk"
+#~ msgstr "大阪"
+
+#, fuzzy
+#~ msgid "Orenburg"
+#~ msgstr "オルロ"
+
+#, fuzzy
+#~ msgid "Penza"
+#~ msgstr "ペナマ"
+
+#, fuzzy
+#~ msgid "Pskov"
+#~ msgstr "ハスコヴォ"
+
+#, fuzzy
+#~ msgid "Ryazan"
+#~ msgstr "ルーマニア"
+
+#, fuzzy
+#~ msgid "Saratov"
+#~ msgstr "台湾"
+
+#, fuzzy
+#~ msgid "Tomsk"
+#~ msgstr "ホンデュラス"
+
+#, fuzzy
+#~ msgid "Tula"
+#~ msgstr "タイ"
+
+#, fuzzy
+#~ msgid "Tver"
+#~ msgstr "ペルー"
+
+#, fuzzy
+#~ msgid "Volgograd"
+#~ msgstr "コロラド"
+
+#, fuzzy
+#~ msgid "Vologoda"
+#~ msgstr "マルタ"
+
+#, fuzzy
+#~ msgid "Yaroslavl"
+#~ msgstr "ヤラー"
+
+#, fuzzy
+#~ msgid "Chukotka"
+#~ msgstr "福岡"
+
+#, fuzzy
+#~ msgid "Koryak"
+#~ msgstr "コンヤ"
+
+#, fuzzy
+#~ msgid "Nenets"
+#~ msgstr "ベトナム語"
+
+#, fuzzy
+#~ msgid "East (Rwanda)"
+#~ msgstr "西ケープ"
+
+#, fuzzy
+#~ msgid "Northi (Rwanda)"
+#~ msgstr "北ケープ"
+
+#, fuzzy
+#~ msgid "West (Rwanda)"
+#~ msgstr "オランダ"
+
+#, fuzzy
+#~ msgid "South (Rwanda)"
+#~ msgstr "オランダ"
+
+#, fuzzy
+#~ msgid "Western (Solomon Islands)"
+#~ msgstr "オランダ"
+
+#, fuzzy
+#~ msgid "Northern (Sierra Leone)"
+#~ msgstr "ノーザン・プロビンス"
+
+#, fuzzy
+#~ msgid "Bari (Somalia)"
+#~ msgstr "バリサル州"
+
+#, fuzzy
+#~ msgid "La Paz (El Salvador)"
+#~ msgstr "サンサルバドル"
+
+#, fuzzy
+#~ msgid "La Union (El Salvador)"
+#~ msgstr "サンサルバドル"
+
+#~ msgid "Biltine"
+#~ msgstr "ビルティン"
+
+#~ msgid "Borkou-Ennedi-Tibesti"
+#~ msgstr "ボルク-エネディ-チベスチ"
+
+#~ msgid "Kanem"
+#~ msgstr "カネム"
+
+#~ msgid "Logone-Oriental"
+#~ msgstr "ロゴン・オリエンタル"
+
+#, fuzzy
+#~ msgid "Mandoul"
+#~ msgstr "マルタ"
+
+#~ msgid "Moyen-Chari"
+#~ msgstr "モエン・シェリー"
+
+#, fuzzy
+#~ msgid "Ndjamena"
+#~ msgstr "ナマンガン"
+
+#~ msgid "Ouaddai"
+#~ msgstr "ウアダイ"
+
+#, fuzzy
+#~ msgid "Tandjilé"
+#~ msgstr "天津"
+
+#, fuzzy
+#~ msgid "Plateaux (Togo)"
+#~ msgstr "プラトー"
+
+#~ msgid "Liquica"
+#~ msgstr "リキサ"
+
+#, fuzzy
+#~ msgid "Florida (USA)"
+#~ msgstr "フロリダ"
+
+#, fuzzy
+#~ msgid "Maryland (USA)"
+#~ msgstr "アイスランド"
+
+#, fuzzy
+#~ msgid "Montana (USA)"
+#~ msgstr "モンタナ"
+
+#~ msgid "Armed Forces Europe"
+#~ msgstr "欧州軍"
+
+#~ msgid "Armed Forces Americas"
+#~ msgstr "米州軍"
+
+#~ msgid "Armed Forces Pacific"
+#~ msgstr "太平洋軍"
+
+#~ msgid "Toshkent "
+#~ msgstr "タシケント"
+
+#~ msgid "Khorazm"
+#~ msgstr "ホラズム"
+
+#, fuzzy
+#~ msgid "Penama"
+#~ msgstr "ペナマ"
+
+#~ msgid "Crna Gora"
+#~ msgstr "ツルナ・ゴーラ"
+
+#, fuzzy
+#~ msgid "Srbija"
+#~ msgstr "セルビア"
+
+#~ msgid "Ad Dali"
+#~ msgstr "アブダリ"
+
+#, fuzzy
+#~ msgid "Amran"
+#~ msgstr "アムラン"
+
+#~ msgid "San'a'"
+#~ msgstr "サナア"
+
+#, fuzzy
+#~ msgid "Central (Zambia)"
+#~ msgstr "ヨーロッパ、中央"
+
+#, fuzzy
+#~ msgid "Eastern (Zambia)"
+#~ msgstr "東トバゴ"
+
+#, fuzzy
+#~ msgid "Northern (Zambia)"
+#~ msgstr "北ケープ"
+
+#, fuzzy
+#~ msgid "Western (Zambia)"
+#~ msgstr "オランダ"
+
+#~ msgid "Abu Zaby"
+#~ msgstr "アブザビ"
+
+#~ msgid "Bamian"
+#~ msgstr "バーミヤン"
+
+#~ msgid "Kabul"
+#~ msgstr "カブール"
+
+#~ msgid "Australian Antarctic Territory"
+#~ msgstr "南極オーストラリア領"
+
+#, fuzzy
+#~ msgid "Susa (city)"
+#~ msgstr "スーサ"
+
+#, fuzzy
+#~ msgid "Agdas"
+#~ msgstr "アダン"
+
+#~ msgid "Susa"
+#~ msgstr "スーサ"
+
+#~ msgid "Oueme"
+#~ msgstr "ウエメ"
+
+#~ msgid "Hong Kong"
+#~ msgstr "香港"
+
+#, fuzzy
+#~ msgid "Macau"
+#~ msgstr "マカオ"
+
+#, fuzzy
+#~ msgid "Zadaraka"
+#~ msgstr "カナダ"
+
+#, fuzzy
+#~ msgid "Punjab (India)"
+#~ msgstr "パンジャブ"
+
+#, fuzzy
+#~ msgid "Gilan"
+#~ msgstr "フィンランド"
+
+#, fuzzy
+#~ msgid "Iiam"
+#~ msgstr "スロベニア"
+
+#, fuzzy
+#~ msgid "Balti"
+#~ msgstr "マルタ"
+
+#, fuzzy
+#~ msgid "Tighina [Bender]"
+#~ msgstr "中国"
+
+#, fuzzy
+#~ msgid "Umutara"
+#~ msgstr "オーストリア"
+
+#, fuzzy
+#~ msgid "Hodos"
+#~ msgstr "ホンデュラス"
+
+#, fuzzy
+#~ msgid "Koper"
+#~ msgstr "北朝鮮"
+
+#, fuzzy
+#~ msgid "Sencur"
+#~ msgstr "スウェーデン"
+
+#~ msgid "Ag r"
+#~ msgstr "アール"
+
+#~ msgid "Elazig"
+#~ msgstr "エラズー"
+
+#~ msgid "Igidir"
+#~ msgstr "ウードゥル"
+
+#~ msgid "Mus"
+#~ msgstr "ムシュ"
+
+#~ msgid "S'rnak"
+#~ msgstr "シュルナク"
+
+#~ msgid "Bac Can"
+#~ msgstr "バックカン"
+
+#~ msgid "Binh Dinh"
+#~ msgstr "ビンディン"
+
+#~ msgid "Binh Phuoc"
+#~ msgstr "ビンフォック"
+
+#~ msgid "Can Tho"
+#~ msgstr "カントー"
+
+#~ msgid "Dac Lac"
+#~ msgstr "ダックラック"
+
+#, fuzzy
+#~ msgid "Dak Nong"
+#~ msgstr "リトアニア"
+
+#, fuzzy
+#~ msgid "Dien Bein"
+#~ msgstr "ニンビン"
+
+#~ msgid "Dong Thap"
+#~ msgstr "ドンタップ"
+
+#~ msgid "Ha Noi, thu do"
+#~ msgstr "ハノイ, トゥゾゥ"
+
+#~ msgid "Ha Tay"
+#~ msgstr "ハタイ"
+
+#~ msgid "Ha Tinh"
+#~ msgstr "ハティン"
+
+#~ msgid "Lam Dong"
+#~ msgstr "ラムドン"
+
+#~ msgid "Phu Tho"
+#~ msgstr "フート"
