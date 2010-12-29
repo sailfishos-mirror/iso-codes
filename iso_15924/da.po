@@ -1,5 +1,5 @@
 # Danish translation ISO 15924 (script names).
-# Copyright (C) 2007 Tobias Toedter <t.toedter@gmx.net>.
+# Copyright (C) 2010 iso-codes og nedenstående oversættere.
 # This file is distributed under the same license as the iso-codes package.
 # Computeroversættelse Tobias Toedter <t.toedter@gmx.net>, 2007.
 # Joe Hansen <joedalton2@yahoo.dk>, 2009, 2010.
@@ -21,23 +21,18 @@
 # Ovenstående er ikke helt afklaret, så hvis nogen ser dem her brugt i praksis
 # hvor de ikke er korrekte, så vend venligst tilbage på <dansk@dansk-gruppen.dk>
 # På forhånd tak, Joe
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_15924\n"
-"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
-"debian.org>\n"
-"POT-Creation-Date: 2010-12-23 20:41+0100\n"
-"PO-Revision-Date: 2010-05-14 16:07+0200\n"
+"Project-Id-Version: iso_15924-3.23\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth.debian.org>\n"
+"POT-Creation-Date: 2010-07-20 22:14+0200\n"
+"PO-Revision-Date: 2010-15-12 18:07+0200\n"
 "Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
-"Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#. name for Afak
-msgid "Afaka"
-msgstr ""
 
 #. name for Arab
 msgid "Arabic"
@@ -153,9 +148,14 @@ msgstr "devanagari (nagari)"
 msgid "Deseret (Mormon)"
 msgstr "deseret (mormon)"
 
+# http://en.wikipedia.org/wiki/Shorthand
+# "Shorthand" /er/ vel stenografi, så der er ikke behov for to strenge
+# adskilt af komma her. Det lader til at der henvises til dén udgave der
+# defineredes af Emile Duployé [wikipedia "shorthand"]
+# Mit forslag er derfor "Duployé-stenografi"
 #. name for Dupl
 msgid "Duployan shorthand, Duployan stenography"
-msgstr ""
+msgstr "Duployé-stenografi"
 
 #. name for Egyd
 msgid "Egyptian demotic"
@@ -169,9 +169,19 @@ msgstr "egyptisk hieratisk"
 msgid "Egyptian hieroglyphs"
 msgstr "egyptiske hieroglyffer"
 
+# Albanian has also been written with two other scripts: Elbasan and 
+# Beitha Kukju, local inventions which appeared during the 18th and 
+# 19th centuries but were not widely used. 
+# måske elbasansk
+# "Elbasan er en by i det centrale Albanien, med et indbyggertal (pr.
+# 2003) på ca. 100.000. Byen er hovedstad i et distrikt af samme navn, og
+# ligger ved bredden af floden Shkumbin."
+# Jeg har først nu set kommentaren med "Elba", men den forvirrer mere end
+# den gavner, for der menes med sikkerhed ikke noget fransk eller italiensk.
+# Nyt forslag: "albansk (Elbasan)"
 #. name for Elba
 msgid "Elbasan"
-msgstr ""
+msgstr "elbasan"
 
 #. name for Ethi
 msgid "Ethiopic (Geʻez)"
@@ -271,10 +281,6 @@ msgstr "javanesisk"
 #. name for Jpan
 msgid "Japanese (alias for Han + Hiragana + Katakana)"
 msgstr "japansk (alias for han + hiragana + katakana)"
-
-#. name for Jurc
-msgid "Jurchen"
-msgstr ""
 
 #. name for Kali
 msgid "Kayah Li"
@@ -402,10 +408,6 @@ msgstr "moon (moonkode, moonskript, moontype)"
 msgid "Mongolian"
 msgstr "mongolsk"
 
-#. name for Mroo
-msgid "Mro, Mru"
-msgstr ""
-
 #. name for Mtei
 msgid "Meitei Mayek (Meithei, Meetei)"
 msgstr "meitei mayek (meithei, meetei)"
@@ -431,10 +433,6 @@ msgstr "nakhi geba ('na-'khi ²ggŏ-¹baw, naxi geba)"
 #. name for Nkoo
 msgid "N’Ko"
 msgstr "n'ko"
-
-#. name for Nshu
-msgid "Nüshu"
-msgstr ""
 
 #. name for Ogam
 msgid "Ogham"
@@ -538,21 +536,14 @@ msgstr "tegnskrift"
 msgid "Shavian (Shaw)"
 msgstr "shavisk (shaw)"
 
-#. name for Shrd
-msgid "Sharada, Śāradā"
-msgstr ""
-
+# http://da.wikipedia.org/wiki/Sindhi
 #. name for Sind
-msgid "Khudawadi, Sindhi"
-msgstr ""
+msgid "Sindhi"
+msgstr "sindhi"
 
 #. name for Sinh
 msgid "Sinhala"
 msgstr "singalesisk"
-
-#. name for Sora
-msgid "Sora Sompeng"
-msgstr ""
 
 #. name for Sund
 msgid "Sundanese"
@@ -582,10 +573,6 @@ msgstr "syrisk (østlig variant)"
 msgid "Tagbanwa"
 msgstr "tagbanwa"
 
-#. name for Takr
-msgid "Takri, Ṭākrī, Ṭāṅkrī"
-msgstr ""
-
 #. name for Tale
 msgid "Tai Le"
 msgstr "tai le"
@@ -597,10 +584,6 @@ msgstr "tai lue"
 #. name for Taml
 msgid "Tamil"
 msgstr "tamilsk"
-
-#. name for Tang
-msgid "Tangut"
-msgstr ""
 
 #. name for Tavt
 msgid "Tai Viet"
@@ -651,10 +634,6 @@ msgstr "synlig tale"
 msgid "Warang Citi (Varang Kshiti)"
 msgstr "warang citi (varang kshiti)"
 
-#. name for Wole
-msgid "Woleai"
-msgstr ""
-
 #. name for Xpeo
 msgid "Old Persian"
 msgstr "oldpersisk"
@@ -692,3 +671,15 @@ msgstr "kode for uafsluttet skript"
 #. name for Zzzz
 msgid "Code for uncoded script"
 msgstr "kode for ukodet skript"
+
+#~ msgid "Orkhon"
+#~ msgstr "orkhon"
+
+#~ msgid "Lanna, Tai Tham"
+#~ msgstr "lanna, tai tham"
+
+#~ msgid "Pollard Phonetic"
+#~ msgstr "pollardtegn"
+
+#~ msgid "Tagalog"
+#~ msgstr "tagalog"
