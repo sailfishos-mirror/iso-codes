@@ -1,30 +1,28 @@
 # Swedish translations of ISO-3166 country names.
-# Copyright (C) 2001, 2003, 2004, 2007, 2008 Free Software Foundation, Inc.
-#
+# Copyright (C) 2001, 2003, 2004, 2007, 2011 Free Software Foundation, Inc.
+# This file is distributed under the same license as the iso-codes package.
 # Mattias Newzella <newzella@linux.nu, 2001.
+#  (translations from drakfw)
 # Alastair McKinstry <mckinstry@computer.org>, 2001.
 # Christian Rose <menthos@menthos.com>, 2004.
-# Daniel Nylander <po@danielnylander.se>, 2007.
-# Martin Bagge <brother@bsne.se>, 2008, 2010
+# Daniel Nylander <po@danielnylander.se>, 2007, 2011.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_3166\n"
-"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
-"debian.org>\n"
-"POT-Creation-Date: 2011-06-17 19:13+0200\n"
-"PO-Revision-Date: 2011-06-22 21:21+0100\n"
-"Last-Translator: Martin Bagge / brother <brother@bsnet.se>\n"
-"Language-Team: swedish <debian-l10n-swedish@lists.debian.org>\n"
-"Language: \n"
+"Project-Id-Version: iso_3166 3.26\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth.debian.org>\n"
+"POT-Creation-Date: 2010-12-23 20:09+0100\n"
+"PO-Revision-Date: 2011-06-22 11:26+0100\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
 
-# AF
 #. name for AFG
 msgid "Afghanistan"
-msgstr "Afganistan"
+msgstr "Afghanistan"
 
 # official_name for PAK
 #. official_name for AFG
@@ -244,8 +242,8 @@ msgid "Bolivia"
 msgstr "Bolivia"
 
 #. name for BES, official_name for BES
-msgid "Bonaire, Sint Eustatius and Saba"
-msgstr "Bonaire, Sint Eustatius och Saba"
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr "Bonaire, Saint Eustatius och Saba"
 
 # BA
 #. name for BIH
@@ -604,9 +602,10 @@ msgstr "Färöarna"
 msgid "Fiji"
 msgstr "Fiji"
 
+# official_name for FJI
 #. official_name for FJI
-msgid "Republic of Fiji"
-msgstr "Republiken Fiji"
+msgid "Republic of the Fiji Islands"
+msgstr "Republiken Fijiöarna"
 
 # FI
 #. name for FIN
@@ -1029,7 +1028,6 @@ msgstr "Libyska arabjamahiriya"
 msgid "Socialist People's Libyan Arab Jamahiriya"
 msgstr "Socialistiska libyska folkarabjamahiriya"
 
-# LR
 #. common_name for LBY
 msgid "Libya"
 msgstr "Libyen"
@@ -1258,9 +1256,11 @@ msgstr "Republiken Moçambique"
 msgid "Myanmar"
 msgstr "Myanmar"
 
+# Osäker.
+# MM
 #. official_name for MMR
-msgid "Republic of Myanmar"
-msgstr "Republiken Myanmar"
+msgid "Union of Myanmar"
+msgstr "Unionen Myanmar"
 
 # NA
 #. name for NAM
@@ -1286,7 +1286,6 @@ msgstr "Republiken Nauru"
 msgid "Nepal"
 msgstr "Nepal"
 
-# CD
 #. official_name for NPL
 msgid "Federal Democratic Republic of Nepal"
 msgstr "Demokratiska förbundsrepubliken Nepal"
@@ -1341,9 +1340,13 @@ msgid "Federal Republic of Nigeria"
 msgstr "Förbundsrepubliken Nigeria"
 
 # NU
-#. name for NIU, official_name for NIU
+#. name for NIU
 msgid "Niue"
 msgstr "Niue"
+
+#. official_name for NIU
+msgid "Republic of Niue"
+msgstr "Republiken Niue"
 
 #. name for NFK
 msgid "Norfolk Island"
@@ -1513,11 +1516,11 @@ msgstr "Rwandiska republiken"
 
 #. name for BLM
 msgid "Saint Barthélemy"
-msgstr "Saint Barthélemy"
+msgstr "Saint-Barthélemy"
 
 #. name for SHN
 msgid "Saint Helena, Ascension and Tristan da Cunha"
-msgstr "Sankta Helena, Ascension och Tristan da Cunha"
+msgstr "Saint Helena, Ascension och Tristan da Cunha"
 
 # KN
 #. name for KNA
@@ -1531,7 +1534,7 @@ msgstr "Sankt Lucia"
 
 #. name for MAF
 msgid "Saint Martin (French part)"
-msgstr "Saint Martin Frankrike"
+msgstr "Saint Martin (franska delen)"
 
 # PM
 #. name for SPM
@@ -1639,7 +1642,7 @@ msgstr "Sint Maarten"
 
 #. official_name for SXM
 msgid "Sint Maarten (Dutch part)"
-msgstr "Sint Maarten Nederländerna"
+msgstr "Sint Maarten (nederländska delen)"
 
 # SK
 #. name for SVK
@@ -2138,7 +2141,7 @@ msgstr "Rumänien, socialistrepubliken"
 
 #. historic names for KNA (withdrawn 1988)
 msgid "St. Kitts-Nevis-Anguilla"
-msgstr "Saint Kitts-Nevis-Anguilla"
+msgstr "St. Kitts-Nevis-Anguilla"
 
 # official_name for COG
 #. historic names for SCG (withdrawn 2006-06-05)
