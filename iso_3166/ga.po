@@ -9,9 +9,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_3166-3.26\n"
-"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth.debian.org>\n"
-"POT-Creation-Date: 2010-12-23 20:09+0100\n"
+"Project-Id-Version: iso_3166\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
+"debian.org>\n"
+"POT-Creation-Date: 2011-06-17 19:13+0200\n"
 "PO-Revision-Date: 2011-06-19 11:35-0500\n"
 "Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
@@ -204,7 +205,8 @@ msgid "Bolivia"
 msgstr "An Bholaiv"
 
 #. name for BES, official_name for BES
-msgid "Bonaire, Saint Eustatius and Saba"
+#, fuzzy
+msgid "Bonaire, Sint Eustatius and Saba"
 msgstr "Bonaire, San Eustatius agus Saba"
 
 #. name for BIH
@@ -504,8 +506,9 @@ msgid "Fiji"
 msgstr "Fidsí"
 
 #. official_name for FJI
-msgid "Republic of the Fiji Islands"
-msgstr "Poblacht Oileán Fidsí"
+#, fuzzy
+msgid "Republic of Fiji"
+msgstr "Poblacht Háítí"
 
 #. name for FIN
 msgid "Finland"
@@ -1048,8 +1051,9 @@ msgid "Myanmar"
 msgstr "Maenmar"
 
 #. official_name for MMR
-msgid "Union of Myanmar"
-msgstr "Aontas Maenmar"
+#, fuzzy
+msgid "Republic of Myanmar"
+msgstr "Poblacht na Guáine"
 
 #. name for NAM
 msgid "Namibia"
@@ -1115,13 +1119,9 @@ msgstr "An Nigéir"
 msgid "Federal Republic of Nigeria"
 msgstr "Poblacht Chónaidhme na Nigéire"
 
-#. name for NIU
+#. name for NIU, official_name for NIU
 msgid "Niue"
 msgstr "Niue"
-
-#. official_name for NIU
-msgid "Republic of Niue"
-msgstr "Poblacht Niue"
 
 #. name for NFK
 msgid "Norfolk Island"
@@ -1851,15 +1851,3 @@ msgstr "An Iúgslaiv, Poblacht Shóisialach Chónaidhme"
 #. historic names for ZAR (withdrawn 1997-07-14)
 msgid "Zaire, Republic of"
 msgstr "Poblacht na Sáíre"
-
-#~ msgid "Republic of Bolivia"
-#~ msgstr "Poblacht na Bolaive"
-
-#~ msgid "Saint Helena"
-#~ msgstr "San Héilin"
-
-#~ msgid "Kingdom of Nepal"
-#~ msgstr "Ríocht Neipeal"
-
-#~ msgid "Republic of Montenegro"
-#~ msgstr "Poblacht Mhontainéagró"

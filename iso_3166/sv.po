@@ -9,9 +9,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_3166 3.26\n"
-"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth.debian.org>\n"
-"POT-Creation-Date: 2010-12-23 20:09+0100\n"
+"Project-Id-Version: iso_3166\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
+"debian.org>\n"
+"POT-Creation-Date: 2011-06-17 19:13+0200\n"
 "PO-Revision-Date: 2011-06-22 11:26+0100\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
@@ -242,7 +243,8 @@ msgid "Bolivia"
 msgstr "Bolivia"
 
 #. name for BES, official_name for BES
-msgid "Bonaire, Saint Eustatius and Saba"
+#, fuzzy
+msgid "Bonaire, Sint Eustatius and Saba"
 msgstr "Bonaire, Saint Eustatius och Saba"
 
 # BA
@@ -602,10 +604,10 @@ msgstr "Färöarna"
 msgid "Fiji"
 msgstr "Fiji"
 
-# official_name for FJI
 #. official_name for FJI
-msgid "Republic of the Fiji Islands"
-msgstr "Republiken Fijiöarna"
+#, fuzzy
+msgid "Republic of Fiji"
+msgstr "Republiken Haiti"
 
 # FI
 #. name for FIN
@@ -1256,11 +1258,10 @@ msgstr "Republiken Moçambique"
 msgid "Myanmar"
 msgstr "Myanmar"
 
-# Osäker.
-# MM
 #. official_name for MMR
-msgid "Union of Myanmar"
-msgstr "Unionen Myanmar"
+#, fuzzy
+msgid "Republic of Myanmar"
+msgstr "Republiken Guyana"
 
 # NA
 #. name for NAM
@@ -1340,13 +1341,9 @@ msgid "Federal Republic of Nigeria"
 msgstr "Förbundsrepubliken Nigeria"
 
 # NU
-#. name for NIU
+#. name for NIU, official_name for NIU
 msgid "Niue"
 msgstr "Niue"
-
-#. official_name for NIU
-msgid "Republic of Niue"
-msgstr "Republiken Niue"
 
 #. name for NFK
 msgid "Norfolk Island"
