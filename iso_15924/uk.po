@@ -7,11 +7,10 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2010, 2011.
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_15924\n"
-"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
-"debian.org>\n"
+"Project-Id-Version: iso_15924 3.27\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth.debian.org>\n"
 "POT-Creation-Date: 2011-06-24 20:06+0200\n"
-"PO-Revision-Date: 2011-01-02 17:51+0200\n"
+"PO-Revision-Date: 2011-07-08 18:08+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <translation-team-uk@lists.sourceforge.net>\n"
 "Language: uk\n"
@@ -19,8 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 1.2\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. name for Afak
 msgid "Afaka"
@@ -223,9 +221,8 @@ msgid "Pahawh Hmong"
 msgstr "пахау хмонг"
 
 #. name for Hrkt
-#, fuzzy
 msgid "Japanese syllabaries (alias for Hiragana + Katakana)"
-msgstr "японська (назва для хань + хірагани + катакани)"
+msgstr "японська складова (назва для хірагани + катакани)"
 
 #. name for Hung
 msgid "Old Hungarian"
@@ -273,7 +270,7 @@ msgstr "каннада"
 
 #. name for Khoj
 msgid "Khojki"
-msgstr ""
+msgstr "хойкі"
 
 #. name for Kore
 msgid "Korean (alias for Hangul + Han)"
@@ -360,7 +357,6 @@ msgid "Meroitic Cursive"
 msgstr "мероїчна (курсивна)"
 
 #. name for Mero
-#, fuzzy
 msgid "Meroitic Hieroglyphs"
 msgstr "мероїтська (ієрогліфічна)"
 
@@ -606,7 +602,7 @@ msgstr "тибетська"
 
 #. name for Tirh
 msgid "Tirhuta"
-msgstr ""
+msgstr "тіргута"
 
 #. name for Ugar
 msgid "Ugaritic"
@@ -663,3 +659,9 @@ msgstr "код для невизначеної писемності"
 #. name for Zzzz
 msgid "Code for uncoded script"
 msgstr "код для писемності без коду"
+
+#~ msgid "(alias for Hiragana + Katakana)"
+#~ msgstr "(назва для хірагани + катакани)"
+
+#~ msgid "Sindhi"
+#~ msgstr "синдхі"
