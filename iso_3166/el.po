@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2011-08-11 13:54+0200\n"
+"POT-Creation-Date: 2011-08-11 14:09+0200\n"
 "PO-Revision-Date: 2011-06-27 14:46+0200\n"
 "Last-Translator: Vasileiou Thomas <vathomas@wildmail.com>\n"
 "Language-Team: Greek <debian-l10n-greek@lists.debian.org>\n"
@@ -205,6 +205,10 @@ msgstr "Πολυεθνική Πολιτεία της Βολιβίας"
 msgid "Bolivia"
 msgstr "Βολιβία"
 
+#. name for BES, official_name for BES
+msgid "Bonaire, Sint Eustatius and Saba"
+msgstr "Μποναίρ, Άγιος Ευστράτιος και Σάμπα"
+
 #. name for BIH
 msgid "Bosnia and Herzegovina"
 msgstr "Βοσνία-Ερζεγοβίνη"
@@ -395,6 +399,10 @@ msgstr "Κούβα"
 msgid "Republic of Cuba"
 msgstr "Δημοκρατία της Κούβας"
 
+#. name for CUW, official_name for CUW
+msgid "Curaçao"
+msgstr "Κουρακάο"
+
 #. name for CYP
 msgid "Cyprus"
 msgstr "Κύπρος"
@@ -501,9 +509,8 @@ msgid "Fiji"
 msgstr "Φίτζι"
 
 #. official_name for FJI
-#, fuzzy
-msgid "Republic of the Fiji Islands"
-msgstr "Δημοκρατία των Νήσων Μάρσαλ"
+msgid "Republic of Fiji"
+msgstr "Δημοκρατία των Φίντζι"
 
 #. name for FIN
 msgid "Finland"
@@ -1044,8 +1051,7 @@ msgid "Myanmar"
 msgstr "Μιανμάρ"
 
 #. official_name for MMR
-#, fuzzy
-msgid "Union of Myanmar"
+msgid "Republic of Myanmar"
 msgstr "Δημοκρατία της Μιανμάρ"
 
 #. name for NAM
@@ -1081,10 +1087,6 @@ msgstr "Ολλανδία"
 msgid "Kingdom of the Netherlands"
 msgstr "Βασίλειο των Κάτω Χωρών"
 
-#. name for ANT, historic names for ANT (withdrawn 1993-07-12)
-msgid "Netherlands Antilles"
-msgstr "Ολλανδικές Αντίλλες"
-
 #. name for NCL
 msgid "New Caledonia"
 msgstr "Νέα Καληδονία"
@@ -1118,14 +1120,9 @@ msgstr "Νιγηρία"
 msgid "Federal Republic of Nigeria"
 msgstr "Ομοσπονδιακή Δημοκρατία της Νιγηρίας"
 
-#. name for NIU
+#. name for NIU, official_name for NIU
 msgid "Niue"
 msgstr "Νίουε"
-
-#. official_name for NIU
-#, fuzzy
-msgid "Republic of Niue"
-msgstr "Δημοκρατία του Ναουρού"
 
 # or "Δημοκρατία του Νιούε"
 #. name for NFK
@@ -1278,9 +1275,8 @@ msgid "Saint Barthélemy"
 msgstr "Άγιος Βαρθολομαίος"
 
 #. name for SHN
-#, fuzzy
-msgid "Saint Helena"
-msgstr "Αγία Λουκία"
+msgid "Saint Helena, Ascension and Tristan da Cunha"
+msgstr "Αγία Ελένη, Ascension και Tristan da Cunha"
 
 #. name for KNA
 msgid "Saint Kitts and Nevis"
@@ -1374,6 +1370,14 @@ msgstr "Σιγκαπούρη"
 msgid "Republic of Singapore"
 msgstr "Δημοκρατία της Σιγκαπούρης"
 
+#. name for SXM
+msgid "Sint Maarten"
+msgstr "Άγιος Μαρτίνος"
+
+#. official_name for SXM
+msgid "Sint Maarten (Dutch part)"
+msgstr "Άγιος Μαρτίνος (Ολλανδικό τμήμα)"
+
 #. name for SVK
 msgid "Slovakia"
 msgstr "Σλοβακία"
@@ -1430,7 +1434,7 @@ msgstr "Σρι Λάνκα"
 msgid "Democratic Socialist Republic of Sri Lanka"
 msgstr "Λαϊκή Σοσιαλιστική Δημοκρατία της Σρι Λάνκα"
 
-#. name for SDN
+#. name for SDN, name for SSD
 msgid "Sudan"
 msgstr "Σουδάν"
 
@@ -1445,11 +1449,6 @@ msgstr "Σουρινάμ"
 #. official_name for SUR
 msgid "Republic of Suriname"
 msgstr "Δημοκρατία του Σουρινάμ"
-
-#. name for SSD
-#, fuzzy
-msgid "South Sudan"
-msgstr "Σουδάν"
 
 #. official_name for SSD
 #, fuzzy
@@ -1776,6 +1775,10 @@ msgstr "Νήσος Τζόνστον"
 #. historic names for MID (withdrawn 1986)
 msgid "Midway Islands"
 msgstr "Νήσοι Μίντγουεϊ"
+
+#. historic names for ANT (withdrawn 1993-07-12)
+msgid "Netherlands Antilles"
+msgstr "Ολλανδικές Αντίλλες"
 
 #. historic names for NTZ (withdrawn 1993-07-12)
 msgid "Neutral Zone"

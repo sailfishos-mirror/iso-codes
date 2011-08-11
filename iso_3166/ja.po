@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2011-08-11 13:54+0200\n"
+"POT-Creation-Date: 2011-08-11 14:09+0200\n"
 "PO-Revision-Date: 2011-07-09 08:07+0900\n"
 "Last-Translator: Yasuaki Taniguchi <yasuakit@gmail.com>\n"
 "Language-Team: Japanese <translation-team-ja@lists.sourceforge.net>\n"
@@ -217,6 +217,12 @@ msgstr "ボリビア多民族国"
 msgid "Bolivia"
 msgstr "ボリビア"
 
+# オランダ領ボネール島、シントユースタティウス島、サバ島
+# カリブ海アンティル諸島にある島
+#. name for BES, official_name for BES
+msgid "Bonaire, Sint Eustatius and Saba"
+msgstr "ボネール、シントユースタティウス及びサバ"
+
 #. name for BIH
 msgid "Bosnia and Herzegovina"
 msgstr "ボスニア・ヘルツェゴビナ"
@@ -416,6 +422,12 @@ msgstr "キューバ"
 msgid "Republic of Cuba"
 msgstr "キューバ共和国"
 
+# オランダ領キュラソー島
+# カリブ海アンティル諸島にある島
+#. name for CUW, official_name for CUW
+msgid "Curaçao"
+msgstr "キュラソー"
+
 #. name for CYP
 msgid "Cyprus"
 msgstr "キプロス"
@@ -527,9 +539,8 @@ msgid "Fiji"
 msgstr "フィジー"
 
 #. official_name for FJI
-#, fuzzy
-msgid "Republic of the Fiji Islands"
-msgstr "マーシャル諸島共和国"
+msgid "Republic of Fiji"
+msgstr "フィジー共和国"
 
 #. name for FIN
 msgid "Finland"
@@ -1098,8 +1109,7 @@ msgid "Myanmar"
 msgstr "ミャンマー"
 
 #. official_name for MMR
-#, fuzzy
-msgid "Union of Myanmar"
+msgid "Republic of Myanmar"
 msgstr "ミャンマー共和国"
 
 #. name for NAM
@@ -1133,10 +1143,6 @@ msgstr "オランダ"
 #. official_name for NLD
 msgid "Kingdom of the Netherlands"
 msgstr "オランダ王国"
-
-#. name for ANT, historic names for ANT (withdrawn 1993-07-12)
-msgid "Netherlands Antilles"
-msgstr "オランダ領アンティル諸島"
 
 # オーストラリアの東、仏領ニューカレドニア島
 # ニューカレドニア本島と周辺の諸島
@@ -1175,14 +1181,9 @@ msgstr "ナイジェリア連邦共和国"
 # ニュージーランド自由連合ニウエ
 # トンガの東280km
 # 日本は公式な国家として承認していない
-#. name for NIU
+#. name for NIU, official_name for NIU
 msgid "Niue"
 msgstr "ニウエ"
-
-#. official_name for NIU
-#, fuzzy
-msgid "Republic of Niue"
-msgstr "ナウル共和国"
 
 # オーストラリア領ノーフォーク島
 # シドニー北東1700km 太平洋上の島
@@ -1348,10 +1349,12 @@ msgstr "ルワンダ共和国"
 msgid "Saint Barthélemy"
 msgstr "サンバルテルミ"
 
+# 英領セントヘレナ
+# アセンション島、トリスタン・ダ・クーニャ島、ゴフ島などを含む
+# 大西洋の中央海嶺に散らばる島々
 #. name for SHN
-#, fuzzy
-msgid "Saint Helena"
-msgstr "セントルシア"
+msgid "Saint Helena, Ascension and Tristan da Cunha"
+msgstr "セントヘレナ、アセンション及びトリスタン・ダ・クーニャ"
 
 # 外務省ではセントクリストファー・ネーヴィス表記
 # 注釈に
@@ -1456,6 +1459,16 @@ msgstr "シンガポール"
 msgid "Republic of Singapore"
 msgstr "シンガポール共和国"
 
+#. name for SXM
+msgid "Sint Maarten"
+msgstr "サンマルタン"
+
+# サンマルタンは北側がフランス領、南側がとオランダ領となっている
+# ここはオランダ領部分
+#. official_name for SXM
+msgid "Sint Maarten (Dutch part)"
+msgstr "サンマルタン (オランダ領)"
+
 #. name for SVK
 msgid "Slovakia"
 msgstr "スロバキア"
@@ -1516,7 +1529,7 @@ msgstr "スリランカ"
 msgid "Democratic Socialist Republic of Sri Lanka"
 msgstr "スリランカ民主社会主義共和国"
 
-#. name for SDN
+#. name for SDN, name for SSD
 msgid "Sudan"
 msgstr "スーダン"
 
@@ -1531,11 +1544,6 @@ msgstr "スリナム"
 #. official_name for SUR
 msgid "Republic of Suriname"
 msgstr "スリナム共和国"
-
-#. name for SSD
-#, fuzzy
-msgid "South Sudan"
-msgstr "スーダン"
 
 #. official_name for SSD
 #, fuzzy
@@ -1892,6 +1900,10 @@ msgstr "ジョンストン島"
 #. historic names for MID (withdrawn 1986)
 msgid "Midway Islands"
 msgstr "ミッドウェー諸島"
+
+#. historic names for ANT (withdrawn 1993-07-12)
+msgid "Netherlands Antilles"
+msgstr "オランダ領アンティル諸島"
 
 #. historic names for NTZ (withdrawn 1993-07-12)
 msgid "Neutral Zone"
