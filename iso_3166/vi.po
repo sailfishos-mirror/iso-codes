@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2011-06-17 19:13+0200\n"
+"POT-Creation-Date: 2011-08-11 13:54+0200\n"
 "PO-Revision-Date: 2010-03-06 18:51+0930\n"
 "Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
 "Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
@@ -200,10 +200,6 @@ msgstr "Quốc gia Đa Dân tộc Bô-li-vi-a"
 msgid "Bolivia"
 msgstr "Bô-li-vi-a"
 
-#. name for BES, official_name for BES
-msgid "Bonaire, Sint Eustatius and Saba"
-msgstr ""
-
 #. name for BIH
 msgid "Bosnia and Herzegovina"
 msgstr "Bô-xni-a và Hẻ-xê-gô-vi-na"
@@ -392,10 +388,6 @@ msgstr "Cu-ba"
 msgid "Republic of Cuba"
 msgstr "Cộng hoà Cu-ba"
 
-#. name for CUW, official_name for CUW
-msgid "Curaçao"
-msgstr ""
-
 #. name for CYP
 msgid "Cyprus"
 msgstr "Síp"
@@ -502,8 +494,8 @@ msgstr "Phi-gi"
 
 #. official_name for FJI
 #, fuzzy
-msgid "Republic of Fiji"
-msgstr "Cộng hoà Ha-i-ti"
+msgid "Republic of the Fiji Islands"
+msgstr "Nước Cộng Hoà Quần Đảo Ma-san"
 
 #. name for FIN
 msgid "Finland"
@@ -1043,7 +1035,7 @@ msgstr "Miến Điện"
 
 #. official_name for MMR
 #, fuzzy
-msgid "Republic of Myanmar"
+msgid "Union of Myanmar"
 msgstr "Cộng hoà Guy-a-na"
 
 #. name for NAM
@@ -1078,6 +1070,10 @@ msgstr "Hoà Lan"
 msgid "Kingdom of the Netherlands"
 msgstr "Vương Quốc Hoà Lan"
 
+#. name for ANT, historic names for ANT (withdrawn 1993-07-12)
+msgid "Netherlands Antilles"
+msgstr "An-thi-li Hoà Lan"
+
 #. name for NCL
 msgid "New Caledonia"
 msgstr "Niu Ca-lê-đô-ni-a"
@@ -1110,9 +1106,14 @@ msgstr "Ni-giê-ri-a"
 msgid "Federal Republic of Nigeria"
 msgstr "Cộng hoà Liên bang Ni-giê-ri-a"
 
-#. name for NIU, official_name for NIU
+#. name for NIU
 msgid "Niue"
 msgstr "Ni-u-e"
+
+#. official_name for NIU
+#, fuzzy
+msgid "Republic of Niue"
+msgstr "Cộng hoà Nau-ru"
 
 #. name for NFK
 msgid "Norfolk Island"
@@ -1259,8 +1260,9 @@ msgid "Saint Barthélemy"
 msgstr "Saint Barthélemy"
 
 #. name for SHN
-msgid "Saint Helena, Ascension and Tristan da Cunha"
-msgstr "Xan He-lê-na, A-xen-siónh và Tợ-rí-x-tan đa Cun-ha"
+#, fuzzy
+msgid "Saint Helena"
+msgstr "Xan Lu-xi"
 
 #. name for KNA
 msgid "Saint Kitts and Nevis"
@@ -1354,16 +1356,6 @@ msgstr "Xin-ga-po"
 msgid "Republic of Singapore"
 msgstr "Cộng hoà Xin-ga-po"
 
-#. name for SXM
-#, fuzzy
-msgid "Sint Maarten"
-msgstr "Saint Barthélemy"
-
-#. official_name for SXM
-#, fuzzy
-msgid "Sint Maarten (Dutch part)"
-msgstr "Saint Martin (vùng Pháp)"
-
 #. name for SVK
 msgid "Slovakia"
 msgstr "Xlô-vác"
@@ -1435,6 +1427,16 @@ msgstr "Xu-ri-na-me"
 #. official_name for SUR
 msgid "Republic of Suriname"
 msgstr "Nước Cộng Hoà Xu-ri-na-me"
+
+#. name for SSD
+#, fuzzy
+msgid "South Sudan"
+msgstr "Xu-đanh"
+
+#. official_name for SSD
+#, fuzzy
+msgid "Republic of South Sudan"
+msgstr "Nước Cộng Hoà Xu-đanh"
 
 #. name for SJM
 msgid "Svalbard and Jan Mayen"
@@ -1755,10 +1757,6 @@ msgstr "Đảo Gian-x-tợnh"
 #. historic names for MID (withdrawn 1986)
 msgid "Midway Islands"
 msgstr "Quần đảo Mit-ouê"
-
-#. historic names for ANT (withdrawn 1993-07-12)
-msgid "Netherlands Antilles"
-msgstr "An-thi-li Hoà Lan"
 
 #. historic names for NTZ (withdrawn 1993-07-12)
 msgid "Neutral Zone"

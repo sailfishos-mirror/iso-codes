@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: iso_3166\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2011-06-17 19:13+0200\n"
+"POT-Creation-Date: 2011-08-11 13:54+0200\n"
 "PO-Revision-Date: 2011-06-20 08:30+0200\n"
 "Last-Translator: Toni Hermoso Pulido <toniher@softcatala.org>\n"
 "Language-Team: Catalan <ca@dodds.net>\n"
@@ -202,11 +202,6 @@ msgstr "Estat Plurinacional de Bolívia"
 msgid "Bolivia"
 msgstr "Bolívia"
 
-#. name for BES, official_name for BES
-#, fuzzy
-msgid "Bonaire, Sint Eustatius and Saba"
-msgstr "Bonaire, Saint Eustatius i Saba"
-
 #. name for BIH
 msgid "Bosnia and Herzegovina"
 msgstr "Bòsnia i Hercegovina"
@@ -395,10 +390,6 @@ msgstr "Cuba"
 msgid "Republic of Cuba"
 msgstr "República de Cuba"
 
-#. name for CUW, official_name for CUW
-msgid "Curaçao"
-msgstr "Curaçao"
-
 #. name for CYP
 msgid "Cyprus"
 msgstr "Xipre"
@@ -505,8 +496,8 @@ msgstr "Fiji"
 
 #. official_name for FJI
 #, fuzzy
-msgid "Republic of Fiji"
-msgstr "República d'Haití"
+msgid "Republic of the Fiji Islands"
+msgstr "República de les Illes Marshall"
 
 #. name for FIN
 msgid "Finland"
@@ -1047,7 +1038,7 @@ msgstr "Myanmar"
 
 #. official_name for MMR
 #, fuzzy
-msgid "Republic of Myanmar"
+msgid "Union of Myanmar"
 msgstr "República Cooperativa de Guyana"
 
 #. name for NAM
@@ -1082,6 +1073,10 @@ msgstr "Països Baixos"
 msgid "Kingdom of the Netherlands"
 msgstr "Regne dels Països Baixos"
 
+#. name for ANT, historic names for ANT (withdrawn 1993-07-12)
+msgid "Netherlands Antilles"
+msgstr "Antilles Neerlandeses"
+
 #. name for NCL
 msgid "New Caledonia"
 msgstr "Nova Caledònia"
@@ -1114,9 +1109,14 @@ msgstr "Nigèria"
 msgid "Federal Republic of Nigeria"
 msgstr "República Federal de Nigèria"
 
-#. name for NIU, official_name for NIU
+#. name for NIU
 msgid "Niue"
 msgstr "Niue"
+
+#. official_name for NIU
+#, fuzzy
+msgid "Republic of Niue"
+msgstr "República de Nauru"
 
 #. name for NFK
 msgid "Norfolk Island"
@@ -1263,8 +1263,9 @@ msgid "Saint Barthélemy"
 msgstr "Saint Barthélemy"
 
 #. name for SHN
-msgid "Saint Helena, Ascension and Tristan da Cunha"
-msgstr "Saint Helena, Ascension i Tristan da Cunha"
+#, fuzzy
+msgid "Saint Helena"
+msgstr "Saint Lucia"
 
 #. name for KNA
 msgid "Saint Kitts and Nevis"
@@ -1358,14 +1359,6 @@ msgstr "Singapur"
 msgid "Republic of Singapore"
 msgstr "República de Singapur"
 
-#. name for SXM
-msgid "Sint Maarten"
-msgstr "Sint Maarten"
-
-#. official_name for SXM
-msgid "Sint Maarten (Dutch part)"
-msgstr "Sint Maarten (part neerlandesa)"
-
 #. name for SVK
 msgid "Slovakia"
 msgstr "Eslovàquia"
@@ -1437,6 +1430,16 @@ msgstr "Surinam"
 #. official_name for SUR
 msgid "Republic of Suriname"
 msgstr "República de Surinam"
+
+#. name for SSD
+#, fuzzy
+msgid "South Sudan"
+msgstr "Sudan"
+
+#. official_name for SSD
+#, fuzzy
+msgid "Republic of South Sudan"
+msgstr "República del Sudan"
 
 #. name for SJM
 msgid "Svalbard and Jan Mayen"
@@ -1757,10 +1760,6 @@ msgstr "Illa Johnston"
 #. historic names for MID (withdrawn 1986)
 msgid "Midway Islands"
 msgstr "Illes Midway"
-
-#. historic names for ANT (withdrawn 1993-07-12)
-msgid "Netherlands Antilles"
-msgstr "Antilles Neerlandeses"
 
 #. historic names for NTZ (withdrawn 1993-07-12)
 msgid "Neutral Zone"
