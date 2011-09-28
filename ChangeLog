@@ -5,6 +5,8 @@ UNRELEASED
   [ ISO 3166-2 ]
   * Fix code error for Vakaga (CF-VK). Closes: alioth#313363
     Thanks to Vitali Yakavenka for spotting them and providing the fix
+  * Normalize all subdivision codes to <country_code>-<code> instead of
+    using either spaces or dashes.aCloses: alioth#313369
 
   [ ISO 3166 translations ]
   * Sinhala by Danishka Navin. Closes: #640933
