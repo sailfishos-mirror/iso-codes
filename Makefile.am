@@ -36,5 +36,5 @@ upload:
 	&& [[ -f "iso-codes-$(VERSION).tar.bz2.sig" ]] \
 	&& [[ -n "$(ALIOTH_USERNAME)" ]]; then \
 		scp iso-codes-$(VERSION).tar.* \
-		$(ALIOTH_USERNAME)@alioth.debian.org:/var/lib/gforge/chroot/ftproot/pub/pkg-isocodes; \
+		$(ALIOTH_USERNAME)@alioth.debian.org:/srv/home/groups/pkg-isocodes/htdocs/downloads; \
 	fi
