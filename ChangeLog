@@ -1,3 +1,14 @@
+iso-codes 3.30
+--------------
+UNRELEASED
+
+  [ ISO 3166-2 ]
+  * Add district suffix for district of Latvia. That helps differentiating
+    strings. LP: #882216
+
+  [ ISO 3166-2 translations ]
+  * French by Christian Perrier.
+
 iso-codes 3.29
 --------------
 Tobias Quathamer <toddy@debian.org>
@@ -8,11 +19,6 @@ Sat, 1 October 2011
     Thanks to Vitali Yakavenka for spotting them and providing the fix
   * Normalize all subdivision codes to <country_code>-<code> instead of
     using either spaces or dashes.aCloses: alioth#313369
-  * Add district suffix for district of Latvia. That helps differentiating
-    strings. LP: #882216
-
-  [ ISO 3166-2 translations ]
-  * French by Christian Perrier.
 
   [ ISO 3166 translations ]
   * Sinhala by Danishka Navin. Closes: #640933
