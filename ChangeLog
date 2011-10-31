@@ -2,6 +2,10 @@ iso-codes 3.30
 --------------
 UNRELEASED
 
+  [ ISO 3166 ]
+  * Properly capitalize "Republic" in Venezuela name. Translations
+    unfuzzied. Closes: #647148
+
   [ ISO 3166-2 ]
   * Add district suffix for district of Latvia. That helps differentiating
     strings. LP: #882216
