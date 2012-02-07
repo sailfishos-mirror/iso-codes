@@ -1,3 +1,14 @@
+iso-codes 3.32.2
+----------------
+Tobias Quathamer <toddy@debian.org>
+Tue, 7 February 2012
+
+  [ All translations ]
+  * Fix and normalize "Plural-Forms:" formula, because wrong or
+    missing formulas can lead to errors in programs which rely on
+    correct formulas. Closes: #658940
+
+
 iso-codes 3.32.1
 ----------------
 Tobias Quathamer <toddy@debian.org>
