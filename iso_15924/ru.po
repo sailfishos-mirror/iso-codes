@@ -6,15 +6,14 @@
 # Copyright (C)
 #
 # Pavel Maryanov <acid_jack@ukr.net>, 2009.
-# Yuri Kozlov <yuray@komyakino.ru>, 2010, 2011.
+# Yuri Kozlov <yuray@komyakino.ru>, 2010, 2011, 2012.
 # Pavel Maryanov <acid@jack.kiev.ua>, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_15924\n"
-"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
-"debian.org>\n"
+"Project-Id-Version: iso_15924 3.33\n"
+"Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth.debian.org>\n"
 "POT-Creation-Date: 2012-02-09 22:36+0100\n"
-"PO-Revision-Date: 2011-07-09 10:10+0400\n"
+"PO-Revision-Date: 2012-03-06 21:21+0400\n"
 "Last-Translator: Yuri Kozlov <yuray@komyakino.ru>\n"
 "Language-Team: Russian <gnu@mx.ru>\n"
 "Language: ru\n"
@@ -22,8 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 1.0\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. name for Afak
 msgid "Afaka"
@@ -223,7 +221,7 @@ msgstr "Хирагана"
 
 #. name for Hluw
 msgid "Anatolian Hieroglyphs (Luwian Hieroglyphs, Hittite Hieroglyphs)"
-msgstr ""
+msgstr "Анатолийские иероглифы (хетто-лувийские иероглифы)"
 
 #. name for Hmng
 msgid "Pahawh Hmong"
@@ -668,3 +666,9 @@ msgstr "Общепринятая"
 #. name for Zzzz
 msgid "Code for uncoded script"
 msgstr "Неизвестная или недействительная письменность"
+
+#~ msgid "(alias for Hiragana + Katakana)"
+#~ msgstr "Катакана или хирагана"
+
+#~ msgid "Sindhi"
+#~ msgstr "Синдхи"
