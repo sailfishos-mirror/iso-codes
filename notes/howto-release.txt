@@ -44,10 +44,10 @@ $ make release
 Use the Makefile target "sign-release" to sign the tarballs.
 $ make sign-release
 
-Upload the tarballs and your signatures to the FTP area of Alioth.
+Upload the tarballs and your signatures to Alioth.
 $ ALIOTH_USERNAME=<yourname> make upload
 
-Please do not remove previous versions from the FTP area of Alioth,
+Please do not remove previous versions from Alioth,
 because they might still be needed by some distributions.
 
 You can now clean up.
