@@ -29,8 +29,7 @@ sign-release: iso-codes-$(VERSION).tar.bz2
 .PHONY: upload
 upload:
 	@if [[ "$(ALIOTH_USERNAME)" == "" ]]; then \
-		echo "Please set your Alioth username. Example command line:"; \
-		echo "  ALIOTH_USERNAME=toddy make upload"; \
+		ALIOTH_USERNAME="$(USERNAME)"; \
 	fi
 	@if [[ -f "iso-codes-$(VERSION).tar.bz2" ]] \
 	&& [[ -f "iso-codes-$(VERSION).tar.bz2.sig" ]] \
