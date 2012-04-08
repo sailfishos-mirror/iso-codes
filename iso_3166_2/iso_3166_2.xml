@@ -2946,16 +2946,6 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="FR-V"	name="Rhône-Alpes" />
 </iso_3166_subset>
-<iso_3166_subset type="Overseas region/department">
-	<iso_3166_2_entry
-		code="FR-GP"	name="Guadeloupe" />
-	<iso_3166_2_entry
-		code="FR-GF"	name="Guyane" />
-	<iso_3166_2_entry
-		code="FR-MQ"	name="Martinique" />
-	<iso_3166_2_entry
-		code="FR-RE"	name="Réunion" />
-</iso_3166_subset>
 <iso_3166_subset type="Metropolitan department">
 	<iso_3166_2_entry
 		code="FR-01"	name="Ain"	parent="V" />
@@ -3150,13 +3140,23 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="FR-78"	name="Yvelines"	parent="J" />
 </iso_3166_subset>
+<iso_3166_subset type="Overseas region/department">
+	<iso_3166_2_entry
+		code="FR-GP"	name="Guadeloupe" />
+	<iso_3166_2_entry
+		code="FR-GF"	name="Guyane" />
+	<iso_3166_2_entry
+		code="FR-MQ"	name="Martinique" />
+	<iso_3166_2_entry
+		code="FR-YT"	name="Mayotte" />
+	<iso_3166_2_entry
+		code="FR-RE"	name="Réunion" />
+</iso_3166_subset>
 <iso_3166_subset type="Dependency">
 	<iso_3166_2_entry
 		code="FR-CP"	name="Clipperton" />
 </iso_3166_subset>
 <iso_3166_subset type="Overseas territorial collectivity">
-	<iso_3166_2_entry
-		code="FR-YT"	name="Mayotte" />
 	<iso_3166_2_entry
 		code="FR-NC"	name="Nouvelle-Calédonie" />
 	<iso_3166_2_entry
