@@ -466,13 +466,13 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="AZ-NX"	name="Naxçıvan" />
 </iso_3166_subset>
-<iso_3166_subset type="City">
-	<iso_3166_2_entry
-		code="AZ-AB"	name="Əli Bayramlı" />
+<iso_3166_subset type="Municipality">
 	<iso_3166_2_entry
 		code="AZ-BA"	name="Bakı" />
 	<iso_3166_2_entry
 		code="AZ-GA"	name="Gəncə" />
+	<iso_3166_2_entry
+		code="AZ-XA"	name="Xankəndi" />
 	<iso_3166_2_entry
 		code="AZ-LA"	name="Lənkəran" />
 	<iso_3166_2_entry
@@ -480,13 +480,13 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="AZ-NA"	name="Naftalan" />
 	<iso_3166_2_entry
-		code="AZ-SA"	name="Şəki" />
+		code="AZ-NV"	name="Naxçıvan"  parent="NX" />
 	<iso_3166_2_entry
 		code="AZ-SM"	name="Sumqayıt" />
 	<iso_3166_2_entry
-		code="AZ-SS"	name="Şuşa" />
+		code="AZ-SA"	name="Şəki" />
 	<iso_3166_2_entry
-		code="AZ-XA"	name="Xankəndi" />
+		code="AZ-SR"	name="Şirvan" />
 	<iso_3166_2_entry
 		code="AZ-YE"	name="Yevlax" />
 </iso_3166_subset>
@@ -510,9 +510,9 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="AZ-BAL"	name="Balakən" />
 	<iso_3166_2_entry
-		code="AZ-BAR"	name="Bərdə" />
-	<iso_3166_2_entry
 		code="AZ-BEY"	name="Beyləqan" />
+	<iso_3166_2_entry
+		code="AZ-BAR"	name="Bərdə" />
 	<iso_3166_2_entry
 		code="AZ-BIL"	name="Biləsuvar" />
 	<iso_3166_2_entry
@@ -534,7 +534,17 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="AZ-GOY"	name="Göyçay" />
 	<iso_3166_2_entry
+		code="AZ-GYG"	name="Göygöl" />
+	<iso_3166_2_entry
 		code="AZ-HAC"	name="Hacıqabul" />
+	<iso_3166_2_entry
+		code="AZ-XAC"	name="Xaçmaz" />
+	<iso_3166_2_entry
+		code="AZ-XIZ"	name="Xızı" />
+	<iso_3166_2_entry
+		code="AZ-XCI"	name="Xocalı" />
+	<iso_3166_2_entry
+		code="AZ-XVD"	name="Xocavənd" />
 	<iso_3166_2_entry
 		code="AZ-IMI"	name="İmişli" />
 	<iso_3166_2_entry
@@ -542,23 +552,9 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="AZ-KAL"	name="Kəlbəcər" />
 	<iso_3166_2_entry
+		code="AZ-KAN"	name="Kǝngǝrli"  parent="NX" />
+	<iso_3166_2_entry
 		code="AZ-KUR"	name="Kürdəmir" />
-	<iso_3166_2_entry
-		code="AZ-LAC"	name="Laçın" />
-	<iso_3166_2_entry
-		code="AZ-LAN"	name="Lənkəran" />
-	<iso_3166_2_entry
-		code="AZ-LER"	name="Lerik" />
-	<iso_3166_2_entry
-		code="AZ-MAS"	name="Masallı" />
-	<iso_3166_2_entry
-		code="AZ-NEF"	name="Neftçala" />
-	<iso_3166_2_entry
-		code="AZ-OGU"	name="Oğuz" />
-	<iso_3166_2_entry
-		code="AZ-ORD"	name="Ordubad"	parent="NX" />
-	<iso_3166_2_entry
-		code="AZ-QAB"	name="Qəbələ" />
 	<iso_3166_2_entry
 		code="AZ-QAX"	name="Qax" />
 	<iso_3166_2_entry
@@ -572,27 +568,45 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="AZ-QUS"	name="Qusar" />
 	<iso_3166_2_entry
+		code="AZ-LAC"	name="Laçın" />
+	<iso_3166_2_entry
+		code="AZ-LER"	name="Lerik" />
+	<iso_3166_2_entry
+		code="AZ-LAN"	name="Lənkəran" />
+	<iso_3166_2_entry
+		code="AZ-MAS"	name="Masallı" />
+	<iso_3166_2_entry
+		code="AZ-NEF"	name="Neftçala" />
+	<iso_3166_2_entry
+		code="AZ-OGU"	name="Oğuz" />
+	<iso_3166_2_entry
+		code="AZ-ORD"	name="Ordubad"	parent="NX" />
+	<iso_3166_2_entry
+		code="AZ-QAB"	name="Qəbələ" />
+	<iso_3166_2_entry
 		code="AZ-SAT"	name="Saatlı" />
 	<iso_3166_2_entry
 		code="AZ-SAB"	name="Sabirabad" />
 	<iso_3166_2_entry
-		code="AZ-SAD"	name="Sədərək"	parent="NX" />
-	<iso_3166_2_entry
-		code="AZ-SAH"	name="Şahbuz"	parent="NX" />
-	<iso_3166_2_entry
-		code="AZ-SAK"	name="Şəki" />
-	<iso_3166_2_entry
 		code="AZ-SAL"	name="Salyan" />
-	<iso_3166_2_entry
-		code="AZ-SMI"	name="Şamaxı" />
-	<iso_3166_2_entry
-		code="AZ-SKR"	name="Şəmkir" />
 	<iso_3166_2_entry
 		code="AZ-SMX"	name="Samux" />
 	<iso_3166_2_entry
-		code="AZ-SAR"	name="Şərur"	parent="NX" />
+		code="AZ-SAD"	name="Sədərək"	parent="NX" />
 	<iso_3166_2_entry
 		code="AZ-SIY"	name="Siyəzən" />
+	<iso_3166_2_entry
+		code="AZ-SBN"	name="Şabran" />
+	<iso_3166_2_entry
+		code="AZ-SAH"	name="Şahbuz"	parent="NX" />
+	<iso_3166_2_entry
+		code="AZ-SMI"	name="Şamaxı" />
+	<iso_3166_2_entry
+		code="AZ-SAK"	name="Şəki" />
+	<iso_3166_2_entry
+		code="AZ-SKR"	name="Şəmkir" />
+	<iso_3166_2_entry
+		code="AZ-SAR"	name="Şərur"	parent="NX" />
 	<iso_3166_2_entry
 		code="AZ-SUS"	name="Şuşa" />
 	<iso_3166_2_entry
@@ -602,23 +616,13 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="AZ-UCA"	name="Ucar" />
 	<iso_3166_2_entry
-		code="AZ-XAC"	name="Xaçmaz" />
-	<iso_3166_2_entry
-		code="AZ-XAN"	name="Xanlar" />
-	<iso_3166_2_entry
-		code="AZ-XIZ"	name="Xızı" />
-	<iso_3166_2_entry
-		code="AZ-XCI"	name="Xocalı" />
-	<iso_3166_2_entry
-		code="AZ-XVD"	name="Xocavənd" />
-	<iso_3166_2_entry
 		code="AZ-YAR"	name="Yardımlı" />
 	<iso_3166_2_entry
 		code="AZ-YEV"	name="Yevlax" />
 	<iso_3166_2_entry
-		code="AZ-ZAN"	name="Zəngilan" />
-	<iso_3166_2_entry
 		code="AZ-ZAQ"	name="Zaqatala" />
+	<iso_3166_2_entry
+		code="AZ-ZAN"	name="Zəngilan" />
 	<iso_3166_2_entry
 		code="AZ-ZAR"	name="Zərdab" />
 </iso_3166_subset>
