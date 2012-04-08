@@ -6969,45 +6969,63 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 	<iso_3166_2_entry
 		code="MV-MLE"	name="Male" />
 </iso_3166_subset>
-<iso_3166_subset type="Atoll">
+<iso_3166_subset type="Province">
 	<iso_3166_2_entry
-		code="MV-02"	name="Alif" />
+		code="MV-SU"	name="South" />
 	<iso_3166_2_entry
-		code="MV-20"	name="Baa" />
+		code="MV-US"	name="Upper South" />
 	<iso_3166_2_entry
-		code="MV-17"	name="Dhaalu" />
+		code="MV-UN"	name="Upper North" />
 	<iso_3166_2_entry
-		code="MV-14"	name="Faafu" />
+		code="MV-CE"	name="Central" />
 	<iso_3166_2_entry
-		code="MV-27"	name="Gaafu Aliff" />
+		code="MV-SC"	name="South Central" />
 	<iso_3166_2_entry
-		code="MV-28"	name="Gaafu Daalu" />
+		code="MV-NC"	name="North Central" />
 	<iso_3166_2_entry
-		code="MV-29"	name="Gnaviyani" />
+		code="MV-NO"	name="North" />
+</iso_3166_subset>
+<iso_3166_subset type="Administrative atoll">
 	<iso_3166_2_entry
-		code="MV-07"	name="Haa Alif" />
+		code="MV-02"	name="Alifu Alifu" parent="NC" />
 	<iso_3166_2_entry
-		code="MV-23"	name="Haa Dhaalu" />
+		code="MV-00"	name="Alifu Dhaalu" parent="NC" />
 	<iso_3166_2_entry
-		code="MV-26"	name="Kaafu" />
+		code="MV-20"	name="Baa" parent="NO" />
 	<iso_3166_2_entry
-		code="MV-05"	name="Laamu" />
+		code="MV-17"	name="Dhaalu" parent="CE" />
 	<iso_3166_2_entry
-		code="MV-03"	name="Lhaviyani" />
+		code="MV-14"	name="Faafu" parent="CE" />
 	<iso_3166_2_entry
-		code="MV-12"	name="Meemu" />
+		code="MV-27"	name="Gaafu Alifu" parent="SC" />
 	<iso_3166_2_entry
-		code="MV-25"	name="Noonu" />
+		code="MV-28"	name="Gaafu Dhaalu" parent="SC" />
 	<iso_3166_2_entry
-		code="MV-13"	name="Raa" />
+		code="MV-29"	name="Gnaviyani" parent="SU" />
 	<iso_3166_2_entry
-		code="MV-01"	name="Seenu" />
+		code="MV-07"	name="Haa Alifu" parent="UN" />
 	<iso_3166_2_entry
-		code="MV-24"	name="Shaviyani" />
+		code="MV-23"	name="Haa Dhaalu" parent="UN" />
 	<iso_3166_2_entry
-		code="MV-08"	name="Thaa" />
+		code="MV-26"	name="Kaafu" parent="NC" />
 	<iso_3166_2_entry
-		code="MV-04"	name="Vaavu" />
+		code="MV-05"	name="Laamu" parent="US" />
+	<iso_3166_2_entry
+		code="MV-03"	name="Lhaviyani" parent="NO" />
+	<iso_3166_2_entry
+		code="MV-12"	name="Meemu" parent="CE" />
+	<iso_3166_2_entry
+		code="MV-25"	name="Noonu" parent="NO" />
+	<iso_3166_2_entry
+		code="MV-13"	name="Raa" parent="NO" />
+	<iso_3166_2_entry
+		code="MV-01"	name="Seenu" parent="SU" />
+	<iso_3166_2_entry
+		code="MV-24"	name="Shaviyani" parent="UN" />
+	<iso_3166_2_entry
+		code="MV-08"	name="Thaa" parent="US" />
+	<iso_3166_2_entry
+		code="MV-04"	name="Vaavu" parent="NC" />
 </iso_3166_subset>
 </iso_3166_country>
 	<!-- Malawi -->
