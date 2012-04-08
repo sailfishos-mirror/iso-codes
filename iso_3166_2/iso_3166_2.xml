@@ -840,29 +840,35 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 </iso_3166_country>
 	<!-- Belgium -->
 <iso_3166_country code="BE">
+<iso_3166_subset type="Region">
+	<iso_3166_2_entry
+		code="BE-BRU"	name="Bruxelles-Capital, Région de;Brussels Hoofdstedelijk Gewest" />
+	<iso_3166_2_entry
+		code="BE-VLG"	name="Vlaams Gewest" />
+	<iso_3166_2_entry
+		code="BE-WAL"	name="wallone, Région" />
+</iso_3166_subset>
 <iso_3166_subset type="Province">
 	<iso_3166_2_entry
-		code="BE-VAN"	name="Antwerpen" />
+		code="BE-VAN"	name="Antwerpen" parent="VLG"/>
 	<iso_3166_2_entry
-		code="BE-WBR"	name="Brabant Wallon" />
+		code="BE-WBR"	name="Brabant wallon" parent="WAL"/>
 	<iso_3166_2_entry
-		code="BE-BRU"	name="Brussels-Capital Region" />
+		code="BE-WHT"	name="Hainaut"  parent="WAL"/>
 	<iso_3166_2_entry
-		code="BE-WHT"	name="Hainaut" />
+		code="BE-WLG"	name="Liège"  parent="WAL"/>
 	<iso_3166_2_entry
-		code="BE-WLG"	name="Liege" />
+		code="BE-VLI"	name="Limburg"  parent="VLG"/>
 	<iso_3166_2_entry
-		code="BE-VLI"	name="Limburg" />
+		code="BE-WLX"	name="Luxembourg"  parent="WAL"/>
 	<iso_3166_2_entry
-		code="BE-WLX"	name="Luxembourg" />
+		code="BE-WNA"	name="Namur"  parent="WAL"/>
 	<iso_3166_2_entry
-		code="BE-WNA"	name="Namur" />
+		code="BE-VOV"	name="Oost-Vlaanderen"  parent="VLG"/>
 	<iso_3166_2_entry
-		code="BE-VOV"	name="Oost-Vlaanderen" />
+		code="BE-VBR"	name="Vlaams-Brabant"  parent="VLG"/>
 	<iso_3166_2_entry
-		code="BE-VBR"	name="Vlaams-Brabant" />
-	<iso_3166_2_entry
-		code="BE-VWV"	name="West-Vlaanderen" />
+		code="BE-VWV"	name="West-Vlaanderen"  parent="VLG"/>
 </iso_3166_subset>
 </iso_3166_country>
 	<!-- Burkina-Faso -->
