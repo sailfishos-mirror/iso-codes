@@ -3904,25 +3904,27 @@ Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.
 </iso_3166_country>
 	<!-- Equatorial Guinea -->
 <iso_3166_country code="GQ">
-<iso_3166_subset type="Province">
+<iso_3166_subset type="Region">
 	<iso_3166_2_entry
 		code="GQ-C"	name="Región Continental" />
 	<iso_3166_2_entry
 		code="GQ-I"	name="Región Insular" />
+</iso_3166_subset>
+<iso_3166_subset type="Province">
 	<iso_3166_2_entry
-		code="GQ-AN"	name="Annobón" />
+		code="GQ-AN"	name="Annobón" parent="I" />
 	<iso_3166_2_entry
-		code="GQ-BN"	name="Bioko Norte" />
+		code="GQ-BN"	name="Bioko Norte" parent="I" />
 	<iso_3166_2_entry
-		code="GQ-BS"	name="Bioko Sur" />
+		code="GQ-BS"	name="Bioko Sur" parent="I" />
 	<iso_3166_2_entry
-		code="GQ-CS"	name="Centro Sur" />
+		code="GQ-CS"	name="Centro Sur" parent="C" />
 	<iso_3166_2_entry
-		code="GQ-KN"	name="Kié-Ntem" />
+		code="GQ-KN"	name="Kié-Ntem" parent="C" />
 	<iso_3166_2_entry
-		code="GQ-LI"	name="Litoral" />
+		code="GQ-LI"	name="Litoral" parent="C" />
 	<iso_3166_2_entry
-		code="GQ-WN"	name="Wele-Nzás" />
+		code="GQ-WN"	name="Wele-Nzas" parent="C" />
 </iso_3166_subset>
 </iso_3166_country>
 	<!-- Greece -->
