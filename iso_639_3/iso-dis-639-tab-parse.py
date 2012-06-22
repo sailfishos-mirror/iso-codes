@@ -25,7 +25,7 @@ This file gives a list of all languages in the ISO 639-3
 standard, and is used to provide translations via gettext
 
 Copyright (C) 2005 Alastair McKinstry <mckinstry@computer.org>
-Copyright (C) 2008 Tobias Quathamer <toddy@debian.org>
+Copyright (C) 2008,2012 Tobias Quathamer <toddy@debian.org>
 
     This file is free software; you can redistribute it and/or
     modify it under the terms of the GNU Lesser General Public
@@ -62,23 +62,43 @@ Source: <http://www.sil.org/iso639-3/>
 
 f.readline()		# throw away the header
 for li in f.readlines():
-	(code, part2b, part2t, part1, scope, type, name, comment) = li.split('\t')
-	comment = comment.strip()
+	# Split the line into parts and look for quotes
+	parts = li.split('\t')
+	# Reverse the parts, because Python's pop() function is much
+	# faster at the end of a list instead of at the start of a list
+	parts.reverse()
+	# Take away the parts which are always at the same position
+	code = parts.pop()
+	status = parts.pop()
+	partner_agency = parts.pop()
+	iso_639_3 = parts.pop()
+	iso_639_2 = parts.pop()
+	b_code = parts.pop()
+	bt_equiv = parts.pop()
+	iso_639_1 = parts.pop()
+	# At this point, we are at 'reference_name'. This field may
+	# contain a quote sign, so we have to look for it and append
+	# the next field, completing the field.
+	reference_name = parts.pop()
+	if reference_name.startswith('"'):
+		reference_name = reference_name + parts.pop()
+		# Now strip the quote signs
+		reference_name = reference_name.strip('"')
+	element_scope = parts.pop()
+	language_type = parts.pop()
+	documentation = parts.pop()
 	ot.write('\t<iso_639_3_entry\n')
 	ot.write('\t\tid="%s"\n' % code)
-	if part1 != '':
-		ot.write('\t\tpart1_code="%s"\n' % part1)
-	if part2b != '':
-		ot.write('\t\tpart2_code="%s"\n' % part2b)
-	ot.write('\t\tscope="%s"\n' % scope)
-	ot.write('\t\ttype="%s"\n' % type)
+	if iso_639_1 != '':
+		ot.write('\t\tpart1_code="%s"\n' % iso_639_1)
+	if iso_639_2 != '':
+		ot.write('\t\tpart2_code="%s"\n' % iso_639_2)
+	ot.write('\t\tscope="%s"\n' % element_scope)
+	ot.write('\t\ttype="%s"\n' % language_type)
 	if inverted_names.has_key(code):
-		name = inverted_names[code]
-	ot.write('\t\tname="%s" />\n' % name)
+		reference_name = inverted_names[code]
+	ot.write('\t\tname="%s" />\n' % reference_name)
 
 ot.write('</iso_639_3_entries>\n')
 ot.close()
 f.close()
-	
-	
-
