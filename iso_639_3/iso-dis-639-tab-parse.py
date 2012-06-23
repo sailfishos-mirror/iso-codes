@@ -33,11 +33,10 @@ for li in names.readlines():
 names.close()
 
 
-f=open("iso_639_3.tab")
+tabular_file = open("iso_639_3.tab")
+xml_file = open("iso_639_3.xml","w")
 
-ot=open("iso_639_3.xml","w")
-
-ot.write("""<?xml version="1.0" encoding="UTF-8" ?>
+xml_file.write("""<?xml version="1.0" encoding="UTF-8" ?>
 
 <!--
 This file gives a list of all languages in the ISO 639-3
@@ -80,12 +79,12 @@ Source: <http://www.sil.org/iso639-3/>
 """)
 
 # The first line only contains a header, so discard it
-f.readline()
+tabular_file.readline()
 
 # Set up a container for XML element 'iso_639_3_entry'
 iso_639_3_entry = ''
 
-for li in f.readlines():
+for li in tabular_file.readlines():
 	# Split the line into parts and look for quotes
 	parts = li.split('\t')
 	# Reverse the parts, because Python's pop() function is much
@@ -113,7 +112,7 @@ for li in f.readlines():
 	documentation = parts.pop()
 	# Write the last entry, before starting a new one
 	if iso_639_3_entry != '':
-		ot.write(iso_639_3_entry)
+		xml_file.write(iso_639_3_entry)
 		iso_639_3_entry = ''
 	# Assemble the iso_639_3_entry
 	iso_639_3_entry = '\t<iso_639_3_entry\n'
@@ -129,8 +128,8 @@ for li in f.readlines():
 	iso_639_3_entry += '\t\tname="%s" />\n' % reference_name
 
 # Finally, write the last entry and close the XML file
-ot.write(iso_639_3_entry)
-ot.write('</iso_639_3_entries>\n')
-ot.close()
+xml_file.write(iso_639_3_entry)
+xml_file.write('</iso_639_3_entries>\n')
+xml_file.close()
 
-f.close()
+tabular_file.close()
