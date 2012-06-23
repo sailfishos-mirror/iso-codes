@@ -32,6 +32,8 @@ for li in names.readlines():
 		inverted_names[code] = inverted_name
 names.close()
 
+# Set up a dictionary for the one letter abbreviations
+status_codes = {'A': 'Active', 'R': 'Retired'}
 
 tabular_file = open("iso_639_3.tab")
 xml_file = open("iso_639_3.xml","w")
@@ -67,9 +69,10 @@ Source: <http://www.sil.org/iso639-3/>
 	<!ELEMENT iso_639_3_entry EMPTY>
 	<!ATTLIST iso_639_3_entry
 		id		CDATA	#REQUIRED
+		status		CDATA	#REQUIRED
 		name		CDATA	#REQUIRED
 		type		CDATA	#REQUIRED
-		scope 		CDATA   #REQUIRED
+		scope		CDATA   #REQUIRED
 		part1_code	CDATA	#IMPLIED
 		part2_code	CDATA	#IMPLIED
 	>
@@ -117,6 +120,7 @@ for li in tabular_file.readlines():
 	# Assemble the iso_639_3_entry
 	iso_639_3_entry = '\t<iso_639_3_entry\n'
 	iso_639_3_entry += '\t\tid="%s"\n' % code
+	iso_639_3_entry += '\t\tstatus="%s"\n' % status_codes[status]
 	if iso_639_1 != '':
 		iso_639_3_entry += '\t\tpart1_code="%s"\n' % iso_639_1
 	if iso_639_2 != '':
