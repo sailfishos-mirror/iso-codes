@@ -35,6 +35,19 @@ names.close()
 # Set up a dictionary for the one letter abbreviations
 status_codes = {'A': 'Active', 'R': 'Retired'}
 
+def create_iso_639_3_entry(entry):
+	result = '\t<iso_639_3_entry\n'
+	result += '\t\tid="%s"\n' % entry['code']
+	result += '\t\tstatus="%s"\n' % entry['status']
+	if entry['iso_639_1'] != '':
+		result += '\t\tpart1_code="%s"\n' % entry['iso_639_1']
+	if entry['iso_639_2'] != '':
+		result += '\t\tpart2_code="%s"\n' % entry['iso_639_2']
+	result += '\t\tscope="%s"\n' % entry['element_scope']
+	result += '\t\ttype="%s"\n' % entry['language_type']
+	result += '\t\tname="%s" />\n' % entry['reference_name']
+	return result
+
 tabular_file = open("iso_639_3.tab")
 xml_file = open("iso_639_3.xml","w")
 
@@ -84,8 +97,8 @@ Source: <http://www.sil.org/iso639-3/>
 # The first line only contains a header, so discard it
 tabular_file.readline()
 
-# Set up a container for XML element 'iso_639_3_entry'
-iso_639_3_entry = ''
+# Set up a dictionary for XML element 'iso_639_3_entry'
+iso_639_3_entry = {}
 
 for li in tabular_file.readlines():
 	# Split the line into parts and look for quotes
@@ -114,25 +127,24 @@ for li in tabular_file.readlines():
 	language_type = parts.pop()
 	documentation = parts.pop()
 	# Write the last entry, before starting a new one
-	if iso_639_3_entry != '':
-		xml_file.write(iso_639_3_entry)
-		iso_639_3_entry = ''
+	if iso_639_3_entry.has_key('code'):
+		entry = create_iso_639_3_entry(iso_639_3_entry)
+		xml_file.write(entry)
+		iso_639_3_entry = {}
 	# Assemble the iso_639_3_entry
-	iso_639_3_entry = '\t<iso_639_3_entry\n'
-	iso_639_3_entry += '\t\tid="%s"\n' % code
-	iso_639_3_entry += '\t\tstatus="%s"\n' % status_codes[status]
-	if iso_639_1 != '':
-		iso_639_3_entry += '\t\tpart1_code="%s"\n' % iso_639_1
-	if iso_639_2 != '':
-		iso_639_3_entry += '\t\tpart2_code="%s"\n' % iso_639_2
-	iso_639_3_entry += '\t\tscope="%s"\n' % element_scope
-	iso_639_3_entry += '\t\ttype="%s"\n' % language_type
+	iso_639_3_entry['code'] = code
+	iso_639_3_entry['status'] = status_codes[status]
+	iso_639_3_entry['iso_639_1'] = iso_639_1
+	iso_639_3_entry['iso_639_2'] = iso_639_2
+	iso_639_3_entry['element_scope'] = element_scope
+	iso_639_3_entry['language_type'] = language_type
 	if inverted_names.has_key(code):
 		reference_name = inverted_names[code]
-	iso_639_3_entry += '\t\tname="%s" />\n' % reference_name
+	iso_639_3_entry['reference_name'] = reference_name
 
 # Finally, write the last entry and close the XML file
-xml_file.write(iso_639_3_entry)
+entry = create_iso_639_3_entry(iso_639_3_entry)
+xml_file.write(entry)
 xml_file.write('</iso_639_3_entries>\n')
 xml_file.close()
 
