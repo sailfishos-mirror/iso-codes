@@ -1,4 +1,23 @@
-#!/usr/bin/env python
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+#
+# Copyright © 2005 Alastair McKinstry <mckinstry@computer.org>
+# Copyright © 2008,2012 Tobias Quathamer <toddy@debian.org>
+#
+# This file is free software; you can redistribute it and/or
+# modify it under the terms of the GNU Lesser General Public
+# License as published by the Free Software Foundation; either
+# version 2.1 of the License, or (at your option) any later version.
+#
+# This file is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+# Lesser General Public License for more details.
+#
+# You should have received a copy of the GNU Lesser General Public
+# License along with this file; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+
 """
 Parse the SIL.org iso_639_3.tab file and create
 an XML file for our own use.
@@ -24,8 +43,8 @@ ot.write("""<?xml version="1.0" encoding="UTF-8" ?>
 This file gives a list of all languages in the ISO 639-3
 standard, and is used to provide translations via gettext
 
-Copyright (C) 2005 Alastair McKinstry <mckinstry@computer.org>
-Copyright (C) 2008,2012 Tobias Quathamer <toddy@debian.org>
+Copyright © 2005 Alastair McKinstry <mckinstry@computer.org>
+Copyright © 2008,2012 Tobias Quathamer <toddy@debian.org>
 
     This file is free software; you can redistribute it and/or
     modify it under the terms of the GNU Lesser General Public
