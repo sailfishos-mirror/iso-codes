@@ -79,7 +79,12 @@ Source: <http://www.sil.org/iso639-3/>
 <iso_639_3_entries>
 """)
 
-f.readline()		# throw away the header
+# The first line only contains a header, so discard it
+f.readline()
+
+# Set up a container for XML element 'iso_639_3_entry'
+iso_639_3_entry = ''
+
 for li in f.readlines():
 	# Split the line into parts and look for quotes
 	parts = li.split('\t')
@@ -106,17 +111,19 @@ for li in f.readlines():
 	element_scope = parts.pop()
 	language_type = parts.pop()
 	documentation = parts.pop()
-	ot.write('\t<iso_639_3_entry\n')
-	ot.write('\t\tid="%s"\n' % code)
+	# Assemble the iso_639_3_entry
+	iso_639_3_entry = '\t<iso_639_3_entry\n'
+	iso_639_3_entry += '\t\tid="%s"\n' % code
 	if iso_639_1 != '':
-		ot.write('\t\tpart1_code="%s"\n' % iso_639_1)
+		iso_639_3_entry += '\t\tpart1_code="%s"\n' % iso_639_1
 	if iso_639_2 != '':
-		ot.write('\t\tpart2_code="%s"\n' % iso_639_2)
-	ot.write('\t\tscope="%s"\n' % element_scope)
-	ot.write('\t\ttype="%s"\n' % language_type)
+		iso_639_3_entry += '\t\tpart2_code="%s"\n' % iso_639_2
+	iso_639_3_entry += '\t\tscope="%s"\n' % element_scope
+	iso_639_3_entry += '\t\ttype="%s"\n' % language_type
 	if inverted_names.has_key(code):
 		reference_name = inverted_names[code]
-	ot.write('\t\tname="%s" />\n' % reference_name)
+	iso_639_3_entry += '\t\tname="%s" />\n' % reference_name
+	ot.write(iso_639_3_entry)
 
 ot.write('</iso_639_3_entries>\n')
 ot.close()
