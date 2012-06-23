@@ -111,6 +111,10 @@ for li in f.readlines():
 	element_scope = parts.pop()
 	language_type = parts.pop()
 	documentation = parts.pop()
+	# Write the last entry, before starting a new one
+	if iso_639_3_entry != '':
+		ot.write(iso_639_3_entry)
+		iso_639_3_entry = ''
 	# Assemble the iso_639_3_entry
 	iso_639_3_entry = '\t<iso_639_3_entry\n'
 	iso_639_3_entry += '\t\tid="%s"\n' % code
@@ -123,8 +127,10 @@ for li in f.readlines():
 	if inverted_names.has_key(code):
 		reference_name = inverted_names[code]
 	iso_639_3_entry += '\t\tname="%s" />\n' % reference_name
-	ot.write(iso_639_3_entry)
 
+# Finally, write the last entry and close the XML file
+ot.write(iso_639_3_entry)
 ot.write('</iso_639_3_entries>\n')
 ot.close()
+
 f.close()
