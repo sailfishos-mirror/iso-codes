@@ -81,6 +81,9 @@ def create_iso_639_3_entry(entry):
 	result += '\t\tstatus="%s"\n' % entry['status']
 	result += '\t\tscope="%s"\n' % entry['element_scope']
 	result += '\t\ttype="%s"\n' % entry['language_type']
+	if 'inverted_name' in entry:
+		result += '\t\tinverted_name="%s"\n' % entry['inverted_name']
+	result += '\t\treference_name="%s"\n' % entry['reference_name']
 	# Use the inverted form for the name attribute
 	if 'inverted_name' in entry:
 		result += '\t\tname="%s" />\n' % entry['inverted_name']
@@ -127,6 +130,8 @@ Source: <http://www.sil.org/iso639-3/>
 		status		CDATA	#REQUIRED
 		scope		CDATA   #REQUIRED
 		type		CDATA	#REQUIRED
+		inverted_name	CDATA	#IMPLIED
+		reference_name	CDATA	#REQUIRED
 		name		CDATA	#REQUIRED
 	>
 ]>
