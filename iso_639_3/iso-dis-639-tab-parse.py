@@ -74,11 +74,11 @@ status_codes = {'A': 'Active', 'R': 'Retired'}
 def create_iso_639_3_entry(entry):
 	result = '\t<iso_639_3_entry\n'
 	result += '\t\tid="%s"\n' % entry['code']
-	result += '\t\tstatus="%s"\n' % entry['status']
 	if entry['iso_639_1'] != '':
 		result += '\t\tpart1_code="%s"\n' % entry['iso_639_1']
 	if entry['iso_639_2'] != '':
 		result += '\t\tpart2_code="%s"\n' % entry['iso_639_2']
+	result += '\t\tstatus="%s"\n' % entry['status']
 	result += '\t\tscope="%s"\n' % entry['element_scope']
 	result += '\t\ttype="%s"\n' % entry['language_type']
 	# Use the inverted form for the name attribute
@@ -122,12 +122,12 @@ Source: <http://www.sil.org/iso639-3/>
 	<!ELEMENT iso_639_3_entry EMPTY>
 	<!ATTLIST iso_639_3_entry
 		id		CDATA	#REQUIRED
-		status		CDATA	#REQUIRED
-		name		CDATA	#REQUIRED
-		type		CDATA	#REQUIRED
-		scope		CDATA   #REQUIRED
 		part1_code	CDATA	#IMPLIED
 		part2_code	CDATA	#IMPLIED
+		status		CDATA	#REQUIRED
+		scope		CDATA   #REQUIRED
+		type		CDATA	#REQUIRED
+		name		CDATA	#REQUIRED
 	>
 ]>
 
