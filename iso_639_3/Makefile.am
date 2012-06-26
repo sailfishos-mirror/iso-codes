@@ -10,7 +10,7 @@ noinst_DATA = $(mofiles) $(xml_DATA:.xml=.pot)
 
 iso_639_3.pot: iso_639_3.xml
 	../iso2pot.py --is-version ${VERSION} --comment id \
-		--fields name --outfile $@ $< 
+		--fields name,inverted_name,reference_name --outfile $@ $< 
 
 EXTRA_DIST = \
 	$(pofiles)	\
