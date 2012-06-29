@@ -14,7 +14,7 @@ dnl You should have received a copy of the GNU General Public License along
 dnl with this program; if not, write to the Free Software Foundation, Inc.,
 dnl 59 Temple Place, Suite 330, Boston, MA 02111-1307  USA
 
-AC_INIT([iso-codes],[3.36])
+AC_INIT([iso-codes],[3.37])
 
 AM_INIT_AUTOMAKE([dist-bzip2 no-dist-gzip foreign])
 AM_MAINTAINER_MODE
