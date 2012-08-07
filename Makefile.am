@@ -22,17 +22,17 @@ update-po:
 	done
 
 .PHONY: sign-release
-sign-release: iso-codes-$(VERSION).tar.bz2
-	rm -f iso-codes-$(VERSION).tar.bz2.sig
-	gpg --detach-sign iso-codes-$(VERSION).tar.bz2
+sign-release: iso-codes-$(VERSION).tar.xz
+	rm -f iso-codes-$(VERSION).tar.xz.sig
+	gpg --detach-sign iso-codes-$(VERSION).tar.xz
 
 .PHONY: upload
 upload:
 	@if [[ "$(ALIOTH_USERNAME)" == "" ]]; then \
 		ALIOTH_USERNAME="$(USERNAME)"; \
 	fi
-	@if [[ -f "iso-codes-$(VERSION).tar.bz2" ]] \
-	&& [[ -f "iso-codes-$(VERSION).tar.bz2.sig" ]] \
+	@if [[ -f "iso-codes-$(VERSION).tar.xz" ]] \
+	&& [[ -f "iso-codes-$(VERSION).tar.xz.sig" ]] \
 	&& [[ -n "$(ALIOTH_USERNAME)" ]]; then \
 		scp iso-codes-$(VERSION).tar.* \
 		$(ALIOTH_USERNAME)@alioth.debian.org:/srv/home/groups/pkg-isocodes/htdocs/downloads; \
