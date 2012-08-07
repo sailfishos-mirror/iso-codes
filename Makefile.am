@@ -28,12 +28,8 @@ sign-release: iso-codes-$(VERSION).tar.xz
 
 .PHONY: upload
 upload:
-	@if [[ "$(ALIOTH_USERNAME)" == "" ]]; then \
-		ALIOTH_USERNAME="$(USERNAME)"; \
-	fi
 	@if [[ -f "iso-codes-$(VERSION).tar.xz" ]] \
-	&& [[ -f "iso-codes-$(VERSION).tar.xz.sig" ]] \
-	&& [[ -n "$(ALIOTH_USERNAME)" ]]; then \
+	&& [[ -f "iso-codes-$(VERSION).tar.xz.sig" ]]; then \
 		scp iso-codes-$(VERSION).tar.* \
-		$(ALIOTH_USERNAME)@alioth.debian.org:/srv/home/groups/pkg-isocodes/htdocs/downloads; \
+		alioth.debian.org:/srv/home/groups/pkg-isocodes/htdocs/downloads; \
 	fi
