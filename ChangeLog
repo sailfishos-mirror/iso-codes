@@ -2,6 +2,14 @@ iso-codes 3.40
 --------------
 UNRELEASED
 
+  [ ISO 15924 ]
+  * Update ISO-15924 as of 2012-10-16 changes:
+    - Added Aghb
+    - Renamed Hung
+    - Added Mahj
+    - Ignored addition of "property alias" for Geok
+      as we don't include these (yet?)
+
   [ ISO 3166 translations ]
   * German by Tobias Quathamer
   * Welsh by Dafydd Tomos
@@ -14,7 +22,8 @@ UNRELEASED
   * Thai by Theppitak Karoonboonyanan
 
   [ ISO 639 translations ]
-  * bn_IN.po files renamed to bn.po
+  * bn_IN.po files renamed to bn.po.
+    Indirectly related to LP#991002
 
   [ ISO 639-3 translations ]
   * Thai by Theppitak Karoonboonyanan
