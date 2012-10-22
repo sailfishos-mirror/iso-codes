@@ -12,7 +12,7 @@ iso_639.pot: iso_639.xml
 	$(top_srcdir)/iso2pot.py --is-version $(VERSION) \
 		--comments iso_639_2T_code \
 		--comments iso_639_1_code \
-	        --fields name --outfile $@ iso_639.xml
+	        --fields name,common_name --outfile $@ iso_639.xml
 
 EXTRA_DIST = \
 	$(pofiles)	\
