@@ -41,6 +41,7 @@ lang2Name = {'af': 'Afrikaans',
  'hr': 'Croatian',
  'hu': 'Hungarian',
  'hy': 'Armenian',
+ 'ia': 'Interlingua',
  'id': 'Indonesian',
  'is': 'Icelandic',
  'it': 'Italian',
@@ -152,7 +153,7 @@ class Isocodes(object):
                 os.unlink(fname)
 
     def _findLastTranslator(self, fname):
-        prefix ='"Last-Translator: ' 
+        prefix ='"Last-Translator: '
         for line in file(fname):
             if line.startswith(prefix):
                 line = line[len(prefix):]
@@ -175,7 +176,7 @@ class Isocodes(object):
 
         line = '  * %s by %s (TP)\n' % (lang2Name[lang], translator)
         lines[-1:-1] = [line]
-    
+
     def _findFirstSection(self, lines):
         for i in range(1, len(lines)):
             if lines[i].startswith('iso-codes'):
