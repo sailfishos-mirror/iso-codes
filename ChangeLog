@@ -1,6 +1,15 @@
-iso-codes 3.44
---------------
+iso-codes 4.0
+-------------
 UNRELEASED
+
+  [ ISO 639-2 ]
+  * Update by SIL as of 2013-05-31.
+    The download file provided by SIL does no longer provide the
+    information about the "status" of a language. Therefore, we
+    needed to take out this information from our XML file.
+    As the removal of that attribute from our DTD is an incompatible
+    change, we set the major version number to 4 to indicate this
+    change.
 
   [ ISO 3166-2 translations ]
   * Thai by Theppitak Karoonboonyanan
