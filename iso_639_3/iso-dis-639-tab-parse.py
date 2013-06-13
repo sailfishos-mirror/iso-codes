@@ -23,6 +23,12 @@ Parse the SIL.org iso_639_3.tab file and create
 an XML file for our own use.
 """
 
+# We support the common_name attribute, which will get lost
+# during the generation of the xml file. Therefore, define
+# the codes with their common names here.
+common_names = {}
+common_names['ben'] = "Bangla"
+
 # The Name_Index file only has the fields
 # Id, Print_Name, and Inverted_Name.
 # There may be multiple lines with the same Id.
@@ -55,6 +61,8 @@ def create_iso_639_3_entry(entry):
 	if 'inverted_name' in entry:
 		result += '\t\tinverted_name="%s"\n' % entry['inverted_name']
 	result += '\t\treference_name="%s"\n' % entry['reference_name']
+	if 'common_name' in entry:
+		result += '\t\tcommon_name="%s"\n' % entry['common_name']
 	# Use the inverted form for the name attribute
 	if 'inverted_name' in entry:
 		result += '\t\tname="%s" />\n' % entry['inverted_name']
@@ -103,6 +111,7 @@ Source: <http://www.sil.org/iso639-3/>
 		inverted_name	CDATA	#IMPLIED
 		reference_name	CDATA	#REQUIRED
 		name		CDATA	#REQUIRED
+		common_name	CDATA	#IMPLIED
 	>
 ]>
 
@@ -138,6 +147,8 @@ for li in tabular_file.readlines():
 	iso_639_3_entry['reference_name'] = reference_name
 	if reference_name in inverted_names:
 		iso_639_3_entry['inverted_name'] = inverted_names[reference_name]
+	if code in common_names:
+		iso_639_3_entry['common_name'] = common_names[code]
 	entry = create_iso_639_3_entry(iso_639_3_entry)
 	xml_file.write(entry)
 
