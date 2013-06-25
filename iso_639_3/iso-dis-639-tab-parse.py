@@ -56,6 +56,11 @@ def create_iso_639_3_entry(entry):
 		result += '\t\tpart1_code="%s"\n' % entry['part1']
 	if entry['part2t'] != '':
 		result += '\t\tpart2_code="%s"\n' % entry['part2t']
+	# Special case for lcq, which is the only id with status "Retired"
+	if entry['code'] == "lcq":
+		result += '\t\tstatus="Retired"\n'
+	else:
+		result += '\t\tstatus="Active"\n'
 	result += '\t\tscope="%s"\n' % entry['element_scope']
 	result += '\t\ttype="%s"\n' % entry['language_type']
 	if 'inverted_name' in entry:
@@ -106,6 +111,7 @@ Source: <http://www.sil.org/iso639-3/>
 		id		CDATA	#REQUIRED
 		part1_code	CDATA	#IMPLIED
 		part2_code	CDATA	#IMPLIED
+		status		CDATA	#REQUIRED
 		scope		CDATA   #REQUIRED
 		type		CDATA	#REQUIRED
 		inverted_name	CDATA	#IMPLIED
