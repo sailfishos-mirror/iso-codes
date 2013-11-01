@@ -1,3 +1,12 @@
+iso-codes 3.XX
+--------------
+
+  [ General ]
+  * Rename all tt.po files to tt@iqtelif.po. The Tatar translations
+    use the latin script, which is specified with the modifier @iqtelif.
+    Thanks to Mike FABIAN for the bug report. Closes: alioth#314422.
+
+
 iso-codes 3.48
 --------------
 Tobias Quathamer <toddy@debian.org>
@@ -9,6 +18,7 @@ Fri, 1 Nov 2013
 
   [ ISO 15924 translations ]
   * Esperanto by Felipe Castro (TP)
+
   [ ISO 639-3 translations ]
   * Polish by Jakub Bogusz (TP)
 
