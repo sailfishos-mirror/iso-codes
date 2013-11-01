@@ -24,8 +24,9 @@ update-po:
 		msgattrib --no-obsolete tmpfile > $$pofile; \
 		sed -i -e 's/^\"Project-Id-Version: iso.*/\"Project-Id-Version: $(DOMAIN)\\n\"/' $$pofile; \
 	done
-	$(RECODE_SR_LATIN) < sr.po > sr@latin.po
 	rm -f tmpfile
+	if [ -f sr.po ] ; then $(RECODE_SR_LATIN) < sr.po > sr@latin.po ; fi
+	if [ -f tt@iqtelif.po ] ; then $(MSGFILTER) --keep-header sed -f $(top_srcdir)/recode-tt-cyrillic.sed < tt@iqtelif.po > tt.po ; fi
 
 localedir = $(datadir)/locale
 

@@ -5,6 +5,8 @@ iso-codes 3.XX
   * Rename all tt.po files to tt@iqtelif.po. The Tatar translations
     use the latin script, which is specified with the modifier @iqtelif.
     Thanks to Mike FABIAN for the bug report. Closes: alioth#314422.
+  * Add sed script to convert latin Tatar into cyrillic Tatar. The
+    converted translations are named tt.po.
 
 
 iso-codes 3.48
