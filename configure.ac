@@ -38,7 +38,7 @@ fi
 AC_MSG_RESULT($gnu_msgfmt)
 AC_SUBST(MSGFMT_FLAGS)
 
-DOMAINS="iso_15924 iso_3166 iso_4217 iso_639 iso_3166_2 iso_639_3"
+DOMAINS="iso_15924 iso_3166 iso_4217 iso_639 iso_3166_2 iso_639_3 iso_639_5"
 AC_SUBST([DOMAINS])
 
 AC_CONFIG_FILES([
@@ -50,7 +50,7 @@ iso_3166_2/Makefile
 iso_4217/Makefile
 iso_639/Makefile
 iso_639_3/Makefile
+iso_639_5/Makefile
 ])
 
 AC_OUTPUT
-

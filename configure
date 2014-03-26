@@ -2514,10 +2514,10 @@ fi
 $as_echo "$gnu_msgfmt" >&6; }
 
 
-DOMAINS="iso_15924 iso_3166 iso_4217 iso_639 iso_3166_2 iso_639_3"
+DOMAINS="iso_15924 iso_3166 iso_4217 iso_639 iso_3166_2 iso_639_3 iso_639_5"
 
 
-ac_config_files="$ac_config_files Makefile iso-codes.pc iso_15924/Makefile iso_3166/Makefile iso_3166_2/Makefile iso_4217/Makefile iso_639/Makefile iso_639_3/Makefile"
+ac_config_files="$ac_config_files Makefile iso-codes.pc iso_15924/Makefile iso_3166/Makefile iso_3166_2/Makefile iso_4217/Makefile iso_639/Makefile iso_639_3/Makefile iso_639_5/Makefile"
 
 
 cat >confcache <<\_ACEOF
@@ -3249,6 +3249,7 @@ do
     "iso_4217/Makefile") CONFIG_FILES="$CONFIG_FILES iso_4217/Makefile" ;;
     "iso_639/Makefile") CONFIG_FILES="$CONFIG_FILES iso_639/Makefile" ;;
     "iso_639_3/Makefile") CONFIG_FILES="$CONFIG_FILES iso_639_3/Makefile" ;;
+    "iso_639_5/Makefile") CONFIG_FILES="$CONFIG_FILES iso_639_5/Makefile" ;;
 
   *) as_fn_error $? "invalid argument: \`$ac_config_target'" "$LINENO" 5;;
   esac
@@ -3708,5 +3709,4 @@ if test -n "$ac_unrecognized_opts" && test "$enable_option_checking" != no; then
   { $as_echo "$as_me:${as_lineno-$LINENO}: WARNING: unrecognized options: $ac_unrecognized_opts" >&5
 $as_echo "$as_me: WARNING: unrecognized options: $ac_unrecognized_opts" >&2;}
 fi
-
 
