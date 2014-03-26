@@ -106,6 +106,11 @@ class Isocodes(object):
         logging.info(fname)
         subprocess.check_call(['msgfmt', '-v', fname])
 
+    def _msgcanonicalformat(self, fname, domain):
+        logging.info(fname)
+        subprocess.check_call(['msgattrib', '--no-obsolete', '-o', fname, fname])
+        subprocess.check_call(['sed', '-i', '-e', 's/^"Project-Id-Version: iso.*/"Project-Id-Version: ' + domain + '\\\\n"/', fname])
+
     def _getOldFname(self, domain, lang):
         return os.path.join(self.home, domain, lang+".po")
 
@@ -114,6 +119,7 @@ class Isocodes(object):
         logging.info(url)
         oldfname = self._getOldFname(domain, lang)
         newfname = self._downloadFile(url)
+        self._msgcanonicalformat(newfname, domain)
         self._diff(oldfname, newfname)
         self._msgfmt(oldfname)
         self._msgfmt(newfname)
