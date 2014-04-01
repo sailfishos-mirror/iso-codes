@@ -138,6 +138,8 @@ iso_number = '-'.join(iso_number)
 
 if iso_number == '639' or iso_number == '639-3':
 	iso_desc = 'language names'
+elif iso_number == '639-5':
+	iso_desc = 'language families and groups'
 elif iso_number == '3166':
 	iso_desc = 'country names'
 elif iso_number == '3166-2':
