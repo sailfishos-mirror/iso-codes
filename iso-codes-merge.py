@@ -104,7 +104,10 @@ class Isocodes(object):
 
     def _msgfmt(self, fname):
         logging.info(fname)
-        subprocess.check_call(['msgfmt', '-v', fname])
+        if not os.path.exists(fname):
+            logging.info('Not Exist')
+        else:
+            subprocess.check_call(['msgfmt', '-v', fname])
 
     def _msgcanonicalformat(self, fname, domain):
         logging.info(fname)
