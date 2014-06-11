@@ -472,7 +472,7 @@ check-content:
 .PHONY: update-po
 update-po:
 	for pofile in $(pofiles); do \
-		$(MSGMERGE) $$pofile $(DOMAIN).pot > tmpfile; \
+		$(MSGMERGE) --no-fuzzy-matching $$pofile $(DOMAIN).pot > tmpfile; \
 		msgattrib --no-obsolete tmpfile > $$pofile; \
 		sed -i -e 's/^\"Project-Id-Version: iso.*/\"Project-Id-Version: $(DOMAIN)\\n\"/' $$pofile; \
 	done
