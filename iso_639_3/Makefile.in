@@ -488,8 +488,14 @@ update-po:
 		sed -i -e 's/^\"Project-Id-Version: iso.*/\"Project-Id-Version: $(DOMAIN)\\n\"/' $$pofile; \
 	done
 	rm -f tmpfile
-	if [ -f sr.po ] ; then $(RECODE_SR_LATIN) < sr.po > sr@latin.po ; fi
-	if [ -f tt@iqtelif.po ] ; then $(MSGFILTER) --keep-header sed -f $(top_srcdir)/recode-tt-cyrillic.sed < tt@iqtelif.po > tt.po ; fi
+	if [ -f sr.po ]; then \
+		$(RECODE_SR_LATIN) < sr.po > sr@latin.po; \
+		sed -i -e 's/^\"Language: sr\\n\"/\"Language: sr@latin\\n\"/' sr@latin.po; \
+	fi
+	if [ -f tt@iqtelif.po ]; then \
+		$(MSGFILTER) --keep-header sed -f $(top_srcdir)/recode-tt-cyrillic.sed < tt@iqtelif.po > tt.po; \
+		sed -i -e 's/^\"Language: tt@iqtelif\\n\"/\"Language: tt\\n\"/' tt.po; \
+	fi
 
 install-data-hook: $(mofiles)
 	$(mkinstalldirs) $(DESTDIR)$(datadir)
