@@ -25,7 +25,7 @@
             "description": "Three digit numeric code of the script, including leading zeros",
             "type": "string",
             "pattern": "^[0-9]{3}$"
-          },
+          }
         },
         "required": ["alpha_4", "name", "numeric"],
         "additionalProperties": false

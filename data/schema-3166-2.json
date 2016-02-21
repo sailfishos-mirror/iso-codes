@@ -42,7 +42,7 @@
                         "description": "Parent of the country subset item (optional)",
                         "type": "string",
                         "minLength": 1
-                      },
+                      }
                     },
                     "required": ["code", "name"],
                     "additionalProperties": false
@@ -51,12 +51,12 @@
                 "type": {
                   "description": "Type of subset of the country",
                   "type": "string"
-                },
+                }
               },
               "required": ["items", "type"],
               "additionalProperties": false
             }
-          },
+          }
         },
         "required": ["code", "subsets"],
         "additionalProperties": false
