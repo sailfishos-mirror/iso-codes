@@ -1,4 +1,21 @@
+xmldir = $(datadir)/xml/iso-codes
+xml_DATA = $(DOMAIN).xml
 
+pofiles = $(wildcard $(srcdir)/*.po)
+mofiles = $(patsubst $(srcdir)/%.po,%.mo, $(pofiles))
+noinst_DATA = $(mofiles) $(xml_DATA:.xml=.pot)
+
+EXTRA_DIST = \
+	$(pofiles)	\
+	$(xml_DATA)	\
+	$(DOMAIN).pot
+
+MOSTLYCLEANFILES = \
+	$(mofiles)
+
+check-local: check-content
+
+# Generic target to create binary .mo files from .po files
 %.mo: %.po
 	$(MSGFMT) $(MSGFMT_FLAGS) -o $@ $<
 
