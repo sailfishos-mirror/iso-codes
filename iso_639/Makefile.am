@@ -24,4 +24,4 @@ MOSTLYCLEANFILES = \
 
 check-local: check-content
 
-include $(top_srcdir)/rules.make
+include $(top_srcdir)/common.mk

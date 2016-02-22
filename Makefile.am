@@ -5,7 +5,7 @@ pkgconfig_DATA = iso-codes.pc
 
 EXTRA_DIST = \
 	LICENSE			\
-	rules.make		\
+	common.mk		\
 	iso2pot.py		\
 	check_valid_utf8.pl
 
