@@ -232,11 +232,11 @@ xmldir = $(datadir)/xml/iso-codes
 xml_DATA = $(DOMAIN).xml
 pofiles = $(wildcard $(srcdir)/*.po)
 mofiles = $(patsubst $(srcdir)/%.po,%.mo, $(pofiles))
-noinst_DATA = $(mofiles) $(xml_DATA:.xml=.pot) 
+noinst_DATA = $(mofiles) $(xml_DATA:.xml=.pot)
 EXTRA_DIST = \
 	$(pofiles)	\
 	$(xml_DATA)	\
-	iso_3166_2.pot
+	$(DOMAIN).pot
 
 MOSTLYCLEANFILES = \
 	$(mofiles)
@@ -456,12 +456,9 @@ uninstall-am: uninstall-xmlDATA
 .PRECIOUS: Makefile
 
 
-iso_3166_2.pot: iso_3166_2.xml
-	../iso2pot.py --is-version ${VERSION} --comment code \
-		--fields name --outfile $@ $< 
-
 check-local: check-content
 
+# Generic target to create binary .mo files from .po files
 %.mo: %.po
 	$(MSGFMT) $(MSGFMT_FLAGS) -o $@ $<
 
@@ -516,6 +513,10 @@ uninstall-hook:
 		lang=`echo $$cat | sed 's/\.mo$$//'`; \
 		rm -f $(DESTDIR)$(localedir)/$$lang/LC_MESSAGES/$(DOMAIN).mo; \
 	done
+
+iso_3166_2.pot: iso_3166_2.xml
+	../iso2pot.py --is-version ${VERSION} --comment code \
+		--fields name --outfile $@ $< 
 
 # Tell versions [3.59,3.63) of GNU make to not export all variables.
 # Otherwise a system limit (for SysV at least) may be exceeded.
