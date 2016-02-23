@@ -586,6 +586,7 @@ LIBOBJS
 DOMAINS
 MSGFMT_FLAGS
 RECODE_SR_LATIN
+MSGATTRIB
 MSGFILTER
 MSGFMT
 MSGMERGE
@@ -2498,6 +2499,46 @@ MSGFILTER=$ac_cv_path_MSGFILTER
 if test -n "$MSGFILTER"; then
   { $as_echo "$as_me:${as_lineno-$LINENO}: result: $MSGFILTER" >&5
 $as_echo "$MSGFILTER" >&6; }
+else
+  { $as_echo "$as_me:${as_lineno-$LINENO}: result: no" >&5
+$as_echo "no" >&6; }
+fi
+
+
+# Extract the first word of "msgattrib", so it can be a program name with args.
+set dummy msgattrib; ac_word=$2
+{ $as_echo "$as_me:${as_lineno-$LINENO}: checking for $ac_word" >&5
+$as_echo_n "checking for $ac_word... " >&6; }
+if ${ac_cv_path_MSGATTRIB+:} false; then :
+  $as_echo_n "(cached) " >&6
+else
+  case $MSGATTRIB in
+  [\\/]* | ?:[\\/]*)
+  ac_cv_path_MSGATTRIB="$MSGATTRIB" # Let the user override the test with a path.
+  ;;
+  *)
+  as_save_IFS=$IFS; IFS=$PATH_SEPARATOR
+for as_dir in $PATH
+do
+  IFS=$as_save_IFS
+  test -z "$as_dir" && as_dir=.
+    for ac_exec_ext in '' $ac_executable_extensions; do
+  if as_fn_executable_p "$as_dir/$ac_word$ac_exec_ext"; then
+    ac_cv_path_MSGATTRIB="$as_dir/$ac_word$ac_exec_ext"
+    $as_echo "$as_me:${as_lineno-$LINENO}: found $as_dir/$ac_word$ac_exec_ext" >&5
+    break 2
+  fi
+done
+  done
+IFS=$as_save_IFS
+
+  ;;
+esac
+fi
+MSGATTRIB=$ac_cv_path_MSGATTRIB
+if test -n "$MSGATTRIB"; then
+  { $as_echo "$as_me:${as_lineno-$LINENO}: result: $MSGATTRIB" >&5
+$as_echo "$MSGATTRIB" >&6; }
 else
   { $as_echo "$as_me:${as_lineno-$LINENO}: result: no" >&5
 $as_echo "no" >&6; }
