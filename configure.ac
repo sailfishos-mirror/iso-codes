@@ -44,19 +44,19 @@ fi
 AC_MSG_RESULT($gnu_msgfmt)
 AC_SUBST(MSGFMT_FLAGS)
 
-DOMAINS="iso_15924 iso_3166 iso_4217 iso_639 iso_3166_2 iso_639_3 iso_639_5"
+DOMAINS="iso_639 iso_639_3 iso_639_5 iso_3166 iso_3166_2 iso_4217 iso_15924"
 AC_SUBST([DOMAINS])
 
 AC_CONFIG_FILES([
   Makefile
   iso-codes.pc
-  iso_15924/Makefile
-  iso_3166/Makefile
-  iso_3166_2/Makefile
-  iso_4217/Makefile
   iso_639/Makefile
   iso_639_3/Makefile
   iso_639_5/Makefile
+  iso_3166/Makefile
+  iso_3166_2/Makefile
+  iso_4217/Makefile
+  iso_15924/Makefile
 ])
 
 AC_OUTPUT
