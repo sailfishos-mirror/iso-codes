@@ -38,7 +38,7 @@ check-content:
 update-po:
 	for pofile in $(pofiles); do \
 		$(MSGMERGE) --no-fuzzy-matching $$pofile $(DOMAIN).pot > tmpfile; \
-		msgattrib --no-obsolete tmpfile > $$pofile; \
+		$(MSGATTRIB) --no-obsolete tmpfile > $$pofile; \
 		sed -i -e 's/^\"Project-Id-Version: iso.*/\"Project-Id-Version: $(DOMAIN)\\n\"/' $$pofile; \
 	done
 	rm -f tmpfile
