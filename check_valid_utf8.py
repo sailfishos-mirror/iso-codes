@@ -30,27 +30,27 @@ exit_status = 0
 
 # Cycle through all files and check for valid UTF-8 encoding
 for filename in sys.argv:
-	# Open the file for reading in binary mode
-	with open(filename, "rb") as pofile:
-		# The "Content-Type" header has not been seen yet
-		charset_utf8_seen = False
-		# Read all lines to check for Content-Type header
-		for line in pofile:
-			# Try to decode binary data to UTF-8
-			try:
-				utf8 = line.decode(encoding="utf-8", errors="strict")
-			except UnicodeError as error:
-				print("UTF-8 encoding error in file %s: %s (position %d)" % (filename, error.reason, error.start))
-				print("Binary data: %s" % line)
-				exit_status = 1
-				break
-			if re.search(r'Content-Type: text/plain; charset=UTF-8', utf8):
-				charset_utf8_seen = True
-		# The whole file has been read, the content time should have
-		# been detected now. Otherwise, it's an error.
-		if not charset_utf8_seen:
-			print("Error in file %s: could not detect Content-Type header" % filename)
-			exit_status = 1
-			break
+    # Open the file for reading in binary mode
+    with open(filename, "rb") as pofile:
+        # The "Content-Type" header has not been seen yet
+        charset_utf8_seen = False
+        # Read all lines to check for Content-Type header
+        for line in pofile:
+            # Try to decode binary data to UTF-8
+            try:
+                utf8 = line.decode(encoding="utf-8", errors="strict")
+            except UnicodeError as error:
+                print("UTF-8 encoding error in file %s: %s (position %d)" % (filename, error.reason, error.start))
+                print("Binary data: %s" % line)
+                exit_status = 1
+                break
+            if re.search(r'Content-Type: text/plain; charset=UTF-8', utf8):
+                charset_utf8_seen = True
+        # The whole file has been read, the content time should have
+        # been detected now. Otherwise, it's an error.
+        if not charset_utf8_seen:
+            print("Error in file %s: could not detect Content-Type header" % filename)
+            exit_status = 1
+            break
 
 sys.exit(exit_status)
