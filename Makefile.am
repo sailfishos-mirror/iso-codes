@@ -7,7 +7,7 @@ EXTRA_DIST = \
 	LICENSE			\
 	common.mk		\
 	iso2pot.py		\
-	check_valid_utf8.pl
+	check_valid_utf8.py
 
 DISTCLEANFILES = $(pkgconfig_DATA)
 
