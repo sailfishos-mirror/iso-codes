@@ -5,6 +5,8 @@ pofiles = $(wildcard $(srcdir)/*.po)
 mofiles = $(patsubst $(srcdir)/%.po,%.mo, $(pofiles))
 noinst_DATA = $(mofiles) $(xml_DATA:.xml=.pot)
 
+localedir = $(datadir)/locale
+
 EXTRA_DIST = \
 	$(pofiles)	\
 	$(xml_DATA)	\
@@ -13,15 +15,14 @@ EXTRA_DIST = \
 MOSTLYCLEANFILES = \
 	$(mofiles)
 
-check-local: check-content
-
 # Generic target to create binary .mo files from .po files
 %.mo: %.po
 	$(MSGFMT) $(MSGFMT_FLAGS) -o $@ $<
 
-.PHONY: check-content
-check-content:
-	perl $(top_srcdir)/check_valid_utf8.pl $(pofiles)
+# Used in the domain subdirectories for checking that
+# all .po files contain UTF-8 data
+check-local:
+	python3 $(top_srcdir)/check_valid_utf8.py $(pofiles)
 
 # This target merges all po files with the current pot file,
 # removes obsolete msgids and substitutes the Project-Id-Version
@@ -51,10 +52,7 @@ update-po:
 		sed -i -e 's/^\"Language: tt@iqtelif\\n\"/\"Language: tt\\n\"/' tt.po; \
 	fi
 
-localedir = $(datadir)/locale
-
 install-data-hook: $(mofiles)
-	$(mkinstalldirs) $(DESTDIR)$(datadir)
 	$(mkinstalldirs) $(DESTDIR)$(localedir)
 	catalogs='$(mofiles)'; \
 	for cat in $$catalogs; do \
