@@ -1,5 +1,4 @@
 DOMAIN = iso_639_5
-VERSION = @PACKAGE_VERSION@
 
 include $(top_srcdir)/common.mk
 
