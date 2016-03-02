@@ -22,7 +22,7 @@ MOSTLYCLEANFILES = \
 # Used in the domain subdirectories for checking that
 # all .po files contain UTF-8 data
 check-local:
-	python3 $(top_srcdir)/check_valid_utf8.py $(pofiles)
+	python3 $(top_srcdir)/bin/check_valid_utf8.py $(pofiles)
 
 # This target merges all po files with the current pot file,
 # removes obsolete msgids and substitutes the Project-Id-Version
