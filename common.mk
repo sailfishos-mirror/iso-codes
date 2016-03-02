@@ -48,7 +48,7 @@ update-po:
 		sed -i -e 's/^\"Language: sr\\n\"/\"Language: sr@latin\\n\"/' sr@latin.po; \
 	fi
 	if [ -f tt@iqtelif.po ]; then \
-		$(MSGFILTER) --keep-header sed -f $(top_srcdir)/recode-tt-cyrillic.sed < tt@iqtelif.po > tt.po; \
+		$(MSGFILTER) --keep-header sed -f $(top_srcdir)/bin/recode-tt-cyrillic.sed < tt@iqtelif.po > tt.po; \
 		sed -i -e 's/^\"Language: tt@iqtelif\\n\"/\"Language: tt\\n\"/' tt.po; \
 	fi
 
