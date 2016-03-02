@@ -8,7 +8,6 @@ jsondir = $(pkgdatadir)/json
 dist_json_DATA = $(wildcard $(srcdir)/data/*.json)
 
 EXTRA_DIST = \
-	LICENSE			\
 	common.mk		\
 	iso2pot.py		\
 	check_valid_utf8.py
