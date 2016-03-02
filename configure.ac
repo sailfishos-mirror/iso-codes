@@ -24,10 +24,7 @@ AC_INIT([iso-codes],[3.66])
 AM_INIT_AUTOMAKE([dist-xz no-dist-gzip foreign])
 AM_MAINTAINER_MODE
 
-AC_SUBST([ACLOCAL_AMFLAGS], ["\${ACLOCAL_FLAGS}"])
-
 AC_PROG_INSTALL
-AC_PROG_MAKE_SET
 
 AC_PATH_PROG([MSGMERGE],[msgmerge])
 AC_PATH_PROG([MSGFMT],[msgfmt])
