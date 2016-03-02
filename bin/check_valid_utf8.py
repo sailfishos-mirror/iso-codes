@@ -46,7 +46,7 @@ for filename in sys.argv:
                 break
             if re.search(r'Content-Type: text/plain; charset=UTF-8', utf8):
                 charset_utf8_seen = True
-        # The whole file has been read, the content time should have
+        # The whole file has been read, the content type should have
         # been detected now. Otherwise, it's an error.
         if not charset_utf8_seen:
             print("Error in file %s: could not detect Content-Type header" % filename)
