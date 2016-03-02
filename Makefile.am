@@ -7,13 +7,10 @@ pkgconfig_DATA = iso-codes.pc
 jsondir = $(pkgdatadir)/json
 dist_json_DATA = $(wildcard $(srcdir)/data/*.json)
 
-EXTRA_DIST = \
-	common.mk		\
-	iso2pot.py		\
-	check_valid_utf8.py
+# Include the "bin" directory and the common Makefile snippet.
+EXTRA_DIST = bin common.mk
 
 DISTCLEANFILES = $(pkgconfig_DATA)
-
 
 .PHONY: release
 release: update-po check distcheck
