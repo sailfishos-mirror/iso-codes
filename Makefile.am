@@ -1,4 +1,4 @@
-SUBDIRS = iso_639 iso_639_3 iso_639_5 iso_3166 iso_3166_2 iso_4217 iso_15924
+SUBDIRS = $(DOMAINS)
 
 pkgconfigdir = $(datadir)/pkgconfig
 pkgconfig_DATA = iso-codes.pc
@@ -21,7 +21,7 @@ release: update-po check distcheck
 
 .PHONY: update-po
 update-po:
-	for domain in $(SUBDIRS); do \
+	for domain in $(DOMAINS); do \
 		cd $$domain && make update-po && cd ..; \
 	done
 
