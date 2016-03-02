@@ -3,6 +3,10 @@ SUBDIRS = iso_639 iso_639_3 iso_639_5 iso_3166 iso_3166_2 iso_4217 iso_15924
 pkgconfigdir = $(datadir)/pkgconfig
 pkgconfig_DATA = iso-codes.pc
 
+# For this release, just install the JSON files.
+jsondir = $(pkgdatadir)/json
+dist_json_DATA = $(wildcard $(srcdir)/data/*.json)
+
 EXTRA_DIST = \
 	LICENSE			\
 	common.mk		\
