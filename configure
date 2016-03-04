@@ -2562,10 +2562,10 @@ fi
 $as_echo "$gnu_msgfmt" >&6; }
 
 
-DOMAINS="iso_639-2 iso_639-3 iso_639-5 iso_3166-1 iso_3166-2 iso_4217 iso_15924"
+DOMAINS="iso_639-2 iso_639-3 iso_639-5 iso_3166-1 iso_3166-2 iso_3166-3 iso_4217 iso_15924"
 
 
-ac_config_files="$ac_config_files Makefile iso-codes.pc iso_639-2/Makefile iso_639-3/Makefile iso_639-5/Makefile iso_3166-1/Makefile iso_3166-2/Makefile iso_4217/Makefile iso_15924/Makefile"
+ac_config_files="$ac_config_files Makefile iso-codes.pc iso_639-2/Makefile iso_639-3/Makefile iso_639-5/Makefile iso_3166-1/Makefile iso_3166-2/Makefile iso_3166-3/Makefile iso_4217/Makefile iso_15924/Makefile"
 
 
 cat >confcache <<\_ACEOF
@@ -3296,6 +3296,7 @@ do
     "iso_639-5/Makefile") CONFIG_FILES="$CONFIG_FILES iso_639-5/Makefile" ;;
     "iso_3166-1/Makefile") CONFIG_FILES="$CONFIG_FILES iso_3166-1/Makefile" ;;
     "iso_3166-2/Makefile") CONFIG_FILES="$CONFIG_FILES iso_3166-2/Makefile" ;;
+    "iso_3166-3/Makefile") CONFIG_FILES="$CONFIG_FILES iso_3166-3/Makefile" ;;
     "iso_4217/Makefile") CONFIG_FILES="$CONFIG_FILES iso_4217/Makefile" ;;
     "iso_15924/Makefile") CONFIG_FILES="$CONFIG_FILES iso_15924/Makefile" ;;
 
