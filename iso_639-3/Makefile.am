@@ -1,4 +1,4 @@
-DOMAIN = iso_639_3
+DOMAIN = iso_639-3
 
 include $(top_srcdir)/common.mk
 
