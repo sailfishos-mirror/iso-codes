@@ -19,6 +19,10 @@ MOSTLYCLEANFILES = \
 %.mo: %.po
 	$(MSGFMT) $(MSGFMT_FLAGS) -o $@ $<
 
+# Generic target to create .pot files from JSON data files
+$(DOMAIN).pot: $(top_srcdir)/data/$(DOMAIN).json
+	python3 $(top_srcdir)/bin/pot_from_json.py $(DOMAIN) $(top_srcdir)/data
+
 # Used in the domain subdirectories for checking that
 # all .po files contain UTF-8 data
 check-local:
