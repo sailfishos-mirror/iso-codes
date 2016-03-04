@@ -23,6 +23,10 @@ MOSTLYCLEANFILES = \
 $(DOMAIN).pot: $(top_srcdir)/data/$(DOMAIN).json
 	python3 $(top_srcdir)/bin/pot_from_json.py $(DOMAIN) $(top_srcdir)/data
 
+# Generic target to create deprecated .xml files from JSON data files
+$(DOMAIN).xml: $(top_srcdir)/data/$(DOMAIN).json
+	python3 $(top_srcdir)/bin/xml_from_json.py $(DOMAIN) $(top_srcdir)/data $@
+
 # Used in the domain subdirectories for checking that
 # all .po files contain UTF-8 data
 check-local:
