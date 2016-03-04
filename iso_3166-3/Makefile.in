@@ -467,6 +467,7 @@ $(DOMAIN).pot: $(top_srcdir)/bin/pot_from_json.py $(top_srcdir)/data/$(DOMAIN).j
 # Generic target to create deprecated .xml files from JSON data files
 $(DOMAIN).xml: $(top_srcdir)/bin/xml_from_json.py $(top_srcdir)/data/$(DOMAIN).json
 	python3 $(top_srcdir)/bin/xml_from_json.py $(DOMAIN) $(top_srcdir)/data $@
+	if [ "$(DOMAIN)" = "iso_3166-3" ]; then rm iso_3166-3.xml; fi
 
 # Used in the domain subdirectories for checking that
 # all .po files contain UTF-8 data
