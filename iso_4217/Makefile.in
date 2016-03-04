@@ -460,6 +460,10 @@ uninstall-am: uninstall-xmlDATA
 %.mo: %.po
 	$(MSGFMT) $(MSGFMT_FLAGS) -o $@ $<
 
+# Generic target to create .pot files from JSON data files
+$(DOMAIN).pot: $(top_srcdir)/data/$(DOMAIN).json
+	python3 $(top_srcdir)/bin/pot_from_json.py $(DOMAIN) $(top_srcdir)/data
+
 # Used in the domain subdirectories for checking that
 # all .po files contain UTF-8 data
 check-local:
@@ -511,10 +515,6 @@ uninstall-hook:
 		lang=`echo $$cat | sed 's/\.mo$$//'`; \
 		rm -f $(DESTDIR)$(localedir)/$$lang/LC_MESSAGES/$(DOMAIN).mo; \
 	done
-
-iso_4217.pot: iso_4217.xml
-	../iso2pot.py --is-version ${VERSION}  --comments letter_code \
-		--fields currency_name  --outfile $@ $< 
 
 # Tell versions [3.59,3.63) of GNU make to not export all variables.
 # Otherwise a system limit (for SysV at least) may be exceeded.

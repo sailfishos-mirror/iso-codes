@@ -86,7 +86,7 @@ POST_INSTALL = :
 NORMAL_UNINSTALL = :
 PRE_UNINSTALL = :
 POST_UNINSTALL = :
-subdir = iso_639_3
+subdir = iso_639-3
 ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
 am__aclocal_m4_deps = $(top_srcdir)/configure.ac
 am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \
@@ -227,7 +227,7 @@ target_alias = @target_alias@
 top_build_prefix = @top_build_prefix@
 top_builddir = @top_builddir@
 top_srcdir = @top_srcdir@
-DOMAIN = iso_639_3
+DOMAIN = iso_639-3
 xmldir = $(datadir)/xml/iso-codes
 xml_DATA = $(DOMAIN).xml
 pofiles = $(wildcard $(srcdir)/*.po)
@@ -253,9 +253,9 @@ $(srcdir)/Makefile.in: @MAINTAINER_MODE_TRUE@ $(srcdir)/Makefile.am $(top_srcdir
 	      exit 1;; \
 	  esac; \
 	done; \
-	echo ' cd $(top_srcdir) && $(AUTOMAKE) --foreign iso_639_3/Makefile'; \
+	echo ' cd $(top_srcdir) && $(AUTOMAKE) --foreign iso_639-3/Makefile'; \
 	$(am__cd) $(top_srcdir) && \
-	  $(AUTOMAKE) --foreign iso_639_3/Makefile
+	  $(AUTOMAKE) --foreign iso_639-3/Makefile
 Makefile: $(srcdir)/Makefile.in $(top_builddir)/config.status
 	@case '$?' in \
 	  *config.status*) \
@@ -460,6 +460,10 @@ uninstall-am: uninstall-xmlDATA
 %.mo: %.po
 	$(MSGFMT) $(MSGFMT_FLAGS) -o $@ $<
 
+# Generic target to create .pot files from JSON data files
+$(DOMAIN).pot: $(top_srcdir)/data/$(DOMAIN).json
+	python3 $(top_srcdir)/bin/pot_from_json.py $(DOMAIN) $(top_srcdir)/data
+
 # Used in the domain subdirectories for checking that
 # all .po files contain UTF-8 data
 check-local:
@@ -511,10 +515,6 @@ uninstall-hook:
 		lang=`echo $$cat | sed 's/\.mo$$//'`; \
 		rm -f $(DESTDIR)$(localedir)/$$lang/LC_MESSAGES/$(DOMAIN).mo; \
 	done
-
-iso_639_3.pot: iso_639_3.xml
-	../iso2pot.py --is-version ${VERSION} --comment id \
-		--fields name,inverted_name,reference_name,common_name --outfile $@ $< 
 
 # Tell versions [3.59,3.63) of GNU make to not export all variables.
 # Otherwise a system limit (for SysV at least) may be exceeded.
