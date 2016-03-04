@@ -12,6 +12,13 @@ EXTRA_DIST = bin common.mk
 
 DISTCLEANFILES = $(pkgconfig_DATA)
 
+# Updates all pot files
+.PHONY: pot
+pot:
+	for domain in $(DOMAINS); do \
+		cd $$domain && make $$domain.pot && cd ..; \
+	done
+
 .PHONY: release
 release: update-po check distcheck
 

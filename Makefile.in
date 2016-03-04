@@ -823,6 +823,13 @@ uninstall-am: uninstall-dist_jsonDATA uninstall-pkgconfigDATA
 .PRECIOUS: Makefile
 
 
+# Updates all pot files
+.PHONY: pot
+pot:
+	for domain in $(DOMAINS); do \
+		cd $$domain && make $$domain.pot && cd ..; \
+	done
+
 .PHONY: release
 release: update-po check distcheck
 
