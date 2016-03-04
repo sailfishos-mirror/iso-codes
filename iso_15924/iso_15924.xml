@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <!--
+
+WARNING: THIS FILE IS DEPRECATED.
+
+PLEASE USE THE JSON DATA INSTEAD.
+
+Usually, this data can be found in /usr/share/iso-codes/json.
+
 This file gives a list of all script names in the ISO 15924
 standard, and is used to provide translations via gettext
 
@@ -160,7 +167,7 @@ Source for changes: <http://unicode.org/iso15924/codechanges.html>
 	<iso_15924_entry
 		alpha_4_code="Dupl"
 		numeric_code="755"
-	   name="Duployan shorthand, Duployan stenography" />
+		name="Duployan shorthand, Duployan stenography" />
 	<iso_15924_entry
 		alpha_4_code="Egyd"
 		numeric_code="070"
@@ -182,13 +189,13 @@ Source for changes: <http://unicode.org/iso15924/codechanges.html>
 		numeric_code="430"
 		name="Ethiopic (Geʻez)" />
 	<iso_15924_entry
-		alpha_4_code="Geor"
-		numeric_code="240"
-		name="Georgian (Mkhedruli)" />
-	<iso_15924_entry
 		alpha_4_code="Geok"
 		numeric_code="241"
 		name="Khutsuri (Asomtavruli and Nuskhuri)" />
+	<iso_15924_entry
+		alpha_4_code="Geor"
+		numeric_code="240"
+		name="Georgian (Mkhedruli)" />
 	<iso_15924_entry
 		alpha_4_code="Glag"
 		numeric_code="225"
@@ -198,13 +205,13 @@ Source for changes: <http://unicode.org/iso15924/codechanges.html>
 		numeric_code="206"
 		name="Gothic" />
 	<iso_15924_entry
-		alpha_4_code="Grek"
-		numeric_code="200"
-		name="Greek" />
-	<iso_15924_entry
 		alpha_4_code="Gran"
 		numeric_code="343"
 		name="Grantha" />
+	<iso_15924_entry
+		alpha_4_code="Grek"
+		numeric_code="200"
+		name="Greek" />
 	<iso_15924_entry
 		alpha_4_code="Gujr"
 		numeric_code="320"
@@ -298,13 +305,13 @@ Source for changes: <http://unicode.org/iso15924/codechanges.html>
 		numeric_code="355"
 		name="Khmer" />
 	<iso_15924_entry
-		alpha_4_code="Knda"
-		numeric_code="345"
-		name="Kannada" />
-	<iso_15924_entry
 		alpha_4_code="Khoj"
 		numeric_code="322"
 		name="Khojki" />
+	<iso_15924_entry
+		alpha_4_code="Knda"
+		numeric_code="345"
+		name="Kannada" />
 	<iso_15924_entry
 		alpha_4_code="Kore"
 		numeric_code="287"
@@ -406,13 +413,13 @@ Source for changes: <http://unicode.org/iso15924/codechanges.html>
 		numeric_code="323"
 		name="Modi, Moḍī" />
 	<iso_15924_entry
-		alpha_4_code="Moon"
-		numeric_code="218"
-		name="Moon (Moon code, Moon script, Moon type)" />
-	<iso_15924_entry
 		alpha_4_code="Mong"
 		numeric_code="145"
 		name="Mongolian" />
+	<iso_15924_entry
+		alpha_4_code="Moon"
+		numeric_code="218"
+		name="Moon (Moon code, Moon script, Moon type)" />
 	<iso_15924_entry
 		alpha_4_code="Mroo"
 		numeric_code="199"
