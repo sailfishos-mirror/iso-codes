@@ -118,3 +118,4 @@ with open(domain + ".pot", "w") as pot_file:
         pot_file.write("\n\n#. " + ", ".join(msgid["comment"]) + "\n")
         pot_file.write("msgid \"" + msgid["msgid"] + "\"\n")
         pot_file.write("msgstr \"\"")
+    pot_file.write("\n")
