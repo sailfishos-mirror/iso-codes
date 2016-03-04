@@ -20,11 +20,11 @@ MOSTLYCLEANFILES = \
 	$(MSGFMT) $(MSGFMT_FLAGS) -o $@ $<
 
 # Generic target to create .pot files from JSON data files
-$(DOMAIN).pot: $(top_srcdir)/data/$(DOMAIN).json
+$(DOMAIN).pot: $(top_srcdir)/bin/pot_from_json.py $(top_srcdir)/data/$(DOMAIN).json
 	python3 $(top_srcdir)/bin/pot_from_json.py $(DOMAIN) $(top_srcdir)/data
 
 # Generic target to create deprecated .xml files from JSON data files
-$(DOMAIN).xml: $(top_srcdir)/data/$(DOMAIN).json
+$(DOMAIN).xml: $(top_srcdir)/bin/xml_from_json.py $(top_srcdir)/data/$(DOMAIN).json
 	python3 $(top_srcdir)/bin/xml_from_json.py $(DOMAIN) $(top_srcdir)/data $@
 
 # Used in the domain subdirectories for checking that
