@@ -22,10 +22,11 @@ import json
 import sys
 import time
 
-# Get the current ISO code domain
-if len(sys.argv) != 2:
-    sys.exit("Please provide the domain.")
+# Get the current ISO code domain and the path to the JSON data dir
+if len(sys.argv) != 3:
+    sys.exit("Please provide the domain and the path to the JSON data dir.")
 domain = sys.argv[1]
+datapath = sys.argv[2]
 
 # The number starts after "iso_", so always after four characters
 iso_number = domain[4:]
@@ -52,7 +53,7 @@ if domain == "iso_3166-2":
     comment = "alpha_2"
 
 # Read in the JSON file
-with open("data/" + domain + ".json") as json_file:
+with open(datapath + "/" + domain + ".json") as json_file:
     iso = json.load(json_file)
 
 # Helper function for keeping track of msgids and comments
