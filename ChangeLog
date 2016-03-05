@@ -1,3 +1,36 @@
+iso-codes 4.0
+-------------
+
+  [ General ]
+  * The data is now included in JSON files.
+  * The XML files are deprecated and should not be used for new
+    projects. However, they are kept in sync with the JSON data
+    for now.
+  * The gettext domains have been renamed to better match the
+    actual ISO number:
+    - ISO 639-2: Renamed from iso_639 to iso_639-2
+    - ISO 639-3: Renamed from iso_639_3 to iso_639-3
+    - ISO 639-5: Renamed from iso_639_5 to iso_639-5
+    - ISO 3166-1: Renamed from iso_3166 to iso_3166-1
+    - ISO 3166-2: Renamed from iso_3166_2 to iso_3166-2
+    All previously used gettext domains are linked to the new
+    domain names, so that this transition should be smooth for
+    programs using those domain names.
+  * A new ISO standard has been included, ISO 3166-3. The gettext
+    domain is called iso_3166-3. Basically, this is a split of the
+    old domain iso_3166 into iso_3166-1 and iso_3166-3, because
+    the old domain iso_3166 contained both standards. However, the
+    standard ISO 3166-3 was more or less inaccessible.
+  * The standard ISO 4217 (currency names) now includes only the
+    currently used currencies. Entries of withdrawn currencies are
+    no longer included.
+  * The standard ISO 639-5 now includes only the language families
+    which are part of the official standard. The previously
+    included languages were not part of the standard and have been
+    removed. This reduced the number of language families from
+    about 1900 to about 110.
+
+
 iso-codes 3.66
 --------------
 Dr. Tobias Quathamer <toddy@debian.org>
