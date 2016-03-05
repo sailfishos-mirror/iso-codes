@@ -75,6 +75,11 @@ install-data-hook: $(mofiles)
 		if [ "$(DOMAIN)" = "iso_3166-1" ]; then (cd $$dir && $(LN_S) $(DOMAIN).mo iso_3166.mo); fi; \
 		if [ "$(DOMAIN)" = "iso_3166-2" ]; then (cd $$dir && $(LN_S) $(DOMAIN).mo iso_3166_2.mo); fi; \
 	done
+	if [ "$(DOMAIN)" = "iso_639-2" ]; then (cd $(DESTDIR)$(xmldir) && $(LN_S) $(DOMAIN).xml iso_639.xml); fi
+	if [ "$(DOMAIN)" = "iso_639-3" ]; then (cd $(DESTDIR)$(xmldir) && $(LN_S) $(DOMAIN).xml iso_639_3.xml); fi
+	if [ "$(DOMAIN)" = "iso_639-5" ]; then (cd $(DESTDIR)$(xmldir) && $(LN_S) $(DOMAIN).xml iso_639_5.xml); fi
+	if [ "$(DOMAIN)" = "iso_3166-1" ]; then (cd $(DESTDIR)$(xmldir) && $(LN_S) $(DOMAIN).xml iso_3166.xml); fi
+	if [ "$(DOMAIN)" = "iso_3166-2" ]; then (cd $(DESTDIR)$(xmldir) && $(LN_S) $(DOMAIN).xml iso_3166_2.xml); fi
 
 uninstall-hook:
 	catalogs='$(mofiles)'; \
@@ -88,3 +93,8 @@ uninstall-hook:
 		if [ "$(DOMAIN)" = "iso_3166-1" ]; then rm -f $(DESTDIR)$(localedir)/$$lang/LC_MESSAGES/iso_3166.mo; fi; \
 		if [ "$(DOMAIN)" = "iso_3166-1" ]; then rm -f $(DESTDIR)$(localedir)/$$lang/LC_MESSAGES/iso_3166_2.mo; fi; \
 	done
+	if [ "$(DOMAIN)" = "iso_639-2" ]; then rm -f $(DESTDIR)$(xmldir)/iso_639.xml; fi
+	if [ "$(DOMAIN)" = "iso_639-3" ]; then rm -f $(DESTDIR)$(xmldir)/iso_639_3.xml; fi
+	if [ "$(DOMAIN)" = "iso_639-5" ]; then rm -f $(DESTDIR)$(xmldir)/iso_639_5.xml; fi
+	if [ "$(DOMAIN)" = "iso_3166-1" ]; then rm -f $(DESTDIR)$(xmldir)/iso_3166.xml; fi
+	if [ "$(DOMAIN)" = "iso_3166-2" ]; then rm -f $(DESTDIR)$(xmldir)/iso_3166_2.xml; fi
