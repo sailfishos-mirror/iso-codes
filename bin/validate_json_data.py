@@ -22,18 +22,40 @@ import json
 from jsonschema import validate
 
 standards = [
-	"639-2",
-	"639-3",
-	"639-5",
-	"3166-1",
-	"3166-2",
-	"3166-3",
-	"4217",
-	"15924",
+    "639-2",
+    "639-3",
+    "639-5",
+    "3166-1",
+    "3166-2",
+    "3166-3",
+    "4217",
+    "15924",
 ]
 
+# Validate against schema
 for standard in standards:
-	with open("data/schema-" + standard + ".json") as schema_file:
-		schema = json.load(schema_file)
-		with open("data/iso_" + standard + ".json") as json_file:
-			validate(json.load(json_file), schema)
+    with open("data/schema-" + standard + ".json") as schema_file:
+        schema = json.load(schema_file)
+        with open("data/iso_" + standard + ".json") as json_file:
+            validate(json.load(json_file), schema)
+
+# Ensure correct sorting order
+for standard in standards:
+    # Read in the JSON file
+    with open("data/iso_" + standard + ".json") as json_file:
+        iso = json.load(json_file)
+    # Special case for ISO 3166-2
+    if standard == "3166-2":
+        for entry in iso[standard]:
+            for subset in entry["subsets"]:
+                subset["items"].sort(key=lambda item: item["code"])
+    else:
+        sort_key = "alpha_3"
+        if standard in ["3166-3", "15924"]:
+            sort_key = "alpha_4"
+        iso[standard].sort(key=lambda item: item[sort_key])
+    # Write the sorted JSON file
+    with open("data/iso_" + standard + ".json", "w") as json_file:
+        json.dump(iso, json_file, ensure_ascii=False, indent=2, sort_keys=True)
+        # Add a final newline
+        json_file.write("\n")
