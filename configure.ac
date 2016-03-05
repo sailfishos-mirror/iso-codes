@@ -25,6 +25,7 @@ AM_INIT_AUTOMAKE([dist-xz no-dist-gzip foreign])
 AM_MAINTAINER_MODE
 
 AC_PROG_INSTALL
+AC_PROG_LN_S
 
 AC_PATH_PROG([MSGMERGE],[msgmerge])
 AC_PATH_PROG([MSGFMT],[msgfmt])
