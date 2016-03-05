@@ -69,6 +69,11 @@ install-data-hook: $(mofiles)
 		dir=$(DESTDIR)$(localedir)/$$lang/LC_MESSAGES; \
 		$(mkinstalldirs) $$dir; \
 		$(INSTALL_DATA) $$cat $$dir/$(DOMAIN).mo; \
+		if [ "$(DOMAIN)" = "iso_639-2" ]; then (cd $$dir && $(LN_S) $(DOMAIN).mo iso_639.mo); fi; \
+		if [ "$(DOMAIN)" = "iso_639-3" ]; then (cd $$dir && $(LN_S) $(DOMAIN).mo iso_639_3.mo); fi; \
+		if [ "$(DOMAIN)" = "iso_639-5" ]; then (cd $$dir && $(LN_S) $(DOMAIN).mo iso_639_5.mo); fi; \
+		if [ "$(DOMAIN)" = "iso_3166-1" ]; then (cd $$dir && $(LN_S) $(DOMAIN).mo iso_3166.mo); fi; \
+		if [ "$(DOMAIN)" = "iso_3166-2" ]; then (cd $$dir && $(LN_S) $(DOMAIN).mo iso_3166_2.mo); fi; \
 	done
 
 uninstall-hook:
@@ -77,4 +82,9 @@ uninstall-hook:
 		cat=`basename $$cat`; \
 		lang=`echo $$cat | sed 's/\.mo$$//'`; \
 		rm -f $(DESTDIR)$(localedir)/$$lang/LC_MESSAGES/$(DOMAIN).mo; \
+		if [ "$(DOMAIN)" = "iso_639-2" ]; then rm -f $(DESTDIR)$(localedir)/$$lang/LC_MESSAGES/iso_639.mo; fi; \
+		if [ "$(DOMAIN)" = "iso_639-3" ]; then rm -f $(DESTDIR)$(localedir)/$$lang/LC_MESSAGES/iso_639_3.mo; fi; \
+		if [ "$(DOMAIN)" = "iso_639-5" ]; then rm -f $(DESTDIR)$(localedir)/$$lang/LC_MESSAGES/iso_639_5.mo; fi; \
+		if [ "$(DOMAIN)" = "iso_3166-1" ]; then rm -f $(DESTDIR)$(localedir)/$$lang/LC_MESSAGES/iso_3166.mo; fi; \
+		if [ "$(DOMAIN)" = "iso_3166-1" ]; then rm -f $(DESTDIR)$(localedir)/$$lang/LC_MESSAGES/iso_3166_2.mo; fi; \
 	done
