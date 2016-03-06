@@ -34,7 +34,8 @@ check-local:
 
 # This target merges all po files with the current pot file,
 # removes obsolete msgids and substitutes the Project-Id-Version
-# header with the correct value
+# header with the PROJECT only, removing the VERSION part.
+# This is done to keep the diff between releases small.
 #
 # NOTE:
 # Removing obsolete msgids is not the recommended way to go.
@@ -43,10 +44,13 @@ check-local:
 # with one (sometimes two or three) words, the fuzzy matching performed
 # with obsolete msgids will not ease the translator's work, but
 # will lead to confusing entries.
+#
+# However, if there is only a small change, we include the fuzzy
+# entry with the previous msgid to hopefully save some work.
 .PHONY: update-po
 update-po:
 	for pofile in $(pofiles); do \
-		$(MSGMERGE) --no-fuzzy-matching $$pofile $(DOMAIN).pot > tmpfile; \
+		$(MSGMERGE) --previous $$pofile $(DOMAIN).pot > tmpfile; \
 		$(MSGATTRIB) --no-obsolete tmpfile > $$pofile; \
 		sed -i -e 's/^\"Project-Id-Version: iso.*/\"Project-Id-Version: $(DOMAIN)\\n\"/' $$pofile; \
 	done
