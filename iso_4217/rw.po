@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: iso_4217\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2016-03-04 14:12+0100\n"
+"POT-Creation-Date: 2016-03-05 21:58+0100\n"
 "PO-Revision-Date: 2004-11-15 15:00+0200\n"
 "Last-Translator: Steve Murphy <murf@e-tools.com>\n"
 "Language-Team: Kinyarwanda <translation-team-rw@lists.sourceforge.net>\n"
@@ -34,7 +34,9 @@ msgid "Armenian Dram"
 msgstr "Idiramu rya Arumeniya"
 
 #. Name for ANG
-msgid "Netherlands Antillian Guilder"
+#, fuzzy
+#| msgid "Netherlands Antillian Guilder"
+msgid "Netherlands Antillean Guilder"
 msgstr "Igwilida Antiye Nederilande"
 
 #. Name for AOA
@@ -51,7 +53,9 @@ msgid "Australian Dollar"
 msgstr "Idolari rya Ositaraliya"
 
 #. Name for AWG
-msgid "Aruban Guilder"
+#, fuzzy
+#| msgid "Aruban Guilder"
+msgid "Aruban Florin"
 msgstr "Igwilida Nyarubani"
 
 #. Name for AZN
@@ -59,7 +63,9 @@ msgid "Azerbaijanian Manat"
 msgstr "Imanati Nyazeribayijani"
 
 #. Name for BAM
-msgid "Convertible Marks"
+#, fuzzy
+#| msgid "Convertible Marks"
+msgid "Convertible Mark"
 msgstr "Amamarike Ahindurwa"
 
 #. Name for BBD
@@ -94,10 +100,6 @@ msgstr "Idorali rya Buruneyi"
 msgid "Boliviano"
 msgstr "Boliviyano"
 
-#. Name for BOV
-msgid "Mvdol"
-msgstr ""
-
 #. Name for BRL
 msgid "Brazilian Real"
 msgstr "Irili rya Burezile"
@@ -117,7 +119,7 @@ msgstr ""
 
 #. Name for BYR
 #, fuzzy
-msgid "Belarussian Ruble"
+msgid "Belarusian Ruble"
 msgstr "Irubule rya Belarusi"
 
 #. Name for BZD
@@ -133,23 +135,9 @@ msgstr "Idolari rya Kanada"
 msgid "Congolese Franc"
 msgstr "Ifaranga rya Komore"
 
-#. Name for CHE
-#, fuzzy
-msgid "WIR Euro"
-msgstr "Ero"
-
 #. Name for CHF
 msgid "Swiss Franc"
 msgstr "Ifaranga ry'Ubusuwisi"
-
-#. Name for CHW
-#, fuzzy
-msgid "WIR Franc"
-msgstr "Ifaranga ry'Urwanda"
-
-#. Name for CLF
-msgid "Unidades de fomento"
-msgstr "Unidadesi ya fomento"
 
 #. Name for CLP
 msgid "Chilean Peso"
@@ -164,14 +152,15 @@ msgstr "Iyeni Reniminibi ry'Ubushinwa"
 msgid "Colombian Peso"
 msgstr "Ipezo rya Kolombiya"
 
-#. Name for COU
-#, fuzzy
-msgid "Unidad de Valor Real"
-msgstr "Urugero rw'Agaciro Ndahinduka UVC"
-
 #. Name for CRC
 msgid "Costa Rican Colon"
 msgstr "Ikoloni rya Cosita Rika"
+
+#. Name for CUC
+#, fuzzy
+#| msgid "Convertible Marks"
+msgid "Peso Convertible"
+msgstr "Amamarike Ahindurwa"
 
 #. Name for CUP
 msgid "Cuban Peso"
@@ -179,12 +168,8 @@ msgstr "Ipezo rya Kiba"
 
 #. Name for CVE
 #, fuzzy
-msgid "Cape Verde Escudo"
+msgid "Cabo Verde Escudo"
 msgstr "Esikudo rya Kapu Veride"
-
-#. Name for CYP
-msgid "Cyprus Pound"
-msgstr "Ipawundi rya Shipure"
 
 #. Name for CZK
 msgid "Czech Koruna"
@@ -205,10 +190,6 @@ msgstr "Ipezo rya Dominika"
 #. Name for DZD
 msgid "Algerian Dinar"
 msgstr "Idenari rya Aligeriya"
-
-#. Name for EEK
-msgid "Kroon"
-msgstr ""
 
 #. Name for EGP
 msgid "Egyptian Pound"
@@ -279,8 +260,8 @@ msgid "Lempira"
 msgstr "Ilempira rya Hondurasi"
 
 #. Name for HRK
-msgid "Croatian Kuna"
-msgstr "Ikuna rya Korowasiya"
+msgid "Kuna"
+msgstr ""
 
 #. Name for HTG
 #, fuzzy
@@ -386,14 +367,6 @@ msgstr "Idolari rya Liberiya"
 msgid "Loti"
 msgstr ""
 
-#. Name for LTL
-msgid "Lithuanian Litas"
-msgstr "Ilitasi rya Lituwaniya"
-
-#. Name for LVL
-msgid "Latvian Lats"
-msgstr "Ilatsi rya Lativiya"
-
 #. Name for LYD
 msgid "Libyan Dinar"
 msgstr "Idenari rya Libiya"
@@ -432,10 +405,6 @@ msgstr "Ipataka rya Makawo"
 msgid "Ouguiya"
 msgstr ""
 
-#. Name for MTL
-msgid "Maltese Lira"
-msgstr "Ilira rya Malita"
-
 #. Name for MUR
 msgid "Mauritius Rupee"
 msgstr "Irupi ry'Ibirwa bya Morise"
@@ -447,24 +416,19 @@ msgstr "Irufiya rya Malidive"
 
 #. Name for MWK
 #, fuzzy
-msgid "Kwacha"
+msgid "Malawi Kwacha"
 msgstr "Ikwaca rya Malawi"
 
 #. Name for MXN
 msgid "Mexican Peso"
 msgstr "Ipezo rya Megizike"
 
-#. Name for MXV
-#, fuzzy
-msgid "Mexican Unidad de Inversion (UDI)"
-msgstr "Urugero rw'Ishoramutungo UDI"
-
 #. Name for MYR
 msgid "Malaysian Ringgit"
 msgstr "Iringiti rya Maleziya"
 
 #. Name for MZN
-msgid "Metical"
+msgid "Mozambique Metical"
 msgstr ""
 
 #. Name for NAD
@@ -503,9 +467,8 @@ msgid "Balboa"
 msgstr ""
 
 #. Name for PEN
-#, fuzzy
-msgid "Nuevo Sol"
-msgstr "Inuvo solu rya Peru"
+msgid "Sol"
+msgstr ""
 
 #. Name for PGK
 msgid "Kina"
@@ -535,9 +498,8 @@ msgid "Qatari Rial"
 msgstr "Iriyali rya Katari"
 
 #. Name for RON
-#, fuzzy
-msgid "New Leu"
-msgstr "Izayire Rishya"
+msgid "Romanian Leu"
+msgstr ""
 
 #. Name for RSD
 #, fuzzy
@@ -596,6 +558,12 @@ msgstr "Ishilingi rya Somaliya"
 msgid "Surinam Dollar"
 msgstr "Idolari rya Singapuru"
 
+#. Name for SSP
+#, fuzzy
+#| msgid "Sudanese Pound"
+msgid "South Sudanese Pound"
+msgstr "Ipawundi rya Sudani"
+
 #. Name for STD
 msgid "Dobra"
 msgstr ""
@@ -623,8 +591,8 @@ msgstr "Ibahiti rya Tayilande"
 msgid "Somoni"
 msgstr "Isomoni rya Tajiki"
 
-#. Name for TMM
-msgid "Manat"
+#. Name for TMT
+msgid "Turkmenistan New Manat"
 msgstr ""
 
 #. Name for TND
@@ -633,12 +601,12 @@ msgstr "Idenari rya Tunisiya"
 
 #. Name for TOP
 #, fuzzy
-msgid "Pa'anga"
+msgid "Pa’anga"
 msgstr "Ipanga rya Tonga"
 
 #. Name for TRY
 #, fuzzy
-msgid "New Turkish Lira"
+msgid "Turkish Lira"
 msgstr "Ilira rya Turukiya"
 
 #. Name for TTD
@@ -667,18 +635,6 @@ msgstr "Ishilingi rya Yuganda"
 msgid "US Dollar"
 msgstr "Idolari rya Leta Zunze Ubumwe z'Amerika"
 
-#. Name for USN
-msgid "US Dollar (Next day)"
-msgstr "Idolari rya Leta Zunze Ubumwe z'Amerika (Umunsi ukurikira)"
-
-#. Name for USS
-msgid "US Dollar (Same day)"
-msgstr "Idolari rya Leta Zunze Ubumwe z'Amerika (Umunsi umwe)"
-
-#. Name for UYI
-msgid "Uruguay Peso en Unidades Indexadas"
-msgstr ""
-
 #. Name for UYU
 msgid "Peso Uruguayo"
 msgstr "Ipezo rya Irigwe"
@@ -688,7 +644,7 @@ msgid "Uzbekistan Sum"
 msgstr "Isamu rya Uzubekisitani"
 
 #. Name for VEF
-msgid "Bolivar Fuerte"
+msgid "Bolívar"
 msgstr ""
 
 #. Name for VND
@@ -717,22 +673,22 @@ msgstr "Zahabu"
 
 #. Name for XBA
 #, fuzzy
-msgid "European Composite Unit (EURCO)"
+msgid "Bond Markets Unit European Composite Unit (EURCO)"
 msgstr "Urugero Rukomatanije Nyaburayi EUROCO"
 
 #. Name for XBB
 #, fuzzy
-msgid "European Monetary Unit (E.M.U.-6)"
+msgid "Bond Markets Unit European Monetary Unit (E.M.U.-6)"
 msgstr "Urugero rw'Ifaranga ry'Iburayi EUM"
 
 #. Name for XBC
 #, fuzzy
-msgid "European Unit of Account 9 (E.U.A.-9)"
+msgid "Bond Markets Unit European Unit of Account 9 (E.U.A.-9)"
 msgstr "Urugero rwa konte Nyaburayi EUA"
 
 #. Name for XBD
 #, fuzzy
-msgid "European Unit of Account 17 (E.U.A.-17)"
+msgid "Bond Markets Unit European Unit of Account 17 (E.U.A.-17)"
 msgstr "Urugero rwa konte Nyaburayi EUA"
 
 #. Name for XCD
@@ -741,16 +697,8 @@ msgid "East Caribbean Dollar"
 msgstr "Idolari rya Karayibe y'Uburasirazuba"
 
 #. Name for XDR
-msgid "Special Drawing Rights"
+msgid "SDR (Special Drawing Right)"
 msgstr ""
-
-#. Name for XFO
-msgid "Gold-Franc"
-msgstr "Ifaranga-Zahabu"
-
-#. Name for XFU
-msgid "UIC-Franc"
-msgstr "Ifaranga-UIC"
 
 #. Name for XOF
 msgid "CFA Franc BCEAO"
@@ -768,14 +716,23 @@ msgstr "Ifaranga CFP"
 msgid "Platinum"
 msgstr "Pulatinumu"
 
+#. Name for XSU
+msgid "Sucre"
+msgstr ""
+
 #. Name for XTS
-msgid "Code for testing purposes"
+#, fuzzy
+#| msgid "Code for testing purposes"
+msgid "Codes specifically reserved for testing purposes"
 msgstr "Itegekongenga ku mpamvu z'igerageza"
 
+#. Name for XUA
+msgid "ADB Unit of Account"
+msgstr ""
+
 #. Name for XXX
-#, fuzzy
-msgid "No currency"
-msgstr "Nta faranga rizamo"
+msgid "The codes assigned for transactions where no currency is involved"
+msgstr ""
 
 #. Name for YER
 #, fuzzy
@@ -786,11 +743,11 @@ msgstr "Iriyali rya Yemeni"
 msgid "Rand"
 msgstr ""
 
-#. Name for ZMK
+#. Name for ZMW
 #, fuzzy
 msgid "Zambian Kwacha"
 msgstr "Ikwaca rya Malawi"
 
-#. Name for ZWD
+#. Name for ZWL
 msgid "Zimbabwe Dollar"
 msgstr "Idolari rya Zimbabwe"

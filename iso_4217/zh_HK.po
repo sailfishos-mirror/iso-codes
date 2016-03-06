@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: iso_4217\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2016-03-04 14:12+0100\n"
+"POT-Creation-Date: 2016-03-05 21:58+0100\n"
 "PO-Revision-Date: 2007-09-06 14:42+0800\n"
 "Last-Translator: Abel Cheung <abelcheung@gmail.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -38,7 +38,9 @@ msgid "Armenian Dram"
 msgstr "亞美尼亞德拉姆"
 
 #. Name for ANG
-msgid "Netherlands Antillian Guilder"
+#, fuzzy
+#| msgid "Netherlands Antillian Guilder"
+msgid "Netherlands Antillean Guilder"
 msgstr "荷屬安的列斯盾"
 
 #. Name for AOA
@@ -55,7 +57,9 @@ msgid "Australian Dollar"
 msgstr "澳元"
 
 #. Name for AWG
-msgid "Aruban Guilder"
+#, fuzzy
+#| msgid "Aruban Guilder"
+msgid "Aruban Florin"
 msgstr "阿魯巴盾"
 
 #. Name for AZN
@@ -63,7 +67,9 @@ msgid "Azerbaijanian Manat"
 msgstr "亞塞拜彊馬納特"
 
 #. Name for BAM
-msgid "Convertible Marks"
+#, fuzzy
+#| msgid "Convertible Marks"
+msgid "Convertible Mark"
 msgstr "波斯尼亞和黑山可兌換馬克"
 
 #. Name for BBD
@@ -98,10 +104,6 @@ msgstr "汶萊元"
 msgid "Boliviano"
 msgstr "玻利維亞貨幣單位"
 
-#. Name for BOV
-msgid "Mvdol"
-msgstr ""
-
 #. Name for BRL
 msgid "Brazilian Real"
 msgstr "巴西里拉"
@@ -121,7 +123,7 @@ msgstr ""
 
 #. Name for BYR
 #, fuzzy
-msgid "Belarussian Ruble"
+msgid "Belarusian Ruble"
 msgstr "白俄羅斯盧布"
 
 #. Name for BZD
@@ -137,21 +139,9 @@ msgstr "加拿大元"
 msgid "Congolese Franc"
 msgstr "科摩羅法郎"
 
-#. Name for CHE
-msgid "WIR Euro"
-msgstr ""
-
 #. Name for CHF
 msgid "Swiss Franc"
 msgstr "瑞士法郎"
-
-#. Name for CHW
-msgid "WIR Franc"
-msgstr ""
-
-#. Name for CLF
-msgid "Unidades de fomento"
-msgstr "卡林油達佛曼跎"
 
 #. Name for CLP
 msgid "Chilean Peso"
@@ -166,25 +156,25 @@ msgstr "人民幣"
 msgid "Colombian Peso"
 msgstr "哥倫比亞披索"
 
-#. Name for COU
-msgid "Unidad de Valor Real"
-msgstr ""
-
 #. Name for CRC
 msgid "Costa Rican Colon"
 msgstr "哥斯達黎加科郎"
+
+#. Name for CUC
+#, fuzzy
+#| msgid "Convertible Marks"
+msgid "Peso Convertible"
+msgstr "波斯尼亞和黑山可兌換馬克"
 
 #. Name for CUP
 msgid "Cuban Peso"
 msgstr "古巴披索"
 
 #. Name for CVE
-msgid "Cape Verde Escudo"
+#, fuzzy
+#| msgid "Cape Verde Escudo"
+msgid "Cabo Verde Escudo"
 msgstr "佛得角埃斯庫多"
-
-#. Name for CYP
-msgid "Cyprus Pound"
-msgstr "賽浦路斯鎊"
 
 #. Name for CZK
 msgid "Czech Koruna"
@@ -205,10 +195,6 @@ msgstr "多明尼加披索"
 #. Name for DZD
 msgid "Algerian Dinar"
 msgstr "阿爾及利亞第納爾"
-
-#. Name for EEK
-msgid "Kroon"
-msgstr ""
 
 #. Name for EGP
 msgid "Egyptian Pound"
@@ -278,8 +264,8 @@ msgid "Lempira"
 msgstr "洪都拉斯倫皮拉"
 
 #. Name for HRK
-msgid "Croatian Kuna"
-msgstr "克羅地亞庫納"
+msgid "Kuna"
+msgstr ""
 
 #. Name for HTG
 #, fuzzy
@@ -386,14 +372,6 @@ msgstr "利比里亞元"
 msgid "Loti"
 msgstr ""
 
-#. Name for LTL
-msgid "Lithuanian Litas"
-msgstr "立陶宛里塔"
-
-#. Name for LVL
-msgid "Latvian Lats"
-msgstr "拉脫維亞拉特銀幣"
-
 #. Name for LYD
 msgid "Libyan Dinar"
 msgstr "利比亞第納爾"
@@ -432,10 +410,6 @@ msgstr "澳門圓"
 msgid "Ouguiya"
 msgstr ""
 
-#. Name for MTL
-msgid "Maltese Lira"
-msgstr "馬爾他里拉"
-
 #. Name for MUR
 msgid "Mauritius Rupee"
 msgstr "毛里裘斯盧比"
@@ -447,23 +421,19 @@ msgstr "馬爾代夫盧非亞"
 
 #. Name for MWK
 #, fuzzy
-msgid "Kwacha"
+msgid "Malawi Kwacha"
 msgstr "馬拉維克瓦查"
 
 #. Name for MXN
 msgid "Mexican Peso"
 msgstr "墨西哥比索"
 
-#. Name for MXV
-msgid "Mexican Unidad de Inversion (UDI)"
-msgstr ""
-
 #. Name for MYR
 msgid "Malaysian Ringgit"
 msgstr "馬來西亞令吉"
 
 #. Name for MZN
-msgid "Metical"
+msgid "Mozambique Metical"
 msgstr ""
 
 #. Name for NAD
@@ -503,9 +473,8 @@ msgid "Balboa"
 msgstr ""
 
 #. Name for PEN
-#, fuzzy
-msgid "Nuevo Sol"
-msgstr "秘魯新索爾"
+msgid "Sol"
+msgstr ""
 
 #. Name for PGK
 msgid "Kina"
@@ -533,9 +502,8 @@ msgid "Qatari Rial"
 msgstr "卡塔爾里亞爾"
 
 #. Name for RON
-#, fuzzy
-msgid "New Leu"
-msgstr "新薩伊"
+msgid "Romanian Leu"
+msgstr ""
 
 #. Name for RSD
 msgid "Serbian Dinar"
@@ -592,6 +560,12 @@ msgstr "索馬利亞先令"
 msgid "Surinam Dollar"
 msgstr "蘇里南元"
 
+#. Name for SSP
+#, fuzzy
+#| msgid "Sudanese Pound"
+msgid "South Sudanese Pound"
+msgstr "蘇丹鎊"
+
 #. Name for STD
 msgid "Dobra"
 msgstr ""
@@ -619,8 +593,8 @@ msgstr "泰銖"
 msgid "Somoni"
 msgstr "塔吉克斯坦索莫尼"
 
-#. Name for TMM
-msgid "Manat"
+#. Name for TMT
+msgid "Turkmenistan New Manat"
 msgstr ""
 
 #. Name for TND
@@ -629,11 +603,13 @@ msgstr "突尼西亞第納爾"
 
 #. Name for TOP
 #, fuzzy
-msgid "Pa'anga"
+msgid "Pa’anga"
 msgstr "湯加潘加"
 
 #. Name for TRY
-msgid "New Turkish Lira"
+#, fuzzy
+#| msgid "New Turkish Lira"
+msgid "Turkish Lira"
 msgstr "土耳其里拉"
 
 #. Name for TTD
@@ -661,18 +637,6 @@ msgstr "烏干達先令"
 msgid "US Dollar"
 msgstr "美元"
 
-#. Name for USN
-msgid "US Dollar (Next day)"
-msgstr "美元 (次日)"
-
-#. Name for USS
-msgid "US Dollar (Same day)"
-msgstr "美元 (當日)"
-
-#. Name for UYI
-msgid "Uruguay Peso en Unidades Indexadas"
-msgstr ""
-
 #. Name for UYU
 msgid "Peso Uruguayo"
 msgstr "烏拉圭披索"
@@ -682,7 +646,7 @@ msgid "Uzbekistan Sum"
 msgstr "烏茲別克蘇姆"
 
 #. Name for VEF
-msgid "Bolivar Fuerte"
+msgid "Bolívar"
 msgstr ""
 
 #. Name for VND
@@ -711,20 +675,20 @@ msgstr "金"
 
 #. Name for XBA
 #, fuzzy
-msgid "European Composite Unit (EURCO)"
+msgid "Bond Markets Unit European Composite Unit (EURCO)"
 msgstr "歐洲混合單位"
 
 #. Name for XBB
 #, fuzzy
-msgid "European Monetary Unit (E.M.U.-6)"
+msgid "Bond Markets Unit European Monetary Unit (E.M.U.-6)"
 msgstr "歐洲貨幣單位 (E.M.U.-6)"
 
 #. Name for XBC
-msgid "European Unit of Account 9 (E.U.A.-9)"
+msgid "Bond Markets Unit European Unit of Account 9 (E.U.A.-9)"
 msgstr ""
 
 #. Name for XBD
-msgid "European Unit of Account 17 (E.U.A.-17)"
+msgid "Bond Markets Unit European Unit of Account 17 (E.U.A.-17)"
 msgstr ""
 
 #. Name for XCD
@@ -732,16 +696,8 @@ msgid "East Caribbean Dollar"
 msgstr "東加勒比元"
 
 #. Name for XDR
-msgid "Special Drawing Rights"
+msgid "SDR (Special Drawing Right)"
 msgstr ""
-
-#. Name for XFO
-msgid "Gold-Franc"
-msgstr "金法郎"
-
-#. Name for XFU
-msgid "UIC-Franc"
-msgstr "UIC-法郎"
 
 #. Name for XOF
 msgid "CFA Franc BCEAO"
@@ -759,12 +715,22 @@ msgstr "太平洋法郎"
 msgid "Platinum"
 msgstr "白金"
 
+#. Name for XSU
+msgid "Sucre"
+msgstr ""
+
 #. Name for XTS
-msgid "Code for testing purposes"
+#, fuzzy
+#| msgid "Code for testing purposes"
+msgid "Codes specifically reserved for testing purposes"
 msgstr "測試用代碼"
 
+#. Name for XUA
+msgid "ADB Unit of Account"
+msgstr ""
+
 #. Name for XXX
-msgid "No currency"
+msgid "The codes assigned for transactions where no currency is involved"
 msgstr ""
 
 #. Name for YER
@@ -775,11 +741,11 @@ msgstr "也門里亞爾"
 msgid "Rand"
 msgstr ""
 
-#. Name for ZMK
+#. Name for ZMW
 #, fuzzy
 msgid "Zambian Kwacha"
 msgstr "馬拉維克瓦查"
 
-#. Name for ZWD
+#. Name for ZWL
 msgid "Zimbabwe Dollar"
 msgstr "津巴布韋元"

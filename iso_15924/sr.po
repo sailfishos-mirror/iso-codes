@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: iso_15924\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2016-03-04 14:12+0100\n"
+"POT-Creation-Date: 2016-03-05 21:58+0100\n"
 "PO-Revision-Date: 2014-04-07 05:16+0200\n"
 "Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
 "Language-Team: Serbian <(nothing)>\n"
@@ -23,6 +23,10 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: KBabel 1.11.4\n"
 
+#. Name for Adlm
+msgid "Adlam"
+msgstr ""
+
 #. Name for Afak
 msgid "Afaka"
 msgstr "афакаски"
@@ -32,12 +36,18 @@ msgid "Caucasian Albanian"
 msgstr "кавкаски албански"
 
 #. Name for Ahom
-msgid "Ahom"
-msgstr "ахомски"
+msgid "Ahom, Tai Ahom"
+msgstr ""
 
 #. Name for Arab
 msgid "Arabic"
 msgstr "арапски"
+
+#. Name for Aran
+#, fuzzy
+#| msgid "Syriac (Eastern variant)"
+msgid "Arabic (Nastaliq variant)"
+msgstr "сиријски (источна варијанта)"
 
 #. Name for Armi
 msgid "Imperial Aramaic"
@@ -70,6 +80,10 @@ msgstr "баткски"
 #. Name for Beng
 msgid "Bengali"
 msgstr "бенгалски"
+
+#. Name for Bhks
+msgid "Bhaiksuki"
+msgstr ""
 
 #. Name for Blis
 msgid "Blissymbols"
@@ -199,6 +213,10 @@ msgstr "гујаратски"
 msgid "Gurmukhi"
 msgstr "гурмушки"
 
+#. Name for Hanb
+msgid "Han with Bopomofo (alias for Han + Bopomofo)"
+msgstr ""
+
 #. Name for Hang
 msgid "Hangul (Hangŭl, Hangeul)"
 msgstr "хангулски (хангил, хангеул)"
@@ -255,6 +273,12 @@ msgstr "индуски (харапан)"
 msgid "Old Italic (Etruscan, Oscan, etc.)"
 msgstr "стари италски (етруски, оскански, итд.)"
 
+#. Name for Jamo
+#, fuzzy
+#| msgid "Korean (alias for Hangul + Han)"
+msgid "Jamo (alias for Jamo subset of Hangul)"
+msgstr "корејски (алијас за хангулски + хански)"
+
 #. Name for Java
 msgid "Javanese"
 msgstr "јавански"
@@ -286,6 +310,14 @@ msgstr "кмерски"
 #. Name for Khoj
 msgid "Khojki"
 msgstr "кхојшки"
+
+#. Name for Kitl
+msgid "Khitan large script"
+msgstr ""
+
+#. Name for Kits
+msgid "Khitan small script"
+msgstr ""
 
 #. Name for Knda
 msgid "Kannada"
@@ -322,6 +354,10 @@ msgstr "латиница (галска варијанта)"
 #. Name for Latn
 msgid "Latin"
 msgstr "латински"
+
+#. Name for Leke
+msgid "Leke"
+msgstr ""
 
 #. Name for Lepc
 msgid "Lepcha (Róng)"
@@ -366,6 +402,12 @@ msgstr "мандски, мандаински"
 #. Name for Mani
 msgid "Manichaean"
 msgstr "манишки"
+
+#. Name for Marc
+#, fuzzy
+#| msgid "Jurchen"
+msgid "Marchen"
+msgstr "јурченски"
 
 #. Name for Maya
 msgid "Mayan hieroglyphs"
@@ -423,6 +465,10 @@ msgstr "стари северноарапски"
 msgid "Nabataean"
 msgstr "набатаински"
 
+#. Name for Newa
+msgid "Newa, Newar, Newari, Nepāla lipi"
+msgstr ""
+
 #. Name for Nkgb
 msgid "Nakhi Geba ('Na-'Khi ²Ggŏ-¹baw, Naxi Geba)"
 msgstr "наки гебски"
@@ -450,6 +496,10 @@ msgstr "старотурски, орконске руне"
 #. Name for Orya
 msgid "Oriya"
 msgstr "оријски"
+
+#. Name for Osge
+msgid "Osage"
+msgstr ""
 
 #. Name for Osma
 msgid "Osmanya"
@@ -486,6 +536,10 @@ msgstr "књишки палавски"
 #. Name for Phnx
 msgid "Phoenician"
 msgstr "феничански"
+
+#. Name for Piqd
+msgid "Klingon (KLI pIqaD)"
+msgstr ""
 
 #. Name for Plrd
 msgid "Miao (Pollard)"
@@ -682,6 +736,12 @@ msgstr "код за наслеђене списе"
 #. Name for Zmth
 msgid "Mathematical notation"
 msgstr "математички запис"
+
+#. Name for Zsye
+#, fuzzy
+#| msgid "Syriac (Estrangelo variant)"
+msgid "Symbols (Emoji variant)"
+msgstr "сиријски (естрангело)"
 
 #. Name for Zsym
 msgid "Symbols"

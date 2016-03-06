@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: iso_4217\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2016-03-04 14:12+0100\n"
+"POT-Creation-Date: 2016-03-05 21:58+0100\n"
 "PO-Revision-Date: 2008-05-17 20:52+0300\n"
 "Last-Translator: Gintautas Miliauskas <gintas@akl.lt>\n"
 "Language-Team: Lithuanian <komp_lt@konferencijos.lt>\n"
@@ -35,7 +35,9 @@ msgid "Armenian Dram"
 msgstr "Armėnijos dramas"
 
 #. Name for ANG
-msgid "Netherlands Antillian Guilder"
+#, fuzzy
+#| msgid "Netherlands Antillian Guilder"
+msgid "Netherlands Antillean Guilder"
 msgstr "Olandijos Antilų guldenas"
 
 #. Name for AOA
@@ -51,7 +53,9 @@ msgid "Australian Dollar"
 msgstr "Australijos doleris"
 
 #. Name for AWG
-msgid "Aruban Guilder"
+#, fuzzy
+#| msgid "Aruban Guilder"
+msgid "Aruban Florin"
 msgstr "Arubos guldenas"
 
 #. Name for AZN
@@ -59,7 +63,9 @@ msgid "Azerbaijanian Manat"
 msgstr "Azerbaidžano manatas"
 
 #. Name for BAM
-msgid "Convertible Marks"
+#, fuzzy
+#| msgid "Convertible Marks"
+msgid "Convertible Mark"
 msgstr "Konvertuojamoji markė"
 
 #. Name for BBD
@@ -94,10 +100,6 @@ msgstr "Brunėjaus doleris"
 msgid "Boliviano"
 msgstr "Bolivijanas"
 
-#. Name for BOV
-msgid "Mvdol"
-msgstr "Mvdol"
-
 #. Name for BRL
 msgid "Brazilian Real"
 msgstr "Brazilijos realas"
@@ -115,7 +117,9 @@ msgid "Pula"
 msgstr "Pula"
 
 #. Name for BYR
-msgid "Belarussian Ruble"
+#, fuzzy
+#| msgid "Belarussian Ruble"
+msgid "Belarusian Ruble"
 msgstr "Baltarusijos rublis"
 
 #. Name for BZD
@@ -131,21 +135,9 @@ msgstr "Kanados doleris"
 msgid "Congolese Franc"
 msgstr "Komorų frankas"
 
-#. Name for CHE
-msgid "WIR Euro"
-msgstr "WIR euras"
-
 #. Name for CHF
 msgid "Swiss Franc"
 msgstr "Šveicarijos frankas"
-
-#. Name for CHW
-msgid "WIR Franc"
-msgstr "WIR frankas"
-
-#. Name for CLF
-msgid "Unidades de fomento"
-msgstr "Unidades de fomento"
 
 #. Name for CLP
 msgid "Chilean Peso"
@@ -159,25 +151,25 @@ msgstr "Renminbi juanis"
 msgid "Colombian Peso"
 msgstr "Kolumbijos pesas"
 
-#. Name for COU
-msgid "Unidad de Valor Real"
-msgstr "Unidad de Valor Real"
-
 #. Name for CRC
 msgid "Costa Rican Colon"
 msgstr "Kosta Rikos kolonas"
+
+#. Name for CUC
+#, fuzzy
+#| msgid "Convertible Marks"
+msgid "Peso Convertible"
+msgstr "Konvertuojamoji markė"
 
 #. Name for CUP
 msgid "Cuban Peso"
 msgstr "Kubos pesas"
 
 #. Name for CVE
-msgid "Cape Verde Escudo"
+#, fuzzy
+#| msgid "Cape Verde Escudo"
+msgid "Cabo Verde Escudo"
 msgstr "Žaliojo Kyšulio eskudas"
-
-#. Name for CYP
-msgid "Cyprus Pound"
-msgstr "Kipro svaras"
 
 #. Name for CZK
 msgid "Czech Koruna"
@@ -198,10 +190,6 @@ msgstr "Dominikos pesas"
 #. Name for DZD
 msgid "Algerian Dinar"
 msgstr "Alžyro dinaras"
-
-#. Name for EEK
-msgid "Kroon"
-msgstr "Krona"
 
 #. Name for EGP
 msgid "Egyptian Pound"
@@ -268,8 +256,8 @@ msgid "Lempira"
 msgstr "Lempira"
 
 #. Name for HRK
-msgid "Croatian Kuna"
-msgstr "Kroatijos kuna"
+msgid "Kuna"
+msgstr ""
 
 #. Name for HTG
 msgid "Gourde"
@@ -371,14 +359,6 @@ msgstr "Liberijos doleris"
 msgid "Loti"
 msgstr "Lotis"
 
-#. Name for LTL
-msgid "Lithuanian Litas"
-msgstr "Lietuvos litas"
-
-#. Name for LVL
-msgid "Latvian Lats"
-msgstr "Latvijos latas"
-
 #. Name for LYD
 msgid "Libyan Dinar"
 msgstr "Libijos dinaras"
@@ -415,10 +395,6 @@ msgstr "Pataka"
 msgid "Ouguiya"
 msgstr "Ugija"
 
-#. Name for MTL
-msgid "Maltese Lira"
-msgstr "Maltos lira"
-
 #. Name for MUR
 msgid "Mauritius Rupee"
 msgstr "Mauricijaus rupija"
@@ -428,24 +404,21 @@ msgid "Rufiyaa"
 msgstr "Rufija"
 
 #. Name for MWK
-msgid "Kwacha"
+#, fuzzy
+msgid "Malawi Kwacha"
 msgstr "Kvača"
 
 #. Name for MXN
 msgid "Mexican Peso"
 msgstr "Meksikos pesas"
 
-#. Name for MXV
-msgid "Mexican Unidad de Inversion (UDI)"
-msgstr "Meksikos Unidad de Inversion (UDI)"
-
 #. Name for MYR
 msgid "Malaysian Ringgit"
 msgstr "Malaizijos ringitas"
 
 #. Name for MZN
-msgid "Metical"
-msgstr "Metikalas"
+msgid "Mozambique Metical"
+msgstr ""
 
 #. Name for NAD
 msgid "Namibia Dollar"
@@ -480,8 +453,10 @@ msgid "Balboa"
 msgstr "Balboa"
 
 #. Name for PEN
-msgid "Nuevo Sol"
-msgstr "Naujasis solis"
+#, fuzzy
+#| msgid "Som"
+msgid "Sol"
+msgstr "Somas"
 
 #. Name for PGK
 msgid "Kina"
@@ -508,8 +483,8 @@ msgid "Qatari Rial"
 msgstr "Kataro rialas"
 
 #. Name for RON
-msgid "New Leu"
-msgstr "Naujoji lėja"
+msgid "Romanian Leu"
+msgstr ""
 
 #. Name for RSD
 msgid "Serbian Dinar"
@@ -563,6 +538,12 @@ msgstr "Somalio šilingas"
 msgid "Surinam Dollar"
 msgstr "Surinamo doleris"
 
+#. Name for SSP
+#, fuzzy
+#| msgid "Sudanese Pound"
+msgid "South Sudanese Pound"
+msgstr "Sudano svaras"
+
 #. Name for STD
 msgid "Dobra"
 msgstr "Dobra"
@@ -587,20 +568,24 @@ msgstr "Batas"
 msgid "Somoni"
 msgstr "Somonis"
 
-#. Name for TMM
-msgid "Manat"
-msgstr "Manatas"
+#. Name for TMT
+msgid "Turkmenistan New Manat"
+msgstr ""
 
 #. Name for TND
 msgid "Tunisian Dinar"
 msgstr "Tuniso dinaras"
 
 #. Name for TOP
-msgid "Pa'anga"
+#, fuzzy
+#| msgid "Pa'anga"
+msgid "Pa’anga"
 msgstr "Panga"
 
 #. Name for TRY
-msgid "New Turkish Lira"
+#, fuzzy
+#| msgid "New Turkish Lira"
+msgid "Turkish Lira"
 msgstr "Naujoji Turkijos lira"
 
 #. Name for TTD
@@ -627,18 +612,6 @@ msgstr "Ugandos šilingas"
 msgid "US Dollar"
 msgstr "JAV doleris"
 
-#. Name for USN
-msgid "US Dollar (Next day)"
-msgstr "JAV doleris (rytojaus)"
-
-#. Name for USS
-msgid "US Dollar (Same day)"
-msgstr "JAV doleris (šios dienos)"
-
-#. Name for UYI
-msgid "Uruguay Peso en Unidades Indexadas"
-msgstr "Urugvajaus Peso en Unidades Indexadas"
-
 #. Name for UYU
 msgid "Peso Uruguayo"
 msgstr "Urugvajaus pesas"
@@ -648,8 +621,8 @@ msgid "Uzbekistan Sum"
 msgstr "Uzbekistano sumas"
 
 #. Name for VEF
-msgid "Bolivar Fuerte"
-msgstr "Bolivaro fuertė"
+msgid "Bolívar"
+msgstr ""
 
 #. Name for VND
 msgid "Dong"
@@ -676,19 +649,27 @@ msgid "Gold"
 msgstr "Auksas"
 
 #. Name for XBA
-msgid "European Composite Unit (EURCO)"
+#, fuzzy
+#| msgid "European Composite Unit (EURCO)"
+msgid "Bond Markets Unit European Composite Unit (EURCO)"
 msgstr "Europos suvestinės vienetas (EURCO)"
 
 #. Name for XBB
-msgid "European Monetary Unit (E.M.U.-6)"
+#, fuzzy
+#| msgid "European Monetary Unit (E.M.U.-6)"
+msgid "Bond Markets Unit European Monetary Unit (E.M.U.-6)"
 msgstr "Europos piniginis vienetas (E.M.U.-6)"
 
 #. Name for XBC
-msgid "European Unit of Account 9 (E.U.A.-9)"
+#, fuzzy
+#| msgid "European Unit of Account 9 (E.U.A.-9)"
+msgid "Bond Markets Unit European Unit of Account 9 (E.U.A.-9)"
 msgstr "Europos valiutos/apskaitos vienetas (E.U.A.-9)"
 
 #. Name for XBD
-msgid "European Unit of Account 17 (E.U.A.-17)"
+#, fuzzy
+#| msgid "European Unit of Account 17 (E.U.A.-17)"
+msgid "Bond Markets Unit European Unit of Account 17 (E.U.A.-17)"
 msgstr "Europos valiutos/apskaitos vienetas (E.U.A.-17)"
 
 #. Name for XCD
@@ -696,16 +677,10 @@ msgid "East Caribbean Dollar"
 msgstr "Rytų Karibų doleris"
 
 #. Name for XDR
-msgid "Special Drawing Rights"
+#, fuzzy
+#| msgid "Special Drawing Rights"
+msgid "SDR (Special Drawing Right)"
 msgstr "SDR Tarptautinis valiutos fondas"
-
-#. Name for XFO
-msgid "Gold-Franc"
-msgstr "Auksinis frankas (speciali atsiskaitymų valiuta)"
-
-#. Name for XFU
-msgid "UIC-Franc"
-msgstr "Uic frankas (speciali atsiskaitymų valiuta)"
 
 #. Name for XOF
 msgid "CFA Franc BCEAO"
@@ -723,13 +698,23 @@ msgstr "CFP frankas"
 msgid "Platinum"
 msgstr "Platina"
 
+#. Name for XSU
+msgid "Sucre"
+msgstr ""
+
 #. Name for XTS
-msgid "Code for testing purposes"
+#, fuzzy
+#| msgid "Code for testing purposes"
+msgid "Codes specifically reserved for testing purposes"
 msgstr "Specialios paskirties rezervinis kodas"
 
+#. Name for XUA
+msgid "ADB Unit of Account"
+msgstr ""
+
 #. Name for XXX
-msgid "No currency"
-msgstr "Nevaliutinės operacijos"
+msgid "The codes assigned for transactions where no currency is involved"
+msgstr ""
 
 #. Name for YER
 msgid "Yemeni Rial"
@@ -739,11 +724,11 @@ msgstr "Jemeno rialas"
 msgid "Rand"
 msgstr "Randas"
 
-#. Name for ZMK
+#. Name for ZMW
 #, fuzzy
 msgid "Zambian Kwacha"
 msgstr "Kvača"
 
-#. Name for ZWD
+#. Name for ZWL
 msgid "Zimbabwe Dollar"
 msgstr "Zimbabvės doleris"

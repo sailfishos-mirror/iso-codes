@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: iso_639-2\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2016-03-04 14:12+0100\n"
+"POT-Creation-Date: 2016-03-05 21:58+0100\n"
 "PO-Revision-Date: 2010-02-07 19:39+0900\n"
 "Last-Translator: IIDA Yosiaki <iida@gnu.org>\n"
 "Language-Team: Japanese <translation-team-ja@lists.sourceforge.net>\n"
@@ -345,14 +345,9 @@ msgstr "ビスラマ語"
 msgid "Siksika"
 msgstr "シクシカ語"
 
-# 国国は「Munda (Other) ムンダ諸語」
-# ISO, Ethnologueは「Munda languages」
-# インド
-# ムンダー〜とも
 #. Name for bnt
-#, fuzzy
-msgid "Bantu languages"
-msgstr "バンダ語族"
+msgid "Bantu (Other)"
+msgstr ""
 
 # 国国
 #. Name for bod
@@ -1333,7 +1328,7 @@ msgstr "中央クメール語"
 # ホータン語とも
 #. Name for kho
 #, fuzzy
-msgid "Khotanese;Sakan"
+msgid "Khotanese; Sakan"
 msgstr "コータン語"
 
 # 国国
@@ -1731,17 +1726,6 @@ msgid "Mohawk"
 msgstr "モーホーク語"
 
 # 国国
-# KDE訳は「モルドバ語」とも
-# 広辞苑「モルダヴィア (Moldavia)」→「モルドヴァ (Moldova)」
-# マイペディア「モルダビア」→「モルドバ」の項に「モルドバ語」
-# ニッポニカ「モルダビア (Moldavia)」の項
-# CLDR訳は「モルダビア語」
-# 「モルジブ語」とする頁もあるが、おそらく誤り
-#. Name for mol
-msgid "Moldavian; Moldovan"
-msgstr "モルダヴィア語"
-
-# 国国
 # KDE訳、CLDR訳は「モンゴル語」
 #. Name for mon
 msgid "Mongolian"
@@ -1986,7 +1970,7 @@ msgstr "ンゼマ語"
 
 #. Name for oci
 #, fuzzy
-msgid "Occitan (post 1500)"
+msgid "Occitan (post 1500); Provençal"
 msgstr "オック語 (1500以後); プロバンス語"
 
 # 国国
@@ -2122,7 +2106,7 @@ msgstr "プラークリット語族"
 # CLDR訳は「古期プロバンス語」
 #. Name for pro
 #, fuzzy
-msgid "Provençal, Old (to 1500); Occitan, Old (to 1500)"
+msgid "Provençal, Old (to 1500)"
 msgstr "プロヴァンス語, 古期 (-1500)"
 
 # 国国
@@ -2192,9 +2176,17 @@ msgid "Romany"
 msgstr "ロマニ語"
 
 # 国国
+# KDE訳は「モルドバ語」とも
+# 広辞苑「モルダヴィア (Moldavia)」→「モルドヴァ (Moldova)」
+# マイペディア「モルダビア」→「モルドバ」の項に「モルドバ語」
+# ニッポニカ「モルダビア (Moldavia)」の項
+# CLDR訳は「モルダビア語」
+# 「モルジブ語」とする頁もあるが、おそらく誤り
 #. Name for ron
-msgid "Romanian"
-msgstr "ルーマニア語"
+#, fuzzy
+#| msgid "Moldavian; Moldovan"
+msgid "Romanian; Moldavian; Moldovan"
+msgstr "モルダヴィア語"
 
 # 国国
 # コンゴ、ザイール
@@ -2236,7 +2228,7 @@ msgstr "ヤクート語"
 # 国国
 #. Name for sai
 #, fuzzy
-msgid "South American Indian languages"
+msgid "South American Indian (Other)"
 msgstr "南米インディアン諸語 (その他)"
 
 # 国国
@@ -2807,7 +2799,7 @@ msgid "Wakashan languages"
 msgstr "ワカシ語族"
 
 #. Name for wal
-msgid "Wolaitta; Wolaytta"
+msgid "Walamo"
 msgstr ""
 
 # フィリピン(の4.6%)

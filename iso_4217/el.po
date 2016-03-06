@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: iso_4217\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2016-03-04 14:12+0100\n"
+"POT-Creation-Date: 2016-03-05 21:58+0100\n"
 "PO-Revision-Date: 2016-01-25 23:27+0200\n"
 "Last-Translator: Vangelis Skarmoutsos <skarmoutsosv@gmail.com>\n"
 "Language-Team: Greek <team@lists.gnome.gr>\n"
@@ -40,7 +40,9 @@ msgid "Armenian Dram"
 msgstr "ντραμ Αρμενίας"
 
 #. Name for ANG
-msgid "Netherlands Antillian Guilder"
+#, fuzzy
+#| msgid "Netherlands Antillian Guilder"
+msgid "Netherlands Antillean Guilder"
 msgstr "γκίλντερ Ολλανδικών Αντίλλων"
 
 #. Name for AOA
@@ -56,7 +58,9 @@ msgid "Australian Dollar"
 msgstr "δολάριο Αυστραλίας"
 
 #. Name for AWG
-msgid "Aruban Guilder"
+#, fuzzy
+#| msgid "Aruban Guilder"
+msgid "Aruban Florin"
 msgstr "γκίλντερ Αρούμπας"
 
 #. Name for AZN
@@ -64,7 +68,9 @@ msgid "Azerbaijanian Manat"
 msgstr "μανάτ Αζερμπαϊτζάν"
 
 #. Name for BAM
-msgid "Convertible Marks"
+#, fuzzy
+#| msgid "Convertible Marks"
+msgid "Convertible Mark"
 msgstr "κονβερτιμπίλνα μάρκα"
 
 #. Name for BBD
@@ -99,10 +105,6 @@ msgstr "δολάριο Μπρουνέι"
 msgid "Boliviano"
 msgstr "μπολιβιάνο"
 
-#. Name for BOV
-msgid "Mvdol"
-msgstr ""
-
 #. Name for BRL
 msgid "Brazilian Real"
 msgstr "ρεάλ Βραζιλίας"
@@ -120,7 +122,9 @@ msgid "Pula"
 msgstr "πούλα"
 
 #. Name for BYR
-msgid "Belarussian Ruble"
+#, fuzzy
+#| msgid "Belarussian Ruble"
+msgid "Belarusian Ruble"
 msgstr "ρούβλι Λευκορωσίας"
 
 #. Name for BZD
@@ -135,24 +139,9 @@ msgstr "δολάριο Καναδά"
 msgid "Congolese Franc"
 msgstr "φράγκο Κονγκό"
 
-# Λογιστικό νόμισμα της τράπεζας WIR στην Ελβετία.
-#. Name for CHE
-msgid "WIR Euro"
-msgstr "ευρώ WIR"
-
 #. Name for CHF
 msgid "Swiss Franc"
 msgstr "φράγκο Ελβετίας"
-
-# Λογιστικό νόμισμα της τράπεζας WIR στην Ελβετία.
-#. Name for CHW
-msgid "WIR Franc"
-msgstr "φράγκο WIR"
-
-# Λογιστική μονάδα Χιλής (UF)
-#. Name for CLF
-msgid "Unidades de fomento"
-msgstr "γιουνιντάντ ντε φομέντο"
 
 #. Name for CLP
 msgid "Chilean Peso"
@@ -167,15 +156,15 @@ msgstr "γιουάν ρενμίνμπι"
 msgid "Colombian Peso"
 msgstr "πέσο Κολομβίας"
 
-# https://en.wikipedia.org/wiki/Unidade_real_de_valor
-#. Name for COU
-#, fuzzy
-msgid "Unidad de Valor Real"
-msgstr "γιουνιντάντ ντε βαλόρ ρεάλ"
-
 #. Name for CRC
 msgid "Costa Rican Colon"
 msgstr "κολόν Κόστα Ρίκας"
+
+#. Name for CUC
+#, fuzzy
+#| msgid "Convertible Marks"
+msgid "Peso Convertible"
+msgstr "κονβερτιμπίλνα μάρκα"
 
 #. Name for CUP
 msgid "Cuban Peso"
@@ -183,12 +172,10 @@ msgstr "πέσο Κούβας"
 
 # Το Verde σημαίνει πράσινο σε πολλές γλώσσες όπως πορτογαλικά, ισπανικά, ιταλικά, ολανδικά κ.α. Η αγγλική βικιπαίδεια έχει διατηρήσει την λέξη verde και δεν χρησιμοποιεί την αντίστοιχη αγγλική green. Οπότε είναι προτιμότερη η μετάφραση "εσκούδο Κάπο Βέρντε" από το "εσκούδο Πράσινου Ακρωτηρίου"
 #. Name for CVE
-msgid "Cape Verde Escudo"
+#, fuzzy
+#| msgid "Cape Verde Escudo"
+msgid "Cabo Verde Escudo"
 msgstr "εσκούδο Κάπο Βέρντε"
-
-#. Name for CYP
-msgid "Cyprus Pound"
-msgstr "λίρα Κύπρου"
 
 #. Name for CZK
 msgid "Czech Koruna"
@@ -209,11 +196,6 @@ msgstr "πέσο Δομηνίκου"
 #. Name for DZD
 msgid "Algerian Dinar"
 msgstr "δηνάριο Αλγερίας"
-
-# κορόνα Εσθονίας
-#. Name for EEK
-msgid "Kroon"
-msgstr "κορόνα"
 
 #. Name for EGP
 msgid "Egyptian Pound"
@@ -284,8 +266,8 @@ msgid "Lempira"
 msgstr "λεμπίρα"
 
 #. Name for HRK
-msgid "Croatian Kuna"
-msgstr "κούνα Κροατίας"
+msgid "Kuna"
+msgstr ""
 
 # γκουρντ Αϊτής.
 #. Name for HTG
@@ -392,14 +374,6 @@ msgstr "δολάριο Λιβερίας"
 msgid "Loti"
 msgstr "λότι"
 
-#. Name for LTL
-msgid "Lithuanian Litas"
-msgstr "λίτας Λιθουανίας"
-
-#. Name for LVL
-msgid "Latvian Lats"
-msgstr "λατς Λετονίας"
-
 #. Name for LYD
 msgid "Libyan Dinar"
 msgstr "δηνάριο Λιβύης"
@@ -436,10 +410,6 @@ msgstr "πατάκα"
 msgid "Ouguiya"
 msgstr "ουγκίγια"
 
-#. Name for MTL
-msgid "Maltese Lira"
-msgstr "λίρα Μάλτας"
-
 #. Name for MUR
 msgid "Mauritius Rupee"
 msgstr "ρουπία Μαυριτανίας"
@@ -449,24 +419,22 @@ msgid "Rufiyaa"
 msgstr "ρουφίγια"
 
 #. Name for MWK
-msgid "Kwacha"
-msgstr "κουάτσα"
+#, fuzzy
+#| msgid "Zambian Kwacha"
+msgid "Malawi Kwacha"
+msgstr "κουάτσα Ζάμπιας"
 
 #. Name for MXN
 msgid "Mexican Peso"
 msgstr "πέσο Μεξικού"
-
-#. Name for MXV
-msgid "Mexican Unidad de Inversion (UDI)"
-msgstr ""
 
 #. Name for MYR
 msgid "Malaysian Ringgit"
 msgstr "ρινγκίτ Μαλαισίας"
 
 #. Name for MZN
-msgid "Metical"
-msgstr "μετικάλ"
+msgid "Mozambique Metical"
+msgstr ""
 
 #. Name for NAD
 msgid "Namibia Dollar"
@@ -500,9 +468,12 @@ msgstr "ριάλ Ομάν"
 msgid "Balboa"
 msgstr "μπαλμπόα"
 
+# σομ Κιργιστάν (Κιργιζίας).
 #. Name for PEN
-msgid "Nuevo Sol"
-msgstr "νέο σολ"
+#, fuzzy
+#| msgid "Som"
+msgid "Sol"
+msgstr "σομ"
 
 #. Name for PGK
 msgid "Kina"
@@ -529,8 +500,8 @@ msgid "Qatari Rial"
 msgstr "ριάλ Κατάρ"
 
 #. Name for RON
-msgid "New Leu"
-msgstr "νέο λέου"
+msgid "Romanian Leu"
+msgstr ""
 
 #. Name for RSD
 msgid "Serbian Dinar"
@@ -584,6 +555,12 @@ msgstr "σελίνι Σομαλίας"
 msgid "Surinam Dollar"
 msgstr "δολάριο Σουρινάμ"
 
+#. Name for SSP
+#, fuzzy
+#| msgid "Sudanese Pound"
+msgid "South Sudanese Pound"
+msgstr "λίρα Σουδάν"
+
 #. Name for STD
 msgid "Dobra"
 msgstr "ντόμπρα"
@@ -608,20 +585,24 @@ msgstr "μπατ"
 msgid "Somoni"
 msgstr "σομόνι"
 
-#. Name for TMM
-msgid "Manat"
-msgstr "μανάτ"
+#. Name for TMT
+msgid "Turkmenistan New Manat"
+msgstr ""
 
 #. Name for TND
 msgid "Tunisian Dinar"
 msgstr "δηνάριο Τυνησίας"
 
 #. Name for TOP
-msgid "Pa'anga"
+#, fuzzy
+#| msgid "Pa'anga"
+msgid "Pa’anga"
 msgstr "παάνγκα"
 
 #. Name for TRY
-msgid "New Turkish Lira"
+#, fuzzy
+#| msgid "New Turkish Lira"
+msgid "Turkish Lira"
 msgstr "νέα λίρα Τουρκίας"
 
 #. Name for TTD
@@ -648,19 +629,6 @@ msgstr "σελίνι Ουγκάντας"
 msgid "US Dollar"
 msgstr "δολάριο ΗΠΑ"
 
-#. Name for USN
-msgid "US Dollar (Next day)"
-msgstr "δολάριο ΗΠΑ (επόμενη μέρα)"
-
-#. Name for USS
-msgid "US Dollar (Same day)"
-msgstr "δολάριο ΗΠΑ (ίδια μέρα)"
-
-#. Name for UYI
-#, fuzzy
-msgid "Uruguay Peso en Unidades Indexadas"
-msgstr "πέσο en Unidades Indexadas Ουρουγουάης"
-
 #. Name for UYU
 msgid "Peso Uruguayo"
 msgstr "πέσο Ουρουγουάης"
@@ -670,8 +638,8 @@ msgid "Uzbekistan Sum"
 msgstr "σομ Ουζμπεκιστάν"
 
 #. Name for VEF
-msgid "Bolivar Fuerte"
-msgstr "μπολίβαρ φουέρτε"
+msgid "Bolívar"
+msgstr ""
 
 #. Name for VND
 msgid "Dong"
@@ -698,19 +666,27 @@ msgid "Gold"
 msgstr "χρυσός"
 
 #. Name for XBA
-msgid "European Composite Unit (EURCO)"
+#, fuzzy
+#| msgid "European Composite Unit (EURCO)"
+msgid "Bond Markets Unit European Composite Unit (EURCO)"
 msgstr "Ευρωπαϊκή σύνθετη μονάδα (EURCO)"
 
 #. Name for XBB
-msgid "European Monetary Unit (E.M.U.-6)"
+#, fuzzy
+#| msgid "European Monetary Unit (E.M.U.-6)"
+msgid "Bond Markets Unit European Monetary Unit (E.M.U.-6)"
 msgstr "Ευρωπαϊκή λογιστική μονάδα (E.M.U.-6)"
 
 #. Name for XBC
-msgid "European Unit of Account 9 (E.U.A.-9)"
+#, fuzzy
+#| msgid "European Unit of Account 9 (E.U.A.-9)"
+msgid "Bond Markets Unit European Unit of Account 9 (E.U.A.-9)"
 msgstr "Ευρωπαϊκή λογιστική μονάδα 9 (E.M.U.-9)"
 
 #. Name for XBD
-msgid "European Unit of Account 17 (E.U.A.-17)"
+#, fuzzy
+#| msgid "European Unit of Account 17 (E.U.A.-17)"
+msgid "Bond Markets Unit European Unit of Account 17 (E.U.A.-17)"
 msgstr "Ευρωπαϊκή λογιστική μονάδα 17 (E.M.U.-17)"
 
 #. Name for XCD
@@ -719,16 +695,8 @@ msgstr "δολάριο Ανατολικής Καραϊβικής"
 
 #. Name for XDR
 #, fuzzy
-msgid "Special Drawing Rights"
+msgid "SDR (Special Drawing Right)"
 msgstr "Ειδικά δικαιώματα drawing"
-
-#. Name for XFO
-msgid "Gold-Franc"
-msgstr "φράγκο χρυσό"
-
-#. Name for XFU
-msgid "UIC-Franc"
-msgstr "φράγκο UIC"
 
 #. Name for XOF
 msgid "CFA Franc BCEAO"
@@ -746,13 +714,23 @@ msgstr "φράγκο CFP"
 msgid "Platinum"
 msgstr "λευκόχρυσος"
 
+#. Name for XSU
+msgid "Sucre"
+msgstr ""
+
 #. Name for XTS
-msgid "Code for testing purposes"
+#, fuzzy
+#| msgid "Code for testing purposes"
+msgid "Codes specifically reserved for testing purposes"
 msgstr "Κωδικός που χρησιμοποιείται σε δοκιμές"
 
+#. Name for XUA
+msgid "ADB Unit of Account"
+msgstr ""
+
 #. Name for XXX
-msgid "No currency"
-msgstr "όχι νόμισμα"
+msgid "The codes assigned for transactions where no currency is involved"
+msgstr ""
 
 #. Name for YER
 msgid "Yemeni Rial"
@@ -762,10 +740,10 @@ msgstr "ριάλ Υεμένης"
 msgid "Rand"
 msgstr "ραντ"
 
-#. Name for ZMK
+#. Name for ZMW
 msgid "Zambian Kwacha"
 msgstr "κουάτσα Ζάμπιας"
 
-#. Name for ZWD
+#. Name for ZWL
 msgid "Zimbabwe Dollar"
 msgstr "δολάριο Ζιμπάμπουε"

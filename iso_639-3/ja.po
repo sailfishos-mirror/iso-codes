@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: iso_639-3\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2016-03-04 14:12+0100\n"
+"POT-Creation-Date: 2016-03-05 21:58+0100\n"
 "PO-Revision-Date: 2005-10-22 19:14+0900\n"
 "Last-Translator: IIDA Yosiaki <iida@gnu.org>\n"
 "Language-Team: Japanese <translation-team-ja@lists.sourceforge.net>\n"
@@ -86,12 +86,6 @@ msgstr "アカン語"
 #, fuzzy
 msgid "Afade"
 msgstr "アファール語"
-
-# 国国
-#. Name for aam
-#, fuzzy
-msgid "Aramanik"
-msgstr "アラム語"
 
 #. Name for aan
 msgid "Anambé"
@@ -542,10 +536,6 @@ msgstr "アダングメ語"
 msgid "Abu"
 msgstr ""
 
-#. Name for adp
-msgid "Adap"
-msgstr ""
-
 #. Name for adq
 #, fuzzy
 msgid "Adangbe"
@@ -635,13 +625,23 @@ msgstr "アラム語"
 msgid "Argentine Sign Language"
 msgstr "手話語族"
 
+# 国国は「Sotho ソト語」
+# USMARCは-SSO
+# マイペディア「レソト」の項に「ソト語」
+# ニッポニカ「ソト族 (Sotho)」の項
 #. Name for aee
-msgid "Northeast Pashayi"
-msgstr ""
+#, fuzzy
+msgid "Northeast Pashai"
+msgstr "ソト語, 南"
 
+# 国国は「Sotho ソト語」
+# USMARCは-SSO
+# マイペディア「レソト」の項に「ソト語」
+# ニッポニカ「ソト族 (Sotho)」の項
 #. Inverted name for aee
-msgid "Pashayi, Northeast"
-msgstr ""
+#, fuzzy
+msgid "Pashai, Northeast"
+msgstr "ソト語, 南"
 
 #. Name for aek
 msgid "Haeke"
@@ -1955,9 +1955,11 @@ msgstr "朝鮮語"
 msgid "Taikat"
 msgstr "タジク語"
 
+# 国国
 #. Name for aot
-msgid "A'tong"
-msgstr ""
+#, fuzzy
+msgid "Atong (India)"
+msgstr "バタク語 (インドネシア)"
 
 #. Name for aou
 msgid "A'ou"
@@ -2192,6 +2194,12 @@ msgstr ""
 #. Name for aqr
 msgid "Arhâ"
 msgstr ""
+
+# 国国
+#. Name for aqt
+#, fuzzy
+msgid "Angaité"
+msgstr "リンガラ語"
 
 #. Name for aqz
 #, fuzzy
@@ -2582,8 +2590,8 @@ msgstr "アヴェスタ語"
 # 国国
 #. Name for ato
 #, fuzzy
-msgid "Atong"
-msgstr "モンゴ語"
+msgid "Atong (Cameroon)"
+msgstr "バルト諸語 (その他)"
 
 #. Name for atp
 msgid "Pudtol Atta"
@@ -2678,10 +2686,6 @@ msgstr "グアラニー語"
 #, fuzzy
 msgid "Anuta"
 msgstr "アイヌ語"
-
-#. Name for aue
-msgid "=/Kx'au//'ein"
-msgstr ""
 
 # アンゴラ、コンゴ共和国、サンビア、ジンバブエ
 # ルンダ語とも
@@ -3653,9 +3657,12 @@ msgstr "クアニャマ語"
 msgid "Bamu"
 msgstr "バスク語"
 
+# バンダ諸島ではなさそう
+# 中央アフリカ、コンゴ民主共和国
 #. Name for bcg
-msgid "Baga Binari"
-msgstr ""
+#, fuzzy
+msgid "Baga Pokur"
+msgstr "バンダ語"
 
 # 国国
 #. Name for bch
@@ -4105,19 +4112,15 @@ msgstr ""
 msgid "Bareli, Pauri"
 msgstr ""
 
-# ノルウェー
-# SAAMI, NORTHERNとも
+# 国国
 #. Name for bfc
 #, fuzzy
-msgid "Northern Bai"
-msgstr "北サーミ語"
+msgid "Panyi Bai"
+msgstr "マンダル語"
 
-# ノルウェー
-# SAAMI, NORTHERNとも
 #. Inverted name for bfc
-#, fuzzy
-msgid "Bai, Northern"
-msgstr "北サーミ語"
+msgid "Bai, Panyi"
+msgstr ""
 
 # シベリアのヤクート自治共和国
 # チュルク (トルコ系) 諸言語の一
@@ -4345,10 +4348,6 @@ msgstr "ブリヤート語"
 
 #. Name for bgl
 msgid "Bo (Laos)"
-msgstr ""
-
-#. Name for bgm
-msgid "Baga Mboteni"
 msgstr ""
 
 # 国国は「Friesian」
@@ -5393,10 +5392,6 @@ msgstr "ソマリ語"
 msgid "Baimak"
 msgstr "バンバラ語"
 
-#. Name for bmy
-msgid "Bemba (Democratic Republic of Congo)"
-msgstr ""
-
 # 国国
 # マリ
 #. Name for bmz
@@ -6398,10 +6393,6 @@ msgstr "日本語"
 msgid "Malay, Bacanese"
 msgstr ""
 
-#. Name for btl
-msgid "Bhatola"
-msgstr ""
-
 #. Name for btm
 msgid "Batak Mandailing"
 msgstr ""
@@ -7076,10 +7067,6 @@ msgstr ""
 msgid "Bankagooma"
 msgstr ""
 
-#. Name for bxx
-msgid "Borna (Democratic Republic of Congo)"
-msgstr ""
-
 # ビハーリー語とも
 # Magahi, Maithiliと別
 #. Name for bxz
@@ -7230,11 +7217,6 @@ msgstr "白ロシア語"
 #. Name for byx
 msgid "Qaqet"
 msgstr ""
-
-#. Name for byy
-#, fuzzy
-msgid "Buya"
-msgstr "ブリヤート語"
 
 # バンダ諸島ではなさそう
 # 中央アフリカ、コンゴ民主共和国
@@ -7595,21 +7577,9 @@ msgstr "カタロニア語"
 msgid "Carijona"
 msgstr "カリブ語"
 
-# 国国
-#. Name for cbe
-#, fuzzy
-msgid "Chipiajes"
-msgstr "中国語"
-
 #. Name for cbg
 msgid "Chimila"
 msgstr ""
-
-# 国国
-#. Name for cbh
-#, fuzzy
-msgid "Cagua"
-msgstr "チャガタイ語"
 
 # 国国
 # ミャンマー北部カチン州
@@ -7651,6 +7621,10 @@ msgstr "ナウル語"
 
 #. Name for cbo
 msgid "Izora"
+msgstr ""
+
+#. Name for cbq
+msgid "Tsucuba"
 msgstr ""
 
 #. Name for cbr
@@ -8641,12 +8615,14 @@ msgstr ""
 # 国国
 #. Name for cnh
 #, fuzzy
-msgid "Haka Chin"
+msgid "Hakha Chin"
 msgstr "ベンガル語"
 
+# 国国
 #. Inverted name for cnh
-msgid "Chin, Haka"
-msgstr ""
+#, fuzzy
+msgid "Chin, Hakha"
+msgstr "中国語"
 
 #. Name for cni
 msgid "Asháninka"
@@ -8848,14 +8824,6 @@ msgstr ""
 msgid "Nanti"
 msgstr "ファンティー語"
 
-# 国国は「Serbo-Croatian (Roman) セルボ・クロアチア語 (ローマ文字)」
-# loc.govでは、「ISO 15924があるので、文字の違いでは、
-# 別の言語コードを割り当てない」としている
-#. Name for coy
-#, fuzzy
-msgid "Coyaima"
-msgstr "クロアチア語"
-
 # 国国
 #. Name for coz
 #, fuzzy
@@ -8949,24 +8917,6 @@ msgstr ""
 #. Inverted name for cqd
 msgid "Miao, Chuanqiandian Cluster"
 msgstr ""
-
-# 国国
-# KDE訳は「ケチュア語」
-# マイペディア「ケチュア語」の項
-# 広辞苑、ニッポニカ「ケチュア族 (Quechua)」の項
-#. Name for cqu
-#, fuzzy
-msgid "Chilean Quechua"
-msgstr "キチュワ語"
-
-# 国国
-# KDE訳は「ケチュア語」
-# マイペディア「ケチュア語」の項
-# 広辞苑、ニッポニカ「ケチュア族 (Quechua)」の項
-#. Inverted name for cqu
-#, fuzzy
-msgid "Quechua, Chilean"
-msgstr "キチュワ語"
 
 # 国国
 # ミクロネシア
@@ -9519,12 +9469,6 @@ msgstr ""
 #. Name for cul
 msgid "Culina"
 msgstr ""
-
-# 国国
-#. Name for cum
-#, fuzzy
-msgid "Cumeral"
-msgstr "シュメール語"
 
 #. Name for cuo
 msgid "Cumanagoto"
@@ -10270,7 +10214,7 @@ msgstr "ランダ語"
 # ニッポニカ「シャン族 Shan」の項に「シャン語」
 #. Name for dhg
 #, fuzzy
-msgid "Djangu"
+msgid "Dhangu-Djangu"
 msgstr "シャン語"
 
 #. Name for dhi
@@ -11216,6 +11160,10 @@ msgstr ""
 msgid "Dogon, Tomo Kan"
 msgstr ""
 
+#. Name for dtn
+msgid "Daatsʼíin"
+msgstr ""
+
 #. Name for dto
 msgid "Tommo So Dogon"
 msgstr ""
@@ -11229,12 +11177,18 @@ msgstr "モンゴ語"
 # 国国
 #. Name for dtp
 #, fuzzy
-msgid "Central Dusun"
-msgstr "サンターリー語"
+msgid "Kadazan Dusun"
+msgstr "カンバ語"
 
+# 国国
+# KDE訳は「カタール語」だが、カタールはQatarだし、
+# 「Language of Andorra, a small part of France and a small part of Spain」
+# というコメントとも合わない
+# 広辞苑「カタルニア語」の項
 #. Inverted name for dtp
-msgid "Dusun, Central"
-msgstr ""
+#, fuzzy
+msgid "Dusun, Kadazan"
+msgstr "カタロニア語"
 
 # アンゴラ、コンゴ共和国、サンビア、ジンバブエ
 # ルンダ語とも
@@ -11324,12 +11278,6 @@ msgstr ""
 #. Name for dui
 msgid "Dumun"
 msgstr ""
-
-# デュアラ語とも
-#. Name for duj
-#, fuzzy
-msgid "Dhuwal"
-msgstr "ドゥアラ語"
 
 #. Name for duk
 msgid "Uyajitaya"
@@ -11422,7 +11370,7 @@ msgstr ""
 # デュウラ語とも
 #. Name for duz
 #, fuzzy
-msgid "Duli"
+msgid "Duli-Gey"
 msgstr "デュラ語"
 
 # デュウラ語とも
@@ -11452,12 +11400,24 @@ msgstr "ヤオ語"
 msgid "Dutton World Speedwords"
 msgstr ""
 
+# デュアラ語とも
+#. Name for dwu
+#, fuzzy
+msgid "Dhuwal"
+msgstr "ドゥアラ語"
+
 # ロシア Darghinian
 # ダルグヮ語とも
 #. Name for dww
 #, fuzzy
 msgid "Dawawa"
 msgstr "ダルガン語"
+
+# デュアラ語とも
+#. Name for dwy
+#, fuzzy
+msgid "Dhuwaya"
+msgstr "ドゥアラ語"
 
 # デュウラ語とも
 #. Name for dya
@@ -11519,12 +11479,6 @@ msgstr ""
 #, fuzzy
 msgid "Tunzu"
 msgstr "ツバル語"
-
-# デュアラ語とも
-#. Name for dzd
-#, fuzzy
-msgid "Daza"
-msgstr "ドゥアラ語"
 
 #. Name for dze
 msgid "Djiwarli"
@@ -11871,10 +11825,6 @@ msgstr ""
 msgid "Eman"
 msgstr "サモア語"
 
-#. Name for emo
-msgid "Emok"
-msgstr ""
-
 #. Name for emp
 msgid "Northern Emberá"
 msgstr ""
@@ -11967,6 +11917,10 @@ msgstr ""
 msgid "Enets, Tundra"
 msgstr ""
 
+#. Name for enl
+msgid "Enlhet"
+msgstr ""
+
 #. Name for enm
 #, fuzzy
 msgid "Middle English (1100-1500)"
@@ -12006,6 +11960,10 @@ msgstr ""
 
 #. Name for enw
 msgid "Enwan (Akwa Ibom State)"
+msgstr ""
+
+#. Name for enx
+msgid "Enxet"
 msgstr ""
 
 #. Name for eot
@@ -12088,6 +12046,24 @@ msgstr ""
 msgid "Ese Ejja"
 msgstr ""
 
+# 国国は「Sotho ソト語」
+# USMARCは-SSO
+# マイペディア「レソト」の項に「ソト語」
+# ニッポニカ「ソト族 (Sotho)」の項
+#. Name for esg
+#, fuzzy
+msgid "Aheri Gondi"
+msgstr "ソト語, 南"
+
+# 国国は「Sotho ソト語」
+# USMARCは-SSO
+# マイペディア「レソト」の項に「ソト語」
+# ニッポニカ「ソト族 (Sotho)」の項
+#. Inverted name for esg
+#, fuzzy
+msgid "Gondi, Aheri"
+msgstr "ソト語, 南"
+
 #. Name for esh
 msgid "Eshtehardi"
 msgstr ""
@@ -12159,6 +12135,14 @@ msgstr "サンターリー語"
 #. Inverted name for esu
 msgid "Yupik, Central"
 msgstr ""
+
+# コシャエ語とも
+# ミクロネシア連邦中部カロリン諸島最東端の火山島
+# ニッポニカ「コスラエ島 (Kosrae Island)」の項
+#. Name for esy
+#, fuzzy
+msgid "Eskayan"
+msgstr "コスラエ語"
 
 #. Name for etb
 msgid "Etebi"
@@ -12572,9 +12556,12 @@ msgstr ""
 msgid "Fuliiru"
 msgstr ""
 
+# 国国
+# KDE訳は「タヒティ語」
 #. Name for fly
-msgid "Tsotsitaal"
-msgstr ""
+#, fuzzy
+msgid "Flaaitaal"
+msgstr "タヒチ語"
 
 #. Name for fmp
 msgid "Fe'fe'"
@@ -12591,6 +12578,10 @@ msgstr "フリジア語"
 
 #. Inverted name for fmu
 msgid "Muria, Far Western"
+msgstr ""
+
+#. Name for fnb
+msgid "Fanbak"
 msgstr ""
 
 # 国国
@@ -13485,7 +13476,7 @@ msgid "Gen"
 msgstr "ドイツ語"
 
 #. Name for gek
-msgid "Yiwom"
+msgid "Ywom"
 msgstr ""
 
 #. Name for gel
@@ -13503,6 +13494,10 @@ msgstr "ゲーズ語"
 
 #. Name for ges
 msgid "Geser-Gorom"
+msgstr ""
+
+#. Name for gev
+msgid "Eviya"
 msgstr ""
 
 # 国国
@@ -13550,14 +13545,6 @@ msgstr "パンパンガ語"
 msgid "Gafat"
 msgstr "グジャラーティー語"
 
-#. Name for gfx
-msgid "Mangetti Dune !Xung"
-msgstr ""
-
-#. Inverted name for gfx
-msgid "!Xung, Mangetti Dune"
-msgstr ""
-
 # インドネシア、スマトラ島北部ガヨ地区。
 # Gajoとも
 # 「Gayi ガイ語」はnicに分類されるObanlikuの別名
@@ -13596,40 +13583,6 @@ msgstr "ハンガリー語"
 #, fuzzy
 msgid "Ganglau"
 msgstr "ガンダ語"
-
-#. Name for ggm
-msgid "Gugu Mini"
-msgstr ""
-
-# 国国は「Aztec」
-# EthnologueはさらにUto-Aztecan, Southern Uto-Aztecan, Aztecan,
-# General Aztec, Aztecに分類
-#. Name for ggn
-#, fuzzy
-msgid "Eastern Gurung"
-msgstr "アステカ語"
-
-#. Inverted name for ggn
-msgid "Gurung, Eastern"
-msgstr ""
-
-# 国国は「Sotho ソト語」
-# USMARCは-SSO
-# マイペディア「レソト」の項に「ソト語」
-# ニッポニカ「ソト族 (Sotho)」の項
-#. Name for ggo
-#, fuzzy
-msgid "Southern Gondi"
-msgstr "ソト語, 南"
-
-# 国国は「Sotho ソト語」
-# USMARCは-SSO
-# マイペディア「レソト」の項に「ソト語」
-# ニッポニカ「ソト族 (Sotho)」の項
-#. Inverted name for ggo
-#, fuzzy
-msgid "Gondi, Southern"
-msgstr "ソト語, 南"
 
 #. Name for ggt
 msgid "Gitua"
@@ -13895,6 +13848,13 @@ msgid "Gonja"
 msgstr "ショナ語"
 
 # 国国
+# USMARCは-GUA
+#. Name for gjr
+#, fuzzy
+msgid "Gurindji Kriol"
+msgstr "グアラニー語"
+
+# 国国
 # KDE訳は「グジャラート語」「グジャラティ語」
 # ニッポニカ「グジャラート人」の項に「グジャラート語」
 #. Name for gju
@@ -13938,6 +13898,10 @@ msgstr "クペレ語"
 msgid "Kpelle, Guinea"
 msgstr "クペレ語"
 
+#. Name for gku
+msgid "ǂUngkue"
+msgstr ""
+
 #. Name for gla
 msgid "Scottish Gaelic"
 msgstr ""
@@ -13975,12 +13939,18 @@ msgid "Galician"
 msgstr "ガリシア語"
 
 #. Name for glh
-msgid "Northwest Pashayi"
-msgstr ""
+#, fuzzy
+msgid "Northwest Pashai"
+msgstr "南サーミ語"
 
+# 国国は「Sotho ソト語」
+# USMARCは-SSO
+# マイペディア「レソト」の項に「ソト語」
+# ニッポニカ「ソト族 (Sotho)」の項
 #. Inverted name for glh
-msgid "Pashayi, Northwest"
-msgstr ""
+#, fuzzy
+msgid "Pashai, Northwest"
+msgstr "ソト語, 南"
 
 # 国国は「Tlingit」
 # Thlinget, Tlinkitとも
@@ -14049,6 +14019,10 @@ msgstr ""
 
 #. Name for gmd
 msgid "Mághdì"
+msgstr ""
+
+#. Name for gmg
+msgid "Magɨyi"
 msgstr ""
 
 # 国国
@@ -14630,11 +14604,9 @@ msgstr ""
 msgid "Guatemalan Sign Language"
 msgstr "オーストラリア語族"
 
-# 国国
 #. Name for gsn
-#, fuzzy
-msgid "Gusan"
-msgstr "ロシア語"
+msgid "Nema"
+msgstr ""
 
 #. Name for gso
 msgid "Southwest Gbaya"
@@ -14675,10 +14647,6 @@ msgstr "ドイツ語"
 
 #. Name for gta
 msgid "Guató"
-msgstr ""
-
-#. Name for gti
-msgid "Gbati-ri"
 msgstr ""
 
 #. Name for gtu
@@ -14819,10 +14787,6 @@ msgstr ""
 msgid "Yanomamö"
 msgstr ""
 
-#. Name for guv
-msgid "Gey"
-msgstr ""
-
 # 国国
 # USMARCは-GUA
 #. Name for guw
@@ -14896,18 +14860,12 @@ msgstr ""
 msgid "Gavião, Pará"
 msgstr ""
 
-# 国国は「Friesian」
-# オランダ北東部フリースラント州
-# フリース語、フリースラント語、フリースランド語とも
-# 研究社新英和中辞典にFriesianの項 (Frisianなし)
+# 国国
+# KDE訳は「トルクメン語」「トルクメニスタン語」
 #. Name for gvr
 #, fuzzy
-msgid "Western Gurung"
-msgstr "フリジア語"
-
-#. Inverted name for gvr
-msgid "Gurung, Western"
-msgstr ""
+msgid "Gurung"
+msgstr "トゥルクメン語"
 
 # 国国
 # USMARCは-GUA
@@ -16103,9 +16061,11 @@ msgstr ""
 msgid "Hpon"
 msgstr "フモング語"
 
+# 国国は「手まね言語」
 #. Name for hps
-msgid "Hawai'i Pidgin Sign Language"
-msgstr ""
+#, fuzzy
+msgid "Hawai'i Sign Language (HSL)"
+msgstr "手話語族"
 
 #. Name for hra
 msgid "Hrangkhol"
@@ -16490,10 +16450,6 @@ msgstr "マサイ語"
 
 #. Name for ian
 msgid "Iatmul"
-msgstr ""
-
-#. Name for iap
-msgid "Iapama"
 msgstr ""
 
 # 国国
@@ -16892,6 +16848,12 @@ msgstr ""
 msgid "Ikaranggal"
 msgstr "パンパンガ語"
 
+# 国国は「手まね言語」
+#. Name for iks
+#, fuzzy
+msgid "Inuit Sign Language"
+msgstr "手話語族"
+
 #. Name for ikt
 msgid "Inuinnaqtun"
 msgstr ""
@@ -16951,15 +16913,19 @@ msgid "Ilongot"
 msgstr "モンゴ語"
 
 # 国国
-#. Name for ill
+#. Name for ilm
 #, fuzzy
-msgid "Iranun"
-msgstr "イバン語"
+msgid "Iranun (Malaysia)"
+msgstr "ロシア語"
 
 # 国国
 #. Name for ilo
 msgid "Iloko"
 msgstr "イロカノ語"
+
+#. Name for ilp
+msgid "Iranun (Philippines)"
+msgstr ""
 
 #. Name for ils
 msgid "International Sign"
@@ -16984,13 +16950,6 @@ msgstr "マカッサル語"
 #, fuzzy
 msgid "Malasar, Mala"
 msgstr "マラヤーラム語"
-
-# www.interlingue.com
-# インテルリング語とも
-#. Name for ime
-#, fuzzy
-msgid "Imeraguen"
-msgstr "インターリング"
 
 #. Name for imi
 msgid "Anamgura"
@@ -17291,6 +17250,20 @@ msgstr ""
 #. Inverted name for itb
 msgid "Itneg, Binongan"
 msgstr ""
+
+#. Name for itd
+#, fuzzy
+msgid "Southern Tidung"
+msgstr "南サーミ語"
+
+# 国国は「Sotho ソト語」
+# USMARCは-SSO
+# マイペディア「レソト」の項に「ソト語」
+# ニッポニカ「ソト族 (Sotho)」の項
+#. Inverted name for itd
+#, fuzzy
+msgid "Tidung, Southern"
+msgstr "ソト語, 南"
 
 # www.interlingue.com
 # インテルリング語とも
@@ -17853,12 +17826,20 @@ msgstr ""
 msgid "Jinuo, Buyuan"
 msgstr ""
 
+#. Name for jje
+msgid "Jejueo"
+msgstr ""
+
 # 国国
 # 末尾のaはオーバーライン付でも綴られる
 #. Name for jjr
 #, fuzzy
 msgid "Bankal"
 msgstr "ラフンダー語"
+
+#. Name for jka
+msgid "Kaera"
+msgstr ""
 
 #. Name for jkm
 msgid "Mobwa Karen"
@@ -18041,6 +18022,10 @@ msgstr "ヨルバ語"
 
 #. Name for jod
 msgid "Wojenaka"
+msgstr ""
+
+#. Name for jog
+msgid "Jogi"
 msgstr ""
 
 #. Name for jor
@@ -18314,13 +18299,11 @@ msgstr "カレン語"
 msgid "Jju"
 msgstr ""
 
+# 国国
 #. Name for kak
-msgid "Kayapa Kallahan"
-msgstr ""
-
-#. Inverted name for kak
-msgid "Kallahan, Kayapa"
-msgstr ""
+#, fuzzy
+msgid "Kalanguya"
+msgstr "パンパンガ語"
 
 # ISOは「Kalaallisut」
 # KDE訳は「Kalaallisut カラアリス語」とも
@@ -18430,10 +18413,6 @@ msgstr "カバルダ語"
 #, fuzzy
 msgid "Kanju"
 msgstr "カヌリ語"
-
-#. Name for kbf
-msgid "Kakauhua"
-msgstr ""
 
 # 国国
 #. Name for kbg
@@ -19162,7 +19141,7 @@ msgstr "クルー語"
 # ミャンマー北部カチン州
 #. Name for kfr
 #, fuzzy
-msgid "Kachchi"
+msgid "Kachhi"
 msgstr "カチン語"
 
 # ビハーリー語とも
@@ -19232,14 +19211,6 @@ msgstr ""
 #, fuzzy
 msgid "Kawe"
 msgstr "カウィ語"
-
-# 国国
-# ミャンマー、タイ
-# ニッポニカ「カレン族 (Karen)」の項に「カレン語」
-#. Name for kgc
-#, fuzzy
-msgid "Kasseng"
-msgstr "カレン語"
 
 # 国国
 # KDE訳は「カタール語」だが、カタールはQatarだし、
@@ -19883,6 +19854,12 @@ msgstr ""
 #, fuzzy
 msgid "Kashaya"
 msgstr "カシュビアン語"
+
+# 国国は「手まね言語」
+#. Name for kjv
+#, fuzzy
+msgid "Kaikavian Literary Language"
+msgstr "手話語族"
 
 # 国国
 # USMARCは-SAO
@@ -20621,10 +20598,6 @@ msgstr "コンゴ語"
 msgid "Komi-Permyak"
 msgstr ""
 
-#. Name for koj
-msgid "Sara Dunjo"
-msgstr ""
-
 # 国国
 #. Name for kok
 #, fuzzy
@@ -20699,10 +20672,6 @@ msgstr ""
 #, fuzzy
 msgid "Kugama"
 msgstr "カンバ語"
-
-#. Name for kox
-msgid "Coxima"
-msgstr ""
 
 #. Name for koy
 msgid "Koyukon"
@@ -21484,10 +21453,6 @@ msgstr "カドー語"
 msgid "Katabaga"
 msgstr "カンバ語"
 
-#. Name for ktr
-msgid "Kota Marudu Tinagas"
-msgstr ""
-
 # 国国は「Sotho ソト語」
 # USMARCは-SSO
 # マイペディア「レソト」の項に「ソト語」
@@ -21566,14 +21531,9 @@ msgstr "カウィ語"
 msgid "'Auhelawa"
 msgstr ""
 
-# アンゴラ、ナミビア
-# Kuwanyamaとも
-# クワニャマ語とも
-# 「Kunama クナマ語」(エリトリア西部) とは別
 #. Name for kue
-#, fuzzy
-msgid "Kuman"
-msgstr "クアニャマ語"
+msgid "Kuman (Papua New Guinea)"
+msgstr ""
 
 # 国国
 #. Name for kuf
@@ -21813,13 +21773,6 @@ msgstr "カレン語"
 msgid "Kerinci"
 msgstr ""
 
-# 国国
-# マジャール語とも
-#. Name for kvs
-#, fuzzy
-msgid "Kunggara"
-msgstr "ハンガリー語"
-
 #. Name for kvt
 msgid "Lahta Karen"
 msgstr ""
@@ -21977,14 +21930,6 @@ msgid "Kodia"
 msgstr "ソグド語"
 
 # 国国
-# KDE訳は「カザフ語」「カザーク語」
-# ニッポニカ「カザフ語」の項に「ハザック語とも」「カザック語と」
-#. Name for kwq
-#, fuzzy
-msgid "Kwak"
-msgstr "カザーフ語"
-
-# 国国
 # カンボジア
 # 国国はCAM
 # カンボジア語とも
@@ -22068,14 +22013,6 @@ msgstr "コンゴ語"
 #, fuzzy
 msgid "Brunei"
 msgstr "ズニ語"
-
-# 国国
-# KDE訳は「カザフ語」「カザーク語」
-# ニッポニカ「カザフ語」の項に「ハザック語とも」「カザック語と」
-#. Name for kxe
-#, fuzzy
-msgid "Kakihum"
-msgstr "カザーフ語"
 
 #. Name for kxf
 msgid "Manumanaw Karen"
@@ -22481,20 +22418,6 @@ msgid "Kelabit"
 msgstr ""
 
 # 国国
-# KDE訳は「カタール語」だが、カタールはQatarだし、
-# 「Language of Andorra, a small part of France and a small part of Spain」
-# というコメントとも合わない
-# 広辞苑「カタルニア語」の項
-#. Name for kzj
-#, fuzzy
-msgid "Coastal Kadazan"
-msgstr "カタロニア語"
-
-#. Inverted name for kzj
-msgid "Kadazan, Coastal"
-msgstr ""
-
-# 国国
 #. Name for kzk
 #, fuzzy
 msgid "Kazukuru"
@@ -22554,16 +22477,6 @@ msgstr ""
 
 #. Inverted name for kzs
 msgid "Dusun, Sugut"
-msgstr ""
-
-# 国国
-#. Name for kzt
-#, fuzzy
-msgid "Tambunan Dusun"
-msgstr "カンバ語"
-
-#. Inverted name for kzt
-msgid "Dusun, Tambunan"
 msgstr ""
 
 #. Name for kzu
@@ -22739,8 +22652,16 @@ msgstr ""
 msgid "Tiwa"
 msgstr "ツワナ語"
 
+# ザンビア
+# Ichilamba, Chilambaとも
+# 「Limba リンバ語」(Niger-Congo) は、nicに分類される別言語
 #. Name for lay
-msgid "Lama (Myanmar)"
+#, fuzzy
+msgid "Lama Bai"
+msgstr "ランバ語"
+
+#. Inverted name for lay
+msgid "Bai, Lama"
 msgstr ""
 
 #. Name for laz
@@ -23076,13 +22997,6 @@ msgstr ""
 msgid "Lelemi"
 msgstr "ルレ・サーミ語"
 
-# 鳥海訳
-# モーリタニア
-#. Name for leg
-#, fuzzy
-msgid "Lengua"
-msgstr "ゼナガ語"
-
 # 国国
 # シエラレオネ
 #. Name for leh
@@ -23388,10 +23302,6 @@ msgstr ""
 
 #. Name for lih
 msgid "Lihir"
-msgstr ""
-
-#. Name for lii
-msgid "Lingkhim"
 msgstr ""
 
 # ISOに「Limburgian」という英語名はない
@@ -23862,14 +23772,6 @@ msgstr "サンゴ語"
 # ザンビア
 # Ichilamba, Chilambaとも
 # 「Limba リンバ語」(Niger-Congo) は、nicに分類される別言語
-#. Name for lmm
-#, fuzzy
-msgid "Lamam"
-msgstr "ランバ語"
-
-# ザンビア
-# Ichilamba, Chilambaとも
-# 「Limba リンバ語」(Niger-Congo) は、nicに分類される別言語
 #. Name for lmn
 #, fuzzy
 msgid "Lambadi"
@@ -24151,11 +24053,11 @@ msgid "Otuho"
 msgstr ""
 
 #. Name for lou
-msgid "Louisiana Creole French"
+msgid "Louisiana Creole"
 msgstr ""
 
 #. Inverted name for lou
-msgid "Creole French, Louisiana"
+msgid "Creole, Louisiana"
 msgstr ""
 
 # ザンビア西部
@@ -25916,10 +25818,6 @@ msgstr "マカッサル語"
 msgid "Margu"
 msgstr "マリ語"
 
-#. Name for mhh
-msgid "Maskoy Pidgin"
-msgstr ""
-
 # チェレミス語。ボルガ川中流域マリ共和国
 #. Name for mhi
 #, fuzzy
@@ -26204,6 +26102,13 @@ msgstr ""
 #. Inverted name for miz
 msgid "Mixtec, Coatzospan"
 msgstr ""
+
+# 国国
+#. Name for mjb
+#, fuzzy
+#| msgid "Makasar"
+msgid "Makalero"
+msgstr "マカッサル語"
 
 #. Name for mjc
 msgid "San Juan Colorado Mixtec"
@@ -28273,13 +28178,6 @@ msgstr "ラオ語"
 
 # 国国
 # ガンビア
-#. Name for mwj
-#, fuzzy
-msgid "Maligo"
-msgstr "マンディンゴ語"
-
-# 国国
-# ガンビア
 #. Name for mwk
 #, fuzzy
 msgid "Kita Maninkakan"
@@ -28881,10 +28779,6 @@ msgstr ""
 msgid "Narak"
 msgstr "ワライ語"
 
-#. Name for nad
-msgid "Nijadali"
-msgstr ""
-
 #. Name for nae
 msgid "Naka'ela"
 msgstr ""
@@ -28944,7 +28838,7 @@ msgid "Neapolitan"
 msgstr "ナポリ語"
 
 #. Name for naq
-msgid "Nama (Namibia)"
+msgid "Khoekhoe"
 msgstr ""
 
 #. Name for nar
@@ -28960,7 +28854,7 @@ msgid "Naasioi"
 msgstr "ナヴァホ語"
 
 #. Name for nat
-msgid "Hungworo"
+msgid "Ca̱hungwa̱rya̱"
 msgstr ""
 
 # 国国
@@ -30880,14 +30774,6 @@ msgstr "ソト語, 南"
 # ナミビア
 # ヌドンガ語とも
 # クワニャマ語、ンバラヌ語らと同様、オヴァンボ諸語の1つ
-#. Name for nnx
-#, fuzzy
-msgid "Ngong"
-msgstr "ンドンガ語"
-
-# ナミビア
-# ヌドンガ語とも
-# クワニャマ語、ンバラヌ語らと同様、オヴァンボ諸語の1つ
 #. Name for nny
 #, fuzzy
 msgid "Nyangga"
@@ -31241,6 +31127,10 @@ msgstr "南サーミ語"
 msgid "Naga, Southern Rengma"
 msgstr ""
 
+#. Name for nrf
+msgid "Jèrriais"
+msgstr ""
+
 # 国国
 # 中央アフリカ共和国
 #. Name for nrg
@@ -31534,6 +31424,22 @@ msgstr "ニアス語"
 msgid "Nisenan"
 msgstr "ニウーエイ語"
 
+# ノルウェー
+# SAAMI, NORTHERNとも
+#. Name for ntd
+#, fuzzy
+msgid "Northern Tidung"
+msgstr "北サーミ語"
+
+# 国国は「Sotho ソト語」
+# USMARCは-SSO
+# マイペディア「レソト」の項に「ソト語」
+# ニッポニカ「ソト族 (Sotho)」の項
+#. Inverted name for ntd
+#, fuzzy
+msgid "Tidung, Northern"
+msgstr "ソト語, 南"
+
 #. Name for nte
 msgid "Nathembo"
 msgstr ""
@@ -31581,10 +31487,6 @@ msgstr ""
 
 #. Name for ntr
 msgid "Delo"
-msgstr ""
-
-#. Name for nts
-msgid "Natagaimas"
 msgstr ""
 
 # ファン語とも
@@ -31910,6 +31812,14 @@ msgstr "シュメール語"
 #. Name for nxn
 msgid "Ngawun"
 msgstr ""
+
+# ザンビア
+# Ichilamba, Chilambaとも
+# 「Limba リンバ語」(Niger-Congo) は、nicに分類される別言語
+#. Name for nxo
+#, fuzzy
+msgid "Ndambomo"
+msgstr "ランバ語"
 
 # ニッポニカ「ノガイ語」の項
 #. Name for nxq
@@ -32630,6 +32540,26 @@ msgstr ""
 msgid "Olrat"
 msgstr "オロモ語"
 
+# 国国
+#. Name for olt
+#, fuzzy
+#| msgid "Lithuanian"
+msgid "Old Lithuanian"
+msgstr "リトアニア語"
+
+# 国国
+#. Inverted name for olt
+#, fuzzy
+#| msgid "Lithuanian"
+msgid "Lithuanian, Old"
+msgstr "リトアニア語"
+
+# 国国
+#. Name for olu
+#, fuzzy
+msgid "Kuvale"
+msgstr "ツバル語"
+
 #. Name for oma
 msgid "Omaha-Ponca"
 msgstr ""
@@ -32649,10 +32579,6 @@ msgstr ""
 #, fuzzy
 msgid "Mochica"
 msgstr "ゴート語"
-
-#. Name for ome
-msgid "Omejes"
-msgstr ""
 
 #. Name for omg
 msgid "Omagua"
@@ -32979,11 +32905,10 @@ msgid "Oro"
 msgstr "オロモ語"
 
 # 国国
-# 中米
 #. Name for ory
 #, fuzzy
-msgid "Oriya (individual language)"
-msgstr "マヤ語族"
+msgid "Odia"
+msgstr "オリヤー語"
 
 #. Name for orz
 #, fuzzy
@@ -33255,10 +33180,6 @@ msgstr "ウイグル語"
 #, fuzzy
 msgid "Ouma"
 msgstr "スクマ語"
-
-#. Name for oun
-msgid "!O!ung"
-msgstr ""
 
 #. Name for owi
 msgid "Owiniga"
@@ -33561,7 +33482,7 @@ msgid "Pnar"
 msgstr "マンダル語"
 
 #. Name for pby
-msgid "Pyu"
+msgid "Pyu (Papua New Guinea)"
 msgstr ""
 
 #. Name for pca
@@ -33912,6 +33833,10 @@ msgstr ""
 msgid "Creole Arabic, Sudanese"
 msgstr ""
 
+#. Name for pgd
+msgid "Gāndhārī"
+msgstr ""
+
 # 国国
 #. Name for pgg
 #, fuzzy
@@ -33959,6 +33884,12 @@ msgstr "パンガシナーン語"
 #. Name for pgu
 msgid "Pagu"
 msgstr ""
+
+# 国国は「手まね言語」
+#. Name for pgz
+#, fuzzy
+msgid "Papua New Guinean Sign Language"
+msgstr "手話語族"
 
 # ファン語とも
 #. Name for pha
@@ -34359,11 +34290,11 @@ msgid "Senoufo, Palaka"
 msgstr ""
 
 #. Name for pls
-msgid "San Marcos Tlalcoyalco Popoloca"
+msgid "San Marcos Tlacoyalco Popoloca"
 msgstr ""
 
 #. Inverted name for pls
-msgid "Popoloca, San Marcos Tlalcoyalco"
+msgid "Popoloca, San Marcos Tlacoyalco"
 msgstr ""
 
 # 国国
@@ -34430,13 +34361,6 @@ msgstr "パラオ語"
 #, fuzzy
 msgid "Pambia"
 msgstr "カンバ語"
-
-# 国国
-# ミクロネシア連邦ベラウ(パラオ)
-#. Name for pmc
-#, fuzzy
-msgid "Palumata"
-msgstr "パラオ語"
 
 # 国国
 #. Name for pmd
@@ -34552,16 +34476,6 @@ msgstr "ベトナム語"
 #, fuzzy
 msgid "Tuamotuan"
 msgstr "サモア語"
-
-# 国国
-#. Name for pmu
-#, fuzzy
-msgid "Mirpur Panjabi"
-msgstr "パンジャブ語"
-
-#. Inverted name for pmu
-msgid "Panjabi, Mirpur"
-msgstr ""
 
 #. Name for pmw
 msgid "Plains Miwok"
@@ -34764,10 +34678,6 @@ msgstr ""
 msgid "Poqomam"
 msgstr "ショナ語"
 
-#. Name for pod
-msgid "Ponares"
-msgstr ""
-
 #. Name for poe
 msgid "San Juan Atzingo Popoloca"
 msgstr ""
@@ -34894,14 +34804,6 @@ msgstr "モルダヴィア語"
 #. Name for poy
 msgid "Pogolo"
 msgstr ""
-
-# 国国
-# マラウイ、モザンビーク、タンザニア、ザンビア
-# 瑶 (ヤオ) 語は、おそらくSILのIu Mienで、別言語
-#. Name for ppa
-#, fuzzy
-msgid "Pao"
-msgstr "ヤオ語"
 
 # 国国
 # 「巴利語」とも
@@ -35112,10 +35014,6 @@ msgstr "カレン語"
 msgid "Purik"
 msgstr ""
 
-#. Name for pry
-msgid "Pray 3"
-msgstr ""
-
 # 国国は「手まね言語」
 #. Name for prz
 #, fuzzy
@@ -35160,12 +35058,17 @@ msgstr "手話語族"
 
 #. Name for psh
 #, fuzzy
-msgid "Southwest Pashayi"
+msgid "Southwest Pashai"
 msgstr "南サーミ語"
 
+# 国国は「Sotho ソト語」
+# USMARCは-SSO
+# マイペディア「レソト」の項に「ソト語」
+# ニッポニカ「ソト族 (Sotho)」の項
 #. Inverted name for psh
-msgid "Pashayi, Southwest"
-msgstr ""
+#, fuzzy
+msgid "Pashai, Southwest"
+msgstr "ソト語, 南"
 
 # 国国は「Sotho ソト語」
 # USMARCは-SSO
@@ -35173,12 +35076,17 @@ msgstr ""
 # ニッポニカ「ソト族 (Sotho)」の項
 #. Name for psi
 #, fuzzy
-msgid "Southeast Pashayi"
+msgid "Southeast Pashai"
 msgstr "ソト語, 南"
 
+# 国国は「Sotho ソト語」
+# USMARCは-SSO
+# マイペディア「レソト」の項に「ソト語」
+# ニッポニカ「ソト族 (Sotho)」の項
 #. Inverted name for psi
-msgid "Pashayi, Southeast"
-msgstr ""
+#, fuzzy
+msgid "Pashai, Southeast"
+msgstr "ソト語, 南"
 
 # 国国
 # メキシコ
@@ -35283,6 +35191,10 @@ msgstr ""
 
 #. Name for ptp
 msgid "Patep"
+msgstr ""
+
+#. Name for ptq
+msgid "Pattapu"
 msgstr ""
 
 # 国国
@@ -35431,18 +35343,6 @@ msgstr "カレン語"
 #. Name for puy
 msgid "Purisimeño"
 msgstr ""
-
-# 国国
-#. Name for puz
-#, fuzzy
-msgid "Purum Naga"
-msgstr "ナウル語"
-
-# 国国
-#. Inverted name for puz
-#, fuzzy
-msgid "Naga, Purum"
-msgstr "ナウル語"
 
 # 国国
 #. Name for pwa
@@ -36747,15 +36647,6 @@ msgstr "マリ語"
 # コンゴ、ザイール
 # ニッポニカ「ブルンジ」の項に「ルンジ語」
 # ランディ語とも
-#. Name for rna
-#, fuzzy
-msgid "Runa"
-msgstr "ルンディ語"
-
-# 国国
-# コンゴ、ザイール
-# ニッポニカ「ブルンジ」の項に「ルンジ語」
-# ランディ語とも
 #. Name for rnd
 #, fuzzy
 msgid "Ruund"
@@ -36948,6 +36839,12 @@ msgstr "手話語族"
 msgid "Russian Sign Language"
 msgstr "手話語族"
 
+# 国国は「手まね言語」
+#. Name for rsm
+#, fuzzy
+msgid "Miriwoong Sign Language"
+msgstr "手話語族"
+
 # 国国
 #. Name for rtc
 #, fuzzy
@@ -36980,6 +36877,11 @@ msgstr "カタロニア語"
 #, fuzzy
 msgid "Rotuman"
 msgstr "ロマニ語"
+
+#. Name for rts
+#, fuzzy
+msgid "Yurats"
+msgstr "ブリヤート語"
 
 # 国国
 # ニッポニカ「ラージャスタン Rajasthan」の項
@@ -37177,6 +37079,10 @@ msgstr "サンターリー語"
 msgid "Okinawan, Central"
 msgstr ""
 
+#. Name for rzh
+msgid "Rāziḥī"
+msgstr ""
+
 # 国国
 #. Name for saa
 #, fuzzy
@@ -37261,10 +37167,6 @@ msgstr "梵語"
 #, fuzzy
 msgid "Sause"
 msgstr "スス語"
-
-#. Name for sap
-msgid "Sanapaná"
-msgstr ""
 
 # 国国
 #. Name for saq
@@ -37364,13 +37266,9 @@ msgstr "ソト語, 南"
 msgid "Saliba"
 msgstr "ソマリ語"
 
-# 国国
-# ミャンマー・シャン州
-# ニッポニカ「シャン族 Shan」の項に「シャン語」
 #. Name for sbf
-#, fuzzy
-msgid "Shabo"
-msgstr "シャン語"
+msgid "Chabu"
+msgstr ""
 
 # セネガル
 # 「Serer-Nono セレール・ノノ語」、「Serer-Sin セレール・シン語」がある
@@ -38061,15 +37959,6 @@ msgstr "サンゴ語"
 msgid "Singa"
 msgstr "ソンガイ語"
 
-# アフリカ西部マリ北部
-# 広辞苑「ソンガイ (Songhai)」の項
-# マイペディア「ソンガイ帝国」の項に「ソンガイ族 Songhai」
-# ニッポニカ「ソンガイ族 Songhai, Songhay」の項
-#. Name for sgo
-#, fuzzy
-msgid "Songa"
-msgstr "ソンガイ語"
-
 # 国国
 # 中央アフリカ共和国
 #. Name for sgp
@@ -38654,9 +38543,13 @@ msgstr "セリクプ語"
 msgid "Sininkere"
 msgstr "ソニンケ語"
 
+# フィリピン(の4.6%)
+# WARAY-WARAY, Binisayaとも
+# ビサヤ族の一部のワライ族
 #. Name for skr
-msgid "Seraiki"
-msgstr ""
+#, fuzzy
+msgid "Saraiki"
+msgstr "ワライ語"
 
 # チェレミス語。ボルガ川中流域マリ共和国
 #. Name for sks
@@ -39427,6 +39320,10 @@ msgstr "セリクプ語"
 
 #. Name for spm
 msgid "Akukem"
+msgstr ""
+
+#. Name for spn
+msgid "Sanapaná"
 msgstr ""
 
 # 国国
@@ -40230,13 +40127,6 @@ msgid "Slavomolisano"
 msgstr "サンゴ語"
 
 # 国国
-# マリ
-#. Name for svr
-#, fuzzy
-msgid "Savara"
-msgstr "バンバラ語"
-
-# 国国
 #. Name for svs
 #, fuzzy
 msgid "Savosavo"
@@ -40587,6 +40477,13 @@ msgstr ""
 #. Name for syw
 msgid "Kagate"
 msgstr ""
+
+# 国国
+# USMARCは-SAO
+#. Name for syx
+#, fuzzy
+msgid "Samay"
+msgstr "サモア語"
 
 # 国国は「手まね言語」
 #. Name for syy
@@ -41231,6 +41128,13 @@ msgstr "カンバ語"
 msgid "Sur"
 msgstr ""
 
+# インドネシア(Nusa Tenggra)
+# テトゥム語とも
+#. Name for tdm
+#, fuzzy
+msgid "Taruma"
+msgstr "テトゥン語"
+
 # カメルーン
 #. Name for tdn
 #, fuzzy
@@ -41262,14 +41166,6 @@ msgstr "ダコタ語"
 
 #. Name for tdt
 msgid "Tetun Dili"
-msgstr ""
-
-#. Name for tdu
-msgid "Tempasuk Dusun"
-msgstr ""
-
-#. Inverted name for tdu
-msgid "Dusun, Tempasuk"
 msgstr ""
 
 # ウガンダ西部バンツー系ニョロ族
@@ -41646,10 +41542,6 @@ msgstr "パラオ語"
 msgid "Thai"
 msgstr "タイ語"
 
-#. Name for thc
-msgid "Tai Hang Tong"
-msgstr ""
-
 #. Name for thd
 msgid "Thayore"
 msgstr ""
@@ -41765,10 +41657,6 @@ msgstr ""
 msgid "Thudam"
 msgstr "タイ語"
 
-#. Name for thx
-msgid "The"
-msgstr ""
-
 # 国国
 #. Name for thy
 #, fuzzy
@@ -41798,14 +41686,6 @@ msgstr ""
 #, fuzzy
 msgid "Tira"
 msgstr "ティグリニア語"
-
-# ISO, 国国ともにTSO
-# モザンビーク、南アフリカ
-# ツソンガ語とも
-#. Name for tid
-#, fuzzy
-msgid "Tidong"
-msgstr "ツォンガ語"
 
 # 国国
 # KDE訳は「タミール語」
@@ -42123,6 +42003,12 @@ msgstr ""
 msgid "Totonac, Upper Necaxa"
 msgstr ""
 
+# 国国
+#. Name for tkv
+#, fuzzy
+msgid "Mur Pano"
+msgstr "パンジャブ語"
+
 # 国国, Ethnologueは「Tokelauan」
 # トケラウ
 #. Name for tkw
@@ -42264,11 +42150,12 @@ msgstr "バリ語"
 msgid "Tambotalo"
 msgstr "タガログ語"
 
-# 国国
+# クック諸島
+# ニッポニカ「ラロトンガ島 Rarotonga」の項
 #. Name for tlt
 #, fuzzy
-msgid "Teluti"
-msgstr "テルグ語"
+msgid "Sou Nama"
+msgstr "ラロトンガ語"
 
 # 国国
 #. Name for tlu
@@ -42385,10 +42272,6 @@ msgstr "バタク語 (インドネシア)"
 #, fuzzy
 msgid "Temoq"
 msgstr "テトゥン語"
-
-#. Name for tmp
-msgid "Tai Mène"
-msgstr ""
 
 # 国国
 # KDE訳は「トルクメン語」「トルクメニスタン語」
@@ -42594,13 +42477,9 @@ msgstr "ツワナ語"
 msgid "Tongwe"
 msgstr "ツォンガ語"
 
-# 国国
-# 南太平洋のトンガ王国
-# EthnologueはTongan
 #. Name for tnz
-#, fuzzy
-msgid "Tonga (Thailand)"
-msgstr "トンガ語 (トンガ諸島)"
+msgid "Ten'edn"
+msgstr ""
 
 # 国国
 #. Name for tob
@@ -42623,10 +42502,6 @@ msgstr ""
 #, fuzzy
 msgid "Toma"
 msgstr "ツォンガ語"
-
-#. Name for toe
-msgid "Tomedes"
-msgstr ""
 
 #. Name for tof
 msgid "Gizrra"
@@ -43164,19 +43039,6 @@ msgstr "エストニア語"
 #, fuzzy
 msgid "Tunisian Sign Language"
 msgstr "手話語族"
-
-# 国国は「Sotho ソト語」
-# USMARCは-SSO
-# マイペディア「レソト」の項に「ソト語」
-# ニッポニカ「ソト族 (Sotho)」の項
-#. Name for tsf
-#, fuzzy
-msgid "Southwestern Tamang"
-msgstr "ソト語, 南"
-
-#. Inverted name for tsf
-msgid "Tamang, Southwestern"
-msgstr ""
 
 # 国国
 #. Name for tsg
@@ -43914,6 +43776,10 @@ msgstr "タイ語"
 msgid "Ikpeng"
 msgstr ""
 
+#. Name for txj
+msgid "Tarjumo"
+msgstr ""
+
 # 主にロシアの一部で
 # ニッポニカ「コミ族 (Komi)」の項に
 # 「ウラル語族フィン・ウゴル語派ペルム語系のジリアン語」
@@ -44554,12 +44420,6 @@ msgstr ""
 msgid "Kaili, Unde"
 msgstr ""
 
-# モルドヴィア
-#. Name for uok
-#, fuzzy
-msgid "Uokha"
-msgstr "モクシャ語"
-
 # 国国
 # KDE訳は「ヴェンダ語」
 # 南アフリカ共和国北部
@@ -44870,9 +44730,11 @@ msgstr ""
 msgid "Vai"
 msgstr "ヴァイ語"
 
+# 国国
 #. Name for vaj
-msgid "Vasekela Bushman"
-msgstr ""
+#, fuzzy
+msgid "Sekele"
+msgstr "クペレ語"
 
 #. Name for val
 msgid "Vehes"
@@ -45854,11 +45716,9 @@ msgstr ""
 msgid "Warrgamay"
 msgstr "ワライ語"
 
-# 国国
 #. Name for wha
-#, fuzzy
-msgid "Manusela"
-msgstr "マドゥラ語"
+msgid "Sou Upaa"
+msgstr ""
 
 # 国国
 # KDE訳は「韓国語」
@@ -46525,6 +46385,14 @@ msgstr ""
 msgid "Warembori"
 msgstr ""
 
+#. Name for wsg
+msgid "Adilabad Gondi"
+msgstr ""
+
+#. Inverted name for wsg
+msgid "Gondi, Adilabad"
+msgstr ""
+
 # 国国
 #. Name for wsi
 #, fuzzy
@@ -46797,6 +46665,16 @@ msgstr "シャン語"
 msgid "Kaimbé"
 msgstr "カンバ語"
 
+# 国国
+#. Name for xaj
+#, fuzzy
+msgid "Ararandewára"
+msgstr "アラム語"
+
+#. Name for xak
+msgid "Máku"
+msgstr ""
+
 # エチオピア
 # ワッラモ語とも
 #. Name for xal
@@ -46869,10 +46747,6 @@ msgstr "カウィ語"
 
 #. Name for xay
 msgid "Kayan Mahakam"
-msgstr ""
-
-#. Name for xba
-msgid "Kamba (Brazil)"
 msgstr ""
 
 #. Name for xbb
@@ -46968,10 +46842,6 @@ msgstr "カンバ語"
 #, fuzzy
 msgid "Kambiwá"
 msgstr "カンバ語"
-
-#. Name for xbx
-msgid "Kabixí"
-msgstr ""
 
 # 国国
 #. Name for xby
@@ -47210,9 +47080,12 @@ msgstr "ガンダ語"
 msgid "Galindan"
 msgstr "ガンダ語"
 
+# 国国
+# マリ
 #. Name for xgm
-msgid "Guwinmal"
-msgstr ""
+#, fuzzy
+msgid "Dharumbal"
+msgstr "バンバラ語"
 
 # 国国
 # USMARCは-GUA
@@ -47319,10 +47192,6 @@ msgstr "イタリア語"
 msgid "Xinca"
 msgstr "ディンカ語"
 
-#. Name for xip
-msgid "Xipináwa"
-msgstr ""
-
 # 国国
 # KDE訳は「ティグリニャ語」
 # エリトリア
@@ -47330,6 +47199,14 @@ msgstr ""
 #, fuzzy
 msgid "Xiriâna"
 msgstr "ティグリニア語"
+
+# 国国
+# ミャンマー、タイ
+# ニッポニカ「カレン族 (Karen)」の項に「カレン語」
+#. Name for xis
+#, fuzzy
+msgid "Kisan"
+msgstr "カレン語"
 
 # 国国
 #. Name for xiv
@@ -47411,14 +47288,6 @@ msgstr "ゾンカ語"
 #. Name for xkg
 msgid "Kagoro"
 msgstr ""
-
-# カラチャイチェルケス共和国、カバルディノ・バルカル共和国
-# アラビア語、チュルク系
-# ニッポニカ「カラチャイ語」の項に「カラチャイ・バルカル語」
-#. Name for xkh
-#, fuzzy
-msgid "Karahawyana"
-msgstr "カラチャイ・バルカル語"
 
 # 国国は「手まね言語」
 #. Name for xki
@@ -48166,10 +48035,6 @@ msgstr "サモア語"
 #, fuzzy
 msgid "Sio"
 msgstr "シダモ語"
-
-#. Name for xsj
-msgid "Subi"
-msgstr ""
 
 #. Name for xsl
 #, fuzzy
@@ -48994,12 +48859,6 @@ msgstr "イディッシュ語"
 msgid "Yoidik"
 msgstr "イディッシュ語"
 
-# 国国は「手まね言語」
-#. Name for yds
-#, fuzzy
-msgid "Yiddish Sign Language"
-msgstr "手話語族"
-
 #. Name for yea
 msgid "Ravula"
 msgstr ""
@@ -49106,6 +48965,12 @@ msgstr "ゲーズ語"
 msgid "Yagaria"
 msgstr "ブルガリア語"
 
+# 国国は「手まね言語」
+#. Name for ygs
+#, fuzzy
+msgid "Yolŋu Sign Language"
+msgstr "手話語族"
+
 #. Name for ygu
 msgid "Yugul"
 msgstr ""
@@ -49148,6 +49013,12 @@ msgstr ""
 #. Inverted name for yhl
 msgid "Phowa, Hlepho"
 msgstr ""
+
+# 国国は「手まね言語」
+#. Name for yhs
+#, fuzzy
+msgid "Yan-nhaŋu Sign Language"
+msgstr "手話語族"
 
 # 国国
 #. Name for yia
@@ -49590,10 +49461,6 @@ msgstr "マカッサル語"
 msgid "Mysian"
 msgstr "ボスニア語"
 
-#. Name for ymt
-msgid "Mator-Taygi-Karagas"
-msgstr ""
-
 # ノルウェー
 # SAAMI, NORTHERNとも
 #. Name for ymx
@@ -49641,13 +49508,6 @@ msgstr "ファング語"
 #. Name for yng
 #, fuzzy
 msgid "Yango"
-msgstr "サンゴ語"
-
-# 国国
-# 中央アフリカ共和国
-#. Name for ynh
-#, fuzzy
-msgid "Yangho"
 msgstr "サンゴ語"
 
 #. Name for ynk
@@ -49850,10 +49710,6 @@ msgstr "ヨルバ語"
 msgid "Yaouré"
 msgstr "ヤオ語"
 
-#. Name for yri
-msgid "Yarí"
-msgstr ""
-
 #. Name for yrk
 msgid "Nenets"
 msgstr ""
@@ -49868,6 +49724,10 @@ msgstr ""
 
 #. Name for yrn
 msgid "Yerong"
+msgstr ""
+
+#. Name for yro
+msgid "Yaroamë"
 msgstr ""
 
 #. Name for yrs
@@ -50079,10 +49939,6 @@ msgstr ""
 msgid "Yopno"
 msgstr "モンゴ語"
 
-#. Name for yuu
-msgid "Yugh"
-msgstr ""
-
 #. Name for yuw
 msgid "Yau (Morobe Province)"
 msgstr ""
@@ -50270,11 +50126,11 @@ msgid "Zapotec, Sierra de Juárez"
 msgstr ""
 
 #. Name for zab
-msgid "San Juan Guelavía Zapotec"
+msgid "Western Tlacolula Valley Zapotec"
 msgstr ""
 
 #. Inverted name for zab
-msgid "Zapotec, San Juan Guelavía"
+msgid "Zapotec, Western Tlacolula Valley"
 msgstr ""
 
 # 国国

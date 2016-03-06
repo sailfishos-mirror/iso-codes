@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: iso_15924\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2016-03-04 14:12+0100\n"
+"POT-Creation-Date: 2016-03-05 21:58+0100\n"
 "PO-Revision-Date: 2009-12-05 19:22+0800\n"
 "Last-Translator: LI Daobing <lidaobing@gmail.com>\n"
 "Language-Team: Chinese (simplified) <translation-team-zh-cn@lists."
@@ -20,6 +20,10 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#. Name for Adlm
+msgid "Adlam"
+msgstr ""
 
 #. Name for Afak
 msgid "Afaka"
@@ -30,12 +34,18 @@ msgid "Caucasian Albanian"
 msgstr ""
 
 #. Name for Ahom
-msgid "Ahom"
+msgid "Ahom, Tai Ahom"
 msgstr ""
 
 #. Name for Arab
 msgid "Arabic"
 msgstr "阿拉伯语"
+
+#. Name for Aran
+#, fuzzy
+#| msgid "Han (Traditional variant)"
+msgid "Arabic (Nastaliq variant)"
+msgstr "繁体中文"
 
 #. Name for Armi
 msgid "Imperial Aramaic"
@@ -68,6 +78,10 @@ msgstr "巴塔克语"
 #. Name for Beng
 msgid "Bengali"
 msgstr "孟加拉语"
+
+#. Name for Bhks
+msgid "Bhaiksuki"
+msgstr ""
 
 #. Name for Blis
 msgid "Blissymbols"
@@ -201,6 +215,10 @@ msgstr "古吉拉特语"
 msgid "Gurmukhi"
 msgstr "果鲁穆奇语"
 
+#. Name for Hanb
+msgid "Han with Bopomofo (alias for Han + Bopomofo)"
+msgstr ""
+
 #. Name for Hang
 msgid "Hangul (Hangŭl, Hangeul)"
 msgstr "諺文"
@@ -258,6 +276,12 @@ msgstr "印度文字 (哈拉帕文字)"
 msgid "Old Italic (Etruscan, Oscan, etc.)"
 msgstr "老意大利文字 (伊特鲁里亚、奥斯坎、等等)"
 
+#. Name for Jamo
+#, fuzzy
+#| msgid "Korean (alias for Hangul + Han)"
+msgid "Jamo (alias for Jamo subset of Hangul)"
+msgstr "韩语"
+
 #. Name for Java
 msgid "Javanese"
 msgstr "爪哇语"
@@ -288,6 +312,14 @@ msgstr "高棉语"
 
 #. Name for Khoj
 msgid "Khojki"
+msgstr ""
+
+#. Name for Kitl
+msgid "Khitan large script"
+msgstr ""
+
+#. Name for Kits
+msgid "Khitan small script"
 msgstr ""
 
 #. Name for Knda
@@ -327,6 +359,10 @@ msgstr ""
 #. Name for Latn
 msgid "Latin"
 msgstr "拉丁语"
+
+#. Name for Leke
+msgid "Leke"
+msgstr ""
 
 #. Name for Lepc
 #, fuzzy
@@ -372,6 +408,10 @@ msgstr "阿拉米语"
 #. Name for Mani
 msgid "Manichaean"
 msgstr "摩尼语"
+
+#. Name for Marc
+msgid "Marchen"
+msgstr ""
 
 #. Name for Maya
 msgid "Mayan hieroglyphs"
@@ -431,6 +471,10 @@ msgstr ""
 msgid "Nabataean"
 msgstr ""
 
+#. Name for Newa
+msgid "Newa, Newar, Newari, Nepāla lipi"
+msgstr ""
+
 #. Name for Nkgb
 msgid "Nakhi Geba ('Na-'Khi ²Ggŏ-¹baw, Naxi Geba)"
 msgstr "纳西哥巴文"
@@ -458,6 +502,10 @@ msgstr "鄂尔浑文字"
 #. Name for Orya
 msgid "Oriya"
 msgstr "奥里亚语"
+
+#. Name for Osge
+msgid "Osage"
+msgstr ""
 
 #. Name for Osma
 msgid "Osmanya"
@@ -494,6 +542,10 @@ msgstr ""
 #. Name for Phnx
 msgid "Phoenician"
 msgstr "腓尼基语"
+
+#. Name for Piqd
+msgid "Klingon (KLI pIqaD)"
+msgstr ""
 
 #. Name for Plrd
 msgid "Miao (Pollard)"
@@ -695,6 +747,10 @@ msgstr "不能确定"
 #. Name for Zmth
 msgid "Mathematical notation"
 msgstr "数学符号"
+
+#. Name for Zsye
+msgid "Symbols (Emoji variant)"
+msgstr ""
 
 #. Name for Zsym
 msgid "Symbols"
