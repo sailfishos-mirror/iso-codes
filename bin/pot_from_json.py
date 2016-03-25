@@ -50,7 +50,7 @@ comment = "alpha_3"
 if domain in ["iso_3166-3", "iso_15924"]:
     comment = "alpha_4"
 if domain == "iso_3166-2":
-    comment = "alpha_2"
+    comment = "code"
 
 # Read in the JSON file
 with open(datapath + "/" + domain + ".json") as json_file:
@@ -73,22 +73,14 @@ def add_msgid(name, comment):
 # Collect all msgids with their comments
 msgids = {}
 sorted_data = []
-# Special case for ISO 3166-2 with subsets
-if domain == "iso_3166-2":
-    for item in iso[iso_number]:
-        for subset in item["subsets"]:
-            for entry in subset["items"]:
-                add_msgid(entry["name"], "Name for " + entry["code"])
-else:
-# All other domains can be handled here
-    for item in iso[iso_number]:
-        add_msgid(item["name"], "Name for " + item[comment])
-        if "official_name" in item:
-            add_msgid(item["official_name"], "Official name for " + item[comment])
-        if "common_name" in item:
-            add_msgid(item["common_name"], "Common name for " + item[comment])
-        if "inverted_name" in item:
-            add_msgid(item["inverted_name"], "Inverted name for " + item[comment])
+for item in iso[iso_number]:
+    add_msgid(item["name"], "Name for " + item[comment])
+    if "official_name" in item:
+        add_msgid(item["official_name"], "Official name for " + item[comment])
+    if "common_name" in item:
+        add_msgid(item["common_name"], "Common name for " + item[comment])
+    if "inverted_name" in item:
+        add_msgid(item["inverted_name"], "Inverted name for " + item[comment])
 
 # Write the POT file
 with open(domain + ".pot", "w") as pot_file:
