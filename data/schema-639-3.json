@@ -12,7 +12,7 @@
         "type": "object",
         "properties": {
           "alpha_3": {
-            "description": "Three letter code of the language",
+            "description": "Three letter terminology code of the language",
             "type": "string",
             "pattern": "^[a-z]{3}$"
           },
@@ -46,8 +46,8 @@
             "type": "string",
             "minLength": 1
           },
-          "terminology": {
-            "description": "Three letter terminology code of the language from part 2 (optional)",
+          "bibliographic": {
+            "description": "Three letter bibliographic code of the language from part 2 (optional)",
             "type": "string",
             "pattern": "^[a-z]{3}$"
           }
