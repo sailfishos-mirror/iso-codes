@@ -502,18 +502,32 @@ with open(xml_file, "w") as outfile:
         outfile.write(headers["3166-2"])
         outfile.write("\n")
         outfile.write("<iso_3166_2_entries>\n")
-        for country in get_iso_entries("3166-2"):
-            outfile.write("<iso_3166_country code=\"" + country["code"] + "\">\n")
-            for subset in country["subsets"]:
-                outfile.write("<iso_3166_subset type=\"" + subset["type"] + "\">\n")
-                for item in subset["items"]:
-                    outfile.write("\t<iso_3166_2_entry\n")
-                    outfile.write("\t\tcode=\"" + item["code"] + "\"\tname=\"" + item["name"] + "\"")
-                    if "parent" in item:
-                        outfile.write("\tparent=\"" + item["parent"] + "\"")
-                    outfile.write(" />\n")
-                outfile.write("</iso_3166_subset>\n")
-            outfile.write("</iso_3166_country>\n")
+        last_country_code = ""
+        subsets = {}
+        for entry in get_iso_entries("3166-2"):
+            country_code = entry["code"].split("-")[0]
+            # Initialize for every new country
+            if last_country_code != country_code:
+                # Write out if subsets are filled
+                if len(subsets) > 0:
+                    outfile.write("<iso_3166_country code=\"" + last_country_code + "\">\n")
+                    for subset in subsets:
+                        outfile.write("<iso_3166_subset type=\"" + subset + "\">\n")
+                        for item in subsets[subset]:
+                            outfile.write("\t<iso_3166_2_entry\n")
+                            outfile.write("\t\tcode=\"" + item["code"] + "\"\tname=\"" + item["name"] + "\"")
+                            if "parent" in item:
+                                outfile.write("\tparent=\"" + item["parent"] + "\"")
+                            outfile.write(" />\n")
+                        outfile.write("</iso_3166_subset>\n")
+                    outfile.write("</iso_3166_country>\n")
+                last_country_code = country_code
+                subsets = {}
+            # Group by subset types
+            if entry["type"] not in subsets:
+                subsets[entry["type"]] = [entry]
+            else:
+                subsets[entry["type"]].append(entry)
         outfile.write("</iso_3166_2_entries>\n")
     #
     # Handle ISO 15924
