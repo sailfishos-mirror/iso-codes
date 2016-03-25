@@ -12,55 +12,28 @@
         "type": "object",
         "properties": {
           "code": {
-            "description": "Two letter alphabetic code of the country",
+            "description": "Code of the country subset item",
             "type": "string",
-            "pattern": "^[A-Z]{2}$"
+            "pattern": "^[A-Z]{2}-[A-Z0-9]+$"
           },
-          "subsets": {
-            "description": "Subsets of the country",
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "items": {
-                  "description": "Items of the country subset",
-                  "type": "array",
-                  "items": {
-                    "type": "object",
-                    "properties": {
-                      "code": {
-                        "description": "Code of the country subset item",
-                        "type": "string",
-                        "pattern": "^[A-Z]{2}-[A-Z0-9]+$"
-                      },
-                      "name": {
-                        "description": "Name of the country subset item",
-                        "type": "string",
-                        "minLength": 1
-                      },
-                      "parent": {
-                        "description": "Parent of the country subset item (optional)",
-                        "type": "string",
-                        "minLength": 1
-                      }
-                    },
-                    "required": ["code", "name"],
-                    "additionalProperties": false
-                  }
-                },
-                "type": {
-                  "description": "Type of subset of the country",
-                  "type": "string"
-                }
-              },
-              "required": ["items", "type"],
-              "additionalProperties": false
-            }
+          "name": {
+            "description": "Name of the country subset item",
+            "type": "string",
+            "minLength": 1
+          },
+          "parent": {
+            "description": "Parent of the country subset item (optional)",
+            "type": "string",
+            "minLength": 1
+          },
+          "type": {
+            "description": "Type of subset of the country",
+            "type": "string"
           }
-        },
-        "required": ["code", "subsets"],
-        "additionalProperties": false
-      }
+        }
+      },
+      "required": ["code", "name", "type"],
+      "additionalProperties": false
     }
   },
   "additionalProperties": false

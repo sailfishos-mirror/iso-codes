@@ -44,16 +44,12 @@ for standard in standards:
     # Read in the JSON file
     with open("data/iso_" + standard + ".json") as json_file:
         iso = json.load(json_file)
-    # Special case for ISO 3166-2
+    sort_key = "alpha_3"
+    if standard in ["3166-3", "15924"]:
+        sort_key = "alpha_4"
     if standard == "3166-2":
-        for entry in iso[standard]:
-            for subset in entry["subsets"]:
-                subset["items"].sort(key=lambda item: item["code"])
-    else:
-        sort_key = "alpha_3"
-        if standard in ["3166-3", "15924"]:
-            sort_key = "alpha_4"
-        iso[standard].sort(key=lambda item: item[sort_key])
+        sort_key = "code"
+    iso[standard].sort(key=lambda item: item[sort_key])
     # Write the sorted JSON file
     with open("data/iso_" + standard + ".json", "w") as json_file:
         json.dump(iso, json_file, ensure_ascii=False, indent=2, sort_keys=True)
