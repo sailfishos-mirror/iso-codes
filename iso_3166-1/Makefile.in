@@ -462,8 +462,17 @@ uninstall-am: uninstall-xmlDATA
 	$(MSGFMT) $(MSGFMT_FLAGS) -o $@ $<
 
 # Generic target to create .pot files from JSON data files
-$(DOMAIN).pot: $(top_srcdir)/bin/pot_from_json.py $(top_srcdir)/data/$(DOMAIN).json
+$(DOMAIN).pot: $(top_srcdir)/bin/pot_from_json.py $(top_srcdir)/data/$(DOMAIN).json $(top_srcdir)/bin/remove-potcdate.sin
+	cp $@ backup.pot
 	python3 $(top_srcdir)/bin/pot_from_json.py $(DOMAIN) $(top_srcdir)/data
+	sed -f $(top_srcdir)/bin/remove-potcdate.sin < $@ > $(DOMAIN).1po
+	sed -f $(top_srcdir)/bin/remove-potcdate.sin < backup.pot > $(DOMAIN).2po
+	if cmp $(DOMAIN).1po $(DOMAIN).2po >/dev/null 2>&1; then \
+		rm -f $(DOMAIN).1po $(DOMAIN).2po $@ && \
+		mv backup.pot $@; \
+	else \
+		rm -f $(DOMAIN).1po $(DOMAIN).2po backup.pot; \
+	fi
 
 # Generic target to create deprecated .xml files from JSON data files
 $(DOMAIN).xml: $(top_srcdir)/bin/xml_from_json.py $(top_srcdir)/data/$(DOMAIN).json
