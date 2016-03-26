@@ -431,8 +431,8 @@ with open(xml_file, "w") as outfile:
             outfile.write("\t\tid=\"" + entry["alpha_3"] + "\"\n")
             if "alpha_2" in entry:
                 outfile.write("\t\tpart1_code=\"" + entry["alpha_2"] + "\"\n")
-            if "terminology" in entry:
-                outfile.write("\t\tpart2_code=\"" + entry["terminology"] + "\"\n")
+            if "bibliographic" in entry:
+                outfile.write("\t\tpart2_code=\"" + entry["bibliographic"] + "\"\n")
             # Special case for lcq, which is the only entry with status "Retired"
             if entry["alpha_3"] == "lcq":
                 outfile.write("\t\tstatus=\"Retired\"\n")
