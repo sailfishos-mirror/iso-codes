@@ -511,7 +511,7 @@ with open(xml_file, "w") as outfile:
                 # Write out if subsets are filled
                 if len(subsets) > 0:
                     outfile.write("<iso_3166_country code=\"" + last_country_code + "\">\n")
-                    for subset in subsets:
+                    for subset in sorted(subsets):
                         outfile.write("<iso_3166_subset type=\"" + subset + "\">\n")
                         for item in subsets[subset]:
                             outfile.write("\t<iso_3166_2_entry\n")
