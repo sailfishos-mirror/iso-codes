@@ -100,6 +100,12 @@ class Isocodes(object):
         self.tmpfiles = []
 
     def _getUrl(self, domain, lang):
+        # Convert domains to old style for downloading
+        domain = domain.replace("-", "_")
+        if domain == "iso_3166_1":
+            domain = "iso_3166"
+        if domain == "iso_639_2":
+            domain = "iso_639"
         return "http://translationproject.org/latest/%s/%s.po" % (domain, lang)
 
     def _msgfmt(self, fname):
@@ -111,6 +117,8 @@ class Isocodes(object):
 
     def _msgcanonicalformat(self, fname, domain):
         logging.info(fname)
+        potfile = os.path.join(self.home, domain, domain+".pot")
+        subprocess.check_call(['msgmerge', '-o', fname, fname, potfile])
         subprocess.check_call(['msgattrib', '--no-obsolete', '-o', fname, fname])
         subprocess.check_call(['sed', '-i', '-e', 's/^"Project-Id-Version: iso.*/"Project-Id-Version: ' + domain + '\\\\n"/', fname])
 
