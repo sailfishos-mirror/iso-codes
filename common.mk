@@ -1,5 +1,5 @@
 xmldir = $(datadir)/xml/iso-codes
-xml_DATA = $(DOMAIN).xml
+nodist_xml_DATA = $(DOMAIN).xml
 
 pofiles = $(wildcard $(srcdir)/*.po)
 mofiles = $(patsubst $(srcdir)/%.po,%.mo, $(pofiles))

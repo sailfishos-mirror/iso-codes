@@ -142,7 +142,7 @@ am__uninstall_files_from_dir = { \
          $(am__cd) "$$dir" && rm -f $$files; }; \
   }
 am__installdirs = "$(DESTDIR)$(xmldir)"
-DATA = $(noinst_DATA) $(xml_DATA)
+DATA = $(nodist_xml_DATA) $(noinst_DATA)
 am__tagged_files = $(HEADERS) $(SOURCES) $(TAGS_FILES) $(LISP)
 am__DIST_COMMON = $(srcdir)/Makefile.in $(top_srcdir)/common.mk
 DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
@@ -230,7 +230,7 @@ top_builddir = @top_builddir@
 top_srcdir = @top_srcdir@
 DOMAIN = iso_639-3
 xmldir = $(datadir)/xml/iso-codes
-xml_DATA = $(DOMAIN).xml
+nodist_xml_DATA = $(DOMAIN).xml
 pofiles = $(wildcard $(srcdir)/*.po)
 mofiles = $(patsubst $(srcdir)/%.po,%.mo, $(pofiles))
 noinst_DATA = $(mofiles) $(xml_DATA:.xml=.pot)
@@ -275,9 +275,9 @@ $(top_srcdir)/configure: @MAINTAINER_MODE_TRUE@ $(am__configure_deps)
 $(ACLOCAL_M4): @MAINTAINER_MODE_TRUE@ $(am__aclocal_m4_deps)
 	cd $(top_builddir) && $(MAKE) $(AM_MAKEFLAGS) am--refresh
 $(am__aclocal_m4_deps):
-install-xmlDATA: $(xml_DATA)
+install-nodist_xmlDATA: $(nodist_xml_DATA)
 	@$(NORMAL_INSTALL)
-	@list='$(xml_DATA)'; test -n "$(xmldir)" || list=; \
+	@list='$(nodist_xml_DATA)'; test -n "$(xmldir)" || list=; \
 	if test -n "$$list"; then \
 	  echo " $(MKDIR_P) '$(DESTDIR)$(xmldir)'"; \
 	  $(MKDIR_P) "$(DESTDIR)$(xmldir)" || exit 1; \
@@ -291,9 +291,9 @@ install-xmlDATA: $(xml_DATA)
 	  $(INSTALL_DATA) $$files "$(DESTDIR)$(xmldir)" || exit $$?; \
 	done
 
-uninstall-xmlDATA:
+uninstall-nodist_xmlDATA:
 	@$(NORMAL_UNINSTALL)
-	@list='$(xml_DATA)'; test -n "$(xmldir)" || list=; \
+	@list='$(nodist_xml_DATA)'; test -n "$(xmldir)" || list=; \
 	files=`for p in $$list; do echo $$p; done | sed -e 's|^.*/||'`; \
 	dir='$(DESTDIR)$(xmldir)'; $(am__uninstall_files_from_dir)
 tags TAGS:
@@ -392,7 +392,7 @@ info: info-am
 
 info-am:
 
-install-data-am: install-xmlDATA
+install-data-am: install-nodist_xmlDATA
 	@$(NORMAL_INSTALL)
 	$(MAKE) $(AM_MAKEFLAGS) install-data-hook
 install-dvi: install-dvi-am
@@ -437,7 +437,7 @@ ps: ps-am
 
 ps-am:
 
-uninstall-am: uninstall-xmlDATA
+uninstall-am: uninstall-nodist_xmlDATA
 	@$(NORMAL_INSTALL)
 	$(MAKE) $(AM_MAKEFLAGS) uninstall-hook
 .MAKE: check-am install-am install-data-am install-strip uninstall-am
@@ -448,11 +448,11 @@ uninstall-am: uninstall-xmlDATA
 	install-data install-data-am install-data-hook install-dvi \
 	install-dvi-am install-exec install-exec-am install-html \
 	install-html-am install-info install-info-am install-man \
-	install-pdf install-pdf-am install-ps install-ps-am \
-	install-strip install-xmlDATA installcheck installcheck-am \
+	install-nodist_xmlDATA install-pdf install-pdf-am install-ps \
+	install-ps-am install-strip installcheck installcheck-am \
 	installdirs maintainer-clean maintainer-clean-generic \
 	mostlyclean mostlyclean-generic pdf pdf-am ps ps-am tags-am \
-	uninstall uninstall-am uninstall-hook uninstall-xmlDATA
+	uninstall uninstall-am uninstall-hook uninstall-nodist_xmlDATA
 
 .PRECIOUS: Makefile
 
