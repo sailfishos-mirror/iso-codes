@@ -118,7 +118,7 @@ class Isocodes(object):
     def _msgcanonicalformat(self, fname, domain):
         logging.info(fname)
         potfile = os.path.join(self.home, domain, domain+".pot")
-        subprocess.check_call(['msgmerge', '-o', fname, fname, potfile])
+        subprocess.check_call(['msgmerge', '--previous', '-o', fname, fname, potfile])
         subprocess.check_call(['msgattrib', '--no-obsolete', '-o', fname, fname])
         subprocess.check_call(['sed', '-i', '-e', 's/^"Project-Id-Version: iso.*/"Project-Id-Version: ' + domain + '\\\\n"/', fname])
 
