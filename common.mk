@@ -9,11 +9,11 @@ localedir = $(datadir)/locale
 
 EXTRA_DIST = \
 	$(pofiles)	\
-	$(xml_DATA)	\
 	$(DOMAIN).pot
 
 MOSTLYCLEANFILES = \
-	$(mofiles)
+	$(mofiles) \
+	$(DOMAIN).xml
 
 # Generic target to create binary .mo files from .po files
 %.mo: %.po

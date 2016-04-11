@@ -236,11 +236,11 @@ mofiles = $(patsubst $(srcdir)/%.po,%.mo, $(pofiles))
 noinst_DATA = $(mofiles) $(xml_DATA:.xml=.pot)
 EXTRA_DIST = \
 	$(pofiles)	\
-	$(xml_DATA)	\
 	$(DOMAIN).pot
 
 MOSTLYCLEANFILES = \
-	$(mofiles)
+	$(mofiles) \
+	$(DOMAIN).xml
 
 all: all-am
 
