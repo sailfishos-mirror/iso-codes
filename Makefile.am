@@ -7,6 +7,10 @@ pkgconfig_DATA = iso-codes.pc
 jsondir = $(pkgdatadir)/json
 dist_json_DATA = $(wildcard $(srcdir)/data/*.json)
 
+# Include the markdown documentation currently not handled
+# by automake
+dist_pkgdata_DATA = README.md
+
 # Include the "bin" directory and the common Makefile snippet.
 EXTRA_DIST = bin common.mk
 
