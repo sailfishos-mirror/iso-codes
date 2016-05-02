@@ -92,8 +92,7 @@ am__aclocal_m4_deps = $(top_srcdir)/configure.ac
 am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \
 	$(ACLOCAL_M4)
 DIST_COMMON = $(srcdir)/Makefile.am $(top_srcdir)/configure \
-	$(am__configure_deps) $(dist_json_DATA) $(dist_pkgdata_DATA) \
-	$(am__DIST_COMMON)
+	$(am__configure_deps) $(dist_json_DATA) $(am__DIST_COMMON)
 am__CONFIG_DISTCLEAN_FILES = config.status config.cache config.log \
  configure.lineno config.status.lineno
 mkinstalldirs = $(install_sh) -d
@@ -153,9 +152,8 @@ am__uninstall_files_from_dir = { \
     || { echo " ( cd '$$dir' && rm -f" $$files ")"; \
          $(am__cd) "$$dir" && rm -f $$files; }; \
   }
-am__installdirs = "$(DESTDIR)$(jsondir)" "$(DESTDIR)$(pkgdatadir)" \
-	"$(DESTDIR)$(pkgconfigdir)"
-DATA = $(dist_json_DATA) $(dist_pkgdata_DATA) $(pkgconfig_DATA)
+am__installdirs = "$(DESTDIR)$(jsondir)" "$(DESTDIR)$(pkgconfigdir)"
+DATA = $(dist_json_DATA) $(pkgconfig_DATA)
 RECURSIVE_CLEAN_TARGETS = mostlyclean-recursive clean-recursive	\
   distclean-recursive maintainer-clean-recursive
 am__recursive_targets = \
@@ -315,16 +313,14 @@ SUBDIRS = $(DOMAINS)
 pkgconfigdir = $(datadir)/pkgconfig
 pkgconfig_DATA = iso-codes.pc
 
-# For this release, just install the JSON files.
+# Install the JSON files.
 jsondir = $(pkgdatadir)/json
 dist_json_DATA = $(wildcard $(srcdir)/data/*.json)
 
-# Include the markdown documentation currently not handled
+# Include the "bin" directory, the common Makefile snippet
+# and the markdown documentation currently not handled
 # by automake
-dist_pkgdata_DATA = README.md
-
-# Include the "bin" directory and the common Makefile snippet.
-EXTRA_DIST = bin common.mk
+EXTRA_DIST = bin common.mk README.md
 DISTCLEANFILES = $(pkgconfig_DATA)
 all: all-recursive
 
@@ -385,27 +381,6 @@ uninstall-dist_jsonDATA:
 	@list='$(dist_json_DATA)'; test -n "$(jsondir)" || list=; \
 	files=`for p in $$list; do echo $$p; done | sed -e 's|^.*/||'`; \
 	dir='$(DESTDIR)$(jsondir)'; $(am__uninstall_files_from_dir)
-install-dist_pkgdataDATA: $(dist_pkgdata_DATA)
-	@$(NORMAL_INSTALL)
-	@list='$(dist_pkgdata_DATA)'; test -n "$(pkgdatadir)" || list=; \
-	if test -n "$$list"; then \
-	  echo " $(MKDIR_P) '$(DESTDIR)$(pkgdatadir)'"; \
-	  $(MKDIR_P) "$(DESTDIR)$(pkgdatadir)" || exit 1; \
-	fi; \
-	for p in $$list; do \
-	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
-	  echo "$$d$$p"; \
-	done | $(am__base_list) | \
-	while read files; do \
-	  echo " $(INSTALL_DATA) $$files '$(DESTDIR)$(pkgdatadir)'"; \
-	  $(INSTALL_DATA) $$files "$(DESTDIR)$(pkgdatadir)" || exit $$?; \
-	done
-
-uninstall-dist_pkgdataDATA:
-	@$(NORMAL_UNINSTALL)
-	@list='$(dist_pkgdata_DATA)'; test -n "$(pkgdatadir)" || list=; \
-	files=`for p in $$list; do echo $$p; done | sed -e 's|^.*/||'`; \
-	dir='$(DESTDIR)$(pkgdatadir)'; $(am__uninstall_files_from_dir)
 install-pkgconfigDATA: $(pkgconfig_DATA)
 	@$(NORMAL_INSTALL)
 	@list='$(pkgconfig_DATA)'; test -n "$(pkgconfigdir)" || list=; \
@@ -726,7 +701,7 @@ check: check-recursive
 all-am: Makefile $(DATA)
 installdirs: installdirs-recursive
 installdirs-am:
-	for dir in "$(DESTDIR)$(jsondir)" "$(DESTDIR)$(pkgdatadir)" "$(DESTDIR)$(pkgconfigdir)"; do \
+	for dir in "$(DESTDIR)$(jsondir)" "$(DESTDIR)$(pkgconfigdir)"; do \
 	  test -z "$$dir" || $(MKDIR_P) "$$dir"; \
 	done
 install: install-recursive
@@ -781,8 +756,7 @@ info: info-recursive
 
 info-am:
 
-install-data-am: install-dist_jsonDATA install-dist_pkgdataDATA \
-	install-pkgconfigDATA
+install-data-am: install-dist_jsonDATA install-pkgconfigDATA
 
 install-dvi: install-dvi-recursive
 
@@ -828,8 +802,7 @@ ps: ps-recursive
 
 ps-am:
 
-uninstall-am: uninstall-dist_jsonDATA uninstall-dist_pkgdataDATA \
-	uninstall-pkgconfigDATA
+uninstall-am: uninstall-dist_jsonDATA uninstall-pkgconfigDATA
 
 .MAKE: $(am__recursive_targets) install-am install-strip
 
@@ -840,16 +813,15 @@ uninstall-am: uninstall-dist_jsonDATA uninstall-dist_pkgdataDATA \
 	distcheck distclean distclean-generic distclean-tags \
 	distcleancheck distdir distuninstallcheck dvi dvi-am html \
 	html-am info info-am install install-am install-data \
-	install-data-am install-dist_jsonDATA install-dist_pkgdataDATA \
-	install-dvi install-dvi-am install-exec install-exec-am \
-	install-html install-html-am install-info install-info-am \
-	install-man install-pdf install-pdf-am install-pkgconfigDATA \
-	install-ps install-ps-am install-strip installcheck \
-	installcheck-am installdirs installdirs-am maintainer-clean \
+	install-data-am install-dist_jsonDATA install-dvi \
+	install-dvi-am install-exec install-exec-am install-html \
+	install-html-am install-info install-info-am install-man \
+	install-pdf install-pdf-am install-pkgconfigDATA install-ps \
+	install-ps-am install-strip installcheck installcheck-am \
+	installdirs installdirs-am maintainer-clean \
 	maintainer-clean-generic mostlyclean mostlyclean-generic pdf \
 	pdf-am ps ps-am tags tags-am uninstall uninstall-am \
-	uninstall-dist_jsonDATA uninstall-dist_pkgdataDATA \
-	uninstall-pkgconfigDATA
+	uninstall-dist_jsonDATA uninstall-pkgconfigDATA
 
 .PRECIOUS: Makefile
 

@@ -3,16 +3,14 @@ SUBDIRS = $(DOMAINS)
 pkgconfigdir = $(datadir)/pkgconfig
 pkgconfig_DATA = iso-codes.pc
 
-# For this release, just install the JSON files.
+# Install the JSON files.
 jsondir = $(pkgdatadir)/json
 dist_json_DATA = $(wildcard $(srcdir)/data/*.json)
 
-# Include the markdown documentation currently not handled
+# Include the "bin" directory, the common Makefile snippet
+# and the markdown documentation currently not handled
 # by automake
-dist_pkgdata_DATA = README.md
-
-# Include the "bin" directory and the common Makefile snippet.
-EXTRA_DIST = bin common.mk
+EXTRA_DIST = bin common.mk README.md
 
 DISTCLEANFILES = $(pkgconfig_DATA)
 
