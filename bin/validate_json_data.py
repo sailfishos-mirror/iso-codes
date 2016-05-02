@@ -34,15 +34,15 @@ standards = [
 
 # Validate against schema
 for standard in standards:
-    with open("data/schema-" + standard + ".json") as schema_file:
+    with open("data/schema-" + standard + ".json", encoding="utf-8") as schema_file:
         schema = json.load(schema_file)
-        with open("data/iso_" + standard + ".json") as json_file:
+        with open("data/iso_" + standard + ".json", encoding="utf-8") as json_file:
             validate(json.load(json_file), schema)
 
 # Ensure correct sorting order
 for standard in standards:
     # Read in the JSON file
-    with open("data/iso_" + standard + ".json") as json_file:
+    with open("data/iso_" + standard + ".json", encoding="utf-8") as json_file:
         iso = json.load(json_file)
     sort_key = "alpha_3"
     if standard in ["3166-3", "15924"]:
@@ -51,7 +51,7 @@ for standard in standards:
         sort_key = "code"
     iso[standard].sort(key=lambda item: item[sort_key])
     # Write the sorted JSON file
-    with open("data/iso_" + standard + ".json", "w") as json_file:
+    with open("data/iso_" + standard + ".json", "w", encoding="utf-8") as json_file:
         json.dump(iso, json_file, ensure_ascii=False, indent=2, sort_keys=True)
         # Add a final newline
         json_file.write("\n")

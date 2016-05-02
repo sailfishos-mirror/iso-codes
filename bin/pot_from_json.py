@@ -53,7 +53,7 @@ if domain == "iso_3166-2":
     comment = "code"
 
 # Read in the JSON file
-with open(datapath + "/" + domain + ".json") as json_file:
+with open(datapath + "/" + domain + ".json", encoding="utf-8") as json_file:
     iso = json.load(json_file)
 
 # Helper function for keeping track of msgids and comments
@@ -83,7 +83,7 @@ for item in iso[iso_number]:
         add_msgid(item["inverted_name"], "Inverted name for " + item[comment])
 
 # Write the POT file
-with open(domain + ".pot", "w") as pot_file:
+with open(domain + ".pot", "w", encoding="utf-8") as pot_file:
     # Write the header
     pot_file.write("# Translation of ISO " + iso_number + " to LANGUAGE\n")
     pot_file.write("# " + description[domain] + "\n")

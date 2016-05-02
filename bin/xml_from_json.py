@@ -392,12 +392,12 @@ Source: <http://www.bsi-global.com/en/Standards-and-Publications/Industry-Sector
 def get_iso_entries(standard):
     """ Return all entries from the given standard
     """
-    with open(datapath + "/iso_" + standard + ".json") as input_file:
+    with open(datapath + "/iso_" + standard + ".json", encoding="utf-8") as input_file:
         iso = json.load(input_file)
         return iso[standard]
 
 # Create the output file
-with open(xml_file, "w") as outfile:
+with open(xml_file, "w", encoding="utf-8") as outfile:
     #
     # Handle ISO 639-2
     #
