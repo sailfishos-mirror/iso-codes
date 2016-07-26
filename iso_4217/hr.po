@@ -1,18 +1,19 @@
 # Translation of ISO 4217 (currency names) to Croatian
 #
 # This file is distributed under the same license as the iso-codes package.
+# Španjolci, i Latinoamerikanci izgovaraju peso kao peso, ne kao pezo.
 #
 # Copyright ©
 # Tomislav Krznar <tomislav.krznar@gmail.com>, 2012, 2013.
-#
+# Božidar Putanec <bozidarp@yahoo.com>, 2016.
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_4217\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
 "POT-Creation-Date: 2016-03-05 21:58+0100\n"
-"PO-Revision-Date: 2013-04-18 14:03+0200\n"
-"Last-Translator: Tomislav Krznar <tomislav.krznar@gmail.com>\n"
+"PO-Revision-Date: 2016-06-09 11:01-0700\n"
+"Last-Translator: Božidar Putanec <bozidarp@yahoo.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +21,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Gtranslator 2.91.6\n"
+"X-Generator: Lokalize 2.0\n"
 
 #. Name for AED
 msgid "UAE Dirham"
@@ -50,7 +51,7 @@ msgstr "Kvanza"
 
 #. Name for ARS
 msgid "Argentine Peso"
-msgstr "Argentinski pezo"
+msgstr "Argentinski peso"
 
 #. Name for AUD
 msgid "Australian Dollar"
@@ -144,7 +145,7 @@ msgstr "Švicarski franak"
 
 #. Name for CLP
 msgid "Chilean Peso"
-msgstr "Čileanski pezo"
+msgstr "Čileanski peso"
 
 #. Name for CNY
 msgid "Yuan Renminbi"
@@ -152,7 +153,7 @@ msgstr "Renminbi-juan"
 
 #. Name for COP
 msgid "Colombian Peso"
-msgstr "Kolumbijski pezo"
+msgstr "Kolumbijski peso"
 
 #. Name for CRC
 msgid "Costa Rican Colon"
@@ -166,7 +167,7 @@ msgstr "Konvertibilna marka"
 
 #. Name for CUP
 msgid "Cuban Peso"
-msgstr "Kubanski pezo"
+msgstr "Kubanski peso"
 
 #. Name for CVE
 #, fuzzy
@@ -188,7 +189,7 @@ msgstr "Danska kruna"
 
 #. Name for DOP
 msgid "Dominican Peso"
-msgstr "Dominikanski pezo"
+msgstr "Dominikanski peso"
 
 #. Name for DZD
 msgid "Algerian Dinar"
@@ -414,7 +415,7 @@ msgstr "Zambijska kvača"
 
 #. Name for MXN
 msgid "Mexican Peso"
-msgstr "Meksički pezo"
+msgstr "Meksički peso"
 
 #. Name for MYR
 msgid "Malaysian Ringgit"
@@ -422,7 +423,7 @@ msgstr "Malezijski ringit"
 
 #. Name for MZN
 msgid "Mozambique Metical"
-msgstr ""
+msgstr "Mozambički metikal"
 
 #. Name for NAD
 msgid "Namibia Dollar"
@@ -468,7 +469,7 @@ msgstr "Kina"
 
 #. Name for PHP
 msgid "Philippine Peso"
-msgstr "Filipinski pezo"
+msgstr "Filipinski peso"
 
 #. Name for PKR
 msgid "Pakistan Rupee"
@@ -487,8 +488,10 @@ msgid "Qatari Rial"
 msgstr "Katarski rijal"
 
 #. Name for RON
+#, fuzzy
+#| msgid "Romanian Old Leu"
 msgid "Romanian Leu"
-msgstr ""
+msgstr "Rumunjski stari lej"
 
 #. Name for RSD
 msgid "Serbian Dinar"
@@ -587,10 +590,8 @@ msgid "Pa’anga"
 msgstr "Pa'anga"
 
 #. Name for TRY
-#, fuzzy
-#| msgid "New Turkish Lira"
 msgid "Turkish Lira"
-msgstr "Nova turska lira"
+msgstr "Turska lira"
 
 #. Name for TTD
 msgid "Trinidad and Tobago Dollar"
@@ -618,15 +619,17 @@ msgstr "Američki dolar"
 
 #. Name for UYU
 msgid "Peso Uruguayo"
-msgstr "Urugvajski pezo"
+msgstr "Urugvajski peso"
 
 #. Name for UZS
 msgid "Uzbekistan Sum"
 msgstr "Uzbekistanski sum"
 
 #. Name for VEF
+#, fuzzy
+#| msgid "Venezuela Bolívar"
 msgid "Bolívar"
-msgstr ""
+msgstr "Venecuelanski bolivar"
 
 #. Name for VND
 msgid "Dong"
@@ -665,20 +668,29 @@ msgid "Bond Markets Unit European Monetary Unit (E.M.U.-6)"
 msgstr "Europska novčana jedinica (E.M.U.-6)"
 
 #. Name for XBC
+#, fuzzy
+#| msgid "European Unit of Account 9 (E.U.A.-9)"
 msgid "Bond Markets Unit European Unit of Account 9 (E.U.A.-9)"
 msgstr ""
+"Europska novčana jedinica, preteča ECU-a i Eura (E.U.A.-9) u upotrebi do 1979"
 
 #. Name for XBD
+#, fuzzy
+#| msgid "European Unit of Account 17 (E.U.A.-17)"
 msgid "Bond Markets Unit European Unit of Account 17 (E.U.A.-17)"
 msgstr ""
+"Europska novčana jedinica, preteča ECU-a i Eura (E.U.A.-17), u upotrebi do "
+"1979."
 
 #. Name for XCD
 msgid "East Caribbean Dollar"
 msgstr "Istočnokaripski dolar"
 
 #. Name for XDR
+#, fuzzy
+#| msgid "Special Drawing Rights"
 msgid "SDR (Special Drawing Right)"
-msgstr ""
+msgstr "Posebna prava vučenja IMF-a (International Monetary Fond)"
 
 #. Name for XOF
 msgid "CFA Franc BCEAO"
