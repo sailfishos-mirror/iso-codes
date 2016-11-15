@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: iso_3166-2\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2016-08-28 16:46+0200\n"
+"POT-Creation-Date: 2016-11-15 21:01+0100\n"
 "PO-Revision-Date: 2007-07-04 19:00+0200\n"
 "Last-Translator: Tobias Quathamer <toddy@debian.org>\n"
 "Language-Team: English\n"
@@ -3516,6 +3516,12 @@ msgstr "Paphos"
 msgid "Kerýneia"
 msgstr "Kyrenia"
 
+#. Name for CZ-10
+#, fuzzy
+#| msgid "Praha, hlavní město"
+msgid "Praha, Hlavní mešto"
+msgstr "Praha, hlavní město"
+
 #. Name for CZ-101
 #, fuzzy
 msgid "Praha 1"
@@ -3561,35 +3567,74 @@ msgstr "Prahova"
 msgid "Praha 9"
 msgstr "Prahova"
 
-#. Name for CZ-10A
+#. Name for CZ-110
 #, fuzzy
 msgid "Praha 10"
 msgstr "Prahova"
 
-#. Name for CZ-10B
+#. Name for CZ-111
 #, fuzzy
 msgid "Praha 11"
 msgstr "Prahova"
 
-#. Name for CZ-10C
+#. Name for CZ-112
 #, fuzzy
 msgid "Praha 12"
 msgstr "Prahova"
 
-#. Name for CZ-10D
+#. Name for CZ-113
 #, fuzzy
 msgid "Praha 13"
 msgstr "Prahova"
 
-#. Name for CZ-10E
+#. Name for CZ-114
 #, fuzzy
 msgid "Praha 14"
 msgstr "Prahova"
 
-#. Name for CZ-10F
+#. Name for CZ-115
 #, fuzzy
 msgid "Praha 15"
 msgstr "Prahova"
+
+#. Name for CZ-116
+#, fuzzy
+msgid "Praha 16"
+msgstr "Prahova"
+
+#. Name for CZ-117
+#, fuzzy
+msgid "Praha 17"
+msgstr "Prahova"
+
+#. Name for CZ-118
+#, fuzzy
+msgid "Praha 18"
+msgstr "Prahova"
+
+#. Name for CZ-119
+#, fuzzy
+msgid "Praha 19"
+msgstr "Prahova"
+
+#. Name for CZ-120
+#, fuzzy
+msgid "Praha 20"
+msgstr "Prahova"
+
+#. Name for CZ-121
+#, fuzzy
+msgid "Praha 21"
+msgstr "Prahova"
+
+#. Name for CZ-122
+#, fuzzy
+msgid "Praha 22"
+msgstr "Prahova"
+
+#. Name for CZ-20
+msgid "Středočeský kraj"
+msgstr "Středočeský kraj"
 
 #. Name for CZ-201
 #, fuzzy
@@ -3630,12 +3675,12 @@ msgstr "Namur"
 
 #. Name for CZ-209
 #, fuzzy
-msgid "Praha východ"
+msgid "Praha-východ"
 msgstr "Prahova"
 
 #. Name for CZ-20A
 #, fuzzy
-msgid "Praha západ"
+msgid "Praha-západ"
 msgstr "Prahova"
 
 #. Name for CZ-20B
@@ -3646,6 +3691,10 @@ msgstr ""
 #, fuzzy
 msgid "Rakovník"
 msgstr "Reykjavik"
+
+#. Name for CZ-31
+msgid "Jihočeský kraj"
+msgstr "Jihočeský kraj"
 
 #. Name for CZ-311
 msgid "České Budějovice"
@@ -3677,6 +3726,10 @@ msgstr "Strabane"
 msgid "Tábor"
 msgstr "Tabor"
 
+#. Name for CZ-32
+msgid "Plzeňský kraj"
+msgstr "Plzeňský kraj"
+
 #. Name for CZ-321
 #, fuzzy
 msgid "Domažlice"
@@ -3688,16 +3741,16 @@ msgid "Klatovy"
 msgstr "Prato"
 
 #. Name for CZ-323
-msgid "Plzeň město"
+msgid "Plzeň-město"
 msgstr ""
 
 #. Name for CZ-324
 #, fuzzy
-msgid "Plzeň jih"
+msgid "Plzeň-jih"
 msgstr "Plzeňský kraj"
 
 #. Name for CZ-325
-msgid "Plzeň sever"
+msgid "Plzeň-sever"
 msgstr ""
 
 #. Name for CZ-326
@@ -3709,6 +3762,10 @@ msgstr "Goycay"
 #, fuzzy
 msgid "Tachov"
 msgstr "Tahoua"
+
+#. Name for CZ-41
+msgid "Karlovarský kraj"
+msgstr "Karlovarský kraj"
 
 #. Name for CZ-411
 #, fuzzy
@@ -3724,6 +3781,10 @@ msgstr "Kara"
 #, fuzzy
 msgid "Sokolov"
 msgstr "Sokoto"
+
+#. Name for CZ-42
+msgid "Ústecký kraj"
+msgstr "Ústecký kraj"
 
 #. Name for CZ-421
 msgid "Děčín"
@@ -3757,6 +3818,10 @@ msgstr "Tolima"
 msgid "Ústí nad Labem"
 msgstr ""
 
+#. Name for CZ-51
+msgid "Liberecký kraj"
+msgstr "Liberecký kraj"
+
 #. Name for CZ-511
 msgid "Česká Lípa"
 msgstr ""
@@ -3774,6 +3839,10 @@ msgstr "Liege"
 #, fuzzy
 msgid "Semily"
 msgstr "Saaremsa"
+
+#. Name for CZ-52
+msgid "Královéhradecký kraj"
+msgstr "Královéhradecký kraj"
 
 #. Name for CZ-521
 msgid "Hradec Králové"
@@ -3797,6 +3866,10 @@ msgstr ""
 msgid "Trutnov"
 msgstr "Tutong"
 
+#. Name for CZ-53
+msgid "Pardubický kraj"
+msgstr "Pardubický kraj"
+
 #. Name for CZ-531
 #, fuzzy
 msgid "Chrudim"
@@ -3815,60 +3888,74 @@ msgstr ""
 msgid "Ústí nad Orlicí"
 msgstr ""
 
-#. Name for CZ-611
+#. Name for CZ-63
+#, fuzzy
+#| msgid "Vysočina"
+msgid "Kraj Vysočina"
+msgstr "Vysočina"
+
+#. Name for CZ-631
 msgid "Havlíčkův Brod"
 msgstr ""
 
-#. Name for CZ-612
+#. Name for CZ-632
 #, fuzzy
 msgid "Jihlava"
 msgstr "Jelgava"
 
-#. Name for CZ-613
+#. Name for CZ-633
 msgid "Pelhřimov"
 msgstr ""
 
-#. Name for CZ-614
+#. Name for CZ-634
 msgid "Třebíč"
 msgstr ""
 
-#. Name for CZ-615
-msgid "Žd’ár nad Sázavou"
+#. Name for CZ-635
+msgid "Žďár nad Sázavou"
 msgstr ""
 
-#. Name for CZ-621
+#. Name for CZ-64
+msgid "Jihomoravský kraj"
+msgstr "Jihomoravský kraj"
+
+#. Name for CZ-641
 #, fuzzy
 msgid "Blansko"
 msgstr "Bolzano"
 
-#. Name for CZ-622
+#. Name for CZ-642
 msgid "Brno-město"
 msgstr ""
 
-#. Name for CZ-623
+#. Name for CZ-643
 #, fuzzy
 msgid "Brno-venkov"
 msgstr "Benevento"
 
-#. Name for CZ-624
+#. Name for CZ-644
 #, fuzzy
 msgid "Břeclav"
 msgstr "Beyla"
 
-#. Name for CZ-625
+#. Name for CZ-645
 #, fuzzy
 msgid "Hodonín"
 msgstr "Holgun"
 
-#. Name for CZ-626
+#. Name for CZ-646
 #, fuzzy
 msgid "Vyškov"
 msgstr "Krsko"
 
-#. Name for CZ-627
+#. Name for CZ-647
 #, fuzzy
 msgid "Znojmo"
 msgstr "Zondoma"
+
+#. Name for CZ-71
+msgid "Olomoucký kraj"
+msgstr "Olomoucký kraj"
 
 #. Name for CZ-711
 #, fuzzy
@@ -3882,7 +3969,7 @@ msgstr "Yomou"
 
 #. Name for CZ-713
 #, fuzzy
-msgid "Prostĕjov"
+msgid "Prostějov"
 msgstr "Kisoro"
 
 #. Name for CZ-714
@@ -3895,12 +3982,16 @@ msgstr "Peten"
 msgid "Šumperk"
 msgstr "Sumen"
 
+#. Name for CZ-72
+msgid "Zlínský kraj"
+msgstr "Zlínský kraj"
+
 #. Name for CZ-721
-msgid "Kromĕříž"
+msgid "Kroměříž"
 msgstr ""
 
 #. Name for CZ-722
-msgid "Uherské Hradištĕ"
+msgid "Uherské Hradiště"
 msgstr ""
 
 #. Name for CZ-723
@@ -3912,6 +4003,10 @@ msgstr "Peten"
 #, fuzzy
 msgid "Zlín"
 msgstr "Holgun"
+
+#. Name for CZ-80
+msgid "Moravskoslezský kraj"
+msgstr "Moravskoslezský kraj"
 
 #. Name for CZ-801
 #, fuzzy
@@ -3937,64 +4032,8 @@ msgid "Opava"
 msgstr "Vipava"
 
 #. Name for CZ-806
-msgid "Ostrava město"
+msgid "Ostrava-město"
 msgstr ""
-
-#. Name for CZ-JC
-msgid "Jihočeský kraj"
-msgstr "Jihočeský kraj"
-
-#. Name for CZ-JM
-msgid "Jihomoravský kraj"
-msgstr "Jihomoravský kraj"
-
-#. Name for CZ-KA
-msgid "Karlovarský kraj"
-msgstr "Karlovarský kraj"
-
-#. Name for CZ-KR
-msgid "Královéhradecký kraj"
-msgstr "Královéhradecký kraj"
-
-#. Name for CZ-LI
-msgid "Liberecký kraj"
-msgstr "Liberecký kraj"
-
-#. Name for CZ-MO
-msgid "Moravskoslezský kraj"
-msgstr "Moravskoslezský kraj"
-
-#. Name for CZ-OL
-msgid "Olomoucký kraj"
-msgstr "Olomoucký kraj"
-
-#. Name for CZ-PA
-msgid "Pardubický kraj"
-msgstr "Pardubický kraj"
-
-#. Name for CZ-PL
-msgid "Plzeňský kraj"
-msgstr "Plzeňský kraj"
-
-#. Name for CZ-PR
-msgid "Praha, hlavní město"
-msgstr "Praha, hlavní město"
-
-#. Name for CZ-ST
-msgid "Středočeský kraj"
-msgstr "Středočeský kraj"
-
-#. Name for CZ-US
-msgid "Ústecký kraj"
-msgstr "Ústecký kraj"
-
-#. Name for CZ-VY
-msgid "Vysočina"
-msgstr "Vysočina"
-
-#. Name for CZ-ZL
-msgid "Zlínský kraj"
-msgstr "Zlínský kraj"
 
 #. Name for DE-BB
 msgid "Brandenburg"
