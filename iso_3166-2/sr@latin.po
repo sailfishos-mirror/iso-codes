@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: iso_3166-2\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2016-11-15 21:01+0100\n"
+"POT-Creation-Date: 2016-12-08 12:46+0100\n"
 "PO-Revision-Date: 2015-12-26 22:03+0200\n"
 "Last-Translator: Miroslav Nikolić <miroslavnikolic@rocketmail.com>\n"
 "Language-Team: Serbian <(nothing)>\n"
@@ -5381,6 +5381,10 @@ msgstr ""
 msgid "Woleu-Ntem"
 msgstr ""
 
+#. Name for GB-ABC
+msgid "Armagh, Banbridge and Craigavon"
+msgstr ""
+
 #. Name for GB-ABD
 msgid "Aberdeenshire"
 msgstr "Aberdinšajr"
@@ -5394,24 +5398,22 @@ msgid "Argyll and Bute"
 msgstr "Ardžil i Bjut"
 
 #. Name for GB-AGY
-msgid "Isle of Anglesey;Sir Ynys Môn"
+msgid "Isle of Anglesey; Sir Ynys Môn"
 msgstr ""
+
+#. Name for GB-AND
+msgid "Ards and North Down"
+msgstr ""
+
+#. Name for GB-ANN
+#, fuzzy
+#| msgid "Newtownabbey"
+msgid "Antrim and Newtownabbey"
+msgstr "Njutaunbej"
 
 #. Name for GB-ANS
 msgid "Angus"
 msgstr "Angus"
-
-#. Name for GB-ANT
-msgid "Antrim"
-msgstr "Antrim"
-
-#. Name for GB-ARD
-msgid "Ards"
-msgstr "Ardz"
-
-#. Name for GB-ARM
-msgid "Armagh"
-msgstr "Armag"
 
 #. Name for GB-BAS
 msgid "Bath and North East Somerset"
@@ -5442,7 +5444,9 @@ msgid "Belfast"
 msgstr "Belfast"
 
 #. Name for GB-BGE
-msgid "Bridgend;Pen-y-bont ar Ogwr"
+#, fuzzy
+#| msgid "Bridgend;Pen-y-bont ar Ogwr"
+msgid "Bridgend; Pen-y-bont ar Ogwr"
 msgstr "Bridžend;Pen-i-bon ar Ogur"
 
 #. Name for GB-BGW
@@ -5457,21 +5461,9 @@ msgstr "Birmingem"
 msgid "Buckinghamshire"
 msgstr "Bakingemšajr"
 
-#. Name for GB-BLA
-msgid "Ballymena"
-msgstr "Balimena"
-
-#. Name for GB-BLY
-msgid "Ballymoney"
-msgstr "Balimoni"
-
 #. Name for GB-BMH
 msgid "Bournemouth"
 msgstr "Bornmaut"
-
-#. Name for GB-BNB
-msgid "Banbridge"
-msgstr "Benbridž"
 
 #. Name for GB-BNE
 msgid "Barnet"
@@ -5518,20 +5510,22 @@ msgid "Cambridgeshire"
 msgstr "Kembridžšajr"
 
 #. Name for GB-CAY
-msgid "Caerphilly;Caerffili"
+#, fuzzy
+#| msgid "Caerphilly;Caerffili"
+msgid "Caerphilly; Caerffili"
 msgstr "Kirfil"
 
 #. Name for GB-CBF
 msgid "Central Bedfordshire"
 msgstr "Centralni Bedfordšajr"
 
-#. Name for GB-CGN
-msgid "Ceredigion;Sir Ceredigion"
+#. Name for GB-CCG
+msgid "Causeway Coast and Glens"
 msgstr ""
 
-#. Name for GB-CGV
-msgid "Craigavon"
-msgstr "Krejgavon"
+#. Name for GB-CGN
+msgid "Ceredigion; Sir Ceredigion"
+msgstr ""
 
 #. Name for GB-CHE
 msgid "Cheshire East"
@@ -5541,14 +5535,6 @@ msgstr "Istočni Češajr"
 msgid "Cheshire West and Chester"
 msgstr "Zapadni Češajr i Čester"
 
-#. Name for GB-CKF
-msgid "Carrickfergus"
-msgstr "Karikfergus"
-
-#. Name for GB-CKT
-msgid "Cookstown"
-msgstr "Kukstaun"
-
 #. Name for GB-CLD
 msgid "Calderdale"
 msgstr "Kalderdejl"
@@ -5556,10 +5542,6 @@ msgstr "Kalderdejl"
 #. Name for GB-CLK
 msgid "Clackmannanshire"
 msgstr "Klekmenanšajr"
-
-#. Name for GB-CLR
-msgid "Coleraine"
-msgstr "Kolerejn"
 
 #. Name for GB-CMA
 msgid "Cumbria"
@@ -5570,7 +5552,9 @@ msgid "Camden"
 msgstr "Kamden"
 
 #. Name for GB-CMN
-msgid "Carmarthenshire;Sir Gaerfyrddin"
+#, fuzzy
+#| msgid "Carmarthenshire;Sir Gaerfyrddin"
+msgid "Carmarthenshire; Sir Gaerfyrddin"
 msgstr "Karmartenšajr"
 
 #. Name for GB-CON
@@ -5582,16 +5566,14 @@ msgid "Coventry"
 msgstr "Koventri"
 
 #. Name for GB-CRF
-msgid "Cardiff;Caerdydd"
+#, fuzzy
+#| msgid "Cardiff;Caerdydd"
+msgid "Cardiff; Caerdydd"
 msgstr "Kardif"
 
 #. Name for GB-CRY
 msgid "Croydon"
 msgstr "Krojdon"
-
-#. Name for GB-CSR
-msgid "Castlereagh"
-msgstr "Kastlrig"
 
 #. Name for GB-CWY
 msgid "Conwy"
@@ -5606,7 +5588,9 @@ msgid "Derbyshire"
 msgstr "Derbišajr"
 
 #. Name for GB-DEN
-msgid "Denbighshire;Sir Ddinbych"
+#, fuzzy
+#| msgid "Denbighshire;Sir Ddinbych"
+msgid "Denbighshire; Sir Ddinbych"
 msgstr "Danbigšajr"
 
 #. Name for GB-DER
@@ -5616,10 +5600,6 @@ msgstr "Derbi"
 #. Name for GB-DEV
 msgid "Devon"
 msgstr "Devon"
-
-#. Name for GB-DGN
-msgid "Dungannon and South Tyrone"
-msgstr ""
 
 #. Name for GB-DGY
 msgid "Dumfries and Galloway"
@@ -5637,20 +5617,18 @@ msgstr "Dandi Siti"
 msgid "Dorset"
 msgstr "Dorset"
 
-#. Name for GB-DOW
-msgid "Down"
-msgstr "Daun"
-
-#. Name for GB-DRY
-msgid "Derry"
-msgstr "Deri"
+#. Name for GB-DRS
+#, fuzzy
+#| msgid "Newry and Mourne"
+msgid "Derry and Strabane"
+msgstr "Njuri i Murn"
 
 #. Name for GB-DUD
 msgid "Dudley"
 msgstr "Dadli"
 
 #. Name for GB-DUR
-msgid "Durham, County"
+msgid "Durham County"
 msgstr ""
 
 #. Name for GB-EAL
@@ -5709,17 +5687,21 @@ msgstr "Istočni Saseks"
 msgid "Falkirk"
 msgstr "Felkirk"
 
-#. Name for GB-FER
-msgid "Fermanagh"
-msgstr "Fermanag"
-
 #. Name for GB-FIF
 msgid "Fife"
 msgstr "Fajf"
 
 #. Name for GB-FLN
-msgid "Flintshire;Sir y Fflint"
+#, fuzzy
+#| msgid "Flintshire;Sir y Fflint"
+msgid "Flintshire; Sir y Fflint"
 msgstr "Flintšajr"
+
+#. Name for GB-FMO
+#, fuzzy
+#| msgid "Fermanagh"
+msgid "Fermanagh and Omagh"
+msgstr "Fermanag"
 
 #. Name for GB-GAT
 msgid "Gateshead"
@@ -5797,6 +5779,12 @@ msgstr "Harou"
 msgid "Haringey"
 msgstr "Haringej"
 
+#. Name for GB-IOS
+#, fuzzy
+#| msgid "Isle of Wight"
+msgid "Isles of Scilly"
+msgstr "Ostrvo Vajt"
+
 #. Name for GB-IOW
 msgid "Isle of Wight"
 msgstr "Ostrvo Vajt"
@@ -5837,6 +5825,12 @@ msgstr "Nousli"
 msgid "Lancashire"
 msgstr "Lankašajr"
 
+#. Name for GB-LBC
+#, fuzzy
+#| msgid "Castlereagh"
+msgid "Lisburn and Castlereagh"
+msgstr "Kastlrig"
+
 #. Name for GB-LBH
 msgid "Lambeth"
 msgstr "Lambet"
@@ -5865,21 +5859,9 @@ msgstr "Linkolnšajr"
 msgid "Liverpool"
 msgstr "Liverpul"
 
-#. Name for GB-LMV
-msgid "Limavady"
-msgstr "Limavadi"
-
 #. Name for GB-LND
 msgid "London, City of"
 msgstr "London"
-
-#. Name for GB-LRN
-msgid "Larne"
-msgstr "Lejrn"
-
-#. Name for GB-LSB
-msgid "Lisburn"
-msgstr "Lizburn"
 
 #. Name for GB-LUT
 msgid "Luton"
@@ -5897,8 +5879,8 @@ msgstr "Midlsbrug"
 msgid "Medway"
 msgstr "Medvej"
 
-#. Name for GB-MFT
-msgid "Magherafelt"
+#. Name for GB-MEA
+msgid "Mid and East Antrim"
 msgstr ""
 
 #. Name for GB-MIK
@@ -5910,7 +5892,9 @@ msgid "Midlothian"
 msgstr "Midlotijan"
 
 #. Name for GB-MON
-msgid "Monmouthshire;Sir Fynwy"
+#, fuzzy
+#| msgid "Monmouthshire;Sir Fynwy"
+msgid "Monmouthshire; Sir Fynwy"
 msgstr "Monmautšajr"
 
 #. Name for GB-MRT
@@ -5922,12 +5906,12 @@ msgid "Moray"
 msgstr "Moraj"
 
 #. Name for GB-MTY
-msgid "Merthyr Tydfil;Merthyr Tudful"
+msgid "Merthyr Tydfil; Merthyr Tudful"
 msgstr ""
 
-#. Name for GB-MYL
-msgid "Moyle"
-msgstr "Mojl"
+#. Name for GB-MUL
+msgid "Mid Ulster"
+msgstr ""
 
 #. Name for GB-NAY
 msgid "North Ayrshire"
@@ -5935,10 +5919,6 @@ msgstr "Severni Ejršajr"
 
 #. Name for GB-NBL
 msgid "Northumberland"
-msgstr ""
-
-#. Name for GB-NDN
-msgid "North Down"
 msgstr ""
 
 #. Name for GB-NEL
@@ -5969,20 +5949,22 @@ msgstr "Severni Lanarkšajr"
 msgid "North Lincolnshire"
 msgstr "Severni Linkolnšajr"
 
+#. Name for GB-NMD
+#, fuzzy
+#| msgid "Newry and Mourne"
+msgid "Newry, Mourne and Down"
+msgstr "Njuri i Murn"
+
 #. Name for GB-NSM
 msgid "North Somerset"
 msgstr "Severni Somerset"
-
-#. Name for GB-NTA
-msgid "Newtownabbey"
-msgstr "Njutaunbej"
 
 #. Name for GB-NTH
 msgid "Northamptonshire"
 msgstr "Nordamptonšajr"
 
 #. Name for GB-NTL
-msgid "Neath Port Talbot;Castell-nedd Port Talbot"
+msgid "Neath Port Talbot; Castell-nedd Port Talbot"
 msgstr ""
 
 #. Name for GB-NTT
@@ -5998,24 +5980,18 @@ msgid "Newham"
 msgstr "Njuam"
 
 #. Name for GB-NWP
-msgid "Newport;Casnewydd"
+#, fuzzy
+#| msgid "Newport;Casnewydd"
+msgid "Newport; Casnewydd"
 msgstr "Njuport"
 
 #. Name for GB-NYK
 msgid "North Yorkshire"
 msgstr "Severni Jorkšir"
 
-#. Name for GB-NYM
-msgid "Newry and Mourne"
-msgstr "Njuri i Murn"
-
 #. Name for GB-OLD
 msgid "Oldham"
 msgstr "Oldam"
-
-#. Name for GB-OMH
-msgid "Omagh"
-msgstr "Omag"
 
 #. Name for GB-ORK
 msgid "Orkney Islands"
@@ -6026,7 +6002,7 @@ msgid "Oxfordshire"
 msgstr "Oksfordšajr"
 
 #. Name for GB-PEM
-msgid "Pembrokeshire;Sir Benfro"
+msgid "Pembrokeshire; Sir Benfro"
 msgstr ""
 
 #. Name for GB-PKN
@@ -6062,7 +6038,7 @@ msgid "Rochdale"
 msgstr "Ročdejl"
 
 #. Name for GB-RCT
-msgid "Rhondda, Cynon, Taff;Rhondda, Cynon,Taf"
+msgid "Rhondda, Cynon, Taff; Rhondda, Cynon, Taf"
 msgstr ""
 
 #. Name for GB-RDB
@@ -6167,10 +6143,6 @@ msgstr ""
 msgid "Surrey"
 msgstr ""
 
-#. Name for GB-STB
-msgid "Strabane"
-msgstr ""
-
 #. Name for GB-STE
 msgid "Stoke-on-Trent"
 msgstr "Stok-on-Trent"
@@ -6200,7 +6172,7 @@ msgid "South Tyneside"
 msgstr ""
 
 #. Name for GB-SWA
-msgid "Swansea;Abertawe"
+msgid "Swansea; Abertawe"
 msgstr ""
 
 #. Name for GB-SWD
@@ -6228,7 +6200,7 @@ msgid "Torbay"
 msgstr "Torbaj"
 
 #. Name for GB-TOF
-msgid "Torfaen;Tor-faen"
+msgid "Torfaen; Tor-faen"
 msgstr ""
 
 #. Name for GB-TRF
@@ -6244,7 +6216,7 @@ msgid "United Kingdom"
 msgstr "Velika Britanija"
 
 #. Name for GB-VGL
-msgid "Vale of Glamorgan, The;Bro Morgannwg"
+msgid "Vale of Glamorgan, The; Bro Morgannwg"
 msgstr ""
 
 #. Name for GB-WAR
@@ -6267,6 +6239,12 @@ msgstr "Valtam Forest"
 msgid "Wigan"
 msgstr "Vigan"
 
+#. Name for GB-WIL
+#, fuzzy
+#| msgid "Lincolnshire"
+msgid "Wiltshire"
+msgstr "Linkolnšajr"
+
 #. Name for GB-WKF
 msgid "Wakefield"
 msgstr "Vejkfild"
@@ -6280,8 +6258,8 @@ msgid "West Lothian"
 msgstr "Zapadni Lotjan"
 
 #. Name for GB-WLS
-msgid "Wales"
-msgstr "Vels"
+msgid "Wales; Cymru"
+msgstr ""
 
 #. Name for GB-WLV
 msgid "Wolverhampton"
@@ -6312,7 +6290,7 @@ msgid "Warrington"
 msgstr "Varington"
 
 #. Name for GB-WRX
-msgid "Wrexham;Wrecsam"
+msgid "Wrexham; Wrecsam"
 msgstr ""
 
 #. Name for GB-WSM
