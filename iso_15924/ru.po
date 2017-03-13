@@ -6,7 +6,7 @@
 # Copyright (C)
 #
 # Pavel Maryanov <acid_jack@ukr.net>, 2009.
-# Yuri Kozlov <yuray@komyakino.ru>, 2010, 2011, 2012, 2013.
+# Yuri Kozlov <yuray@komyakino.ru>, 2010, 2011, 2012, 2013, 2017.
 # Pavel Maryanov <acid@jack.kiev.ua>, 2010.
 msgid ""
 msgstr ""
@@ -14,20 +14,21 @@ msgstr ""
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
 "POT-Creation-Date: 2016-03-05 21:58+0100\n"
-"PO-Revision-Date: 2013-12-05 19:26+0400\n"
+"PO-Revision-Date: 2017-03-13 19:04+0300\n"
 "Last-Translator: Yuri Kozlov <yuray@komyakino.ru>\n"
-"Language-Team: Russian <gnu@mx.ru>\n"
+"Language-Team: Russian <gnu@d07.ru>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.4\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"X-Generator: Lokalize 2.0\n"
 "Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. Name for Adlm
 msgid "Adlam"
-msgstr ""
+msgstr "Адламская"
 
 #. Name for Afak
 msgid "Afaka"
@@ -39,17 +40,15 @@ msgstr "Кавказская албанская"
 
 #. Name for Ahom
 msgid "Ahom, Tai Ahom"
-msgstr ""
+msgstr "Ахомская, Тайская ахомская"
 
 #. Name for Arab
 msgid "Arabic"
 msgstr "Арабская"
 
 #. Name for Aran
-#, fuzzy
-#| msgid "Syriac (Eastern variant)"
 msgid "Arabic (Nastaliq variant)"
-msgstr "Восточно-сирийская"
+msgstr "Арабская (вариант насталик)"
 
 #. Name for Armi
 msgid "Imperial Aramaic"
@@ -85,7 +84,7 @@ msgstr "Бенгальская"
 
 #. Name for Bhks
 msgid "Bhaiksuki"
-msgstr ""
+msgstr "Бхайсуки"
 
 #. Name for Blis
 msgid "Blissymbols"
@@ -217,11 +216,11 @@ msgstr "Гурмукхи"
 
 #. Name for Hanb
 msgid "Han with Bopomofo (alias for Han + Bopomofo)"
-msgstr ""
+msgstr "Хан с Бопомофо (псевдоним для Хан + Бопомофо)"
 
 #. Name for Hang
 msgid "Hangul (Hangŭl, Hangeul)"
-msgstr "Хангул"
+msgstr "Хангыль"
 
 #. Name for Hani
 msgid "Han (Hanzi, Kanji, Hanja)"
@@ -276,10 +275,8 @@ msgid "Old Italic (Etruscan, Oscan, etc.)"
 msgstr "Староитальянская (этрусская, оскская и т. д.)"
 
 #. Name for Jamo
-#, fuzzy
-#| msgid "Korean (alias for Hangul + Han)"
 msgid "Jamo (alias for Jamo subset of Hangul)"
-msgstr "Корейская (псевдоним для хангул + хан)"
+msgstr "Ямо (псевдоним для ямо + хангыль)"
 
 #. Name for Java
 msgid "Javanese"
@@ -315,11 +312,11 @@ msgstr "Хойки"
 
 #. Name for Kitl
 msgid "Khitan large script"
-msgstr ""
+msgstr "Большое киданьское письмо"
 
 #. Name for Kits
 msgid "Khitan small script"
-msgstr ""
+msgstr "Малое киданьское письмо"
 
 #. Name for Knda
 msgid "Kannada"
@@ -327,7 +324,7 @@ msgstr "КаннадаKannada"
 
 #. Name for Kore
 msgid "Korean (alias for Hangul + Han)"
-msgstr "Корейская (псевдоним для хангул + хан)"
+msgstr "Корейская (псевдоним для хангыль + хан)"
 
 #. Name for Kpel
 msgid "Kpelle"
@@ -359,7 +356,7 @@ msgstr "Латинская"
 
 #. Name for Leke
 msgid "Leke"
-msgstr ""
+msgstr "Леке"
 
 #. Name for Lepc
 msgid "Lepcha (Róng)"
@@ -406,10 +403,8 @@ msgid "Manichaean"
 msgstr "Манихейская"
 
 #. Name for Marc
-#, fuzzy
-#| msgid "Jurchen"
 msgid "Marchen"
-msgstr "Чжурчжэньская"
+msgstr "Марченский"
 
 #. Name for Maya
 msgid "Mayan hieroglyphs"
@@ -469,7 +464,7 @@ msgstr "Набатейская"
 
 #. Name for Newa
 msgid "Newa, Newar, Newari, Nepāla lipi"
-msgstr ""
+msgstr "Неварский"
 
 #. Name for Nkgb
 msgid "Nakhi Geba ('Na-'Khi ²Ggŏ-¹baw, Naxi Geba)"
@@ -501,7 +496,7 @@ msgstr "Ория"
 
 #. Name for Osge
 msgid "Osage"
-msgstr ""
+msgstr "Оседжи"
 
 #. Name for Osma
 msgid "Osmanya"
@@ -541,7 +536,7 @@ msgstr "Финикийская"
 
 #. Name for Piqd
 msgid "Klingon (KLI pIqaD)"
-msgstr ""
+msgstr "Клингонский"
 
 #. Name for Plrd
 msgid "Miao (Pollard)"
@@ -740,10 +735,8 @@ msgid "Mathematical notation"
 msgstr "Математическая запись"
 
 #. Name for Zsye
-#, fuzzy
-#| msgid "Syriac (Estrangelo variant)"
 msgid "Symbols (Emoji variant)"
-msgstr "Сирийская эстрангело"
+msgstr "Символы (вариант эмодзи)"
 
 #. Name for Zsym
 msgid "Symbols"
