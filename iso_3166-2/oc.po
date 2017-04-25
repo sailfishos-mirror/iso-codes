@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: oc\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2016-12-08 12:46+0100\n"
+"POT-Creation-Date: 2017-04-25 21:36+0200\n"
 "PO-Revision-Date: 2008-11-10 00:51+0100\n"
 "Last-Translator: Yannig Marchegay (Kokoyaya) <yannig@marchegay.org>\n"
 "Language-Team: \n"
@@ -1359,7 +1359,7 @@ msgstr ""
 msgid "Cascades"
 msgstr ""
 
-#. Name for BF-03, Name for CM-CE, Name for FR-F, Name for HT-CE
+#. Name for BF-03, Name for CM-CE, Name for HT-CE
 msgid "Centre"
 msgstr ""
 
@@ -5189,72 +5189,76 @@ msgid "Val-de-Marne"
 msgstr "Val de Marna"
 
 #. Name for FR-95
-msgid "Val d'Oise"
+#, fuzzy
+#| msgid "Val d'Oise"
+msgid "Val-d'Oise"
 msgstr "Val d'Oise"
 
-#. Name for FR-A
-msgid "Alsace"
-msgstr "Alsàcia"
+#. Name for FR-ARA
+#, fuzzy
+#| msgid "Rhône-Alpes"
+msgid "Auvergne-Rhône-Alpes"
+msgstr "Ròse-Aups"
 
-#. Name for FR-B
-msgid "Aquitaine"
-msgstr "Aquitània"
+#. Name for FR-BFC
+#, fuzzy
+#| msgid "Franche-Comté"
+msgid "Bourgogne-Franche-Comté"
+msgstr "Franca Comtat"
 
 #. Name for FR-BL
 msgid "Saint-Barthélemy"
 msgstr ""
 
-#. Name for FR-C
-msgid "Auvergne"
-msgstr "Auvèrnhe"
+#. Name for FR-BRE
+msgid "Bretagne"
+msgstr "Bretanha"
+
+#. Name for FR-COR
+msgid "Corse"
+msgstr "Corsega"
 
 #. Name for FR-CP
 msgid "Clipperton"
 msgstr ""
 
-#. Name for FR-D
-msgid "Bourgogne"
-msgstr "Borgonha"
+#. Name for FR-CVL
+#, fuzzy
+#| msgid "Indre-et-Loire"
+msgid "Centre-Val de Loire"
+msgstr "Indre e Léger"
 
-#. Name for FR-E
-msgid "Bretagne"
-msgstr "Bretanha"
-
-#. Name for FR-G
-msgid "Champagne-Ardenne"
-msgstr "Champanha-Ardena"
+#. Name for FR-GES
+msgid "Grand-Est"
+msgstr ""
 
 #. Name for FR-GF
-msgid "Guyane"
-msgstr "Guaiana"
+msgid "Guyane (française)"
+msgstr ""
 
-#. Name for FR-GP
+#. Name for FR-GP, Name for FR-GUA
 msgid "Guadeloupe"
 msgstr "Guadalope"
 
-#. Name for FR-H
-msgid "Corse"
-msgstr "Corsega"
+#. Name for FR-HDF
+#, fuzzy
+#| msgid "Hauts-de-Seine"
+msgid "Hauts-de-France"
+msgstr "Nauts de Sèina"
 
-#. Name for FR-I
-msgid "Franche-Comté"
-msgstr "Franca Comtat"
-
-#. Name for FR-J
+#. Name for FR-IDF
 msgid "Île-de-France"
 msgstr "Illa de França"
 
-#. Name for FR-K
-msgid "Languedoc-Roussillon"
-msgstr "Lengadòc-Rosselhon"
+#. Name for FR-LRE, Name for FR-RE
+#, fuzzy
+#| msgid "Réunion"
+msgid "La Réunion"
+msgstr "Reünion"
 
-#. Name for FR-L
-msgid "Limousin"
-msgstr "Lemosin"
-
-#. Name for FR-M
-msgid "Lorraine"
-msgstr "Lorena"
+#. Name for FR-MAY, Name for FR-YT
+msgid "Mayotte"
+msgstr ""
 
 #. Name for FR-MF
 msgid "Saint-Martin"
@@ -5264,21 +5268,37 @@ msgstr ""
 msgid "Martinique"
 msgstr "Martinica"
 
-#. Name for FR-N
-msgid "Midi-Pyrénées"
-msgstr "Miègjorn-Pirenèus"
+#. Name for FR-NAQ
+#, fuzzy
+#| msgid "Aquitaine"
+msgid "Nouvelle-Aquitaine"
+msgstr "Aquitània"
 
 #. Name for FR-NC
 msgid "Nouvelle-Calédonie"
 msgstr ""
 
-#. Name for FR-O
-msgid "Nord - Pas-de-Calais"
-msgstr "Nòrd-Pas de Calais"
-
-#. Name for FR-P
-msgid "Basse-Normandie"
+#. Name for FR-NOR
+#, fuzzy
+#| msgid "Basse-Normandie"
+msgid "Normandie"
 msgstr "Bassa Normandia"
+
+#. Name for FR-OCC
+msgid "Occitanie"
+msgstr ""
+
+#. Name for FR-PAC
+#, fuzzy
+#| msgid "Provence-Alpes-Côte d'Azur"
+msgid "Provence-Alpes-Côte-d’Azur"
+msgstr "Provença-Aups-Còsta d'Azur"
+
+#. Name for FR-PDL
+#, fuzzy
+#| msgid "Pays de la Loire"
+msgid "Pays-de-la-Loire"
+msgstr "Païses de Léger"
 
 #. Name for FR-PF
 msgid "Polynésie française"
@@ -5288,44 +5308,12 @@ msgstr ""
 msgid "Saint-Pierre-et-Miquelon"
 msgstr ""
 
-#. Name for FR-Q
-msgid "Haute-Normandie"
-msgstr "Nauta Normandia"
-
-#. Name for FR-R
-msgid "Pays de la Loire"
-msgstr "Païses de Léger"
-
-#. Name for FR-RE
-msgid "Réunion"
-msgstr "Reünion"
-
-#. Name for FR-S
-msgid "Picardie"
-msgstr "Picardia"
-
-#. Name for FR-T
-msgid "Poitou-Charentes"
-msgstr "Peitau-Charantas"
-
 #. Name for FR-TF
 msgid "Terres australes françaises"
 msgstr ""
 
-#. Name for FR-U
-msgid "Provence-Alpes-Côte d'Azur"
-msgstr "Provença-Aups-Còsta d'Azur"
-
-#. Name for FR-V
-msgid "Rhône-Alpes"
-msgstr "Ròse-Aups"
-
 #. Name for FR-WF
 msgid "Wallis-et-Futuna"
-msgstr ""
-
-#. Name for FR-YT
-msgid "Mayotte"
 msgstr ""
 
 #. Name for GA-1

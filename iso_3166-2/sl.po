@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: iso_3166-2\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2016-12-08 12:46+0100\n"
+"POT-Creation-Date: 2017-04-25 21:36+0200\n"
 "PO-Revision-Date: 2011-08-14 23:02+0200\n"
 "Last-Translator:  Primož Peterlin <primozz.peterlin@gmail.com>\n"
 "Language-Team: Slovenian <translation-team-sl@lists.sourceforge.net>\n"
@@ -1549,7 +1549,7 @@ msgstr "Boucle du Mouhoun"
 msgid "Cascades"
 msgstr "Cascades"
 
-#. Name for BF-03, Name for CM-CE, Name for FR-F, Name for HT-CE
+#. Name for BF-03, Name for CM-CE, Name for HT-CE
 msgid "Centre"
 msgstr "Centre"
 
@@ -5672,73 +5672,77 @@ msgid "Val-de-Marne"
 msgstr "Val-de-Marne"
 
 #. Name for FR-95
-msgid "Val d'Oise"
+#, fuzzy
+#| msgid "Val d'Oise"
+msgid "Val-d'Oise"
 msgstr "Val d'Oise"
 
-#. Name for FR-A
-msgid "Alsace"
-msgstr "Alzacija"
+#. Name for FR-ARA
+#, fuzzy
+msgid "Auvergne-Rhône-Alpes"
+msgstr "Rhône-Alpes"
 
-#. Name for FR-B
-msgid "Aquitaine"
-msgstr "Aquitaine"
+#. Name for FR-BFC
+#, fuzzy
+#| msgid "Franche-Comté"
+msgid "Bourgogne-Franche-Comté"
+msgstr "Franche-Comté"
 
 #. Name for FR-BL
 msgid "Saint-Barthélemy"
 msgstr "Saint-Barthelemy"
 
-#. Name for FR-C
-msgid "Auvergne"
-msgstr "Auvergne"
+#. Name for FR-BRE
+msgid "Bretagne"
+msgstr "Bretanija"
+
+#. Name for FR-COR
+msgid "Corse"
+msgstr "Korzika"
 
 #. Name for FR-CP
 msgid "Clipperton"
 msgstr "Clipperton"
 
-#. Name for FR-D
-msgid "Bourgogne"
-msgstr "Bourgogne"
-
-#. Name for FR-E
-msgid "Bretagne"
-msgstr "Bretanija"
-
-#. Name for FR-G
+#. Name for FR-CVL
 #, fuzzy
-msgid "Champagne-Ardenne"
-msgstr "Champagne-Ardenne"
+msgid "Centre-Val de Loire"
+msgstr "Bedfordshire"
+
+#. Name for FR-GES
+#, fuzzy
+msgid "Grand-Est"
+msgstr "Nord-Est"
 
 #. Name for FR-GF
-msgid "Guyane"
-msgstr "Gvajana"
+#, fuzzy
+#| msgid "Polynésie française"
+msgid "Guyane (française)"
+msgstr "Francoska polinezija"
 
-#. Name for FR-GP
+#. Name for FR-GP, Name for FR-GUA
 msgid "Guadeloupe"
 msgstr "Guadeloupe"
 
-#. Name for FR-H
-msgid "Corse"
-msgstr "Korzika"
+#. Name for FR-HDF
+#, fuzzy
+#| msgid "Hauts-de-Seine"
+msgid "Hauts-de-France"
+msgstr "Hauts-de-Seine"
 
-#. Name for FR-I
-msgid "Franche-Comté"
-msgstr "Franche-Comté"
-
-#. Name for FR-J
+#. Name for FR-IDF
 msgid "Île-de-France"
 msgstr "Ile-de-France"
 
-#. Name for FR-K
-msgid "Languedoc-Roussillon"
-msgstr "Languedoc-Roussillon"
+#. Name for FR-LRE, Name for FR-RE
+#, fuzzy
+#| msgid "Réunion"
+msgid "La Réunion"
+msgstr "Reunion"
 
-#. Name for FR-L
-msgid "Limousin"
-msgstr "Limousin"
-
-#. Name for FR-M
-msgid "Lorraine"
-msgstr "Lorraine"
+#. Name for FR-MAY, Name for FR-YT
+msgid "Mayotte"
+msgstr "Mayotte"
 
 #. Name for FR-MF
 msgid "Saint-Martin"
@@ -5748,24 +5752,36 @@ msgstr "Saint-Martin"
 msgid "Martinique"
 msgstr "Martinique"
 
-#. Name for FR-N
+#. Name for FR-NAQ
 #, fuzzy
-msgid "Midi-Pyrénées"
-msgstr "Midi-Pyrénées"
+#| msgid "Aquitaine"
+msgid "Nouvelle-Aquitaine"
+msgstr "Aquitaine"
 
 #. Name for FR-NC
 msgid "Nouvelle-Calédonie"
 msgstr "Nova Kaledonija"
 
-#. Name for FR-O
+#. Name for FR-NOR
 #, fuzzy
-msgid "Nord - Pas-de-Calais"
-msgstr "Nord - Pas-de-Calais"
-
-#. Name for FR-P
-#, fuzzy
-msgid "Basse-Normandie"
+msgid "Normandie"
 msgstr "Basse-Normandie"
+
+#. Name for FR-OCC
+#, fuzzy
+#| msgid "Vitanje"
+msgid "Occitanie"
+msgstr "Vitanje"
+
+#. Name for FR-PAC
+#, fuzzy
+msgid "Provence-Alpes-Côte-d’Azur"
+msgstr "Provence-Alpes-Côte d'Azur"
+
+#. Name for FR-PDL
+#, fuzzy
+msgid "Pays-de-la-Loire"
+msgstr "Pays de la Loire"
 
 #. Name for FR-PF
 msgid "Polynésie française"
@@ -5775,50 +5791,14 @@ msgstr "Francoska polinezija"
 msgid "Saint-Pierre-et-Miquelon"
 msgstr "Saint-Pierre-et-Miquelon"
 
-#. Name for FR-Q
-#, fuzzy
-msgid "Haute-Normandie"
-msgstr "Haute-Normandie"
-
-#. Name for FR-R
-#, fuzzy
-msgid "Pays de la Loire"
-msgstr "Pays de la Loire"
-
-#. Name for FR-RE
-msgid "Réunion"
-msgstr "Reunion"
-
-#. Name for FR-S
-msgid "Picardie"
-msgstr "Picardie"
-
-#. Name for FR-T
-msgid "Poitou-Charentes"
-msgstr "Poitou-Charentes"
-
 #. Name for FR-TF
 msgid "Terres australes françaises"
 msgstr "Francoska južna ozemlja"
-
-#. Name for FR-U
-#, fuzzy
-msgid "Provence-Alpes-Côte d'Azur"
-msgstr "Provence-Alpes-Côte d'Azur"
-
-#. Name for FR-V
-#, fuzzy
-msgid "Rhône-Alpes"
-msgstr "Rhône-Alpes"
 
 #. Name for FR-WF
 #, fuzzy
 msgid "Wallis-et-Futuna"
 msgstr "Wallis et Futuna"
-
-#. Name for FR-YT
-msgid "Mayotte"
-msgstr "Mayotte"
 
 #. Name for GA-1
 #, fuzzy

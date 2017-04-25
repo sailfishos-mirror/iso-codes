@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: iso_3166-2\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2016-12-08 12:46+0100\n"
+"POT-Creation-Date: 2017-04-25 21:36+0200\n"
 "PO-Revision-Date: 2013-08-19 14:45+0900\n"
 "Last-Translator: Yasuaki Taniguchi <yasuakit@gmail.com>\n"
 "Language-Team: Japanese <translation-team-ja@lists.sourceforge.net>\n"
@@ -1407,7 +1407,7 @@ msgstr ""
 msgid "Cascades"
 msgstr ""
 
-#. Name for BF-03, Name for CM-CE, Name for FR-F, Name for HT-CE
+#. Name for BF-03, Name for CM-CE, Name for HT-CE
 msgid "Centre"
 msgstr ""
 
@@ -5464,78 +5464,80 @@ msgid "Val-de-Marne"
 msgstr ""
 
 #. Name for FR-95
-msgid "Val d'Oise"
+msgid "Val-d'Oise"
 msgstr ""
 
-# フランス
-# 州または地域圏の名前
-#. Name for FR-A
-msgid "Alsace"
-msgstr "アルザス"
+#. Name for FR-ARA
+#, fuzzy
+#| msgid "Rhône-Alpes"
+msgid "Auvergne-Rhône-Alpes"
+msgstr "ローヌ=アルプ"
 
-#. Name for FR-B
-msgid "Aquitaine"
-msgstr "アキテーヌ"
+#. Name for FR-BFC
+#, fuzzy
+#| msgid "Franche-Comté"
+msgid "Bourgogne-Franche-Comté"
+msgstr "フランシュコンテ"
 
 #. Name for FR-BL
 msgid "Saint-Barthélemy"
 msgstr ""
 
-#. Name for FR-C
-msgid "Auvergne"
-msgstr "オーベルニュ"
+#. Name for FR-BRE
+msgid "Bretagne"
+msgstr "ブルターニュ"
+
+# コルス島またはコルシカ島
+#. Name for FR-COR
+msgid "Corse"
+msgstr "コルス (コルシカ)"
 
 #. Name for FR-CP
 msgid "Clipperton"
 msgstr ""
 
-#. Name for FR-D
-msgid "Bourgogne"
-msgstr "ブルゴーニュ"
+#. Name for FR-CVL
+#, fuzzy
+#| msgid "Central Region"
+msgid "Centre-Val de Loire"
+msgstr "中部"
 
-#. Name for FR-E
-msgid "Bretagne"
-msgstr "ブルターニュ"
+#. Name for FR-GES
+#, fuzzy
+#| msgid "Nord-Est"
+msgid "Grand-Est"
+msgstr "北東県"
 
-#. Name for FR-G
-msgid "Champagne-Ardenne"
-msgstr "シャンパーニュ=アルデンヌ"
-
-# 仏領ギアナ
-# 南米、ブラジルの北
 #. Name for FR-GF
-msgid "Guyane"
-msgstr "ギアナ"
+msgid "Guyane (française)"
+msgstr ""
 
 # カリブ海小アンティル諸島 仏領外地
-#. Name for FR-GP
+#. Name for FR-GP, Name for FR-GUA
 msgid "Guadeloupe"
 msgstr "グアドループ"
 
-# コルス島またはコルシカ島
-#. Name for FR-H
-msgid "Corse"
-msgstr "コルス (コルシカ)"
+#. Name for FR-HDF
+#, fuzzy
+#| msgid "Île-de-France"
+msgid "Hauts-de-France"
+msgstr "イルドフランス"
 
-#. Name for FR-I
-msgid "Franche-Comté"
-msgstr "フランシュコンテ"
-
-#. Name for FR-J
+#. Name for FR-IDF
 msgid "Île-de-France"
 msgstr "イルドフランス"
 
-#. Name for FR-K
-msgid "Languedoc-Roussillon"
-msgstr "ラングドック=ルション"
+# 仏領レユニオン
+# マダガスカルの東にある外地
+#. Name for FR-LRE, Name for FR-RE
+#, fuzzy
+#| msgid "Réunion"
+msgid "La Réunion"
+msgstr "レユニオン"
 
-#. Name for FR-L
-msgid "Limousin"
-msgstr "リムーザン"
-
-#. Name for FR-M
-msgid "Lorraine"
-msgstr "ロレーヌ"
+#. Name for FR-MAY, Name for FR-YT
+msgid "Mayotte"
+msgstr ""
 
 #. Name for FR-MF
 msgid "Saint-Martin"
@@ -5547,21 +5549,37 @@ msgstr ""
 msgid "Martinique"
 msgstr "マルティニーク"
 
-#. Name for FR-N
-msgid "Midi-Pyrénées"
-msgstr "ミディ=ピレネー"
+#. Name for FR-NAQ
+#, fuzzy
+#| msgid "Aquitaine"
+msgid "Nouvelle-Aquitaine"
+msgstr "アキテーヌ"
 
 #. Name for FR-NC
 msgid "Nouvelle-Calédonie"
 msgstr ""
 
-#. Name for FR-O
-msgid "Nord - Pas-de-Calais"
-msgstr "ノール=パドカレー"
-
-#. Name for FR-P
-msgid "Basse-Normandie"
+#. Name for FR-NOR
+#, fuzzy
+#| msgid "Basse-Normandie"
+msgid "Normandie"
 msgstr "バスノルマンディー"
+
+#. Name for FR-OCC
+msgid "Occitanie"
+msgstr ""
+
+#. Name for FR-PAC
+#, fuzzy
+#| msgid "Provence-Alpes-Côte d'Azur"
+msgid "Provence-Alpes-Côte-d’Azur"
+msgstr "プロヴァンス=アルプ=コートダジュール"
+
+#. Name for FR-PDL
+#, fuzzy
+#| msgid "Pays de la Loire"
+msgid "Pays-de-la-Loire"
+msgstr "ペイドラロワール"
 
 #. Name for FR-PF
 msgid "Polynésie française"
@@ -5571,46 +5589,12 @@ msgstr ""
 msgid "Saint-Pierre-et-Miquelon"
 msgstr ""
 
-#. Name for FR-Q
-msgid "Haute-Normandie"
-msgstr "オートノルマンディー"
-
-#. Name for FR-R
-msgid "Pays de la Loire"
-msgstr "ペイドラロワール"
-
-# 仏領レユニオン
-# マダガスカルの東にある外地
-#. Name for FR-RE
-msgid "Réunion"
-msgstr "レユニオン"
-
-#. Name for FR-S
-msgid "Picardie"
-msgstr "ピカルディー"
-
-#. Name for FR-T
-msgid "Poitou-Charentes"
-msgstr "ポアトゥーシャラント"
-
 #. Name for FR-TF
 msgid "Terres australes françaises"
 msgstr ""
 
-#. Name for FR-U
-msgid "Provence-Alpes-Côte d'Azur"
-msgstr "プロヴァンス=アルプ=コートダジュール"
-
-#. Name for FR-V
-msgid "Rhône-Alpes"
-msgstr "ローヌ=アルプ"
-
 #. Name for FR-WF
 msgid "Wallis-et-Futuna"
-msgstr ""
-
-#. Name for FR-YT
-msgid "Mayotte"
 msgstr ""
 
 # ガボン

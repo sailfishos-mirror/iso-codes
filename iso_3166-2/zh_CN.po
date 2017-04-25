@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: iso_3166-2\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2016-12-08 12:46+0100\n"
+"POT-Creation-Date: 2017-04-25 21:36+0200\n"
 "PO-Revision-Date: 2009-06-27 18:21+0800\n"
 "Last-Translator: LI Daobing <lidaobing@gmail.com>\n"
 "Language-Team: Chinese (simplified) <translation-team-zh-cn@lists."
@@ -1451,7 +1451,7 @@ msgstr ""
 msgid "Cascades"
 msgstr "卡萨纳雷"
 
-#. Name for BF-03, Name for CM-CE, Name for FR-F, Name for HT-CE
+#. Name for BF-03, Name for CM-CE, Name for HT-CE
 msgid "Centre"
 msgstr "中部"
 
@@ -5502,74 +5502,81 @@ msgid "Val-de-Marne"
 msgstr "瓦勒德马恩省"
 
 #. Name for FR-95
-msgid "Val d'Oise"
+#, fuzzy
+#| msgid "Val d'Oise"
+msgid "Val-d'Oise"
 msgstr "瓦勒德瓦兹省"
 
-#. Name for FR-A
-msgid "Alsace"
-msgstr "阿尔萨斯"
+#. Name for FR-ARA
+#, fuzzy
+#| msgid "Rhône-Alpes"
+msgid "Auvergne-Rhône-Alpes"
+msgstr "罗纳-阿尔卑斯"
 
-#. Name for FR-B
-msgid "Aquitaine"
-msgstr "阿基坦"
+#. Name for FR-BFC
+#, fuzzy
+#| msgid "Franche-Comté"
+msgid "Bourgogne-Franche-Comté"
+msgstr "弗朗什孔泰"
 
 #. Name for FR-BL
 #, fuzzy
 msgid "Saint-Barthélemy"
 msgstr "圣塔伦"
 
-#. Name for FR-C
-msgid "Auvergne"
-msgstr "奥弗涅"
+#. Name for FR-BRE
+msgid "Bretagne"
+msgstr "布列塔尼"
+
+#. Name for FR-COR
+msgid "Corse"
+msgstr "科西嘉"
 
 #. Name for FR-CP
 #, fuzzy
 msgid "Clipperton"
 msgstr "莫顿市"
 
-#. Name for FR-D
-msgid "Bourgogne"
-msgstr "勃艮第"
+#. Name for FR-CVL
+#, fuzzy
+msgid "Centre-Val de Loire"
+msgstr "贝德福德郡"
 
-#. Name for FR-E
-msgid "Bretagne"
-msgstr "布列塔尼"
-
-#. Name for FR-G
-msgid "Champagne-Ardenne"
-msgstr "香槟-阿登"
+#. Name for FR-GES
+#, fuzzy
+#| msgid "Nord-Est"
+msgid "Grand-Est"
+msgstr "东北区"
 
 #. Name for FR-GF
-msgid "Guyane"
-msgstr "法属圭亚那"
+#, fuzzy
+#| msgid "Polynésie française"
+msgid "Guyane (française)"
+msgstr "法属玻里尼西亚"
 
-#. Name for FR-GP
+#. Name for FR-GP, Name for FR-GUA
 msgid "Guadeloupe"
 msgstr "瓜德罗普"
 
-#. Name for FR-H
-msgid "Corse"
-msgstr "科西嘉"
+#. Name for FR-HDF
+#, fuzzy
+#| msgid "Hauts-de-Seine"
+msgid "Hauts-de-France"
+msgstr "上塞纳省"
 
-#. Name for FR-I
-msgid "Franche-Comté"
-msgstr "弗朗什孔泰"
-
-#. Name for FR-J
+#. Name for FR-IDF
 msgid "Île-de-France"
 msgstr "法兰西岛"
 
-#. Name for FR-K
-msgid "Languedoc-Roussillon"
-msgstr "朗格多克-鲁西永"
+#. Name for FR-LRE, Name for FR-RE
+#, fuzzy
+#| msgid "Réunion"
+msgid "La Réunion"
+msgstr "留尼汪"
 
-#. Name for FR-L
-msgid "Limousin"
-msgstr "利穆赞"
-
-#. Name for FR-M
-msgid "Lorraine"
-msgstr "洛林"
+#. Name for FR-MAY, Name for FR-YT
+msgid "Mayotte"
+msgstr "马约特"
 
 #. Name for FR-MF
 #, fuzzy
@@ -5580,21 +5587,39 @@ msgstr "圣马丁区域"
 msgid "Martinique"
 msgstr "马提尼克"
 
-#. Name for FR-N
-msgid "Midi-Pyrénées"
-msgstr "中比利牛斯"
+#. Name for FR-NAQ
+#, fuzzy
+#| msgid "Aquitaine"
+msgid "Nouvelle-Aquitaine"
+msgstr "阿基坦"
 
 #. Name for FR-NC
 msgid "Nouvelle-Calédonie"
 msgstr "新喀里多尼亚"
 
-#. Name for FR-O
-msgid "Nord - Pas-de-Calais"
-msgstr "北部加来海峡"
-
-#. Name for FR-P
-msgid "Basse-Normandie"
+#. Name for FR-NOR
+#, fuzzy
+#| msgid "Basse-Normandie"
+msgid "Normandie"
 msgstr "下诺曼底"
+
+#. Name for FR-OCC
+#, fuzzy
+#| msgid "Vitanje"
+msgid "Occitanie"
+msgstr "维塔涅"
+
+#. Name for FR-PAC
+#, fuzzy
+#| msgid "Provence-Alpes-Côte d'Azur"
+msgid "Provence-Alpes-Côte-d’Azur"
+msgstr "普罗旺斯-阿尔卑斯-蓝色海岸"
+
+#. Name for FR-PDL
+#, fuzzy
+#| msgid "Pays de la Loire"
+msgid "Pays-de-la-Loire"
+msgstr "卢瓦尔"
 
 #. Name for FR-PF
 msgid "Polynésie française"
@@ -5604,46 +5629,14 @@ msgstr "法属玻里尼西亚"
 msgid "Saint-Pierre-et-Miquelon"
 msgstr "圣皮埃尔和密克隆群岛"
 
-#. Name for FR-Q
-msgid "Haute-Normandie"
-msgstr "上诺曼底"
-
-#. Name for FR-R
-msgid "Pays de la Loire"
-msgstr "卢瓦尔"
-
-#. Name for FR-RE
-msgid "Réunion"
-msgstr "留尼汪"
-
-#. Name for FR-S
-msgid "Picardie"
-msgstr "皮卡第"
-
-#. Name for FR-T
-msgid "Poitou-Charentes"
-msgstr "普瓦图-夏朗德"
-
 #. Name for FR-TF
 msgid "Terres australes françaises"
 msgstr "法属南部领地"
-
-#. Name for FR-U
-msgid "Provence-Alpes-Côte d'Azur"
-msgstr "普罗旺斯-阿尔卑斯-蓝色海岸"
-
-#. Name for FR-V
-msgid "Rhône-Alpes"
-msgstr "罗纳-阿尔卑斯"
 
 #. Name for FR-WF
 #, fuzzy
 msgid "Wallis-et-Futuna"
 msgstr "瓦利斯及富图纳群岛"
-
-#. Name for FR-YT
-msgid "Mayotte"
-msgstr "马约特"
 
 #. Name for GA-1
 msgid "Estuaire"
