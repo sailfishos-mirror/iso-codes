@@ -2,7 +2,7 @@
 # Copyright (C) 2014 iso-codes og nedenstående oversættere.
 # This file is distributed under the same license as the iso-codes package.
 # Computeroversættelse Tobias Toedter <t.toedter@gmx.net>, 2007.
-# Joe Hansen <joedalton2@yahoo.dk>, 2009, 2010, 2011, 2012, 2014.
+# Joe Hansen <joedalton2@yahoo.dk>, 2009, 2010, 2011, 2012, 2014, 2017.
 #
 # Vedrørende stort begyndelsesbogstav: På engelsk er de her ord med stort,
 # det er de ikke på dansk. Sproget kan bruges inde i sætninger og de
@@ -28,17 +28,18 @@ msgstr ""
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
 "POT-Creation-Date: 2016-03-05 21:58+0100\n"
-"PO-Revision-Date: 2014-05-24 18:07+0200\n"
+"PO-Revision-Date: 2017-07-09 18:07+0200\n"
 "Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
 
 #. Name for Adlm
 msgid "Adlam"
-msgstr ""
+msgstr "adlam"
 
 # http://en.wikipedia.org/wiki/Afaka_script
 #. Name for Afak
@@ -51,17 +52,15 @@ msgstr "kaukasisk albansk"
 
 #. Name for Ahom
 msgid "Ahom, Tai Ahom"
-msgstr ""
+msgstr "ahom, tai ahom"
 
 #. Name for Arab
 msgid "Arabic"
 msgstr "arabisk"
 
 #. Name for Aran
-#, fuzzy
-#| msgid "Syriac (Eastern variant)"
 msgid "Arabic (Nastaliq variant)"
-msgstr "syrisk (østlig variant)"
+msgstr "arabisk (nastaliq variant)"
 
 #. Name for Armi
 msgid "Imperial Aramaic"
@@ -100,7 +99,7 @@ msgstr "bengalesisk"
 
 #. Name for Bhks
 msgid "Bhaiksuki"
-msgstr ""
+msgstr "bhaiksuki"
 
 #. Name for Blis
 msgid "Blissymbols"
@@ -253,7 +252,7 @@ msgstr "gurmukhi"
 
 #. Name for Hanb
 msgid "Han with Bopomofo (alias for Han + Bopomofo)"
-msgstr ""
+msgstr "han med bopomofo (alias for han + bopomofo)"
 
 #. Name for Hang
 msgid "Hangul (Hangŭl, Hangeul)"
@@ -318,10 +317,8 @@ msgid "Old Italic (Etruscan, Oscan, etc.)"
 msgstr "olditaliensk (etruskisk, oskansk etc.)"
 
 #. Name for Jamo
-#, fuzzy
-#| msgid "Korean (alias for Hangul + Han)"
 msgid "Jamo (alias for Jamo subset of Hangul)"
-msgstr "koreansk (alias for hangul + han)"
+msgstr "jamo (alias for jamoundersættet af hangul)"
 
 #. Name for Java
 msgid "Javanese"
@@ -357,13 +354,14 @@ msgstr "khmerisk"
 msgid "Khojki"
 msgstr "khojki"
 
+# https://da.wikipedia.org/wiki/Khitan (kun på norsk)
 #. Name for Kitl
 msgid "Khitan large script"
-msgstr ""
+msgstr "khitansk stor skrift"
 
 #. Name for Kits
 msgid "Khitan small script"
-msgstr ""
+msgstr "khitansk lille skrift"
 
 #. Name for Knda
 msgid "Kannada"
@@ -409,7 +407,7 @@ msgstr "latinsk"
 
 #. Name for Leke
 msgid "Leke"
-msgstr ""
+msgstr "leke"
 
 #. Name for Lepc
 msgid "Lepcha (Róng)"
@@ -456,12 +454,9 @@ msgstr "mandaisk, mandaeansk"
 msgid "Manichaean"
 msgstr "manichaeansk"
 
-# http://en.wikipedia.org/wiki/Jurchen_script
 #. Name for Marc
-#, fuzzy
-#| msgid "Jurchen"
 msgid "Marchen"
-msgstr "jurchen"
+msgstr "marchen"
 
 #. Name for Maya
 msgid "Mayan hieroglyphs"
@@ -525,7 +520,7 @@ msgstr "nabateisk"
 
 #. Name for Newa
 msgid "Newa, Newar, Newari, Nepāla lipi"
-msgstr ""
+msgstr "newa, newar, newari, nepāla lipi"
 
 #. Name for Nkgb
 msgid "Nakhi Geba ('Na-'Khi ²Ggŏ-¹baw, Naxi Geba)"
@@ -560,7 +555,7 @@ msgstr "oriya"
 
 #. Name for Osge
 msgid "Osage"
-msgstr ""
+msgstr "osage"
 
 #. Name for Osma
 msgid "Osmanya"
@@ -601,7 +596,7 @@ msgstr "fønikisk"
 
 #. Name for Piqd
 msgid "Klingon (KLI pIqaD)"
-msgstr ""
+msgstr "klingon (KLI pIqaD)"
 
 #. Name for Plrd
 msgid "Miao (Pollard)"
@@ -803,10 +798,8 @@ msgid "Mathematical notation"
 msgstr "matematisk notation"
 
 #. Name for Zsye
-#, fuzzy
-#| msgid "Syriac (Estrangelo variant)"
 msgid "Symbols (Emoji variant)"
-msgstr "syrisk (estrangelovariant)"
+msgstr "symboler (emoji-variant)"
 
 #. Name for Zsym
 msgid "Symbols"
