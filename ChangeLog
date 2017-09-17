@@ -2,6 +2,11 @@ iso-codes 3.76
 --------------
 UNRELEASED
 
+  [ ISO 3166-3 ]
+  * Add alpha_2 codes to ISO 3166-3.
+    Thanks to Adrian Mönnich for the suggestion. Closes: alioth#315741
+  * Correct numeric code for Netherlands Antilles (ANHH) from 532 to 530.
+
   [ ISO 3166-1 translations ]
   * French by Alban Vidal
   * Japanese by Yasuaki Taniguchi (TP)
