@@ -1191,6 +1191,13 @@ Tue, 1 May 2012
       Closes: alioth#313599
     - correct code for "São Lourenço dos Órgãos".
       Closes: alioth#313598
+    - ensure uniqueness of entries. Closes: #649581, alioth#313628
+      * CV-SL now uniquely identifies “Sal” the municipality;
+        CV-SO is the new code for “São Lourenço dos Órgãos” the municipality.
+      * ID-MA now uniquely identifies “Maluku” the province;
+        ID-ML is the new code for “Maluku” the geographical unit.
+      * IE-C now uniquely identifies “Connaught” the province;
+        IE-CO is the new code for “Cork” the county.
     - Thanks to Daniel Atallah for pointing this.
     - many other changes to many other countries...:-)
 
