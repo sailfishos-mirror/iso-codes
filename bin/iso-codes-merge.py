@@ -106,6 +106,8 @@ class Isocodes(object):
             domain = "iso_3166"
         if domain == "iso_639_2":
             domain = "iso_639"
+        if domain == "iso_639_5":
+            domain = "iso_639-5"
         return "http://translationproject.org/latest/%s/%s.po" % (domain, lang)
 
     def _msgfmt(self, fname):
