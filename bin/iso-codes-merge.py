@@ -100,14 +100,6 @@ class Isocodes(object):
         self.tmpfiles = []
 
     def _getUrl(self, domain, lang):
-        # Convert domains to old style for downloading
-        domain = domain.replace("-", "_")
-        if domain == "iso_3166_1":
-            domain = "iso_3166"
-        if domain == "iso_639_2":
-            domain = "iso_639"
-        if domain == "iso_639_5":
-            domain = "iso_639-5"
         return "http://translationproject.org/latest/%s/%s.po" % (domain, lang)
 
     def _msgfmt(self, fname):
