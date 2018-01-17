@@ -1,20 +1,203 @@
-iso-codes 3.78
---------------
+# iso-codes 3.78
 UNRELEASED
 
-  [ ISO 3166-1 translations ]
-  * Swedish by Mick Ohrberg (TP)
-
-  [ ISO 4217 translations ]
+* Update all .pot and .po files with new URL for msgid bugs
+* Exclude some unneeded files from git archive tarball creation
+* Add bootstrap script to EXTRA_DIST
+* Fix copyright headers in .po files
+* Update docs for move from TP to Weblate and Alioth to Salsa
+* Remove old script with l10n status
+* Remove obsolete git documentation
+* Fix some errors in .po files, spotted by Weblate
+  * Remove trailing semicolon
+  * Use 'fuzzy' flag instead of trailing question mark
+  * Remove trailing colon
+  * Remove wrong ending space
+  * Remove wrong starting space
+* ISO 3166-1 translations
+  * Abkhazian by Chris Leonard
+  * Acehnese by Chris Leonard
+  * Acholi by Chris Leonard
+  * Afrikaans by Chris Leonard, anonymous
+  * Akan by Chris Leonard
+  * Albanian by Chris Leonard
+  * Amharic by Chris Leonard
+  * Aragonese by Chris Leonard
+  * Aymará by Chris Leonard
+  * Azerbaijani by Chris Leonard
+  * Bashkir by Chris Leonard
+  * Basque by Chris Leonard
+  * Bavarian by Chris Leonard
+  * Belarusian by Chris Leonard, Viktar Vauchkevich
+  * Bislama by Chris Leonard
+  * Bosnian by Chris Leonard
+  * Breton by Chris Leonard
+  * Burmese by Chris Leonard
+  * Catalan by Chris Leonard
+  * Chamorro by Chris Leonard
+  * Chechen by Chris Leonard
+  * Cherokee by Chris Leonard
+  * Chinese (Traditional) by ezjerry liao
+  * Chuvash by Chris Leonard
+  * Cornish by Chris Leonard
+  * Crimean Tatar by Chris Leonard
+  * Danish by Chris Leonard
+  * Dhivehi by Chris Leonard
+  * Estonian by Chris Leonard, Kristjan Räts
+  * Ewe by Chris Leonard
+  * Finnish by Chris Leonard
+  * Franco-Provençal by Chris Leonard
+  * French by Alban Vidal
+  * Frisian by Chris Leonard
+  * Friulian by Chris Leonard
+  * Fulah by Chris Leonard
+  * Galician by Chris Leonard
+  * Gikuyu by Chris Leonard
+  * Greek by Chris Leonard, Vangelis Skarmoutsos
+  * Greenlandic by Chris Leonard
+  * Guarani by Chris Leonard
+  * Haitian by Chris Leonard
+  * Hausa by Chris Leonard
+  * Hawaiian by Chris Leonard
+  * Hungarian by Balázs Úr, Chris Leonard
+  * Ido by Chris Leonard
+  * Interlingua by Chris Leonard
+  * Inuktitut by Chris Leonard
+  * Irish by Chris Leonard
+  * Jamaican Patois by Chris Leonard
+  * Kabyle by Chris Leonard
+  * Kashubian by Chris Leonard
+  * Kinyarwanda by Chris Leonard
+  * Komi by Chris Leonard
+  * Korean by Changwoo Ryu, Chris Leonard
+  * Kyrgyz by Chris Leonard
+  * Lao by Chris Leonard
+  * Latvian by Chris Leonard
+  * Lithuanian by Chris Leonard
+  * Maithili by Chris Leonard
+  * Malay by Chris Leonard
+  * Maltese by Chris Leonard
+  * Manx by Chris Leonard
+  * Maori by Chris Leonard
+  * Meadow Mari by Chris Leonard
+  * Moldovan by Chris Leonard
+  * Mongolian by Chris Leonard
+  * Nahuatl languages by Chris Leonard
+  * Nauru by Chris Leonard
+  * Navaho by Chris Leonard
+  * Norwegian Bokmål by Allan Nordhøy
+  * Norwegian Nynorsk by Chris Leonard
+  * Occitan by Chris Leonard
+  * Pali by Chris Leonard
+  * Papiamento by Chris Leonard
+  * Portuguese by Chris Leonard
+  * Pushto by Chris Leonard
+  * Romanian by Chris Leonard
+  * Sardinian by Chris Leonard
+  * Serbian (latin) by Chris Leonard
+  * Sindhi by Chris Leonard
+  * Slovenian by Chris Leonard
+  * Somali by Chris Leonard
+  * Songhai languages by Chris Leonard
+  * Sorani by Chris Leonard
+  * Spanish by Chris Leonard
+  * Swahili by Chris Leonard
+  * Swedish by Anders Jonsson, Chris Leonard, Mick Ohrberg (TP)
+  * Tagalog by Chris Leonard
+  * Tigrinya by Chris Leonard
+  * Turkmen by Chris Leonard
+  * Ukrainian by Yuri Chornoivan
+  * Urdu by Chris Leonard, Saqib Razzaq
+  * Uzbek by Chris Leonard
+  * Venda by Chris Leonard
+  * Welsh by Chris Leonard
+  * Wolof by Chris Leonard
+  * Yoruba by Chris Leonard
+  * Zulu by Chris Leonard
+* ISO 3166-2 translations
+  * Belarusian by Chris Leonard, Viktar Vauchkevich
+  * Chinese (Traditional) by ezjerry liao
+  * Crimean Tatar by Chris Leonard
+  * Dutch by Freek de Kruijf
+  * Estonian by Kristjan Räts
+  * French by Alban Vidal
+  * Greek by Vangelis Skarmoutsos
+  * Hungarian by Balázs Úr
+  * Italian by Matteo Gheza
+  * Korean by Changwoo Ryu
+  * Occitan by Chris Leonard
+  * Romanian by Chris Leonard
+  * Spanish by Adolfo Jayme Barrientos
+  * Ukrainian by Yuri Chornoivan
+* ISO 3166-3 translations
+  * Estonian by Kristjan Räts
+  * French by Alban Vidal
+  * Greek by Vangelis Skarmoutsos
+  * Hungarian by Balázs Úr
+  * Norwegian Bokmål by Allan Nordhøy
+  * Spanish by Adolfo Jayme Barrientos
+* ISO 639-2 translations
+  * Afrikaans by Chris Leonard
+  * Amharic by Chris Leonard
+  * Basque by Mikel Olasagasti
+  * Belarusian by Viktar Vauchkevich
+  * Chinese (Traditional) by ezjerry liao
+  * Dutch by Freek de Kruijf
+  * Estonian by Kristjan Räts
+  * French by Alban Vidal
+  * German by Franz Wagner, Markus Enzenberger
+  * Greek by Vangelis Skarmoutsos
+  * Hungarian by Balázs Meskó, Balázs Úr
+  * Korean by Changwoo Ryu
+  * Spanish by Adolfo Jayme-Barrientos
+  * Swedish by Anders Jonsson (TP)
+  * Ukrainian by Yuri Chornoivan
+* ISO 639-3 translations
+  * Afrikaans by Chris Leonard
+  * Amharic by Chris Leonard
+  * Basque by Mikel Olasagasti
+  * Chinese (Traditional) by Chang-Chia Tseng, ezjerry liao
+  * Dutch by Freek de Kruijf
+  * Estonian by Kristjan Räts
+  * French by Alban Vidal
+  * Greek by Vangelis Skarmoutsos
+  * Hungarian by Balázs Úr
+  * Korean by Changwoo Ryu
+  * Maltese by Chris Leonard
+  * Norwegian Bokmål by Allan Nordhøy
+  * Pushto by Chris Leonard
+  * Spanish by Adolfo Jayme-Barrientos
+  * Tamil by Naveen Rajan
+  * Tigrinya by Chris Leonard
+  * Ukrainian by Yuri Chornoivan
+  * Zulu by Chris Leonard
+* ISO 639-5 translations
+  * Belarusian by Viktar Vauchkevich
+  * Dutch by Freek de Kruijf
+  * Estonian by Kristjan Räts
+  * French by Alban Vidal
+  * German by Markus Enzenberger
+  * Hungarian by Balázs Meskó, Balázs Úr
+  * Swedish by Anders Jonsson (TP)
+  * Ukrainian by Yuri Chornoivan
+* ISO 4217 translations
+  * Belarusian by Viktar Vauchkevich
   * Catalan by Toni Hermoso Pulido (TP)
-
-  [ ISO 639-2 translations ]
-  * Swedish by Anders Jonsson (TP)
-  * Hungarian by Balázs Úr (TP)
-
-  [ ISO 639-5 translations ]
-  * Swedish by Anders Jonsson (TP)
-  * Hungarian by Balázs Úr (TP)
+  * Chinese (Traditional) by ezjerry liao
+  * Dutch by Freek de Kruijf
+  * Estonian by Kristjan Räts
+  * French by Alban Vidal
+  * Greek by Vangelis Skarmoutsos
+  * Hungarian by Balázs Meskó, Balázs Úr
+  * Korean by Changwoo Ryu
+* ISO 15924 translations
+  * Belarusian by Viktar Vauchkevich
+  * Chinese (Traditional) by ezjerry liao
+  * Dutch by Freek de Kruijf
+  * Estonian by Kristjan Räts
+  * Greek by Vangelis Skarmoutsos
+  * Hungarian by Balázs Úr
+  * Spanish by Adolfo Jayme-Barrientos
 
 
 iso-codes 3.77
