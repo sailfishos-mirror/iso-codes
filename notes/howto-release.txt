@@ -6,7 +6,7 @@ in your working copy. The best way to achieve this is to get
 a fresh checkout from the git server.
 $ mkdir release
 $ cd release
-$ git clone ssh://<user>@git.debian.org/git/iso-codes/iso-codes.git
+$ git clone git@salsa.debian.org:iso-codes-team/iso-codes.git
 
 Update the version number in configure.ac, also update the ChangeLog
 with the current release number, your name, and the date.
@@ -27,13 +27,14 @@ $ make update-po
 $ git commit -a -m "Refresh .po files"
 
 Create a tag for the next release.
-Please respect the following release numbering scheme:
+Please respect the following release numbering scheme, which
+adheres to semantic versioning:
 
 - Major version: use this for data organisation changes (like the
-  switch to XML, or incompatible changes in the XML files like the
+  switch to JSON, or incompatible changes in the JSON files like the
   removal of a field)
 - Minor version: use this when one of the ISO lists is updated,
-  for compatible changes to the XML files, like the addition of
+  for compatible changes to the JSON files, like the addition of
   a field, or for translation updates.
 
 $ git tag iso-codes-MAJOR.MINOR
@@ -44,11 +45,7 @@ $ make release
 Use the Makefile target "sign-release" to sign the tarballs.
 $ make sign-release
 
-Upload the tarballs and your signatures to Alioth.
-$ ALIOTH_USERNAME=<yourname> make upload
-
-Please do not remove previous versions from Alioth,
-because they might still be needed by some distributions.
+Upload the tarballs and your signatures to Salsa.
 
 You can now clean up.
 $ cd ..
