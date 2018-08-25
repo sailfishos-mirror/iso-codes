@@ -22,13 +22,6 @@ pot:
 		cd $$domain && make $$domain.pot && cd ..; \
 	done
 
-# Updates all xml files
-.PHONY: xml
-xml:
-	for domain in $(DOMAINS); do \
-		cd $$domain && make $$domain.xml && cd ..; \
-	done
-
 .PHONY: release
 release: update-po check distcheck
 
