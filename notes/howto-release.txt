@@ -37,7 +37,7 @@ adheres to semantic versioning:
   for compatible changes to the JSON files, like the addition of
   a field, or for translation updates.
 
-$ git tag iso-codes-MAJOR.MINOR
+$ git tag -sm "Release MAJOR.MINOR" iso-codes-MAJOR.MINOR
 
 Use the Makefile target "release" for creating checked tarballs.
 $ make release
