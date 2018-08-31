@@ -61,8 +61,6 @@ not as important as the first two.
 
 # NEWS
 
-* The XML files have been removed after having been deprecated for
-  two and a half years. Please use the JSON data files instead.
 * A new ISO standard has been included, ISO 3166-3. The gettext
   domain is called `iso_3166-3`. Basically, this is a split of the
   old domain `iso_3166` into `iso_3166-1` and `iso_3166-3`, because
@@ -76,6 +74,9 @@ not as important as the first two.
   included languages were not part of the standard and have been
   removed. This reduced the number of language families from
   about 1900 to about 110.
+* The XML files are **deprecated** and should not be used for new
+  projects. However, they are kept in sync with the JSON data
+  for now.
 * The gettext domains have been renamed to better match the
   actual ISO number:
   - ISO 639-2: Renamed from `iso_639` to `iso_639-2`

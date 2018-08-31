@@ -1,6 +1,9 @@
+xmldir = $(datadir)/xml/iso-codes
+nodist_xml_DATA = $(DOMAIN).xml
+
 pofiles = $(wildcard $(srcdir)/*.po)
 mofiles = $(patsubst $(srcdir)/%.po,%.mo, $(pofiles))
-noinst_DATA = $(mofiles)
+noinst_DATA = $(mofiles) $(xml_DATA:.xml=.pot)
 
 localedir = $(datadir)/locale
 
@@ -9,7 +12,8 @@ EXTRA_DIST = \
 	$(DOMAIN).pot
 
 MOSTLYCLEANFILES = \
-	$(mofiles)
+	$(mofiles) \
+	$(DOMAIN).xml
 
 # Generic target to create binary .mo files from .po files
 %.mo: %.po
@@ -27,6 +31,10 @@ $(DOMAIN).pot: $(top_srcdir)/bin/pot_from_json.py $(top_srcdir)/data/$(DOMAIN).j
 	else \
 		rm -f $(DOMAIN).1po $(DOMAIN).2po backup.pot; \
 	fi
+
+# Generic target to create deprecated .xml files from JSON data files
+$(DOMAIN).xml: $(top_srcdir)/bin/xml_from_json.py $(top_srcdir)/data/$(DOMAIN).json
+	python3 $(top_srcdir)/bin/xml_from_json.py $(DOMAIN) $(top_srcdir)/data $@
 
 # Used in the domain subdirectories for checking that
 # all .po files contain UTF-8 data
@@ -80,6 +88,11 @@ install-data-hook: $(mofiles)
 		if [ "$(DOMAIN)" = "iso_3166-1" ]; then (cd $$dir && $(LN_S) $(DOMAIN).mo iso_3166.mo); fi; \
 		if [ "$(DOMAIN)" = "iso_3166-2" ]; then (cd $$dir && $(LN_S) $(DOMAIN).mo iso_3166_2.mo); fi; \
 	done
+	if [ "$(DOMAIN)" = "iso_639-2" ]; then (cd $(DESTDIR)$(xmldir) && $(LN_S) $(DOMAIN).xml iso_639.xml); fi
+	if [ "$(DOMAIN)" = "iso_639-3" ]; then (cd $(DESTDIR)$(xmldir) && $(LN_S) $(DOMAIN).xml iso_639_3.xml); fi
+	if [ "$(DOMAIN)" = "iso_639-5" ]; then (cd $(DESTDIR)$(xmldir) && $(LN_S) $(DOMAIN).xml iso_639_5.xml); fi
+	if [ "$(DOMAIN)" = "iso_3166-1" ]; then (cd $(DESTDIR)$(xmldir) && $(LN_S) $(DOMAIN).xml iso_3166.xml); fi
+	if [ "$(DOMAIN)" = "iso_3166-2" ]; then (cd $(DESTDIR)$(xmldir) && $(LN_S) $(DOMAIN).xml iso_3166_2.xml); fi
 
 uninstall-hook:
 	catalogs='$(mofiles)'; \
@@ -93,3 +106,8 @@ uninstall-hook:
 		if [ "$(DOMAIN)" = "iso_3166-1" ]; then rm -f $(DESTDIR)$(localedir)/$$lang/LC_MESSAGES/iso_3166.mo; fi; \
 		if [ "$(DOMAIN)" = "iso_3166-1" ]; then rm -f $(DESTDIR)$(localedir)/$$lang/LC_MESSAGES/iso_3166_2.mo; fi; \
 	done
+	if [ "$(DOMAIN)" = "iso_639-2" ]; then rm -f $(DESTDIR)$(xmldir)/iso_639.xml; fi
+	if [ "$(DOMAIN)" = "iso_639-3" ]; then rm -f $(DESTDIR)$(xmldir)/iso_639_3.xml; fi
+	if [ "$(DOMAIN)" = "iso_639-5" ]; then rm -f $(DESTDIR)$(xmldir)/iso_639_5.xml; fi
+	if [ "$(DOMAIN)" = "iso_3166-1" ]; then rm -f $(DESTDIR)$(xmldir)/iso_3166.xml; fi
+	if [ "$(DOMAIN)" = "iso_3166-2" ]; then rm -f $(DESTDIR)$(xmldir)/iso_3166_2.xml; fi
