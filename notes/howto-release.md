@@ -1,30 +1,40 @@
-How to release a new version of iso-codes
-=========================================
+# How to release a new version of iso-codes
 
-Make sure you have all the latest updates and no stale files
-in your working copy. The best way to achieve this is to get
-a fresh checkout from the git server.
-$ mkdir release
-$ cd release
-$ git clone git@salsa.debian.org:iso-codes-team/iso-codes.git
+Make sure you have all the latest updates in your working copy.
+
+```
+$ git pull
+```
 
 Update the version number in configure.ac, also update the ChangeLog
 with the current release number, your name, and the date.
 Commit the changes.
-$ git commit -a -m "Prepare next release"
+
+```
+$ git commit -am "Prepare next release"
+```
 
 Update all automatically generated files (configure, Makefiles, etc.)
 and commit.
-$ autoreconf --install --symlink
-$ git commit -a -m "Update automatically generated files"
+
+```
+$ ./bootstrap
+$ git commit -am "Update automatically generated files"
+```
 
 Create the Makefiles.
+
+```
 $ ./configure
+```
 
 Update all .po files (including the automatic update of the
 sr@latin locale) and commit.
+
+```
 $ make update-po
-$ git commit -a -m "Refresh .po files"
+$ git commit -am "Refresh .po files"
+```
 
 Create a tag for the next release.
 Please respect the following release numbering scheme, which
@@ -37,16 +47,26 @@ adheres to semantic versioning:
   for compatible changes to the JSON files, like the addition of
   a field, or for translation updates.
 
+```
 $ git tag -sm "Release MAJOR.MINOR" iso-codes-MAJOR.MINOR
+```
 
 Use the Makefile target "release" for creating checked tarballs.
+
+```
 $ make release
+```
 
 Use the Makefile target "sign-release" to sign the tarballs.
+
+```
 $ make sign-release
+```
 
-Upload the tarballs and your signatures to Salsa.
+Upload the tarballs and your signatures to Salsa. Also push the
+changes to the git repository.
 
-You can now clean up.
-$ cd ..
-$ rm -rf release/
+```
+$ git push
+$ git push --tags
+```
