@@ -11,7 +11,7 @@ dist_json_DATA = $(wildcard $(srcdir)/data/*.json)
 # the common Makefile snippet
 # and the markdown documentation currently not handled
 # by automake
-EXTRA_DIST = bin bootstrap common.mk README.md
+EXTRA_DIST = bin bootstrap common.mk README.md ChangeLog.md
 
 DISTCLEANFILES = $(pkgconfig_DATA)
 

@@ -1,3 +1,20 @@
+# iso-codes 4.1
+*Tue, 4 Sep 2018*
+
+* The XML files have been re-added, because too many
+  other programs still rely on those files.
+  ***********************************************************
+  ** If you're maintaining a program which uses XML files, **
+  ** please switch to the JSON data files.                 **
+  ***********************************************************
+* ISO 3166-2
+  * Update codes for ZA-GT (Gauteng) and ZA-NL (Kwazulu-Natal) (Closes #6)
+* ISO 3166-3 translations
+  * Italian by Sebastiano Pistore
+* ISO 15924 translations
+  * Estonian by Kristjan Räts
+
+
 # iso-codes 4.0
 *Sat, 25 Aug 2018*
 
