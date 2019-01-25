@@ -42,11 +42,3 @@ update-po:
 sign-release: iso-codes-$(VERSION).tar.xz
 	rm -f iso-codes-$(VERSION).tar.xz.sig
 	gpg --detach-sign iso-codes-$(VERSION).tar.xz
-
-.PHONY: upload
-upload:
-	@if [[ -f "iso-codes-$(VERSION).tar.xz" ]] \
-	&& [[ -f "iso-codes-$(VERSION).tar.xz.sig" ]]; then \
-		scp iso-codes-$(VERSION).tar.* \
-		alioth.debian.org:/srv/home/groups/pkg-isocodes/htdocs/downloads; \
-	fi

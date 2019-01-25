@@ -856,14 +856,6 @@ sign-release: iso-codes-$(VERSION).tar.xz
 	rm -f iso-codes-$(VERSION).tar.xz.sig
 	gpg --detach-sign iso-codes-$(VERSION).tar.xz
 
-.PHONY: upload
-upload:
-	@if [[ -f "iso-codes-$(VERSION).tar.xz" ]] \
-	&& [[ -f "iso-codes-$(VERSION).tar.xz.sig" ]]; then \
-		scp iso-codes-$(VERSION).tar.* \
-		alioth.debian.org:/srv/home/groups/pkg-isocodes/htdocs/downloads; \
-	fi
-
 # Tell versions [3.59,3.63) of GNU make to not export all variables.
 # Otherwise a system limit (for SysV at least) may be exceeded.
 .NOEXPORT:
