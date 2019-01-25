@@ -1,3 +1,71 @@
+# iso-codes 4.2
+*Fri, 25. Jan 2019*
+
+* Update MX codes from ISO 3166-2.
+* ISO 3166-1 translations
+  * Arabic by ButterflyOfFire
+  * Chinese (Traditional) by Louies
+  * Persian by Mostafa Ahangarha
+  * Polish by Chris Leonard
+  * Portuguese by Ayalos
+  * Romanian by Andrei POPESCU
+  * Russian by yurayko
+* ISO 3166-2 translations
+  * Belarusian by Viktar Vauchkevich
+  * Chinese (Traditional) by Louies
+  * Dutch by Pander
+  * Greek by Vangelis Skarmoutsos
+  * Icelandic by Sveinn í Felli
+  * Polish by Jakub Bogusz
+  * Romanian by Andrei POPESCU
+  * Sardinian by Ajeje Brazorf
+  * Swedish by Anders Jonsson
+  * Ukrainian by Yuri Chornoivan
+  * German by Dr. Tobias Quathamer
+* ISO 639-2 translations
+  * Arabic by ButterflyOfFire
+  * Catalan by Joan Montané
+  * Chinese (Traditional) by Louies
+  * Dutch by Nathan Follens, Pander
+  * Greek by Vangelis Skarmoutsos
+  * Hebrew by Yaron Shahrabani
+  * Norwegian Bokmål by Allan Nordhøy
+  * Occitan by Quentí
+  * Persian by Mostafa Ahangarha
+  * Polish by Jakub Bogusz
+  * Romanian by Andrei POPESCU
+  * Sardinian by Ajeje Brazorf
+* ISO 639-3 translations
+  * Arabic by ButterflyOfFire
+  * Catalan by Joan Montané
+  * Chinese (Traditional) by Louies
+  * Dutch by Nathan Follens, Pander
+  * Greek by Vangelis Skarmoutsos
+  * Hebrew by Yaron Shahrabani
+  * Indonesian by Andika Triwidada
+  * Norwegian Bokmål by Allan Nordhøy
+  * Persian by Mostafa Ahangarha
+  * Polish by WaldiS
+  * Romanian by Andrei POPESCU
+  * Russian by yurayko
+  * Sardinian by Ajeje Brazorf
+* ISO 639-5 translations
+  * Chinese (Traditional) by Louies
+  * Polish by Jakub Bogusz
+* ISO 4217 translations
+  * Catalan by Joan Montané
+  * Chinese (Traditional) by Louies
+  * Greek by Vangelis Skarmoutsos
+  * Norwegian Bokmål by Allan Nordhøy, Petter Reinholdtsen
+  * Russian by yurayko
+* ISO 15924 translations
+  * Arabic by ButterflyOfFire
+  * Chinese (Traditional) by Louies
+  * German by ssantos
+  * Hebrew by Yaron Shahrabani
+  * Polish by WaldiS
+
+
 # iso-codes 4.1
 *Tue, 4 Sep 2018*
 
