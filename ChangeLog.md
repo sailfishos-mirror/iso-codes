@@ -1,3 +1,10 @@
+# iso-codes 4.3
+*UNRELEASED*
+
+* ISO 3166-1
+  * Update names for GM (Gambia) and SZ (Eswatini) (Closes #10)
+
+
 # iso-codes 4.2
 *Fri, 25. Jan 2019*
 
