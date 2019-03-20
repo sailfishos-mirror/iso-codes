@@ -3,6 +3,7 @@
 
 * ISO 3166-1
   * Update names for GM (Gambia) and SZ (Eswatini) (Closes #10)
+  * Update names for MK (North Macedonia) (Closes #5)
 
 
 # iso-codes 4.2
