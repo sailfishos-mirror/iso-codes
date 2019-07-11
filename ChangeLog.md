@@ -1,13 +1,116 @@
 # iso-codes 4.3
-*UNRELEASED*
+*Thu, 11. Jul 2019*
 
 * ISO 3166-1
   * Update names for GM (Gambia) and SZ (Eswatini) (Closes #10)
   * Update names for MK (North Macedonia) (Closes #5)
 * ISO 3166-2
   * Update names and codes for CN (China) from iso.org. Closes: #910632
+  * Update MA (Morocco) from iso.org. Closes salsa MR #9.
 * ISO 3166-1 translations
   * Turkish by Atila KOÇ. Closes: #910350
+* ISO 3166-1 translations
+  * Afrikaans by Jacques Viviers
+  * Arabic by ButterflyOfFire
+  * Belarusian by Viktar Vauchkevich
+  * Bengali (India) by Dark Horse
+  * Chinese (Simplified) by Boyuan Yang, LI Daobing
+  * Czech by Miroslav Kure
+  * Danish by Chris Leonard, scootergrisen
+  * French by ButterflyOfFire
+  * German by Dr. Tobias Quathamer
+  * Greek by THANOS SIOURDAKIS
+  * Hebrew by jeremy rutman
+  * Icelandic by Sveinn í Felli
+  * Indonesian by Andika Triwidada
+  * Interlingua by Giovanni Sora
+  * Korean by Jun Hyung Shin
+  * Norwegian Bokmål by Allan Nordhøy
+  * Persian by Nader Jafari
+  * Polish by Jakub Bogusz
+  * Portuguese by Chris Leonard, Rui Mendes
+  * Portuguese (Brazil) by Rafael Fontenelle, Rui Mendes
+  * Punjabi by Aman ALam
+  * Sardinian by Ajeje Brazorf
+  * Spanish by Rodrigo Lledó
+  * Swedish by Anders Jonsson
+  * Ukrainian by Yuri Chornoivan
+  * Welsh by Aled Powell
+* ISO 3166-2 translations
+  * Belarusian by Viktar Vauchkevich
+  * Chinese (Simplified) by Boyuan Yang, LI Daobing
+  * Czech by Miroslav Kure
+  * Danish by scootergrisen
+  * French by ButterflyOfFire
+  * German by Dr. Tobias Quathamer
+  * Hebrew by jeremy rutman
+  * Indonesian by Andika Triwidada
+  * Norwegian Bokmål by Allan Nordhøy
+  * Polish by Jakub Bogusz
+  * Sardinian by Ajeje Brazorf
+  * Spanish by Rodrigo Lledó
+  * Swedish by Stefan Olsson
+  * Ukrainian by Yuri Chornoivan
+* ISO 3166-3 translations
+  * Arabic by ButterflyOfFire
+  * Danish by scootergrisen
+* ISO 639-2 translations
+  * Arabic by ButterflyOfFire
+  * Chinese (Simplified) by Boyuan Yang, LI Daobing
+  * Danish by scootergrisen
+  * Estonian by Mihkel Tõnnov
+  * Greek by THANOS SIOURDAKIS
+  * Hungarian by Doma Gergő
+  * Norwegian Bokmål by Allan Nordhøy
+  * Odia by Pro Neon
+  * Persian by Nader Jafari
+  * Portuguese by Rui Mendes
+  * Punjabi by Aman ALam
+  * Spanish by Luis A. Arizmendi, Rodrigo Lledó
+  * Turkish by Serdar Sağlam
+* ISO 639-3 translations
+  * Arabic by ButterflyOfFire
+  * Chinese (Simplified) by Boyuan Yang, LI Daobing
+  * Danish by scootergrisen
+  * Estonian by Mihkel Tõnnov
+  * German by Dr. Tobias Quathamer, ssantos
+  * Greek by THANOS SIOURDAKIS
+  * Hungarian by Doma Gergő
+  * Icelandic by Sveinn í Felli
+  * Indonesian by Andika Triwidada
+  * Odia by Pro Neon
+  * Persian by Nader Jafari
+  * Portuguese by Rui Mendes
+  * Punjabi by Aman ALam
+  * Spanish by Luis A. Arizmendi, Rodrigo Lledó
+  * Turkish by Serdar Sağlam
+* ISO 639-5 translations
+  * Danish by scootergrisen
+  * Estonian by Mihkel Tõnnov
+  * Greek by THANOS SIOURDAKIS
+  * Hungarian by Doma Gergő
+  * Norwegian Bokmål by Allan Nordhøy
+* ISO 4217 translations
+  * Arabic by ButterflyOfFire
+  * Chinese (Simplified) by LI Daobing
+  * Czech by Miroslav Kure
+  * Danish by scootergrisen
+  * Norwegian Bokmål by Petter Reinholdtsen
+  * Portuguese by Rui Mendes
+  * Portuguese (Brazil) by Rui Mendes
+  * Sardinian by Ajeje Brazorf
+  * Spanish by Rodrigo Lledó
+* ISO 15924 translations
+  * Arabic by ButterflyOfFire
+  * Chinese (Simplified) by Elizabeth Sherrock
+  * Czech by Lorem Ipsum
+  * Greek by THANOS SIOURDAKIS
+  * Interlingua by Giovanni Sora
+  * Persian by Nader Jafari
+  * Portuguese by Rui Mendes
+  * Portuguese (Brazil) by Rui Mendes
+  * Spanish by Rodrigo Lledó
+  * Turkish by Serdar Sağlam
 
 
 # iso-codes 4.2
