@@ -1,3 +1,73 @@
+# iso-codes 4.4
+*Thu, 3. Oct 2019*
+
+* ISO 3166-2: Fix code for Eastern Equatoria. Fixes #12
+* ISO 3166-2: Remove MA- prefix from parent codes. Fixes #13
+* ISO 3166-2: Update codes for Kenya. Fixes #15
+* ISO 3166-1 translations
+  * Basque by Osoitz
+  * Chinese (Hong Kong) by Walter Cheuk
+  * Chinese (Traditional) by Walter Cheuk
+  * French by Swann Martinet
+  * Hungarian by Babos Gábor
+  * Indonesian by Chris Leonard
+  * Odia by Pro Neon
+  * Russian by Victor Ibragimov
+  * Tajik by Victor Ibragimov
+  * Turkish by Oguz Ersen
+* ISO 3166-2 translations
+  * Asturian by Enol P
+  * Basque by Chris Leonard, Osoitz
+  * Belarusian by Viktar Vauchkevich
+  * Catalan by Joan Montané
+  * English by Osoitz
+  * French by ButterflyOfFire
+  * Hungarian by Babos Gábor
+  * Indonesian by Andika Triwidada
+  * Polish by Jakub Bogusz
+  * Turkish by Oguz Ersen
+  * Ukrainian by Yuri Chornoivan
+* ISO 3166-3 translations
+  * Basque by Osoitz
+  * Polish by Jakub Bogusz
+  * Turkish by Oguz Ersen
+* ISO 639-2 translations
+  * Arabic by ButterflyOfFire
+  * Basque by Osoitz
+  * Chinese (Hong Kong) by Walter Cheuk
+  * Chinese (Traditional) by Walter Cheuk
+  * Croatian by gogogogi
+  * Polish by Jakub Bogusz
+  * Tajik by Victor Ibragimov
+  * Turkish by Oguz Ersen
+* ISO 639-3 translations
+  * Arabic by ButterflyOfFire
+  * Basque by Osoitz
+  * Chinese (Traditional) by Walter Cheuk
+  * Croatian by gogogogi
+  * Indonesian by Andika Triwidada
+  * Odia by Pro Neon
+  * Polish by Jakub Bogusz
+  * Turkish by Oguz Ersen
+* ISO 639-5 translations
+  * Asturian by Enol P
+  * Chinese (Traditional) by Walter Cheuk
+  * Croatian by gogogogi
+  * Polish by Jakub Bogusz
+* ISO 4217 translations
+  * Arabic by ButterflyOfFire
+  * Asturian by Enol P
+  * Croatian by gogogogi
+  * Turkish by Oguz Ersen
+* ISO 15924 translations
+  * Arabic by ButterflyOfFire
+  * Asturian by Enol P
+  * Chinese (Hong Kong) by Walter Cheuk
+  * Croatian by gogogogi
+  * Polish by Jakub Bogusz
+  * Turkish by Oguz Ersen
+
+
 # iso-codes 4.3
 *Thu, 11. Jul 2019*
 
