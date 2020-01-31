@@ -24,6 +24,7 @@
   * French by ButterflyOfFire
   * Hungarian by Babos Gábor
   * Indonesian by Andika Triwidada
+  * Italian by Sebastiano Pistore
   * Polish by Jakub Bogusz
   * Turkish by Oguz Ersen
   * Ukrainian by Yuri Chornoivan
@@ -66,6 +67,7 @@
   * Croatian by gogogogi
   * Polish by Jakub Bogusz
   * Turkish by Oguz Ersen
+  * Italian by Sebastiano Pistore
 
 
 # iso-codes 4.3
@@ -94,6 +96,7 @@
   * Icelandic by Sveinn í Felli
   * Indonesian by Andika Triwidada
   * Interlingua by Giovanni Sora
+  * Italian by Sebastiano Pistore
   * Korean by Jun Hyung Shin
   * Norwegian Bokmål by Allan Nordhøy
   * Persian by Nader Jafari
@@ -195,6 +198,7 @@
   * Portuguese by Ayalos
   * Romanian by Andrei POPESCU
   * Russian by yurayko
+  * Italian by Sebastiano Pistore
 * ISO 3166-2 translations
   * Belarusian by Viktar Vauchkevich
   * Chinese (Traditional) by Louies
