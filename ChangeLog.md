@@ -1,3 +1,128 @@
+# iso-codes 4.5.0
+*Tue, 19. May 2020*
+
+* ISO-3166-2
+  * Update subdivision names for Belarus. Fixes #22
+  * Update Norway ISO 3166-2 codes
+* ISO 3166-1 translations
+  * Albanian by Besnik Bleta
+  * Bengali by Oymate
+  * Chinese (Traditional) by Walter Cheuk
+  * Croatian by Milo Ivir, gogogogi
+  * Dutch by Frans Spiesschaert, powerburner-nl
+  * French by Julien Humbert
+  * Galician by Miguel Gonzalez
+  * Indonesian by Andika Triwidada
+  * Italian by Sebastiano Pistore
+  * Kabyle by Muḥend Belqasem
+  * Korean by Shinjo Park
+  * Marathi by Prachi Joshi
+  * Punjabi by Aman ALam
+  * Turkish by Oguz Ersen, Oğuz Ersen
+  * Ukrainian by Yuri Chornoivan
+  * Uyghur by Abdusalam
+* ISO 3166-2 translations
+  * Albanian by Besnik Bleta
+  * Basque by Gontzal Manuel Pujana Onaindia
+  * Catalan by Quentin PAGÈS
+  * Chinese (Simplified) by Boyuan Yang
+  * Croatian by Milo Ivir, gogogogi
+  * Dutch by Pander
+  * English by Jennifer Maldonado, Quentin PAGÈS
+  * French by Julien Humbert, Xavier Gouardes
+  * Greek by Quentin PAGÈS
+  * Indonesian by Andika Triwidada
+  * Italian by Sebastiano Pistore
+  * Korean by Shinjo Park
+  * Polish by Jakub Bogusz, Szylu
+  * Portuguese (Brazil) by Rafael Fontenelle
+  * Romanian by Quentin PAGÈS
+  * Serbian (latin) by Branko Kovačević
+  * Spanish by Guillermo Segovia
+  * Swedish by Mattias Münster
+  * Turkish by Oguz Ersen, Oğuz Ersen
+  * Ukrainian by Yuri Chornoivan
+* ISO 3166-3 translations
+  * Albanian by Besnik Bleta
+  * Chinese (Hong Kong) by Walter Cheuk
+  * Chinese (Traditional) by Walter Cheuk
+  * Croatian by Milo Ivir
+* ISO 639-2 translations
+  * Albanian by Besnik Bleta
+  * Basque by Gontzal Manuel Pujana Onaindia
+  * Bengali by Oymate
+  * Chinese (Hong Kong) by Walter Cheuk
+  * Chinese (Traditional) by Walter Cheuk
+  * Croatian by Milo Ivir
+  * Dutch by Pander
+  * French by Julien Humbert, Mejans, Simon Picot
+  * Greek by THANOS SIOURDAKIS, Vangelis Skarmoutsos
+  * Kabyle by Muḥend Belqasem
+  * Korean by Shinjo Park
+  * Marathi by Prachi Joshi
+  * Occitan by Quentin PAGÈS
+  * Odia by Pro Neon
+  * Polish by Szylu
+  * Portuguese by Manuela Silva
+  * Punjabi by Aman ALam
+  * Serbian (latin) by Branko Kovačević
+  * Spanish by Adolfo Jayme Barrientos, Guillermo Segovia
+  * Swedish by Mattias Münster
+  * Ukrainian by Yuri Chornoivan
+* ISO 639-3 translations
+  * Afrikaans by Quentin PAGÈS
+  * Albanian by Besnik Bleta
+  * Basque by Gontzal Manuel Pujana Onaindia
+  * Belarusian by Serge Karpesh
+  * Bengali by Oymate
+  * Catalan by Quentin PAGÈS
+  * Chinese (Traditional) by Walter Cheuk
+  * Croatian by Milo Ivir, gogogogi
+  * Dutch by Anonymous, Pander
+  * French by Julien Humbert, Mejans, Quentin PAGÈS, Simon Picot
+  * Indonesian by Andika Triwidada
+  * Korean by Shinjo Park
+  * Marathi by Prachi Joshi
+  * Odia by Pro Neon
+  * Polish by Jakub Bogusz
+  * Portuguese by Manuela Silva
+  * Portuguese (Brazil) by Rafael Fontenelle
+  * Punjabi by Aman ALam
+  * Serbian (latin) by Branko Kovačević
+  * Spanish by Adolfo Jayme Barrientos, Guillermo Segovia
+  * Turkish by Oguz Ersen
+  * Ukrainian by Yuri Chornoivan
+* ISO 639-5 translations
+  * Albanian by Besnik Bleta
+  * Croatian by Milo Ivir
+  * Greek by THANOS SIOURDAKIS, Vangelis Skarmoutsos
+  * Indonesian by Andika Triwidada
+  * Occitan by Quentin PAGÈS
+  * Polish by Szylu
+  * Portuguese (Brazil) by Rafael Fontenelle
+  * Ukrainian by Yuri Chornoivan
+* ISO 4217 translations
+  * Albanian by Besnik Bleta
+  * Chinese (Hong Kong) by Walter Cheuk
+  * Chinese (Traditional) by Walter Cheuk
+  * Croatian by Milo Ivir, gogogogi
+  * Sardinian by Ajeje Brazorf
+  * Spanish by Guillermo Segovia
+  * Ukrainian by Yuri Chornoivan
+* ISO 15924 translations
+  * Albanian by Besnik Bleta
+  * Basque by Gontzal Manuel Pujana Onaindia
+  * Bengali (Bangladesh) by Anonymous, Oymate
+  * Croatian by Milo Ivir
+  * French by Simon Picot
+  * Italian by Sebastiano Pistore
+  * Portuguese by Manuela Silva
+  * Serbian (latin) by Branko Kovačević
+  * Spanish by Adolfo Jayme Barrientos, Guillermo Segovia
+  * Turkish by Oğuz Ersen
+  * Ukrainian by Yuri Chornoivan
+
+
 # iso-codes 4.4
 *Thu, 3. Oct 2019*
 
