@@ -6,20 +6,25 @@
 # Copyright ©
 # Dr. Tobias Quathamer <toddy@debian.org>, 2007.
 # Gintautas Miliauskas <gintas@akl.lt>, 2008.
+# Kornelijus Tvarijanavičius <kornelitvari@protonmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_15924\n"
 "Report-Msgid-Bugs-To: https://salsa.debian.org/iso-codes-team/iso-codes/"
 "issues\n"
 "POT-Creation-Date: 2018-01-17 22:10+0100\n"
-"PO-Revision-Date: 2008-05-17 21:01+0300\n"
-"Last-Translator: Gintautas Miliauskas <gintas@akl.lt>\n"
-"Language-Team: Lithuanian <komp_lt@konferencijos.lt>\n"
+"PO-Revision-Date: 2021-02-21 22:09+0000\n"
+"Last-Translator: Kornelijus Tvarijanavičius <kornelitvari@protonmail.com>\n"
+"Language-Team: Lithuanian <https://hosted.weblate.org/projects/iso-codes/"
+"iso-15924/lt/>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > "
+"19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? "
+"1 : 2);\n"
+"X-Generator: Weblate 4.5\n"
 
 #. Name for Adlm
 msgid "Adlam"
@@ -31,7 +36,7 @@ msgstr ""
 
 #. Name for Aghb
 msgid "Caucasian Albanian"
-msgstr ""
+msgstr "Kaukazo Albanų"
 
 #. Name for Ahom
 msgid "Ahom, Tai Ahom"
@@ -42,10 +47,8 @@ msgid "Arabic"
 msgstr "Arabų"
 
 #. Name for Aran
-#, fuzzy
-#| msgid "Syriac (Eastern variant)"
 msgid "Arabic (Nastaliq variant)"
-msgstr "Sirų (rytietiškas variantas)"
+msgstr "Arabų (Nastaliq variantas)"
 
 #. Name for Armi
 msgid "Imperial Aramaic"
@@ -185,7 +188,7 @@ msgstr "Khutsuri (Asomtavruli ir Nuskhuri)"
 
 #. Name for Geor
 msgid "Georgian (Mkhedruli)"
-msgstr "Gruzinų (Mkhedruli)"
+msgstr "Kartvelų (Mkhedruli)"
 
 #. Name for Glag
 msgid "Glagolitic"
@@ -262,7 +265,7 @@ msgstr "Japonų (Han + Hiragana + Katakana)"
 
 #. Name for Hung
 msgid "Old Hungarian (Hungarian Runic)"
-msgstr ""
+msgstr "Senovės Vengrų (Vengrų Runos)"
 
 #. Name for Inds
 msgid "Indus (Harappan)"
@@ -458,7 +461,7 @@ msgstr "Mianmaro (Birmos)"
 
 #. Name for Narb
 msgid "Old North Arabian (Ancient North Arabian)"
-msgstr ""
+msgstr "Senoji Šiaurės Arabų (Senovės Šiaurės Arabų)"
 
 #. Name for Nbat
 msgid "Nabataean"
