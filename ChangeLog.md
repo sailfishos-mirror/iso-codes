@@ -1,3 +1,131 @@
+# iso-codes 4.6.0
+*Mon, 8. Mar 2021*
+
+* ISO 3166-1 translations
+  * Aragonese by Juan Pablo Martínez
+  * Belarusian by Chris Leonard, Serge Karpesh, Viktar Vauchkevich
+  * Central Atlas Tamazight by Hakim Oubouali
+  * Central Kurdish by Jwtiyar Nariman
+  * Chinese (Simplified) by Boyuan Yang, tao wang
+  * Chuvash by İlle
+  * Croatian by Milo Ivir
+  * Estonian by Janar Leas
+  * Filipino by Marco Santos
+  * Friulian by Fabio Tomat
+  * Hebrew by Yaron Shahrabani
+  * Russian by Artem
+  * Serbian by Слободан Симић(Slobodan Simić)
+  * Somali by Nadir Nour
+  * Tigrinya by Chris Leonard, Joan Piñero
+  * Turkish by EminUZUN, Oğuz Ersen
+* ISO 3166-2 translations
+  * Belarusian by Serge Karpesh, Viktar Vauchkevich
+  * Bengali (Bangladesh) by Oymate
+  * Chinese (Simplified) by Boyuan Yang, tao wang
+  * Chinese (Traditional) by marklin0913da248e4cdada422a
+  * Croatian by Milo Ivir
+  * Dutch by Pander
+  * English by Serge Karpesh, tao wang
+  * Estonian by Janar Leas, Kristjan Räts
+  * French by Christophe, J. Lavoie
+  * German by J. Lavoie, Serge Karpesh
+  * Hebrew by Yaron Shahrabani
+  * Icelandic by Sveinn í Felli
+  * Kabyle by ButterflyOfFire
+  * Occitan by Quentin PAGÈS
+  * Persian by Mohammad Mehdi
+  * Polish by Jakub Bogusz
+  * Portuguese (Brazil) by Rafael Fontenelle
+  * Russian by Aleksey Reprintsev
+  * Sardinian by Ajeje Brazorf
+  * Serbian by Слободан Симић(Slobodan Simić)
+  * Slovak by Serge Karpesh
+  * Somali by Nadir Nour
+  * Spanish by Quentin PAGÈS
+  * Swedish by Anders Jonsson, Luna Jernberg
+  * Turkish by EminUZUN
+* ISO 3166-3 translations
+  * Friulian by Fabio Tomat
+  * Portuguese (Brazil) by Rafael Fontenelle
+  * Serbian by Слободан Симић(Slobodan Simić)
+  * Somali by Sirr Burhaan
+* ISO 639-2 translations
+  * Basque by Osoitz
+  * Belarusian by Serge Karpesh, Viktar Vauchkevich
+  * Bengali by Oymate
+  * Bengali (Bangladesh) by Oymate
+  * Chinese (Simplified) by Boyuan Yang, tao wang
+  * Croatian by Milo Ivir
+  * Estonian by Janar Leas
+  * French by J. Lavoie
+  * Friulian by Fabio Tomat
+  * German by J. Lavoie
+  * Hebrew by Yaron Shahrabani
+  * Icelandic by Sveinn í Felli
+  * Italian by Fabio Tomat
+  * Kabyle by ButterflyOfFire
+  * Lithuanian by Kornelijus Tvarijanavičius
+  * Portuguese by ssantos
+  * Portuguese (Brazil) by Rafael Fontenelle
+  * Turkish by EminUZUN
+* ISO 639-3 translations
+  * Basque by Gontzal Manuel Pujana Onaindia, Gorka Azkarate Zubiaur
+  * Belarusian by Serge Karpesh, Viktar Vauchkevich
+  * Bengali by Oymate
+  * Chinese (Simplified) by Boyuan Yang, tao wang
+  * Chinese (Traditional) by marklin0913da248e4cdada422a
+  * Croatian by Milo Ivir
+  * Estonian by Janar Leas, Kristjan Räts
+  * French by J. Lavoie
+  * German by J. Lavoie
+  * Hebrew by Yaron Shahrabani
+  * Icelandic by Sveinn í Felli
+  * Italian by Fabio Tomat
+  * Kabyle by ButterflyOfFire, Hakim Oubouali
+  * Lithuanian by Kornelijus Tvarijanavičius
+  * Marathi by Prachi Joshi
+  * Polish by Jakub Bogusz, Jakub Fabijan
+  * Portuguese by ssantos
+  * Sardinian by Ajeje Brazorf
+  * Serbian by Слободан Симић(Slobodan Simić)
+  * Somali by Nadir Nour
+  * Turkish by EminUZUN
+  * Ukrainian by Yuri Chornoivan
+* ISO 639-5 translations
+  * Bengali (Bangladesh) by Oymate
+  * Friulian by Fabio Tomat
+  * Kabyle by ButterflyOfFire
+  * Portuguese (Brazil) by Rafael Fontenelle
+* ISO 4217 translations
+  * Basque by Gontzal Manuel Pujana Onaindia
+  * Bengali by Oymate
+  * Central Atlas Tamazight by Hakim Oubouali
+  * Croatian by Milo Ivir
+  * French by J. Lavoie
+  * German by J. Lavoie
+  * Icelandic by Sveinn í Felli
+  * Kabyle by ButterflyOfFire
+  * Portuguese (Brazil) by Rafael Fontenelle
+  * Serbian by Слободан Симић(Slobodan Simić)
+  * Somali by Nadir Nour
+* ISO 15924 translations
+  * Belarusian by Viktar Vauchkevich
+  * Bengali (Bangladesh) by Oymate
+  * Central Atlas Tamazight by Hakim Oubouali
+  * Chuvash by İlle
+  * Croatian by Milo Ivir
+  * Estonian by Janar Leas, Kristjan Räts
+  * Filipino by Marco Santos
+  * German by J. Lavoie
+  * Hebrew by Yaron Shahrabani
+  * Kabyle by ButterflyOfFire
+  * Lithuanian by Kornelijus Tvarijanavičius
+  * Portuguese by ssantos
+  * Russian by Aleksey Reprintsev
+  * Sinhala by HelaBasa
+  * Somali by Sirr Burhaan
+
+
 # iso-codes 4.5.0
 *Tue, 19. May 2020*
 
