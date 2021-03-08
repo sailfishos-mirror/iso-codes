@@ -40,24 +40,40 @@ are stored in the directory "/usr/share/iso-codes/json".
 Below you can see the current translation status, with the two most
 important gettext domains listed first (countries and languages).
 
-[![Translation status](https://hosted.weblate.org/widgets/iso-codes/-/iso-3166-1/287x66-white.png)](https://hosted.weblate.org/engage/iso-codes/?utm_source=widget)
+* ISO 3166-1 (countries):
 
-[![Translation status](https://hosted.weblate.org/widgets/iso-codes/-/iso-639-2/287x66-white.png)](https://hosted.weblate.org/engage/iso-codes/?utm_source=widget)
+  [![Translation status](https://hosted.weblate.org/widgets/iso-codes/-/iso-3166-1/287x66-white.png)](https://hosted.weblate.org/engage/iso-codes/?utm_source=widget)
+
+* ISO 639-2 (languages):
+
+  [![Translation status](https://hosted.weblate.org/widgets/iso-codes/-/iso-639-2/287x66-white.png)](https://hosted.weblate.org/engage/iso-codes/?utm_source=widget)
 
 The other gettext domains are also useful, but probably
 not as important as the first two.
 
-[![Translation status](https://hosted.weblate.org/widgets/iso-codes/-/iso-4217/287x66-white.png)](https://hosted.weblate.org/engage/iso-codes/?utm_source=widget)
+* ISO 4217 (currencies):
 
-[![Translation status](https://hosted.weblate.org/widgets/iso-codes/-/iso-3166-2/287x66-white.png)](https://hosted.weblate.org/engage/iso-codes/?utm_source=widget)
+  [![Translation status](https://hosted.weblate.org/widgets/iso-codes/-/iso-4217/287x66-white.png)](https://hosted.weblate.org/engage/iso-codes/?utm_source=widget)
 
-[![Translation status](https://hosted.weblate.org/widgets/iso-codes/-/iso-3166-3/287x66-white.png)](https://hosted.weblate.org/engage/iso-codes/?utm_source=widget)
+* ISO 3166-2 (countries and subdivisions):
 
-[![Translation status](https://hosted.weblate.org/widgets/iso-codes/-/iso-639-3/287x66-white.png)](https://hosted.weblate.org/engage/iso-codes/?utm_source=widget)
+  [![Translation status](https://hosted.weblate.org/widgets/iso-codes/-/iso-3166-2/287x66-white.png)](https://hosted.weblate.org/engage/iso-codes/?utm_source=widget)
 
-[![Translation status](https://hosted.weblate.org/widgets/iso-codes/-/iso-639-5/287x66-white.png)](https://hosted.weblate.org/engage/iso-codes/?utm_source=widget)
+* ISO 3166-3 (formerly used country codes):
 
-[![Translation status](https://hosted.weblate.org/widgets/iso-codes/-/iso-15924/287x66-white.png)](https://hosted.weblate.org/engage/iso-codes/?utm_source=widget)
+  [![Translation status](https://hosted.weblate.org/widgets/iso-codes/-/iso-3166-3/287x66-white.png)](https://hosted.weblate.org/engage/iso-codes/?utm_source=widget)
+
+* ISO 639-3 (languages):
+
+  [![Translation status](https://hosted.weblate.org/widgets/iso-codes/-/iso-639-3/287x66-white.png)](https://hosted.weblate.org/engage/iso-codes/?utm_source=widget)
+
+* ISO 639-5 (language families and groups):
+
+  [![Translation status](https://hosted.weblate.org/widgets/iso-codes/-/iso-639-5/287x66-white.png)](https://hosted.weblate.org/engage/iso-codes/?utm_source=widget)
+
+* ISO 15924 (script names):
+
+  [![Translation status](https://hosted.weblate.org/widgets/iso-codes/-/iso-15924/287x66-white.png)](https://hosted.weblate.org/engage/iso-codes/?utm_source=widget)
 
 # NEWS
 
