@@ -21,6 +21,11 @@
             "type": "string",
             "pattern": "^[A-Z]{3}$"
           },
+          "flag": {
+            "description": "Flag of country, using Unicode regional indicator symbol letters",
+            "type": "string",
+            "pattern": "^[🇦-🇿]{2}$"
+          },
           "name": {
             "description": "Name of the item",
             "type": "string",
