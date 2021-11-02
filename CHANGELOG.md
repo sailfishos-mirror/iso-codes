@@ -1,61 +1,31 @@
-# iso-codes 4.7.0
-*Wed, 25. Aug 2021*
+# Changelog
+All notable changes to this project will be documented in this file.
 
-* Fix weblate check: Remove double spaces
-* Rename ku.po to kmr.po.
-* Add common names for South and North Korea.
-* Updates for Indonesia
-* ISO 3166-1 translations
-  * Dutch by Pander
-  * Faroese by Tummas Jóhan Sigvardsen
-  * German by Dr. Tobias Quathamer
-  * Hebrew by Chris Leonard, Yaron Shahrabani
-  * Hindi by Chris Leonard, KushagraKarira
-  * Icelandic by Sveinn í Felli
-  * Indonesian by Andika Triwidada
-  * Japanese by TANIGUCHI Yasuaki
-  * Norwegian Bokmål by Allan Nordhøy, Chris Leonard
-  * Sardinian by Ajeje Brazorf
-  * Spanish by Adolfo Jayme Barrientos
-  * Tamazight (Central Atlas) by Hakim Oubouali
-  * Turkish by Oğuz Ersen
-  * Ukrainian by Yuri Chornoivan
-* ISO 3166-2 translations
-  * Hebrew by Yaron Shahrabani
-  * Indonesian by Andika Triwidada
-  * Japanese by TANIGUCHI Yasuaki
-  * Russian by Alex Brohovsky
-  * Spanish by Adolfo Jayme Barrientos
-* ISO 3166-3 translations
-  * Hindi by KushagraKarira
-* ISO 639-2 translations
-  * Hebrew by Yaron Shahrabani
-  * Hindi by Chris Leonard
-  * Indonesian by Andika Triwidada
-  * Japanese by TANIGUCHI Yasuaki
-  * Portuguese by ssantos
-  * Tamazight (Central Atlas) by Hakim Oubouali
-* ISO 639-3 translations
-  * Dutch by Pander
-  * Hebrew by Yaron Shahrabani
-  * Hindi by KushagraKarira
-  * Japanese by TANIGUCHI Yasuaki
-  * Portuguese by ssantos
-  * Spanish by Adolfo Jayme Barrientos
-* ISO 639-5 translations
-  * Bengali by Oymate
-  * Indonesian by Andika Triwidada
-* ISO 4217 translations
-  * Bengali by Oymate
-  * Japanese by TANIGUCHI Yasuaki
-  * Spanish by Adolfo Jayme Barrientos
-* ISO 15924 translations
-  * Hebrew by Yaron Shahrabani
-  * Interlingua by Giovanni Sora
-  * Japanese by TANIGUCHI Yasuaki
-  * Portuguese by ssantos
-  * Spanish by Adolfo Jayme Barrientos
-  * Tamazight (Central Atlas) by Hakim Oubouali
+The format is based on
+[Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to
+[Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [Unreleased]
+
+## [4.7.0] – 2021-08-25
+### Added
+- Add common names for South and North Korea.
+
+### Changed
+- Rename ku.po to kmr.po.
+- Updates for Indonesia
+- Translation updates for ISO 3166-1
+- Translation updates for ISO 3166-2
+- Translation updates for ISO 3166-3
+- Translation updates for ISO 639-2
+- Translation updates for ISO 639-3
+- Translation updates for ISO 639-5
+- Translation updates for ISO 4217
+- Translation updates for ISO 15924
+
+### Fixed
+- Fix weblate check: Remove double spaces
 
 
 # iso-codes 4.6.0
