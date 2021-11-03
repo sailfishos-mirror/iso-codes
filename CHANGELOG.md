@@ -37,7 +37,7 @@ and this project adheres to
 ## 4.7.0 – 2021-08-25
 
 ### Added
-- ISO 3166-1: Add common names for South and North Korea. Fixes #25
+- ISO 3166-1: Add common names for South and North Korea. Fixes #34
 
 ### Changed
 - Translation updates for ISO 3166-1
@@ -51,7 +51,7 @@ and this project adheres to
 
 ### Fixed
 - ISO 3166-1: Rename ku.po to kmr.po.
-- ISO 3166-2: Updates for Indonesia. Fixes #20
+- ISO 3166-2: Updates for Indonesia. Fixes #26
 - ISO 3166-3: Rename ku.po to kmr.po.
 - Fix weblate check: Remove double spaces
 
@@ -82,7 +82,7 @@ and this project adheres to
 - Translation updates for ISO 15924
 
 ### Fixed
-- ISO 3166-2: Update codes for Norway. Fixes #19
+- ISO 3166-2: Update codes for Norway. Fixes #25
 - ISO 3166-2: Update subdivision names for Belarus. Fixes #22
 
 
