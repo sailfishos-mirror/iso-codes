@@ -7,6 +7,23 @@ The format is based on
 and this project adheres to
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [4.9.0] – 2022-01-03
+
+### Added
+
+- ISO 639-3: New translation for Friulian
+- ISO 639-5: New translations for Esperanto, Hindi, Russian
+- ISO 4217: New translation for Esperanto
+
+### Changed
+
+- Translation updates for ISO 3166-1
+- Translation updates for ISO 3166-2
+- Translation updates for ISO 639-2
+- Translation updates for ISO 639-3
+- Translation updates for ISO 639-5
+
+
 ## [4.8.0] – 2021-11-03
 
 ### Added
