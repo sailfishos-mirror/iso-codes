@@ -7,6 +7,33 @@ The format is based on
 and this project adheres to
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [4.10.0] – 2022-06-01
+
+### Added
+
+- Update ISO 639-2 codes to include Montenegrin (cnr) added in 2017.
+- Update ISO 4217. Fixes #24
+- ISO 639-3: New translation for Friulian
+- ISO 639-5: New translations for Esperanto, Hindi, Russian
+- ISO 4217: New translation for Esperanto
+
+### Changed
+
+- Translation updates for ISO 3166-1
+- Translation updates for ISO 3166-2
+- Translation updates for ISO 3166-3
+- Translation updates for ISO 639-2
+- Translation updates for ISO 639-3
+- Translation updates for ISO 639-5
+- Translation updates for ISO 4217
+- Translation updates for ISO 15924
+
+### Fixed
+
+- ISO 3166-2: Add parent codes for GB. Fixes #36
+- ISO 3166-2: Fix subdivision names for Finland. Fixes #37
+
+
 ## [4.9.0] – 2022-01-03
 
 ### Added
@@ -187,3 +214,8 @@ please switch to the JSON data files.**
 ### Removed
 - The XML files have been removed after having been deprecated for
   two and a half years. Please use the JSON data files instead.
+
+
+[4.10.0]: https://salsa.debian.org/iso-codes-team/iso-codes/compare/v4.9.0...v4.10.0
+[4.9.0]: https://salsa.debian.org/iso-codes-team/iso-codes/compare/v4.8.0...v4.9.0
+[4.8.0]: https://salsa.debian.org/iso-codes-team/iso-codes/compare/v4.7.0...v4.8.0
