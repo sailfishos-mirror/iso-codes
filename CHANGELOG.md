@@ -7,6 +7,24 @@ The format is based on
 and this project adheres to
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [4.11.0] – 2022-07-25
+
+### Added
+
+- Update ISO 639-3 codes from SIL website. Fixes #40
+
+### Changed
+
+- Translation updates for ISO 3166-1
+- Translation updates for ISO 3166-2
+- Translation updates for ISO 3166-3
+- Translation updates for ISO 639-2
+- Translation updates for ISO 639-3
+- Translation updates for ISO 639-5
+- Translation updates for ISO 4217
+- Translation updates for ISO 15924
+
+
 ## [4.10.0] – 2022-06-01
 
 ### Added
@@ -216,6 +234,7 @@ please switch to the JSON data files.**
   two and a half years. Please use the JSON data files instead.
 
 
+[4.11.0]: https://salsa.debian.org/iso-codes-team/iso-codes/compare/v4.10.0...v4.11.0
 [4.10.0]: https://salsa.debian.org/iso-codes-team/iso-codes/compare/v4.9.0...v4.10.0
 [4.9.0]: https://salsa.debian.org/iso-codes-team/iso-codes/compare/v4.8.0...v4.9.0
 [4.8.0]: https://salsa.debian.org/iso-codes-team/iso-codes/compare/v4.7.0...v4.8.0
