@@ -7,6 +7,13 @@ The format is based on
 and this project adheres to
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## UNRELEASED
+
+### Changed
+
+- ISO 3166-1: Update name for TR (Türkiye). Fixes #38
+
+
 ## [4.11.0] – 2022-07-25
 
 ### Added
