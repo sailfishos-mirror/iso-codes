@@ -7,11 +7,19 @@ The format is based on
 and this project adheres to
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## UNRELEASED
+## [4.12.0] – 2022-11-06
 
 ### Changed
 
 - ISO 3166-1: Update name for TR (Türkiye). Fixes #38
+- Translation updates for ISO 3166-1
+- Translation updates for ISO 3166-2. Closes: #1020633
+- Translation updates for ISO 3166-3
+- Translation updates for ISO 639-2
+- Translation updates for ISO 639-3
+- Translation updates for ISO 639-5
+- Translation updates for ISO 4217
+- Translation updates for ISO 15924
 
 
 ## [4.11.0] – 2022-07-25
@@ -241,6 +249,8 @@ please switch to the JSON data files.**
   two and a half years. Please use the JSON data files instead.
 
 
+[UNRELEASED]: https://salsa.debian.org/iso-codes-team/iso-codes/compare/v4.12.0...main
+[4.12.0]: https://salsa.debian.org/iso-codes-team/iso-codes/compare/v4.11.0...v4.12.0
 [4.11.0]: https://salsa.debian.org/iso-codes-team/iso-codes/compare/v4.10.0...v4.11.0
 [4.10.0]: https://salsa.debian.org/iso-codes-team/iso-codes/compare/v4.9.0...v4.10.0
 [4.9.0]: https://salsa.debian.org/iso-codes-team/iso-codes/compare/v4.8.0...v4.9.0
