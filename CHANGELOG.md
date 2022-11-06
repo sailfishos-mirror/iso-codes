@@ -21,6 +21,10 @@ and this project adheres to
 - Translation updates for ISO 4217
 - Translation updates for ISO 15924
 
+### Fixed
+
+- ISO 3166-2: Remove comment from Dutch translation. Fixes #41
+
 
 ## [4.11.0] – 2022-07-25
 
