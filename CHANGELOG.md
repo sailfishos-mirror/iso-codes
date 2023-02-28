@@ -7,6 +7,31 @@ The format is based on
 and this project adheres to
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [4.13.0] – 2023-02-28
+
+### Added
+
+- ISO 3166-1: Add missing common names for Laos, Iran, and Syria.
+  Fixes #32
+
+### Changed
+
+- Translation updates for ISO 3166-1
+  - Kazakh from Debian BTS. Closes: #1025423
+  - Catalan from Debian BTS. Closes: #1026972
+- Translation updates for ISO 3166-2
+- Translation updates for ISO 3166-3
+- Translation updates for ISO 639-2
+- Translation updates for ISO 639-3
+- Translation updates for ISO 639-5
+- Translation updates for ISO 4217
+- Translation updates for ISO 15924
+
+### Fixed
+
+- ISO 3166-3: Fix withdrawal dates of AN, CS and YU. Fixes #28
+
+
 ## [4.12.0] – 2022-11-06
 
 ### Changed
