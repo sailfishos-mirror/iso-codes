@@ -7,6 +7,15 @@ The format is based on
 and this project adheres to
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [4.15.0] – 2023-04-27
+
+### Changed
+
+- Translation updates for ISO 3166-1
+- Translation updates for ISO 3166-3
+- Translation updates for ISO 639-2
+
+
 ## [4.14.0] – 2023-04-27
 
 ### Changed
@@ -296,7 +305,8 @@ please switch to the JSON data files.**
   two and a half years. Please use the JSON data files instead.
 
 
-[UNRELEASED]: https://salsa.debian.org/iso-codes-team/iso-codes/compare/v4.14.0...main
+[UNRELEASED]: https://salsa.debian.org/iso-codes-team/iso-codes/compare/v4.15.0...main
+[4.15.0]: https://salsa.debian.org/iso-codes-team/iso-codes/compare/v4.14.0...v4.15.0
 [4.14.0]: https://salsa.debian.org/iso-codes-team/iso-codes/compare/v4.13.0...v4.14.0
 [4.13.0]: https://salsa.debian.org/iso-codes-team/iso-codes/compare/v4.12.0...v4.13.0
 [4.12.0]: https://salsa.debian.org/iso-codes-team/iso-codes/compare/v4.11.0...v4.12.0
