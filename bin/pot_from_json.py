@@ -56,6 +56,7 @@ if domain == "iso_3166-2":
 with open(datapath + "/" + domain + ".json", encoding="utf-8") as json_file:
     iso = json.load(json_file)
 
+
 # Helper function for keeping track of msgids and comments
 # This is needed to ensure that no msgid is repeated, but
 # instead the comments are joined. (ISO 3166-2 is an example.)
@@ -66,9 +67,10 @@ def add_msgid(name, comment):
         data["comment"].append(comment)
         sorted_data[msgids[name]] = data
     else:
-        sorted_data.append({'msgid': name, 'comment': [comment]})
+        sorted_data.append({"msgid": name, "comment": [comment]})
         # Store the index of the newly added msgid
         msgids[name] = len(sorted_data) - 1
+
 
 # Collect all msgids with their comments
 msgids = {}
@@ -88,25 +90,29 @@ with open(domain + ".pot", "w", encoding="utf-8") as pot_file:
     pot_file.write("# Translation of ISO " + iso_number + " to LANGUAGE\n")
     pot_file.write("# " + description[domain] + "\n")
     pot_file.write("#\n")
-    pot_file.write("# This file is distributed under the same license as the iso-codes package.\n")
+    pot_file.write(
+        "# This file is distributed under the same license as the iso-codes package.\n"
+    )
     pot_file.write("#\n")
     pot_file.write("# Copyright ©\n")
     pot_file.write("# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.\n")
     pot_file.write("#\n")
-    pot_file.write("msgid \"\"\n")
-    pot_file.write("msgstr \"\"\n")
-    pot_file.write("\"Project-Id-Version: " + domain + "\\n\"\n")
-    pot_file.write("\"Report-Msgid-Bugs-To: https://salsa.debian.org/iso-codes-team/iso-codes/issues\\n\"\n")
-    pot_file.write("\"POT-Creation-Date: " + time.strftime('%F %H:%M%z') + "\\n\"\n")
-    pot_file.write("\"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\n\"\n")
-    pot_file.write("\"Last-Translator: FULL NAME <EMAIL@ADDRESS>\\n\"\n")
-    pot_file.write("\"Language-Team: LANGUAGE <LL@li.org>\\n\"\n")
-    pot_file.write("\"MIME-Version: 1.0\\n\"\n")
-    pot_file.write("\"Content-Type: text/plain; charset=UTF-8\\n\"\n")
-    pot_file.write("\"Content-Transfer-Encoding: 8bit\\n\"")
+    pot_file.write('msgid ""\n')
+    pot_file.write('msgstr ""\n')
+    pot_file.write('"Project-Id-Version: ' + domain + '\\n"\n')
+    pot_file.write(
+        '"Report-Msgid-Bugs-To: https://salsa.debian.org/iso-codes-team/iso-codes/issues\\n"\n'
+    )
+    pot_file.write('"POT-Creation-Date: ' + time.strftime("%F %H:%M%z") + '\\n"\n')
+    pot_file.write('"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\n"\n')
+    pot_file.write('"Last-Translator: FULL NAME <EMAIL@ADDRESS>\\n"\n')
+    pot_file.write('"Language-Team: LANGUAGE <LL@li.org>\\n"\n')
+    pot_file.write('"MIME-Version: 1.0\\n"\n')
+    pot_file.write('"Content-Type: text/plain; charset=UTF-8\\n"\n')
+    pot_file.write('"Content-Transfer-Encoding: 8bit\\n"')
     # Write the data
     for msgid in sorted_data:
         pot_file.write("\n\n#. " + ", ".join(msgid["comment"]) + "\n")
-        pot_file.write("msgid \"" + msgid["msgid"] + "\"\n")
-        pot_file.write("msgstr \"\"")
+        pot_file.write('msgid "' + msgid["msgid"] + '"\n')
+        pot_file.write('msgstr ""')
     pot_file.write("\n")

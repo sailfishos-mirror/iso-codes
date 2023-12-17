@@ -23,7 +23,9 @@ import sys
 
 # Get the current ISO code domain, the path to the JSON data dir, and the XML output file
 if len(sys.argv) != 4:
-    sys.exit("Please provide the domain, the path to the JSON data dir, and the XML output file.")
+    sys.exit(
+        "Please provide the domain, the path to the JSON data dir, and the XML output file."
+    )
 domain = sys.argv[1]
 datapath = sys.argv[2]
 xml_file = sys.argv[3]
@@ -389,12 +391,13 @@ Source: <http://www.bsi-global.com/en/Standards-and-Publications/Industry-Sector
 """,
 }
 
+
 def get_iso_entries(standard):
-    """ Return all entries from the given standard
-    """
+    """Return all entries from the given standard"""
     with open(datapath + "/iso_" + standard + ".json", encoding="utf-8") as input_file:
         iso = json.load(input_file)
         return iso[standard]
+
 
 # Create the output file
 with open(xml_file, "w", encoding="utf-8") as outfile:
@@ -408,15 +411,15 @@ with open(xml_file, "w", encoding="utf-8") as outfile:
         for entry in get_iso_entries("639-2"):
             outfile.write("\t<iso_639_entry\n")
             if "bibliographic" in entry:
-                outfile.write("\t\tiso_639_2B_code=\"" + entry["bibliographic"] + "\"\n")
+                outfile.write('\t\tiso_639_2B_code="' + entry["bibliographic"] + '"\n')
             else:
-                outfile.write("\t\tiso_639_2B_code=\"" + entry["alpha_3"] + "\"\n")
-            outfile.write("\t\tiso_639_2T_code=\"" + entry["alpha_3"] + "\"\n")
+                outfile.write('\t\tiso_639_2B_code="' + entry["alpha_3"] + '"\n')
+            outfile.write('\t\tiso_639_2T_code="' + entry["alpha_3"] + '"\n')
             if "alpha_2" in entry:
-                outfile.write("\t\tiso_639_1_code=\"" + entry["alpha_2"] + "\"\n")
-            outfile.write("\t\tname=\"" + entry["name"] + "\"")
+                outfile.write('\t\tiso_639_1_code="' + entry["alpha_2"] + '"\n')
+            outfile.write('\t\tname="' + entry["name"] + '"')
             if "common_name" in entry:
-                outfile.write("\n\t\tcommon_name=\"" + entry["common_name"] + "\"")
+                outfile.write('\n\t\tcommon_name="' + entry["common_name"] + '"')
             outfile.write(" />\n")
         outfile.write("</iso_639_entries>\n")
     #
@@ -428,27 +431,27 @@ with open(xml_file, "w", encoding="utf-8") as outfile:
         outfile.write("<iso_639_3_entries>\n")
         for entry in get_iso_entries("639-3"):
             outfile.write("\t<iso_639_3_entry\n")
-            outfile.write("\t\tid=\"" + entry["alpha_3"] + "\"\n")
+            outfile.write('\t\tid="' + entry["alpha_3"] + '"\n')
             if "alpha_2" in entry:
-                outfile.write("\t\tpart1_code=\"" + entry["alpha_2"] + "\"\n")
+                outfile.write('\t\tpart1_code="' + entry["alpha_2"] + '"\n')
             if "bibliographic" in entry:
-                outfile.write("\t\tpart2_code=\"" + entry["bibliographic"] + "\"\n")
+                outfile.write('\t\tpart2_code="' + entry["bibliographic"] + '"\n')
             # Special case for lcq, which is the only entry with status "Retired"
             if entry["alpha_3"] == "lcq":
-                outfile.write("\t\tstatus=\"Retired\"\n")
+                outfile.write('\t\tstatus="Retired"\n')
             else:
-                outfile.write("\t\tstatus=\"Active\"\n")
-            outfile.write("\t\tscope=\"" + entry["scope"] + "\"\n")
-            outfile.write("\t\ttype=\"" + entry["type"] + "\"\n")
+                outfile.write('\t\tstatus="Active"\n')
+            outfile.write('\t\tscope="' + entry["scope"] + '"\n')
+            outfile.write('\t\ttype="' + entry["type"] + '"\n')
             if "inverted_name" in entry:
-                outfile.write("\t\tinverted_name=\"" + entry["inverted_name"] + "\"\n")
-            outfile.write("\t\treference_name=\"" + entry["name"] + "\"\n")
+                outfile.write('\t\tinverted_name="' + entry["inverted_name"] + '"\n')
+            outfile.write('\t\treference_name="' + entry["name"] + '"\n')
             if "common_name" in entry:
-                outfile.write("\t\tcommon_name=\"" + entry["common_name"] + "\"\n")
+                outfile.write('\t\tcommon_name="' + entry["common_name"] + '"\n')
             if "inverted_name" in entry:
-                outfile.write("\t\tname=\"" + entry["inverted_name"] + "\"")
+                outfile.write('\t\tname="' + entry["inverted_name"] + '"')
             else:
-                outfile.write("\t\tname=\"" + entry["name"] + "\"")
+                outfile.write('\t\tname="' + entry["name"] + '"')
             outfile.write(" />\n")
         outfile.write("</iso_639_3_entries>\n")
     #
@@ -460,8 +463,8 @@ with open(xml_file, "w", encoding="utf-8") as outfile:
         outfile.write("<iso_639_5_entries>\n")
         for entry in get_iso_entries("639-5"):
             outfile.write("\t<iso_639_5_entry\n")
-            outfile.write("\t\tid=\"" + entry["alpha_3"] + "\"\n")
-            outfile.write("\t\tname=\"" + entry["name"] + "\"")
+            outfile.write('\t\tid="' + entry["alpha_3"] + '"\n')
+            outfile.write('\t\tname="' + entry["name"] + '"')
             outfile.write(" />\n")
         outfile.write("</iso_639_5_entries>\n")
     #
@@ -473,26 +476,26 @@ with open(xml_file, "w", encoding="utf-8") as outfile:
         outfile.write("<iso_3166_entries>\n")
         for entry in get_iso_entries("3166-1"):
             outfile.write("\t<iso_3166_entry\n")
-            outfile.write("\t\talpha_2_code=\"" + entry["alpha_2"] + "\"\n")
-            outfile.write("\t\talpha_3_code=\"" + entry["alpha_3"] + "\"\n")
-            outfile.write("\t\tnumeric_code=\"" + entry["numeric"] + "\"\n")
+            outfile.write('\t\talpha_2_code="' + entry["alpha_2"] + '"\n')
+            outfile.write('\t\talpha_3_code="' + entry["alpha_3"] + '"\n')
+            outfile.write('\t\tnumeric_code="' + entry["numeric"] + '"\n')
             if "common_name" in entry:
-                outfile.write("\t\tcommon_name=\"" + entry["common_name"] + "\"\n")
-            outfile.write("\t\tname=\"" + entry["name"] + "\"")
+                outfile.write('\t\tcommon_name="' + entry["common_name"] + '"\n')
+            outfile.write('\t\tname="' + entry["name"] + '"')
             if "official_name" in entry:
-                outfile.write("\n\t\tofficial_name=\"" + entry["official_name"] + "\"")
+                outfile.write('\n\t\tofficial_name="' + entry["official_name"] + '"')
             outfile.write(" />\n")
         for entry in get_iso_entries("3166-3"):
             outfile.write("\t<iso_3166_3_entry\n")
-            outfile.write("\t\talpha_4_code=\"" + entry["alpha_4"] + "\"\n")
-            outfile.write("\t\talpha_3_code=\"" + entry["alpha_3"] + "\"\n")
+            outfile.write('\t\talpha_4_code="' + entry["alpha_4"] + '"\n')
+            outfile.write('\t\talpha_3_code="' + entry["alpha_3"] + '"\n')
             if "numeric" in entry:
-                outfile.write("\t\tnumeric_code=\"" + entry["numeric"] + "\"\n")
+                outfile.write('\t\tnumeric_code="' + entry["numeric"] + '"\n')
             if "withdrawal_date" in entry:
-                outfile.write("\t\tdate_withdrawn=\"" + entry["withdrawal_date"] + "\"\n")
-            outfile.write("\t\tnames=\"" + entry["name"] + "\"")
+                outfile.write('\t\tdate_withdrawn="' + entry["withdrawal_date"] + '"\n')
+            outfile.write('\t\tnames="' + entry["name"] + '"')
             if "comment" in entry:
-                outfile.write("\n\t\tcomment=\"" + entry["comment"] + "\"")
+                outfile.write('\n\t\tcomment="' + entry["comment"] + '"')
             outfile.write(" />\n")
         outfile.write("</iso_3166_entries>\n")
     #
@@ -510,14 +513,22 @@ with open(xml_file, "w", encoding="utf-8") as outfile:
             if last_country_code != country_code:
                 # Write out if subsets are filled
                 if len(subsets) > 0:
-                    outfile.write("<iso_3166_country code=\"" + last_country_code + "\">\n")
+                    outfile.write(
+                        '<iso_3166_country code="' + last_country_code + '">\n'
+                    )
                     for subset in sorted(subsets):
-                        outfile.write("<iso_3166_subset type=\"" + subset + "\">\n")
+                        outfile.write('<iso_3166_subset type="' + subset + '">\n')
                         for item in subsets[subset]:
                             outfile.write("\t<iso_3166_2_entry\n")
-                            outfile.write("\t\tcode=\"" + item["code"] + "\"\tname=\"" + item["name"] + "\"")
+                            outfile.write(
+                                '\t\tcode="'
+                                + item["code"]
+                                + '"\tname="'
+                                + item["name"]
+                                + '"'
+                            )
                             if "parent" in item:
-                                outfile.write("\tparent=\"" + item["parent"] + "\"")
+                                outfile.write('\tparent="' + item["parent"] + '"')
                             outfile.write(" />\n")
                         outfile.write("</iso_3166_subset>\n")
                     outfile.write("</iso_3166_country>\n")
@@ -538,9 +549,9 @@ with open(xml_file, "w", encoding="utf-8") as outfile:
         outfile.write("<iso_15924_entries>\n")
         for entry in get_iso_entries("15924"):
             outfile.write("\t<iso_15924_entry\n")
-            outfile.write("\t\talpha_4_code=\"" + entry["alpha_4"] + "\"\n")
-            outfile.write("\t\tnumeric_code=\"" + entry["numeric"] + "\"\n")
-            outfile.write("\t\tname=\"" + entry["name"] + "\"")
+            outfile.write('\t\talpha_4_code="' + entry["alpha_4"] + '"\n')
+            outfile.write('\t\tnumeric_code="' + entry["numeric"] + '"\n')
+            outfile.write('\t\tname="' + entry["name"] + '"')
             outfile.write(" />\n")
         outfile.write("</iso_15924_entries>\n")
     #
@@ -552,14 +563,15 @@ with open(xml_file, "w", encoding="utf-8") as outfile:
         outfile.write("<iso_4217_entries>\n")
         for entry in get_iso_entries("4217"):
             outfile.write("\t<iso_4217_entry\n")
-            outfile.write("\t\tletter_code=\"" + entry["alpha_3"] + "\"\n")
+            outfile.write('\t\tletter_code="' + entry["alpha_3"] + '"\n')
             if "numeric" in entry:
-                outfile.write("\t\tnumeric_code=\"" + entry["numeric"] + "\"\n")
-            outfile.write("\t\tcurrency_name=\"" + entry["name"] + "\"")
+                outfile.write('\t\tnumeric_code="' + entry["numeric"] + '"\n')
+            outfile.write('\t\tcurrency_name="' + entry["name"] + '"')
             outfile.write(" />\n")
         # Insert the obsolete historic entries, which are no
         # longer included in the JSON data files.
-        outfile.write("""	<historic_iso_4217_entry
+        outfile.write(
+            """	<historic_iso_4217_entry
 		letter_code="ADP"
 		numeric_code="020"
 		currency_name="Andorran Peseta"
@@ -1036,5 +1048,6 @@ with open(xml_file, "w", encoding="utf-8") as outfile:
 		numeric_code="180"
 		currency_name="Zaire"
 		date_withdrawn="1994-02" />
-""")
+"""
+        )
         outfile.write("</iso_4217_entries>\n")

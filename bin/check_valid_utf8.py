@@ -40,11 +40,14 @@ for filename in sys.argv:
             try:
                 utf8 = line.decode(encoding="utf-8", errors="strict")
             except UnicodeError as error:
-                print("UTF-8 encoding error in file %s: %s (position %d)" % (filename, error.reason, error.start))
+                print(
+                    "UTF-8 encoding error in file %s: %s (position %d)"
+                    % (filename, error.reason, error.start)
+                )
                 print("Binary data: %s" % line)
                 exit_status = 1
                 break
-            if re.search(r'Content-Type: text/plain; charset=UTF-8', utf8):
+            if re.search(r"Content-Type: text/plain; charset=UTF-8", utf8):
                 charset_utf8_seen = True
         # The whole file has been read, the content type should have
         # been detected now. Otherwise, it's an error.
