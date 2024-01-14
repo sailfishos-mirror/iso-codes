@@ -7,6 +7,35 @@ The format is based on
 and this project adheres to
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+
+## [4.16.0] – 2024-01-14
+
+### Added
+
+- Include a check to prevent multiple entries with the same keys
+  in 'bin/validate_json_data.py'
+- Reuse translations from ISO 639-2 for ISO 639-5
+
+### Changed
+
+- Rename nb.po to nb_NO.po
+- Rename mo.po to ro_MD.po
+- Translation updates for ISO 3166-1
+- Translation updates for ISO 3166-2
+- Translation updates for ISO 3166-3
+- Translation updates for ISO 639-2
+- Translation updates for ISO 639-3
+- Translation updates for ISO 639-5
+- Translation updates for ISO 4217
+- Translation updates for ISO 15924
+- Reformat python files with black
+
+### Fixed
+
+- Fix: always use country code for parent in ISO 3166-2
+- ISO 3166-2: Fix subdivision names for Finland. Fixes #37
+
+
 ## [4.15.0] – 2023-04-27
 
 ### Changed
@@ -305,7 +334,8 @@ please switch to the JSON data files.**
   two and a half years. Please use the JSON data files instead.
 
 
-[UNRELEASED]: https://salsa.debian.org/iso-codes-team/iso-codes/compare/v4.15.0...main
+[UNRELEASED]: https://salsa.debian.org/iso-codes-team/iso-codes/compare/v4.16.0...main
+[4.16.0]: https://salsa.debian.org/iso-codes-team/iso-codes/compare/v4.15.0...v4.16.0
 [4.15.0]: https://salsa.debian.org/iso-codes-team/iso-codes/compare/v4.14.0...v4.15.0
 [4.14.0]: https://salsa.debian.org/iso-codes-team/iso-codes/compare/v4.13.0...v4.14.0
 [4.13.0]: https://salsa.debian.org/iso-codes-team/iso-codes/compare/v4.12.0...v4.13.0
