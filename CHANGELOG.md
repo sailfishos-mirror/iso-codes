@@ -8,6 +8,26 @@ and this project adheres to
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [4.17.0] – 2024-09-13
+
+### Changed
+
+* Translation updates for ISO 3166-1
+* Translation updates for ISO 3166-2
+* Translation updates for ISO 3166-3
+* Translation updates for ISO 639-2
+* Translation updates for ISO 639-3
+* Translation updates for ISO 639-5
+* Translation updates for ISO 4217
+* Translation updates for ISO 15924
+
+### Fixed
+
+* Add letter 'g' to conversion script for Tatar
+* Regenerate cyrillic Tatar from latin Tatar
+* Update Romanian translation and remove most pre- and suffixes
+
+
 ## [4.16.0] – 2024-01-14
 
 ### Added
@@ -334,7 +354,8 @@ please switch to the JSON data files.**
   two and a half years. Please use the JSON data files instead.
 
 
-[UNRELEASED]: https://salsa.debian.org/iso-codes-team/iso-codes/compare/v4.16.0...main
+[UNRELEASED]: https://salsa.debian.org/iso-codes-team/iso-codes/compare/v4.17.0...main
+[4.17.0]: https://salsa.debian.org/iso-codes-team/iso-codes/compare/v4.16.0...v4.17.0
 [4.16.0]: https://salsa.debian.org/iso-codes-team/iso-codes/compare/v4.15.0...v4.16.0
 [4.15.0]: https://salsa.debian.org/iso-codes-team/iso-codes/compare/v4.14.0...v4.15.0
 [4.14.0]: https://salsa.debian.org/iso-codes-team/iso-codes/compare/v4.13.0...v4.14.0

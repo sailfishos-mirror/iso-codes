@@ -1,7 +1,7 @@
 # Process this file with autoconf to produce a configure script.
 #
 # Copyright © 2003-2004 Christian Persch
-# Copyright © 2006-2022 Dr. Tobias Quathamer
+# Copyright © 2006-2024 Dr. Tobias Quathamer
 #
 # This file is part of iso-codes.
 #
@@ -19,7 +19,7 @@
 # with this program; if not, write to the Free Software Foundation, Inc.,
 # 59 Temple Place, Suite 330, Boston, MA 02111-1307  USA
 
-AC_INIT([iso-codes],[4.16.0])
+AC_INIT([iso-codes],[4.17.0])
 
 AM_INIT_AUTOMAKE([dist-xz no-dist-gzip foreign])
 AM_MAINTAINER_MODE
