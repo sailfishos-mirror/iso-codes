@@ -20,6 +20,8 @@ s/V/В/g
 s/v/в/g
 s/Ğ/Г/g
 s/ğ/г/g
+s/G/Г/g
+s/g/г/g
 s/D/Д/g
 s/d/д/g
 s/E/Е/g
