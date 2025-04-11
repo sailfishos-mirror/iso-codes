@@ -15,8 +15,8 @@
 # Lesser General Public License for more details.
 #
 # You should have received a copy of the GNU Lesser General Public
-# License along with this program; if not, write to the Free Software
-# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+# License along with this program.
+# If not, see https://www.gnu.org/licenses/.
 
 import json
 import sys
@@ -62,8 +62,8 @@ Copyright (C) 2005-2008 Tobias Quathamer <toddy@debian.org>
     Lesser General Public License for more details.
 
     You should have received a copy of the GNU Lesser General Public
-    License along with this file; if not, write to the Free Software
-    Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+    License along with this program.
+    If not, see https://www.gnu.org/licenses/.
 
 Source: <http://www.loc.gov/standards/iso639-2/>
 -->
@@ -107,8 +107,8 @@ Copyright © 2008,2012,2013 Tobias Quathamer <toddy@debian.org>
     Lesser General Public License for more details.
 
     You should have received a copy of the GNU Lesser General Public
-    License along with this file; if not, write to the Free Software
-    Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+    License along with this program.
+    If not, see https://www.gnu.org/licenses/.
 
 Source: <http://www.sil.org/iso639-3/>
 -->
@@ -156,8 +156,8 @@ Copyright © 2014 Pander <pander@opentaal.org>
     Lesser General Public License for more details.
 
     You should have received a copy of the GNU Lesser General Public
-    License along with this file; if not, write to the Free Software
-    Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+    License along with this program.
+    If not, see https://www.gnu.org/licenses/.
 
 Source: <http://www.loc.gov/standards/iso639-5/>
 -->
@@ -201,8 +201,8 @@ Copyright (C) 2005, 2006, 2007 Tobias Quathamer <toddy@debian.org>
     Lesser General Public License for more details.
 
     You should have received a copy of the GNU Lesser General Public
-    License along with this file; if not, write to the Free Software
-    Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+    License along with this program.
+    If not, see https://www.gnu.org/licenses/.
 
 Source: <http://www.iso.org/iso/country_codes>
 -->
@@ -268,8 +268,8 @@ Copyright (C) 2007-2010 Alexis Darrasse <alexis@ortsa.com>
     Lesser General Public License for more details.
 
     You should have received a copy of the GNU Lesser General Public
-    License along with this file; if not, write to the Free Software
-    Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+    License along with this program.
+    If not, see https://www.gnu.org/licenses/.
 
 Source: <http://www.iso.org/iso/country_codes/background_on_iso_3166/iso_3166-2.htm>
 -->
@@ -321,8 +321,8 @@ Copyright (C) 2007 Tobias Quathamer <toddy@debian.org>
     Lesser General Public License for more details.
 
     You should have received a copy of the GNU Lesser General Public
-    License along with this file; if not, write to the Free Software
-    Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+    License along with this program.
+    If not, see https://www.gnu.org/licenses/.
 
 Source: <http://unicode.org/iso15924/>
 Source for changes: <http://unicode.org/iso15924/codechanges.html>
@@ -366,8 +366,8 @@ Copyright (C) 2007 Christian Perrier <bubulle@debian.org>
     Lesser General Public License for more details.
 
     You should have received a copy of the GNU Lesser General Public
-    License along with this file; if not, write to the Free Software
-    Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+    License along with this program.
+    If not, see https://www.gnu.org/licenses/.
 
 Source: <http://www.bsi-global.com/en/Standards-and-Publications/Industry-Sectors/Services/BSI-Currency-Code-Service/>
 -->
