@@ -9,13 +9,13 @@
 # the following logic
 # .
 # 1) Take the Swedish terms from
-# 	 http://www.kb.se/katalogisering/Formathandboken/Sprakkoder/Sprakkoder/
+# http://www.kb.se/katalogisering/Formathandboken/Sprakkoder/Sprakkoder/
 # .
 # 2) If not in 1) search for the English term on Wikipedia, see if there's a
-# 	Swedish post, if so, use that
+# Swedish post, if so, use that
 # .
 # 3) Nothing at all found, just use the original term (Check back
-# 	in a few years again to check if there's a Swedish term available).
+# in a few years again to check if there's a Swedish term available).
 # .
 # Please note that many common language names in Swedish as a general rule
 # usually end in "ska". Nationality adjectives on the other hand usually end
@@ -33,14 +33,15 @@
 # Copyright ©
 # Christian Rose <menthos@menthos.com>, 2004.
 # Josef Andersson <josef.andersson@fripost.org>, 2017.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_639-3\n"
 "Report-Msgid-Bugs-To: https://salsa.debian.org/iso-codes-team/iso-codes/"
 "issues\n"
 "POT-Creation-Date: 2025-10-13 22:49+0200\n"
-"PO-Revision-Date: 2018-05-11 20:15+0000\n"
-"Last-Translator: Sebastian Rasmussen <sebras@gmail.com>\n"
+"PO-Revision-Date: 2025-10-14 21:22+0000\n"
+"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/iso-codes/"
 "iso-639-3/sv/>\n"
 "Language: sv\n"
@@ -48,7 +49,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.0-dev\n"
+"X-Generator: Weblate 5.14-dev\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
 
 #. Name for aaa
@@ -1490,24 +1491,20 @@ msgid "Sa'a"
 msgstr "Sa'a"
 
 #. Name for apc
-#, fuzzy
-#| msgid "South Levantine Arabic"
 msgid "Levantine Arabic"
-msgstr "Nordlevantinsk arabiska"
+msgstr "Levantinsk arabiska"
 
 #. Inverted name for apc
-#, fuzzy
-#| msgid "Arabic, South Levantine"
 msgid "Arabic, Levantine"
-msgstr "Arabic, South Levantine"
+msgstr "Arabiska, sydlevantinsk"
 
 #. Name for apd
 msgid "Sudanese Arabic"
-msgstr "Sudanese Arabic"
+msgstr "Sudanesisk arabiska"
 
 #. Inverted name for apd
 msgid "Arabic, Sudanese"
-msgstr "Arabic, Sudanese"
+msgstr "Arabiska, sudanesisk"
 
 #. Name for ape
 msgid "Bukiyip"
