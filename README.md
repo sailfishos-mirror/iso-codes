@@ -181,7 +181,7 @@ This lists the language scripts names. The official ISO 15924
 maintenance agency is the Unicode Consortium. The gettext
 domain is "iso_15924".
 
-<http://unicode.org/iso15924/>
+<https://www.unicode.org/iso15924/iso15924.txt>
 
 
 # Tracking updates to the various ISO standards
