@@ -169,10 +169,10 @@ maintenance agency is ISO. The gettext domain is "iso_3166-3".
 ## ISO 4217
 
 This lists the currency codes and names. The official ISO 4217
-maintenance agency is the Swiss Association for Standardization.
+Secretariat of the Maintenance Agency is SIX.
 The gettext domain is "iso_4217".
 
-<http://www.currency-iso.org/en/home.html>
+<https://www.six-group.com/en/products-services/financial-information/market-reference-data/data-standards.html>
 
 
 ## ISO 15924

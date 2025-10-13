@@ -13,6 +13,7 @@ and this project adheres to
 ### Changed
 
 * ISO 4217: Update data
+* README: Update websites of data sources
 
 ## [4.18.0] – 2025-04-11
 
