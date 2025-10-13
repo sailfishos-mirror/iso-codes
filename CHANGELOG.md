@@ -8,6 +8,12 @@ and this project adheres to
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [UNRELEASED]
+
+### Changed
+
+* ISO 4217: Update data
+
 ## [4.18.0] – 2025-04-11
 
 ### Changed
