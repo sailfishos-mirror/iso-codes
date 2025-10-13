@@ -13,6 +13,7 @@ and this project adheres to
 ### Changed
 
 * ISO 639-2: Update data
+* ISO 639-3: Update data. Fixes #51
 * ISO 3166-2: Update data
 * ISO 4217: Update data
 * ISO 15924: Update data
