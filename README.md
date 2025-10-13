@@ -112,7 +112,7 @@ This lists the 2-letter and 3-letter language codes and language
 names. The official ISO 639-2 maintenance agency is the Library of
 Congress. The gettext domain is "iso_639-2".
 
-<http://www.loc.gov/standards/iso639-2/>
+<https://www.loc.gov/standards/iso639-2/>
 
 
 ## ISO 639-3
@@ -125,7 +125,7 @@ whether major or minor, written or unwritten. The gettext
 domain is "iso_639-3". The official ISO 639-3 maintenance agency
 is SIL International.
 
-<http://www.sil.org/iso639-3/>
+<https://www.sil.org/iso639-3/>
 
 
 ## ISO 639-5
@@ -134,7 +134,7 @@ This standard is highly incomplete list of alpha-3 codes
 for language families and groups. The official ISO 639-5 maintenance
 agency is the Library of Congress. The gettext domain is "iso_639-5".
 
-<http://www.loc.gov/standards/iso639-5/>
+<https://www.loc.gov/standards/iso639-5/>
 
 
 ## ISO 3166-1
@@ -143,7 +143,7 @@ This lists the 2-letter country code and "short" country name. The
 official ISO 3166-1 maintenance agency is ISO. The gettext domain is
 "iso_3166-1".
 
-<http://www.iso.org/iso/country_codes>
+<https://www.iso.org/iso/country_codes>
 
 
 ## ISO 3166-2
@@ -154,7 +154,7 @@ subdivisions of the countries coded in ISO 3166. The official
 ISO 3166-2 maintenance agency is ISO. The gettext domain is
 "iso_3166-2".
 
-<http://www.iso.org/iso/country_codes>
+<https://www.iso.org/iso/country_codes>
 
 
 ## ISO 3166-3
@@ -163,7 +163,7 @@ The ISO 3166-3 standard defines codes for country names which
 have been removed from ISO 3166-1. The official ISO 3166-3
 maintenance agency is ISO. The gettext domain is "iso_3166-3".
 
-<http://www.iso.org/iso/country_codes>
+<https://www.iso.org/iso/country_codes>
 
 
 ## ISO 4217
