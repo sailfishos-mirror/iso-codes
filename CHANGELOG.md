@@ -12,6 +12,7 @@ and this project adheres to
 
 ### Changed
 
+* ISO 3166-2: Update data
 * ISO 4217: Update data
 * ISO 15924: Update data
 * README: Update websites of data sources
