@@ -5,14 +5,14 @@
 # .
 # Copyright ©
 # Maxim V. Dziumanenko <dziumanenko@gmail.com>, 2010.
-# Yuri Chornoivan <yurchor@ukr.net>, 2010, 2015, 2017, 2020, 2022.
+# Yuri Chornoivan <yurchor@ukr.net>, 2010, 2015, 2017, 2020, 2022, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_4217\n"
 "Report-Msgid-Bugs-To: https://salsa.debian.org/iso-codes-team/iso-codes/"
 "issues\n"
 "POT-Creation-Date: 2025-10-13 19:11+0200\n"
-"PO-Revision-Date: 2022-06-02 18:17+0000\n"
+"PO-Revision-Date: 2025-10-14 21:22+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/iso-codes/"
 "iso-4217/uk/>\n"
@@ -20,9 +20,10 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.13-dev\n"
+"Plural-Forms: nplurals=3; plural="
+"(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? "
+"1 : 2);\n"
+"X-Generator: Weblate 5.14-dev\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
 
 #. Name for AED
@@ -646,10 +647,8 @@ msgid "Tala"
 msgstr "Тала"
 
 #. Name for XAD
-#, fuzzy
-#| msgid "Jordanian Dinar"
 msgid "Arab Accounting Dinar"
-msgstr "Йорданський динар"
+msgstr "Арабський обліковий динар"
 
 #. Name for XAF
 msgid "CFA Franc BEAC"
@@ -684,10 +683,8 @@ msgid "East Caribbean Dollar"
 msgstr "Східно-карибський долар"
 
 #. Name for XCG
-#, fuzzy
-#| msgid "East Caribbean Dollar"
 msgid "Caribbean Guilder"
-msgstr "Східно-карибський долар"
+msgstr "Карибський гульден"
 
 #. Name for XDR
 msgid "SDR (Special Drawing Right)"
@@ -738,7 +735,5 @@ msgid "Zambian Kwacha"
 msgstr "Замбійська квача"
 
 #. Name for ZWG
-#, fuzzy
-#| msgid "Zimbabwe Dollar"
 msgid "Zimbabwe Gold"
-msgstr "Долар Зімбабве"
+msgstr "Золотий Зімбабве"
