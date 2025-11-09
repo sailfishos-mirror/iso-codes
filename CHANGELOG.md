@@ -8,7 +8,7 @@ and this project adheres to
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
-## [UNRELEASED]
+## [4.19.0] – 2025-11-09
 
 ### Changed
 
@@ -18,6 +18,15 @@ and this project adheres to
 * ISO 4217: Update data
 * ISO 15924: Update data
 * README: Update websites of data sources
+* Translation updates for ISO 3166-1
+* Translation updates for ISO 3166-2
+* Translation updates for ISO 3166-3
+* Translation updates for ISO 639-2
+* Translation updates for ISO 639-3
+* Translation updates for ISO 639-5
+* Translation updates for ISO 4217
+* Translation updates for ISO 15924
+
 
 ## [4.18.0] – 2025-04-11
 
@@ -384,7 +393,8 @@ please switch to the JSON data files.**
   two and a half years. Please use the JSON data files instead.
 
 
-[UNRELEASED]: https://salsa.debian.org/iso-codes-team/iso-codes/compare/v4.18.0...main
+[UNRELEASED]: https://salsa.debian.org/iso-codes-team/iso-codes/compare/v4.19.0...main
+[4.19.0]: https://salsa.debian.org/iso-codes-team/iso-codes/compare/v4.18.0...v4.19.0
 [4.18.0]: https://salsa.debian.org/iso-codes-team/iso-codes/compare/v4.17.0...v4.18.0
 [4.17.0]: https://salsa.debian.org/iso-codes-team/iso-codes/compare/v4.16.0...v4.17.0
 [4.16.0]: https://salsa.debian.org/iso-codes-team/iso-codes/compare/v4.15.0...v4.16.0
