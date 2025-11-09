@@ -20,11 +20,11 @@ MOSTLYCLEANFILES = \
 	$(MSGFMT) $(MSGFMT_FLAGS) -o $@ $<
 
 # Generic target to create .pot files from JSON data files
-$(DOMAIN).pot: $(top_srcdir)/bin/pot_from_json.py $(top_srcdir)/data/$(DOMAIN).json $(top_srcdir)/bin/remove-potcdate.sin
+$(DOMAIN).pot: $(top_srcdir)/scripts/pot_from_json.py $(top_srcdir)/data/$(DOMAIN).json $(top_srcdir)/scripts/remove-potcdate.sin
 	cp $@ backup.pot
-	python3 $(top_srcdir)/bin/pot_from_json.py $(DOMAIN) $(top_srcdir)/data
-	sed -f $(top_srcdir)/bin/remove-potcdate.sin < $@ > $(DOMAIN).1po
-	sed -f $(top_srcdir)/bin/remove-potcdate.sin < backup.pot > $(DOMAIN).2po
+	python3 $(top_srcdir)/scripts/pot_from_json.py $(DOMAIN) $(top_srcdir)/data
+	sed -f $(top_srcdir)/scripts/remove-potcdate.sin < $@ > $(DOMAIN).1po
+	sed -f $(top_srcdir)/scripts/remove-potcdate.sin < backup.pot > $(DOMAIN).2po
 	if cmp $(DOMAIN).1po $(DOMAIN).2po >/dev/null 2>&1; then \
 		rm -f $(DOMAIN).1po $(DOMAIN).2po $@ && \
 		mv backup.pot $@; \
@@ -33,13 +33,13 @@ $(DOMAIN).pot: $(top_srcdir)/bin/pot_from_json.py $(top_srcdir)/data/$(DOMAIN).j
 	fi
 
 # Generic target to create deprecated .xml files from JSON data files
-$(DOMAIN).xml: $(top_srcdir)/bin/xml_from_json.py $(top_srcdir)/data/$(DOMAIN).json
-	python3 $(top_srcdir)/bin/xml_from_json.py $(DOMAIN) $(top_srcdir)/data $@
+$(DOMAIN).xml: $(top_srcdir)/scripts/xml_from_json.py $(top_srcdir)/data/$(DOMAIN).json
+	python3 $(top_srcdir)/scripts/xml_from_json.py $(DOMAIN) $(top_srcdir)/data $@
 
 # Used in the domain subdirectories for checking that
 # all .po files contain UTF-8 data
 check-local:
-	python3 $(top_srcdir)/bin/check_valid_utf8.py $(pofiles)
+	python3 $(top_srcdir)/scripts/check_valid_utf8.py $(pofiles)
 
 # This target merges all po files with the current pot file,
 # removes obsolete msgids and substitutes the Project-Id-Version
@@ -69,7 +69,7 @@ update-po:
 		sed -i -e 's/^\"Language: sr\\n\"/\"Language: sr@latin\\n\"/' sr@latin.po; \
 	fi
 	if [ -f tt@iqtelif.po ]; then \
-		$(MSGFILTER) --keep-header sed -f $(top_srcdir)/bin/recode-tt-cyrillic.sed < tt@iqtelif.po > tt.po; \
+		$(MSGFILTER) --keep-header sed -f $(top_srcdir)/scripts/recode-tt-cyrillic.sed < tt@iqtelif.po > tt.po; \
 		sed -i -e 's/^\"Language: tt@iqtelif\\n\"/\"Language: tt\\n\"/' tt.po; \
 	fi
 

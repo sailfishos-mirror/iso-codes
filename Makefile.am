@@ -7,11 +7,11 @@ pkgconfig_DATA = iso-codes.pc
 jsondir = $(pkgdatadir)/json
 dist_json_DATA = $(wildcard $(srcdir)/data/*.json)
 
-# Include the "bin" directory, the bootstrap script,
+# Include the "scripts" directory, the bootstrap script,
 # the common Makefile snippet
 # and the markdown documentation currently not handled
 # by automake
-EXTRA_DIST = bin bootstrap common.mk CHANGELOG.md CHANGELOG-PRE-4.0.md
+EXTRA_DIST = scripts bootstrap common.mk CHANGELOG.md CHANGELOG-PRE-4.0.md
 
 DISTCLEANFILES = $(pkgconfig_DATA)
 
