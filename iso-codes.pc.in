@@ -1,6 +1,15 @@
-prefix=@prefix@
+# SPDX-FileCopyrightText: 2004 Alastair McKinstry
+# SPDX-FileCopyrightText: 2008 Dr. Tobias Quathamer
+#
+# SPDX-License-Identifier: LGPL-2.1-or-later
+
+prefix=@PREFIX@
 domains=@DOMAINS@
 
 Name: iso-codes
-Description: ISO country, language, script and currency codes and translations
+Description: ISO country, language, script, currency codes, and translations
 Version: @VERSION@
+Copyright: 2004 iso-codes project authors
+License: LGPL-2.1-or-later
+Maintainer: Dr. Tobias Quathamer <toddy@debian.org>
+URL: https://salsa.debian.org/iso-codes-team/iso-codes
