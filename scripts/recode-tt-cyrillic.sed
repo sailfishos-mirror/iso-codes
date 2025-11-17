@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2013 Dr. Tobias Quathamer <toddy@debian.org>
+#
+# SPDX-License-Identifier: LGPL-2.1-or-later
+
 # Double characters
 s/Ya/Я/g
 s/ya/я/g

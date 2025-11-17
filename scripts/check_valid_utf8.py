@@ -1,35 +1,31 @@
 #!/usr/bin/env python3
-#
-# Takes a list of files on the command line and checks for valid
-# UTF-8 data. Used for checking .po files.
-#
-# Copyright © 2016 Dr. Tobias Quathamer <toddy@debian.org>
-#
-# This program is free software; you can redistribute it and/or
-# modify it under the terms of the GNU Lesser General Public
-# License as published by the Free Software Foundation; either
-# version 2.1 of the License, or (at your option) any later version.
-#
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
-# Lesser General Public License for more details.
-#
-# You should have received a copy of the GNU Lesser General Public
-# License along with this program.
-# If not, see https://www.gnu.org/licenses/.
 
+# SPDX-FileCopyrightText: 2016 Dr. Tobias Quathamer <toddy@debian.org>
+#
+# SPDX-License-Identifier: LGPL-2.1-or-later
+
+"""
+Takes a directory on the command line and checks for valid
+UTF-8 data in the .po files therein.
+"""
+
+import pathlib
 import re
 import sys
 
-# Remove the script name from the files to check
-sys.argv.pop(0)
+# Get the directory to check
+if len(sys.argv) != 2:
+    print("Error: Provide the directory to check.", file=sys.stderr)
+    sys.exit(1)
+directory = sys.argv[1]
 
 # Assume that every file is valid
 exit_status = 0
 
-# Cycle through all files and check for valid UTF-8 encoding
-for filename in sys.argv:
+po_files = [f for f in pathlib.Path().glob(directory + "*po")]
+
+# Cycle through all .po files to check for valid UTF-8 encoding
+for filename in po_files:
     # Open the file for reading in binary mode
     with open(filename, "rb") as pofile:
         # The "Content-Type" header has not been seen yet
@@ -41,10 +37,10 @@ for filename in sys.argv:
                 utf8 = line.decode(encoding="utf-8", errors="strict")
             except UnicodeError as error:
                 print(
-                    "UTF-8 encoding error in file %s: %s (position %d)"
-                    % (filename, error.reason, error.start)
+                    f"UTF-8 encoding error in file {filename}: {error.reason} (position {error.start})",
+                    file=sys.stderr,
                 )
-                print("Binary data: %s" % line)
+                print(f"Binary data: {line}", file=sys.stderr)
                 exit_status = 1
                 break
             if re.search(r"Content-Type: text/plain; charset=UTF-8", utf8):
@@ -52,7 +48,10 @@ for filename in sys.argv:
         # The whole file has been read, the content type should have
         # been detected now. Otherwise, it's an error.
         if not charset_utf8_seen:
-            print("Error in file %s: could not detect Content-Type header" % filename)
+            print(
+                f"Error in file {filename}: could not detect UTF-8 Content-Type header",
+                file=sys.stderr,
+            )
             exit_status = 1
             break
 

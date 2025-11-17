@@ -1,22 +1,12 @@
 #!/usr/bin/env python3
+
+# SPDX-FileCopyrightText: 2016 Dr. Tobias Quathamer <toddy@debian.org>
 #
-# Read the specified JSON file and generate the POT file.
-#
-# Copyright © 2016 Dr. Tobias Quathamer <toddy@debian.org>
-#
-# This program is free software; you can redistribute it and/or
-# modify it under the terms of the GNU Lesser General Public
-# License as published by the Free Software Foundation; either
-# version 2.1 of the License, or (at your option) any later version.
-#
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
-# Lesser General Public License for more details.
-#
-# You should have received a copy of the GNU Lesser General Public
-# License along with this program.
-# If not, see https://www.gnu.org/licenses/.
+# SPDX-License-Identifier: LGPL-2.1-or-later
+
+"""
+Read the specified JSON file and generate the POT file.
+"""
 
 import json
 import sys
@@ -53,7 +43,7 @@ if domain == "iso_3166-2":
     comment = "code"
 
 # Read in the JSON file
-with open(datapath + "/" + domain + ".json", encoding="utf-8") as json_file:
+with open(datapath + "/data/" + domain + ".json", encoding="utf-8") as json_file:
     iso = json.load(json_file)
 
 
@@ -85,7 +75,9 @@ for item in iso[iso_number]:
         add_msgid(item["inverted_name"], "Inverted name for " + item[comment])
 
 # Write the POT file
-with open(domain + ".pot", "w", encoding="utf-8") as pot_file:
+with open(
+    datapath + "/" + domain + "/" + domain + ".pot", "w", encoding="utf-8"
+) as pot_file:
     # Write the header
     pot_file.write("# Translation of ISO " + iso_number + " to LANGUAGE\n")
     pot_file.write("# " + description[domain] + "\n")
