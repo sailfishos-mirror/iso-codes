@@ -8,6 +8,15 @@ and this project adheres to
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [UNRELEASED]
+
+### Changed
+
+* Switch from autotools to meson build system
+* The project is now fully compliant with version 3.3 of the
+  REUSE specification
+
+
 ## [4.19.0] – 2025-11-09
 
 ### Changed
