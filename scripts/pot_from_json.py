@@ -82,9 +82,11 @@ with open(
     pot_file.write(f"# Translation of ISO {iso_number} to LANGUAGE\n")
     pot_file.write(f"# {description[domain]}\n")
     pot_file.write("#\n")
+    # REUSE-IgnoreStart
     pot_file.write("# SPDX-License-Identifier: LGPL-2.1-or-later\n")
     pot_file.write("#\n")
     pot_file.write(f"# SPDX-FileCopyrightText: YEAR FIRST AUTHOR <EMAIL@ADDRESS>\n")
+    # REUSE-IgnoreEnd
     pot_file.write("#\n")
     pot_file.write('msgid ""\n')
     pot_file.write('msgstr ""\n')
