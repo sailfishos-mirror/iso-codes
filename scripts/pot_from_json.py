@@ -79,23 +79,20 @@ with open(
     datapath + "/" + domain + "/" + domain + ".pot", "w", encoding="utf-8"
 ) as pot_file:
     # Write the header
-    pot_file.write("# Translation of ISO " + iso_number + " to LANGUAGE\n")
-    pot_file.write("# " + description[domain] + "\n")
+    pot_file.write(f"# Translation of ISO {iso_number} to LANGUAGE\n")
+    pot_file.write(f"# {description[domain]}\n")
     pot_file.write("#\n")
-    pot_file.write(
-        "# This file is distributed under the same license as the iso-codes package.\n"
-    )
+    pot_file.write("# SPDX-License-Identifier: LGPL-2.1-or-later\n")
     pot_file.write("#\n")
-    pot_file.write("# Copyright ©\n")
-    pot_file.write("# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.\n")
+    pot_file.write(f"# SPDX-FileCopyrightText: YEAR FIRST AUTHOR <EMAIL@ADDRESS>\n")
     pot_file.write("#\n")
     pot_file.write('msgid ""\n')
     pot_file.write('msgstr ""\n')
-    pot_file.write('"Project-Id-Version: ' + domain + '\\n"\n')
+    pot_file.write(f'"Project-Id-Version: {domain}\\n"\n')
     pot_file.write(
         '"Report-Msgid-Bugs-To: https://salsa.debian.org/iso-codes-team/iso-codes/issues\\n"\n'
     )
-    pot_file.write('"POT-Creation-Date: ' + time.strftime("%F %H:%M%z") + '\\n"\n')
+    pot_file.write(f'"POT-Creation-Date: {time.strftime("%F %H:%M%z")}\\n"\n')
     pot_file.write('"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\n"\n')
     pot_file.write('"Last-Translator: FULL NAME <EMAIL@ADDRESS>\\n"\n')
     pot_file.write('"Language-Team: LANGUAGE <LL@li.org>\\n"\n')
@@ -104,7 +101,7 @@ with open(
     pot_file.write('"Content-Transfer-Encoding: 8bit\\n"')
     # Write the data
     for msgid in sorted_data:
-        pot_file.write("\n\n#. " + ", ".join(msgid["comment"]) + "\n")
-        pot_file.write('msgid "' + msgid["msgid"] + '"\n')
+        pot_file.write(f"\n\n#. {', '.join(msgid['comment'])}\n")
+        pot_file.write(f'msgid "{msgid["msgid"]}"\n')
         pot_file.write('msgstr ""')
     pot_file.write("\n")
