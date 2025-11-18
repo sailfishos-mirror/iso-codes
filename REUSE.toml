@@ -4,3 +4,14 @@ version = 1
 path = "data/*json"
 SPDX-FileCopyrightText = "2016 Dr. Tobias Quathamer <toddy@debian.org>"
 SPDX-License-Identifier = "LGPL-2.1-or-later"
+
+# The .pot files include a generic copyright header, so
+# that is overridden here with the correct information.
+[[annotations]]
+path = "iso_*/*.pot"
+precedence = "override"
+SPDX-FileCopyrightText = [
+  "2004 Alastair McKinstry <mckinstry@debian.org>",
+  "2004 Christian PERRIER <bubulle@debian.org>",
+  "2007 Dr. Tobias Quathamer <toddy@debian.org>"
+]
