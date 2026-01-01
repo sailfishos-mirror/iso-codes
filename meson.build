@@ -4,7 +4,7 @@
 
 project(
     'iso-codes',
-    version: '4.20.0',
+    version: '4.20.1',
     meson_version: '>= 0.61.0',
     license: 'LGPL-2.1-or-later',
 )
