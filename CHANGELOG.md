@@ -15,6 +15,16 @@ and this project adheres to
 * Switch from autotools to meson build system
 * The project is now fully compliant with version 3.3 of the
   REUSE specification
+* Translation updates for ISO 3166-1
+* Translation updates for ISO 3166-2
+* Translation updates for ISO 3166-3
+* Translation updates for ISO 639-2
+* Translation updates for ISO 639-3
+* Translation updates for ISO 639-5
+* Translation updates for ISO 4217
+* Translation updates for ISO 15924
+
+### Removed
 * ISO 4217: Remove Bulgarian Lev (BGN), now EUR is the
   currency in Bulgaria
 
